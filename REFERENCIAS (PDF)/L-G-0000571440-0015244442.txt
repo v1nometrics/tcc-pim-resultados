@@ -1,0 +1,1036 @@
+Finding Groups in Data
+An Introduction to Cluster Analysis
+
+LEONARD KAUFMAN
+Vrije Universiteit Brussel,
+Brussels, Belgium
+
+PETER J. ROUSSEEUW
+UniversitaireInstelling Antwerpen,
+Antwerp, Belgium
+
+A JOHN WILEY & SONS, INC.,PUBLICATION
+
+This Page Intentionally Left Blank
+
+Finding Groups in Data
+
+This Page Intentionally Left Blank
+
+Finding Groups in Data
+An Introduction to Cluster Analysis
+
+LEONARD KAUFMAN
+Vrije Universiteit Brussel,
+Brussels, Belgium
+
+PETER J. ROUSSEEUW
+UniversitaireInstelling Antwerpen,
+Antwerp, Belgium
+
+A JOHN WILEY & SONS, INC.,PUBLICATION
+
+Copyright 0 1990,2005 by John Wiley I% Sons, Inc. All rights reserved.
+Published by John Wiley & Sons, Inc., Hoboken, New Jersey.
+Published simultaneously in Canada.
+No part of this publication may be reproduced, stored in a retrieval system or transmitted
+in any form or by any means, electronic, mechanical, photocopying, recording, scanning
+or otherwise, except as permitted under Sections 107 or 108 of the 1976 United States
+Copyright Act, without either the prior written permission of the Publisher, or
+authorization through payment of the appropriate per-copy fee to the Copyright
+Clearance Center, 222 Rosewood Drive, Danvers, MA 01923, (978) 750-8400, fax
+(978) 750-4470. Requests to the Publisher for permission should be addressed to the
+Permissions Department, John Wiley & Sons, Inc., 111 River Street, Hoboken, NJ 07030,
+(201) 748-6011, fax (201) 748-6008.
+Limit of Liability/Disclaimer of Warranty: While the publisher and author have used their best
+efforts in preparing this book, they make no representation or wamties with respect to the accuracy
+or completeness of the contents of this book and specifically disclaim any implied warranties of
+merchantability or fitness for a particular purpose. No warranty may be created or extended by sales
+representativesor written sales materials. The advice and strategies contained herein may not be
+suitable for your situation. You should consult with a professional where appropriate. Neither the
+publisher nor author shall be liable for any loss of profit or any other commercial damages, including
+but not limited to special, incidental, consequential,or other damages.
+For general information on our other products and services please contact our Customer Care
+Department within the U.S. at 877-762-2974, outside the US. at 317-572-3993 or fax 317-572-4002.
+
+Wiley also publishes its books in a variety of electronic formats. Some content that appears in print,
+however, may not be available in electronic format.
+
+Libmy of Congress Cptrrlogln-ln-Pub~lcrrtlonIs a d a b l e
+ISBN 0-47 1-73578-7
+
+Printed in the United States of America.
+10 9 8 7 6 5 4 3 2 1
+
+To Our Parents And To Jean Haezendonck
+
+This Page Intentionally Left Blank
+
+Preface
+
+Cluster analysis is a very practical subject. Some 30 years ago, biologists
+and social scientists began to look for systematic ways to find groups in
+their data. Because computers were becoming available, the resulting algorithms could actually be implemented. Nowadays clustering methods are
+applied in many domains, including artificial intelligence and pattern
+recognition, chemometrics, ecology, economics, the geosciences, marketing,
+medical research, political science, psychometrics, and many more. This has
+led to a lot of different methods, and articles on clustering have appeared
+not only in statistical journals but also in periodicals of all these domains.
+Clustering is known under a variety of names, such as numerical taxonomy
+and automatic data classification.
+Our purpose was to write an applied book for the general user. We
+wanted to make cluster analysis available to people who do not necessarily
+have a strong mathematical or statistical background. Rather than giving an
+extensive survey of clustering methods, leaving the user with a bewildering
+multitude of methods to choose from, we preferred to select a few methods
+that together can deal with most applications. This selection was based on a
+combination of methodological aims (mainly robustness, consistency, and
+general applicability) and our own experience in applying clustering to a
+variety of disciplines.
+The book grew out of several courses on cluster analysis that we taught
+in Brussels, Delft, and Fribourg. It was extensively tested as a textbook
+with students of mathematics, biology, economics, and political science. It
+is one of the few books on cluster analysis containing exercises. The first
+chapter introduces the main approaches to clustering and provides guidance
+to the choice between the available methods. It also discusses various types
+of data (including interval-scaled and binary variables, as well as similarity
+data) and explains how these can be transformed prior to the actual
+vii
+
+viii
+
+PREFACE
+
+clustering. The other six chapters each deal with a specific clustering
+method. These chapters all have the same structure. The first sections give a
+short description of the clustering method, explain how to use it, and
+discuss a set of examples. These are followed by two sections (marked with
+* because they may be skipped without loss of understanding) on the
+algorithm and its implementation, and on some related methods in the
+literature. The chapters are relatively independent (except for Chapter 3
+which builds on Chapter 2), allowing instructors to cover only one chapter
+in a statistics course. Another advantage is that researchers can pick out the
+method they need for their current application, without having to read
+other chapters. (To achieve this structure, some things had to be repeated in
+the text.) Occasionally, we handed a single chapter to someone working on
+a particular problem.
+Chapters 2, 3, and 4 are about partitioning methods, whereas Chapters 5,
+6, and 7 cover hierarchical techniques. Whenever possible, we constructed
+methods that cannot only analyze data consisting of measurements (ie.,
+objects with variables) but also data consisting of dissimilarities between
+objects. (This excluded parametric approaches, such as those based on
+multivariate mixture distributions.) We also wanted the methods to be
+consistent for large data sets. All the selected methods are of the L, type,
+which means that they minimize s u m s of dissimilarities (rather than sums of
+squared dissimilarities, as in the classical nonrobust methods). Some of the
+methods are new, such as the approach for partitioning large data sets and
+the L, method for fuzzy clustering. Also, the clusterings are accompanied
+by graphical displays (called silhouettes and banners) and corresponding
+quality coefficients, which help the user to select the number of clusters and
+to see whether the method has found groups that were actually present in
+the data.
+Current statistical software packages contain only a few clustering techniques and they are not the more modern methods. This forced us to write
+new programs, the use of which is described in the book. Their present
+version is for IBM-PC and compatible machines, but the source codes are
+very portable and have run on several types of mainframes without problems. The programs (together with their sources and the data sets used in
+the book) are available on floppy disks by writing to the authors. The
+programs are also being integrated in the workstation package S-PLUS of
+Statistical Sciences, Inc., P.O. Box 55625, Seattle, WA 98145-1625.
+We are grateful to Frank Critchley, Jan de Leeuw, Gaetan Libert, Glenn
+Milligan, Frank Plastria, Marc Roubens, John Tukey, Bert van Zomeren,
+Howard Wainer, Michael Windham, and David Wishart for helpful suggestions and stimulating discussions on topics covered in this book and to
+
+PREFACE
+
+ix
+
+Etienne Trauwaert for contributing to Section 4 of Chapter 4. Valuable
+comments on the manuscript were given by Phil Hopke, Doug Martin,
+Marie-Paule Derde, and two reviewers. Annie De Schrijver was responsible
+for drawing several figures. Finally, we would like to thank our wives,
+Jacqueline and Lieve, for their patience and support.
+LEONARD
+KAUFMAN
+PETERJ. ROUSSEEUW
+Edegem. Belgium
+Augur& 1989
+
+This Page Intentionally Left Blank
+
+Contents
+
+1. Introduction
+
+1
+
+1. Motivation, 1
+2. Types of Data and How to Handle Them, 3
+2.1 Interval-Scaled Variables, 4
+2.2 Dissimilarities, 16
+2.3 Similarities, 20
+2.4 Binary Variables, 22
+2.5 Nominal, Ordinal, and Ratio Variables, 28
+2.6 Mixed Variables, 32
+3. Which Clustering Algorithm to Choose, 37
+3.1 Partitioning Methods, 38
+3.2 Hierarchical Methods, 44
+4. A Schematic Overview of Our Programs, 50
+5 . Computing Dissimilarities with the Program DAISY, 52
+Exercises and Problems, 63
+
+2. Partitioning Around Medoids (Program PAM)
+
+68
+
+1. Short Description of the Method, 68
+2. How to Use the Program PAM, 72
+2.1 Interactive Use and Input, 72
+2.2 Output, 80
+2.3 Missing Values, 88
+3. Examples, 92
+*4. More on the Algorithm and the Program, 102
+4.1 Description of the Algorithm, 102
+4.2 Structure of the Program, 104
+xi
+
+xii
+
+CONTENTS
+
+Related Methods and References, 108
+The k-Medoid Method and Optimal Plant Location, 108
+Other Methods Based on the Selection of Representative
+Objects, 110
+5.3 Methods Based on the Construction of Central Points, 111
+5.4 Some Other Nonhierarchical Methods, 116
+5.5 Why Did We Choose the k-Medoid Method?, 117
+5.6 Graphical Displays, 119
+Exercises and Problems, 123
+
+*5.
+
+5.1
+5.2
+
+3. Clustering Large Applications (Program CLARA)
+
+126
+
+4. Fuzzy Analysis (Program FANNY)
+
+164
+
+1. Short Description of the Method, 126
+2. How to Use the Program CLARA, 127
+2.1 Interactive Use and Input, 127
+2.2 Output, 130
+2.3 Missing Values, 134
+3. An Example, 139
+*4. More on the Algorithm and the Program, 144
+4.1 Description of the Algorithm, 144
+4.2 Structure of the Program, 146
+4.3 Limitations and Special Messages, 151
+4.4 Modifications and Extensions of CLARA, 153
+*5. Related Methods and References, 155
+5.1 Partitioning Methods for Large Data Sets, 155
+5.2 Hierarchical Methods for Large Data Sets, 157
+5.3 Implementing CLARA on a Parallel Computer, 160
+Exercises and Problems, 162
+
+1. The Purpose of Fuzzy Clustering, 164
+2. How to Use the Program FANNY, 166
+2.1 Interactive Use and Input, 167
+2.2 Output, 170
+3. Examples, 175
+*4. More on the Algorithm and the Program, 182
+4.1 Description of the Algorithm, 182
+4.2 Structure of the Program, 188
+
+CONTENTS
+
+xiii
+
+*5. Related Methods and References, 189
+5.1 Fuzzy k-Means and the MND2 Method, 189
+5.2 Why Did We Choose FANNY?, 191
+5.3 Measuring the Amount of Fuzziness, 191
+5.4 A Graphical Display of Fuzzy Memberships, 195
+Exercises and Problems, 197
+
+5. Agglomerative Nesting (Program AGNES)
+
+199
+
+1. Short Description of the Method, 199
+2. How to Use the Program AGNES, 208
+2.1 Interactive Use and Input, 208
+2.2 Output, 209
+3. Examples, 214
+*4. More on the Algorithm and the Program, 221
+4.1 Description of the Algorithm, 221
+4.2 Structure of the Program, 223
+*5. Related Methods and References, 224
+5.1 Other Agglomerative Clustering Methods, 224
+5.2 Comparing Their Properties, 238
+5.3 Graphical Displays, 243
+Exercises and Problems, 250
+6. Divisive Analysis (Program DIANA)
+
+253
+
+Short Description of the Method, 253
+How to Use the Program DIANA, 259
+Examples, 263
+More on the Algorithm and the Program, 271
+4.1 Description of the Algorithm, 271
+4.2 Structure of the Program, 272
+*5. Related Methods and References, 273
+5.1 Variants of the Selected Method, 273
+5.2 Other Divisive Techniques, 275
+Exercises and Problems, 277
+1.
+2.
+3.
+*4.
+
+7. Monothetic Analysis (Program MONA)
+1. Short Description of the Method, 280
+2. How to Use the Program MONA, 283
+
+280
+
+CONTENTS
+
+xiv
+2.1 Interactive Use and Input, 284
+2.2 Output, 287
+3. Examples, 290
+*4. More on the Algorithm and the Program, 298
+4.1 Description of the Algorithm, 298
+4.2 Structure of the Program, 301
+* 5 . Related Methods and References, 304
+5.1 Association Analysis, 304
+5.2 Other Monothetic Divisive Algorithms
+for Binary Data, 307
+5.3 Some Other Divisive Clustering Methods, 308
+Exercises and Problems, 310
+
+APPENDIX
+1.
+2.
+3.
+4.
+
+312
+
+Implementation and Structure of the Programs, 312
+Running the Programs, 313
+Adapting the Programs to Your Needs, 316
+The Program CLUSPLOT, 318
+
+References
+
+320
+
+Author Index
+
+332
+
+Subject Index
+
+335
+
+Finding Groups in Data
+
+This Page Intentionally Left Blank
+
+CHAPTER1
+
+Introduction
+1 MOTIVATION
+
+Cluster analysis is the art of finding groups in data. To see what is meant by
+this, let us look at Figure 1. It is a plot of eight objects, on which two
+variables were measured. For instance, the weight of an object might be
+displayed on the horizontal axis and its height on the vertical one. Because
+this example contains only two variables, we can investigate it by merely
+looking at the plot.
+In this small data set there are clearly two distinct groups of objects,
+namely {TIN,TAL,KIM,ILA} and (LIE,JAC, PET,LEO}. Such groups
+are called clusters, and to discover them is the aim of cluster analysis.
+Basically, one wants to form groups in such a way that objects in the same
+group are similar to each other, whereas objects in different groups are as
+dissimilar as possible.
+The classification of similar objects into groups is an important human
+activity. In everyday life, this is part of the learning process: A child learns
+to distinguish between cats and dogs, between tables and chairs, between
+men and women, by means of continuously improving subconscious classification schemes. (This explains why cluster analysis is often considered as a
+branch of pattern recognition and artificial intelligence.) Classification has
+always played an essential role in science. In the eighteenth century,
+Linnaeus and Sauvages provided extensive classifications of animals, plants,
+minerals, and diseases (for a recent survey, see Holman, 1985). In astronomy, Hertzsprung and Russell classified stars in various categories on the
+basis of two variables: their light intensity and their surface temperature. In
+the social sciences, one frequently classifies people with regard to their
+behavior and preferences. In marketing, it is often attempted to identify
+market segments, that is, groups of customers with similar needs. Many
+more examples could be given in geography (clustering of regions), medicine
+1
+
+2
+
+INTRODUCTION
+
+HEIGHT ( C M l
+180
+
+P,ET
+
+8
+
+Lgo
+
+170;L 1
+
+160 *
+
+J.AC
+
+150 1LO.
+
+130 *
+120 *
+110
+
+-
+
+K
+ILA
+ga .TAL
+
+100
+
+IM.0
+
+-I10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+*
+
+WEIGHT (KG)
+
+Figure 1 A plot of eight objects.
+
+(incidence of specific types of cancer), chemistry (classification of compounds), history (grouping of archeological findings), and so on. Moreover,
+cluster analysis can be used not only to identify a structure already present
+in the data, but also to impose a structure on a more or less homogeneous
+data set that has to be split up in a “fair” way, for instance when dividing a
+country into telephone areas. Note that cluster analysis is quite different
+from discriminant analysis in that it actually establishes the groups, whereas
+discriminant analysis assigns objects to groups that were defined in advance.
+In the past, clusterings were usually performed in a subjective way, by
+relying on the perception and judgment of the researcher. In the example of
+Figure 1, we used the human eye-brain system which is very well suited
+(through millenia of evolution) for classification in up to three dimensions.
+
+TYPES OF DATA AND HOW TO HANDLE THEM
+
+3
+
+However, the need to classify cases in more than three dimensions and the
+upcoming objectivity standards of modern science have given rise to socalled automatic classification procedures. Over the last 30 years, a wealth
+of algorithms and computer programs has been developed for cluster
+analysis. The reasons for this variety of methods are probably twofold. To
+begin with, automatic classification is a very young scientific discipline in
+vigorous development, as can be seen from the thousands of articles
+scattered over many periodicals (mostly journals of statistics, biology,
+psychometrics, computer science, and marketing). Nowadays, automatic
+classification is establishing itself as an independent scientific discipline, as
+witnessed by a full-fledged periodical (the Journal 01Classi$cation, first
+published in 1984) and the International Federation of Classification Societies (founded in 1985). The second main reason for the diversity of
+algorithms is that there exists no general definition of a cluster, and in fact
+there are several kinds of them: spherical clusters, drawn-out clusters, linear
+clusters, and so on. Moreover, different applications make use of different
+data types, such as continuous variables, discrete variables, similarities, and
+dissimilarities. Therefore, one needs different clustering methods in order to
+adapt to the kind of application and the type of clusters sought. Cluster
+analysis has become known under a variety of names, such as numerical
+taxonomy, automatic classification, botryology (Good, 1977), and typological analysis (Chandon and Pinson, 1981).
+In this book, several algorithms are provided for transforming the data,
+for performing cluster analysis, and for displaying the results graphically.
+Section 2 of this introduction discusses the various types of data and what
+to do with them, and Section 3 gives a brief survey of the clustering
+methods contained in the book, with some guidelines as to which algorithm
+to choose. In particular the crucial distinction between partitioning and
+hierarchical methods is considered. In Section 4 a schematic overview is
+presented. In Section 5, it is explained how to use the program DAISY to
+transform your data.
+
+2 TYPES OF DATA AND HOW TO HANDLE THEM
+Our first objective is to study some types of data which typically occur and
+to investigate ways of processing the data to make them suitable for cluster
+analysis.
+Suppose there are n objects to be clustered, which may be persons,
+flowers, words, countries, or whatever. Clustering algorithms typically operate on either of two input structures. The first represents the objects by
+means of p measurements or attributes, such as height, weight, sex, color,
+
+4
+
+INTRODUCTION
+
+and so on. These measurements can be arranged in an n-by-p matrix, where
+the rows correspond to the objects and the columns to the attributes. In
+Tucker's (1964) terminology such an objects-by-variables matrix is said to
+be wo-mode, since the row and column entities are different. The second
+structure is a collection of proximities that must be available for all pairs of
+objects. These proximities make up an n-by-n table, which is called a
+one-mode matrix because the row and column entities are the same set of
+objects. We shall consider two types of proximities, namely dissimilarities
+(which measure how far away two objects are from each other) and
+similarities (which measure how much they resemble each other). Let us
+now have a closer look at the types of data used in this book by considering
+them one by one.
+2.1 Interval-Scaled Variables
+
+In this situation the n objects are characterized by p continuous measurements. These values are positive or negative real numbers, such as height,
+weight, temperature, age, cost, ..., which follow a linear scale. For instance, the time interval between 1905 and 1915 was equal in length to that
+between 1967 and 1977.Also, it takes the same amount of energy to heat an
+object of -16.4"C to -12.4"C as to bring it from 352°C to 39.2"C. In
+general it is required that intervals keep the same importance throughout
+the scale.
+These measurements can be organized in an n-by-p matrix, where the
+rows correspond to the objects (or cases) and the columns correspond to the
+variables. When the fth measurement of the ith object is denoted by xif
+(where i = 1,.. . , n and f = 1,... ,p) this matrix looks like
+P variables
+
+n objects
+
+...
+
+XI/
+
+* * -
+
+...
+
+Xif
+
+...
+
+Xn/
+
+. * *
+
+I;
+
+x.P
+
+For instance, consider the following real data set. For eight people, the
+weight (in kilograms) and the height (in centimeters) is recorded in Table 1.
+In this situation, n = 8 and p = 2. One could have recorded many more
+variables, like age and blood pressure, but as there are only two variables in
+this example it is easy to make a scatterplot, which corresponds to Figure 1
+
+TYPES OF DATA AND HOW TO HANDLE THEM
+
+5
+
+Table 1 Weight and Height of Eight People, Expressed
+in Kilograms and Centimeters
+
+Name
+
+Ilan
+Jacqueline
+Kim
+Lieve
+Leon
+Peter
+Talia
+Tina
+
+Weight
+
+Height
+
+15
+49
+13
+45
+85
+66
+12
+10
+
+95
+156
+95
+160
+178
+176
+
+(kg)
+
+(cm)
+
+90
+78
+
+given earlier. Note that the units on the vertical axis are drawn to the same
+size as those on the horizontal axis, even though they represent different
+physical concepts. The plot contains two obvious clusters, which can in this
+case be interpreted easily: the one consists of small children and the other
+of adults.
+Note that other variables might have led to completely different clusterings. For instance, measuring the concentration of certain natural hormones
+might have yielded a clear-cut partition into three male and five female
+persons. By choosing still other variables, one might have found blood
+types, skin types, or many other classifications.
+Let us now consider the effect of changing measurement units. If weight
+and height of the subjects had been expressed in pounds and inches, the
+results would have looked quite different. A pound equals 0.4536 kg and an
+inch is 2.54 cm. Therefore, Table 2 contains larger numbers in the column
+of weights and smaller numbers in the column of heights. Figure 2,
+although plotting essentially the same data as Figure 1, looks much flatter.
+In this figure, the relative importance of the variable “weight” is much
+larger than in Figure 1. (Note that Kim is closer to Ilan than to Talia in
+Figure 1, but that she is closer to Talia than to Ilan in Figure 2.) As a
+consequence, the two clusters are not as nicely separated as in Figure 1
+because in this particular example the height of a person gives a better
+indication of adulthood than his or her weight. If height had been expressed
+in feet (1 ft = 30.48 cm), the plot would become flatter still and the variable
+“weight” would be rather dominant.
+In some applications, changing the measurement units may even lead
+one to see a very different clustering structure. For example, the age (in
+years) and height (in centimeters) of four imaginary people are given in
+
+6
+
+INTRODUCTION
+
+Table 2 Weight and Height of the Same Eight People,
+But Now Expressed in Pounds and Inches
+Name
+Ilan
+
+Jacqueline
+Kim
+Lieve
+
+Leon
+Peter
+Talia
+Tina
+
+Weight
+(1b)
+
+Height
+(in.)
+
+33.1
+108.0
+28.7
+99.2
+187.4
+145.5
+26.5
+22.0
+
+37.4
+61.4
+37.4
+63.0
+70.0
+69.3
+35.4
+30.7
+
+Table 3 and plotted in Figure 3. It appears that {A, B ) and { C,0)are
+two well-separated clusters. On the other hand, when height is expressed in
+feet one obtains Table 4 and Figure 4, where the obvious clusters are now
+{A, C } and { B, D}. This partition is completely different from the first
+because each subject has received another companion. (Figure 4 would have
+been flattened even more if age had been measured in days.)
+To avoid this dependence on the choice of measurement units, one has
+the option of standardizing the data. This converts the original measurements to unitless variables. First one calculates the mean value of variable
+
+t
+
+HEIGHT (INCHES)
+
+80 *
+
+60
+
+’
+’
+
+&T
+KIM
+TAL.QOILA
+TIN.
+
+8
+
+LEO
+
+-
+
+20 ’
+
+Figure 2 Plot corresponding to Table 2.
+
+7
+
+TYPES OF DATA AND HOW TO HANDLE THEM
+
+Table 3 Age (in years) and Height (in centimeters) of Four People
+Age
+Person
+
+(Yd
+
+A
+B
+C
+D
+
+35
+40
+35
+40
+
+"O
+
+t
+
+0
+
+L,
+
+C
+
+.
+
+20
+
+Height
+(cm)
+190
+190
+160
+160
+
+.
+
+D
+
+30 35 LO
+
+50
+
+-
+
+AGE (YEARS)
+
+Figure 3 Plot of height (in centimeters) versus age for four people.
+
+Table 4 Age (in years) and Height (in feet) of the Same Four People
+~
+
+Person
+A
+B
+C
+D
+
+Age
+(Yr)
+35
+40
+35
+40
+
+Height
+(ft)
+
+6.2
+6.2
+5.2
+5.2
+
+8
+
+-
+
+INTRODUCTION
+
+HEIGHT I F E E T I
+
+5
+
+C.
+
+1
+
+3
+2
+
+1
+
+1
+
+.
+
+35
+
+-
+
+36
+
+.
+
+.
+
+37 38
+
+-
+
+-
+
+-
+
+39 10 41
+AGE (YEARS1
+
+-
+
+Figure 4 Plot of height (in feet) versus age for the same four people.
+
+f, given by
+
+“/ -n1( x , / +
+=
+
+X’/
+
++ - - +XU/)
+*
+
+for each f = 1,..., p. Then one computes a measure of the dispersion or
+“spread” of this fth variable. Traditionally, people use the standard
+deviation
+
+for this purpose. However, this measure is affected very much by the
+presence of outlying values. For instance, suppose that one of the xi/ has
+been wrongly recorded, so that it is much too large. In this case std/ will be
+unduly inflated, because x i / - mf is squared. Hartigan (1975, p. 299) notes
+that one needs a dispersion measure that is not too sensitive to outliers.
+Therefore, from now on we will use the mean absolute deviation
+
+where the contribution of each measurement xi/ is proportional to the
+absolute value \ x i / - m/l. This measure is more robust (see, e.g., Hampel
+
+9
+
+TYPES OF DATA AND HOW TO HANDLE THEM
+
+et al., 1986) in the sense that one outlying observation will not have such a
+large influence on sf. (Note that there exist estimates that are much more
+robust, but we would like to avoid a digression into the field of robust
+statistics.)
+Let us assume that sf is nonzero (otherwise variable f is constant over
+all objects and must be removed). Then the standardized measurements are
+defined by
+
+and sometimes called z-scores. They are unitless because both the numerator and the denominator are expressed in the same units. By construction,
+the z i f have mean value zero and their mean absolute deviation is equal to
+1. When applying standardization, one forgets about the original data (1)
+and uses the new data matrix
+
+...
+objects
+
+variables
+
+...
+
+...
+
+...
+
+...
+
+...
+
+in all subsequent computations. The advantage of using sf rather than std,
+in the denominator of (4) is that s/ will not be blown up so much in the
+case of an outlying x I / , and hence the corresponding zif will still “stick
+out” so the ith object can be recognized as an outlier by the clustering
+algorithm, which will typically put it in a separate cluster. [This motivation
+differs from that of Milligan and Cooper (1988), who recommended the use
+of a nonrobust denominator.]
+The preceding description might convey the impression that standardization would be beneficial in all situations. However, it is merely an option
+that may or may not be useful in a given application. Sometimes the
+variables have an absolute meaning, and should not be standardized (for
+instance, it may happen that several variables are expressed in the same
+units, so they should not be divided by different s/). Often standardization
+dampens a clustering structure by reducing the large effects because the
+variables with a big contribution are divided by a large s f .
+For example, let us standardize the data of Table 3. The mean age equals
+m 1 = 37.5 and the mean absolute deviation of the first variable works out
+to be s1 = (2.5 + 2.5 + 2.5 + 2.5)/4 = 2.5. Therefore, standardization
+converts age 40 to + 1 and age 35 to - 1. Analogously, m, = 175 cm and
+
+10
+
+INTRODUCTION
+
+Table 5 Standprdized Age and Height of the Same Four People
+
+Person
+
+A
+
+B
+
+Variable 2
+
+- 1.0
+
+1.0
+
+1.o
+
+- 1.0
+- 1.0
+
+1.0
+
+1.0
+- 1.0
+
+C
+
+D
+sz = (15
+
+Variable 1
+
++ 15 + 15 + 15}/4 = 15 cm, so 190 cm is standardized to + 1
+
+and 160 cm to - 1. The resulting data matrix, which is unitless, is given in
+
+Table 5. Note that the new averages are zero and that the mean deviations
+equal 1. Of course, standardizing Table 4 would yield exactly the same
+result, so Table 5 is the standardized version of both Tables 3 and 4. Even
+when the data are converted to very strange units (such as the proverbial
+fortnights and furlongs), standardization will always yield the same numbers. However, plotting the values of Table 5 in Figure 5 does not give a
+very exciting result. Figure 5 looks like an intermediate between Figures 3
+and 4 and shows no clustering structure because the four points lie at the
+vertices of a square. One could say that there are four clusters, each
+
+1
+
+HE IG H T ( S TANDAR DI2 ED I
+
+-1
+
+0
+
+1
+
+AGE (STANDARDIZED)
+Figure 5 Standardized height versus standardized age.
+
+TYPES OF DATA AND HOW TO HANDLE THEM
+
+11
+
+consisting of a single point, or that there is only one big cluster containing
+four points.
+From a philosophical point of view, standardization does not really solve
+the problem. Indeed, the choice of measurement units gives rise to relative
+weights of the variables. Expressing a variable in smaller units will lead to a
+larger range for that variable, which will then have a large effect on the
+resulting structure. On the other hand, by standardizing one attempts to
+give all variables an equal weight, in the hope of achieving objectivity. As
+such, it may be used by a practitioner who possesses no prior knowledge.
+However, it may well be that some variables are intrinsically more important than others in a particular application, and then the assignment of
+weights should be based on subject-matter knowledge (see, e.g., Abrahamowicz, 1985). On the other hand, there have been attempts to devise
+clustering techniques that are independent of the scale of the variables
+(Friedman and Rubin, 1967). The proposal of Hardy and Rasson (1982) is
+to search for a partition that minimizes the total volume of the convex hulls
+of the clusters. In principle such a method is invariant with respect to linear
+transformations of the data, but unfortunately no algorithm exists for its
+implementation (except for an approximation that is restricted to two
+dimensions). Therefore, the dilemma of standardization appears unavoidable at present and the programs described in this book leave the choice up
+to the user.
+Of course, the data offered to the program may already be the result of
+some transformation: Often people find it useful to replace some variable
+by its inverse or its square, which may be more meaningful in that
+particular context. However, we shall assume from now on that such
+transformations have been performed prior to the cluster analysis.
+The next step is to compute distances between the objects, in order to
+quantify their degree of dissimilarity. It is necessary to have a distance for
+each pair of objects i and j. The most popular choice is the Euclidean
+distance
+2
+
+d(i, j ) = /(xil - xjl)
+
++ ( x i 2 - x j 2 )2 + . . + (x,,, - x ~ , , ) ~ (6)
+
+(When the data are being standardized, one has to replace all x by z in this
+expression.) Formula (6) corresponds to the true geometrical distance
+,..., x,,,). To
+between the points with coordinates ( x l l , ..., x l p ) and ( x , ~
+illustrate this, let us consider the special case with p = 2. Figure 6 shows
+two points with coordinates ( x i l ,x 1 2 )and (x,?, x , ~ ) . It is clear that the
+actual distance between objects i and j is gwen by the length of the
+hypothenuse of the triangle, yielding expression (6) by virtue of Pythagoras’
+theorem. For this reason, Gower (1971b) calls (6) the Pythagorean distance.
+
+12
+
+INTRODUCTION
+
+first coordina t o
+
+-
+
+Figure 6 Illustration of the Euclidean distance formula.
+
+Another well-known metric is the city block or Manhattan distance,
+defined by
+
+In Figure 6, this corresponds to the sum of the lengths of the other two
+sides of the triangle. The Manhattan distance was used in a cluster analysis
+context by Carmichael and Sneath (1969) and owes its peculiar name to the
+following reasoning. Suppose you live in a city where the streets are all
+north-south or east-west, and hence perpendicular to each other. Let
+Figure 6 be part of a street map of such a city, where the streets are
+portrayed as vertical and horizontal lines. Then the actual distance you
+would have to travel by car to get from location i to location j would total
+lxil - xjll + lxiz - xj+ corresponding to (7). This would be the shortest
+length among all possible paths from i to j. Only a bird could fly straight
+from point i to point j, thereby covering the Euclidean distance between
+these points. The use of the Manhattan distance is advised in those
+situations where for example a difference of 1 in the first variable,and of 3
+in the second variable is the same as a difference of 2 in the first variable
+and of 2 in the second.
+
+

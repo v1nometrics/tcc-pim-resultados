@@ -1,0 +1,3309 @@
+ARTICLE IN PRESS
+
+Journal of Econometrics 136 (2007) 31–64
+www.elsevier.com/locate/jeconom
+
+Estimation and inference in two-stage,
+semi-parametric models of production processes
+Léopold Simara, Paul W. Wilsonb,
+a
+
+Institut de Statistique, Université Catholique de Louvain, Voie du Roman Pays 20,
+Louvain-la-Neuve, Belgium
+b
+Department of Economics, University of Texas, Austin, TX 78712, USA
+Available online 9 September 2005
+
+Abstract
+Many papers have regressed non-parametric estimates of productive efﬁciency on
+environmental variables in two-stage procedures to account for exogenous factors that might
+affect ﬁrms’ performance. None of these have described a coherent data-generating process
+(DGP). Moreover, conventional approaches to inference employed in these papers are invalid
+due to complicated, unknown serial correlation among the estimated efﬁciencies. We ﬁrst
+describe a sensible DGP for such models. We propose single and double bootstrap procedures;
+both permit valid inference, and the double bootstrap procedure improves statistical efﬁciency
+in the second-stage regression. We examine the statistical performance of our estimators using
+Monte Carlo experiments.
+r 2005 Elsevier B.V. All rights reserved.
+JEL classification: C1; C44; C61
+Keywords: Data envelopment analysis; DEA; Bootstrap; Technical efﬁciency; Nonparametric; Two-stage
+estimation
+
+Corresponding author. Present address: The John E. Walker, Department of Economics, 222 Sirrine
+Hall, Clemson University, Clemson, SC 29634-1309, USA.
+E-mail addresses: simar@stat.ucl.ac.be (L. Simar), pww@clemson.edu (P.W. Wilson).
+
+0304-4076/$ - see front matter r 2005 Elsevier B.V. All rights reserved.
+doi:10.1016/j.jeconom.2005.07.009
+
+ARTICLE IN PRESS
+32
+
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+1. Introduction
+Linear-programming-based measures of efﬁciency along the lines of Charnes et al.
+(1978, 1979) and Färe et al. (1985) are widely used in the analysis of efﬁciency of
+production. These methods are based on deﬁnitions of technical and allocative
+efﬁciency in production provided by Farrell (1957). Among this literature, those
+approaches which incorporate convexity assumptions are known as data envelopment analysis (DEA).
+DEA measures the efﬁciency relative to a non-parametric, maximum likelihood
+estimate of an unobserved true frontier, conditional on observed data resulting from
+an underlying data-generating process (DGP). These methods have been widely
+applied to examine technical and allocative efﬁciency in a variety of industries; see
+Gattouﬁ et al. (2004) for a comprehensive bibliography. Many of these studies have
+used a two-stage approach, where efﬁciency is estimated in the ﬁrst stage, and then
+the estimated efﬁciencies (or, in a few cases, ratios of estimated efﬁciencies,
+Malmquist indices, etc.) are regressed on covariates (typically different from those
+used in the ﬁrst stage) that are viewed as representing environmental variables. This
+approach is advocated by Chilingerian and Sherman (2004), Ray (2004), and
+Ruggiero (2004); published examples include Byrnes et al. (1988), Ray (1988, 1991),
+Nyman and Bricker (1989), Aly et al. (1990), McCarty and Yaisawarng (1993),
+Rhodes and Southwick (1993), Banker and Johnston (1994), Chirkos and Sears
+(1994), Dusanksy and Wilson (1994), Kooreman (1994), Lovell et al. (1994), Sexton
+et al. (1994), Chilingerian (1995), Rosko et al. (1995), Arnold et al. (1996), De Borger
+and Kerstens (1996), González and Barber (1996), Luoma et al. (1996), Carrington et
+al. (1997), Gillen and Lall (1997), Burgess and Wilson (1998), Kirjavainen and
+Loikkanen (1998), McMillan and Datta (1998), Puig-Junoy (1998), Dietsch and
+Weill (1999), Fried et al. (1999a), Garden and Ralston (1999),Cheng et al. (2000),
+Resende (2000), Worthington and Dollery (2000), Chakraborty et al. (2001),
+Mukherjee et al. (2001), Raczka (2001), Ralston et al. (2001), Isik and Hassan (2002),
+O’Donnell and van der Westhuizen (2002), Otsuki et al. (2002), Stanton (2002),
+Binam et al. (2003), Chu et al. (2003), Wang et al. (2003), Barros (2004), Okeahalam
+(2004), and Turner et al. (2004). In a slight variation on this approach, Fried et al.
+(1993, 1999b, 2002) regressed radial and non-radial slacks on environmental
+variables. Since their dependent variables are functions of estimated efﬁciencies, the
+problems discussed below apply here as well. In addition, Internet search engines
+such as google.com reveal hundreds of unpublished working papers that use the twostage approach.1
+As far as we have been able to determine, none of the studies that employ this twostage approach have described the underlying DGP. Since the DGP has not been
+described, there is some doubt about what is being estimated in the two-stage
+approaches. Among the studies that regress DEA estimates of efﬁciency on some
+1
+Internet searches on October 12, 2004 on google.com returned about 801 hits for the phrases ‘‘data
+envelopment analysis’’ and ‘‘two-stage’’; about 531 hits were obtained using ‘‘data envelopment analysis’’
+and ‘‘tobit’’. The vast majority of these appear to be working papers.
+
+ARTICLE IN PRESS
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+33
+
+covariates in the second stage, most have speciﬁed a censored (tobit) model for the
+second stage, but several (e.g., Aly et al., 1990; Chirkos and Sears, 1994; Dietsch and
+Weill, 1999; Ray, 1991; Sexton et al., 1994; Stanton, 2002) have estimated a linear
+model by ordinary least squares (OLS). Authors have argued that DEA efﬁciency
+estimates are somehow censored since there are typically numerous estimates equal
+to one, but no coherent account of how the censoring arises has been offered. Others
+have used OLS in the second-stage regression after transforming the DEA estimates
+of efﬁciency using log, logistic, or log-normal transformations, and in some cases
+adding or subtracting an arbitrary constant to avoid division by zero or taking the
+log of zero (e.g., Byrnes et al., 1988; Nyman and Bricker, 1989; Ray, 1991; PuigJunoy, 1998). Lovell et al. (1994) and Burgess and Wilson (1998) avoided boundary
+problems in their second-stage regressions by using in their ﬁrst-stage estimation a
+leave-one-out estimator of efﬁciency originally suggested by Andersen and Petersen
+(1993). Unfortunately, however, it is difﬁcult to give a statistical interpretation to
+this estimator, even if the second-stage regressions are ignored. Still others have
+regressed ratios of efﬁciency estimates, Malmquist indices, or differences in efﬁciency
+estimates in the second stage; these have avoided boundary problems, but have still
+not provided a coherent description of a DGP that would make such regressions
+sensible.
+A more serious problem in all of the two-stage studies that we have found arises
+from the fact that DEA efﬁciency estimates are serially correlated.2 Consequently,
+standard approaches to inference—used in all but two of the studies we have seen
+that employ the two-stage approach—are invalid. The two exceptions are Xue and
+Harker (1999) and Hirschberg and Lloyd (2002); they recognize that DEA efﬁciency
+estimates are serially correlated, but both papers use a naive bootstrap method based
+on resampling from an empirical distribution in their attempts to correct the serial
+correlation problem. Unfortunately, the naive bootstrap used by both Xue and
+Harker (1999) and Hirschberg and Lloyd (2002) is inconsistent in the context of nonparametric efﬁciency estimation, as demonstrated by Simar and Wilson (1999a, b),
+and so the approaches by Xue and Harker (1999), and Hirschberg and Lloyd (2002)
+make little sense. Moreover, neither of these studies describe a DGP for which their
+second-stage regressions would be appropriate, and so again it is unclear what is
+being estimated in these studies.
+This paper describes a DGP that is logically consistent with regression of nonparametric, DEA efﬁciency estimates on some covariates in a second stage. In
+addition, we demonstrate that while conventional inference methods are inconsistent
+in the second-stage regression, consistent inference is both possible and feasible.
+
+2
+
+The correlation arises in ﬁnite samples from the fact that perturbations of observations lying on the
+estimate frontier will in many, and perhaps all, cases cause changes in efﬁciencies estimated for other
+observations. A similar problem arises in OLS regression, where estimated residuals are serially correlated
+in ﬁnite samples even when the underlying true residuals are not (see Maddala (1988), for discussion).
+However, in the regression case, the correlation disappears more quickly than in the DEA context, where
+convergence rates are much slower in higher dimensions.
+
+ARTICLE IN PRESS
+34
+
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+2. A statistical model
+Let x 2 Rpþ denote a ð1  pÞ vector of inputs, y 2 Rqþ denote a ð1  qÞ vector of
+outputs, and z 2 Rr denote a ð1  rÞ vector of environmental variables. Elements of z
+may be either continuous or discrete; we will elaborate further on this later in the
+paper. How one might decide whether a particular variable is an environmental
+variable rather than an input or output of the production process is not entirely
+clear; our aim is not to provide answers to such questions, but rather to rationalize
+the two-stage analysis that is performed once this decision has been made.3
+Studies that have used the two-stage approach have assumed, either explicitly or
+implicitly, that ﬁrms face certain environmental variables z, and that these constrain
+their choices of inputs x and outputs y. In the real world, the analyst is confronted
+with a set of observations Sn ¼ fðxi ; yi ; zi Þgni¼1 .
+Assumption A1. The sample observations ðxi ; yi ; zi Þ in Sn are realizations of
+identically, independently distributed random variables with probability density
+pþq
+function f ðx; y; zÞ which has support over P  Rr , where P  Rþ
+is a production
+set defined by
+P ¼ fðx; yÞjx can produce yg.
+
+(1)
+
+In any interesting case, z is not independent with respect to ðx; yÞ, i.e.,
+f ðx; yjzÞaf ðx; yÞ; independence between z and ðx; yÞ can be tested using the methods
+surveyed by Wilson (2003). Otherwise, there would be no motivation for the secondstage regression. Assumption A1 means that the constraints on ﬁrms’ choices of
+inputs x and outputs y due to the environmental variables that ﬁrms face operate
+through the dependence of ðx; yÞ on z in f ðx; y; zÞ.4
+The boundary of P is sometimes referred to as the technology or the production
+frontier, and is given by the intersection of P and the closure of its compliment.
+Firms which are technically inefficient operate at points in the interior of P, while
+those that are technically efficient operate somewhere along the technology deﬁned
+by the boundary of P.
+3
+
+Note that one can test whether a particular variable is an input, or an output, using the methods
+described in Simar and Wilson (2001a).
+4
+Coelli et al. (1998, pp. 166–171) discuss several alternative formulations where the production set is
+made to depend on the environmental variables z in various ways, in contrast to the formulation in (1) and
+(2). In each of these alternative formulations, the deﬁnition of the production set would involve
+conditioning on z, and an additional set of constraints involving z would be added to the linear program
+(10) below that is used to estimate d0 in (2). While these approaches might be sensible for some situations,
+they were not used in the studies cited earlier in Section 1; moreover, these alternative approaches leave no
+role for a second-stage regression, and hence are not the focus of this paper. In our formulation, the
+environmental variables z inﬂuence the mean and variance of the inefﬁciency process, but not the
+boundary of its support; this is consistent with the formulations in the studies we have cited in Section 1,
+where in each case the environmental variables appear only in the second-stage regressions. This is also
+similar to the idea behind parametric, stochastic frontier models where the mean of the inefﬁciency term is
+parameterized in terms of some covariates, as we discuss later in Section 5.
+
+ARTICLE IN PRESS
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+35
+
+Various measures of technical efﬁciency are possible. Deﬁne a measure d for some
+point ðx0 ; y0 Þ 2 Rpþq
+such that
+þ
+d0 ¼ dðx0 ; y0 jPÞ  supfdjðx0 ; dy0 Þ 2 P; d40g.
+
+(2)
+
+This is simply the Farrell (1957) measure of output technical efﬁciency, which is the
+reciprocal of the Shephard (1970) output distance function. For ðx0 ; y0 Þ 2 P,
+dðx0 ; y0 jPÞX1. Note that d provides a measure of Euclidean distance from the point
+ðx0 ; y0 Þ 2 Rpþq
+to the boundary of P in a direction parallel to the output axes and
+þ
+orthogonal to the input axes. In the next assumption, and frequently in the
+discussion that follows, we will replace the subscripts ‘‘0’’ in (2) with subscript i to
+signify that the distance measure is evaluated for a particular, speciﬁc observation
+in Sn .
+For reasons that will become clear later, it is convenient to represent y in terms of
+its polar coordinates, while expressing the modulus in terms of distance from the
+pþq
+boundary of P. Again for an arbitrary point ðx0 ; y0 Þ 2 Rþ
+, and y0 ¼ ½y01 . . . y0q , we
+can write the angles as
+(
+arctanðy0;jþ1 =y01 Þ for y01 40;
+Z0j ¼
+(3)
+p=2
+if y01 ¼ 0;
+pﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+for j ¼ 1; . . . ; q  1. The corresponding modulus is given by oðy0 Þ ¼ y00 y0 , which is
+related to the Farrell efﬁciency measure by
+dðx0 ; y0 jPÞ ¼
+
+oðdðx0 ; y0 jPÞ y0 Þ
+.
+oðy0 Þ
+
+(4)
+
+Thus, since P is ﬁxed, we can characterize y0 by ðg0 ; d0 Þ, where g0 ¼ ½Z01 . . . Z0;q1 
+and d0 ¼ dðx0 ; y0 jPÞ.
+The joint density f ðx; y; zÞ can now be described by a series of conditional densities
+and in terms of cylindrical coordinates:
+f ðxi ; gi ; di ; zi Þ ¼ f ðxi ; gi jdi ; zi Þf ðdi jzi Þf ðzi Þ.
+
+(5)
+
+The order of the conditioning on the right-hand side of (5) reﬂects the sequential
+nature of the DGP. Firm i is faced with environmental variables zi drawn from f ðzÞ.
+Given this zi , an efﬁciency level di is drawn from f ðdi jzi Þ, and then xi and gi are
+drawn from f ðx; gjd; zÞ, resulting in a realization ðxi ; yi ; zi Þ from the joint density
+f ðx; y; zÞ after transforming the polar coordinates ðgi ; di Þ to Cartesian coordinates yi .
+Assumption A2. The conditioning in f ðdi jzi Þ in (5) operates through the following
+mechanism:
+di ¼ cðzi ; bÞ þ ei X1,
+
+(6)
+
+where c is a smooth, continuous, function, b is a vector of (possibly infinitely many)
+parameters, and ei is a continuous iid random variable, independent of zi .
+Note that Assumptions A1 and A2 amount to a separability condition; the
+production set P is assumed to be a subset of the entire sample space, while the effect
+of the covariates z operates through the dependence between y and z induced by (6).
+
+ARTICLE IN PRESS
+36
+
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+These assumptions provide a rationale for second-stage regressions. In an applied
+setting, one might reasonably wonder whether the implied separability condition is
+supported by the data; if it is not, one might prefer to use one of the alternative
+formulations discussed by Coelli et al. (1998) (see footnote 4, where the covariates z
+are included in the ﬁrst-stage estimation of efﬁciency. In the alternative formulations, the covariates z take the role of inputs or outputs either discretionary or nondiscretionary). Fortunately, the testing methods described by Simar and Wilson
+(2001a) can be used to test the separability assumption here.
+Assumption A3. ei in (6) is distributed Nð0; s2e Þ with left-truncation at 1  cðzi ; bÞ for
+each i.
+Assumption A3 could be changed to impose some other distribution on the ei , but
+normality seems a natural choice. Alternatively, one could leave the distribution of e
+unspeciﬁed and employ the semi-parametric method for truncated regression
+proposed by Honoré and Powell (1994); one could in addition leave the function
+cðÞ unspeciﬁed and employ the non-parametric method for truncated regression
+proposed by Lewbel and Linton (2002). Here, however, we impose a distributional
+form for e and later will assume a form for cðÞ, since that is what has been done in
+every two-stage applied study that we are aware of.
+The production set P is sometimes described in terms of its sections
+YðxÞ  fyjðx; yÞ 2 Pg
+
+(7)
+
+XðyÞ  fxjðx; yÞ 2 Pg,
+
+(8)
+
+and
+which form the output feasibility and input requirement sets, respectively. Knowledge of either YðxÞ for all x or XðyÞ for all y is equivalent to knowledge of P; P
+implies (and is implied by) both YðxÞ and XðyÞ. Thus, both YðxÞ and XðyÞ inherit the
+properties of P.
+Various assumptions regarding P are possible; we adopt those of Shephard (1970)
+and Färe (1988):
+Assumption A4. P is closed and convex; YðxÞ is closed, convex, and bounded for all
+x 2 Rpþ ; and XðyÞ is closed and convex for all y 2 Rqþ .
+Assumption A5. ðx; yÞeP if x ¼ 0, yX0; ya0, i.e., all production requires use of some
+inputs.
+eÞ 2 P, i.e., both
+Assumption A6. For e
+xXx; e
+ypy, if ðx; yÞ 2 P then ðe
+x; yÞ 2 P and ðx; y
+inputs and outputs are strongly disposable.
+Here and throughout, inequalities involving vectors are deﬁned on an element-byelement basis; e.g., for e
+x; x 2 Rpþ , e
+xXx means that some number ‘ 2 f0; 1; . . . ; pg of
+the corresponding elements of e
+x and x ere equal, while ðp  ‘Þ of the elements of e
+x
+are greater than the corresponding elements of x. Assumption A5 merely says that
+there are no free lunches. Assumption A6 is sometimes called free disposability and is
+equivalent to an assumption of monotonicity of the technology.
+
+ARTICLE IN PRESS
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+37
+
+In order for our estimators of P and dðx0 ; y0 jPÞ to be consistent, some additional
+assumptions are needed. In particular, the probability of observing ﬁrms in a
+neighborhood of the boundary of P must approach unity as the sample size increases:
+Assumption A7. For all ðx; yÞ 2 P such that ðy1 x; yePÞ and ðx; yyÞePÞ for y41,
+f ðx; yjzÞ is strictly positive, and f ðx; yjzÞ is continuous in any direction toward the
+interior of P for all z.
+Also, an assumption about the smoothness of the frontier is needed:
+Assumption A8. For all ðx; yÞ in the interior of P, dðx; yjPÞ is differentiable in both its
+arguments.
+Our characterization of the smoothness condition here is stronger than required;
+Kneip et al. (1998) require only Lipschitz continuity for the distance functions, which
+is implied by the simpler, but stronger requirement presented here.
+Assumptions A4–A6 are standard in microeconomic theory of the ﬁrm;
+assumptions A7 and A8 are based on those of Kneip et al. (1998), with some
+extensions to accommodate the environmental variables in z. These assumptions are
+sufﬁcient to ensure statistical consistency of the DEA estimators in the ﬁrst-stage
+problem that appears below. Assumptions A1–A3 have been introduced speciﬁcally
+to accommodate the environmental variables. Together, Assumptions A1–A8 deﬁne
+a semi-parametric DGP F which yields the data in Sn . The problem is to estimate
+fdi gni¼1 and b, and then to make inferences about these unknown quantities. For the
+case of the di , we have provided two approaches to inference, in Simar and Wilson
+(1998, 2000a). Our focus here is on estimation and inference about b, which describes
+the marginal effects of z on inefﬁciency.
+
+3. Typical two-stage approaches
+The convex hull of the free disposal hull of the observed pairs ðxi ; yi Þ contained in
+Sn has frequently been used to estimate the production set P. This estimator is
+described by
+b ¼ fðx; yÞ j ypYq; xXXq; i 0 q ¼ 1; q 2 Rn g,
+P
+þ
+
+(9)
+
+where Y ¼ ½y1 . . . yn , X ¼ ½x1 . . . xn , i denotes an ðn  1Þ vector of ones, and q is an
+b is a
+ðn  1Þ vector of intensity variables. Korostelev et al. (1995) proved that P
+consistent estimator of P under conditions met by assumptions A1–A8 above.
+Estimators of the Farrell efﬁciency measure can be constructed by replacing P on the
+b
+right-hand side of (4) with P.
+pþq
+The estimator of d0 ¼ dðx0 ; y0 jPÞ deﬁned in (2) at a particular point ðx0 ; y0 Þ 2 Rþ
+can be written in terms of the linear program
+b
+b
+d0 ¼ dðx0 ; y0 jPÞ
+¼ maxfy40 j yy0 pYq; x0 XXq; i 0 q ¼ 1; q 2 Rnþ g,
+
+ð10Þ
+
+ARTICLE IN PRESS
+38
+
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+where the maximization provides a solution for y as well as q. This is merely the
+empirical analog of the measure deﬁned in (2).
+It is straightforward to prove that b
+d0 is a consistent estimator of d0 under
+assumptions A1–A8 by altering the notation in Kneip et al. (1998). In particular,
+b
+d0 ¼ d0 þ Op ðn2=ðpþqþ1Þ Þ.
+
+(11)
+
+The rate of convergence is low, as is typical in non-parametric estimation, and the
+rate slows as p þ q is increased—this is the well-known curse of dimensionality.
+Moreover, by construction, b
+d0 is biased downward.
+Few results exist on the sampling distributions of non-parametric efﬁciency
+estimators such as the one in (10). Gijbels et al. (1999) derived the asymptotic
+distribution of the Shephard (1970) output distance function in the special case of
+one input and one output ðp ¼ q ¼ 1Þ, along with an analytic expression for its large
+sample bias and variance, and it is similarly straightforward to extend these results to
+the input-oriented case by appropriate changes in notation. Unfortunately, in the
+more general multivariate setting where p þ q42, the radial nature of the distance
+functions and the complexity of the estimated frontier complicate the derivations. So
+far, the bootstrap appears to offer the only way to approximate asymptotic
+distribution of the distance function estimators in multivariate settings. For the
+second-stage regression problem considered here, the bootstrap also appears to be
+useful.
+In principle, one could assume b in (2) has ﬁnite dimensions, fully specify the
+density f ðx; y; zÞ, and then estimate b by maximum likelihood. More often, however,
+researchers have employed some variant of the approach outlined below. The twostage studies that have appeared in the literature typically specify cðzi ; bÞ ¼ zi b so
+that (6) can be written as
+di ¼ zi b þ ei X1,
+(12)
+b
+where di ¼ dðxi ; yi jPÞ in the notation of (10). These studies then (i) use the observed
+pairs ðxi ; yi Þ in Sn to estimate di for all i ¼ 1; . . . ; n, yielding a set of estimates fb
+di gni¼1 ;
+b
+(ii) replace the unobserved di on the left-hand side of (12) with estimates di obtained
+from step (i); and then (iii) estimate
+b
+di ¼ zi b þ xi X1
+
+(13)
+5
+
+using censored (tobit) regression or, in a few cases, OLS.
+Regardless of the form chosen for c, the two-stage approach outlined above
+presents problems for inference. First, the dependent variable in (6) and (12) is
+unobserved, and must be replaced by an estimate in the actual regression that is
+5
+Some (e.g., Puig-Junoy et al., 1998) have transformed the dependent variable, while introducing an
+arbitrary constant to avoid taking the log of zero. Those who have used a tobit speciﬁcation in the second
+stage have justiﬁed their approach by the fact that typically several, perhaps many, efﬁciency estimates
+equal unity in a given application. As far as we are aware, all who have speciﬁed a censored regression
+model in the second stage have constrained the processes that determine the probability of censoring and
+that govern the uncensored observations to be the same. See the Appendix for a discussion of censored and
+truncated regression models, their differences, and a discussion of the last point.
+
+ARTICLE IN PRESS
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+39
+
+estimated. The b
+di ’s that are used in the second-step estimation of (13) are serially
+correlated, and in a complicated, unknown way. To understand this, note that di ¼
+b
+b depends on all the observations ðxi ; yi Þ in Sn through P,
+b and consedðxi ; yi jPÞ
+quently so must the error term xi in (13). Moreover, while the observations in Sn
+are assumed independently drawn in assumption A1, xi and yi are correlated
+with zi due to assumption A2—otherwise, there would be no motivation for the
+second-stage regression. This in turn means the error term xi in (13) is correlated
+with zi .
+Both the correlation among the xi ’s as well as the correlation between xi and zi
+disappear asymptotically, but only at the same slow rate given in (11) with which b
+di
+converges. This means that maximum likelihood estimates of b in the second-stage
+regression will be consistent, but will not have the usual, parametric convergence rate
+of n1=2 . More troubling, however, for p þ q43, the correlation among the xi ’s does
+not disappear quickly enough for standard approaches to inference (based on the
+inverse of the negative Hessian of the log-likelihood) to be valid.
+Further consideration reveals an additional problem. Note that we can always
+write
+b
+di ¼ Eðb
+di Þ þ ui ,
+
+(14)
+
+bi is deﬁned by
+where Eðui Þ ¼ 0. In addition, the bias of the estimator d
+bi Þ  di .
+BIASðb
+di Þ  Eðd
+Substituting for Eðb
+di Þ from (14) in (15) and re-arranging terms yields
+di ¼ b
+di  BIASðb
+di Þ  ui .
+
+(15)
+
+(16)
+
+Substituting for di in (12) gives
+b
+di  BIASðb
+di Þ  ui ¼ zi b þ ei X1.
+(17)
+Since b
+di is a consistent estimator, the ui become negligible asymptotically, as does
+BIASðb
+di Þ. These facts provide justiﬁcation for writing (13), the equation that is
+typically estimated in two-stage applications.
+Although the ui in (14) and (16), (17) have zero mean, the term BIASðb
+di Þ does not.
+Rather, the bias of b
+di is always strictly negative in ﬁnite samples. The ui are unknown
+and cannot be estimated, but the bias term can be estimated by bootstrap methods;
+see Efron and Tibshirani (1993) for discussion, and Simar and Wilson (2000a) for an
+example similar to the present context. The bootstrap bias estimate equals the true
+bias plus a residual:
+d b
+BIASð
+di Þ ¼ BIASðb
+di Þ þ v i .
+
+(18)
+
+The variance of the residual vi diminishes as n ! 1, and hence vi is typically of
+smaller magnitude than BIASðb
+di Þ for reasonable sample sizes n. The bootstrap
+estimator of bias can in turn be used to construct a bias-corrected estimator of d:
+b
+b
+d b
+di ¼ b
+di  BIASð
+di Þ.
+
+(19)
+
+ARTICLE IN PRESS
+40
+
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+d b
+Substituting for BIASð
+di Þ in (19) from (18), re-arranging terms, and then substituting
+b
+for BIASðdi Þ in (17) yields
+b
+b
+di þ vi  ui ¼ zi b þ ei X1.
+
+(20)
+
+As noted, both the terms vi and ui become negligible asymptotically; hence maximum
+likelihood estimation on
+b
+b
+di  zi b þ ei X1
+
+(21)
+
+will yield consistent estimates.
+Comparing (13) and (17), it is clear that estimation of (13) ignores both BIASðb
+di Þ
+and ui . Estimation of (21) ignores vi and ui . This aspect of the estimation problem
+resembles the story of measurement error in the dependent variable that is told in
+every undergraduate econometrics textbook. If vi is indeed of smaller magnitude
+than BIASðb
+di Þ, we would expect estimates of b from (21) to be more statistically
+efﬁcient than those from (13). We examine this question in our Monte Carlo
+experiments that follow.
+In every two-stage application that we have found, the bias term in (17) has been
+ignored. In the special case where p ¼ q ¼ 1, Gijbels et al. (1999) demonstrate
+bi Þ is affected by the curvature of the boundary of P. Although results
+that BIASðd
+do not exist for more general cases, one can speculate that a similar phenomenon
+bi Þ will
+exists in higher-dimensional spaces. In addition, it seems clear that BIASðd
+be larger in regions of P where data are sparse relative to other regions of P where
+the data are more dense. In regions where the data are sparse, there is less
+information about where the boundary of P lies, and hence the bias in estimated
+efﬁciency is likely to be larger.6 All of this suggests that BIASðb
+di Þ, which is
+incorporated in the error term of (13) when it is ignored, is correlated with xi and yi ,
+and hence with zi . While this correlation, as well as the bias itself, disappears
+asymptotically, it is reasonable to suppose that including an estimate of bias in
+the second-stage regression might improve the efﬁciency of estimation of b in
+ﬁnite samples, and perhaps also improve the coverage of estimated conﬁdence
+intervals for b.
+As a ﬁnal remark, we note that almost all researchers have estimated (13) by
+assuming a censored normal (tobit) speciﬁcation for xi . The tobit speciﬁcation is
+sometimes motivated by the observation that several values in fb
+di gni¼1 are equal to
+unity, suggesting a probability mass at 1. However, it is important to recall that the
+underlying true model in (12) (or (6)) does not have this property. The process that
+determines whether b
+di ¼ 1 is primarily an artifact of ﬁnite samples, and has nothing
+to do with the process described by (6) in Assumption A2.
+6
+
+It is common for data to be rather unevenly distributed over P in applications; examples include data
+for banks (Wheelock and Wilson, 2000, 2001) and hospitals (Wilson and Carey, 2004).
+
+ARTICLE IN PRESS
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+41
+
+4. Toward better estimation and inference
+The problems associated with estimating (13) and making inference about b arise
+from the serial correlation and bias of b
+di , and the correlation between xi and zi . The
+structures of these phenomena are unknown, and difﬁcult to guess. In addition, (13)
+differs from the true model in (12), where the dependent variable is unobserved. We
+propose two bootstrap procedures to overcome these difﬁculties; we describe the
+procedure in this section, and present Monte Carlo evidence in the next section.
+In order to implement a bootstrap procedure, we must draw iid bootstrap samples
+(i.e., pseudo-data) ðxi ; yi ; zi Þ from a density fbðx; y; zÞ. By now it is well-known that
+the ordinary, naive bootstrap based on resampling from the empirical distribution of
+the data is inconsistent in the present context due to the bounded nature of the DGP;
+see Simar and Wilson (1999a, b, 2000b) and Kneip et al. (2003) for discussion. Kneip
+et al. (2003) derive the asymptotic distribution of the DEA efﬁciency estimator, and
+prove the consistency of two different bootstrap procedures for making inferences
+about efﬁciencies of individual ﬁrms; one of these procedures relies on sub-sampling,
+while the other requires smoothing both the density of inputs and outputs as well as
+the DEA estimate of the frontier. Simar and Wilson (1998, 2000a) described
+smoothed bootstrap procedures that approximate the second approach of Kneip
+et al. (2003), but neither Simar and Wilson (1998, 2000a) nor Kneip et al. (2003)
+considered environmental variables.
+Note that Assumption A2 provides an extra piece of information that was not
+available in the models considered by Simar and Wilson (1998, 2000a) and Kneip
+et al. (2003). The bootstrap procedures proposed by Simar and Wilson (2000a) and
+Kneip et al. (2003) allow for heterogeneity in the distribution of d, but incorporate
+no assumptions on the form of the heterogeneity; here, however, the form is made
+explicit by Assumption A2. Fortunately, the information provided by Assumption
+A2 allows considerable simpliﬁcation in the bootstrap procedures we propose below.
+We propose two bootstrap procedures for the two-stage efﬁciency estimation
+problem. The ﬁrst procedure is designed to improve on inference, but without taking
+account of the bias term in (17):
+Algorithm #1.
+bi ¼ b
+[1] Using the original data in Sn , compute d
+dðxi ; yi j b
+PÞ8i ¼ 1; . . . ; n using (10).
+[2] Use the method of maximum likelihood to obtain an estimate b
+b of b as well as an
+b
+estimate b
+se of se in the truncated regression of di on zi in (13) using the mon
+observations where b
+di 41.
+[3] Loop over the next three steps ([3.1]–[3.3]) L times to obtain a set of bootstrap
+ 
+estimates A ¼ fðb
+b ;b
+se Þb gLb¼1 :
+[3.1] For each i ¼ 1; . . . ; m, draw ei from the Nð0; b
+s2e Þdistribution with leftbÞ.7
+truncation at ð1  zi b
+7
+
+See the Appendix for details on how to draw from a left-truncated normal distribution.
+
+ARTICLE IN PRESS
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+42
+
+[3.2] Again for each i ¼ 1; . . . ; m, compute di ¼ zi b
+b þ ei .
+[3.3] Use the maximum likelihood method to estimate the truncated regression of
+ 
+di on zi , yielding estimates ðb
+b ;b
+se Þ.
+[4] Use the bootstrap values in A and the original estimates b
+b; b
+se to construct
+estimated conﬁdence intervals for each element of b and for se as described
+below.
+As discussed earlier, results from Kneip et al. (1998) establish consistency of the
+estimation in step [1] under our assumptions. Given the discussion in Section 3 and
+the fact that b
+di is a consistent estimator of di , it follows that maximum likelihood
+estimation p
+inﬃﬃ step [2] will yield consistent estimates of b, though without the
+customary n-convergence rate. Step [3] is simply a parametric bootstrap of a
+(nonlinear) regression model; properties of the bootstrap in the context of regression
+models have been examined by Bickel and Freedman (1981), Wu (1986), and others.
+b
+Alternatively, b
+di can be regressed on zi in (21), and the following bootstrap
+procedure can be used to provide inference about b.
+Algorithm #2.
+bi ¼ b
+[1] Using the original data in Sn , compute d
+dðxi ; yi j b
+PÞ 8 i ¼ 1; . . . ; n using (10).
+[2] Use the method of maximum likelihood to obtain an estimate b
+b of b as well as
+bi on zi in (13) using the mon
+an estimate b
+se of se in the truncated regression of d
+observations when b
+di 41.
+[3] Loop over the next four steps ([3.1]–[3.4]) L1 times to obtain n sets of bootstrap
+
+d g L1 :
+estimates Bi ¼ fb
+ib b¼1
+
+s2e Þdistribution with left[3.1] For each i ¼ 1; . . . ; n, draw ei from the Nð0; b
+bÞ.
+truncation at ð1  zi b
+[3.2] Again for each i ¼ 1; . . . ; n, compute di ¼ zi b
+b þ ei .
+
+
+
+b
+[3.3] Set x ¼ xi ; y ¼ y di =d for all i ¼ 1; . . . ; n.
+i
+
+
+
+i
+
+i
+
+i
+
+
+
+
+
+b ¼ dðxi ; y jP
+b Þ8i ¼ 1; . . . ; n, where b
+[3.4] Compute d
+P is obtained by replacing
+i
+i
+
+
+
+
+
+
+Y; X in (9) with Y ¼ ½y1 . . . yn , X ¼ ½x1 . . . xn .
+b
+di deﬁned by (19)
+[4] For each i ¼ 1; . . . ; n, compute the bias-corrected estimator b
+using the bootstrap estimates in Bi obtained in step [3.4] and the original
+estimateb
+di .
+[5] Use the method of maximum likelihood to estimate the truncated regression of
+b
+b b
+b
+di on zi , yielding estimates ðb
+b; b
+sÞ.
+
+[6] Loop over the next three steps ([6.1]–[6.3]) L2 times to obtain a set of bootstrap
+ 
+2
+estimates C ¼ fðb
+b ;b
+se Þb gLb¼1
+:
+b
+[6.1] For each i ¼ 1; . . . ; n, draw ei from the Nð0; b
+sÞ distribution with leftb
+truncation at ð1  zi b
+bÞ.
+
+ARTICLE IN PRESS
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+43
+
+b
+b
+[6.2] Again for each i ¼ 1; . . . ; n, computed
+i ¼ zi b þ ei .
+[6.3] Use the maximum likelihood method to estimate the truncated regression
+b b
+b ;b
+s Þ.
+of d on zi , yielding estimates ðb
+i
+
+b b
+[7] Use the bootstrap values in C and the original estimates b
+b; b
+s to construct
+estimated conﬁdence intervals for each element of b and for se as described
+below.
+
+Note that steps [1] and [2] in Algorithm #2 are the same as in Algorithm #1. Steps
+[3] and [4] in Algorithm #2 employ a parametric bootstrap in the ﬁrst-stage problem
+b
+in order to produce bias-corrected estimates b
+di . The parametric structure provided by
+Assumption A2, when we assume in addition that cðzi ; bÞ ¼ zi b, greatly simpliﬁes
+the smoothing that was employed in Simar and Wilson (2000a) and Kneip et al.
+b
+(2003); otherwise, the bootstrap used to obtain b
+di is similar to the one described in
+Simar and Wilson (2000a), and approximates the double-smooth procedure used in
+Kneip et al. (2003). Steps [5] and [6] are essentially the same as in Algorithm #1,
+b
+di as in
+except that the bias-corrected estimates b
+di replace di in (12) instead of b
+Algorithm #1.
+In either case, once the set of bootstrap values A or C has been obtained either in
+step 3 of Algorithm #1 or step 6 of Algorithm #2, percentile bootstrap conﬁdence
+intervals can be constructed. To illustrate, suppose that interest lies in bj , the jth
+b
+b
+element of b, which has been estimated by b
+bj , the jth element of b
+b. If the distribution
+b
+of ðb
+bj  bj Þ were known, it would be trivial to ﬁnd values aa ; ba such that
+b
+Pr½ba pðb
+bj  bj Þp  aa  ¼ 1  a
+
+(22)
+
+b
+for some small value of a, 0oao1, say a ¼ :05. Since the distribution of ðb
+bj  bj Þ is
+
+b
+unknown, we can use the jth element of each bootstrap value b
+b to ﬁnd values aa ; ba
+such that
+b b
+Pr½ba pðb
+bj  b
+bj Þp  aa   1  a,
+
+(23)
+
+with improving approximation as L2 ! 1. Substituting aa ; ba for aa ; ba in (22)
+b
+b
+leads to an estimated conﬁdence interval ½b
+bj þ aa ; b
+bj þ ba .
+Practical implementation of either Algorithm #1 or Algorithm #2 is possible, and
+easy, with existing software. There are now a number of packages available that can
+be used to compute the DEA efﬁciency estimator, and packages such as LIMDEP,
+STATA, and others can be used to estimate truncated regression models.
+Interpreters such as MATLAB, R, S-Plus, etc. can be used to organize the results
+from one package so that they may be fed to another package.
+
+ARTICLE IN PRESS
+44
+
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+The only remaining issue concerns the choice of the number of replications, L, in
+Algorithm #1, or L1 and L2 in Algorithm #2. The choice of L1 in Algorithm #2
+determines the number of bootstrap replications used to compute the bias-corrected
+b
+estimates b
+di . We and others have found that 100 replications are typically sufﬁcient
+b
+for this purpose, since constructing b
+di requires only computation of a mean and then
+a difference. The choices of L and L2 , however, determine the number of bootstrap
+replications used to construct estimates of conﬁdence intervals in the two algorithms.
+Conﬁdence-interval estimation is tantamount to estimating the tails of distributions,
+which necessarily requires more information. Hall (1986) suggests 1000 replications
+for estimating conﬁdence intervals. We use 2000 replications (the values of L and L2 )
+in our simulations and empirical examples that follow. More accurate estimates can
+be achieved with larger numbers of replications, and, in the case of conﬁdenceinterval estimation, diminishing returns arise slowly. One must balance this concern,
+however, with the waiting time incurred when the number of replications is increased.
+In Simar and Wilson (2001b, 2004), the bootstrap principle was iterated to assess
+the accuracy of bootstrap conﬁdence interval estimates, along the lines described by
+Hall (1992). Although a similar procedure could be employed to assess the accuracy
+of the conﬁdence intervals estimated with Algorithms #1 and #2, the double
+bootstrap in Algorithm #2 uses sequential, rather than iterated, bootstraps.
+Moreover, the ﬁrst loop in step [3] of Algorithm #2 is used only to construct biascorrected distance function estimates, and so it is reasonable to use fewer replications
+than when estimating conﬁdence intervals in the second loop. Consequently, the
+computational burden incurred by Algorithm #2 is far less than what would typically
+be incurred with an iterated bootstrap as in Simar and Wilson (2001b, 2004).
+5. Link with fully parametric models
+Before turning to Monte Carlo evidence on the performance of the procedures
+proposed in this section, note that some studies (e.g., Pitt and Lee, 1981; Kaligajan
+and Shand, 1985) have estimated fully parametric models with composite
+errors along the lines of Aigner et al. (1977) and Meeusen and van den Broeck
+(1977), with a second-stage regression of estimated inefﬁciency on some environmental variables. Kumbhakar et al. (1991), Reifshneider and Stevenson (1991),
+Huang and Liu (1994), Battese and Coelli (1995), and others have instead estimated
+(in a single stage) fully parametric models where the environmental variables are
+used to parameterize the mean of the one-sided inefﬁciency component of the
+composite error process.8
+8
+Regressing efﬁciency estimates obtained from maximum likelihood estimation of a parametric model
+along the lines of Aigner et al. (1977) and Meeusen and van den Broeck (1977) is almost certain to result in
+problems for statistical consistency. The covariates in the second-stage regression are correlated with the
+one-sided error terms from the ﬁrst stage in any interesting case; otherwise, there would be no need for the
+second-stage regression. In any application, the covariates in the second stage are likely to be correlated,
+perhaps highly so, with the covariates in the ﬁrst stage, and hence the errors in the ﬁrst stage cannot be
+independent of the covariates in the ﬁrst stage. Consequently, the likelihood that is maximized is not the
+
+ARTICLE IN PRESS
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+45
+
+With a small modiﬁcation of the assumptions in Section 2, these fully parametric
+models can be seen to be related to the semi-parametric approach in this paper. First,
+replace assumptions A2 and A3 with the following:
+Assumption A2a. The conditioning in f ðdi jzi Þ in (5) operates through the following
+mechanism:
+di ¼ expðzi b þ ei Þ,
+
+(24)
+
+where b is a vector of (finitely many) parameters, and ei is a continuous iid random
+variable, independent of zi .
+Assumption A3a. ei in (24) is distributed Nð0; s2e Þ with left truncation at zi b for each i.
+Then, for the case of one output (q ¼ 1), we can write
+log yi ¼ log gðxi jaÞ  xi ,
+
+(25)
+
+with xi distributed Nðzi b; s2e Þ with left truncation at 0, and gðjÞ is a parametric
+function known up to a ﬁnite-length parameter vector a. This is a special case of
+log yi ¼ log gðxi jaÞ þ vi  xi ,
+
+(26)
+
+Nð0; s2v Þ,
+
+with vi
+which is the model estimated by Kumbhakar et al. (1991),
+Reifshneider and Stevenson (1991), Huang and Liu (1994), Battese and Coelli (1995),
+and others. In (25), s2v ¼ 0. The model in (26) can be extended to accommodate
+multiple outputs; see Adams et al. (1999), Coelli (2000), Coelli and Perelman (2001),
+Atkinson and Primont (2002), and Sickles et al. (2002) for examples and discussion.
+Note that the parametric structure afforded by gðjÞ is necessary for estimation to
+proceed in a single stage. Typically, gðjÞ is assumed to be a translog function, but
+this is likely a mis-speciﬁcation in many cases, particularly when ﬁrms are of widely
+varying size (see Wheelock and Wilson (2000), and Wilson and Carey (2004) for
+discussion and empirical examples, and Guilkey et al. (1983) and Chalfant and
+Gallant (1985) for Monte Carlo evidence).
+
+6. Monte Carlo experiments
+To examine the performance of the various approaches to inference in the secondstage regression, we conducted several Monte Carlo experiments. In each case, we
+generated data from a known process and applied our bootstrap algorithms on each
+of M Monte Carlo trials.
+Data for the ith observation in each Monte Carlo trial were generated setting
+zi1 ¼ 1 and drawing zij Nðmz ; s2z Þ for j ¼ 2; . . . ; r. Then ei is drawn from a Nð0; s2e Þ
+left-truncated 1  zi b. We then set di ¼ zi b þ ei . Next, for each j ¼ 1; . . . ; p, we draw
+(footnote continued)
+correct one, unless one takes account of the correlation structure. In our semi-parametric model given by
+Assumptions A1–A8, this problem is avoided since the ﬁrst-stage estimation does not require
+independence between the inefﬁciencies and the inputs and outputs.
+
+ARTICLE IN PRESS
+46
+
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+Pp
+3=4
+xij uniformð6; 16Þ. If q ¼ 1, we then set yi ¼ d1
+i
+j¼1 xij . Otherwise, we set
+P
+3=4
+p
+z ¼ d1
+i
+j¼1 xij , and draw a1 uniformð0; 1Þ. If q42, then for each ‘ ¼ 2; . . . ; q  1
+P
+we also draw a‘ uniformð0; 1  q2
+‘¼1 a‘ Þ. Finally, for j ¼ 1; . . . ; q  1, we set
+P
+1
+1
+yij ¼ di aj z, and then set yiq ¼ di ð1  q1
+‘¼1 a‘ Þz. For the case q41, aggregate
+output z is computedand then disaggregated among the q individual outputs.
+Although not required by Assumptions A1–A8, this, this,this, this results in
+independence between the mix of outputs, characterized by the angles g, and ðx; d; zÞ.
+In our ﬁrst set of experiments, we set r ¼ 2, mz ¼ 2, sz ¼ 2, se ¼ 1. In addition,
+values of each element of b must be set. In order to simplify scaling in estimation of
+the second-stage truncated regression, we set b1 ¼ b2 ¼ 0:5.
+In each experiment, we ran 1000 Monte Carlo trials. For Algorithm #1, we use
+L ¼ 2000 bootstrap replications. For Algorithm #2, we use L1 ¼ 100 replications for
+the ﬁrst loop used to compute the bias-corrected efﬁciency estimates, and L2 ¼ 2000
+replications for the second loop where the truncated regression model is bootstrapped. Also in each experiment, we compute the proportion among the 1000
+Monte Carlo experiments where the estimated conﬁdence interval covers the true
+value of b1 , b2 , and se at nominal signiﬁcance levels of 0.80, 0.90, 0.95, and 0.99.
+Table 1 reports results for three sets of cases: truncated regression of b
+di on zi , with
+inference by Algorithm #1 or by conventional methods (i.e., relying on asymptotic
+normality), and censored (tobit) regression of b
+di on zi with conventional inference. In
+the case of inference based on Algorithm #1 (columns 4–7 in Table 1), for p ¼ q ¼ 1
+and n ¼ 100, coverages for the slope parameter (b2 ) are too small, but not by a large
+amount. Coverages improve when the sample size is increased to 400, as expected.
+Table 1 also reveals that as p and q are increased, the coverages obtained with
+Algorithm #1 become slightly worse for a given sample size, but not too much so.
+Some worsening is to be expected due to the curse of dimensionality in the ﬁrst-stage
+estimation; as ðp þ qÞ increases, the dependent variable in the second-stage
+regressions becomes noisier, making it more difﬁcult to obtain precise information
+about the parameters of the regression.
+Results for conventional inference are shown in columns 8–11 of Table 1.
+Coverages are roughly similar to those obtained with Algorithm #1. The last four
+columns of Table 1 give results for tobit regression with conventional inference. This
+approach involves a speciﬁcation error in the sense that the model estimated is misspeciﬁed. Not surprisingly, the results in Table 1 indicate that this approach results
+in catastrophe.
+Additional insight is gained by examining the distributions of the estimators over
+the 1000 Monte Carlo trials in our experiments. Fig. 1 shows kernel density estimates
+for these distributions where n ¼ 400.9 Fig. 1 contains six plots of density estimates;
+the rows (from top to bottom) correspond to b
+b1 , b
+b2 , and b
+se ; the ﬁrst column
+corresponds to the tobit estimates described in Table 1, while the second column
+corresponds to the truncated regression estimates obtained with Algorithm #1 and
+9
+
+The kernel density estimates were obtained using an Epanechnikov kernel and with bandwidths chosen
+by the two-stage plug-in procedure proposed by Sheather and Jones (1991).
+
+100 b1
+b2
+se
+
+400 b1
+b2
+se
+
+100 b1
+b2
+se
+
+400 b1
+b2
+se
+
+100 b1
+b2
+se
+
+400 b1
+b2
+se
+
+1
+
+2
+
+2
+
+3
+
+3
+
+0.90
+
+0.868
+0.819
+0.809
+
+0.912
+0.878
+0.875
+
+0.928
+0.727
+0.742
+
+0.931
+0.822
+0.812
+
+0.943
+0.699
+0.716
+
+0.893
+0.761
+0.792
+
+0.80
+
+0.811
+0.743
+0.747
+
+0.811
+0.784
+0.776
+
+0.886
+0.661
+0.664
+
+0.772
+0.733
+0.735
+
+0.900
+0.624
+0.655
+
+0.627
+0.649
+0.712
+
+0.990
+0.821
+0.846
+
+0.958
+0.748
+0.758
+
+0.979
+0.884
+0.873
+
+0.948
+0.779
+0.789
+
+0.948
+0.923
+0.909
+
+0.891
+0.858
+0.848
+
+0.95
+
+0.999
+0.904
+0.919
+
+0.970
+0.807
+0.816
+
+0.992
+0.939
+0.926
+
+0.970
+0.846
+0.850
+
+0.976
+0.967
+0.956
+
+0.925
+0.915
+0.905
+
+0.99
+
+Trunc. regression
+Param. Algorithm #1—nominal signiﬁcance
+
+1
+
+p¼q n
+
+0.563
+0.647
+0.698
+
+0.916
+0.662
+0.663
+
+0.746
+0.732
+0.722
+
+0.875
+0.676
+0.661
+
+0.805
+0.782
+0.774
+
+0.808
+0.752
+0.736
+
+0.80
+
+0.755
+0.777
+0.791
+
+0.960
+0.745
+0.741
+
+0.885
+0.835
+0.805
+
+0.953
+0.763
+0.754
+
+0.911
+0.884
+0.874
+
+0.895
+0.841
+0.814
+
+0.90
+
+0.896
+0.841
+0.857
+
+0.978
+0.793
+0.795
+
+0.958
+0.897
+0.883
+
+0.973
+0.815
+0.811
+
+0.955
+0.929
+0.916
+
+0.925
+0.882
+0.867
+
+0.95
+
+0.997
+0.936
+0.936
+
+0.991
+0.868
+0.863
+
+0.996
+0.960
+0.936
+
+0.990
+0.893
+0.893
+
+0.988
+0.974
+0.966
+
+0.965
+0.938
+0.933
+
+0.99
+
+Trunc. regression
+Conventional inference—nominal signiﬁcance
+
+bi on zi
+Estimated coverages of conﬁdence intervals from regression of d
+
+Table 1
+
+1.000
+0.002
+0.000
+
+1.000
+0.078
+0.000
+
+1.000
+0.001
+0.000
+
+1.000
+0.043
+0.000
+
+1.000
+0.000
+0.000
+
+1.000
+0.030
+0.000
+
+0.80
+
+1.000
+0.005
+0.000
+
+1.000
+0.112
+0.000
+
+1.000
+0.001
+0.000
+
+1.000
+0.060
+0.000
+
+1.000
+0.000
+0.000
+
+1.000
+0.043
+0.000
+
+0.90
+
+1.000
+0.005
+0.000
+
+1.000
+0.147
+0.000
+
+1.000
+0.001
+0.000
+
+1.000
+0.087
+0.000
+
+1.000
+0.000
+0.000
+
+1.000
+0.059
+0.000
+
+0.95
+
+1.000
+0.008
+0.000
+
+1.000
+0.219
+0.000
+
+1.000
+0.001
+0.000
+
+1.000
+0.147
+0.000
+
+1.000
+0.000
+0.000
+
+1.000
+0.097
+0.000
+
+0.99
+
+Tobit regression
+Conventional inference—nominal signiﬁcance
+
+ARTICLE IN PRESS
+
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+47
+
+ARTICLE IN PRESS
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+48
+
+also described in Table 1. In each of the six panels in Fig. 1, the dotted curve shows
+the density estimate corresponding to p ¼ q ¼ 1, while the solid curve shows the
+density estimate corresponding to p ¼ q ¼ 2. True values of the parameters are
+indicated by the vertical dashed lines. Fig. 1 makes clear why the coverages of
+Truncated regr. of d-hat on z: beta-1-hat
+
+8
+
+6
+
+6
+Density
+
+Density
+
+Tobit regr. of d-hat on z: beta-1-hat
+
+8
+
+4
+2
+
+2
+
+0
+
+0
+0.5
+0.0
+0.5
+1.0
+1.5
+N = 1000 Bandwidth = 0.02694
+
+0.5
+
+Tobit regr. of d-hat on z: beta-2-hat
+
+Truncated regr. of dha-t on z: beta-2-hat
+
+15
+10
+
+10
+
+5
+
+5
+
+0
+
+0
+0.1
+
+0.2 0.3 0.4 0.5 0.6 0.7
+N = 1000 Bandwidth = 0.0117
+
+0.1
+
+Tobit regr. of d-hat on z: sigma-hat
+
+12
+
+10
+
+10
+
+8
+
+8
+
+6
+
+6
+
+4
+
+4
+
+2
+
+2
+
+0
+
+0.2 0.3 0.4 0.5 0.6 0.7
+N = 1000 Bandwidth = 0.03124
+
+Truncated regr. of d-hat on z: sigma-hat
+
+12
+
+Density
+
+Density
+
+0.0
+0.5
+1.0
+1.5
+N = 1000 Bandwidth = 0.1402
+
+15
+Density
+
+Density
+
+4
+
+0
+0.6 0.7 0.8 0.9 1.0 1.1 1.2
+N = 1000 Bandwidth = 0.0174
+
+0.6 0.7 0.8 0.9 1.0 1.1 1.2
+N = 1000 Bandwidth = 0.04011
+
+Fig. 1. Estimates of sampling densities, Algorithm #1 (n ¼ 400; dotted curve for p ¼ q ¼ 1, solid curve for
+p ¼ q ¼ 2).
+
+ARTICLE IN PRESS
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+49
+
+estimated conﬁdence intervals from the tobit model are so poor—none of the
+estimated values lie near the true values. The situation is much better for the
+truncated regression; although the distributions for b
+b1 and b
+b2 show small amounts of
+skewness, they are rather well-centered over the true values. Comparing the dotted
+and the solid curves reveals the effects of increasing dimensionality in the ﬁrst-stage
+problem; when dimensionality is increased from 2 to 4, the estimates of the sampling
+densities in the second column of Fig. 1 become more disperse, and shift slightly
+away from the true parameter values. As discussed earlier, these effects are to be
+expected since, with increasing dimensionality in the ﬁrst stage, the dependent
+variable in the second-stage regression contains more noise. It is interesting to note,
+however, that the doubling of dimensionality from 2 to 4 appears to have only a
+small effect on the densities in Fig. 1.
+A similar set of Monte Carlo experiments were performed to obtain the results in
+Table 2. In the case of columns 4–7 of Table 2, we employed the double bootstrap in
+Algorithm #2. Comparison of these results with those for Algorithm #1 shown in
+columns 4–7 of Table 1 reveal improved coverages in a number of cases. Given that
+Algorithm #2 involves only a small increase in computational burden over
+Algorithm #1, the improved performance of Algorithm #2 seems to justify its use.
+Note that in Table 2, as in Table 1 with the single bootstrap, coverages worsen as
+ðp þ qÞ increases for a given sample size, due to the curse of dimensionality in the
+ﬁrst-stage estimation of the dependent variable. The worsening here, however, is
+modest and less severe than in the case of Table 1 due to the bias correction
+employed in Algorithm #2.
+The last four columns of Table 2 give coverage results for conventional inference
+b
+applied after the regression of b
+di on zi in step [5] of Algorithm #2. As with Algorithm
+#1 in Table 1, the coverages obtained with conventional inference here are broadly
+similar to those obtained with Algorithm #2, but the coverages provided by
+Algorithm #2 are much better than those provided by Algorithm #1 in Table 1.
+However, with p ¼ q ¼ 3 and n ¼ 400, coverage for the intercept term (b1 ) is worse
+with the conventional approach.
+Kernel estimates of the densities of the estimators from the second set of experiments
+are shown in Fig. 2, again for the case where n ¼ 400, with the dotted curves
+corresponding to p ¼ q ¼ 1 and the solid curves corresponding to p ¼ q ¼ 2. As in Fig.
+1, the rows in Fig. 2 (from top to bottom) correspond to estimates of the intercept,
+slope, and s terms in the second stage. The ﬁrst column in Fig. 2 shows results based on
+estimates from Algorithm #1; the densities are the same as those in the second column
+of Fig. 1, but have been reproduced with different scalings on the vertical axes to
+facilitate comparison with the second column of Fig. 2. The second column of Fig. 2
+b
+corresponds to estimates from the regression of b
+di on zi using Algorithm #2. As in
+Fig. 1, true parameter values are indicated by vertical dashed lines.
+Two phenomena become evident in Fig. 2. First, as noted several times already,
+increasing dimensionality in the ﬁrst-stage problem reduces the precision of estimates
+in the second stage. Again, however, the results in Fig. 2 indicate that when
+dimensionality in the ﬁrst-stage is doubled from 2 to 4 in our experiments, the effect
+
+ARTICLE IN PRESS
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+50
+Table 2
+
+b
+Estimated coverages of conﬁdence intervals from regression of b
+di on zi
+p¼qn
+
+Trunc. regression
+Param. Algorithm #2—nominal signiﬁcance
+
+Trunc. regression
+Conventional inference—nominal signiﬁcance
+
+0.80
+
+0.90
+
+0.95
+
+0.99
+
+0.80
+
+0.90
+
+0.95
+
+0.99
+
+1
+
+100 b1
+b2
+se
+
+0.798
+0.781
+0.805
+
+0.867
+0.876
+0.884
+
+0.891
+0.911
+0.906
+
+0.927
+0.946
+0.956
+
+0.799
+0.790
+0.816
+
+0.888
+0.882
+0.879
+
+0.923
+0.919
+0.922
+
+0.957
+0.963
+0.964
+
+1
+
+400 b1
+b2
+se
+
+0.802
+0.804
+0.818
+
+0.898
+0.900
+0.898
+
+0.937
+0.944
+0.946
+
+0.974
+0.980
+0.980
+
+0.801
+0.804
+0.818
+
+0.907
+0.899
+0.898
+
+0.949
+0.950
+0.947
+
+0.982
+0.989
+0.986
+
+2
+
+100 b1
+b2
+se
+
+0.850
+0.803
+0.812
+
+0.967
+0.902
+0.923
+
+0.976
+0.933
+0.946
+
+0.986
+0.963
+0.969
+
+0.808
+0.792
+0.817
+
+0.959
+0.907
+0.919
+
+0.982
+0.945
+0.954
+
+0.995
+0.976
+0.983
+
+2
+
+400 b1
+b2
+se
+
+0.758
+0.795
+0.781
+
+0.912
+0.907
+0.912
+
+0.975
+0.960
+0.964
+
+0.991
+0.986
+0.993
+
+0.744
+0.794
+0.789
+
+0.885
+0.904
+0.904
+
+0.960
+0.953
+0.957
+
+0.993
+0.990
+0.995
+
+3
+
+100 b1
+b2
+se
+
+0.741
+0.793
+0.820
+
+0.971
+0.907
+0.925
+
+0.993
+0.934
+0.951
+
+1.000
+0.968
+0.972
+
+0.658
+0.821
+0.859
+
+0.941
+0.923
+0.946
+
+0.996
+0.960
+0.964
+
+1.000
+0.980
+0.984
+
+3
+
+400 b1
+b2
+se
+
+0.378
+0.739
+0.708
+
+0.645
+0.878
+0.881
+
+0.871
+0.961
+0.961
+
+0.999
+0.995
+0.999
+
+0.335
+0.730
+0.712
+
+0.546
+0.846
+0.863
+
+0.716
+0.944
+0.944
+
+0.958
+0.993
+0.996
+
+on the second-stage estimates is not great. Second, the densities in the ﬁrst column of
+Fig. 2 have slightly greater skewness than corresponding densities in the second
+b
+column; on the whole, the densities for the regression of b
+di are better-centered on the
+bi .
+true values than the densities for the regression of d
+The second set of experiments conducted to produce the results in Table 2 also
+allow comparison of the root-mean-square-error (RMSE) of each estimator in
+b
+regressions of b
+di on zi versus regressions of b
+di on zi . Table 3 shows the RMSE for
+each estimator (computed over 1000 Monte Carlo trials) with varying model
+dimensions and sample sizes. These results reveal two interesting phenomena.
+First, for p ¼ q ¼ 1, 2, or 3 and a sample size of 100, RMSE for each estimator is
+b
+smaller when b
+di is regressed on zi than when b
+di is regressed on zi . However, when the
+b
+sample size is increased to 400, with p ¼ q ¼ 1 or 2, use of b
+di yields lower RMSE for
+b
+di yields lower
+the intercept and slope estimators than b
+di . For p ¼ q ¼ 3, use of b
+bi when the sample size is
+RMSE for the intercept and slope estimators than d
+increased to 800. Hence, at smaller sample sizes, performing the bias correction in
+
+ARTICLE IN PRESS
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+Truncated regr. of dhat-hat on z: beta-1-hat
+
+1.5
+
+1.5
+
+1.0
+
+1.0
+
+Density
+
+Density
+
+Truncated regr. of d-hat on z: beta-1-hat
+
+0.5
+
+0.5
+
+0.0
+
+0.0
+0.5
+
+0.0
+0.5
+1.0
+1.5
+N = 1000 Bandwidth = 0.1402
+
+0.5
+0.0
+0.5
+1.0
+1.5
+N = 1000 Bandwidth = 0.1533
+Truncated regr. of dhat-hat on z: beta-2-hat
+
+7
+
+7
+
+6
+
+6
+
+5
+
+5
+Density
+
+Density
+
+Truncated regr. of d-hat on z: beta-2-hat
+
+4
+3
+
+4
+3
+
+2
+
+2
+
+1
+
+1
+
+0
+
+0
+0.1
+
+0.2 0.3 0.4 0.5 0.6 0.7
+N = 1000 Bandwidth = 0.03124
+
+0.1
+
+Truncated regr. of d-hat on z: sigma-hat
+
+6
+
+5
+
+5
+
+4
+
+4
+
+3
+2
+1
+
+0.2 0.3 0.4 0.5 0.6 0.7
+N = 1000 Bandwidth = 0.0335
+
+Truncated regr. of dhat-hat on z: sigma-hat
+
+6
+
+Density
+
+Density
+
+51
+
+3
+2
+1
+
+0
+
+0
+0.6
+0.8
+1.0
+1.2
+N = 1000 Bandwidth = 0.04011
+
+0.6
+0.8
+1.0
+1.2
+N = 1000 Bandwidth = 0.04292
+
+Fig. 2. Estimates of sampling distributions, Algorithm #2 (n ¼ 400; dotted curve for p ¼ q ¼ 1, solid
+curve for p ¼ q ¼ 2).
+
+Algorithm #2 worsens RMSE relative to the simpler, single bootstrap. However, for
+a given dimensionality, as sample size is increased, the bias correction eventually
+becomes advantageous in terms of RMSE. Recall that comparison of Tables 1 and 2
+revealed that, in terms of coverages of estimated conﬁdence intervals, the double
+
+ARTICLE IN PRESS
+52
+
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+Table 3
+b
+di on zi
+Root-mean square error of parameter estimators in truncated regression of b
+di ; b
+p¼q
+
+n
+
+Parameter
+
+RMSE
+b
+di
+
+b
+b
+di
+
+1
+
+100
+
+b1
+b2
+se
+
+0.4985
+0.1107
+0.1481
+
+0.5261
+0.1118
+0.1446
+
+1
+
+400
+
+b1
+b2
+se
+
+0.2259
+0.0504
+0.0687
+
+0.2255
+0.0497
+0.0656
+
+2
+
+100
+
+b1
+b2
+se
+
+0.7812
+0.1418
+0.1925
+
+0.9515
+0.1498
+0.1886
+
+2
+
+400
+
+b1
+b2
+se
+
+0.3121
+0.0585
+0.0811
+
+0.3002
+0.0563
+0.0775
+
+3
+
+100
+
+b1
+b2
+se
+
+1.1762
+0.1773
+0.2292
+
+1.8447
+0.2288
+0.2536
+
+3
+
+400
+
+b1
+b2
+se
+
+0.5071
+0.0743
+0.0960
+
+0.6203
+0.0795
+0.1061
+
+3
+
+800
+
+b1
+b2
+se
+
+0.3558
+0.0527
+0.0646
+
+0.3542
+0.0498
+0.0797
+
+bootstrap was found to be superior in almost every case. Although the bias
+correction in the double bootstrap may increase estimation noise at small sample
+sizes, inference-making abilities are enhanced at all sample sizes.
+Second, the results in Table 3 also reveal that for a given sample size (e.g., n ¼ 100
+or n ¼ 400), RMSE increases as ðp þ qÞ increases. As noted earlier in the discussions
+of Tables 1 and 2, this is due to the curse of dimensionality in the ﬁrst-stage
+estimation of the dependent variable used in the second-stage regressions. At a given
+sample size, with increased dimensionality, the dependent variable in the secondstage regression contains less information about the underlying, latent variable
+in (6).
+To further examine the link between two-stage non-parametric models in the
+literature and parametric models as discussed in Section 5, we conducted
+an
+Q
+a
+additional set of simulations using (26) as the true model, with gðxi jaÞ ¼ pj¼1 xijj ,
+aj ¼ 0:8p1 , se ¼ 0:9, sv ¼ 0, r ¼ 2, sz ¼ 1, mz ¼ 1, and b1 ¼ b2 ¼ 0:5. We
+considered four cases with p 2 f1; 3g and n 2 f100; 400g. For each case, we simulated
+
+ARTICLE IN PRESS
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+53
+
+draws from the model in each of 1000 Monte Carlo trials; on each trial, we obtained
+maximum likelihood estimates of the parameters and performed conventional
+inference with the inverse negative Hessian of the log-likelihood function using the
+computer code described in Coelli (1996). In addition, we applied our Algorithms #1
+and #2 described previously in Section 3.10
+Results for estimated coverages obtained with the three estimation methods, at
+nominal signiﬁcance levels of 0.90, 0.95, and 0.99, are shown in Table 4. In obtaining
+maximum likelihood estimates, we employed two standard transformations, setting
+s2 ¼ s2e þ s2v and g ¼ s2e =ðs2e þ s2v Þ; results for estimates of s and g are reported for
+the maximum likelihood estimates. By design, Algorithms #1 and #2 restrict sv ¼ 0,
+but this restriction is not imposed in the maximum likelihood estimation to remain
+similar with the way practitioners are likely to use these methods.
+The results in Table 4 reveal that in every case, coverages for b1 , b2 , and s
+obtained with Algorithms #1 and #2 are better (in a few cases, only slightly so, but in
+many cases substantially so) than those obtained with maximum likelihood. Since sv
+is not restricted to zero in the maximum likelihood estimation, some of the
+inefﬁciency in the data-generating process is confused with statistical noise. Note
+that the coverages for the production function parameters (the a’s) is poor; therefore,
+it appears that the method has difﬁculty in estimating these parameters accurately,
+and this in turn may cause distortions in the estimates of b1 and b2 that are obtained
+with the maximum likelihood method. Of course, one might expect that the
+maximum likelihood coverages would improve if sv were restricted to zero, but this
+is not done in practical applications where models such as (28) are estimated.11
+Table 4 also reveals that coverages obtained with Algorithm #1 are better than
+those obtained with Algorithm #2 in these experiments. This may be due to the
+different scaling that is used here as opposed to the simulations that led to Tables
+1–3. The bias correction in Algorithm #2 likely adds some noise unless the bias being
+corrected is large. Recall that this was conﬁrmed in Table 3 in the case of the original
+experiments, and so it should be no surprise that one can ﬁnd a scaling as we have
+here, where Algorithm #1 is able to dominate Algorithm #2 in terms of coverages of
+estimated conﬁdence intervals.
+
+7. Empirical examples
+As a ﬁnal exercise, we provide an empirical example based on the paper by Aly
+et al. (1990). Aly et al. examined efﬁciency among a subsample of 322 commercial
+banks operating in the U.S. during the fourth quarter of 1986. Here, we use
+the deﬁnitions of Berger and Mester (2003) to deﬁne three inputs (purchased
+10
+
+Note that steps [3.1] and [3.2] in Algorithm #1 and steps [3.1], [3.2] and [6.1], [6.2] must be modiﬁed
+slightly due to the exponential speciﬁcation introduced by Assumptions A2a and A3a in Section 5.
+11
+One might also reasonably argue that if, in the true model, sv 40, then the comparison across methods
+in Table 4 might be different. But in this case, the ﬁrst stages of the non-parametric approaches would no
+longer be statistically consistent. Here, we have generated the data in such a way that each of the
+estimation methods remains consistent.
+
+ARTICLE IN PRESS
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+54
+
+Table 4
+Coverage of estimated conﬁdence intervals in parametric model
+p
+
+n
+
+Parameter
+
+MLE—nom. signif.
+
+Alg. #1—nom. signif.
+
+Alg. #2—nom. signif.
+
+0.90
+
+0.95
+
+0.99
+
+0.90
+
+0.95
+
+0.99
+
+0.90
+
+0.95
+
+0.99
+
+1
+
+100
+
+a1
+a2
+b1
+b2
+s2
+g
+
+0.630
+0.633
+0.781
+0.808
+0.770
+0.998
+
+0.663
+0.669
+0.838
+0.864
+0.816
+0.998
+
+0.711
+0.711
+0.900
+0.930
+0.890
+0.999
+
+—
+—
+0.867
+0.873
+0.838
+—
+
+—
+—
+0.900
+0.915
+0.873
+—
+
+—
+—
+0.942
+0.961
+0.917
+—
+
+—
+—
+0.815
+0.858
+0.825
+—
+
+—
+—
+0.847
+0.899
+0.863
+—
+
+—
+—
+0.903
+0.955
+0.902
+—
+
+1
+
+400
+
+a1
+a2
+b1
+b2
+s2
+g
+
+0.589
+0.582
+0.703
+0.724
+0.653
+0.999
+
+0.643
+0.631
+0.767
+0.803
+0.722
+1.000
+
+0.697
+0.693
+0.849
+0.886
+0.818
+1.000
+
+—
+—
+0.915
+0.902
+0.897
+—
+
+—
+—
+0.933
+0.932
+0.931
+—
+
+—
+—
+0.963
+0.972
+0.962
+—
+
+—
+—
+0.886
+0.895
+0.888
+—
+
+—
+—
+0.907
+0.928
+0.921
+—
+
+—
+—
+0.951
+0.970
+0.956
+—
+
+3
+
+100
+
+a1
+a2
+a3
+a4
+b1
+b2
+s2
+g
+
+0.636
+0.661
+0.667
+0.661
+0.776
+0.783
+0.718
+1.000
+
+0.688
+0.698
+0.718
+0.710
+0.829
+0.834
+0.775
+1.000
+
+0.739
+0.755
+0.772
+0.769
+0.906
+0.916
+0.867
+1.000
+
+—
+—
+—
+—
+0.909
+0.883
+0.840
+—
+
+—
+—
+—
+—
+0.929
+0.919
+0.877
+—
+
+—
+—
+—
+—
+0.963
+0.965
+0.906
+—
+
+—
+—
+—
+—
+0.884
+0.839
+0.804
+—
+
+—
+—
+—
+—
+0.916
+0.881
+0.831
+—
+
+—
+—
+—
+—
+0.953
+0.936
+0.878
+—
+
+3
+
+400
+
+a1
+a2
+a3
+a4
+b1
+b2
+s2
+g
+
+0.594
+0.596
+0.609
+0.621
+0.723
+0.720
+0.633
+0.998
+
+0.635
+0.650
+0.665
+0.671
+0.785
+0.792
+0.712
+1.000
+
+0.691
+0.708
+0.717
+0.731
+0.869
+0.881
+0.817
+1.000
+
+—
+—
+—
+—
+0.951
+0.892
+0.895
+—
+
+—
+—
+—
+—
+0.966
+0.930
+0.925
+—
+
+—
+—
+—
+—
+0.987
+0.981
+0.963
+—
+
+—
+—
+—
+—
+0.849
+0.817
+0.811
+—
+
+—
+—
+—
+—
+0.893
+0.872
+0.858
+—
+
+—
+—
+—
+—
+0.945
+0.946
+0.923
+—
+
+funds, core deposits, and labor) and four outputs (consumer loans, business loans,
+real estate loans, and securities held) for banks; these are used to estimate technical
+efﬁciency in the ﬁrst stage. In the second stage, we attempt to explain the ﬁrst-stage
+estimates in terms of several variables used by Aly et al. in their second-stage
+regression. Where Aly et al. employed OLS in their second stage, we use truncated
+regression.
+The covariates we use in the second-stage regression are similar to those used by
+Aly et al., except that our SIZE variable is deﬁned by the log of total assets rather
+than total deposits as in the original study, and we also include the square of SIZE
+and DIVERSE as well as an interaction term. In addition, we included both
+independent banks and banks that are members of multi-bank holding companies,
+
+ARTICLE IN PRESS
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+55
+
+and added a dummy variable (HOLD) equal to 1 if a bank is a member of a multibank holding company. See Aly et al. (1990) for deﬁnitions of the remaining
+variables used in the second-stage regression.
+We used more recent data, from the fourth-quarter FDIC Reports of Income and
+Condition (Call Reports) for 2002. We ﬁrst took a random sample of 322 banks, as
+did Aly et al. in their study. We also present results for the full sample (after deleting
+observations with missing or implausible values) consisting of 6955 observations.
+We ﬁrst regressed the DEA efﬁciency estimates on our covariates to obtain the
+parameter estimates shown in the second column of Table 5. We then estimated 95%
+conﬁdence intervals using the asymptotic normal approximation (see columns 3
+and 4) and our Algorithm #1 (see columns 5 and 6). Using Algorithm #2, we
+b
+regressed b
+d on the covariates to obtain the parameter estimates shown in column 7 of
+Table 5 and the conﬁdence interval estimates in columns 8 and 9, also obtained with
+Algorithm #2.
+Several things become apparent from examining the results in Table 5. First, both
+the parameter estimates and conﬁdence-interval estimates obtained by regressing the
+bias-corrected efﬁciencies on covariates in Algorithm #2 are somewhat different
+from those obtained from regressing the uncorrected estimates as in Algorithm #1.
+Given the Monte Carlo simulation results discussed earlier, this is not surprising, and
+the simulation results suggest that we should prefer the results from Algorithm #2
+over those from Algorithm #1. The conﬁdence interval estimates from either
+Algorithm #1 or #2 are rather different from interval estimates obtained using
+conventional methods, and this too is not surprising given the simulation results
+discussed earlier.
+The conventional conﬁdence interval estimates in columns 3–4 of Table 5 are
+centered on the parameter estimates in column 2 by construction. It is interesting to
+note that the intervals estimated with both Algorithms #1 and #2 sometimes do not
+cover the corresponding parameter estimate. In particular, with n ¼ 322, Algorithm
+#2 produces estimated conﬁdence intervals in the last two columns of Table 5 that do
+not cover the corresponding parameter estimates in the seventh column in four cases
+(i.e., the coefﬁcients on SIZE, SIZE_SQ, DIVERSE_SQ, and the estimate b
+se ). When
+the sample size is increased to 6955, the estimated conﬁdence intervals from
+Algorithm #2 also do not cover the corresponding parameter estimate in four cases
+(HOLD, MSA, DIVERSE_SQ, and b
+se ).12
+Unlike the conventional conﬁdence intervals based on the normal approximation,
+the bootstrap conﬁdence intervals incorporate an implicit bias correction. Recall that
+the second-stage regression inherits the convergence rate of the DEA estimator in the
+ﬁrst stage, i.e., n2=ðpþqþ1Þ or n2=9 in this application. Noting that 69552=9  511=2 ,
+12
+
+The conﬁdence intervals estimated by Algorithms #1 and #2 in Table 5 are typically more narrow than
+the corresponding interval estimates obtained by the usual normal approximation. In our Monte Carlo
+experiments reported in Tables 1 and 2, the widths of estimated intervals were similar across the various
+methods (with the exception of cases where tobit regression was used). The fact that the bootstrap intervals
+in Table 5 are more narrow than the conventional intervals may reﬂect some unknown feature in the data
+different from our simulation scenario.
+
+0.6759
+0.0707
+0.4293
+0.01601
+0.006988
+0.003864
+0.1181
+0.01079
+0.06071
+
+0.08591
+0.1477
+0.7302
+0.02273
+0.01961
+0.006839
+0.3357
+0.00636
+0.03802
+
+n ¼ 322:
+CONSTANT
+SIZE
+DIVERSE
+HOLD
+MSA
+SIZE_SQ
+DIVERSE_SQ
+SIZE  DIVERSE
+b
+s
+
+n ¼ 6955:
+CONSTANT
+SIZE
+DIVERSE
+HOLD
+MSA
+SIZE_SQ
+DIVERSE_SQ
+SIZE  DIVERSE
+b
+s
+1.34
+0.03172
+0.01542
+0.002241
+0.005769
+0.01365
+0.5252
+0.05713
+0.03225
+
+0.5234
+0.04904
+0.323
+0.01194
+0.003636
+0.004704
+0.147
+0.01828
+0.0596
+1.168
+0.3272
+1.476
+0.04322
+0.03345
+2.346E5
+0.1463
+0.04441
+0.0438
+
+0.8284
+0.09237
+0.5356
+0.02008
+0.01034
+0.003024
+0.08915
+0.003307
+0.06181
+1.228
+0.1493
+0.7284
+0.02294
+0.01934
+0.0135
+0.569
+0.02932
+0.04996
+
+0.2841
+0.1047
+0.4044
+0.01468
+0.005876
+0.006503
+0.158
+0.01399
+0.08192
+
+lo
+
+lo
+
+hi
+
+Alg. #1 CI
+
+Normal CI
+
+0.1798
+0.3012
+1.366
+0.04091
+0.03348
+0.007633
+0.4102
+0.01443
+0.05559
+
+0.4517
+0.1285
+0.5277
+0.01961
+0.009998
+0.005592
+0.1239
+0.00533
+0.08342
+
+hi
+
+0.6978
+0.2291
+1.435
+0.07018
+0.06714
+0.01308
+0.8587
+0.02325
+0.1106
+
+0.2354
+0.2453
+1.121
+0.03738
+0.01897
+0.01263
+0.3536
+0.02117
+0.1673
+
+b
+b
+
+3.682
+0.1318
+1.053
+0.07331
+0.07296
+0.03042
+1.571
+0.02937
+0.1436
+
+1.354
+0.3414
+1.101
+0.03482
+0.01607
+0.02031
+0.4928
+0.0308
+0.2167
+
+lo
+
+Alg. #2 CI
+
+0.003114
+0.6233
+3.16
+0.1333
+0.1168
+0.01264
+1.045
+0.117
+0.1599
+
+0.8535
+0.4117
+1.472
+0.04967
+0.02883
+0.01754
+0.3906
+0.00527
+0.221
+
+hi
+
+56
+
+b
+b
+
+Table 5
+Efﬁciency of U.S. commercial banks (truncated regression, 95% conﬁdence intervals, p ¼ 3, q ¼ 5)
+
+ARTICLE IN PRESS
+
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+ARTICLE IN PRESS
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+57
+
+our inference-making ability in the second-stage regression with 6955 observations is
+equivalent, in a rough sense, to making inference in an ordinary parametric,
+truncated regression (where the classical parametric convergence rate n1=2 obtains)
+with about 51 observations. It is well known that maximum likelihood often
+produces biased estimates in ﬁnite samples. Although we expect the procedure here
+to be unbiased asymptotically, even with 6955 observations, we are far from the
+asymptotic result. And, of course, in any application such as this, the true DGP is
+unknown, and possibly different from the one that is assumed.
+Finally, we note that there are some differences in parameter estimates obtained
+with the sub-sample and those obtained with the full sample. On the whole, however,
+the estimates appear rather stable. Of course, more data are always preferred to less
+data.
+
+8. Summary and conclusions
+The Monte Carlo results presented in the previous assumption illustrate a number
+of problems with existing two-stage studies that employ non-parametric distance
+function estimators similar to (10) in the ﬁrst stage, and then employ tobit regression
+in the second stage with conventional inference based on the inverse negative
+Hessian of the log-likelihood function. As noted in Section 1, none of the published
+studies that we are aware of have deﬁned a DGP that might be estimated, and it is
+difﬁcult to imagine one where tobit regression would be sensible in this context. In
+terms of coverage of estimated conﬁdence intervals, tobit regression is catastrophic
+in our Monte Carlo experiments.
+Truncated regression estimates the correct model in our experiments. In terms of
+coverage of estimated conﬁdence intervals, our single bootstrap is shown to perform
+well, but our double bootstrap performs even better, with little increase in
+computational burden over the single bootstrap. The double bootstrap has the
+additional advantage that RMSE of the intercept and slope estimators in the secondstage regression declines more rapidly with increasing sample size than when the
+single bootstrap is used, resulting in lower RMSE at moderate sample sizes
+depending on model dimensionality in the ﬁrst stage. The double bootstrap is thus
+our preferred choice, but one could use both methods as a robustness check.
+
+Acknowledgements
+We are grateful to Irène Gijbels and participants at the XXXIVèmes Journées de
+Statistique, Société Franc- aise de Statistique, Bruxelles, the North American
+Productivity Workshop, Albany, New York; the Workshop on Quantitative
+Methods for the Measurement of Organizational Efﬁciency, Institute for Fiscal
+Studies, University College, London, and the Econometric Society European
+Meetings, Madrid, for comments on earlier versions. Research support from ‘‘Projet
+d’Actions de Recherche Concertées’’ (No. 98/03-217), from the ‘‘Inter-university
+
+ARTICLE IN PRESS
+58
+
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+Attraction Pole’’, Phase V (No. P5/24) from the Belgian Government, and from the
+Texas Advanced Computation Center is gratefully acknowledged. Any remaining
+errors are solely our responsibility.
+
+Appendix A. Technical details
+A.1. Censored versus truncated regression
+Consider the regression model
+Wi ¼ z i b þ e i ,
+
+(27)
+
+where ei Nð0; s2e Þ is identically, independently distributed for all i ¼ 1; . . . ; n. The
+left-hand side variable W is said to be censored when, instead of observing Wi for all
+observations, we observe
+(
+zi þ ei if zi þ ei 4ci
+yi ¼
+(28)
+ci
+otherwise.
+In this case, W is left-censored at the constant ci , which may vary over observations.
+Alternatively, Wi is said to be truncated if we observe yi ¼ Wi for all Wi Xci , but
+observe nothing otherwise.
+Relative to the classical linear regression model with unbounded error terms,
+both censoring and truncation involve a loss of information about the dependent variable. In the case of censoring, some information is lost about the dependent variable for censored observations, but the right-hand side variables are
+observed for such observations. In the case of truncation, neither the left-hand
+nor the right-hand side variables are observed for some observations. The
+information loss is thus more severe in the case of truncation than in the case of
+censoring.
+In the case of truncation, if the Wi are assumed normal with left-truncation at ci , b
+in (27) can be estimated by maximizing the likelihood function
+
+
+
+
+n
+Y
+1
+yi  z i b
+ci  zi b 1
+L1 ¼
+f
+,
+(29)
+1F
+s
+se
+se
+i¼1 e
+where fðÞ and FðÞ represent the standard normal density and distribution
+functions, respectively. This resembles the likelihood for regression models with
+normal errors that are neither censored nor truncated, except for the term in square
+brackets. Division by this term is necessary to re-scale the normal density fðÞ so that
+it integrates to unity after truncation.
+In the case of left-censoring at ci where one assumes that the uncensored
+observations are normally distributed, b in (27) can be estimated by specifying a
+functional form for ProbðWi 4ci jaÞ, where a is a vector of parameters, and writing the
+
+ARTICLE IN PRESS
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+59
+
+likelihood function as
+
+
+Y 1 yi  zi b
+ci  zi b 1
+L2 ¼
+f
+ ProbðWi 4ci jaÞ
+1F
+s
+se
+se
+ijyi 4ci e
+Y
+½1  ProbðWi 4ci jaÞ.
+
+
+ð30Þ
+
+ijyi ¼ci
+
+Here, the probability that Wi 4ci is allowed to result from a process different from the
+one that determines W when Wi 4ci . The probability ProbðWi 4ci jaÞ would typically be
+speciﬁed as probit or logit, but many other speciﬁcations are possible.
+The tobit model is a special case of (30), where the probability that Wi 4ci is
+assumed to be controlled by the same process that determines W when Wi 4ci . In other
+words, the tobit model incorporates the additional assumption that
+
+
+
+ci  zi b
+ProbðWi 4ci Þ ¼ 1  F
+.
+(31)
+se
+Substitution of the expression in (31) for ProbðWi 4ci jaÞ in (30) yields the tobit
+likelihood function,
+Y 1 yi  zi b Y ci  zi b
+f
+F
+L3 ¼
+.
+(32)
+se
+se
+se
+ijy 4c
+ijy ¼c
+i
+
+i
+
+i
+
+i
+
+The terms in the second product expression reﬂect the fact that all that is known
+about the censored observations is that Wi lies below ci .
+Even if the censored model was the correct speciﬁcation, use of the tobit version of
+this model would be curious in the context of the two-stage models discussed herein.
+Note that the likelihood L2 in (30) is multiplicatively separable in b and a. Both the
+censored as well as the uncensored observations identify a, while only the uncensored
+observations identify b. In fact, the separability means that L2 can be maximized
+with respect to each parameter vector independently; maximization with respect to b
+is equivalent to maximization of the likelihood L1 in (29) for the truncated model.
+By contrast, when the tobit speciﬁcation is used, both the censored as well as the
+uncensored observations determine b
+b when the likelihood L3 in (32) is maximized. A
+better approach would be to specify ProbðWi 4ci jaÞ as a probit probability, maximize
+both L2 and L3 , and perform a likelihood-ratio test of the null hypothesis b ¼ a.
+None of the two-stage studies that have used the tobit speciﬁcation in the second
+stage that we are aware of have done this. Of course, the censored model is not the
+correct speciﬁcation, so perhaps the point is moot.
+Both the truncated and the tobit regression models can easily be estimated by
+maximum likelihood. In either case, the task is made easier when Olsen’s (1978) reparameterization is used. With this re-parameterization, maximization by Newton’s
+method typically converges very quickly, requiring only a few iterations. For the
+practitioner, commands that perform truncated regression are available in a number
+of popular software packages.
+
+ARTICLE IN PRESS
+60
+
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+A.2. Obtaining draws from a left-truncated normal distribution
+Both bootstrap algorithms (Algorithm #1 and #2), as well as the simulation
+algorithm in Section 5 (Algorithm #3), require iid draws from a Nð0; s2 Þ distribution
+with left truncation at a constant c. This can be accomplished quickly and easily
+using a modiﬁed transformation method. Let FðÞ and F1 ðÞ denote the standard
+normal distribution function and the standard normal quantile function, respectively, so that u ¼ F1 ðFðuÞÞ. Generate v be uniform on ð0; 1Þ, let c0 ¼ c=s, and set
+v0 ¼ Fðc0 Þ þ ½1  Fðc0 Þv. Then compute u ¼ sF1 ðv0 Þ to obtain the desired lefttruncated normal deviate.
+References
+Adams, R.M., Berger, A.N., Sickles, R.C., 1999. Semiparametric approaches to stochastic panel frontiers
+with applications in the banking industry. Journal of Business and Economic Statistics 17, 349–358.
+Aigner, D.J., Lovell, C.A.K., Schmidt, P., 1977. Formulation and estimation of stochastic frontier
+production function models. Journal of Econometrics 6, 21–37.
+Aly, H.Y., Grabowski, R., Pasurka, C., Rangan, N., 1990. Technical, scale, and allocative efﬁciencies in
+U.S. banking: an empirical investigation. Review of Economics and Statistics 72, 211–218.
+Andersen, P., Petersen, N.C., 1993. A procedure for ranking efﬁcient units in Data Envelopment Analysis.
+Management Science 39, 1261–1264.
+Arnold, V.L., Bardhan, I.R., Cooper, W.W., Kumbhakar, S.C., 1996. New uses of DEA and statistical
+regressions for efﬁciency and estimation: Texas schools. Annals of Operations Research 66, 255–277.
+Atkinson, S.E., Primont, D., 2002. Stochastic estimation of ﬁrm technology, inefﬁciency, and productivity
+growth using shadow cost and distance functions. Journal of Econometrics 108, 203–225.
+Banker, R.D., Johnston, H.H., 1994. Evaluating the impacts of operating strategies on efﬁciency in the US
+airline industry. In: Charnes, A., Cooper, W.W., Levin, A.Y., Seiford, L.M. (Eds.), Data Envelopment
+Analysis: Theory Methodology and Application. Kluwer Academic Publishers, Inc., Boston,
+pp. 97–128.
+Barros, C.P., 2004. Measuring performance in defence-sector companies in a small NATO membercountry. Journal of Economic Studies 31, 112–128.
+Battese, G.E., Coelli, T.J., 1995. A model for technical inefﬁciency effects in a stochastic production
+function for panel data. Empirical Economics 20, 325–332.
+Berger, A.N., Mester, L.J., 2003. Explaining the dramatic changes in performance of US banks:
+technological change deregulation and dynamic changes in competition. Journal of Financial
+Intermediation 12, 57–95.
+Bickel, P.J., Freedman, D.A., 1981. Some asymptotic theory for the bootstrap. Annals of Statistics 9,
+1196–1217.
+Binam, J.N., Sylla, K., Diarra, I., Nyambi, G., 2003. Factors affecting technical efﬁciency among coffee
+farmers in Côte d’Ivoire: evidence from the centre west region. R&D Management 15, 66–76.
+Burgess, J.F., Wilson, P.W., 1998. Variation in inefﬁciency among US hospitals. Canadian Journal of
+Operational Research and Information Processing (INFOR) 36, 84–102.
+Byrnes, P., Färe, R., Grosskopf, S., Lovell, C.A.K., 1988. The effect of unions on productivity: U.S.
+surface mining of coal. Management Science 34, 1037–1053.
+Carrington, R., Puthucheary, N., Rose, D., Yaisawarng, S., 1997. Performance measurement in
+government service provision: the case of police services in New South Wales. Journal of Productivity
+Analysis 8, 415–430.
+Chakraborty, K., Biswas, B., Lewis, W.C., 2001. Measurement of technical efﬁciency in public education:
+a stochastic and nonstochastic production approach. Southern Economic Journal 67, 889–905.
+Chalfant, J.A., Gallant, A.R., 1985. Estimating substitution elasticities with the Fourier cost function.
+Journal of Econometrics 28, 205–222.
+
+ARTICLE IN PRESS
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+61
+
+Charnes, A., Cooper, W.W., Rhodes, E., 1978. Measuring the inefﬁciency of decision making units.
+European Journal of Operational Research 2, 429–444.
+Charnes, A., Cooper, W.W., Rhodes, E., 1979. Measuring the efﬁciency of decision making units.
+European Journal of Operational Research 3, 339.
+Cheng, T.W., Wang, K.L., Weng, C.C., 2000. A study of technical efﬁciencies of CPA ﬁrms in Taiwan.
+Review of Paciﬁc Basin Financial Markets and Policies 3, 27–44.
+Chilingerian, J.A., 1995. Evaluating physician efﬁciency in hospitals: a multivariate analysis of best
+practices. European Journal of Operational Research 80, 548–574.
+Chilingerian, J.A., Sherman, H.D., 2004. Health care applications: from hospitals to physicians from
+productive efﬁciency to quality frontiers. In: Cooper, W.W., Seiford, L.M., Zhu, J. (Eds.), Handbook
+on Data Envelopment Analysis. Kluwer Academic Publishers, Boston, pp. 265–298 (Chapter 10).
+Chirkos, T.N., Sears, A.M., 1994. Technical efﬁciency and the competitive behavior of hospitals. SocioEconomic Planning Science 28, 219–227.
+Chu, H.L., Liu, S.Z., Romeis, J.C., Yaung, C.L., 2003. The initial effects of physician compensation
+programs in Taiwan hospitals: implications for staff model HMOs. Health Care Management Science
+6, 17–26.
+Coelli, T. 1996. A guide to FRONTIER version 4.1: a computer program for stochastic frontier
+production and cost function estimation. Unpublished Working Paper, Department of Econometrics,
+University of New England, Armidale, Australia
+Coelli, T., 2000. On the econometric estimation of the distance function representation of a production
+technology. Discussion Paper No. 00/42, Center for Operations Research and Econometrics (CORE),
+Université Catholique de Louvain, Louvain-la-Neuve, Belgium.
+Coelli, T., Perelman, S., 2001. Medición de la Eﬁciencia Tćnica en Contextos Multiproducto. In: Álvarez
+Pinilla, A. (Ed.), La Medición de la Eﬁciencia Productividad. Editorial Pirámide, Madrid.
+Coelli, T., Rao, D.S.P., Battese, G.E., 1998. An Introduction to Efﬁciency and Productivity Analysis.
+Kluwer Academic Publishers, Inc., Boston.
+De Borger, B., Kerstens, K., 1996. Cost efﬁciency of Belgian local governments: a comparative analysis of
+FDH DEA and econometric approaches. Regional Science and Urban Economics 26, 145–170.
+Dietsch, M., Weill, L., 1999. Les performances des banques de dépôts franc- aises: une évaluation par la
+méthod DEA. In: Badillo, P.Y., Paradi, J.C. (Eds.), La Méthod DEA. Hermes Science Publications,
+Paris.
+Dusanksy, R., Wilson, P.W., 1994. Technical efﬁciency in the decentralized care of the developmentally
+disabled. Review of Economics and Statistics 76, 340–345.
+Efron, B., Tibshirani, R.J., 1993. An Introduction to the Bootstrap. Chapman and Hall, London.
+Färe, R., 1988. Fundamentals of Production Theory. Springer, Berlin.
+Färe, R., Grosskopf, S., Lovell, C.A.K., 1985. The Measurement of Efﬁciency of Production. KluwerNijhoff Publishing, Boston.
+Farrell, M.J., 1957. The measurement of productive efﬁciency. Journal of the Royal Statistical Society,
+Series A 120, 253–281.
+Fried, H.O., Lovell, C.A.K., Vanden Eeckaut, P., 1993. Evaluating the performance of U.S. Credit
+Unions. Journal of Banking and Finance 17, 251–265.
+Fried, H.O., Lovell, C.A.K., Yaisawarng, S., 1999a. The impact of mergers on credit union service
+provision. Journal of Banking and Finance 23, 367–386.
+Fried, H.O., Schmidt, S.S., Yaisawarng, S., 1999b. Incorporating the operating environment into a
+nonparametric measure of technical efﬁciency. Journal of Productivity Analysis 12, 249–267.
+Fried, H.O., Lovell, C.A.K., Schmidt, S.S., Yaisawarng, S., 2002. Accounting for environmental effects
+and statistical noise in data envelopment analysis. Journal of Productivity Analysis 17, 157–174.
+Garden, K.A., Ralston, D.E., 1999. The x-efﬁciency and allocative efﬁciency effects of credit union
+mergers. Journal of International Financial Markets, Institutions and Money 9, 285–301.
+Gattouﬁ, S., Oral, M., Reisman, A., 2004. Data envelopment analysis literature: a bibliography update
+(1951–2001). Socio-Economic Planning Sciences 38, 159–229.
+Gijbels, I., Mammen, E., Park, B.U., Simar, L., 1999. On estimation of monotone and concave frontier
+functions. Journal of the American Statistical Association 94, 220–228.
+
+ARTICLE IN PRESS
+62
+
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+Gillen, D., Lall, A., 1997. Developing measures of airport productivity and performance: an application of
+data envelopment analysis. Transportation Research Part E 33, 261–272.
+González, B., Barber, P., 1996. Changes in the efﬁciency of Spanish public hospitals after the introduction
+of program-contracts. Investigaciones Económicas 20, 377–402.
+Guilkey, D.K., Lovell, C.A.K., Sickles, R.C., 1983. A comparison of the performance of three ﬂexible
+functional forms. International Economic Review 24, 591–616.
+Hall, P., 1986. On the number of bootstrap simulations required to construct a conﬁdence interval. The
+Annals of Statistics 14, 1453–1462.
+Hall, P., 1992. The Bootstrap and Edgeworth Expansion. Springer, New York.
+Hirschberg, J.G., Lloyd, P.J., 2002. Does the technology of foreign-invested enterprises spill over to other
+enterprises in China? An application of post-DEA bootstrap regression analysis. In: Lloyd, P.J., Zang,
+X.G. (Eds.), Modelling the Chinese Economy. Edward Elgar Press, London.
+Honoré, B.E., Powell, J.L., 1994. Pairwise difference estimators of censored and truncated regression
+models. Journal of Econometrics 64, 241–278.
+Huang, C.J., Liu, J.T., 1994. Estimation of a non-neutral stochastic frontier production function. Journal
+of Productivity Analysis 5, 171–180.
+Isik, I., Hassan, M.K., 2002. Technical, scale, and allocative efﬁciencies of Turkish banking industry.
+Journal of Banking and Finance 26, 719–766.
+Kaligajan, K.P., Shand, R.T., 1985. Types of education and agricultural productivity. Journal of
+Development Studies 21, 222–245.
+Kirjavainen, T., Loikkanen, H.A., 1998. Efﬁciency differences of Finnish senior secondary schools: an
+application of DEA and tobit analysis. Economics of Education Review 17, 377–394.
+Kneip, A., Park, B.U., Simar, L., 1998. A note on the convergence of nonparametric DEA estimators for
+production efﬁciency scores. Econometric Theory 14, 783–793.
+Kneip, A., Simar, L., Wilson, P.W., 2003. Asymptotics for DEA estimators in non-parametric frontier
+models, Discussion Paper No. 0317, Institut de Statistique, Université Catholique de Louvain,
+Louvain-la-Neuve, Belgium.
+Kooreman, P., 1994. Nursing home care in The Netherlands: a nonparametric efﬁciency analysis. Journal
+of Health Economics 13, 301–316.
+Korostelev, A., Simar, L., Tsybakov, A.B., 1995. On estimation of monotone and convex boundaries.
+Publications des Instituts de Statistique des Universités de Paris 39, 3–18.
+Kumbhakar, S.C., Ghosh, S., McGuckin, J.T., 1991. A generalized production frontier approach for
+estimating determinants of inefﬁciency in U.S. dairy farms. Journal of Business and Economic
+Statistics 9, 279–286.
+Lewbel, A., Linton, O., 2002. Nonparametric censored and truncated regression. Econometrica 70, 765–779.
+Lovell, C.A.K., Walters, L.C., Wood, L.L., 1994. Stratiﬁed models of education production using
+modiﬁed DEA and regression analysis. In: Charnes, A., Cooper, W.W., Lewin, A.Y., Seiford, L.M.
+(Eds.), Data Envelopment Analysis: Theory, Methodology, and Applications. Kluwer Academic
+Publishers, Boston.
+Luoma, K., Järviö, M.-L., Suoniemi, I., Hjerppe, R.T., 1996. Financial incentives and productive
+efﬁciency in Finnish health services. Health Economics 5, 435–445.
+Maddala, G.S., 1988. Introduction to Econometrics. Macmillan Publishing Co., Inc, New York.
+McCarty, T.A., Yaisawarng, S., 1993. Technical efﬁciency in New Jersey school districts. In: Fried, H.O.,
+Lovell, C.A.K., Schmidt, S.S. (Eds.), The Measurement of Productive Efﬁciency. Oxford University
+Press, New York.
+McMillan, M.L., Datta, D., 1998. The relative efﬁciencies of Canadian universitites: a DEA perspective.
+Canadian Public Policy—Analyse de Politiques 24, 485–511.
+Meeusen, W., van den Broeck, J., 1977. Efﬁciency estimation from Cobb–Douglas production functions
+with composed error. International Economic Review 18, 435–444.
+Mukherjee, K., Ray, S.C., Miller, S.M., 2001. Productivity growth in large US commercial banks: the
+initial post-deregulation experience. Journal of Banking and Finance 25, 913–939.
+Nyman, J.A., Bricker, D.L., 1989. Proﬁt incentives and technical efﬁciency in the production of nursing
+home care. Review of Economics and Statistics 71, 586–594.
+
+ARTICLE IN PRESS
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+63
+
+O’Donnell, C.J., van der Westhuizen, G., 2002. Regional comparisons of banking performance in South
+Africa. South African Journal of Economics 70, 485–518.
+Okeahalam, C.C., 2004. Foreign ownership, performance and efﬁciency in teh banking sector in Uganda
+and Botswana. Journal for Studies in Economics and Econometrics 28, 89–118.
+Olsen, R., 1978. A note on the uniqueness of the maximum likelihood estimator in the tobit model.
+Econometrica 46, 1211–1215.
+Otsuki, T., Hardle, I.W., Reis, E.J., 2002. The implications of property rights for joint agriculture-timber
+productivity in the Brazilian Amazon. Environment and Development Economics 7, 299–323.
+Pitt, M.M., Lee, L.F., 1981. The measurement and sources of technical inefﬁciency in the Indonesian
+weaving industry. Journal of Development Economics 9, 43–64.
+Puig-Junoy, J., 1998. Technical efﬁciency in the clinical management of critically ill patients. Health
+Economics 7, 263–277.
+Raczka, J., 2001. Explaining the performance of heat plants in Poland. Energy Economics 23,
+355–370.
+Ralston, D., Wright, A., Garden, K., 2001. Can mergers ensure the survival of credit unions in the third
+millennium? Journal of Banking and Finance 25, 2277–2304.
+Ray, S.C., 1988. Data envelopment analysis nondiscretionary inputs and efﬁciency: an alternative
+interpretation. Socio-Economic Planning Science 22, 167–176.
+Ray, S.C., 1991. Resource-use efﬁciency in public schools: a study of Connecticut data. Management
+Science 37, 1620–1628.
+Ray, S.C., 2004. Data Envelopment Analysis: Theory and Techniques for Economics and Operations
+Research. Cambridge University Press, Cambridge.
+Reifshneider, D., Stevenson, R., 1991. Systematic departures from the frontier: a framework for the
+analysis of ﬁrm inefﬁciency. International Economic Review 32, 715–723.
+Resende, M., 2000. Regulatory regimes and efﬁciency in US local telephony. Oxford Economic Papers 52,
+447–470.
+Rhodes, E.L., Southwick Jr., L., 1993. Variations in public and private university efﬁciency. In: Rhodes,
+E.L. (Ed.), Applications of Management Science, vol. 7. JAI Press, Inc., Greenwich, CT.
+Rosko, M.D., Chilingerian, J.A., Zinn, J.S., Aaronson, W.E., 1995. The effects of ownership operating
+environment, and strategic choices on nursing home efﬁciency. Medical Care 33, 1001–1021.
+Ruggiero, J., 2004. Performance evaluation in education: modeling educational production. In: Cooper,
+W.W., Seiford, L.M., Zhu, J. (Eds.), Handbook on Data Envelopment Analysis. Kluwer Academic
+Publishers, Boston, pp. 265–298 (Chapter 10).
+Sexton, T.R., Sleeper, S., Taggart Jr., R.E., 1994. Improving pupil transportation in North Carolina.
+Interfaces 24, 87–103.
+Sheather, S.J., Jones, M.C., 1991. A reliable data-based bandwidth selection method for kernel density
+estimation. Journal of the Royal Statistical Society B 53, 684–690.
+Shephard, R.W., 1970. Theory of Cost and Production Function. Princeton University Press, Princeton.
+Sickles, R.C., Good, D.H., Getachew, L., 2002. Speciﬁcation of distance functions using semi- and
+nonparametric methods with an application to the dynamic performance of eastern and western
+European air carriers. Journal of Productivity Analysis 17, 133–155.
+Simar, L., Wilson, P.W., 1998. Sensitivity analysis of efﬁciency scores: how to bootstrap in nonparametric
+frontier models. Management Science 44 (11), 49–61.
+Simar, L., Wilson, P.W., 1999a. Some problems with the Ferrier/Hirschberg bootstrap idea. Journal of
+Productivity Analysis 11, 67–80.
+Simar, L., Wilson, P.W., 1999b. Of course we can bootstrap DEA scores! But does it mean anything?
+Logic trumps wishful thinking. Journal of Productivity Analysis 11, 93–97.
+Simar, L., Wilson, P.W., 2000a. A general methodology for bootstrapping in nonparametric frontier
+models. Journal of Applied Statistics 27, 779–802.
+Simar, L., Wilson, P.W., 2000b. Statistical inference in nonparametric frontier models: the state of the art.
+Journal of Productivity Analysis 13, 49–78.
+Simar, L., Wilson, P.W., 2001a. Testing restrictions in nonparametric efﬁciency models. Communications
+in Statistics 30, 159–184.
+
+ARTICLE IN PRESS
+64
+
+L. Simar, P.W. Wilson / Journal of Econometrics 136 (2007) 31–64
+
+Simar, L., Wilson, P.W., 2001b. Aplicación del bootstrap para estimadores D.E.A. In: Álvarez Pinilla, A.
+(Ed.), La Medición de la Eﬁciencia y la Productividad. Pirámide, Madrid.
+Simar, L., Wilson, P.W., 2004. Performance of the bootstrap for DEA estimators and iterating the
+principle. In: Cooper, W.W., Seiford, L.M., Zhu, J. (Eds.), Handbook on Data Envelopment Analysis.
+Kluwer Academic Publishers, Boston, pp. 265–298 (Chapter 10).
+Stanton, K.R., 2002. Trends in relationship lending and factors affecting relationship lending efﬁciency.
+Journal of Banking and Finance 26, 127–152.
+Turner, H., Windle, R., Dresner, M., 2004. North American containerport productivity: 1984–1997.
+Transportation Research Part E 40, 339–356.
+Wang, K.L., Tseng, Y.T., Weng, C.C., 2003. A study of production efﬁciencies of integrated securities
+ﬁrms in Taiwan. Applied Financial Economics 13, 159–167.
+Wheelock, D.C., Wilson, P.W., 2000. Why do banks disappear? The determinants of US bank failures and
+acquisitions. Review of Economics and Statistics 82, 127–138.
+Wheelock, D.C., Wilson, P.W., 2001. New evidence on returns to scale and product mix among US
+commercial banks. Journal of Monetary Economics 47, 653–674.
+Wilson, P.W., 2003. Testing independence in models of productive efﬁciency. Journal of Productivity
+Analysis 20, 361–390.
+Wilson, P.W., Carey, K., 2004. Nonparametric analysis of returns to scale and product mix among U.S.
+hospitals. Journal of Applied Econometrics 19, 505–524.
+Worthington, A.C., Dollery, B.E., 2000. Productive efﬁciency and the Australian local government grants
+process. Australian Journal of Regional Studies 6, 95–121.
+Wu, C.F.J., 1986. Jackknife bootstrap and other resampling methods in regression analysis. Annals of
+Statistics 14, 1261–1295.
+Xue, M., Harker, P.T., 1999. Overcoming the inherent dependency of DEA efﬁciency scores: a bootstrap
+approach. Unpublished Working Paper, Wharton Financial Institutions Center, University of
+Pennsylvania.
+
+

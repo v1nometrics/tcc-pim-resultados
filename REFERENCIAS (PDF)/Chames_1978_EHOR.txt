@@ -1,0 +1,1859 @@
+Measuring the
+efficiency of
+decision making
+units
+
+1. Introduction
+
+This paper is concerned with developing measures
+of 'decision making efficiency' with special reference
+to possible use in evaluating public programs. As we
+shall use it, the term 'program' will refer to a collection of decision making units (DMU's) with common
+inputs and outputs. These outputs and inpms will
+usually be multiple in character and may also assume
+a variety of forms which admit of only ordinal measurements. For example, in an educational program
+like 'Follow Through' l, the efficiency of various
+schools, viewed as DMU's in this program, may be
+measured by reference to outputs involving the standard education categories: viz., cognitive, affective
+and psycho-motor skills via, respectively, (1) arithmetic scores, (2) psychological tests of student attitudes, e.g., toward the c o m m u n i t y and (3) student
+ability to understand and control bodily motions,
+e.g., by observing their ability to tread water and
+turn from front to back (and vice versa) in a swimming pool 2. These are all to be regarded as 'valued'
+outputs even when there is no apparent market for
+them or even when other possible sources for reasonably supportable systems of weights are not readily
+available. The inputs may similarly range from fairly
+easy to measure (and weight) quantities like 'number
+of teacher hours' and extend to more difficult ones
+line 'time spent in program activities by c o m m u n i t y
+leaders and/or parents'.
+Our use of terms like 'DMU' (decision making
+unit) and 'programs' will help to emphasize that ~ur
+interest is centered on decision making by not-forprofit entities rather than the more customary 'firms'
+and 'industries'. It will also help us to ernphasiz;
+that our data (as in the above example) are not readfly weighted by reference to market prices "~and/or
+other economic desiderata - such as costs of producing income earning capacity in students, with
+related rates of discount - in accordance with the
+
+A. CHARNES
+The University o f Texas, Austin TX, U.S.A.
+
+W.W. COOPER
+Graduate School o f Business Administration, Harvard
+University, Cambridge MA, U.S.A.
+
+E. RHODES
+State University o f New York at Buffalo, Albany NY, b:S.A.
+
+A nonlinear (nonconvex) programming model provides a
+new definition of efficiency for use in evaluating activities of
+not-for-profit entities participating in public programs. A
+scalar measure of the efficiency of each participating unit is
+thereby provided, along with methods for objectively determining weights by reference to the observational data for
+the multiple outputs and multiple inputs that characterize
+such programs. Equivalences are established to ordinary
+linear programming models for effecting computations. The
+duals to these linear programming models provide a new way
+for estimating extremal relations from observational data.
+Connections between engineering and economic approaches
+to efficiency are delineated along with new interpretations
+and ways of using them in evaluating and controlling managerial behavior in public programs.
+
+This paper represents a revision of earlier versions entitled,
+respectively, 'Exposition:, Interpretations, and Extensions of
+the Farrell Efficiency Measure', and 'Measuring the Efficiency
+of Decision Making Units With Some New Production Functions and Estimation Methods'. See [ 11 ], [ 12] and also [9].
+This research was partly supported by NSF Grant No.
+$OC76-15876 'Collaborative Research on the Analytical
+Capabilities of a Goals Accounting System'. It is also part of
+the program of the Navy Personnel Research and Development Center and is partly supported by Project NR 047-021,
+ONR Contract N00014-75-C-0616 with the Center for
+Cybernetic Studies, The University of Texas, and ONR Contract N00014-76-C-0932 at Carnegie-Mellon University
+School of Urban and Public Affairs.
+
+A discussion of this Federally sponsored program which
+includes a use of the efficiency measures we shall be discussing may be found in [21]. This includes a use of
+various statistical tests of significance (using the so called
+Kullback-Leibler statistic), which will not be discussed in
+the present paper.
+See the discussion in [31 for a use of measures like these
+in program- planning- budgetir~g (PPBS) contexts.
+We are referring to actual market prices and costs. Later
+we shall show how to obtain estimates of (optimal) production coefficients and relate them to theoretical (opportunity) costs and prices.
+
+© North-Holland Publishing Company
+European Journal of Operational Research 2 (1978)429-444.
+429
+
+430
+
+A. Charne~ et aL /Meamring the efficiency o f dicision making units
+
+ways in which some public sector activities are sometimes evaluated.
+Naturally we shall want to relate our ideas to
+developments in economics. This will be done by
+reference to production functions and related concepts such as "cost duality', etc. Although adaptations of these concet~ts will be needed we shall also
+try to indicate wl~at is involved at suitable points in
+this paper. (See below, Section 6, for instance.)
+"ige shall also want to relate our ideas to other
+disciplines, iike engineering, which are also concerned
+with efficiency measurement. This will be done not
+only in the interests of greater unity but also in the
+interest of distinguishing between efficiencies associated with an underlying production 'technology'
+and those due to managerial decision making when
+the former can be identified and separated from the
+latter by, e.g., engineering characterizations.
+Of course, when this cannot be done (the usual
+case in empirical economics) 4 we will need to rest
+content with the somewhat less satisfactory concept
+of 'relative efficiency'. The latter will be determined
+by reference to suitably arranged 'rankings' of the
+observed results of decision making by various DMU's
+in the same program (e.g., the different schools in
+program Follow Through)while allowing for the
+fact that different amounts of inputs (sometimes
+legally stipulated) may be involved so that, e.g.,
+some DMU's are more like members of one subset
+and less like members of other subsets, etc., in the
+'amounts' of particular inputs and outputs utilized.
+The meaning and significance to be accorded these
+characterizations will be clarified in the sections that
+follow. First we shall introduce our proposed measures and models. Then we shall provide characterizations which are wholly computatienal. Relations to
+selected lines of ongoing research will be delineated,
+followed by methods of estimation and interpretation
+in terms of simple numerical illustrations and analytical characterizations. A concluding section will then
+summarize what has been done and point up relevant
+shortcomings along with possible further lines of
+development.
+
+4 Such separation is even more difficult ha public sector programs such as education, public safety, etc., where the
+meaning of a 'technology' is likely to be more ambiguous
+than in the case of manufaet'aring ha the private sector,
+and even many service operations.
+
+2. Model and definition
+Our propo~d measure of the efficiency of any
+UMU is obtained as the maximum of a ratio of
+weighted outputs to weighted inputs subject to the
+c,mdition that the similar ratios for every DMU be
+less than or equal to unity. In more precise form,
+$
+
+naax ho -
+
+~ UrYrO
+r=l
+
+(1)
+
+m
+~
+
+i= 1
+
+OiXio
+
+~abject to:
+$
+
+r=1
+
+urYri
+
+<1;
+
+/=l,...,n,
+
+r= 1, ...,s ;
+
+i = 1, ...,m.
+
+m
+
+i= I
+t,!r, V i ) O ,
+
+vixi/
+
+lte~e the Yr], xi/(all positive)are the known outputs
+~nd inputs of the/th DMU and the Ur, vi >I 0 are the
+variable weights to be determined by the solution of
+this problem -- e.g., by the data on all of the DMU's
+which are being used as a reference set. The efficiency
+~f one member of this reference set of] = l, .... n
+I)MU's is to be rated relative to the others. It is therefore represented in the functional, for optimization as well as in the constraints - and further distint~ished by assigning it the subscript '0' in the functional (but presetting its original subscript in the
+constraints). The indicated maximization then accords
+~his DMU the most favorable weighting that the con~;traints allow.
+For the DMU's which concern us, these x i / a n d Yr]
+,ralues, which are constants, will usually be observations from past decisions on inputs and the outputs
+chat resulted therefrom. We can, however, replace
+:;ome or all of these observations by theoretically
+Jetermined values if we wish (and are able) to con:luct our efficiency evaluations in that manner.
+Consider, for instance, the following definition
+~quoted from [14]) from the field of combustion
+~ngineering - viz., 'efficiency is the ratio of the actual
+amount of hea~: liberated in a given device to the
+maximum amount which could be liberated by the
+fuel [being used]'. In symbols,
+- Y,h'n
+
+A. Charnes et al. / Measuring the efficiency o f dicision making units
+
+where
+YR = Maximum heat that can be obtained from a
+
+~ven input of fuel,
+Yr = Heat obtained by the input being rated from
+the same fuel input.
+Although the definition of efficiency varies from one
+engineering field to another, the one above captures
+the essentials - viz., the rating is relative to some
+maximum possibility so that, always, 0 ~ Er ~ I.
+We can also obtain the above defined Er from (1)
+as follows. For any given input amount x substitution
+in (1) gives
+max ho =
+
+uYo
+ox o
+
+s.t.
+
+UYR
+~<1
+OXR
+
+,
+
+uyr
+~<1,
+VXr
+u , v >~O,
+
+where r = 0 in the functional designates that the latter
+is being rated.
+Let u*, u* represent an optimal pair of values.
+Since YR >I Yr and x R - Xr = X this implies u * y e =
+V*xR and using Xo = x we then have the functional
+equal tOyr/YR as required.
+In common with most engineering definitions we
+have here confined our development to ratios of
+single outputs and/or inputs, or weighted sums thereof. The latter may be determined, again by engineering considerations (e.g., efficient fuel combinations),
+which are ordinarily not available for the economic
+applications we are considering. Provided we have
+the indicated observations on inputs and outputs for
+individual ~DMU ,s, however, we can at least achieve
+'relative efficiency' ratings along the lines that we
+have been suggesting. This is the way the rest of the
+paper will be developed although, as already indicated, we can also insert engineering or other data
+for such ratings, if we wish, in various combinations.
+Note that our weightings, as above, are objectively
+determined to obtain a (dimensionless) scalar measure of efficiency in any case s. I.e., the choice of
+weights is determined directly from observational
+data subject only to the constraints set forth in (1).
+Under these observations and constraints no other
+5 Scaling and invariance properties wMch are dealt with in
+[ 12] - see also [21 ] - will not be discussed in this paper.
+
+431
+
+set of common weights will give a more favorable
+rating relative to the reference set. Hence if a (relative) efficiency r;ting of 100% is not attained under
+this set of weights then it will also not be attained
+from any other set.
+3. Reduction to linear programming forms
+
+The above model is an extended nonlinear programming formulation of an ordinary fractional programming problem. We have elsewhere (in [ 10] and
+[7]) supplied a complete theory in terms of which
+fractional programming problems may be replaced
+with linear programming equivalents. We dlerefore
+propose to use that theory here to make the above
+formulation computationally tractable for tt~e large
+numbers /(n) of observations as well as the smaller
+numbers of inputs i(m) and outputs r(s) which are
+likely to be of interest at least in economics applications.
+.
+We shall do this in a way that should provide
+further conceptual clarity (and flexibility) and also
+facilitate our making contact with related developments in economics. First consider the following
+model which is the reciprocal (inefficiency) measure
+version of (1):
+m
+
+~ OiXio
+i= 1
+
+min f0 = -
+
+(2)
+
+$
+
+UrYrO
+r = 1
+
+subject to:
+m
+
+i= 1
+
+vixii
+
+>tl;
+
+] = 1 .... , n ,
+
+$
+
+urYd
+r= 1
+
+vi, ur >~ 0 .
+
+Now we propose to ieplace these nonconvex nonlinear formulations with an ordinary linear programming problem. We therefore first consider
+max z 0
+
+(3)
+
+subject to:
+n
+
+- ~ yr/X/+ YroZo <<-0 ;
+]---1
+
+r = 1,...,s,
+
+432
+
+A. Charnes et aL / Mea;uring the e[fleieney o f dicision making units
+
+n
+
+/=1
+
+xiiXj < X i o
+
+;
+
+i = 1, . . . , m ,
+
+Xi~>0;
+
+j = l .... , n .
+
+Because (3) is an ordinary linear pro~amming problem it has a Knear programming dual which we can
+write as follows:
+m
+
+min go =
+
+~
+
+(4)
+
+WiXiO
+
+i= 1
+
+several standpoints. We have a completely symmetric
+definition of efficiency which generalizes single output ratio definitions not only in economies but in
+engineering and other natural sciences. We do not
+need to solve the nonlinear (and noneonvex) problems in which these definitions are forraalized. We
+need only solve the ordinary linear programming
+problem (4) in order to obtain both the optimal f~
+or h l and the weights v/', u~ ~ 0, since the change in
+variables does not alter the value of the functional.
+Thus,
+
+subject to:
+f~ =g~ =z~
+$
+
+(7.1)
+
+m
+
+and therefore
+r=l
+
+r=l
+
+i=1
+
+=1,
+
+larYro
+
+lZr, Wi >~ O .
+
+Because of the structure of (4) one can recognize
+that it is equivalent to an ordinary linear fractional
+programming problem. (See [ 10] and [7] .) In fact,
+utilizing the theory of linear fractional programming
+with the transformation
+¢oi = toi ;
+
+i = l .... , m ,
+
+lar = tU r ;
+
+r = 1 . . . . . S,
+
+t-1 = ~
+
+Also we have the wanted relative weights. Thus
+nothing more is required than the solution of (4) or
+(3) in order to determine whetherf~ > 1 or, correspondingly, whether h l < 1, with efficiency prevailing if and only if
+f(~ = h i = 1.
+
+(7.3)
+
+We can also effect extensions in a variety of additional (new) directions 6. Here, however, we prefer to
+make contact with various developments and also
+sketch a few of the ideas that are elsewhere described
+as Data Envelopment Analysis 7 For this purpose we
+introduce
+I Yi\
+
+~rYrO ,
+
+Pi =~ : ~ •
+
+r
+
+/ = l , .-o9 n ,
+
+(8)
+
+~ j ..¢'/ ]k ,
+
+which, with t > 0, gives explicitly
+
+~,herein the subvector Yi contains observed output
+caluesy d, r = 1, ..., s for its components and the sub~ector X~ contains observed input values xii, i = 1,
+
+$
+
+~--l O i X iO
+i= 1
+rflin fo =
+
+(7.2)
+
+hl = l[z~.
+
+• .$ ~n,.
+
+(6)
+
+$
+
+~
+
+UrYrO
+
+r=1
+
+Now consider the following vector reformulation
+,if(3):
+maxz0
+
+(9)
+
+subject to:
+in
+
+$
+
+oix j i= 1
+
+u , y , i >1 o ;
+
+] = 1. . . . . n ,
+
+r= 1
+
+vi, u r n > 0 ,
+as the linear fractional programming equivalent of (4).
+By very evident manipulations, however, we can see
+that (6) is the same as (2). Hence we can use (4) to
+solve (6) and therefore (2) and (1) as well. Q.E.D.
+We are now in ~ advantageous position from
+
+For instance, we could utilize the duality theory that is
+now associated with fractional programming (as discussed
+in [18] and [25] -see also [5] and [7])as distinguished
+Iron" the duality theory of ordinary linear programming or
+what is sometimes called duality theory (see l:elow) in cost
+and production theory.
+This is a method for adjusting data to prescribed theoretical
+requirements such as optimal production surfilces, etc.,
+prior to undertaking various statistical tests fc.r purposes of
+public policy analysis. See [21 ].
+
+A. Charnes et al. [ Measuring the efficiency of dicision making units
+
+with
+n
+
+- Z~ Dxj + ro~o < 0 ,
+j=l
+n
+
+23 x~xj
+
+<Xo,
+
+t-=l
+
+xj~>0;
+
+/ = l , ..., n .
+
+Let its optimal solution in the equivalent equation
+form with slack variables be represented by
+
+z~, s *+, s*-, X]~ ;
+
+/ = 1, . . . , n ,
+
+433
+
+jective computation of the w e i ~ t s from (4) 9, as
+already discussed, will suffice to produce what is
+wanted by direct substitution in (1).
+Now suppose we want to adjust all observations
+for purposes, say, of evaluating a program's potential
+for a given DMU on the assumption that this program
+is efficiently managed by the specified DMU. This
+can be done by applying (11) in the following manner.
+First, for a selected DMU we proceed via (9) to
+obtain the solution (10). Then we form a new problem from these data and their solution - viz.,
+max Zo
+
+(I0)
+
+(! 2)
+
+with
+where s *+ represents a vector of non-negative slack
+associated with the output inequalities and s*- represents a vector of non-negative slack associated with
+the input inequalities. If z~ > 1 then via (7.1)-(7.3)
+the efficient frontier of the production possibility
+surface has n o t been attained.
+Here, however, we can observe something more. If
+s *+ has any positive components then it is possible to
+increase the associated outputs in the amounts of
+these slack variables without altering any of the X]'
+values and without violating any constraints. Similarly if s*- has any positive components then we can
+reduce the inputs from ,go to Xo - s*- in an analogous manner. Thus, in either case the DMU being
+evaluated has not achieved (relative) efficiency even
+with z~ = 1. That is, unlike (1)and (2), the subsequent models for characterizing efficiency do not
+necessarily determine whether the DMU is efficient
+only by reference to the optimal functional value.
+For ease of reference, we summarize what is involved for these latter cases as follows. No DMU can
+be rated as efficient unless the following conditions
+are both satisfied
+(i)
+
+z~= 1,and
+
+(ii)
+
+The slack variables are all zero.
+
+n
+
+- Z) DXj + (roz~ + ~*+1io < o,
+j= 1
+I'!
+
+i=l
+
+xjXj
+Xj>~O;
+
+< Xo - c - ,
+j = l .... , n .
+
+We shall refer to (12) as the 'varied problem' and
+show that it may be used to eliminate all the ir~efficiencies detected in proceeding from (9) to (lO).
+This includes (a) reducing inputs from the original
+,go vector of observations to the new (adjusted) input
+vector X0 - s*-, and also (b) increasing the originally
+observed output vector Yo to new (adjusted) v;~!ues
+(Yoz;
+
++
+
+s*+).
+
+We now show that the thus adjusted observatkm~:.
+satisfy the conditions for efficiency in (l 1) as f<)Hows
+F',idently, we must have ~ >1 1 since k~ = t in (12
+together with (10) gives us the already secured optimal solution to (9). Now suppose we could have
+~ > I in (12). This would yield
+n
+
+(ll)
+
+lit may be observed that these conditions are also the
+conditions for Pareto efficiency a _ extended to
+cover production as well as consumption. Note that
+this assumes that a reduction in any input or an expansion in any output has some value, it does not
+require that these values be stipulated or prescribed
+in advance in any way. Indeed if efficiency measures
+are to be restricted to a scalar measure only, then ob8 Also called Pareto-Koopmans efficiency. See Chapter IX
+in [81.
+
+- 23 rjx; + r o s y ;
+j= 1
+
+< _ ~
+
+r'~X; + (Yoz~ + s**) ~;~ < 0 ,
+
+]= 1
+l'l
+
+/=1
+
+siX; <So- ,*- <So,
+
+9 When an extreme point method, such as the simplex
+method, is used then either (3) or (4) may be used ~ince,
+as is well known, these methods sgrnultaneou~ly produce
+optimal solutions to both problems. See, e.g., [8].
+
+434
+
+A. Chimes et al. / Measuring the efficiency of diciaon making units
+
+fince s °+ and s * - are both non-negative. Evidently,
+the expressions on the ~eft then satisfy the 'unvaried
+problem' (9) with z~ in place of z~, and ~* in place
+of X~. However, then also
+Max z o >1ZoZ*
+"* > z~
+
+when ~ > 1, But z~ = max z6, by hypothesis. Thus a
+contradiction occurs which proves that z~ = I is the
+optimal value for the varied problem (12).
+Now we want to show that the optimal solution,
+~,~, j = 1.... , n, to the unvaried problem (9) is an optimal solution to the varied problem (12) with zero
+slack, i.e., the vectors s*+ and ~*- have zeros in all
+components as required for efficiency. First, via (10)
+n
+
+-
+
+rjV
+
++ roz
+
+]= 1
+
+Z) xjv
+
+- X o - s'-
+
+j= 1
+
+Thus ~j* is a feasible solution of the varied problem
+with zo = 1. That is
+n
+
+-
+
+/= !
+
+YJV + (Yoz
+
++ s *÷)
+
+-- 0
+
+n
+
+/-- 1
+
+xjV
+
+- xo -
+
+with Zo = 1. It is also optimal since a~ we have just
+showta, z~ = i. Further, the optimal slacks s*+ and
+s * - are all zero. Q.E.D.
+In short, the indicated adjustments do, in fact,
+always bring the original observations into the relevant efficient produ,ztion set. No new computations
+are required after the z~, s*- adjustments are effected
+for the original Yo, Xo data for the efficiency comparisons we may subsequently want to make.
+As we shall shortly see - in sectien (6) below we can use these results to obtain a surface corresponding to a well-defined relation between output
+and inputs. For the single output case this relation
+corresponds to a function in which output is maximal
+for all the indicated inputs. It therefore formally full'dis the requirements of a 'production function' er,
+more generally, a 'production possibility surface' lo
+I0 We are using this term in these sense of the activity vectors discussed in Arrow and Hahn [4 ]. Indeed, in Section
+5, below, we shall explicitly show how our duality charac-
+
+in the case of multiple outputs, in this manner we
+obtain a new type of production function which has
+a ~,afiety of advantages that we shall indicate as we
+pl oceed. Here we may adumbrate some of these advzntages in a summary way as follows. Unlike other
+t~ pes of production functions, this one derives from
+(and is therefore directly applicable to) empirical
+observations. It also bypasses the intractable problems of aggregations associated with other types of
+pl oduction functions It and, finally, it lends itself to
+comparative statics for such purposes as determining
+whether technological change is occurring. These
+'comparative' static uses may be accomplished in
+various ways such as adopting the com,ention that
+the same DMU is to be regarded as a different entity
+in each relevant time period.
+By means of these production function concepts
+and the procedures we shall associate with them, the
+requirements of economic theory may then be
+brought to bear in new and modified ways for public
+policy evaluations, and, at the same time, provide a
+variety of new predictiorL~ and control possibilities
+for program managers - Le., managers, legislators,
+e~c., who have total program responsibility. For
+example, it then becomes possible to distinguish between the 'program efficiency' - that may be predicted with efficient managemem - and to distinguish
+this from other predictions (and evaluations) that
+might be effected on the assumption that all managers
+will continue to operate only at past levels of efficiency 12. Similarly, it is possible to allow for predictions of future changes in technology instead of
+assuming that a static longru,~ production function
+has been achieved - as is presently being done in
+many of the extant studie: for energy policy guidance
+in Western countries.
+This may all be accom[llshed, we should note,
+with~mt interferhag with s absequent statistical testing
+arm evaluation. As in the DEA approach which we
+discuss elsewhere, these s Latistieal tests, which are
+terization may be used to secure numerical estimates of
+these coefficient values (or, rather, their production function counterparts) from ob~rvational data.
+11
+Disaggregation may be necessary, however, when data on
+individual DMU'sare not available. See the guidelines
+supplied in [12] and [21 ]. For a discussion and an attempt
+t~Jdeal with the difficulties of aggregation in other types
+of production functions, see [ 24 ].
+12
+See [21 ] for further discussion and a detailed application
+that distinguishesbetween 'program efficiency' and
+'manager~l efficiency' in 'Program Follow Throu~' of
+the U.S. Office of Education.
+
+435
+
+A. Charnes et al. /Measuring the efficiency o f dicision making units
+
+applied after the indicated adjustments, are often
+greatly simplified relative to other alternatives. Proceeding without first effecting such adjustments in
+the data would not only fail to utilize the underlying
+theory-, it would also contradict the requirements of
+that theory unless (a) one can assume that all DMU's
+are operating efficiently or (b) one can supply some
+alternate method of allowing for observations wl'dch
+are n o t on the efficient prod:,.ction possibility
+frontier 13.
+
+n
+
+/= !
+
+xi/Xj <x;o
+
+X/DO"
+
+i = 1 .... , m
+
+j=l,...,n
+
+where, because we are concerned with only one output, the extra subscript is dropped on the y / f o r each
+of the j = 1.... , n DMU's. Making the scaling change
+of variables Xj = X j y j , z o = Z'o/Yo, then dropping the
+primes and the constant multiplier 1/y o in the functional, we obtain the equivalent form,
+/I
+
+4. Isoquant analysis and Farrell efficiency
+
+m a x Zo = Z )
+
+We proceed to still further implications of our
+definitions of efficiency and its production - economics - management consequences. For this we
+turn to the more familiar form of isoquant analyses,
+and related production function concepts. This will
+also allow us to make contact with the important
+work initiated by M.J. Farrell [ 15 ] 14
+First we will undertake the wanted clarification
+(and provide contact) via an isoquant analysis which
+corresponds to the one that Farrell used. Then we
+shall supply a model for generating the related efficient surface for the production function. We will
+also relate the latter to an associated cost function,
+and an extension of Shephard's lemma. Then we
+shall exhibit further relations between this and Farrell
+efficiency, in between we shall show how the duals
+(See [8], [12] and also [13].) to our models may be
+used to provide a new way of estimating production
+function coefficients either in their own right or in
+association with statistical estimation techniques
+(e.g., via the DEA approach outlined at the close of
+the last section).
+To initiate these developments we first observe
+that we are now concerned with the caee of only one
+output, which is the same for every DMU. In this
+case (3) specializes to
+
+subject to:
+
+max go
+subject to:
+I'1
+
+- ~ y/X/+ yoZo < o ,
+j- 1
+
+! 3 For a discussion of problems involved in dealing with
+such estimation problems even in the case of a single
+output and very few inputs see [1] and [2].
+14 Examples involving continuation of this work may be
+found in [ 2 ] and [ 16 ].
+
+(14)
+
+j= !
+
+(13)
+
+n
+
+j= 1
+
+'.
+xi/' a, <~Xio
+
+i = 1, ..., m ,
+
+x/>0;
+
+/ = l, ...,n,
+F
+
+I'
+
+wherein the values xi/ = xii/Yi; i = 1 ..... n and xio =
+Xio/Yo, are obtained from the change of variable
+operation we have just described.
+We have made the transformation from (13) to
+( i 4 ) in the indicated manner to facilitate contact
+with the work of Farrell 25. We shall also represent
+(14) equivalently as
+
+~14.1)
+
+max Zo =
+/= 1
+
+with
+
+<- ,'o,
+
+!
+
+xj >o;
+
+/=
+
+1 . . . . . rt
+
+or its equivalent
+/'1
+
+m a x Zo = E3 Xj
+
+~14.2)
+
+j=l
+
+with
+n
+
+m
+
+P/X/ + ~
+j= 1
+
+eis i = Po and
+
+i= I
+
+15 To make full contact with Farrell's work it i~ also necessary to deal wRh (and eliminate) some of his awkward
+concepts such as 'points at infinity', etc. This is done ia
+[ 12] but m the interest of brevity we shall not attempt to
+repeat thes~edevelopments here.
+
+436
+
+A. C"harnetet aL/ Measuring the efficiency o[ dic~rion making uultt
+
+" b
+[ Q~i.2
+II
+
+i
+
+/ , ,,t
+
+......-.-"
+
+To QlfMel
+
+Fig. 1. Efficiency points and isoquent.
+>,j, si>~O ,
+wherein the Pj represent
+(a) a normed version of (8), in which the components of X~ are divided by their corresponding output
+amounts, and
+(b) the output is then elim!nated from the vector
+and (in normed version) associated instead with the
+unit coefficients of the variables ~,] in the functional.
+In short, P~ = X} with only normed inputs x~l for its
+components. The ei are unit vectors with unity in
+row i = 1, .... m and zeros elsewhere and the si are
+'slack' variables.
+The conditions (11) continue to apply, of course,
+but now the referent for efficiency is only to inputs 16.
+To see what this means refer to Fig. 1 on which is
+depicted a situation for six DMU's using two irputs
+normed on their respective Gutput values. Her~=,the
+DMU's are all portrayed for the case of two ~puts
+normed on their respective outputs. E.g., Ps has
+t'
+I
+!
+IF
+,~
+Xls = 1, x2s = 4 while P~ hasx13 = 3, x23 = ,:, and
+SO Oil.
+
+16 We refer only to inpuB in order to shorten the discussion
+that follows, although: of course, the manipuIations can
+also be extended to possible output increases.
+
+Suppose it is now decided to test the efficiency
+c,f P2- This can be done by inserting P2 ----Po in (14.2)
+and utilizing any adja~nt extreme point method,
+sttch as the simplex or dual methods 17, to obtain:
+~5 P4 + I P3 =Po f P2 "
+I.e., these methods express P2 in terms of an optimal
+basis with ~ = -~, X~ = -~ and all other }'i* = 0. Thus
+we have z~ (P2) = ~ so that, by reference to (I 1),P2
+i~; not efficient.
+We can now give this measure of efficiency operational meaning by convexifying the above expresssion,
+which we do by dividing by -~, to obtain"
+~p4+
+
+=
+
+.
+
+As in Fig. 1 this expresses/¢2 as a convex combination of the optimal basis vectors, P4 and P3, and
+hence brings the resulting P'2 point onto the line segment connecting them. In efficiency terms this means
+fhat if P2 had been producing as efficienetly as P'2 or, equivalently, as efficiently as the indicated convex
+combination of P4 and P3 - then it should have been
+17 See the discussion of these methods and an analysis of
+their special properties in Chapter XIII of [8].
+
+A. thames et al. /Measuring the e/ficieney of dicision making units
+able to secure its one unit of output with only ~ of
+the amount of each o f x l and x2 that it was observed
+to utilize.
+"lhe line connecting P4 and/)3 represents one segment of what Farrell refers to as the 'unit isoquant'.
+It is also efficient. That is, there cannot be a point
+such as F~ between this unit isoquant and the origin
+since that would imply that/)4 and P3 were not an
+optimal basis is.
+The above analysis has employed two assumptions
+which we shall refer to as the 'isoquant' and 'ray
+assumptions', respectively. The latter, i.e., the ray
+assumption, which corresponds to assuming constant
+returns to scale 19, may be relaxed but at a cost in
+complications and resulting explanations which we
+shall not undertake here. The former, i.e., the isoquant
+assumption representation, is critical and it may not
+be relaxed in the sense that it provides the comparison
+point between/)2 and//2 20.
+We have just described the operational significance
+that we wish to accord to our efficiency measure for
+the case of/)2. Now consider Pl for which we obtain
+5
+
+when employing adjacent extreme point methods.
+That is, the optimal basis consists of P4 and P3 (which
+are both thereby characterized as efficient) with
+z~(Pt) = X,~ + X~ = ~ so that, by virtue of (1 ~ ), P~ is
+also not efficient.
+As can be seen, we have z~(Pl) = z~(P2) = -76.However, Pl and P2 are expressed in terms of different
+bases and hence have different referents, q he convexification process used for P2 is also employable
+for Pt to obtain
+s
+
+formed from/)4 and Ps whereas P2 is in the cone
+formed from/)4 and P3. This condition (which arises
+from the non-negativity imposed on the admissible
+~'i values) has an advantage for the sorts of public
+program applications we are considering. As observed
+in the opening section, many DMU's such as different
+school districts, etc., work under varying constraints
+with respect to inputs (as well as outputs) for the
+same program conducted in different locales or different parts of the country. Hence it is well to have the
+referents used for scoring the efficiency of each DMU
+as alike to it as possible, at least in some loose sense,
+while not interfering 'too much' with the wanted
+efficiency ratings 21.
+We now conclude this section with the case of P6
+in Fig. 1, for which alternate optima are present
+since
+1/)6 =/)6
+
+and
+
+18 Proofs of propositions like these, which are fairly transparent, will not be given in the present paper. They may
+be found in [12]. The latter source may also be consulted
+for ways in which the formulations being used here differ
+from the one suggested to Farrell by A. Hoffman in rite
+discussion associated with [15] and subsequently employed by Farre|l and Fieldhouse in [ 16].
+19 Note, however, that this constant will be different, in
+general, for every Pp
+20 it is to be understood, however, that our analyses are also
+applicable when various trav.sformations are utilized to
+bring other functions such as, e.g., Cobb-Douglas functions, into suitable piecewise linear representations.
+
+1P3 + 1 el =/'6
+
+with z~(P6) = 1 in either case. Note, however, that
+the second of these two solutions has s~ = I, which is
+to say that efficiency is not attained for P6 until
+slack in the amount of s~ = 1 is subtracted from the
+first component in/)6 - after which it is coincident
+with P3 in Fig. 1; see (1 1).
+To avoid ambiguity, and to retain the wanted
+operational meaning for efficiency, it is necessary to
+maxim~e the slack values, but in a way that accords
+this a lower priority than maximizing the ~/~Mues.
+This is done by replacing (14.2) with
+rl
+
+max Zo-
+
+/= 1
+
+m
+
++
+
+(14.3t
+m
+
+--
+
+subject to:
+f/
+
+so that, also, the same ratio of contraction for all
+resources is needed to bring Pt onto the efficient surface. However, it lies in the cone through the origin
+
+4 37
+
+Po = ~
+
+/= 1
+
+m
+
+PfX/+ Z~ eisi,
+
+X/,si>~O ;
+
+i= 1
+
+/= l,...,n,
+
+i = I,...,m
+
+where M is the usual large (non-Archimedean) 'quantity' (cf., e.g., [22]) which insures that I[M > 0 is
+always smaller than any positive real value that may
+be assumed by any X].
+
+21 Note that both P! and P2 are also in the cone formed
+from Ps and P3 in Fig. 1 but the line segment connecting
+P3 and Ps is not efficient - and hence P~ and P5 will not
+be an optimal basis unIess one wants to impose further
+constraints on the basis choices. See the discussion in
+Section 2, above.
+
+438
+
+A. Chames et aL / Measurb~, the eff'~lency of diction making units
+with
+
+5. Duality relations for coefficient estimaticn
+Farrell distinguished between the above efficiency 22
+which he referred to as 'technical efficiency' and
+other types of efficiency which he referred to as
+'price efficiency" and "o~erall efficiency' - with the
+latter being characterized, as involving both 'price and
+technical efficiency'. Here we may note that Farrell
+restricted his studies mainly to technical efficiency and for the reasons set forth in our iatroduction we
+shall do the same. Concerning price efficiency (in the
+sense of'actual market prices') Farrell contented
+himself, for the most part, with pointing to the formidable difficulties involved in assessing even relative
+price efficiency, e.g., because of the varying motives
+of buyers and sellers. One may, however, come at
+this problem from the standpoint of "in principle
+prices' and/or 'opportunity costs' such as are obtainable via standard economic theorems. This, in any
+case, is the route we shall follow as we also show how
+the dual to the above linear programming formulations may be used to secure the values of the slope
+coefficients for the efficient isoquants.
+Of course, we shall generally be dealing with
+m-dimer~sional representations in which line segments
+such as those portrayed in Fig. l are replaced by efficient 'facets'. We have, however, now provided a
+model and a me~hod 23 for generating these factors
+for any finite number of inputs since these facets correspond to all of the convex combinations of points
+that can be generated from the optimal bases. Specification of these optimal bases thus constitutes one
+v~ay of representing these facets.
+Another w~y is available by reference to the duality
+relations of linear programming as we shill now show.
+We therefore write the dual to (14.1) as
+rain go = coTpo
+
+co~'~) I ;
+(DT~0
+
+,
+
+where the superscript T represents transposition, as
+usual, so that, e.g., ~oT represents the transpose of
+the column vector w with components col, ..., Wm
+and co *T denotes an optimum vector for these variables in the above problem.
+We now observe that w*TP i = 1 for each Pi in an
+optimal basis. To obtain our alternate representation
+of this facet in terms of the slopes of the efficient
+isoquant surface we therefore need only show that
+co *T is orthogonal (see [20] and/or [8]) to the efficient facet spanned by these Pi. To do this it suffices
+to show that w* is orthogonal to any direction lying
+in the facet, e.g., to any vector which is the difference,
+P - P , of two vectors in the facet. Since, by assumption, P and P are in the facet, we can express them
+in terms of these same Pi via
+ff = ~ PiFi ,
+
+ff = ~ Pi~ ,
+
+i
+
+i
+
+i
+
+(16.1)
+
+i
+
+where summation is over the indexes of these Pi. But
+then
+~.o*T(]~-~)
+
+= ~(G3"TpiPi-o3®TpI~i)
+i
+
+(16.2)
+
+i
+
+(15)
+
+22 The above representation, given at the conclusion of the
+preceding section, implicitly retains concepts like 'points
+at infinity', - e.g., as represented by Q t and Q2 in Fig. 1 but we lay aside the development necessary to eliminate
+them. !~ any case, we may have recourse to (1) for the
+wanted ~calar measure of efficiency without reference to
+these considerations. I.e., h~ = 1 then suffices to determine w~lether or not the corresponding Po is efficient.
+23 Any adjacent extreme point method will do.
+
+/= l .... ,t/,
+
+i
+
+i
+
+since XtFi = Xi~/= 1. Q.E.D. Hence, the ~ * corresponding to this efficient facet determined by this
+optimal basis is orthogonal (or normal) to it. Thus,
+~ * is normal to the hy,perplane cortaining this facet.
+The equation of this h [perplane is
+¢o*Tx = 1 ;
+
+(17)
+
+i.e., any x satisfying this equation is a point in the
+linear space spanned b:, the totality of the P/'s and
+ei's. The portion of th~ hyperplane consisting of the
+
+A. C,~arnes et a L / Measuring the efficiency o f dicision making units
+
+We now replace (17)with
+
+efficient facet is the set of all x which are convex
+combinations of the Pi which form the optimal basis.
+Of course, we will need to obtain the generality
+different to *T for the 'slopes' associated with the different facets of the efficient surfaces and the ranges
+for which they are valid. These ¢o*T values, however,
+are obtainable within the computational process for
+the X*. For, as is well known (see, e.g. [8]), adjacent
+extreme point methods (such as the simplex and dual
+methods) simultaneously solve both (14.1) and (15).
+That is, the optimal k* and ¢o*T values are obtained
+from the same tableau. Hence the solution to one of
+these problems also provides the solution to the other
+without extra computational effort.
+For instance, the tableau that provided the solution and hence the optimal basis for characterizing
+the efficiency of P1 with )~ = s, k; = 2 _ see preceding section - also provides the associated dual
+variables ~o~ = -~, co~ = ~. But, as previously noted,
+we can express any x T = (x~, x2) in th~s facet via the
+basis vectors, P4, Ps, as
+
+S[Pi: all i ~ / ] =
+
+in order to extend the preceding analysis to higher
+dimensions. Here the efficient surfaces are composed
+of facets and w.T is the normal to such a facet (a
+simplex) (see [8], p.242) which is the convex set
+spanned by the optimal basis. The theory that has
+been developed around the usual adjacent extreme
+point methods, including their nonlinear extensions
+allows us to obtain all of the needed information for
+interpretation as well as continuation from one efficient facet to another via the computational strategies that these methods allow in conjunction wit] ~,
+each other 24
+To conclude this section we can obtain a straightforward way of interpreting the components of the
+normal vector, w *T, as marginal productivities in the
+indicated inputs. We do this by returning to *he two
+dimensional case, such as the one depicted in Fig. 1.
+The condition for remaining on the same isoquant
+when effecting substitutions is
+
+with v4, Vs >t 0 and v4 + vs = 1. Hence also
++
+
+o
+
+x2.
+
+For this segment we have ~
+fore
+
++
+
+= ~, ~o~ = -~ and there-
+
+SIPs, P4]((Xl, X2): t X l
+
++lx2=
+
+1 "1 < x I < 2 , 2 < x 2 < 4
+
+) ,
+
+where the square brackets mean that the points Ps,
+/'4 designate this facet (=segment) with the relation
+prescribed for the ranges indicated in the curly
+brackets.
+Similarly for SIPs, P3] we have
+
+=
+
+=1 ; 2 < x l < 4 , 1 < x 2 < 2 } .
+
++
+
+where x :/: J: are two points on the indicated isoqua~t,
+but on possibly different segments with slope vectors
+w* and w*. Adding w~J:l - ~ ] x 1 = 0 on the left
+and ¢o~x2 - w~-r2 = 0 on the right, we then effect a
+series of algebraic manipulations to obtain 25
+
+~¢2_
+
+~o~
+
+A~l -~1
+
+A~2 ;c2
+
+where
+Axi =x~ - x l
+
+SIP4,P3] =
+{(x,,x2):~xl+[x2
+
+(17.1)
+
+{X: ¢o* T = 1; X = ~ Ply i for all vi >1 O, ~
+vi = !
+i EI
+i ~I
+
+X = P4P4 + PsVs
+
+*Tx =
+
+439
+
+=
+
+-
+
+;
+
+~lX2 = X2 -- ~2
+
+;
+
+while the isoquant segment from P3 to Q ~ (see Fig. 1)
+may be represented by
+
+When both x and .v are on the same isoquant segmen
+we will have Awl = A¢,32 = O. Indeed, in fllis case we
+
+S[P3, QI)--
+
+24 E.g., the simplex method of G.B. Dantzig and the dual
+method of C.E. Lemke may be joined together for the~e
+purposes. See [12] and [21] for further discussion a~ong
+with numerical illustrations. For a discussion of the
+wealth of information relevant to economic and mar~agerml (policy) interpretations available in the resulting
+tableaus, see Ch. V| in [8].
+25 This can be restated in terms of elasticities of substitutions, if desired.
+
+((xl, xD:
+
+l=
+
+1
+
+xl+x2;4<xl, l < x 2 )
+
+where the square bracket indicates that P3 is included
+while the parenthesis on the right indicates that Ql =
+Mel, is excluded from the set and a similar characterization applies for points like Q2, etc.
+
+~,0
+
+A. Charnes et aL / Measuring the zfJiciency of dicision making units
+
+~ill have a well defined derivative and so we may
+replace the above f'mite difference formulation with
+~2_
+dx I
+
+(.+~~
+60"2 '
+
+which is the usual expression relating the marginal
+rate of substitution between two inputs, as characterized by the derivative on the left, and the negative
+reciprocal of the ratio of their marginal productivities, on the fight, with equality between the two sides
+required to stay on the same isoquant. In short, 601 is
+the marginal productivity of the ith factor, i = 1, 2.
+Since, by the assumptions of economics, these marginal productivities are never negative, it follows that
+the marginal rate of substitutions is non-positive and
+the isoquant is also assumed to be convex (and continuous), etc.. if we want to maintain contact with
+the asual theorems in these parts of economic theory.
+6. Production functions and cost-price relations
+We are now ready to construct the production
+function and cost relations from the just derived ~*
+values. Before providing the model for doing this,
+however, we might sharpen some of the points that
+have already made by pausing to see what we have
+achieved and how it relates to other kinds of models
+and approaches in economics.
+Our function is evidently derived from empirical
+observations. Although these observations are all at
+the level of the individual 'firms' 26, we evidently
+have something that differs from other studies and
+pro0uction function estimates at the individual firm
+level (see [19]) since, by hypothesis, we are considering all pertinent DMU's.
+Approaches which include all such data have customarily been undertaken only at aggregate levels,
+with a]i the attendant difficulties (and assumptions)
+cequired to ensure that the functions thus estimated
+have the extremal properties that a 'production function' must possess 27. Our functions evidently differ
+from the latter in that (a) the data are not aggregated
+prior to estimation and (b) the resulting estimates
+are optimal - i.e., they have the requisite extremal
+26 We are using the term 'firms' interchangeably with DMU's
+in this section in order to avoid circumlocutions in relating
+these developments to pertinent parts of traditional
+economies. See Johnston [19].
+27 For a discussion of the onerous (and unrealistic) conditions needed to obtain these properties at aggregate levels,
+see Sato [24], pp. 3-8 ff.
+
+properties - to the extent that the data allow 2s. It
+follows that we are entitled to use these optimality
+properties in deducing the further theorems and relations that we shall note below 29 since they also refer
+to these same data or else to estimates derived therefrom via rigorously established optimizing methods
+and principles.
+In some ways these production functions are reminiscent of ones that might be associated with Alfred
+Marshall's concept of a 'representative firm'. (Discussion in [28]; also [9].) Here, however, the referent
+is rather to 'representative efficient firms'. Note that
+the plural is required insofar as there is more than a
+single efficient facet. The continuum within each
+facet is then 'representative' of the efficiency for
+which the originally observed efficient firms serve as
+referents.
+411
+We commented earlier on ,he appropriateness of
+these 'representative' facets (and the cones generated
+from them) 30 for evaluating the efficiency of DMU's
+in various public programs. They prc~vide an equally
+appropriate referent for making estimates of what
+various DMU's should be able to produce in the way
+of outputs 31 given the factor amounts and/or the
+relations between various inputs that may be prescribed for them. This is to say that we shall want to
+refer each DMU to its 'representative' facet (or cone)
+en route to making the translations and transforma.
+tions prescribed in (12) for bringing them onto the
+relevant production function surface. Given the latter
+projections we are then in a position to estimate
+what outputs we may expect with efficient production from various resource allocations to each DMU
+in the programs being considered. These results may
+then be aggregated in a variety of ways for assessing
+or controlling the activities to be generated by these
+DMU's 32.
+28 Including ex cathedra allowances, when available, as
+noted in Section 2.
+29 For a further critique of the use of these optimality
+properties in association with such aggregate functions
+(e.g., in some of the current energy policy studies) along
+with simple counteramples to the assumptions used in
+such studies see [ 13 ].
+3O See the discussion of 'representative convex sets' and the
+cones they 'represent' on p. 236 in [8].
+3 | Including multiple outputs as discussed in Section 2,
+above, since the principles we are discussing extend in
+relatively obvious ways to the more general case of production possibility surfaces.
+32 The principles to be used in effecting these aggregations
+are set forth in [12].
+
+A. Chames et al. / Measuring the efficiency of dicision making units
+To allow for all possible variations in such inputs
+and outputs we, of course, need to have a suitable
+way of obtaining the production function surface.
+We therefore now provide a way of doing this that
+relates our results to another type of 'duality" in
+economics ~3
+The latter, as introduced by Samuelson [23] and
+Shephard [26,27], proceeds by introducing a cost
+function CO', p) as determined via
+CO', p) = min pTX for X E LO')
+
+(18)
+
+where
+LO') ~ {x: at least the output rectory is produced}.
+In other words LO') is the point-to-set mapping
+y -'> L0'). For instance, in the single output case, as
+in Fig. I, if it is obtained via the isoquant associated
+w i t h y = 1 we would have L(y) designating the set of
+all of the points x = (xl, x2) interpreted as input
+combinations on or to the northeast of this isoquant.
+From a knowledge of these relations, the cost timetion CO', p) is then to be obtained via the indicated
+minimization where p is a 'price' vector with component Pi representing the 'price' per unit xi, the amount
+of the ith factor input.
+In our case we want our production function to be
+empirically based. That is, we want our production
+function to be based on observed input output data
+or estimates derived from them such that no firm
+from the observation set has a larger output for any
+inputs that may be specified. Also no non-negative
+combination of these firms can have a larger output
+when extrapolations or interpolations from the original observations must be undertaken for the specified
+input values.
+To these ends we now proceed to obtain the
+wanted production function as follows. Let y be some
+prescribed output a4 and let aTs, the sth row of the
+matrix A, represent the set of coefficients associated
+with the sill efficient facet estimated from the data,
+as described in the preceding section. I.e., asi =- ~s~.
+See (17) or (17.1). Then also let P be a matrb: with
+its column vectors P/representing the ebservational
+data for each of the original ] = 1, ..., n DMU's as.
+33 We have elsewhere suggested that these relations might
+better be associated with the mathematics of 'transform
+theory'. See [ 13].
+34 We can, of course, extend this to the multiple output
+case very readily, as in (18).
+aS One can omit the Pi which are not efficient or else one
+can adjust and bring them into the efficient set in the
+manner indicated in (12).
+
+441
+
+Then we write
+
+(18.1)
+
+min pTx
+with
+
+A x >t ye ,
+- P h +Ix = 0 ,
+
+),1>0,
+
+in which e is a column vector with all elements equal
+to unity while I is the identity matrix so that (i)
+Ix = P'A, X t> 0 assures us that we will be deriving our
+production function from empirical observations,
+and (ii) the way the vectors as were derived in arsx >1y,
+together with the minimizing objective, assures us
+that we will always be on an efficient frontier when
+an optimum solution is obtained to (18.1) for any
+prescribed y.
+The x*, y values resulting from the solutions to
+(18.1) for different p are all points on the production
+function surface. When this surface is available one
+can evidently also proceed in the reverse manner, if
+desired, to estimate the output value that can be
+secured from any prescribed x.
+Also, more is available since the above model can
+be used in various ways. Here, however, we mainly
+want to relate it to the cost-production function
+duality relations of economic theory. Therefore we
+write the mathematical programming dual to (18.1 ) as
+max yrffe
+
+( i 8.2)
+
+with
+
+~TA + u~l = p X ,
+-uT P ~ 0,
+
+r~~ >10.
+
+Via the duality theorem of mathematical programruing, we then have
+
+p r x >~yrff e
+
+(19.1)
+
+for all x, X and 77, u which satisfy the constraints and
+
+prx* =y~*Te ,
+
+(19.2)
+
+at an optimum. In other words,
+
+C ~ , p) = y72*r e =PrX*
+
+(19.3)
+
+is the required (minimizing) cost function, which
+varies with each choice o f y and p.
+Here we have proceeded from the production function to the cost function but, of course, °,,e could
+also have proceeded via the opposite course. The latter is only an 'in principle' statement, however, since,
+as noted in the introduction, many of the inputs and
+
+A. Chan,eset aL / Measuringthe efficiency of dieision makingunits
+
+442
+
+outputs in public sector applications are not ~.asily
+priced or costed without recourse to arbitrary and
+ex cathedra procedures and assumptions. Furthermore, the use of price data also has difficulties such
+as were discussed in connection with Farrell efficiency
+(in the preceding section) to which we should now
+like to note further difficulties such as determining
+whether the data for each DMU refers to list or actual
+prices and whether allowances have been made for
+finan~ng considerations, intermingled with produc~:ion considerations, such as cash discounts, quantity
+~scounts, and so on.
+Although we prefer to continue from the production side for reasons such as have just been indicated,
+the:e may be cases where prices can also (or alternatively) be used with advantage. We have elsewhere
+[ 13] extended 'Shephard's lemma' by dropping the
+assumption of differentiability and so we now adapt
+that result for use in the present case as well.
+For this purpose we reexpress (19.2) via
+
+pTx* =YrI*Te=y ~ n; =yc
+
+CO,, p)= minx {pTx: ~ ( y , X)>~ l}
+where
+
+1
+
+x ) - ,'(y. x) '
+w~th
+v*0,, x) - rain v , vx E L ( y ) , v/> 0 ,
+and L(y) is defined as in the second part of(18). This
+g,(y, x) is what Shephard calls a 'distance function '37.
+"[he above development assumes that the production relations have been determined and hence are
+available, as in (18.1), for the determination ofx.
+Here, however, we want to regard the latter as data.
+Thelefore, we revert to (8) and write
+min v
+
+,ith vXo -
+
+I where
+-~],*
+c=
+qs ,
+
+n
+j= i
+
+(22.2)
+XiXi >t O,
+
+n
+
+(20.2)
+
+$
+
+(22.1)
+
+(20.1)
+
+$
+
+E; r xj> ro,
+
+so that c is the (total) per unit cost of producing y
+units of output. Note that we can generally vary the
+components o f p T within some range without altering
+the x* val, :s "6. Thus, if we select one component,
+say p~ "or such variation, we can obtain
+
+z,Wix; =yAw
+
+(21.2)
+
+or
+
+X~' =1/ Ac _ ACO', p)
+"
+
+This will enable us to deal with this measure in the
+context of original data. It will also enable us to close
+thig section by returning to the multiple output case.
+In Shephard's notation we replace the first portion
+of (18) with
+
+~Di
+
+(21.2)
+
+Z~Pi
+
+which is Shephard's lemma in discrete form.
+The definition of efficiency in (1)has thus enabled
+us to make contact with this line of work as well. We
+can also do more. We can open up new possib~ties
+for employing the latter, e.g., in effecting estimates
+of extremal relations from original data, just as we
+have done for Farrell efficiency.
+To briefly show such possibilities it will suffice to
+relate Shephard's measure of distance to Farrell efficiency in the context of the models given in Section 2.
+36 Necessary and sufficient conditions as applicable to each
+component ofp T are given in [81, Ch. IX.
+
+/= !
+Xi~'3 ;
+
+/ = 1, ...,n,
+
+in which Yo =Y is now a vector of outputs.
+If we regard z~ I> 1 as an extension of Farrell efficiency to the multiple output case of (9) then we can
+also regard rain v = v* in the above formulation as an
+extension of Shephard's distance function (and related
+concepts) for use in evaluating the efficiency of
+DMU's. As a comparison with (9) makes clear, these
+z~ and v* values are complementary to each other.
+(They are in fact reciprocals. See [ 13] .) In other
+words, Shephard's distance function is thereby converted into a measure of efficiency with v* < 1 and
+v* = 1 only when the designated DMU is efficient
+relative to the other observations and/or theoretically
+prescribed conditions (e.g., via ex cathedra engineering conditions).
+In this way we have employed our definition of
+37 Lau in [17], p. 179 - see also Jacobsen in [17], p. 172 refers to this as a 'gauge function' (its classical denotation
+in convex set theory) since it does not have the usual
+properties of a distance function. See, e.g., Appendix A in
+
+[81.
+
+A. Charnes et al. /Measuring the efficiency o f dicision making units
+
+efficiency not only to tie together two previously
+separate strands of economic research, but also to
+open new possibilities for each of them which include
+new ways of estimating extremal relations from empirical data.
+
+7. Summary and conclusion
+We have now provided a variety of ways of assessing
+the efficiency of DMU's in public programs in order to
+improve the planning and control of these activities.
+This was initiated with a new definition of efficiency,
+in Section 2, which we have now related to both
+engineering and economic concepts. We also supplied
+operational vehicles 38 and interpretations for actual
+applications. In addition we have introduced a new
+kind of production function and new methods of
+securing estimates from empirical data which we have
+done in ways that have enabled us to bring a variety
+of economic concepts to bear in new and potentially
+useful ways. This was done with new models and
+interpretations, to be sure, but without altering any
+of the extremization principles which form the essential basis of these concepts.
+We can (and will) extend these developments in a
+variety of additional ways 39. Here we may best conclude with some comments on possible limitations
+and alternatives to these approaches.
+One limitation may arise because of lack of data
+availability at individual DMU levels. This is likely to
+be less of a problem in public sector, as contrasted
+with private sector, applications. In addition the
+term DMU can be accorded considerable flexibility
+in interpretation as when data unavailability may
+make it desirable to move to school district instead of
+individual school level and, indeed, it may even be
+necessary to move to statewide office of education
+levels when data are not available even at the district
+level. After all, the objective is to measure the effi38 I.e., we have supplied both models and computational
+procedures.
+39 E.g., as already observed the above developments can be
+extended to functions which are piecewise Cobb-Douglas.
+40 The (act that one must generally include such organization considerations as part of the prJduction function in
+empirical investigations is in an economic tradition that
+goes back at least as far as Sune Carlson. See [6]. (In
+future papers, however, we shall show how the concepts
+we have introduced here may be extended for use in
+separating these managerial features in observed data
+fror.1 other aspects of a production technology.)
+
+443
+
+ciency of resource utilization in whatever combi aations are present (loose or tight) in the orgapizadons
+as well as the technologies utilized 4o. This" ~o suggests a strategy for research in that given the ,es~tlts
+obtained at one level a systematic basis may be
+secured for proceeding to other levels by raising pertinent questions and requiring further justification
+from responsible officials for whatever inefficiencies
+are uncovered.
+Concerning private sector applications, the case
+for our proposed measure of efficiency begins to
+weaken to the extent that competition is pre~.cnt. In
+particular it begins to weaken as soon as freedom for
+the deployment of resources from one 'industry' to
+another (perhaps in a removed region) is present.
+Assessment of such possibilities would involve the
+introductioo of prices, oF other weighting devices, for
+the evaluation of otherwise non-comparable alterna.
+tives.
+Although our measures are not designed for this
+sort of application they are designed for public sector
+programs in w~,ich the managers of various DMU's
+are n o t free to divert resources to other programs
+merely because they are more profitable - or otherwise more attractive. Our measure is intended to
+evaluate the accomplishments, or resource conservation possibilities, for every DMU with the resources
+assigned to it. in golfing terminology it is, so to
+speak, a measure of 'distance' rather than 'direction'
+with respect to what has been (and might be) accomplished 4j
+
+References
+[1 J D.J. Aigner, T. Ameiya, P.J. Poirier, On the estimation
+of production frontiers: maximum likelihood estimation of the parameters of a discontinuous density
+function, lnternat. Econ. Rev. XVII, (2) (1976) 377396.
+[2] D.J. Aigner and S.F. Chu, On estimating the industry
+production function, American Economic Review
+LVII| (1968) 826-839.
+[3] R.F. Alioto and J.A. Jungherr, Operational PPB$ for
+Education (Harper and Row, New York, 1971 ).
+[4j K.J. Arrow and F.H. Hahn, General Competitive
+Analysis (Holden-Day, San Francisco, 1971 ).
+
+41 The term direction should be extended to the plural f~r
+the case of multiple outputs. (Here we are concerned
+with choices of direction which might be effected at the
+legislative level, including a choice of whether to undertake the program at all.)
+
+.,j
+
+444
+
+A. Charnes et al. / Measuring the efficiency o f dicisto ~ making units
+
+[5] C.R. lkctor, Duality in Linear Fractional Programming,
+Utilitas Mathematica 4 (1973) 155-168.
+[6l S. Carlson, A Study on the lure Theory of Production,
+(Kelley and Millman, Inc., New York, 1956).
+[ 7] A. Charnes and W.W. Cooper, An explicit general solution in linear fractional programming, Naval Research
+Logistics Quarte~y 20 (3) (1973).
+[8] Ai ~ a m e s and W~W.C~per, Management Models and
+I n d u s ~ Applications of Linear Programming (W'dey,
+New York, 1961).
+[9 ] A. ~ e s
+and W.W. Cooper, Managerial economics past, present, future, Journal of Enterprise Management
+
+(f~t~dlcoming).
+11oi A. Chames and W.W. Cooper, Programming with linear
+fractional functionals, Naval Res. Logist. Quart. 9
+(3, 4) (1962) 181-185.
+1111 A. Charnes, W.W. Cooper and E. Rhodes, Expositions, interpretations, an~ extensions of Farrell efficiency measures, Management Sciences Research Group
+Report, Pittsburgh: Carnegie-Mellon University Schoo~
+of Urban and public Affairs (1975).
+[121 A. Charnes, W.V(.Cooper and E. Rhodes, Measuring
+the efficiency of decision making units with some new
+production functior, s and estimation methods, C~enter
+for Cybernetic Studies Research Report CCS 276,
+Austin, TX, University of Texas Center for Cybernetic
+Studies (1977).
+1131 A. Charnes, W.W. Cooper and A. Schinnar, Transforms
+and approximations in cost and production function
+relations, Research Report CCS 284, Austin, TX,
+University of Texas Center for Cybernetic Studies
+(1977).
+[14I Encyclopedia Americana (Encyclopedia Americana
+Corporation, New York, 1966) 352-353.
+II51 M.J. Farrell, The measurement of productive efficiency.
+J. Roy. Statist. Soc. Set. A, III (1957) 253-290.
+
+116] MJ. FarreU and M. Fieldhouse, Estimating efficient
+production functions under increasing returns to scale,
+J. Roy. Stl~t. Soc. Set. A, II (1962) 252-267.
+1171 M.D. Intri~ligator and D.A. Kendrick, eds., Frontiers
+of Q~mti~ative Economics, IL North-Holland, Amsterdam (1974).
+[18] R. J~gana~an, Duality for nonlinear fractional programs, Z. ~perations Res., 17, Physica*Veflag, Wurzburg (197I~) 1-3'
+[19l J. Jolmstc~l, Statistical Cost Analysis, McGraw-Hill,
+New York (1960).
+[20l K. L~ctcaster, Consumer Demand, Columbia UniversiW
+Press, New York (1971), 40.
+[21] E. l~odes, Data Envelopment Analysis and Related
+Approaches for Measuring the Efficiency of Decision
+Making Unit~ with an Application to Program Follow
+Throttgh in U.S. Education, Ph.D. thesis, CarnegieMellon UniversiW School of Urban and Public Affairs,
+Pittsburgh (1978).
+[22] A. Robinson, Non-Standard Analysis (North-Holland,
+Amsterdam, 1966).
+[23] P.A. Samuelson, Prices of Factors and Goods in General
+Equilibrium, Rev. Econom. Stud. 21 (1953-1954)
+1-20.
+[241 K. Sat+:),Production Functions and Aggregation (NorthHolland, Amsterdam, 1975).
+[25l S. Schaible, Parameter-free Convex Equivalent and
+Dual Programs of Fractional Programming Problems,
+Z. Operations Res., 18 (1974) 187-196.
+[261 R.W. Shephard, Cost and Production Functions
+(Princeton University Press, Princeton, 1953).
+[27] R.W. Shephard, The Theory of Cost and Production
+Functions (Princeton University Press, Princeton,
+1970).
+[281 G.J. Shgler, The Xistence of X-Efficiency, Am.
+Econorn. Rev. (March 1976) 213-216.
+
+

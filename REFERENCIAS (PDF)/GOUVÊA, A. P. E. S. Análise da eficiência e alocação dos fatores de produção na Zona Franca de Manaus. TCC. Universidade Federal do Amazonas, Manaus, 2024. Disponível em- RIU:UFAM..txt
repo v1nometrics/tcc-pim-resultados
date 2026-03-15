@@ -1,0 +1,2293 @@
+UNIVERSIDADE FEDERAL DO AMAZONAS
+FACULDADE DE ESTUDOS SOCIAIS
+DEPARTAMENTO DE ECONOMIA E ANÁLISE
+
+ALEXANDRE PEREIRA ESPÍRITO SANTO DE GOUVÊA
+
+ANÁLISE DA EFICIÊNCIA E ALOCAÇÃO DOS FATORES DE
+PRODUÇÃO NA ZONA FRANCA DE MANAUS
+
+MANAUS-AM
+2024
+
+ALEXANDRE PEREIRA ESPÍRITO SANTO DE GOUVÊA
+
+ANÁLISE DA EFICIÊNCIA E ALOCAÇÃO DOS FATORES DE
+PRODUÇÃO NA ZONA FRANCA DE MANAUS
+
+Trabalho de conclusão de curso
+apresentado à Universidade Federal do
+Amazonas como requisito obrigatório à
+obtenção do título de Bacharel em
+Ciências Econômicas.
+
+ORIENTADOR: PROF. DR. FREDERICK FAGUNDES ALVES
+
+MANAUS-AM
+2024
+
+Ficha Catalográfica
+Ficha catalográfica elaborada automaticamente de acordo com os dados fornecidos pelo(a) autor(a).
+
+G719a
+
+Gouvêa, Alexandre Pereira Espirito Santo de
+Análise da eficiência e alocação dos fatores de produção na Zona
+Franca de Manaus / Alexandre Pereira Espirito Santo de Gouvêa .
+2024
+47 f.: il. color; 31 cm.
+Orientador: Frederick Fagundes Alves
+TCC de Graduação (Ciências Econômicas) - Universidade
+Federal do Amazonas.
+1. Polo industrial de Manaus. 2. Eficiência. 3. Produtividade Total
+dos Fatores. 4. Análise envoltória de dados. I. Alves, Frederick
+Fagundes. II. Universidade Federal do Amazonas III. Título
+
+SUMÁRIO
+1.
+
+INTRODUÇÃO ...................................................................................................... 4
+
+2.
+
+REVISÃO DE LITERATURA................................................................................ 7
+
+3.
+
+METODOLOGIA .................................................................................................12
+3.1 Análise Envoltória de dados.................................................................................... 13
+3.2 Índice de Malmquist ................................................................................................. 15
+3.3 Fonte e tratamento dos dados ................................................................................ 17
+
+4.
+
+ANÁLISE E DISCUSSÃO DOS RESULTADOS ...............................................18
+4.1. Análise da eficiência em DEA ................................................................................. 19
+4.1.1 Subsetor Eletroeletrônico e Bens de Informática ...............................................................20
+4.1.2 Subsetor Químico .....................................................................................................................21
+4.1.3 Subsetor Metalúrgico ...............................................................................................................22
+4.1.4 Subsetor Ótico ..........................................................................................................................23
+4.1.5 Subsetor Madeireiro .................................................................................................................23
+4.1.6
+Subsetor Duas Rodas .......................................................................................................24
+4.1.7 Subsetor Termoplástico ..........................................................................................................25
+4.1.8
+Subsetor Mecânico ............................................................................................................27
+4.1.9 Subsetor Relojoeiro..................................................................................................................29
+4.1.10 Subsetor de Isqueiros, Canetas e Barbeadores Descartáveis .......................................31
+4.1.11 Subsetor Papel e Papelão .....................................................................................................32
+4.1.12 Média dos Subsetores do PIM ..............................................................................................35
+
+4.2 Análise de produtividade com Índice Malmquist ................................................... 37
+
+5.
+
+CONCLUSÃO .....................................................................................................41
+
+REFERÊNCIAS .............................................................................................................44
+
+RESUMO
+Este estudo visou analisar a variação dos níveis de eficiência e de
+produtividade de 11 subsetores industriais localizados no Polo Industrial de Manaus
+nos anos pré, durante e pós pandemia, ou melhor, de 2018 a 2022. Mais
+especificamente, pretendeu mensurar a eficiência dos subsetores e verificar a
+produtividade total dos fatores (PTF) por meio do índice de Malmquist. Para isso,
+utilizou-se a técnica não paramétrica de Análise Envoltória de dados (DEA), com
+orientação a produto e através do modelo de retornos variáveis de escala (BCC). Os
+dados das Unidades Tomadoras de Decisão (DMUs), de insumos e produtos foram
+coletados do relatório Indicadores de Desempenho do Polo Industrial de Manaus
+(PIM) elaborado pela Superintendência da Zona Franca de Manaus (SUFRAMA). Os
+resultados mostraram que os subsetores do PIM, em conjunto, não foram eficientes
+em nenhum dos anos avaliados. No entanto, certos subsetores, individualmente,
+apresentaram-se eficientes ao longo dos anos estudados. Ademais, constatou-se que
+a pandemia trouxe consequências significativas tanto para os níveis de insumos e
+produto, quanto para eficiência do PIM. Em relação à Produtividade Total dos Fatores,
+em geral, o Polo Industrial de Manaus apresentou perdas de produtividade apenas no
+período pandêmico. Individualmente, três subsetores demonstraram perdas de
+produtividade, os demais apresentaram ganhos na produtividade, sendo que, na sua
+maioria, as mudanças no processo produtivo de uma mesma tecnologia foram mais
+impactantes para tal fato. Concluiu-se que os subsetores demonstraram variações de
+eficiência e produtividade ao longo dos anos, no entanto, a pandemia abalou eficiência
+e a produtividade dos subsetores do PIM.
+Palavras-chave: Polo industrial de Manaus; Eficiência; Produtividade Total dos
+Fatores.
+
+ABSTRACT
+This study aimed to analyze the variation in efficiency levels and productivity of
+11 industrial subsectors located in the Manaus Industrial Pole in the pre-pandemic,
+during, and post-pandemic years, particularly from 2018 to 2022. More specifically, it
+aimed to measure the efficiency of the subsectors and verify the Total Factor
+Productivity (TFP) through the Malmquist index. To do this, the non-parametric
+technique of Data Envelopment Analysis (DEA) was used, with product orientation and
+through the Variable Returns to Scale (BCC) model. The data from Decision Making
+Units (DMUs), inputs, and products were from the Performance Indicators of the
+Manaus Industrial Pole (PIM) report prepared by the Superintendence of the Manaus
+Free Trade Zone (SUFRAMA). The results showed that the subsectors of the PIM,
+together, were not efficient in any of the years evaluated. However, certain subsectors,
+individually, were efficient over the years studied. Furthermore, it was found that the
+pandemic brought significant consequences for both input and output levels, as well
+as for the efficiency of the PIM. About Total Factor Productivity, in general, the Manaus
+Industrial Pole only showed productivity losses during the pandemic period.
+Individually, three subsectors showed productivity losses, while the others showed
+gains in productivity, in this case, changes in the production process of the same
+technology were more impactful for this fact. It was concluded that the subsectors
+showed variations in efficiency and productivity over the Years, however, the pandemic
+shocked the efficiency and productivity of the PIM subsectors.
+
+Keywords: Manaus Industrial Pole; Efficiency; Total Factor Productivity.
+
+4
+
+1. INTRODUÇÃO
+
+A Zona Franca de Manaus (ZFM) é uma área de livre comércio de importação
+e exportação, possuindo benefícios fiscais especiais. Foi criada em 1967 pelo governo
+brasileiro na região amazônica com o intuito de mitigar o isolamento econômico e
+geográfico da Região Norte, visto que a Região Amazônica se desenvolveu de
+maneira isolada do resto do país, com uma atividade econômica modesta,
+essencialmente do extrativismo vegetal (BARBOSA, 2012).
+Este projeto, no entanto, foi apresentado anos antes à Câmara do Deputados
+por meio Projeto de Lei nº 1.310, de 23 de outubro de 1951 proposto pelo deputado
+Francisco Pereira da Silva após dar-se conta da necessidade de se encontrar novas
+soluções para a economia local (SERÁFICO; SERÁFICO, 2005). Isto é, somente no
+regime militar presidido por Castelo Branco e sob o lema da segurança nacional
+("Integrar Para Não Entregar"), a Zona Franca de Manaus foi efetivamente
+operacionalizada com a publicação do Decreto-lei no 288/67 (MINORI; COUTINHO,
+2009), proporcionando o desenvolvimento regional.
+Ao longo dos anos, a Zona Franca de Manaus enfrentou várias fases e desafios
+que afetaram sua eficiência, principalmente, em momentos de crise econômica e
+política. Nesse interim, o modelo ZFM pode ser divido em 05 fases (MINORI;
+COUTINHO, 2009). A primeira, envolve o período de 1967 a 1975, frente à política
+nacional de substituição das importações, a atividade comercial (terciária)
+predominava, contribuindo para formação de um mercado interno, a intensificação do
+turismo e para a criação da base da atividade industrial.
+A segunda fase, abrange o período de 1975 a 1990, baseado na política
+nacional de fomento à indústria nacional de insumos. Foram estabelecidos os Índices
+Mínimos de Nacionalização para produtos industrializados na ZFM e vendidos para
+as outras regiões do país, bem como o limite anual de importações.
+Na fase seguinte, compreendida entre 1991 e 1996, a ZFM viveu o seu
+momento mais difícil e foi obrigada a se modernizar. As medidas adotadas pelo
+governo
+
+Collor
+
+abriram
+
+a
+
+economia
+
+brasileira
+
+para
+
+o
+
+mercado
+
+exterior,
+
+intempestivamente, afetando diretamente a competitividade dos produtores da região,
+
+5
+
+visto que, a Zona Franca mesmo sendo o principal centro comercial brasileiro, não
+teve forças para suportar a concorrência do mercado externo. Limites máximos
+globais anuais de importação foram eliminados e o Imposto de Importação (II) foi
+reduzido para todo país, o que devastou, como consequência, a alocação dos fatores
+de produção e a eficiência do modelo. Dessa maneira, a atividade terciária entrou em
+declínio e foi preciso inovar para reconquistar seu espaço no mercado. Para isso,
+criou-se institutos para testar a qualidade e produtividade da indústria brasileira como
+o Instituto Nacional de Metrologia, Normalização e Qualidade Industrial (INMETRO) e
+impôs-se a política do Processo Produtivo Básico (PPB), a qual determina as etapas
+obrigatórias de produção de um bem.
+O quarto período é delimitado entre 1996 e 2002, quando o modelo se
+encontrava em meio à globalização, a estabilização monetária do plano Real,
+privatizações e desregulamentação. Nesse período, a ZFM passou a funcionar com
+estímulo à exportação de seus produtos, sincronizando-se com a abertura econômica
+do país. Vale ressaltar que, a transição monetária do cruzeiro para o real neste
+período, trouxe certa insegurança econômica para o Brasil, fato este, que impacta
+diretamente a atração e estímulo industrial para o país e principalmente para a região,
+o que contribuiu mais uma vez para a variação na eficiência dos setores do modelo,
+frente ao aumento da saída de indústrias, juntamente com a decorrente diminuição da
+entrada de novas empresas.
+Por último, a ZFM continuou sua busca na promoção do aumento da eficiência
+produtiva e da capacidade de inovação das empresas, bem como no estímulo às
+exportações, concentrando sua ação no setor de informática, além de estimular o
+financiamento privado em Pesquisa e Desenvolvimento (P&D).
+Em contrapartida, no período mais recente, a Zona Franca de Manaus
+enfrentou mais um árduo cenário de crise, desta vez global, com o advento da
+pandemia da Covid-19. Durante a pandemia, uma vez que as restrições de mobilidade
+e as incertezas econômicas levaram as famílias a reduzirem seus gastos,
+especialmente, em itens não essenciais, a paralisação de algumas linhas de produção
+refletiu um cenário de deterioração das condições financeiras das empresas,
+desabastecimento de insumos e retração da demanda doméstica e externa (SANTOS,
+2022).
+
+6
+
+A Zona Franca de Manaus enfrentou problemas logísticos durante a pandemia.
+Muitas indústrias da região dependiam de insumos e componentes importados para a
+fabricação de seus produtos, e as restrições nas cadeias globais de suprimentos
+causaram atrasos e interrupções na produção. Como resultado, o Polo Industrial de
+Manaus (PIM) passou de US$8.744.411.357, em 2019, para US$8.506.738.018, em
+2020, no que diz respeito à importação de insumos (SUFRAMA, 2023), representando
+uma queda de 2,72%. Nessa conjuntura, a escassez de insumos e de matérias primas
+observada desde o princípio da pandemia impactou negativamente a produção da
+indústria brasileira e seguiu como uma das maiores preocupações do setor em 2022.
+As análises de resultados das indústrias de transformação brasileira mostram que as
+dificuldades para obtenção de insumos e/ou matérias primas necessários à produção
+atingiram 55,5% das indústrias em novembro de 2020 (BITTENCOURT et al., 2022).
+Dessa forma, o principal efeito da interrupção na cadeia de suprimentos foi o
+aumento dos custos de produção, sofrido por 57,6% das indústrias brasileiras.
+Destacam-se também maiores atrasos (32,5%) e dificuldades na entrega de seus
+produtos (34,1%). Além da paralização da produção e a necessidade de compra maior
+de insumos para estocagem, que atingiram 12,8% e 21,3% das empresas,
+respectivamente (BITTENCOURT et al., 2022).
+Frente à dificuldade logística para chegada de insumos e à queda produtiva
+decorrente da redução na demanda, viram a necessidade de redução significativa de
+custos, principalmente, os custos com mão de obra. À vista disso, a média salarial
+partiu de US$56.601,50, em 2019, para US$43.601,10, em 2020 (SUFRAMA, 2023),
+traduzindo uma redução de 22,97%. Salienta-se que, esta redução de custos foi
+intrínseca à média salarial no Polo Industrial de Manaus, visto que a mão de obra
+ocupada não sofreu redução no período.
+Nesse contexto, os fatores críticos que mais afetaram o mercado durante este
+período de pandemia tornam-se evidentes, como a ordem de isolamento das pessoas
+por todo o país, derivando o fechamento e/ou paralisação dos comércios e indústrias;
+as barreiras internacionais nos portos e aeroportos provocando a escassez de matéria
+prima de produtos importados, principalmente, oriundos da Ásia; a queda no consumo
+das famílias e redução da utilização capacidade da indústria no país durante a
+pandemia (SANTOS, 2022).
+
+7
+
+No ano de 2022, na tentativa de recuperação, o modelo apresentou um
+faturamento de US$34.609.859.142 e gerou mais de 94 mil empregos diretos
+(SUFRAMA, 2023), representando seu maior faturamento e nível de mão de obra
+desde 2018. A partir disso, a presente pesquisa tem como intuito responder o seguinte
+questionamento: Os subsetores do PIM sofreram variação de eficiência nos seus
+faturamentos e na alocação de seus fatores de produção antes, durante e após a
+pandemia da Covid-19?
+Para responder tal questionamento, têm-se como objetivos: a) analisar a
+eficiência técnica dos subsetores do Polo Industrial de Manaus em seu faturamento;
+b) verificar se houve mudança da eficiência no modelo antes, durante e depois da
+pandemia; c) avaliar a alocação dos fatores produtivos do PIM.
+A relevância do presente estudo se dá pela importância da Zona Franca de
+Manaus para a região Norte do Brasil, que colabora para geração de empregos,
+elevação da renda e do Produto Interno Bruto (PIB) do país. Analisar a eficiência e
+alocação dos fatores de produção dos setores do modelo reitera a importância dos
+métodos de análise que possam oferecer, sob diferentes perspectivas, informações
+aos tomadores de decisão, que buscam uma melhor alocação dos recursos visando
+otimizar seus resultados (SIMIONATO, 2019). Nesse sentido, o estudo pode contribuir
+com a promoção de debates sobre a manutenção da ZFM, assim como a continuidade
+da busca pela eficiência produtiva e a capacidade de inovação dos setores, lutando
+contra os desafios ainda vigentes.
+
+2. REVISÃO DE LITERATURA
+
+O crescimento econômico tem sido uma das grandes questões da sociedade
+atual. Em decorrência disso, a eficiência técnica como uma medida econômica
+essencial para determinar o crescimento econômico de uma unidade produtiva, de um
+setor econômico ou de um país, entra em diversas discussões na atual conjuntura
+econômica. Nesse contexto, a Zona Franca de Manaus (ZFM), como modelo de
+desenvolvimento regional, com mais de 50 anos de implantação, representa uma
+grande parcela de toda atividade econômica local, fazendo necessário um olhar
+especial e dedicado à sua eficiência e produtividade.
+
+8
+
+A Zona Franca de Manaus, em meio aos debates, enfrenta diversos
+argumentos contrários que tem dificultado o reconhecimento das características
+virtuosas que o modelo conquistou e os aspectos que carece melhorias para inserir
+esse modelo produtivo nos cenários econômicos nacionais e internacionais.
+Nesse ínterim, Thury e Machado (2012), elaboraram um trabalho procurando
+discutir o argumento de que a indústria de transformação amazonense do Polo
+Industrial de Manaus pouco agregaria valor à sua produção, devido a seus incentivos
+fiscais e sua lógica de operação. Assim, os autores tiveram como objetivo principal
+examinar o quanto de valor é adicionado por cada real produzido pela indústria de
+transformação no Estado do Amazonas frente a do Brasil. A partir dos dados
+fornecidos pela Pesquisa Industrial Anual (PIA) do Instituto Brasileiro de Geografia e
+Estatística (IBGE), foi possível tabular os dados para obtenção da proporção do Valor
+da Transformação Industrial (VTI) sobre o Valor Bruto da Produção Industrial (VBPI)
+da indústria de transformação do Amazonas e do Brasil, contrastando-os ao longo do
+período 1996-2009.
+Os dados apurados a partir da PIA em contraste com os do Brasil, mostraram
+que a indústria de transformação do Amazonas, que é representada, quase que
+inteiramente pelo PIM, tem adicionado mais valor por cada real produzido do que a
+indústria de transformação do Brasil como um todo.
+Fernandes, Minori e Morais (2017) pontuam que com a revolução industrial
+ocorrida no século XVIII, a indústria ganhou importância, principalmente, no
+crescimento da produção em escala para atender as necessidades da sociedade.
+Nesta conjuntura, iniciaram sua pesquisa científica com o objetivo de determinar o
+índice de eficiência relativa de nove subsetores do Polo Industrial de Manaus (PIM)
+por meio da modelagem de Análise Envoltória de Dados (DEA - Data Envelopment
+Analysis) nos anos de 2010 e 2014.
+A técnica DEA objetivou identificar, quais dos nove principais subsetores
+industriais conseguiram a melhor combinação no uso dos insumos disponíveis a fim
+de ser eficiente no período considerado como não crise e crise, por meio de dados
+oriundos do relatório de Indicadores de Desempenho do PIM (2015). Como conclusão,
+os resultados obtidos demonstraram que os subsetores industriais apresentaram
+ineficiência nos anos analisados, independentemente de ser um ano com ou sem
+
+9
+
+crise, com exceção do setor Químico, indicando que os subsetores industriais do Polo
+Industrial têm espaço para ajustar seus planejamentos de produção a partir de uma
+melhor alocação dos recursos.
+Morais (2019) afirma que pela Zona Franca ser composta por inúmeras
+empresas que se instalaram em um meio inóspito e adverso com fatores locacionais
+preponderantes, a sua progressão só foi possível por se tratar de uma região
+incentivada, com a oferta de benefícios fiscais pelas três esferas de governo (federal,
+estadual e municipal) fazendo necessário verificar esta área industrial, a partir de
+medidas consagradas pelos pesquisadores da área econômica, a eficiência e a
+produtividade. Neste sentido, o objetivo de Morais (2019) foi verificar a relação entre
+as eficiências e incentivos fiscais no PIM como uma região industrial incentivada. O
+trabalho buscou estimar as eficiências e seus índices de produtividade e verificar os
+fatores determinantes da ineficiência, tendo como as variáveis explanatórias, o
+Imposto sobre Circulação de Mercadorias e Serviços (ICMS) restituído e a taxa de
+câmbio real regredidos em um modelo Tobit, a partir da técnica DEA em dois estágios
+no período de 1994 a 2016, dos 9 principais subsetores industriais do PIM. Os
+resultados mostraram que o PIM é ineficiente durante o período analisado, com uma
+tendência de melhoria na eficiência, demonstrado pela tendência de crescimento da
+curva das eficiências médias anuais e pelo Índice de Malmquist.
+O aumento da competição externa, a partir da década de 1990, com ênfase
+nos anos 2000, decorrente da abertura da economia nacional, forçou uma alteração
+na legislação da ZFM, com a Lei no 8.387/1991, visando suprir a nova exigência de
+maiores investimentos em Pesquisa e Desenvolvimento (P&D), ganhos constantes de
+eficiência (produtividade) e, portanto, a disseminação de inovações.
+Isto posto, Diniz, Diniz e De Oliveira Júnior (2011) discutiram o processo de
+adoção de introdução de inovações pelas empresas situadas no PIM, apresentaram
+os resultados setoriais e verificaram a relação entre estas inovações e a eficiência
+econômica das empresas nos diferentes subsetores que compõem o PIM. Os autores
+utilizaram a técnica paramétrica de fronteira estocástica, bem como dados primários
+coletados através de questionários aplicados a uma amostra de 153 empresas
+integrantes do PIM no ano de 2006, e secundários obtidos do banco de indicadores
+econômicos da SUFRAMA correspondentes ao período de 2000 a 2006. Os
+resultados mostraram que além das proxies para trabalho, capital físico, da variável
+
+10
+
+representante do custo com ICMS, da medida de concentração da indústria, as
+variáveis inovações em processo e inovações ambientais apresentaram-se
+estatisticamente significativas na explicação do faturamento das empresas no período
+de referência. Por outro lado, as variáveis exigência ambiental e inovação em produto
+não o foram. Já em relação à eficiência, os autores apontaram que a maior parte da
+variabilidade na produção advém da ineficiência técnica e não de fatores aleatórios.
+As atividades de Pesquisa e Desenvolvimento (P&D) têm sido empregadas
+com o objetivo de reduzir a defasagem científica e tecnológica entre o Brasil e nações
+mais desenvolvidas. Em decorrência disso, Cavalcante (2017) buscou responder qual
+a eficiência das atividades de P&D executadas na Amazônia Ocidental em
+decorrência da Lei de Informática na ZFM, aplicando a metodologia da DEA.
+Para tal fim, foram realizados os seguintes objetivos específicos: a) selecionar
+na literatura métodos existentes para o cálculo de eficiência de programas de P&D; b)
+adaptar método estabelecido ao contexto das atividades de P&D executadas na
+Amazônia Ocidental decorrentes da Lei de Informática; e c) aplicar e calcular os
+índices de eficiência calculados para o período compreendido entre 2011 e 2013.
+Como resultado, as atividades de P&D executadas na Amazônia Ocidental em
+decorrência da Lei de Informática não são eficientes porque os investimentos oriundos
+da contrapartida da renúncia fiscal concedida pela Lei geraram poucas saídas e
+resultados em sua maioria de baixo impacto técnico-científico.
+O processo de crescimento econômico, sempre esbarra num grande problema
+econômico, como a escassez de recursos, sendo necessário escolher as melhores
+combinações de insumos para se utilizar entre os possíveis fins alternativos.
+Finamore, Gomes e Dias (2005), por conseguinte, elaboraram um trabalho
+preocupando-se com a questão de quais setores da economia apresentam uma
+melhor combinação no uso dos insumos disponíveis na sociedade para a obtenção
+de sua produção, de forma que a acumulação de capital seja obtida do modo mais
+eficiente possível, do ponto de vista social. Os autores discutiram as diferentes
+performances produtivas entre 27 setores do Rio Grande do Sul, com base na
+metodologia Análise Envoltória de Dados (DEA) utilizando-se os dados das tabelas
+de insumo-produto e das contas econômicas integradas do Rio Grande do Sul do ano
+de 1998, fornecidas pela Fundação de Economia e Estatística (FEE).
+
+11
+
+Dos 27 setores da economia gaúcha, 10 foram classificados como eficientes
+tecnicamente e em escala. Além disso, pode-se observar que, existem oito setores da
+economia gaúcha que são tecnicamente eficientes, mas estão na escala incorreta,
+isto é, seis setores apresentam um retorno crescente, e dois setores apresentam um
+retorno decrescente. Quatro setores, do ponto de vista social, possuem uma escala
+de operação ótima, apesar da ineficiência técnica. Ou seja, maximizam a relação
+insumo-produto, mas com combinações mais ineficientes entre os insumos utilizados.
+Existem quatro setores que apresentam além da ineficiência técnica, retornos
+crescentes de escala, e por fim, existe um setor que, além da ineficiência técnica,
+opera com escala de retornos decrescentes.
+Tendo como base o trabalho supracitado, Barreto e Mesquita (2007) discutiram
+as diferenças de desempenho produtivo entre 22 setores do Rio de Janeiro, também
+com base na metodologia DEA, por meio de dados derivados das tabelas de insumoproduto do Rio de janeiro do ano de 1996, fornecidas pelo Centro de Informações e
+Dados do Rio de Janeiro - CIDE. Os resultados apresentaram que dos 22 setores da
+economia fluminense, três foram classificados como eficientes tecnicamente e em
+escala. Ademais, existem cinco setores da economia fluminense que são
+tecnicamente eficientes, mas estão em escalas incorretas. Os últimos setores
+reduzir o uso dos recursos disponíveis da sociedade, liberando-os para os setores de
+máxima eficiência, induzindo, assim, o aumento da produção estadual, com a
+utilização dos recursos já existentes.
+Por fim, Finamore et al. (2015) discutiram as diferenças de performance
+produtiva entre 35 setores do Estado de Minas Gerais, com base na metodologia DEA.
+Os dados utilizados foram extraídos das tabelas de insumo-produto e das contas
+econômicas integradas do ano de 2005, fornecidas pela Fundação João Pinheiro
+(FJP). Os índices de eficiência técnica sob retornos variáveis revelaram que, sem os
+rendimentos de escala, o setor de pecuária e pesca possui máxima eficiência além de
+três setores da agroindústria (Fabricação de alimentos; Fabricação de artigos do
+vestuário e acessórios; Fabricação de produtos do fumo), dois setores da indústria
+(Fabricação de outros equipamentos de transporte; e Metalurgia), juntamente com
+sete setores de serviços (Eletricidade, gás, água e limpeza urbana; Serviços de
+informação; Intermediação financeira e seguros; Atividades imobiliárias e aluguel;
+
+12
+
+Serviços de alojamento e alimentação; Administração pública Comércio). Além dos 13
+setores citados anteriormente, somente o setor agroindustrial Fabricação de Móveis,
+Produtos de Madeira e Artigos Diversos apresentou retorno de produção constante.
+Os demais, 16 setores apresentam retorno de produção decrescente e dez retornos
+de produção crescentes.
+
+3. METODOLOGIA
+
+A análise da produtividade e da eficiência fornecem informações para que os
+agentes possam melhorar suas tomadas de decisão, podendo conduzir a melhor
+utilização dos recursos, redução de custos, melhor alocação de investimentos, entre
+outras (PIRAN et al., 2018).
+Nesse sentido, a partir de análises de eficiência, os autores Charnes et al.
+(1978) iniciaram os estudos da abordagem não-paramétrica para a análise de
+eficiência relativa de firmas, tratadas como unidades tomadoras de decisão (Decision
+Making Unit - DMU), com múltiplos insumos (inputs) e múltiplos produtos (outputs),
+surgindo o termo Data Envelopment Analysis (DEA), como um método de
+programação linear.
+É importante destacar que, a técnica é não-paramétrica, tendo em vista que
+não exige prescrever formas funcionais das relações entre entradas e saídas, que por
+outro lado, são necessárias em abordagens paramétricas. Além disso, as variáveis
+podem ser medidas em unidades de medida diferentes.
+Nesse sentido, a fim de analisar a eficiência relativa de 11 (onze) subsetores
+industriais do Polo Industrial de Manaus (PIM), no período de 2018 a 2022, utilizou-se
+a técnica não-paramétrica de Análise Envoltória de Dados (Data Envelopment
+Analysis - DEA), orientado pelo produto, que neste caso, foi o faturamento dos
+subsetores.
+Além disso, para obter os indicadores de mudanças na produtividade ao longo
+do tempo, foi utilizado o Índice de Produtividade Malmquist, que é uma extensão dos
+modelos clássicos que permite considerar as técnicas não paramétricas em DEA sob
+circunstâncias dinâmicas.
+
+13
+
+3.1 Análise Envoltória de dados
+Conforme o exposto, modelos de DEA são métodos não paramétricos
+baseados em uma amostra de dados observados de diferentes unidades produtoras,
+também conhecidas como unidades tomadoras de decisão (Decision Making Units
+DMUs), que consomem os mesmos insumos (inputs) para produzir os mesmos
+produtos (outputs). Dessa forma, a análise eficiência permite indicar quem é eficiente,
+as razões para a ineficiência e os produtores cujas práticas podem servir de referência
+para os ineficientes (GOMES; MANGABEIRA; DE MELLO, 2005), a partir da
+identificação de benchmarks, assim, as unidades tomadoras de decisão podem obter
+insights para melhoria contínua da operação em análise. (BOGETOFT; OTTO, 2011).
+Uma distinção entre as Unidades de Tomada de Decisão (DMUs) reside nos
+produtos consumidos e produzidos por cada uma delas. Uma DMU será considerada
+especificamente eficiente quando, em comparação com os demais, apresentar uma
+produção superior para quantidades fixas de insumos (orientação produto) e/ou utilizar
+menos insumos para gerar uma quantidade fixa de produtos (orientação insumo).
+Ao fixar as Unidades de Tomada de Decisão (DMUs) com as práticas produtivas
+mais eficientes, a Análise Envoltória de Dados (DEA) calcula uma fronteira de
+possibilidades de produção. Nesse contexto, o índice de eficiência é estimado numa
+escala de 0 a 1, ou de 0 a 100%, dependendo da proximidade entre a DMU e a
+fronteira referida.
+A partir da fronteira de possibilidades de produção, a análise de eficiência de
+unidades tomadoras de decisões ressalta a importância deste método tanto para fins
+estratégicos, na comparação entre unidades produtivas, quanto para o planejamento
+a partir da avaliação dos resultados do uso de diferentes combinações de fatores,
+além do auxílio na tomada de decisão, por meio da análise da distância entre a
+produção atual e potencial (GOMES; MANGABEIRA; DE MELLO, 2005). Assim, tornase possível com que as empresas busquem melhorar seus processos, tanto através
+de comparações externas, com seus concorrentes, como internas, avaliando suas
+próprias unidades de produção (SIMIONATO, 2019).
+Existem dois modelos clássicos de Análise Envoltória de Dados (DEA): o
+modelo de retornos constantes à escala (Constant Returns to Scale
+
+CRS),
+
+14
+
+desenvolvido por Charnes, Cooper e Rhodes em 1978, popularmente conhecido como
+CCR em referência aos seus criadores; e o modelo de retornos variáveis à escala
+(Variable Returns to Scale
+
+VRS), proposto por Banker, Charnes e Cooper em 1984,
+
+também reconhecido como BCC em homenagem aos seus autores.
+No modelo CCR, observa-se uma variação proporcional dos produtos em
+relação às alterações nos insumos, abrangendo todos os níveis de escala. Em outras
+palavras, presume-se que as unidades produtivas estão operando em uma escala
+ótima. Por outro lado, no modelo BCC, considera-se a não proporcionalidade entre
+insumos e produtos, permitindo a especificação da eficiência técnica em eficiência
+pura e eficiência de escala.
+O presente estudo tem como DMUs subsetores com características distintas
+entre si, seja em quantidade produzida, seja na quantidade de insumos. Nesse interim,
+pode-se dizer que o modelo VRS é a alternativa mais adequada quando se tem como
+objetivo comparar subsetores de portes diferentes, de forma que as unidades
+(subsetores) tenham como referências outras com características semelhantes.
+Nesse sentido, considere-se que existam
+
+insumos e
+
+produtos para cada
+
+DMUs. Dessa forma, são construídas duas matrizes: a matriz
+dimensões
+
+, e a matriz
+
+dados de todas as
+
+de produtos, de dimensões
+
+DMUs. Na matriz
+
+de insumos, de
+, representando os
+
+, cada linha representa um insumo e cada
+
+coluna representa uma DMU. Já, na matriz
+
+, cada linha representa um produto e
+
+cada coluna, uma DMU. Assim, para a i-ésima DMU, são representados os vetores
+e
+
+, respectivamente, para insumos e produtos.
+Para cada DMU, pode-se obter uma medida de eficiência que é a razão entre
+
+todos os produtos e todos os insumos. Para a i-ésima DMU, tem-se:
+(1)
+
+Em que
+
+é um vetor
+
+de pesos nos produtos e ,
+
+um vetor
+
+de
+
+pesos nos insumos.
+Assim, na orientação produto, os insumos são fixos e o produto pode ser
+expandido, com pressuposição de retornos variáveis à escala, conforme apresentado
+na expressão 1:
+
+15
+
+(2)
+s.a.
+
+Onde:
+é um vetor
+
+de quantidades de insumos da i-ésima DMU;
+
+é um vetor
+
+de quantidades de produtos da i-ésima DMU;
+
+é uma matriz
+
+de insumos das n DMUs;
+
+é a matriz
+é um vetor
+
+de produtos das n DMUs;
+de números uns que introduz ao modelo a restrição de
+
+convexidade;
+é um vetor
+
+de pesos; e
+
+é o escore de eficiência técnica da DMU e varia entre 0 e 1.
+Isto posto, se
+
+, indica uma DMU tecnicamente eficiente, se
+
+,
+
+indica uma DMU tecnicamente ineficiente. Para aquelas DMUs que são ineficientes,
+as variáveis de
+
+identificarão seus benchmarks, isto é, a DMU eficiente que pertence
+
+a seu conjunto de referência. Os valores de
+
+refletem a importância de uma unidade
+
+eficiente no conjunto de referência de uma DMU ineficiente.
+3.2 Índice de Malmquist
+O índice de Malmquist é uma medida que reflete o crescimento da
+Produtividade Total dos Fatores (PTF) de uma unidade de tomada de decisão (DMU)
+diante das variações de eficiência e técnica ao longo do tempo, considerando as
+diversas estruturas de entradas e saídas.
+A Produtividade Total dos Fatores (PTF) reflete a contribuição de todos os
+insumos produtivos na formação do produto, e, consequentemente, melhoras na PTF
+contribuem para um melhor desempenho da DMU.
+Färe et al. (1990, 1991), precursores no exame não paramétrico do IM
+orientado a produto, propuseram uma métrica para a mudança na produtividade,
+
+16
+
+sendo calculada como a média geométrica de dois índices de produtividade de
+Malmquist, avaliando as modificações da PTF caracterizada por uma tecnologia de
+produção que objetiva a maximização proporcional do vetor produto, entre os períodos
+e
+
+. Dessa forma, a representação algébrica do
+
+sob orientação produto é
+
+apresentada na expressão 3:
+(3)
+em que o índice é composto por quatro termos, sendo que dois correspondem aos
+períodos de tempo
+como
+
+e
+
+,
+
+e
+
+, respectivamente, bem
+
+e
+
+referem-se à comparação intertemporal. A expressão
+
+2 indica que: se
+
+, houve melhora na produtividade da DMUi ao longo do
+
+tempo; se
+
+, houve piora na produtividade da DMUi ao longo do tempo; e, se
+
+igual a 1, a produtividade da DMUi manteve-se constante ao longo do tempo.
+Conforme supracitado, o índice de Malmquist resulta do produto do
+emparelhamento pelo deslocamento da fronteira. Assim, o IM permite dividir a
+variação da PTF em dois efeitos: alterações na eficiência técnica (TEC - technical
+efficiency change
+
+-up (efeito
+
+emparelhamento), e modificações na tecnologia (TC - technical change, também
+frontier-shift effect (efeito deslocamento).
+O primeiro efeito avalia o aumento ou a diminuição da eficiência técnica ao
+longo do tempo, ou seja, permite verificar as mudanças no processo produtivo de uma
+mesma tecnologia. O segundo efeito verifica as alterações na produtividade devido ao
+avanço tecnológico.
+Esses efeitos são apresentados, algebricamente, de acordo com as
+expressões 4 e 5, respectivamente:
+(4)
+(5)
+
+17
+
+em que
+
+é a eficiência técnica da DMU_k objetivo
+
+tempo ; e
+
+é a eficiência técnica da DMU_k objetivo
+
+período de tempo
+
+períodos e
+constante em
+e
+
+e
+
+no
+
+.
+
+O emparelhamento
+
+períodos
+
+no período de
+
+significa que a eficiência técnica entre os
+
+melhorou;
+
+significa que a eficiência técnica permaneceu
+
+,e
+
+significa que a eficiência técnica piorou entre os
+
+. Assim, o efeito emparelhamento capta a mudança da distância
+
+que os fatores de produção observados estão em relação aos fatores de produção
+mínimos que ainda produzem outputs desejados e que estão sobre a fronteira
+eficiente no intervalo de tempo em análise.
+Os avanços na produtividade podem ser observados a partir das inovações
+tecnológicas (frontier-shift effect). Desse modo, o aumento de produtividade pode
+resultar da introdução de tecnologias mais avançadas, ou seja, que produzem um
+produto melhor com menor utilização de insumos. A expressão 5 representa a
+utilização da DEA com orientação produto de forma genérica, com um insumo e um
+produto. O deslocamento da fronteira maior que 1 (
+tecnológico no período
+mudança tecnológica, e se
+
+) significa progresso
+
+, em relação ao período ; se
+
+, não houve
+
+, indica regresso tecnológico.
+
+3.3 Fonte e tratamento dos dados
+Os dados que subsidiaram a análise da eficiência e produtividade são do
+relatório de Indicadores de Desempenho da SUFRAMA (2023), que possui dados do
+período de 2018 a 2022.
+Para se representar o produto (output), utilizou-se o faturamento de cada
+subsetor, como forma de representar os rendimentos dos subsetores. Porém, ao
+coletar os dados da SUFRAMA, foi possível salientar que os insumos do subsetor de
+Bens de Informática estavam sendo mensurados juntamente com o subsetor
+Eletroeletrônico, sendo necessária a soma dos faturamentos (produto) de ambos.
+Portanto, têm-se uma base de dados com 11 subsetores que contém as informações
+descritas para os anos de 2018 a 2022.
+
+18
+
+No Quadro 1 são apresentados os 11 subsetores (DMUs) objetos de análise
+no presente trabalho.
+Quadro 1 Subsetores do Polo Industrial de Manaus
+Número
+Subsetores
+1
+Setor Eletroeletrônico e Bens de Informática
+2
+Setor Duas Rodas
+3
+Setor Químico
+4
+Setor Termoplástico
+5
+Setor Metalúrgico
+6
+Setor Mecânico
+7
+Setor Ótico
+8
+Setor Relojoeiro
+9
+Setor Madeireiro
+10
+Setor Isqueiros, canetas e barbeadores descartáveis
+11
+Setor Papel e papelão
+Fonte: Elaborado pelo Autor.
+
+Para se representar os insumos (inputs) do modelo a ser utilizado, utilizou-se 3
+(três) insumos, como mostra o Quadro 2:
+Quadro 2
+
+Produto e Insumos de produção
+
+Nota: 1 - Valores em US$ 1,00; 2 - Exceto mão de obra terceirizada e temporária.
+Fonte: Elaborado pelo Autor.
+
+As medidas de eficiências foram obtidas ano a ano com a técnica Análise
+Envoltória de Dados (DEA), aplicado ao modelo BCC, orientado a produto (output),
+bem como os índices de produtividades, com o Índice Malmquist. Ambos mensurados
+através do software computacional DEAP Version 2.1.
+
+4. ANÁLISE E DISCUSSÃO DOS RESULTADOS
+
+Em primeiro lugar, serão apresentados os resultados para a análise da
+eficiência com a utilização da técnica DEA, a partir dos modelos, orientado a produto
+(output). A análise buscou verificar a trajetória ou a tendência das medidas de
+eficiências dinâmicas dos subsetores do PIM no período estudado, se crescente,
+constante ou decrescente. O resultado dessa análise proporcionou fazer algumas
+
+19
+
+inferências sobre a produtividade do PIM, a partir da análise do índice de Malmquist e
+suas decomposições.
+4.1. Análise da eficiência em DEA
+Conforme pode ser visto, a tabela 1 apresenta as estimativas das medidas das
+eficiências dos subsetores industriais do PIM, no modelo BBC, isto é, eficiências com
+retornos variáveis, para cada ano do período em análise.
+Com relação a medida da eficiência no modelo BBC, apenas cinco subsetores
+apresentaram medida de eficiência pura, isto é, 1 ou 100% em todos os anos
+analisados, são eles: Eletroeletrônico e Bens de Informática (1), Químico (3),
+Metalúrgico (5), Ótico (7) e Madeireiro (9). Ao longo do período observado, outros
+subsetores conseguiram atingir a máxima eficiência e encontraram-se na fronteira de
+possibilidade de produção em anos distintos. Nesse cenário, ao final do período
+observado, três subsetores não apresentaram eficiência técnica em nenhum ano,
+sendo eles os subsetores Duas Rodas (2); Termoplástico (4); Papel e Papelão (11).
+
+Tabela 1 - Medidas das eficiências dos subsetores no período de 2018-2022
+Setor
+Eletroeletrônico
+Duas Rodas
+Químico
+Termoplástico
+Metalúrgico
+Mecânico
+Ótico
+Relojoeiro
+Madeireiro
+Isqueiros...
+Papel e Papelão
+Média
+
+2018
+1,000
+0,770
+1,000
+0,674
+1,000
+0,897
+1,000
+1,000
+1,000
+1,000
+0,481
+0,893
+
+2019
+1,000
+0,713
+1,000
+0,780
+1,000
+1,000
+1,000
+0,944
+1,000
+1,000
+0,535
+0,907
+
+2020
+1,000
+0,771
+1,000
+0,753
+1,000
+1,000
+1,000
+0,895
+1,000
+0,688
+0,546
+0,878
+
+2021
+1,000
+0,772
+1,000
+0,785
+1,000
+1,000
+1,000
+0,799
+1,000
+1,000
+0,573
+0,903
+
+2022
+1,000
+0,845
+1,000
+0,758
+1,000
+1,000
+1,000
+1,000
+1,000
+0,969
+0,590
+0,924
+
+Fonte: Elaborado pelo Autor a partir de resultados da pesquisa.
+
+As médias anuais das eficiências dos subsetores apresentaram um importante
+progresso no início da análise. Entretanto, no intervalo entre 2019 e 2020, a média
+anual dos subsetores regrediu significativamente, de 90,7% para 87,8%, voltando a
+
+20
+
+progredir nos anos posteriores, atingindo seu máximo apenas em 2022, com 92,4%,
+mas ainda assim, sem apresentar eficiência técnica pura.
+Inicialmente, foi possível analisar, a partir dos resultados encontrados, que
+cinco subsetores apresentaram eficiência pura (1 ou 100%), durante todo o período
+analisado. Isto é, tais subsetores mantiveram suas eficiências na fronteira de
+possibilidades de produção. São eles: Subsetor Eletroeletrônico e Bens de
+Informática; Químico; Metalúrgico; Ótico; Madeireiro, conforme demonstrado no
+Figura 1 abaixo.
+Apesar de não existir variação nos resultados da eficiência destes subsetores,
+é possível avaliar a variação de cada um de seus insumos (inputs), assim como de
+seus produtos (outputs), sem deixar a fronteira da curva de possibilidades de
+produção. Tal fato demonstra a alocação de recursos de forma eficiente durante todos
+os períodos estudados, principalmente, durante o ano de 2020, com a pandemia de
+COVID-19.
+Figura 1
+
+Subsetores Eficientes (2018-2022)
+
+Eficiência dos Subsetores
+
+140%
+120%
+100%
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+2018
+
+2019
+
+2020
+
+2021
+
+2022
+
+Metalúrgico
+
+Ótico
+
+Madeireiro
+
+80%
+60%
+40%
+20%
+0%
+Eletroeletrônico
+
+Químico
+
+Fonte: Elaborado pelo Autor a partir de resultados da pesquisa.
+
+4.1.1 Subsetor Eletroeletrônico e Bens de Informática
+
+21
+
+O subsetor Eletroeletrônico e Bens de Informática, responsável pela produção
+de equipamentos eletrônicos, como celulares smartphones e televisões, apresenta-se
+como o maior subsetor do Polo Industrial de Manaus. Possui um faturamento médio
+de US$13.647.830.676,00 durante o período analisado, sendo o maior resultado
+obtido de US$16.339.544.818,00, em 2022, e o menor de US$11.646.050.115,00, em
+2020, no período auge da pandemia.
+Além disso, o subsetor demonstrou uma aquisição média de insumos de
+US$7.981.938.623,00 durante os cinco anos, sendo que 2022 representou o ano com
+maior valor de aquisição de insumos, com US$10.126.876.798,00, por outro lado,
+2019 foi o ano com US$6.681.681.318,00, o menor valor.
+Em relação ao investimento produtivo e mão de obra, o subsetor em questão
+manteve-se como maior, com uma média de US$2.488.617.765,00 investidos e
+32.276 de mão de obra ocupada. Desse modo, na pandemia, embora o subsetor tenha
+sofrido uma redução de 9,6% em seu faturamento, não apresentou oscilação em sua
+eficiência. Tal fato decorre, possivelmente, do aumento de 3,3% do valor de insumos
+adquiridos e 489 contratações em relação ao ano anterior, possibilitando a melhor
+alocação de seus recursos de forma eficiente, dessa forma, durante a pandemia, o
+subsetor eletroeletrônico deu mostras de que conseguiu resistir às condições mais
+adversas, dando continuidade ao trabalho e mantendo a produção em suas fábricas,
+adaptando-se à nova realidade a fim de trazer proteção aos trabalhadores. (Govêa,
+2020).
+4.1.2 Subsetor Químico
+Em sequência, o subsetor Químico, marcado pela fabricação de cosméticos,
+gases, concentrados de bebidas não alcoólicas e entre outros produtos, representou
+o terceiro maior faturamento entre os subsetores selecionados neste estudo, com o
+total de US$13.295.873.557,00 no intervalo explorado. Assim como o subsetor
+Eletroeletrônico e Bens de Informática, o subsetor Químico apresentou, no ano de
+2020, como o de menor faturamento e o de 2022 como o de maior faturamento. Em
+contrapartida, no que diz respeito à aquisição de insumos, obteve-se uma média de
+US$1.469.194.269, manifestando um importante crescimento desde o início do
+período em análise. No entanto, após o início da pandemia, houve uma redução
+significativa do valor destinado à aquisição de insumos, com a queda de 6,4%, sendo
+
+22
+
+recuperada nos anos seguintes. Em 2022, o seu maior valor de insumos adquiridos,
+de US$2.089.184.820,00.
+Nos âmbitos dos investimentos produtivos e mão de obra, o subsetor em voga
+teve uma média de US$909.063.352,00 investidos e 2.938 de mão de obra ocupada.
+A redução supracitada, durante a pandemia, também pôde ser observada no âmbito
+dos investimentos produtivos, no qual o subsetor obteve uma redução franca de
+23,75%, tornando o segundo menor investimento durante os anos observados
+(US$749.631.467,00).
+
+Em
+
+contrapartida,
+
+o
+
+subsetor
+
+realizou
+
+contratações,
+
+aumentando sua mão de obra ocupada. Em decorrência disso, a alocação de recursos
+foi realizada de forma eficiente, não variando a eficiência pura.
+4.1.3 Subsetor Metalúrgico
+O subsetor metalúrgico, no que lhe concerne, compreende a produção de
+partes e peças fundidas e usinadas, além de outros componentes necessários para
+produção de Motocicletas, do subsetor Duas Rodas. Dessa forma, foi o quinto maior
+faturamento
+
+entre
+
+os
+
+subsetores
+
+apreciados,
+
+com
+
+uma
+
+média
+
+de
+
+US$2.135.107.292,00.
+No que diz respeito à Aquisição de Insumos, é possível verificar que, após
+atingir seu valor mínimo em 2020, na pandemia, com US$576.084.076, o subsetor
+aumentou expressivamente o valor destinado aos insumos, obtendo seu valor máximo
+no ano seguinte (2021), e mantendo seu alto nível em 2022, apresentando uma média
+de Aquisição de Insumos de US$774.453.133,00.
+Referente aos Investimentos Produtivos, o subsetor em questão não sofreu
+grandes variações, demonstrando valores próximos à média de US$431.432.497,00,
+exceto durante a pandemia, quando apresentou seu menor valor investido com
+US$364.821.430,00, representando uma grande redução de 21,03%. O mesmo
+comportamento pôde ser observado na mão de obra. Ou seja, o subsetor também
+demonstrou níveis de mão de obra próximos à média de 5.303, com exceção de 2020,
+quando reduziu 312 unidades de mão de obra ocupada (5,78%). Dessa maneira,
+torna-se evidente que em meio ao período turbulento da pandemia, esse subsetor
+reduziu significativamente seus insumos, mantendo sua eficiência inalterada, sobre a
+fronteira de possibilidade de produção (1 ou 100%).
+
+23
+
+4.1.4 Subsetor Ótico
+O subsetor Ótico, por sua vez, expoente na produção de Lentes, foi o segundo
+menor faturamento observado, com média de US$100.526.922,00. É possível
+observar, no entanto, em 2019, excelentes resultados apresentados, com seus
+valores recordes de faturamento, mão de obra ocupada e insumos adquiridos. O
+investimento produtivo, apesar de ter sofrido uma leve redução, quando comparado
+ao ano anterior, ainda manteve um alto nível, sendo o segundo maior do intervalo
+estudado. Após esse período, com a chegada da pandemia, o subsetor Ótico sofreu
+vastas reduções em seus insumos, sendo a principal delas a de 59,85% na aquisição
+de insumos, alcançando seu valor mínimo de US$9.942.545,00, muito abaixo de sua
+média, impactando drasticamente seu faturamento, que por sua vez, também
+registrou seu valor mínimo neste ano, com US$85.276.657,00, representando um
+recuo de 28,24% em relação ao ano anterior.
+Embora o subsetor tenha apresentado retrações significativas durante a
+pandemia, como exposto anteriormente, não sofreu com variações de eficiência,
+mantendo-se eficiente durante todos os anos avaliados, mantendo ótima alocação dos
+seus fatores de produção.
+4.1.5 Subsetor Madeireiro
+O subsetor Madeireiro, que representa a fabricação de produtos como Artigos
+de Madeira, Violões, dentre outros, apresentou-se nesse estudo como um setor
+importante
+
+e eficiente,
+
+mesmo
+
+possuindo o menor faturamento
+
+total de
+
+US$81.577.482,00, e uma média de US$16.315.496,00 durante o intervalo avaliado.
+O polo Madeireiro sofreu fortes consequências durante a pandemia, quando
+alcançou seus valores mínimos de insumos adquiridos de US$3.909.764,00, abaixo
+da sua média de US$5.404.490,00. Com relação aos Investimentos Produtivos,
+apresentou US$18.826.153,00 neste período, significativamente abaixo da sua média
+de US$23.071.251,00. Na contramão dos demais insumos supracitados, o setor
+apresentou crescimento positivo e constante de sua mão de obra ocupada, mesmo
+no ano da pandemia, quando aumentou em 4,8% comparado ao ano anterior,
+alcançando uma média de 809 colaboradores.
+
+24
+
+Vale ressaltar que, em 2021, o subsetor Madeireiro iniciou sua recuperação,
+elevando exponencialmente seus recursos, até atingir seus valores máximos em
+2022. Conquanto, este subsetor demonstra que a eficiência não deriva de altos níveis
+de insumos e produto, mas da melhor combinação entre eles, comprovando que
+mesmo em momentos turbulentos, como o da pandemia, com fortes impactos em seus
+insumos e produtos, é possível manter uma alocação ótima de seus recursos, atuando
+de forma 100% eficiente.
+4.1.6 Subsetor Duas Rodas
+O subsetor Duas Rodas, reflete o segundo maior subsetor do Polo Industrial de
+Manaus, a partir da sua vasta produção de motocicletas, sendo o maior polo produtor
+do país com 95% da produção concentrada no Polo Industrial de Manaus
+(ABRACICLO, 2020). Nesse cenário, no que tange à eficiência, o subsetor
+demonstrou uma média de 77,4% de eficiência durante os cinco anos, permitindo
+evidenciar que o subsetor não foi eficiente nos anos estudados. Dessa maneira, é
+importante destacar que o menor nível de eficiência foi em 2019 com 71,3% e o maior,
+em 2022, com 84,5%, conforme exposto na Figura 2.
+Apesar de pouca variação nos níveis de eficiência do subsetor, é possível
+observar um crescimento significativo no período de 2021 a 2022, quando atingiu sua
+marca de maior eficiência, com 84,5%, mas ainda sem atingir a fronteira da curva de
+possibilidades de produção.
+O subsetor apresentou um faturamento médio de US$3.806.133.510,00
+durante o período analisado, sendo o maior resultado obtido de US$5.100.101.730,00,
+em 2022, e o menor de US$2.822.516.240,00, em 2020, durante a pandemia.
+Ademais, logrou uma aquisição média de insumos de US$2.429.230.926,00, sendo,
+em 2022, o maior valor adquirido de US$3.212.483.459,00 e o menor de
+US$1.735.469.065,00, em 2020, após uma redução brusca de 31,53%, quando
+comparado ao ano anterior, visto que, as montadoras sofreram com a falta de
+componentes (insumos) para fabricar as Motos, por conta de grande parte desses
+produtos virem da Ásia, o que reduziu muito a produção com -13,15% (ABRACICLO,
+2020).
+Já no que diz respeito à mão de obra, houve um crescimento constante desde
+2018, saindo da marca de 12.564 colaboradores (menor resultado), em 2018, e
+
+25
+
+atingindo 15.292 (maior resultado), em 2022, com uma média de 13.964 de mão de
+obra ocupada.
+Sobre os Investimentos Produtivos, o subsetor apresentou um investimento
+médio de US$1.175.054.204,00 no período analisado, sendo o maior valor investido,
+em 2018, com US$1.430.936.258,00 e o menor, em 2020, com US$1.009.417.837,00,
+representando uma redução de 22,03%, quando comparado com o ano anterior.
+Diante dos dados e resultados citados anteriormente, é possível elucidar que o
+ano pandêmico trouxe reduções significativas em seus insumos, com exceção do nível
+de mão de obra ocupada, o qual sofreu um crescimento constante. Apesar do forte
+impacto no faturamento do subsetor, a eficiência, não obstante, cresceu, quando
+comparada com o ano anterior, mostrando que seus recursos, apesar de mais
+exíguos, passaram a ser alocados de forma mais eficiente, não apenas neste ano,
+mas também nos anos consecutivos, até atingir seu nível máximo em 2022, porém,
+ainda assim, não foi eficiente em nenhum dos anos.
+Figura 2
+
+Eficiência Subsetor Duas rodas (2018-2022)
+
+Subsetor Duas Rodas
+1,400
+
+Duas Rodas
+
+1,200
+1,000
+0,800
+
+0,770
+
+0,713
+
+0,771
+
+0,772
+
+2020
+
+2021
+
+0,845
+
+0,600
+0,400
+0,200
+0,000
+2018
+
+2019
+
+2022
+
+Fonte: Elaborado pelo Autor a partir de resultados da pesquisa.
+
+4.1.7 Subsetor Termoplástico
+O subsetor Termoplástico, atuante na fabricação de produtos derivados da
+transformação de plásticos (polímeros) e resinas, apresentou, com relação à sua
+
+26
+
+eficiência, uma eficiência média de 75,0%, durante os 5 anos, podendo evidenciar que
+o subsetor não foi eficiente no período analisado. Nesse contexto, seu nível mínimo
+de eficiência foi em 2018 com 67,4% e o máximo foi em 2021 com 78,5%, conforme
+representado na Figura 3.
+Assim como o subsetor Duas Rodas, o subsetor Termoplástico sofreu pouca
+variação nos seus resultados de eficiência, entretanto, foi possível observar uma
+variação positiva significativa no ano de 2021, quando atingiu sua maior marca de
+eficiência com 78,5%, após a queda de eficiência apresentada perante a pandemia,
+ainda assim, sem tangenciar a fronteira da curva de possibilidades de produção.
+Posteriormente, o subsetor sofre uma nova regressão de sua eficiência para 75,8%,
+em 2022.
+Nessa conjuntura, para compreender melhor o comportamento da eficiência
+nos anos expostos anteriormente, é necessário voltar o olhar para os resultados de
+seus insumos e produto, tendo em vista que sua eficiência deriva da melhor
+combinação desses fatores. Desse modo, o setor apresentou um faturamento médio
+de US$2.128.957.975,00 durante o período analisado, sendo o seu valor máximo
+arrecadado de US$2.990.431.077,00, em 2022, e o mínimo de US$1.570.832.242,00,
+em 2018, o que mostra, inicialmente, que um maior produto (output) não reflete,
+necessariamente, em uma maior eficiência.
+Prosseguindo, o subsetor Termoplástico, embora tenha tido regressão na sua
+eficiência, obteve todos seus valores máximos de insumos, em 2022, quando
+alcançou US$1.810.199.036,00 de aquisição de insumos, 11.355 unidades de mão de
+obra ocupada e, por fim, US$1.666.628.238,00 de Investimentos Produtivos. Vale
+frisar que em relação a este último, o subsetor Termoplástico apresentou uma média
+de US$1.414.221.716,00, representando a segunda maior média, no período
+analisado, atrás somente do Subsetor Eletroeletrônico e Bens de Informática.
+Em vista dos dados e resultado expostos, é possível elucidar o rápido
+crescimento do setor em pauta, principalmente no ano posterior ao auge da pandemia
+(2021), quando sofreu aumentos generalizados em seus insumos e produto,
+demonstrando ótima recuperação, mais especificamente, 94,20% referente à
+aquisição de insumos, 25,35% de mão de obra ocupada, 16,24% nos seus
+Investimentos produtivos e, por fim, 55,85% em seu faturamento anual. Essa
+ascensão dos inputs e output, juntamente com uma melhoria alocativa desses
+recursos, derivou na maior taxa de eficiência do setor, entre os anos analisados.
+
+27
+
+Entretanto, o setor, como citado anteriormente, não conseguiu combinar seus
+recursos de forma que tangenciasse a fronteira de eficiência, dessa forma, não foi
+eficiente em nenhum dos cinco anos.
+Figura 3
+
+Eficiência Subsetor Termoplástico (2018-2022)
+
+Subsetor Termoplático
+1,400
+Termoplástico
+1,200
+1,000
+0,800
+
+0,780
+
+0,753
+
+0,785
+
+0,758
+
+2019
+
+2020
+
+2021
+
+2022
+
+0,674
+
+0,600
+0,400
+0,200
+0,000
+2018
+
+Fonte: Elaborado pelo Autor a partir de resultados da pesquisa.
+
+4.1.8 Subsetor Mecânico
+O subsetor Mecânico tem como seu principal expoente a produção de
+condicionadores de ar, além de componentes e outros aparelhos mecânicos. Em
+relação à sua eficiência, os resultados demonstraram uma eficiência média de 97,9%,
+durante os cinco anos, podendo evidenciar que o subsetor chegou a ser eficiente logo
+no segundo ano analisado (2019), e se manteve eficiente até o final do período,
+conforme exposto na Figura 4.
+Devido à sua preservação de eficiência durante a maioria dos anos, o setor
+apresentou uma pequena variação nos resultados de eficiência. Dessa forma,
+destaca-se o crescimento significativo no período de 2018 a 2019, onde saiu de 89,7%
+para 100%, atingindo sua eficiência, tangenciando a fronteira da curva de
+possibilidades de produção.
+No intervalo de 2018 a 2019, como dito anteriormente, o subsetor tornou-se
+eficiente, além disso, partindo do seu faturamento anual mínimo, em 2018, de
+
+28
+
+US$1.335.955.945,00, apresentou um acréscimo de 24,41% em seu faturamento, em
+2019 e 10,05% (457 unidades) em sua mão de obra ocupada. No entanto, apresentou
+reduções consideráveis nos outros insumos, com 22,72% na aquisição de insumos e
+13,61% no investimento produtivo, quando comparados ao ano anterior. Assim,
+demonstrou que apesar de consideráveis reduções de seus insumos em 2019,
+conseguiu ser eficiente e mais produtivo que o ano anterior, provavelmente, a partir
+de uma melhoria na gestão de seus fatores produtivos.
+É importante destacar que, houve um crescimento constante da sua mão de
+obra ocupada até o ano de 2021, deixando a marca de 4.547 colaboradores (menor
+resultado), em 2018, e atingindo 5.891 (maior resultado), em 2021, demonstrando
+aumentos significativos de mão de obra mesmo perante a pandemia, quando obteve
+sua aquisição de insumos mínima, resultando em uma média de 5.265 funcionários,
+no período analisado.
+No período de 2019 a 2020, o subsetor Mecânico, com o advento da pandemia,
+sofreu, novamente, impactos na sua aquisição de insumos, quando atingiu o seu valor
+mínimo de US$619.089.105,00, sinalizando uma redução de 10,7%, juntamente com
+queda no
+
+seu
+
+faturamento, atingindo
+
+seu
+
+segundo menor
+
+produto
+
+com
+
+US$1.512.256.951,00. Todavia, continuou expandindo sua mão de obra ocupada e
+obteve um crescimento modesto nos investimentos produtivos de 1,39%. Resultados
+estes que não impactaram a eficiência deste subsetor, que por sua vez, se manteve
+eficiente.
+Continuando, o ano de 2021, foi quando atingiu os níveis máximos de aquisição
+de insumos com US$947.172.492,00, de mão de obra ocupada com 5.891 e de
+faturamento anual com US$2.004.344.181,00, além do crescimento nos investimentos
+produtivos de 1,57%, demonstrando ser um ano extremamente positivo e de ótima
+recuperação pós-pandemia para o setor. Ademais, o subsetor mecânico, mais uma
+vez, conseguiu manter sua eficiência pura inalterada, significando que está alocando
+seus fatores produtivos, mesmo que mais abundantes, de forma eficiente.
+De 2021 a 2022, o setor, continuando eficiente, desacelerou seu crescimento
+e voltou a apresentar taxas negativas de crescimento em seus insumos e produto,
+exceto no âmbito do investimento produtivo, onde foi mantido seu crescimento
+positivo, desta vez, com 10,09%, atingindo seu segundo maior valor investido. Assim
+sendo, ao fim do intervalo completo, registrou um faturamento médio de
+US$1.666.241.914,00. Por outro lado, no que se refere aos seus insumos, o setor
+
+29
+
+mecânico apresentou uma aquisição média de insumos de US$794.169.798,00, mão
+de
+
+obra
+
+ocupada
+
+média
+
+de
+
+5.265
+
+e
+
+investimento
+
+produtivo
+
+médio
+
+de
+
+US$301.035.138,00.
+Portanto, após atingir a eficiência pura no segundo ano de análise, o setor
+manteve seus níveis de insumos próximos das suas respectivas médias, conseguindo
+não somente atenuar os impactos sofridos pelas reduções forçadas pela pandemia
+em seu produto, mas também manter constante sua eficiência.
+Figura 4
+
+Eficiência Subsetor Mecânico (2018-2022)
+
+Subsetor Mecânico
+1,400
+
+Mecânico
+
+1,200
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+2019
+
+2020
+
+2021
+
+2022
+
+0,897
+
+0,800
+0,600
+0,400
+0,200
+0,000
+2018
+
+Fonte: Elaborado pelo Autor a partir de resultados da pesquisa.
+
+4.1.9 Subsetor Relojoeiro
+O subsetor relojoeiro, responsável, essencialmente, pela produção de relógios,
+apresentou bons resultados em relação à eficiência, demonstrando uma eficiência
+média de 92,8%, durante os 5 anos, evidenciando que o subsetor chegou a ser
+eficiente em dois dos anos analisados, sendo eles 2018 e 2022. Nesse cenário, o nível
+mínimo de eficiência foi em 2021 com 79,9%, conforme ilustrado na Figura 5.
+Ao analisar o gráfico, nota-se a queda constante da eficiência desde 2018 até
+2021, nessa tendência, deixou a fronteira de eficiência e atingiu sua menor marca com
+79,9%, outrossim, o polo relojoeiro enfrenta uma longa crise, dado o avanço da
+
+30
+
+concorrência dos produtos importados legalmente, assim como a amplitude dos casos
+de pirataria, subfaturamento e contrabando. Como resultado, o subsetor, que já
+chegou a contar com 25 fábricas em Manaus, passou a se equilibrar com sete,
+nenhuma delas de grande porte (CIEAM, 2020), além da redução de todos os
+insumos, até a pandemia, em 2020. Após isso, o subsetor volta a se reerguer e
+aumentar o nível de todos seus insumos, mesmo com dificuldades de alocar seus
+recursos, em vista, a sua perda de eficiência em 2021, subsequentemente, o subsetor
+conseguiu retomar a sua melhor eficiência, no ano de 2022.
+Frente
+
+a
+
+isso,
+
+o
+
+subsetor
+
+apresentou
+
+um
+
+faturamento
+
+médio
+
+de
+
+US$257.248.048,00 durante o período analisado, sendo seu maior resultado obtido
+de US$330.848.535,00, em 2018. Apesar dos impactos no seu faturamento,
+decorrentes da pandemia e da retração dos seus insumos, em 2020, quando
+demonstrou seu menor faturamento anual de US$180.303.546,00, o ano com menor
+eficiência foi 2021, conforme citado anteriormente.
+Ainda, o subsetor apresentou uma aquisição média de insumos de
+US$168.103.392,00 durante o período analisado, sendo o menor valor investido até
+então. Nesse contexto, o maior valor investido foi de US$215.444.545,00, em 2022, e
+o menor de US$110.941.988,00, em 2020, o que como dito previamente, impactou na
+eficiência deste ano.
+No que diz respeito à mão de obra, houve quedas significativas desde 2018,
+saindo da marca de 1.883 ocupados, até 1.600 (menor resultado), em 2020. Dessa
+forma, apresentou uma média de 1.877 colaboradores. Por fim, sobre os
+Investimentos Produtivos, o subsetor apresentou um investimento médio de
+US$65.150.592,00, cuja marca foi alcançada em apenas dois dos anos analisados,
+2018 e 2019, mostrando que mesmo crescendo sua eficiência, em 2022, certos
+insumos mantiveram-se abaixo da média.
+Os resultados e dados demonstrados, evidenciam que a menor quantidade de
+insumos não reflete, necessariamente, na menor eficiência, tendo em vista que em
+2020 não foi obtido o pior resultado de eficiência, mesmo que, na melhor das
+hipóteses, parte das fábricas de relógios trabalharam com 30% de sua capacidade
+instalada, após pico da pandemia na capital amazonense (CIEAM, 2020). No ano
+conseguinte, quando o subsetor iniciou sua recuperação, aumentando seus níveis de
+insumos e representando a dificuldade de alocação desses, o setor apresentou o valor
+mínimo de eficiência. Nesse quadro, o equilíbrio e a alocação correta de seus insumos
+
+31
+
+ditam a eficiência produtiva do subsetor, sendo evidenciado no ano de 2022, quando
+o subsetor volta a ser eficiente (100%), mesmo não apresentando o maior
+faturamento, com US$247.907.652,00, juntamente, com seu segundo menor
+investimento positivo de US$59.904.101,00.
+Figura 5
+
+Eficiência Subsetor Relojoeiro (2018-2022)
+
+Subsetor Relojoeiro
+1,400
+
+Relojoeiro
+
+1,200
+1,000
+1,000
+
+0,944
+
+1,000
+0,895
+0,799
+
+0,800
+0,600
+0,400
+0,200
+0,000
+2018
+
+2019
+
+2020
+
+2021
+
+2022
+
+Fonte: Elaborado pelo Autor a partir de resultados da pesquisa.
+
+4.1.10 Subsetor de Isqueiros, Canetas e Barbeadores Descartáveis
+O subsetor de Isqueiros, canetas e barbeadores descartáveis, referente à sua
+eficiência, os resultados demonstraram uma eficiência média de 93,1%, durante os 5
+anos. No entanto, houve apenas dois anos, 2020 e 2022, em que o subsetor não
+alcançou eficiência, conforme mostrado na Figura 6.
+Embora tenha havido pouca variação na eficiência do subsetor, houve uma
+queda significativa durante o ano da pandemia, quando a eficiência caiu para 68,8%.
+Em 2021, houve uma recuperação para a fronteira de possibilidades de produção, e
+posteriormente, uma nova regressão para 96,9% em 2022.
+Durante o período avaliado, o subsetor teve uma média de faturamento de
+US$541.207.977,00, com o maior valor registrado em 2018, US$656.350.641,00, e o
+menor em 2020, US$458.687.873,00. No que diz respeito à aquisição média de
+insumos, o subsetor gastou em média US$168.503.387,00 ao longo dos anos
+
+32
+
+analisados, com o pico de US$194.871.352,00 em 2020 e o mínimo de
+US$141.756.652,00 em 2019.
+Quanto à mão de obra, houve uma diminuição constante desde 2018, com o
+menor número de colaboradores registrado em 2022, totalizando 2.048, e uma média
+de 2.249 funcionários. Além disso, o subsetor teve um investimento médio de
+US$613.274.952,00 durante o período estudado, com o maior investimento ocorrendo
+em 2018, US$ 688.632.278,00, e o menor em 2020, US$548.823.838,00.
+Este caso ilustra essencialmente o impacto da análise envoltória de dados. Ao
+examinar cuidadosamente os dados de 2020 e 2021, nota-se que os níveis de
+insumos nesses anos foram muito semelhantes, exceto pela aquisição excessiva de
+insumos em 2020, que por conta da dificuldade de alocar seus recursos, devido a
+pandemia, resultou na maior perda de eficiência do período analisado. Por outro lado,
+o subsetor demonstrou-se eficiente em 2021, indicando uma boa alocação e equilíbrio
+de recursos.
+Figura 6
+2022)
+
+Eficiência Subsetor Isqueiros, canetas e barbeadores descartáveis (2018Subsetor Isqueiros, canetas e barbeadores descartáveis
+
+1,400
+Isqueiros...
+1,200
+1,000
+
+1,000
+
+1,000
+
+0,969
+
+2021
+
+2022
+
+1,000
+0,800
+
+0,688
+
+0,600
+0,400
+0,200
+0,000
+2018
+
+2019
+
+2020
+
+Fonte: Elaborado pelo Autor a partir de resultados da pesquisa.
+
+4.1.11 Subsetor Papel e Papelão
+O subsetor Papel e Papelão é responsável pela fabricação, especialmente, de
+caixas e embalagens. Advém como o terceiro menor setor em faturamento, com uma
+
+33
+
+média de US$176.346.532,00. No que se refere à eficiência, o polo de Papel mostrase como o menos eficiente entre os subsetores compreendidos neste estudo. Nesse
+interim, os resultados demonstraram uma eficiência média de 54,5%, durante os 5
+anos. Ademais, o subsetor não foi eficiente em nenhum dos anos analisados neste
+estudo. Frente aos fatos, o nível de eficiência mínimo foi em 2018 com 48,1%, no
+início do intervalo recortado para esta análise, por outro lado, o pico foi em 2022 com
+59,0%, como pode ser apreciado na Figura 7.
+É importante ressaltar que, mesmo apresentando baixíssimos níveis de
+eficiência, o setor apresentou crescimentos positivos e constantes dos resultados de
+eficiência, desde 2018 até 2022, isto é, saindo da sua eficiência mínima para sua
+máxima neste intervalo. Assim sendo, é necessário atentar-se para os níveis de
+insumos e produto apresentados pelo subsetor nos cinco anos, a fim de compreender
+a melhoria em sua eficiência produtiva.
+Figura 7
+
+Eficiência Subsetor Papel e Papelão (2018-2022)
+
+Subsetor Papel e Papelão
+1,400
+Papel e Papelão
+1,200
+1,000
+0,800
+0,600
+
+0,481
+
+0,535
+
+0,546
+
+0,573
+
+0,590
+
+2019
+
+2020
+
+2021
+
+2022
+
+0,400
+0,200
+0,000
+2018
+
+Fonte: Elaborado pelo Autor a partir de resultados da pesquisa.
+
+Em uma análise ano a ano, evidencia-se um crescimento no primeiro intervalo
+(2018 a 2019), tanto em sua eficiência, quanto em seus insumos, principalmente, nos
+investimentos produtivos que, neste ano, registrou seu máximo investimento produtivo
+
+34
+
+anual com US$194.883.293,00. Fato este que, possivelmente, potencializou a
+expansão de sua eficiência neste intervalo, apresentando a maior variação,
+apresentando aumento de 48,1% para 53,5%. Importante destacar que, a exceção do
+crescimento dos insumos, encontra-se na aquisição de insumos, que obteve uma
+queda de cerca de 7,3%, representando a terceira menor marca.
+No intervalo conseguinte (2019 a 2020), o setor apresentou um incremento em
+sua eficiência, que embora modesto, atingindo 54,6%, é de extrema importância para
+o subsetor, tendo em vista a melhoria na alocação de seus recursos frente ao início
+da pandemia, em 2020. O que torna este resultado mais interessante é a forte redução
+dos insumos, contrária ao aumento da sua eficiência, com exceção da mão de obra,
+que por sua vez, cresceu em todos os anos. Nessa conjuntura, referente ao produto,
+o setor apresentou, em 2020, o menor nível de faturamento com US$132.037.867,00,
+significando uma redução de 18,37%. Ademais, em relação aos insumos, também
+demonstrou o valor mínimo de insumos adquiridos, com US$59.717.954,00,
+representando uma considerável queda de 24,96%.
+No terceiro intervalo (2020 a 2021), o subsetor, como dito anteriormente,
+manteve seu crescimento em sua eficiência, alcançando a marca de 57,3%, em 2021.
+Neste ano, o subsetor passou a recuperar-se da crise da pandemia, quando havia
+reduzido grande parte de seus insumos significativamente. Assim, apresentou seu
+segundo maior faturamento com US$203.128.886,00, crescimento de 53,84%,
+juntamente com o segundo maior valor gasto com aquisição de insumos com
+US$119.691.926,00, mostrando que a aquisição de insumos mais que dobrou, quando
+comparado à 2020. É importante destacar que, em contrapartida desta variação
+exponencial nos insumos adquiridos, o polo Papel e Papelão registrou o valor mínimo
+de investimento produtivo de US$142.293.027,00, redução de 12,86%, o que mostra
+que, altos investimentos podem não ser alocados eficientemente, convertendo-se em
+uma eficiência menor.
+Por último, o período de 2021 a 2022, o setor alcançou sua eficiência máxima
+com 59%, em 2022. Não obstante, foi possível evidenciar que o polo registrou os picos
+de faturamento, mão de obra ocupada e insumos adquiridos, além de um ótimo e
+significativo aumento de 20,97%, quando comparado à 2021, nos seus investimentos
+produtivos, demonstrando estar completamente recuperado do período pandêmico.
+Entretanto, apesar de ótimos níveis de insumos e produto, o subsetor Papel e
+
+35
+
+Papelão, não foi eficiente, significando que, não é somente necessária uma ampliação
+de insumos, mas também uma melhoria em sua alocação de recursos.
+4.1.12 Média dos Subsetores do PIM
+Após analisar cada subsetor, torna-se possível avaliar, seguramente, o
+comportamento da eficiência geral dos subsetores do Polo Industrial de Manaus com
+auxílio da Figura 8. No primeiro intervalo de 2018 a 2019, os subsetores juntos
+apresentaram ganhos de eficiência, partindo de 89,3% para a segunda maior marca
+de eficiência com 90,7%, em 2019, quando os setores apresentaram, juntos, o
+faturamento anual de US$25.772.618.500,00. Alguns subsetores apresentaram
+perdas de eficiência nesse período como o Relojoeiro, que deixou de ser eficiente e o
+Duas Rodas.
+Em decorrência disso, a expansão da eficiência média dos subsetores em
+geral, decorreu, principalmente, da melhoria significativa na eficiência dos subsetores
+Mecânico, Termoplástico e Papel e Papelão, com destaque para o primeiro que se
+tornou eficiente, tendo em vista que os ganhos de eficiência foram superiores às
+perdas daqueles.
+No ano de 2020, com o advento da pandemia, certos subsetores tiveram que
+realocar seus recursos e reduzir o nível de seus insumos. Como consequência, o Polo
+Industrial de Manaus registrou os menores níveis de aquisições de insumos e
+investimentos
+
+produtivos,
+
+assim
+
+como
+
+o
+
+faturamento
+
+anual
+
+mínimo
+
+de
+
+US$22.346.499.989,00, representando uma redução de 13,29%. Como efeito, alguns
+subsetores tiveram suas eficiências fortemente impactadas, outros, por outro lado,
+conseguiram manter-se constantes ou até mesmo obter melhorias em sua eficiência.
+Subsetores como Termoplástico, Relojoeiro e Isqueiros, Canetas e Barbeadores,
+obtiveram reduções em suas determinadas eficiências. Dentre eles, o setor produtor
+de isqueiros sofreu o maior choque, partindo da eficiência produtiva para o segundo
+menor valor de eficiência, quando comparado aos outros polos. Esse forte impacto,
+superior aos crescimentos citados, puxaram a eficiência média do PIM para o valor
+mínimo apresentado neste estudo de 87,8%.
+
+36
+
+Figura 8
+
+Eficiência média dos Subsetores (2018-2022)
+
+Média de Eficiência dos Subsetores
+1,400
+Média
+1,200
+1,000
+
+0,893
+
+0,907
+
+0,878
+
+0,903
+
+0,924
+
+2018
+
+2019
+
+2020
+
+2021
+
+2022
+
+0,800
+0,600
+0,400
+0,200
+0,000
+
+Fonte: Elaborado pelo Autor a partir de resultados da pesquisa.
+
+Continuando, em 2021, os subsetores apresentaram importantes reações
+frente à pandemia e recomeçaram a aumentar o nível de seus insumos. Desse modo,
+o fim deste ano foi marcado pelo segundo maior faturamento anual de
+US$28.873.132.046,00. Neste período, apenas um subsetor sofreu redução em sua
+eficiência, sendo ele o Relojoeiro, em contrapartida, todos os outros mantiveram-se
+eficientes, melhoraram sua eficiência ou até mesmo tornaram-se eficientes, como o
+polo de Isqueiros, que no ano anterior havia sofrido o mais forte impacto na eficiência,
+pela pandemia. Assim, o PIM alcançou a eficiência média de 90,3%, retomando a
+melhoria em sua alocação de recursos antes vista em 2019.
+Em conclusão, 2022 foi o ano mais forte do Polo Industrial de Manaus, quando
+os subsetores, unidos, geraram o faturamento anual, mão de obra ocupada e
+aquisição de insumos máximos, com ótimas taxas de crescimento. Apesar de não
+alcançar o valor máximo de investimento produtivo acumulado, o PIM aumentou cerca
+de 20%, o valor destinado a este fator de produção. No que diz respeito à eficiência,
+os subsetores, em conjunto, registraram a melhor média de eficiência de todo o
+período com 92,4%, quando o subsetor Relojoeiro foi eficiente e quando os polos Duas
+Rodas e Papel e Papelão, apesar de não serem eficientes, obtiveram ganhos de
+eficiência, quando comparados ao ano anterior.
+
+37
+
+Por conseguinte, compreende-se que os subsetores da Zona Franca de
+Manaus não foram eficientes em conjunto, mesmo quando apresentou seus valores
+máximos de certos insumos e produto, no caso, em 2022. No período total do presente
+estudo, apenas cinco subsetores são eficientes, sendo eles: Eletroeletrônico e Bens
+de Informática, Químico, Metalúrgico, Ótico e Madeireiro. Ademais, dois conseguiram
+ser eficientes no último ano avaliado; são eles: Mecânico e Relojoeiro. Porém, ao
+analisar o período total estudado, não foram eficientes, visto que apresentaram
+eficiência média de 97,9% e 92,8%, respectivamente. Nesse cenário, dois setores
+subsetores alcançaram, em 2022, os seus melhores resultados de eficiência, mas
+ainda sem ser eficientes, são eles: Duas Rodas e Papel e Papelão, com 84,5% e 59%,
+respectivamente.
+Finalmente, os dois últimos subsetores Termoplástico e Isqueiros, Canetas e
+Barbeadores Descartáveis, foram os que apresentaram perdas de eficiência ao fim do
+período, ainda que tenham apresentado importantes aumentos em seus níveis de
+insumos e produtos, quando comparados com o ano de 2021, o que demonstra que
+não foram eficientes, sugerindo a necessidade de melhoria em suas alocações de
+recursos.
+4.2 Análise de produtividade com Índice Malmquist
+Os resultados para o Índice Malmquist são resumidos na tabela 2. O índice
+médio de produtividade para todo o período foi de 1,036 (3,6%), indicando que houve
+ganhos de produtividade nos subsetores industriais nos períodos analisados.
+Nos quatro períodos analisados, em apenas um deles (período 3), os
+subsetores industriais apresentaram perdas de produtividade (valores menores que
+1). Em contrapartida, em todos os outros períodos os subsetores apresentaram
+ganhos de produtividade (valores maiores que 1).
+Tabela 2 Variação do Índice de Produtividade por períodos
+Período
+TC
+TEC
+PTF
+2 (2018-2019)
+1,060
+1,001
+1,061
+3 (2019-2020)
+0,877
+1,084
+0,951
+4 (2020-2021)
+1,029
+1,059
+1,090
+5 (2021-2022)
+0,993
+1,056
+1,048
+Média
+0,987
+1,050
+1,036
+Fonte: Elaborado pelo Autor a partir de resultados da pesquisa.
+
+% (PTF)
+6,10%
+-4,90%
+9,00%
+4,80%
+3,60%
+
+38
+
+A priori, em uma análise voltada para os subsetores em geral, nota-se que, no
+primeiro período (2), de 2018 a 2019, o Polo Industrial de Manaus (PIM) registrou a
+sua segunda maior variação na Produtividade Total dos Fatores (PTF), com o
+crescimento positivo de 6,10%, puxada, principalmente, pelo alto incremento de
+Mudança Tecnológica (TC), que inclusive, foi o maior de todos os intervalos, com
+1,060 (6%), representando uma mudança (deslocamento) na fronteira de
+possibilidades de produção, comprovado pelo aumento na eficiência média do PIM,
+em 2019, citado anteriormente. Não obstante, a Mudança na Eficiência Técnica (TEC)
+também foi positiva, colaborando, ainda que de forma simples, na expansão positiva
+da PTF.
+O período seguinte, de 2019 a 2020, foi marcado pelo início da pandemia,
+quando a Zona Franca enfrentou sua primeira e mais brusca redução da Mudança
+Tecnológica (TC) com 0,877, corroborado pelo pior resultado de Eficiência de todo o
+período, em 2020. Em decorrência disso, mesmo com a máxima Mudança de
+Eficiência Técnica de 1,084, não foi possível evitar a variação negativa da
+Produtividade Total dos Fatores, sendo a única perda de produtividade dos subsetores
+estudados, com -4,9%.
+Direcionando-se para o período 4, de 2020 a 2021, é possível verificar a ótima
+recuperação do PIM perante a pandemia, derivando o maior ganho de produtividade
+entre os períodos, com 9%. Nesse cenário, tanto a Mudança Tecnológica quanto a
+Mudança da Eficiência Técnica foram imprescindíveis, para tal variação positiva, visto
+que representaram crescimentos de 1,029 e 1,059, respectivamente. A importante
+expansão da TC, se deu, possivelmente, pela mudança da fronteira de eficiência, após
+a ampliação de sua eficiência, em 2021, já a da TEC, reflete mudanças significativas
+no processo produtivo de uma mesma tecnologia.
+Por fim, no período 5, de 2021 a 2022, mesmo após o maior ganho de
+produtividade e significativa Mudança Tecnológica, a fim de superar a pandemia,
+alguns subsetores apresentaram perdas de eficiência como o Termoplástico e
+Isqueiros,
+
+Canetas
+
+e
+
+Barbeadores
+
+Descartáveis,
+
+possivelmente,
+
+devido
+
+a
+
+necessidade de um período de adaptação tecnológica, frente à melhoria exponencial
+da Mudança Tecnológica, representando um rompimento do paradigma tecnológico
+(Alves et al., 2018). Este fato pode ser percebido, principalmente, no subsetor
+Termoplástico, onde a Indústria 4.0 expande rapidamente, com a implantação da
+tecnologia de Inteligência Artificial, atuando em conjunto com máquinas para
+
+39
+
+fabricação de Peças Plásticas Moldadas por Injeção, dessa forma, puxando uma
+mínima redução de 0,7% na Mudança Tecnológica média do PIM, comprovado pela
+perda de 11,4% na mudança tecnológica do subsetor Termoplástico, em 2022. Em
+compensação, os subsetores apresentaram mais uma Mudança da Eficiência Técnica
+positiva, impactando a Produtividade Total dos Fatores (PTF), que finalizou o período
+com ganhos de 4,8%.
+Figura 9
+Médias de Mudança Tecnológica, Mudança na Eficiência Técnica e
+Produtividade Total dos Fatores, dos subsetores
+
+Médias dos Subsetores (2018-2022)
+1,200
+1,000
+0,800
+0,600
+0,400
+0,200
+0,000
+
+TC
+
+TEC
+
+PTF
+
+Fonte: Elaborado pelo Autor a partir de resultados da pesquisa.
+
+Porquanto, pode-se dizer que a Mudança na Eficiência técnica foi o fator que
+mais impactou no IM dos subsetores analisados, em vista a sua média de 1,050 (5%),
+consideravelmente superior à de Mudança Tecnológica, que por sua vez, foi negativa,
+com -1,3%, derivando uma Produtividade Total dos Fatores de produção média
+positiva com 3,6% de incremento. Vale ressaltar que, Breval (2019), em colaboração
+com a Federação das Indústrias do Estado do Amazonas (FIEAM), o Centro da
+Indústria do Estado do Amazonas (CIEAM) e a Universidade Federal do Amazonas
+(UFAM), realizou uma pesquisa que avaliou o nível de maturidade e preparação da
+Indústria 4.0 nas empresas estabelecidas no Polo Industrial de Manaus (PIM). Como
+resultado, 57% das empresas reconhecem a importância da Indústria 4.0, contudo,
+
+40
+
+ainda não a incorporaram em suas estratégias operacionais, também constatou que
+92% dos colaboradores das empresas analisadas possuem habilidades digitais
+limitadas ou inexistentes.
+A posteriori, com o foco em cada subsetor, especificamente, é possível
+encontrar tendências nas curvas de mudanças dos subsetores, conforme mostra a
+Figura 9. No setor Eletroeletrônico e Bens de Informática, evidencia-se que a PTF, foi
+positiva com ganhos de 4,40% na produtividade e segue alinhada com a Mudança de
+Eficiência Técnica (TEC), demonstrando que as possíveis mudanças nos processos
+produtivos de uma mesma tecnologia foram mais impactantes neste polo. O setor
+Duas Rodas, no que lhe concerne, também apresentou 4,4% de ganhos de
+produtividade, mesmo apresentando as 3 curvas bem próximas umas das outras.
+Entretanto, a TEC, também se sobressaiu, impactando mais no IM deste setor.
+Prosseguindo a análise gráfica, torna-se perceptível que, o subsetor Químico,
+ao contrário de outros subsetores, obteve a mudança de eficiência técnica média
+puxando negativamente a PTF, com 0,969 (-3,1%), enquanto a sua Mudança
+Tecnológica média manteve-se constante igual a 1. Desse modo, foi o primeiro a
+apresentar perda na média da produtividade total dos fatores, com -3,10%, fato este
+importante para esta análise, visto que, o setor em questão apresentou-se eficiente
+em todos os anos estudados. O setor Termoplástico, por sua vez, apresentou um
+baixo ganho de produtividade média, com 0,6%. Vale destacar que, o seu incremento
+na PTF também se deu pela média de mudança da eficiência técnica positiva de 0,6%,
+visto que, sua mudança tecnológica média permaneceu constante.
+O subsetor Metalúrgico manifestou de forma mais clara que a sua TEC média
+impactou fortemente sua produtividade média, com 1,079 (7,9%), frente à sua
+mudança tecnológica média constante, dessa maneira, finalizou com uma média de
+produtividade total dos fatores de 7,9%.
+Encaminhando-se para a avaliação do setor Mecânico, percebe-se que este
+apresentou resultados muito próximos nas médias de mudança tecnológica e de
+mudança na eficiência técnica, sendo elas 1,033 (3,3%) e 1,040 (4,0%)
+respectivamente, resultando em ganhos na produtividade total dos fatores média de
+7,4%. Nessa ocasião, o polo mecânico demonstrou a maior média de TC, em
+contrapartida, a PTF média foi efetivamente impactada pela média da mudança de
+
+41
+
+eficiência técnica, que foi superior, atestando a implementação de novas técnicas
+produtivas no processo produtivo.
+O setor Ótico, em especial, obtém destaque nesta análise, mostrando ser o
+polo com o maior ganho de produtividade média de 11,9%. Frente aos resultados,
+observa-se que sua TC média se manteve constante, sendo possível concluir que este
+importante ganho de produtividade se deve pela média da TEC, que por seu lado, foi
+o maior ganho entre os subsetores com 1,119 (11,9%). No Gráfico 9 acima, comprovase tal fato, tendo em vista as curvas das médias da PTF e da TEC praticamente
+alinhadas.
+Os subsetores Relojoeiro, Madeireiro e Isqueiros, Canetas e Barbeadores
+Descartáveis, apresentaram, juntamente, os três piores resultados na média de
+mudança tecnológica, 0,919 (-8,1%), 0,932 (-6,8%) e 0,945 (-5,5%), respectivamente,
+possivelmente, devido à pequena diversificação de seus produtos e a baixa
+implantação de novas tecnologias em suas linhas produtivas, além das características
+básicas de seus produtos que, apresentam baixo diferencial tecnológico. Desse modo,
+para os setores Relojoeiro e Isqueiros, Canetas e Barbeadores, a média da mudança
+de eficiência técnica, embora relativamente alta, não conseguiu puxar a média de
+produtividade positivamente, finalizando com perdas na produtividade total dos fatores
+média de -2,6% e -0,9%, respectivamente. No entanto, o subsetor Madeireiro, com a
+segunda maior média da TEC, finalizou os cinco anos estudados com ganhos na
+produtividade total dos fatores com média de 1,50%, significando que mesmo com
+baixas inovações tecnológicas, o polo incrementou novas técnicas produtivas.
+Por fim, o subsetor Papel e Papelão, registrou o segundo maior ganho médio
+de produtividade com 9,40%. Nesse cenário, a média da PTF, foi visivelmente
+impactada pela mudança de eficiência técnica média de 7,3%.
+
+5. CONCLUSÃO
+A presente pesquisa teve como intuito responder o seguinte questionamento:
+Os setores do PIM sofreram variação de eficiência nos seus faturamentos e na
+alocação de seus fatores de produção antes, durante e após a pandemia da Covid19? Para responder tal questionamento, foram utilizadas as metodologias de Análise
+
+42
+
+Envoltória de Dados (DEA) para calcular a eficiência técnica dos subsetores do Polo
+Industrial de Manaus e o Índice de Malmquist para verificar se houve mudança da
+eficiência no modelo antes, durante e depois da pandemia.
+Para a análise da eficiência dos subsetores, constatou-se, por meio dos
+resultados obtidos, que cinco subsetores mantiveram uma eficiência pura de 100% ao
+longo de todo o período analisado. Isso significa que esses subsetores conseguiram
+manter suas eficiências na fronteira de possibilidades de produção. Esses subsetores
+são: Eletroeletrônico e Bens de Informática; Químico; Metalúrgico; Ótico; e Madeireiro.
+Embora não tenha havido variação nos resultados de eficiência desses subsetores,
+foi possível avaliar a variação de cada um de seus insumos (inputs) e produtos
+(outputs) sem sair da fronteira da curva de possibilidades de produção. Esses dados
+demonstraram uma alocação eficiente de recursos ao longo de todos os períodos
+estudados, especialmente durante o ano de 2020, marcado pela pandemia de covid19.
+Diante dos dados e resultados apresentados pelo polo Duas Rodas, torna-se
+evidente que o ano marcado pela pandemia resultou em reduções significativas nos
+insumos, especialmente no caso das montadoras que enfrentaram escassez de
+componentes para a fabricação de motocicletas, devido à dependência de matériasprimas provenientes da Ásia, o que resultou em uma considerável diminuição na
+produção, com exceção do nível de mão de obra empregada, que registrou um
+crescimento constante.
+Ainda durante a pandemia, apesar do impacto substancial no faturamento do
+subsetor, a eficiência, surpreendentemente, aumentou. Isso sugere que os recursos,
+embora mais limitados, passaram a ser alocados de maneira mais eficiente, não
+apenas no período pandêmico, mas também nos anos subsequentes, alcançando seu
+ápice em 2022. No entanto, mesmo encontrando melhorias de eficiência no período
+pós-pandemia, o setor não foi eficiente em nenhum dos anos analisados.
+Com base nos dados apresentados, é perceptível o rápido crescimento do
+subsetor Termoplástico, especialmente no ano seguinte ao ápice da pandemia (2021),
+quando experimentou aumentos generalizados em seus insumos e produtos,
+demonstrando uma recuperação notável. Assim como ocorreu com o setor de Duas
+Rodas, o polo plástico também registrou pouca variação em seus resultados de
+
+43
+
+eficiência ao longo do tempo. No entanto, destacou-se uma variação positiva
+significativa de 2020 a 2021, quando alcançou sua maior eficiência, após uma piora
+durante a pandemia. No entanto, como mencionado anteriormente, o setor não
+conseguiu utilizar seus recursos de forma a atingir a fronteira de eficiência, portanto,
+não foi eficiente em nenhum dos cinco anos estudados, finalizando o período inclusive
+com perdas de eficiência.
+Após alcançar eficiência máxima no segundo ano de análise, o subsetor
+mecânico conseguiu manter seus níveis de insumos próximos das médias
+correspondentes. Isso não apenas ajudou a mitigar os impactos das reduções
+forçadas pela pandemia em seu produto, mas também permitiu que sua eficiência
+permanecesse constante.
+Apesar de enfrentar uma prolongada crise devido ao avanço da concorrência,
+o polo relojoeiro conseguiu manter-se firme, com um número reduzido de fábricas. O
+setor apresentou resultados decrescentes em termos de eficiência, deixando de ser
+eficiente no primeiro intervalo de 2018 a 2019, e atingindo sua eficiência mínima, em
+2021, após reduções mais significativas durante a pandemia, contudo, conseguiu
+recuperar-se e tornar-se eficiente ao final do período analisado.
+Em relação ao setor de Isqueiros, Canetas e Barbeadores, houve apenas dois
+anos, 2020 e 2022, nos quais o subsetor não alcançou eficiência. Notavelmente,
+durante o ano da pandemia, o polo enfrentou uma queda significativa, registrando o
+maior declínio de eficiência entre os subsetores analisados nesse período desafiador.
+No ano seguinte, o subsetor conseguiu realocar seus recursos de forma eficiente,
+recuperando sua eficiência. No entanto, encerrou o último ano com mais uma redução
+na eficiência.
+É fundamental destacar que, apesar de registrar níveis de eficiência muito
+baixos, o setor de papel e papelão apresentou crescimento constante e positivo nos
+resultados de eficiência entre 2018 e 2022. Ou seja, saiu de sua eficiência mínima
+para atingir sua eficiência máxima nesse período, demonstrando ganhos de eficiência
+mesmo durante a pandemia. No entanto, apesar desses avanços, o setor ainda não
+alcançou a eficiência desejada, indicando que não apenas uma expansão dos
+insumos foi necessária ao longo do tempo, mas também uma melhoria na alocação
+de recursos.
+
+44
+
+No primeiro intervalo, o PIM demonstrou uma expansão inicial da eficiência
+média dos subsetores. Em 2020, com o surgimento da pandemia, diversos subsetores
+precisaram realocar recursos e reduzir seus insumos. Isso resultou nos níveis de
+aquisição de insumos, investimentos produtivos e faturamento anual mínimos, dessa
+maneira, o PIM obteve perdas graves de eficiência, atingindo o seu pior nível de
+eficiência, mesmo que neste ano alguns subsetores tenham conseguido manter suas
+eficiências constantes ou até melhorá-las. Nos anos posteriores, a Zona Franca de
+Manaus iniciou sua recuperação e apresentou níveis de fatores produtivos melhores,
+obtendo, assim, ganhos de eficiência, até chegar no seu máximo, em 2022.
+Em relação aos resultados do Índice Malmquist, constatou-se que o índice
+médio de produtividade indicou ganhos de produtividade nos subsetores industriais
+ao longo dos períodos analisados. Dos quatro períodos analisados, apenas no período
+de 2019 a 2020 os subsetores industriais apresentaram perdas de produtividade, ou
+seja, valores menores que 1, por conta da queda exponencial da eficiência durante a
+pandemia. Por outro lado, nos demais períodos, os subsetores registraram ganhos de
+produtividade, com valores acima de 1. Observa-se que a Mudança na Eficiência
+Técnica foi o fator que mais impactou o Índice Malmquist dos subsetores analisados,
+com uma média, consideravelmente, superior à Mudança Tecnológica, que
+apresentou uma média negativa.
+
+REFERÊNCIAS
+
+ABRACICLO. Efeito pandemia: Produção de Motocicletas deve fechar 2020 com
+redução
+de
+15,4%.
+Disponível
+em:
+<https://www.abraciclo.com.br/site/clipping/2020/efeito-pandemia-producao-demotocicletas-deve-fechar-2020-com-reducao-de-154/>. Acesso em: 28 Fev. 2024.
+ALVES, Frederick Fagundes; MADEIRA, Soraia Araújo; DE CARVALHO SOUSA,
+Lucas Vitor. Eficiência e convergência da inovação: um estudo do progresso
+tecnológico para países desenvolvidos e em desenvolvimento. Análise Econômica,
+v. 36, n. 70, 2018.
+BANKER, R. D.; CHARNES, A.; COOPER, W. Some Models for Estimating Technical
+and Scale Inefficiencies, in Data Envelopment Analysis. Management Science, v.30,
+n.9, pp. 1078-1092, Set. 1984.
+
+45
+
+BARBOSA, RMS. ZFM, incentivos fiscais e desenvolvimento: uma avaliação, 49 f.
+2012. Tese de Doutorado. Dissertação (Mestrado) Departamento de Economia,
+Universidade Católica de Brasília, Brasília, 2012.
+BARRETO, Ricardo Candeá Sá; FILHO, João Benigno de Mesquita. Desempenho
+Setorial da Economia Fluminense: Uma Aplicação da Análise Envoltória de Dados.
+XLV Congresso da SOBER "Conhecimentos para Agricultura do Futuro".
+Londrina-PR. 2007.
+BITTENCOURT, Viviane Seda; PACINI, Stefano; VIANA, Raphael; STEHMANN, Júlia
+Alves; VELOSO, Geórgia. Evolução da escassez de insumos e matérias primas
+durante
+a
+pandemia.
+FGV
+IBRE,
+2022.
+Disponível
+em
+<
+https://blogdoibre.fgv.br/posts/evolucao-da-escassez-de-insumos-e-materias-primasdurantepandemia#:~:text=A%20an%C3%A1lise%20do%20resultado%20da,4%25%20de%2
+0junho%20de%202021.>. Acesso em: 21 Mar. 2023.
+BOGETOFT, P.; OTTO, L. Efficiency measures. In: Benchmarking with DEA, SFA, and
+R. [s.l: s.n.]. v. 157p. 368.
+BREVAL, Sandro. Pesquisa sobre maturidade e prontidão do PIM em Indústria
+4.0. Amazonas, AM: Universidade Federal do Amazonas, 2019. Disponível em:
+<https://cieam.com.br/noticias/empresas-do-polo-industrial-de-manaus-fazemtransicao-para-novo-modelo>. Acesso em: 29 Fev. 2024.
+CAVALCANTE, Marcelo Clinger Vieira. Pesquisa e desenvolvimento como ferramenta
+das políticas públicas nacionais de ciência e tecnologia : Um estudo de caso da
+eficiência da Lei de Informática na Zona Franca de Manaus por meio da análise
+envoltória de dados. 2017. 124 f. Dissertação (Mestrado em Engenharia de
+Produção) - Universidade Federal do Amazonas, Manaus, 2017.
+CHARNES, A.; COOPER, W.; RODES, E. Measuring the efficiency of decision making
+units. European Journal of Operational Rescarch, v.2, n. 6, pp. 429-444, 1978.
+CIEAM. Indústria relojoeira do PIM luta para sair da crise. Disponível em:
+<https://cieam.com.br/noticias/industria-relojoeira-do-pim-luta-para-sair-da-crise>.
+Acesso em: 28 Fev. 2024.
+COELLI, T.; RAO, D.; BATTESE, G. An introduction to efficiency and productivity
+analysis. London: Kluwer Academic Publishers, 1998.
+Conceitos Básicos de Análise de Eficiência Produtiva. In: SIMPÓSIO DE
+ENGENHARIA DE PRODUÇÃO (SIMPEP), 14., 2007.
+FARRELL, M. J. The measurement of productive efficienty. Journal Royal Statistical
+Society, v.120, part III, pp. 253-259, 1957.
+DINIZ, Márcia Jucá Teixeira; DINIZ, Marcelo Bentes; DE OLIVEIRA JÚNIOR, José
+Nilo. Inovação x eficiência: um estudo empírico para o Polo Industrial de Manaus
+(2000-2006). Revista de Economia, v. 37, n. 3, 2011.
+FERNANDES, Afonso Fonseca; MINORI, A. M.; MORAIS, Raimundo Nonato. Análise
+Envoltória de Dados: Uma aplicação no Polo de Industrial de Manaus (PIM). In:
+Congresso Internacional de Administração. Adm2017. Ponta Grossa PR. 2017.
+
+46
+
+FINAMORE, Eduardo Belisário MC; GOMES, Adriano Provezano; DIAS, Roberto
+Serpa. Eficiência relativa dos setores econômicos do Rio Grande do Sul: uma
+aplicação do modelo DEA na matriz de insumo-produto. Análise Revista de
+Administração da PUCRS, v. 16, n. 2, 2005.
+FINAMORE, Eduardo Belisario et al. Eficiência relativa dos setores econômicos de
+Minas Gerais: uma aplicação do modelo DEA na matriz insumo-produto, 2015.
+GOMES, Eliane Gonçalves; MANGABEIRA, João Alfredo de Carvalho; MELLO, João
+Carlos Correia Baptista Soares de. Análise de envoltória de dados para avaliação de
+eficiência e caracterização de tipologias em agricultura: um estudo de caso. Revista
+de Economia e Sociologia Rural, v. 43, p. 607-631, 2005.
+GONÇALVES, R. DA C.; EHRL, P. Efeitos econômicos da Zona Franca de Manaus.
+Pesquisa e Planejamento Econômico (PPE), n. v. 51, n. 03, p. 251 279, 2021.
+GOVÊA, Irineu. Pronunciamento Irineu Govêa. Encontro Anual da Indústria Elétrica
+e Eletrônica, 2020. Disponível em: <http://www.abinee.org.br/noticias/com314.htm>.
+Acesso em: 28 Fev. 2024.
+LACERDA, Daniel Pacheco; CAMARGO, Luis Felipe Riehs; PIRAN, Fabio Sartori.
+Análise e gestão da eficiência: Aplicação em sistemas produtivos de bens e de
+serviços. Elsevier Brasil, 2018.
+LYRA, Flávio Tavares. Os incentivos fiscais à indústria da Zona Franca de Manaus:
+uma avaliação. Brasília: IPEA, 1995.
+MACHADO, José Alberto da Costa; SÁ, Mauro Thury de Vieira. Polo Industrial de
+Manaus: Suas Transformações e seus Êxitos na Agregação de Valor Regional, no
+período 1996-2009. 2012.
+MACIEL, P.; MACHADO, W.; RIVAS, A. O impacto da Zona Franca de Manaus ZFM
+no desenvolvimento do estado do Amazonas: a eficácia do modelo. XXIII ENCONTRO
+NACIONAL DE ENGENHARIA DE PRODU O. Ouro Preto: Enegep, 2003.
+MARCATO, Marília Bassetti; TORRACA, J. Impactos da COVID-19 na indústria de
+transformação do Brasil. Textos para Discussão, IE/UFRJ, n. 19, 2020.
+MARIANO, E.B.; ALMEIDA M.R. ; REBELATTO D.A.N. Princípios Básicos para uma
+proposta de ensino sobre análise por envoltória de dados. In: XXXIV Congresso
+Brasileiro de Ensino em Engenharia (COBENGE), Passo Fundo. Anais, 2006.
+MINORI, Alan Fernandes; COUTINHO, Ana Luísa Celino. DESENVOLVIMENTO
+SUSTENTÁVEL E INTERVENÇÃO ESTATAL NA ORDEM ECONÔMICA: UMA
+ANÁLISE DO MODELO DA ZONA FRANCA DE MANAUS. Anais do XVIII
+Congresso Nacional do CONPEDI. São Paulo SP. 2009.
+MORAIS, Raimundo Nonato de Souza et al. Análise da eficiência em regiões
+industriais incentivadas: o caso do Polo Industrial de Manaus (PIM). Dissertação
+(Mestrado) - Universidade Católica de Brasília. Brasília-DF. 2019.
+OTÁVIO DA SILVA, L. DESENVOLVIMENTO SUSTENTÁVEL E A ZONA FRANCA
+DE MANAUS. Constituição, Economia E Desenvolvimento: Revista Eletrônica Da
+Academia Brasileira De Direito Constitucional, 7(13), 423-440, 2020.
+
+47
+
+REBELO, João. Medição da evolução da produtividade total dos factores: O Índice de
+Malmquist. Gestão e desenvolvimento, n. 9, p. 43-79, 2000.
+SANTOS, Rodrigo dos. Impactos da pandemia COVID-19 na indústria de
+transformação brasileira. 2022.
+SERÁFICO, José; SERÁFICO, Marcelo. A Zona Franca de Manaus e o capitalismo
+no Brasil. Estudos Avançados, São Paulo, 2005.
+SIMIONATO, Vinícius Eduardo. Análise envoltória de dados (DEA) como ferramenta
+para melhoria de processos baseado na eficiência dos agentes: estudo de caso em
+uma instituição financeira. 2019.
+SUFRAMA. Caderno de Indicadores de Desempenho do Polo Industrial de Manaus
+2018-2023.
+Disponível
+em:
+<https://www.gov.br/suframa/ptbr/publicacoes/indicadores/CADERNO_INDICADORES_JANEIRO_JUNHO_2023__
+Gerado_em_14.08.2023_.pdf/view>. Acesso em: 06 Fev. 2024
+TORRES, Iraildes Caldas. As novas amazônidas. Manaus: Editora da Universidade
+Federal do Amazonas, 2005.
+
+

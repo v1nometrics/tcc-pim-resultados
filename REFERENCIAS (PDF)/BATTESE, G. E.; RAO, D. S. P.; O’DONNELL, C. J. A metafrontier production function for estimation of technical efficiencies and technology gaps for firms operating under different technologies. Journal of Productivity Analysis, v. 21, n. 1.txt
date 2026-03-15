@@ -1,0 +1,1013 @@
+A Metafrontier Production Function for Estimation of Technical Efficiencies and
+Technology Gaps for Firms Operating Under Different Technologies
+Author(s): GEORGE E. BATTESE, D. S. PRASADA RAO and CHRISTOPHER J. O'DONNELL
+Source: Journal of Productivity Analysis, Vol. 21, No. 1 (January, 2004), pp. 91-103
+Published by: Springer
+Stable URL: http://www.jstor.org/stable/41770148
+Accessed: 25-08-2016 05:13 UTC
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide range of content in a trusted
+digital archive. We use information technology and tools to increase productivity and facilitate new forms of scholarship. For more information about
+JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+http://about.jstor.org/terms
+
+Springer is collaborating with JSTOR to digitize, preserve and extend access to Journal of Productivity
+Analysis
+
+This content downloaded from 129.59.95.115 on Thu, 25 Aug 2016 05:13:16 UTC
+All use subject to http://about.jstor.org/terms
+
+Journal of Productivity Analysis, 21, 91-103, 2004
+
+W © 2004 Kluwer Academic Publishers. Manufactured in The Netherlands.
+
+A Metafrontier Production Function for Estimation of
+
+Technical Efficiencies and Technology Gaps for Firms
+Operating Under Different Technologies
+GEORGE E. BATTESE* gbattese@pobox.une.edu.au
+University of New England, Armidale, NSW 2351, Australia
+D. S. PRASADA RAO
+
+University of Queensland, Brisbane, QLD, 4072, Australia
+CHRISTOPHER J. O'DONNELL
+
+University of Queensland, Brisbane, QLD, 4072, Australia
+
+Abstract
+
+This paper presents a metafrontier production function model for firms in different
+groups having different technologies. The metafrontier model enables the calculation
+of comparable technical efficiencies for firms operating under different technologies.
+The model also enables the technology gaps to be estimated for firms under different
+technologies relative to the potential technology available to the industry as a whole.
+The metafrontier model is applied in the analysis of panel data on garment firms in
+
+five different regions of Indonesia, assuming that the regional stochastic frontier
+production function models have technical inefficiency effects with the time-varying
+
+structure proposed by Battese and Coelli (1992).
+JEL Classification: C23, C51, C63, D24, L6
+Keywords: metafrontier, technical efficiency, technology gap, Indonesia garment industry
+
+The technical efficiencies of firms that operate under a given production technology,
+
+which is assumed to be defined by a stochastic frontier production function model,
+are not comparable with those of firms operating under different technologies.
+
+Battese and Rao (2002) presented a stochastic metafrontier model by which
+comparable technical efficiencies can be estimated. However, the model of Battese
+and Rao (2002) assumes that there are two different data-generation mechanisms for
+the data, one with respect to the stochastic frontier that is relevant for the technology
+
+of the firms involved, and the other with respect to the metafrontier model.
+This paper presents a modified model that assumes that there exists only one
+
+* Corresponding author.
+
+This content downloaded from 129.59.95.115 on Thu, 25 Aug 2016 05:13:16 UTC
+All use subject to http://about.jstor.org/terms
+
+92 BATTESE, RAO AND O'DONNELL
+
+data-generation process for the firms
+metafrontier function, defined in this
+mathematical form that encompasses the
+
+frontier production functions for the
+technologies involved.
+The model proposed in this paper is a
+efficiencies of Indonesian garment firms
+
+medium- and large-scale garment firms
+efficiencies of the garment firms are
+production frontiers for firms in the f
+metafrontier production function tha
+industry in Indonesia and other aspects
+(2001).
+
+1. A Metafrontier Model
+
+Suppose that the inputs and outputs for firms in a given industry are such
+stochastic frontier production function models are appropriate for R differ
+
+groups within the industry. Suppose that, for the /th group, there are sample data
+
+Nj firms that produce one output from the various inputs and the stochastic front
+model for this group is defined by
+
+Yit{j)
+=/(x''(y)'ß(y))e "iJ) "(y)' ^
+i= 1,2,...,^-, t= 1,2,..., T, j = 1,2,..., 7?,
+where Yit^ denotes the output for the /th firm in the tth time period for the jth
+group; x,Y(y) denotes a vector of values of functions of the inputs used by the /th firm
+
+in the ¿th time period for the jth group;1 denotes the parameter vector associated
+
+with the X- variables for the stochastic frontier for the jth group involved; the Vit^s
+
+are assumed to be identically and independently distributed as A^0,<t^) -random
+variables, independent of the Uit^s, which are defined by the truncation (at zero) of
+the A^(^,7(y),(7^)-distributions, where the ¡iit^ s are defined by some appropriate
+inefficiency model, for example, one of the Battese and Coelli (1992, 1995) models.
+For simplicity of presentation, the model for the jth group is assumed to be given by
+
+Yit = /(x,7, ßyjJe^-^W =QXi,ß(j) + VitU)-Uit(j) m (2)
+This expression assumes that the exponent of the frontier production function is
+
+linear in the parameter vector, ß^, so that xit is a vector of functions (e.g.,
+
+logarithms) of the inputs for the /th firm in the tth time period involved.
+
+This content downloaded from 129.59.95.115 on Thu, 25 Aug 2016 05:13:16 UTC
+All use subject to http://about.jstor.org/terms
+
+M ETAFRONTIER PRODUCTION FUNCTION 93
+
+The metafrontier production function model fo
+by
+R
+
+rís/(xft,p*)=e^, i=l,2,---,N = J2Nj-,t=l,2,...,T, (3)
+y=i
+
+where ß* denotes the vector of parameters for the metafrontier function such that
+
+x,vß*
+The
+
+>
+
+x,,p0).
+
+metafrontier
+
+(4)
+
+production
+
+fu
+
+function (of specified function
+deterministic components of t
+different groups involved, for
+assumed to be a smooth funct
+frontier
+
+functions for the diffe
+presented in Figure 1.
+Three stochastic frontier models
+indicated by numbers that corr
+their corresponding (unobserva
+numbers in circles above them. T
+
+Figure
+
+1.
+
+Metafrontier
+
+This content downloaded from 129.59.95.115 on Thu, 25 Aug 2016 05:13:16 UTC
+All use subject to http://about.jstor.org/terms
+
+functi
+
+94 BATTESE, RAO AND O'DONNELL
+
+numbers can be considered as means of
+the given levels of the inputs. The meta
+than the deterministic functions associated with the stochastic frontier models for the
+
+different groups involved. Some stochastic frontier outputs, and even their
+corresponding stochastic frontier outputs, may exceed values of the metafrontier,
+as indicated in Figure 1.
+The metafrontier model of equations (3) and (4) is related to the concept of the
+metaproduction function that was defined by Hayami and Ruttan (1971, p. 82) as,
+
+"The metaproduction function can be regarded as the envelope of commonly
+conceived neoclassical production functions." However, in our model, the
+metafrontier function is a production function of specified functional form that
+does not fall below the deterministic functions for the stochastic frontier models of
+
+the groups involved. Battese and Rao (2002) give a more extensive literature review
+
+and proposed a stochastic metafrontier model that assumes a different datageneration mechanism for the metafrontier than for the different group frontiers.
+
+The model in this paper assumes that data-generation models are only defined for
+the frontier models for the firms in the different groups.
+
+The observed output for the z'th firm at the řth time period, defined by the
+stochastic frontier for the y'th group in equation (2), is alternatively expressed in
+terms of the metafrontier function of equation (3) by
+
+Y a = e~Uit^ X - - X QXi<P+v«U) (5)
+
+where the first term on the right-hand side of equation (5) is the
+relative to the stochastic frontier for the y'th group,
+
+TEit
+= ¥ /' = e" u"<» . (6) V J
+çXiïï(j)+Vit{j) ¥ . V J
+
+The second term on the right(TGR) for the observation for
+eX|"'p(;)
+
+TGR*=-¿r.
+
+(7)
+
+This measures the ratio of the o
+group relative to the potential
+
+given the observed inputs. Th
+because of equation (4).
+The technical efficiency of the
+metafrontier, denoted by TE*
+the ratio of the observed outp
+equation (5), which is the me
+
+This content downloaded from 129.59.95.115 on Thu, 25 Aug 2016 05:13:16 UTC
+All use subject to http://about.jstor.org/terms
+
+METAFRONTIER PRODUCTION FUNCTION 95
+
+random error, i.e.,
+<8>
+
+Equations (5)-(8) imply that an alternative expression for the technical efficiency
+relative to the metafrontier is given by
+
+TE*t
+
+=
+
+TEit
+
+X
+
+TGRit.
+
+(9)
+
+Thus the technical efficiency relative to
+the technical efficiency relative to the s
+
+TGR.
+
+Because
+
+both
+
+the
+
+latter
+
+measure
+
+efficiency relative to the metafrontier i
+the technical efficiency relative to the s
+The parameters and measures associate
+
+(2)-(4)
+
+can
+
+be
+
+estimated
+
+as
+
+follows:
+
+1. Obtain the maximum-likelihood
+stochastic frontier for the jth gr
+program
+
+(Coelli,
+
+1996);
+
+2. Obtain estimates, ß*, for the ß* -pa
+that the estimated function best env
+estimated stochastic frontiers for th
+envelope,
+
+it
+
+is
+
+necessary
+
+to
+
+specify
+
+a
+
+cr
+
+Two criteria are considered in this p
+deviations and the other based on th
+metafrontier
+
+values
+
+from
+
+those
+
+of
+
+the
+
+3. Estimates for the technical efficiencies of firms relative to the metafrontier
+
+function can be predicted by
+
+TÉ*t = TÉitxTGŘih (10)
+where TEit is the predictor for the technical
+
+frontier, as proposed in Battese and Coelli (
+be calculated in FRONTIER; and TGŘn = ex
+TGR for the ith firm in the yth group relati
+by using the estimates for the parameters in
+
+/./. Minimum Sum of Absolute Deviations
+Given the estimates for the parameters of the group stochastic frontiers,
+ß(y), j = 1, 2, . . . , R, obtained by Step (1) above, the ß*-parameters can be estimated
+
+This content downloaded from 129.59.95.115 on Thu, 25 Aug 2016 05:13:16 UTC
+All use subject to http://about.jstor.org/terms
+
+96
+
+BATTESE,
+
+by
+
+solving
+
+min
+t=' i= 1
+
+RAO
+
+the
+
+AND
+
+O'DONNELL
+
+optimization
+
+L=
+
+^
+
+problem
+
+|(ln/(x">
+
+b
+
+ß
+
+s.t. ln/(x„,ß*) > ln/(x,7)pœ). (12)
+
+There are several interesting features to the application of
+
+deviations used here are essentially logarithms of /(
+
+represent the radial distance between the metafrontier a
+evaluated at the observed input vector for a firm in the yth
+
+(11) and (12) implies that the resulting metafrontie
+
+logarithmic radial distances between the metafrontier
+Second, since the optimization is subject to the inequality
+deviations involved are positive and, therefore, the abso
+
+equal to the deviations. Third, if /(xř/, ß*) in equation (3) is
+
+in the parameters (as it is in this paper), the optimizatio
+simplifies to the following linear programming (LP) prob
+
+min L = X) X ~ x»ß(y) ) ( 1 3)
+1=1 t='
+
+s.t. x,,ß* > x,',p(y). (14)
+
+The solution to the above problem is equ
+
+objective function, L* = xß*, subject to the l
+X is the row vector of means of the element
+the data set. This follows because the estimates of the stochastic frontiers for the
+
+different groups, ß(y-)J = 1, 2, . . . , R, are assumed to be fixed for the linear
+programming problem.
+
+7.2. Minimum Sum of Squares of Deviations
+Minimization of the objective function in (11) and (12) assigns the same weight for
+all the radial distances for all the firms in the sample. An alternative approach is to
+estimate the parameters of the metafrontier function by minimizing the sum of
+squares of the deviations of the values on the metafrontier function from the groupspecific stochastic frontiers at the observed input levels. This method assigns higher
+weights to the deviations associated with firms that have larger technology gap
+ratios. This leads to the following optimization problem:
+
+min (x<'<ß* - x"ß(,))2 ( 1 5)
+t=l 7=1
+
+subject to the restrictions of equation (14).
+
+This content downloaded from 129.59.95.115 on Thu, 25 Aug 2016 05:13:16 UTC
+All use subject to http://about.jstor.org/terms
+
+METAFRONTIER PRODUCTION FUNCTION 97
+
+This approach is similar to the use of the le
+problem in (15), identical to a constrained
+programming (QP) problem that minimizes
+the metafrontier from those on the estimated stochastic frontier functions.
+
+Standard errors for the estimators for the metafrontier parameters can be obtained
+
+using simulation or bootstrapping methods.
+
+2. Empirical Application
+This study uses data on firms in the Indonesian garment industry that were collected
+in the annual surveys of firms in the manufacturing industries by Indonesia's Central
+Bureau of Statistics for 1990 to 1995. Coverage of these surveys is basically restricted
+
+to medium- and large-scale establishments, which have at least 20 employees.
+
+Analyses of technical efficiency of garment firms at the regional level are
+important and challenging for Indonesia. From a policy point of view, it is of interest
+
+to distinguish the regional differences in mean efficiency levels and to determine
+whether the regions share some common characteristics.
+For the purpose of the present study, Indonesian garment firms are grouped into
+
+five regions: Jakarta; West Java; Central Java; East Java; and the Outer Islands (the
+other provinces are pooled together because of the smaller numbers of firms in these
+
+regions). By performing the stochastic frontier analysis separately at the regional
+levels, the study permits the parameters of the empirical model to be different for
+these five regions. The regional-level analyzes are believed to be desirable because it
+is likely that the garment firms in the different regions are operating under different
+
+technologies. The estimation of a metafrontier production function for the
+Indonesian garment industry enables a comparison of the technical efficiencies of
+firms in different regions, together with an analysis of the technology gaps of firms in
+
+particular regions, relative to the technology available to the industry as a whole.
+Empirical results are obtained by using the stochastic frontier production model
+with time- varying inefficiency effects, proposed by Battese and Coelli (1992). The
+
+translog stochastic frontier production function model, which is assumed to
+represent the production technology for garment firms in a particular region, is
+defined by
+5
+
+In
+
+5
+
+5
+
+Y
+
+m= 1 m= 1 k>m
+
+it
+
+=
+
+ß0
+
++
+
+where the Uits are assumed to be defined by
+
+Un = {exp[- */(ř - T)]}Ui, i= 1,2,. ..,7V; ¿=1,2,. ..,6; (17)
+In Y it denotes the natural logarithm of the total value of manufacturing output for
+
+the ith garment firm in the řth year (in thousands of rupiahs, at 1990 constant
+prices);3 x' denotes the natural logarithm of the total value of operating costs
+
+This content downloaded from 129.59.95.115 on Thu, 25 Aug 2016 05:13:16 UTC
+All use subject to http://about.jstor.org/terms
+
+98
+
+BATTESE,
+
+RAO
+
+AND
+
+O'DONNELL
+
+(including expenditures on electricity
+of capital goods, and rents of buildi
+capital;4 X2 denotes the natural log
+hereafter
+
+referred to as labor; *3 deno
+costs of raw materials purchased by
+the natural logarithm of the total a
+otherwise (i.e., the logarithm of the m
+denotes the dummy variable for the
+value one if the firm had a positive lev
+
+value
+
+zero,
+
+otherwise);
+
+X5
+
+1990, . . . ,1995, respectively;
+of presentation); the Vits are
+
+denotes
+
+(the subs
+assumed
+
+as N(0, a2) random variables, indepe
+independently and identically distri
+by
+
+truncation
+
+(at
+
+zero)
+
+of
+
+the
+
+N(/¿,
+
+a2)
+
+unknown parameters to be estimated
+The stochastic frontier model, def
+using data on garment firms in a giv
+garment firm, given the observatio
+frontier, TEit = exp (-Un), is predic
+Thus, the technical efficiencies of in
+relative
+
+to the technology of that regi
+(16) and (17). However, the technical
+in Indonesia can also be estimated rel
+
+Section 2.
+
+A basic summary of the observations on the variables for the different regions is
+
+presented in Table 1. These statistics indicate that there are considerable differences
+among the five regions so far as the means and standard deviations of the outputs
+and inputs are concerned. The total number of firms involved in the five regions is
+1,958 and the total number of observations for all firms is 6,864.
+The maximum-likelihood estimates of the parameters in the regional frontiers
+were obtained using the FRONTIER 4.1 program (Coelli, 1996). The null hypothesis
+that the technical inefficiency effects were not present in a given region, given the
+specifications of the stochastic frontier model, was rejected for all regions. Thus the
+technical inefficiencies were significant in all regions. The null hypothesis that the
+
+Cobb-Douglas frontier is an adequate representation of the data was strongly
+rejected, as was the null hypothesis that there was no technical change8 in the
+garment firms between 1990 and 1995, for all regions.
+It is important to examine if all the regions share the same technology. If all the
+firm-level data were generated from a single production frontier and the same
+underlying technology, there would be no good reason for estimating the efficiency
+levels of firms relative to a metafrontier production function. A likelihood-ratio (LR)
+test of the null hypothesis, that the regional stochastic frontier models are the same
+for all firms in Indonesia, was calculated after estimating the stochastic frontier by
+pooling the data from all the five regions. The value of the LR statistic was 923. 56, 9
+
+This content downloaded from 129.59.95.115 on Thu, 25 Aug 2016 05:13:16 UTC
+All use subject to http://about.jstor.org/terms
+
+METAFRONTIER PRODUCTION FUNCTION 99
+
+Table 1. Summary statistics for data on firms in the Indon
+Variable Jakarta West Java Central Java East Java Outer Islands
+
+Output
+
+Mean 3,411,182 6,783,808 1,187,306 695,653 1,104,721
+St. Deviation 7,686,469 14,565,361 4,437,915 1,713,850 2,125,442
+
+Capital
+Mean 47,866 88,153 17,163 12,820 15,237
+St. Deviation 160,998 160,301 70,101 44,827 35,749
+Labor
+Mean
+
+210.46
+
+435.15
+
+106.25
+
+99.48
+
+103.63
+
+St. Deviation 371.33 721.85 276.58 204.22 175.33
+Materials
+
+Mean 1,699,913 3,442,291 647,345 337,305 516,507
+St. Deviation 3,790,158 7,319,204 2,339,360 792,515 1,006,120
+Investments
+
+Mean 6,029,905 2,838,416 2,198,630 626,039 1,363,024
+St. Deviation 48,720,572 32,886,553 28,872,722 15,098,716 21,380,873
+
+Number of firms 727 434 304 179 314
+Number of obs. 2,334 1,724 1,133 669 1,004
+
+Source : Empirical results, based on Indonesia's Annual Manu
+output and inputs are expressed in thousands of 1990 rupiah
+
+which is highly significant. This result strongl
+
+stochastic frontiers for garment firms in Indonesia
+The preferred models for the technical inefficienc
+
+the five regions. The maximum-likelihood estim
+preferred stochastic frontiers for the five regions
+
+et al. (2001). The maximum-likelihood estimates f
+
+frontier production function for Indonesia (obtaine
+
+Indonesia), together with the estimates of the m
+quadratic programming, are presented in Table 2
+
+get estimates of the sampling variability of the me
+from the sampling variability of the regional front
+the estimated asymptotic distributions of the regio
+
+M = 5,000 observations on the regional frontier
+
+used to calculate the right-hand side of the constra
+estimated standard errors of the metafrontier estimators were calculated as the
+
+standard deviations of the M solutions to these LP/QP problems. All metafrontier
+results were obtained using the GAUSS programming language.
+There are insignificant differences between the LP and QP estimates for the
+
+parameters of the metafrontier function, but there are significant differences between
+
+the metafrontier coefficients and their corresponding coefficients of the stochastic
+frontier for Indonesia. The latter estimates were used in Battese et al. (2001) to
+approximate estimates for the parameters of the metafrontier function. These
+
+This content downloaded from 129.59.95.115 on Thu, 25 Aug 2016 05:13:16 UTC
+All use subject to http://about.jstor.org/terms
+
+100 BATTESE, RAO AND O'DONNELL
+
+Table 2. Maximum-likelihood estimates of the transl
+estimates of parameters of the metafrontier produc
+
+Variable Coeff. Indonesia (SF) Meta (LP) Meta (QP)
+Constant ß0 7.79 (0.20) 8.29 (0.47) 7.95 (0.38)
+Investments dummy /?oo -0.216 (0.098) 0.10 (0.24) 0.04 (0.22)
+Capital ßi 0.463 (0.029) 0.525 (0.083) 0.521 (0.072)
+Labor ß2 0.979 (0.054) 1.26 (0.12) 1.19 (0.11)
+Materials ß3 - 0.572 (0.029) - 0.788 (0.092) - 0.705 (0.071)
+Investments ß4 0.029 (0.018) - 0.048 (0.044) - 0.040 (0.040)
+Year ß5 -0.032 (0.026) 0.098 (0.050) 0.076 (0.046)
+
+(Capital)2 ßn 0.0115 (0.0024) 0.0290 (0.0056) 0.0264 (0.0049)
+(Labor)2 ß22 0.0443 (0.0077) 0.059 (0.014) 0.058 (0.013)
+(Materials)2 ß33 0.0834 (0.0015) 0.1082 (0.0059) 0.1014 (0.0037)
+(Investments)2 ß 44 -0.00031 (0.00064) 0.0021 (0.0017) 0.0017 (0.0016)
+(Year)2 ß55 0.0250 (0.0016) 0.0284 (0.0036) 0.0284 (0.0035)
+Capital X Labor ßl2 0.0160 (0.0068) 0.009 (0.016) 0.003 (0.014)
+Capital X Materials ß13 -0.0492 (0.0035) -0.079 (0.010) -0.0736 (0.0080)
+Capital X Investments ß14 -0.00156 (0.00078) -0.0003 (0.0017) -0.0004 (0.0017)
+Capital X Year ßl5 0.0014 (0.0025) 0.0095 (0.0062) 0.0115 (0.0061)
+Labor X Materials ß23 -0.1001 (0.0052) -0.126 (0.014) -0.116 (0.012)
+Labor X Investments ß24 -0.0002 (0.0011) -0.0018 (0.0025) -0.0028 (0.0023)
+Labor x Year ß25 0.0077 (0.0041) 0.0163 (0.0076) 0.0151 (0.0073)
+Materials x Investments ß34 0.00059 (0.00062) 0.0020 (0.0015) 0.0028 (0.0013)
+Materials x Year ß35 -0.0053 (0.0027) -0.0225 (0.0061) -0.0220 (0.0056)
+Investments x Year ß45 -0.00016 (0.00045) -0.00031 (0.00099) -0.0012 (0.0010)
+
+Note : aThe estimated standard errors are given in parentheses correct to two-significant digits.
+coefficient estimates are given to the same number of digits behind the decimal points as the sta
+errors.
+
+estimates gave unsatisfactory results for the technical efficiencies and
+
+gap ratios.
+
+2.1. Technical Efficiencies and Technology Gap Ratios
+Values of the TGR, together with the technical efficiencies obtained from the
+regional stochastic frontiers (TE) and the metafrontier (TE*) were computed for all
+firms in the different regions. Basic summary statistics for these measures are
+presented in Table 3, where the metafrontier technical efficiencies are from the LP
+estimates only (because those from the QP estimates were almost identical to those
+from the LP estimates). The mean values of the technology gap ratio vary from
+about 0.52 (for East Java) to 0.90 (for Jakarta). These results imply that, for East
+Java, the garment firms produce, on average, only about 52% of the potential output
+given the technology available to the industry as a whole. However, firms in Jakarta
+
+This content downloaded from 129.59.95.115 on Thu, 25 Aug 2016 05:13:16 UTC
+All use subject to http://about.jstor.org/terms
+
+METAFRONTIER PRODUCTION FUNCTION 1 0 1
+
+Table 3. Summary statistics for the TGRs and the technical
+stochastic frontiers and the metafrontier production function
+
+Region/Statistic Mean Minimum Maximum St. Dev.
+Jakarta
+
+Regional TE 0.590 0.156 0.972 0.134
+Tech. Gap Ratio 0.903 0.017 1.000 0.094
+Metafrontier
+
+TE*
+
+0.530
+
+0.009
+
+0.942
+
+0.125
+
+West Java
+
+Regional TE 0.640 0.165 0.963 0.111
+Tech. Gap Ratio 0.715 0.058 1.000 0.126
+Metafrontier
+
+TE*
+
+0.457
+
+0.042
+
+0.878
+
+0.108
+
+Central Java
+
+Regional TE 0.701 0.334 0.976 0.094
+Tech. Gap Ratio 0.607 0.225 1.000 0.095
+Metafrontier
+
+TE*
+
+0.426
+
+0.101
+
+0.835
+
+0.087
+
+East Java
+
+Regional TE 0.837 0.487 0.968 0.089
+Tech. Gap Ratio 0.516 0.272 0.870 0.082
+Metafrontier
+
+TE*
+
+0.432
+
+0.181
+
+0.727
+
+0.083
+
+Outer Islands
+
+Regional TE 0.631 0.352 0.944 0.111
+Tech. Gap Ratio 0.731 0.171 1.000 0.144
+Metafrontier
+
+TE*
+
+Note
+
+linear
+
+:
+
+aThe
+
+produce,
+
+in
+
+all
+
+on
+
+0.463
+
+0.075
+
+0.821
+
+0.124
+
+programming
+
+average,
+
+regions,
+
+estimates
+
+for
+
+90%
+
+the
+
+about
+
+except
+
+East
+
+of
+
+Java,
+
+th
+
+po
+
+th
+
+metafrontier (the maximum value for
+obtained in each of these four regions
+gap ratios for the observed firms are
+variability in the technology gap rat
+variability for firms in Jakarta.
+Garment firms in Jakarta achieved
+
+to
+
+the
+
+relative
+
+from
+
+metafrontier.
+to
+
+the
+
+the
+
+For
+
+the
+
+metafrontier
+
+regional
+
+the
+
+other
+
+function
+
+frontiers.
+
+r
+
+w
+
+Garmen
+
+technical efficiency relative to their reg
+furthest from the potential outputs def
+
+The
+
+study
+
+of
+
+the
+
+reasons
+
+for
+
+the
+
+wid
+
+efficiencies in the different regions for
+metafrontier is worthy of further inve
+
+This content downloaded from 129.59.95.115 on Thu, 25 Aug 2016 05:13:16 UTC
+All use subject to http://about.jstor.org/terms
+
+102 BATTESE, RAO AND O'DONNELL
+
+Figure 2. Frequency distributions of TGRs for ga
+
+3. Conclusions
+
+With the main objective of providing comparable technical efficiency scores for f
+across different technologies, a metafrontier production function model is propo
+
+and applied in the analysis of the technical efficiencies of garment firms in
+regions of Indonesia. The methodology proposed enables the estimation of re
+
+TGRs by using a decomposition result involving both the regional stoc
+frontiers and the metafrontier. Further theoretical and applied studies with
+models for technical inefficiency effects are clearly desirable.
+
+This content downloaded from 129.59.95.115 on Thu, 25 Aug 2016 05:13:16 UTC
+All use subject to http://about.jstor.org/terms
+
+METAFRONTIER PRODUCTION FUNCTION 103
+
+Acknowledgments
+
+The authors thank Tim Coelli, Gary Ferrier,
+
+the anonymous referees for helpful comments o
+Notes
+1 . For a translog production function, x would contain the logarithms of the different inputs, their
+squares and cross-products.
+2. The radial distance is used in defining the input and output distance functions that form the basis for
+all productivity comparisons (see Coelli et al., 1998, Chapter 3).
+3. All variables that are in monetary units are in thousands of rupiahs, expressed in 1990 prices.
+4. The total operating costs is used as a proxy for the value of capital services.
+
+5. Investments are specified in the production function because they are usually targeted at the
+upgrading of technology and so they could be associated with technological changes.
+6. Because investments were not always positive, the dummy variable, D , is used for handling zero
+observations, as proposed by Battese (1997).
+7. The subscript, j, used in equations ( 1 ) - ( 1 5) to distinguish a particular region, is not included in the
+empirical model of equation (16) for simplicity of presentation.
+
+8. This refers to no time effects (or exogenous technological changes) in the production frontier.
+However, as stated in the specification of the frontier model in equation (16), the level of investments
+
+may be associated with technological change. Hence, another test of no technical change involves
+testing that all coefficients associated with time and investments were zero.
+
+9. The LR statistic is defined by X = - 2{'n[L{Ho)/ L{H')]} = - 2{ln[L(/70)] - ln[L(#i)]}, where
+ln[L (//o)] is the value of the loglikelihood function for the stochastic frontier estimated by pooling
+the data for all regions and 'n[L(H')] is the sum of the values of the loglikelihood functions for the
+five regional production frontiers. The degrees of freedom for the Chi-square distribution involved
+are 104, the difference between the number of parameters estimated under H' and Hq.
+10. The parameters of the regional frontiers were estimated by maximum likelihood so the estimators are
+asymptotically normally distributed.
+
+References
+
+Battese, G. E. (1997). "A Note on the Estimation of Cobb-Douglas Production Functions When Some
+Explanatory Variables Have Zero Values." Journal of Agricultural Economics 48, 250-252.
+Battese, G. E. and T. J. Coelli. (1992). "Frontier Production Functions, Technical Efficiency and Panel
+Data: With Application to Paddy Farmers in India." Journal of Productivity Analysis 3, 153-169.
+Battese, G. E. and T. J. Coelli. (1995). "A Model for Technical Inefficiency Effects in a Stochastic Frontier
+
+Production Function for Panel Data." Empirical Economics 20, 325-332.
+Battese, G. E. and D. S. P. Rao. (2002). "Technology Gap, Efficiency and a Stochastic Metafrontier
+Function." International Journal of Business and Economics 1(2), 1-7.
+Battese, G. E., D. S. P. Rao and D. Walujadi. (2001). "Technical Efficiency and Productivity Potential of
+Garment Firms in Different Regions in Indonesia: A Stochastic Frontier Analysis Using a Time- varying
+
+Inefficiency Model and a Metaproduction Frontier." CEPA Working Papers, No. 7/2001, School of
+Economics, University of New England, Annidale, p. 27.
+
+Coelli, T. J. (1996). "A Guide to FRONTIER Version 4.1: A Computer Program for Stochastic Frontier
+Production and Cost Function Estimation." CEPA Working Papers, No. 7/96, School of Economics,
+University of New England, Armidale, p. 33.
+Coelli, T. J., D. S. P. Rao and G. E. Battese. (1998). Introduction to Efficiency and Productivity Analysis.
+Boston: Kluwer Academic Publishers, p. 271.
+Hayami, Y. and V. W. Ruttan. (1971). Agricultural Development: An International Perspective. Baltimore:
+Johns Hopkins University Press.
+
+This content downloaded from 129.59.95.115 on Thu, 25 Aug 2016 05:13:16 UTC
+All use subject to http://about.jstor.org/terms
+
+

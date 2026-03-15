@@ -1,0 +1,2211 @@
+The Economic Theory of Index Numbers and the Measurement of Input, Output, and
+Productivity
+Author(s): Douglas W. Caves, Laurits R. Christensen and W. Erwin Diewert
+Source: Econometrica, Vol. 50, No. 6 (Nov., 1982), pp. 1393-1414
+Published by: The Econometric Society
+Stable URL: http://www.jstor.org/stable/1913388 .
+Accessed: 25/10/2013 21:06
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at .
+http://www.jstor.org/page/info/about/policies/terms.jsp
+
+.
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide range of
+content in a trusted digital archive. We use information technology and tools to increase productivity and facilitate new forms
+of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+.
+
+The Econometric Society is collaborating with JSTOR to digitize, preserve and extend access to Econometrica.
+
+http://www.jstor.org
+
+This content downloaded from 142.51.1.212 on Fri, 25 Oct 2013 21:06:52 PM
+All use subject to JSTOR Terms and Conditions
+
+Econometrica,Vol. 50, No. 6 (November, 1982)
+
+THE ECONOMIC THEORY OF INDEX NUMBERS AND THE
+MEASUREMENT OF INPUT, OUTPUT, AND PRODUCTIVITY
+BY DOUGLAS W. CAVES, LAURITS R. CHRISTENSEN,
+AND W. ERWIN DIEWERT'
+This paper develops index number procedures for making comparisons under very
+general circumstances. Malmquist input, output, and productivity comparisons are defined
+for structures of production with arbitrary returns to scale, substitution possibilities and
+biases in productivity change. For translog production structures, T6rnqvist output and
+input indexes are shown to equal the mean of two Malmquist indexes. The T6rnqvist
+productivity index, corrected by a scale factor, is shown to equal the mean of two
+Malmquist productivity indexes. Similar results are given for making cost of living
+comparisons under general structures of consumer preferences.
+1. COMPARISONS BASED ON DISCRETE DATA
+SINCE THE PIONEERING WORK of Solow [20],productivity growth or technical
+progress has been associated with the time derivative of the production function
+or some associated function such as the cost function or profit function. This
+formulation is a useful conceptualization, but it is not convenient for actual
+measurement of productivity using index numbers. The reason is that index
+number procedures entail comparisons using discrete data points and, therefore,
+require a discrete approximation to the time derivative. Only under very restrictive assumptions is the resulting index invariant to the point of approximation.
+It would be desirable to be able to make index number measurements of
+productivity, and the related measurements of input and output, without having
+to approximate a concept that is specified with respect to continuous time. The
+purpose of this paper is to propose a framework for input, output, and productivity measurement that does not proceed from a continuous time representation.
+We require that the framework hold for very general structures of production, yet
+be empirically implementable using only observed prices and quantities of
+outputs and inputs.2 The key to the proposed approach is the notion of a
+Malmquist input, output, or productivity index.
+Moorsteen [18], in an independent application of an idea first suggested by
+Malmquist [17] in the consumer context, suggested comparing the input of a firm
+at two different points in time in terms of the maximum factor by which the
+input in one period could be deflated such that the firm could still produce the
+
+'Caves and Christensen acknowledge financial support from the U.S. National Science Foundation; Diewert acknowledges financial support from the Social Sciences and Humanities Research
+Council of Canada. The authors are grateful to John Weymark and to two anonymous referees for
+helpful comments.
+20ur treatment in this paper draws on ideas suggested by Caves, Christensen, and Swanson [2],
+who developed alternative measures of productivity growth in the continuous time framework, and
+Caves, Christensen, and Diewert [3], who developed multilateral indexes of productivity differences in
+the constant returns to scale case. In a critique of Jorgenson and Nishimizu [13], Denny and Fuss [7]
+also discuss the problems of using derivatives in the process of making comparisons using discrete
+data.
+1393
+
+This content downloaded from 142.51.1.212 on Fri, 25 Oct 2013 21:06:52 PM
+All use subject to JSTOR Terms and Conditions
+
+1394
+
+D. W. CAVES, L. R. CHRISTENSEN, AND W. E. DIEWERT
+
+output levels observed for the other time period. This results in a Malmquist
+input index, and there is an analogous Malmquist output index. Neither
+Moorsteen nor Malmquist allowed for any differences over time in the structure
+of production or consumer tastes. We develop the Malmquist deflation idea in
+the context of unrestricted structures of production for two time periods. Once
+the structures of production have been allowed to differ, productivity measurement becomes an issue, and we extend the Malmquist deflation idea to define a
+Malmquist productivity index.
+Having allowed for discrete changes in inputs, outputs, and the structure of
+production, it is no longer necessary to think in terms of the time dimension. In
+fact, it is more convenient to think in terms of two firms with different levels of
+inputs, outputs, and productivity. They might actually be the same firm at two
+different points of time or two different firms at the same or different points in
+time. Throughout the paper we refer to a comparison of two firms without
+differentiating the various possible cases.
+In general a comparison of two firms, say k and 1, using the Malmquist
+concept, yields two distinct Malmquist indexes-one based on k's structure of
+production and one based on l's. If a functional form is specified for the
+structure of production, then the two Malmquist indexes can be computed for
+any given set of parameter values. However, without knowledge of the parameters, neither index can be computed. Thus the empirical usefulness of the
+Malmquist indexes is limited. This limitation does not mean, however, that in the
+absence of known production parameters the economist must forego comparisons based on the Malmquist concept. The theorems in this paper establish that
+for translog structures of production (see Christensen, Jorgenson, and Lau [5]) an
+average of the two Malmquist indexes can be computed using information on
+prices and quantities only, i.e. without knowledge of the translog parameters.
+In our approach each firm is permitted to have its own translog form, neither
+of which is required to have constant returns to scale. For this case we show that
+the geometric means of the firm k and firm 1 Malmquist input and output
+indexes are Tornqvist [22] input and output indexes, which can be computed
+using only observed data on prices and quantities for firms k and 1. Furthermore,
+the geometric mean of the firm k and firm 1 Malmquist productivity indexes is a
+generalization of the Tornqvist productivity index originally proposed by Christensen and Jorgenson [4]. This index reduces to the Tornqvist index in the case of
+constant returns to scale. The index is computable using only price and quantity
+data for decreasing returns to scale as well as for constant returns to scale.
+However, for the case of increasing returns to scale, its computation also requires
+knowledge of the degree of return to scale.
+In Sections 2, 3, and 4, respectively, we define Malmquist input, output, and
+productivity indexes for general structures of production for firms k and 1.
+Following these definitions, we derive observable indexes for the case of translog
+functional forms. In the Appendix we present a technical lemma, which we refer
+to as the Translog Identity. This identity is used to prove the theorems presented
+throughout the paper. Section 5 contains extensions to the problem of specifying
+observable indexes in the consumer case. It also contains a sketch of the
+
+This content downloaded from 142.51.1.212 on Fri, 25 Oct 2013 21:06:52 PM
+All use subject to JSTOR Terms and Conditions
+
+1395
+
+INDEX NUMBERS
+
+development of indexes that are dual to those in the preceding sections of the
+paper. In Section 6, we present some concluding remarks.
+2. INDEXES OF REAL INPUT
+
+Consider the problem of comparing input between firms k and 1, where k and 1
+may represent the same firm at two different times, or two different firms at
+either the same time or different times. Suppose firms k and 1 utilize the input
+... , xN)
+to produce the output vector y (Y IIY2 ... IYI)
+vector x-(x,
+the
+Let
+(y y).
+technology be represented by the productionfunction
+(1)
+
+yi = Fs(j,x),
+
+s =k,l.
+
+The production function represents the maximum amount of the first output that
+firm s can produce, using the vector of inputs x, given that the vector of "other"
+outputsy must also be produced.3 We assume throughout that (1) holds; i.e., that
+each firm is operating on its production function. Although the production
+function Fs is a standard means of representing the technology, it is not the most
+convenient representation for our purposes. Instead we use the input distance or
+deflationfunction Ds:
+(2)
+
+Ds(y,x) _ max,{8: Fs(-,x/8)
+
+2 y}I
+
+s = kgl,
+
+which contains the same information about the technology as the production
+function itself. The regularity conditions that apply to the production function Fs
+determine the regularity conditions that apply to the distance function D s.4 For
+example, very weak regularity conditions on Fs assure that Ds(y,x) will be
+linearly homogeneous in x.
+It is important to spell out the relationship between the partial derivatives of
+Fs and Ds. To do this we assume the following:5
+Fs is differentiable at the point, (jS, x S),
+
+s = k, 1,
+
+X >>ONN
+
+(3)
+XS. VXFS(S,
+
+XS) > 0.6
+
+3It is straightforward to use the transformation function, say ts(x, y) = 1, as an alternative point
+of departure.
+4For discussions of these properties and references to the literature, see Deaton [6] or Diewert [11].
+5Using some results in Blackorby and Diewert [1], it can be shown that differentiability of the
+distance function DS implies differentiability of S.
+6Notation: x > ON means the N dimensional vector has all components positive, Vxf(x, y)
+[af(x, y)/ax1, . . ., af(x, y)/axN]T is a column vector (T denoting transposition) of the partial
+derivative of f with respect to the vector of variables x,
+(k,
+
+I
+
+x Z.JxZE
+XTZ
+
+=
+
+yk)=
+
+[xkaf(xk,yk)
+
+/8aXI,.,XNkaf(Xk,yk)/aXN]TT
+
+XZ
+
+X * Z _=EXiZi
+
+denotes the inner product of two vectors x and z, and
+ln xS =-[lnx ....
+
+ln x ]T
+
+This content downloaded from 142.51.1.212 on Fri, 25 Oct 2013 21:06:52 PM
+All use subject to JSTOR Terms and Conditions
+
+1396
+
+D. W. CAVES, L. R. CHRISTENSEN, AND W. E. DIEWERT
+
+Now we apply the Implicit Function Theorem to the equation FS(9s, x/ 8) = y
+to solve for 8 = Ds(y, x) around (yS, xS). In this case, Ds(y, x) is differentiable
+around the point (yS, xS) with
+(4)
+
+V DS(ys,xs) = VxFS(jS,xs)/XS
+
+. VxFs(9s,xs),
+
+(5)
+
+VyDs(ys,xs) = Xs . V Fs(
+
+[VFss,xs)
+]V
+
+s = k,l,
+
+We can now consider the problem of comparing the input of firms k and 1. We
+define the firm k Malmquist [17] input index as:7
+
+(6)
+
+Qk(XIx
+
+k)
+
+).
+
+Dk(yk,xl)/Dk(yk,xk
+
+It is straightforward to interpret this definition in terms of the firm k production
+= 1, provided that (1) is satisfied for
+function. By definition (2), Dk(yk,
+xk)
+s = k. Thus,
+
+(7)
+
+Qk (x ,xk)
+
+= max,a:
+
+Dk(yk,Xl)
+
+2 yk}
+
+Fk(jk,Xl/8)
+
+(using (2)).
+The input index Qk(X ,xk) is therefore the maximum 8 required to deflate the
+input vector of firm 1, xI, onto the production surface of firm k, given that the
+= 1; thus Qk(xl,xk)
+> 1
+output vector is that of firm k. Note that Qk(Xk,Xk)
+implies that the input vector of firm 1,x I, is "bigger" than the input vector of firm
+k,xk, from the perspective of firm k's technology.
+We can reverse the roles of the firms and define the firm 1 Malmquist input
+index as:
+(8)
+
+Q (x ,x k)
+
+D(yl,xl)/Dl(yl,xk).
+
+As above we note that
+(9)
+
+(if (1) holds for firm 1)
+
+Ql(xl, xk) = lIDl(yl,xk)
+
+= 1/max,{8:
+= minp
+
+: Fl(l,
+
+? YA}
+
+Fl(9l,xk/l)
+
+px k)
+
+? yl
+
+(letting p = 118)
+
+Thus Q'(x ,xk) is the minimum factor p required to inflate the input vector of
+firm k, x k, onto the production surface of firm 1, given that the output vector is
+> 1 implies that the input
+that of firm 1. Note that Q'(x',x') = 1; thus Ql(Xl,Xk)
+vector of firm k, x k, is "smaller" than the input vector of firm 1,x from the
+perspective of firm l's technology.
+7See also Fisher and Shell [12, p. 51] and Diewert [10, p. 462]. Note that we have chosen the
+reference vector of quantities to be the kth firm's quantity vector yk.
+
+This content downloaded from 142.51.1.212 on Fri, 25 Oct 2013 21:06:52 PM
+All use subject to JSTOR Terms and Conditions
+
+1397
+
+INDEX NUMBERS
+
+Each of the two Malmquist input indexes, Q k(X ', x k) and Q '(x 1, x k), is
+defined with respect to the technology and output levels of a particular firm. But
+without knowledge of the parameters of the technologies, it is not possible to
+compute either index. This is because they require information that is not
+observed. However, we now show that by making use of a specific functional
+form and the assumption of cost minimizing behavior, it is possible to compute a
+
+geometric average of the two Malmquistindexes Qk(X
+
+,Xk
+
+)
+
+and QI(x ,x k)
+
+using only observed information on input prices and quantities. We demonstrate
+this fact for the case in which each firm has a translog distance function, but the
+properties of the two translog functions are allowed to differ substantially. In this
+case the geometric average of the two Malmquist indexes turns out to be a
+T6rnqvist [22] index.
+We denote the translog distance functions for firms k and 1 as
+N
+2
+
+NX
+
+(10)
+
+lnhs(y,x)
+
+= a' 8+ N
+n=1
+
+N
+I, n
+ImhXn xm
+
+n=1 m=1
+
+I
+
+I
+
+I I
+
+I 1.
+2
+
++ af=lny1+
+1=1
+
+2
+
+aJ lnyIlny1+ 2
+
+_________=
+
+N
+
+2 y,2lnyilnx,,
+n=
+
+where 8ngm = 83n and a = aji for all n, m, i, j, and s.
+Since we perform several manipulations involving a pair of translog functional
+forms in this paper, it is convenient to develop a general result to which we can
+refer. In the Appendix we develop a Translog Identity, which is a generalization
+of Diewert's [8, p. 118] Quadratic Identity. The Translog Identity reduces to the
+Quadratic Identity when the two translog forms are the same. Throughout the
+paper we use the symbol hS to indicate a translog functional form for firm s.
+Assume that XS > ON is a solution to the cost minimization problem:
+(1 1)
+
+minxt wS. x : FS(Ys,x)
+
+? yjs},
+
+s = k,1,
+
+where wS ?>ONis the vector of input prices that firm s faces. Under (3) there
+exists a Lagrange multiplier XAsuch that the following first order conditions are
+satisfied:
+(12)
+
+wSS=
+
+sVxFs(Ys,xs),
+
+s = k,l.
+
+Multiplying both sides of (12) by xS and solving for XSyields
+(13)
+
+Xs =
+
+. XS/XS*
+
+VXFS(YS
+
+XS)
+
+S=
+
+k,l.
+
+Substituting (13) into (12) we obtain, for s = k, 1,
+(14)
+
+W /W
+
+XS = VXFS(YS,XS)/XS
+
+VxFS(S
+
+,XS)
+
+= VxDs(ys,xs),
+
+using (4).
+Now we can prove the following theorem.
+
+This content downloaded from 142.51.1.212 on Fri, 25 Oct 2013 21:06:52 PM
+All use subject to JSTOR Terms and Conditions
+
+D. W. CAVES,L. R. CHRISTENSEN,
+AND W. E. DIEWERT
+
+1398
+
+1: If firms k and I have translog distance functions with identical
+THEOREM
+coefficientsfor the second order input terms, then the Tornqvistindex for comparing
+the inputs of k and 1 is equal to the geometric mean of the Malmquist input indexes
+evaluated at k and 1. That is, if, for s = k,l, (i) DS(y,x) = hs(y,x); i.e., the
+distance function is translog; (ii) (1) and (3) hold; (iii) xS is a solution to (I1) for
+
+s = k,l; and (iv) 8nkm= /38m,for n,m = 1, ... , N1, i.e., hk and h' have identical
+coefficientsfor the second order terms in Inx, but are otherwise unrestricted;then,
+
+(15)
+
+' in Qk(XI,Xk)
+2
+
++
+
+' In Q'(xI'Xk)
+,k
+2
+
+[ wx
+
+I.
+
+where Q(w 1, w k, x ,xk)
+
++
+
++
+
+X
+
+, ] x[nx
+
+In Q(w w
+Wk
+
+-Inxk]
+
+Ixk)
+
+is the Tornqvist input index.
+
+PROOF:
+
+2ln
+
+Qk(X,Xk)
+
++
+
+2 In Q (x ,xk)
+
+2 Iln[Dk(yk,x)/D
+
+k(yk,xk)]+
+
+4 ln[Dl(yl,xl)/Dl(y,x
+
+k)]
+
+using definitions (6) and (8)
+
+[
+
+Vl VIlnDk(yk,xk)
+
++ VlnlnD'(y',x')]
+
+*[nx'-
+
+ln Xk]
+
+(using the restriction (iv) and the Translog Identity)
+-
+
+2 [7VlnxD (yk,xk)
+
+(since D k(yk,Xk)
+
+-
+
+E
+
+w .xk +
+
++ VlxD'(y',x')]
+=
+
+*[nx'-
+
+inxk]
+
+1 = D'(y', x) (using (3)))
+[
+
+I
+
+][1nxn-1nx
+
+]
+
+=-In Q(w1' wk 'xI' Xk).
+
+(using 14)
+Q.E.D.
+
+Theorem 1 does not require optimizing behavior with respect to outputs nor
+does it require linear homogeneity for either firm. Furthermore, the translog
+distance function D5(y, x) is capable of providing a second order approximation
+to. an arbitrary distance function. Thus the technologies in the two firms can be
+virtually arbitrary (to the second order) except for the restrictions (iv) under
+Theorem 1.8
+8Diewert [10, p. 462-463] earlier showed that if both input distance functions were identical,
+Dk = D'=_ D, then under the remaining assumptions of Theorem 1, D(y*,xl)/D(y*,xk)=
+,
+Q(W=
+w k,X l,Xk), where yi , the ith component of y*, equals (y/Cy/)I/2, the geometric mean of the ith
+
+outputs for firms k and I for i = 1, 2, . . ., I; i.e., a Malmquist input quantity index evaluation at an
+"average" output vector was equal to the T6mqvist input quantity index Q(w',wk,X x,xk).
+Our new
+result shows that an "average" of two Malmquist quantity indexes also equals Q(w , wk, xl, x k), even
+in the case in which the distance functions are not identical.
+
+This content downloaded from 142.51.1.212 on Fri, 25 Oct 2013 21:06:52 PM
+All use subject to JSTOR Terms and Conditions
+
+1399
+
+INDEX NUMBERS
+
+Although Theorem 1 is very useful, we should mention some limitations
+associated with it: (1) although we can identify a geometric average of the
+Malmquist indexes Qk(X ,Xk ) and Q '(X ",X k), we cannot identify each individual index; (ii) we must assume cost minimizing behavior; and (iii) we must
+assume that both firms use positive amounts of all inputs.
+3. INDEXES OF REAL OUTPUT
+
+The comparison of output between firms k and 1 is analogous to the comparison of inputs of Section 2, with the roles of outputs and inputs reversed and the
+assumption of cost minimization replaced by the assumption of revenue maximization. Despite the analogy between this section and the previous section, we
+present the basic steps in the derivation since we will draw on them for the
+derivation of productivity indexes in Section 4.
+In Section 2 we used the production function FS to represent the technology.
+We can equally well represent the technology with the input requirementsfunction
+(16)
+
+s = k,l.
+
+x1=gs(y,x),
+
+The input requirements function gives the minimum amount of the first input
+required to produce the output vector y, given that the vector of "other" inputs,
+x, is available.9 We assume throughout that (16) holds, i.e. that the firm is
+operating on its input requirements function. Corresponding to the input distance
+function of Section 3, we now utilize the outputdistance or deflationfunction, ds:
+(17)
+
+dS(y,x) _ min,{, 8: gs(y/,x)
+
+< xl},
+
+s = k,1.
+
+It is important to spell out the relationships between the partial derivatives of gS
+and ds. To do this we assume the following: for s = k, 1,
+gS is differentiable at the point (yS,xS),
+
+(18)
+
+ys?>>O,
+yS . V gS(ys Ws)> O.
+
+Now we can apply the Implicit Function Theorem to the equation gS(y/l,x)
+= xl to solve for 8 = ds(y, x) around (yS, xs). In this case, ds(y, x) is differentiable around (yS, x S), with
+(19)
+
+V ds(ys,xs)=
+
+V gs(ys xs)/ys.
+
+(20)
+
+V ySd*
+[SVg
+ds(ys,xs)=
+
+V gs(ys
+
+Vygs(ys,xZs),
+
+xs)
+
+and
+
+(y S, x)]
+
+for s = k, 1.
+
+We can now compare the output of firms k and 1. We define the firm k
+91f there is no xl such that (xj,i)
+
+can producey, gS(y,j)
+
++oo
+
+This content downloaded from 142.51.1.212 on Fri, 25 Oct 2013 21:06:52 PM
+All use subject to JSTOR Terms and Conditions
+
+D. W. CAVES, L. R. CHRISTENSEN, AND W. E. DIEWERT
+
+1400
+
+Malmquist output index as:
+
+(21)
+
+qk(yl,
+
+dk(y
+
+yk)
+
+,xk)/dk(yk,xk).
+
+It is straightforward to interpret this definition in terms of the firm k input
+requirements function. Under (16), it can be verified that dk(yk, x k) = 1. Thus,
+(22)
+
+qk(y,
+
+y k)
+
+=
+
+d k(y
+
+=Min.{3
+
+x k)
+: gk(yl/
+
+< Xk}
+
+,Xk)
+
+(using (17)).
+
+The output index qk(yl, yk) iS therefore the minimum factor 8 required to
+deflate the output vector of firm 1,y , onto the production surface of firm k,
+given that the input vector is that of firm k. Note that qk(yk, yk) = 1 under (16);
+thus qk(yl, yk) > 1 implies that the output vector of firm I is "bigger" than the
+output vector of firm k from the viewpoint of firm k.
+Reversing the roles of the firms we define a firm 1 Malmquist output index as:
+(23)
+
+Id(y' xl)/dl(y
+
+q'(y', yk)
+
+k,X
+
+).
+
+As above we note that
+(24)
+
+ql(y'
+
+yk)
+
+(if (16) holds for firm 1)
+
+= I/dl(yk,xl)
+
+= 1/min43 :gl(yk/3,Z).
+=max({p
+
+:gl(pYk,x)
+
+X1}
+
+x1}
+
+(lettingp=
+
+1/3)
+
+Thus q '(y', y k) iS the maximum factor p required to inflate the output vector of
+firm k, y k, onto the production surface of firm 1, given that the input vector is
+that of firm 1.
+As with the Malmquist input indexes, the Malmquist output indexes cannot be
+computed without knowledge of the parameters of the firms' technologies.
+However, we now show that by making use of the assumption of revenue
+maximizing behavior, it is possible to compute the geometric average of the
+Malmquist indexes without knowledge of the parameters of either firm's technology.
+Assume that y S >>OI, the observed output vector for firm s, is a solution to the
+following revenue maximizationproblem:
+
+(25)
+
+maxy{ps*y :g5(y,&ZS) < xs},
+
+s = k,1,
+
+where pS ? 0 is the vector of output prices facing firm s. Under (18) the first
+order conditions for (25) are
+(26)
+
+pS=X5vgS(yS,js)
+
+s= k,l.
+
+This content downloaded from 142.51.1.212 on Fri, 25 Oct 2013 21:06:52 PM
+All use subject to JSTOR Terms and Conditions
+
+1401
+
+INDEX NUMBERS
+
+Multiplying both sides of (26) by yS and solving for ASyields
+(27)
+
+X = pS *.yS/ys*
+
+s = k,l.
+
+),
+
+Vygs(ys,
+
+Substituting (27) into (26) yields, for s = k, 1,
+(28)
+
+pS/ps .yS = Vygs(y5 ,x)/y5.
+
+Vygs(y ,XS) = Vyd (y, Xs)
+(using (19)).
+
+We can now prove the following theorem.
+THEOREM2: If firms k and 1 have translog output distance functions with
+identical coefficientsfor the second order output terms, then the Tornqvistindex for
+comparingthe outputs of k and 1 is equal to the geometric mean of the Malmquist
+output indexes evaluated at k and 1.
+That is, if, for s = k, 1, (i) ds(y, x) = hs(y, x); i.e., the distance function is the
+translogfunction (10); (ii) (16) and (18) hold; (iii) yS is a solution to (25); and (iv)
+ak = aJfor i,j = 1,...,
+I, i.e. hk and h' have identical coefficientsfor the second
+order terms in ln y, but are otherwise unrestricted;then
+
+(29)
+
+Ilnqk(yl,yk)
+
+=
+
++
+
+12l[t
+
+yk)
+
+I lnql(yl,
+
+y t+
+
+pijy'][lny!-ln
+
+yik]
+
+=-In Q(p I, pkI yII yk)
+where Q(p I,p k, yI,
+
+yk)
+
+is
+
+the Tornqvistoutput index.
+
+The proof of Theorem 2 is analogous to the proof of Theorem 1.10 Our earlier
+comments on the advantages and disadvantages associated with the use of
+Theorem 1 apply also to Theorem 2.
+4. PRODUCTIVITY INDEXES
+
+There are two natural approaches to the measurement of productivity differences. One approach treats productivity differences as differences in maximum
+output conditional on a given level of inputs. This approach leads to outputbased
+productivity indexes. The alternative approach treats productivity differences as
+differences in minimum input requirements conditional on a given level of
+outputs. This view leads to input based productivity indexes. Output and input
+'0Theorem 2 should be contrasted with a theorem in Diewert [10, pp. 463-464], which showed that
+if both output deflation functions were identical so that dk = d- = d, then under the remaining
+assumptions of Theorem 2, d(y', x*)/d(yk, x*) = Q(pk, p, yk, yl), where x"*,the nth component of
+the reference input vector x*, equals (X"Xnl)1/2 for i = 1, 29 ... . N.
+
+This content downloaded from 142.51.1.212 on Fri, 25 Oct 2013 21:06:52 PM
+All use subject to JSTOR Terms and Conditions
+
+D. W. CAVES, L. R. CHRISTENSEN, AND W. E. DIEWERT
+
+1402
+
+based productivity indexes differ from each other by a factor that reflects the
+returns to scale of the production structure.11
+We define local returns to scale for firm s as follows. Consider proportionally
+increasing all inputs xS by a factor X. Let uS(ys, xs, X) be the factor of proportionality by which all outputs, yS, must be increased so that the inflated input
+and output vectors lie on a production surface for firm s; i.e., uS(ys, xS, X) is the
+solution to
+s = k,l.
+
+Axl = gs(usys,As),
+
+(30)
+
+Then the degree of local returns to scale is given by ES = aus(ys,x',X)/1k,
+evaluated at A = 1. If returns to scale are locally constant (increasing or decreasing respectively), then Es= 1 (> 1 or < 1, respectively). Comparing (30) and
+(17), we see that us(ys,xs,A) is the inverse of the output distance function
+evaluated at (y s, xs, A). Therefore, returns to scale are given by
+(31)
+
+E
+
+XS Vxds(ys, xS)
+
+= aus(ys, xs, A)/A = Vxd(ys, Axxs1=
+
+at A = 1. Comparing (31) and (20) we find
+
+(32)
+
+ES =
+
+S
+
+S* Vig(yX
+
+xi-
+
+g)}/y
+
+(y
+
+X
+
+We define the Malmquistfirm k output basedproductivity index, as mk(x
+yl
+
+(33)
+
+=
+
+m k(Xlxk,ylyk)
+
+Under (16) dk(yk,xk)
+(34)
+
+,xk
+
+k)
+
+m (x,xk,
+
+dk(yl
+
+Xl)/dk(yk,
+
+xk).
+
+Xl)_min{
+
+8
+
+1, so that
+
+=
+
+yl,yk)=
+
+dk(yl
+
+Xgk(yl/3
+
+l) <
+
+}
+
+using (17).
+k, yI, yk) is the minimal output deflation factor such that the
+Thus mk(x,x
+and the firm 1 input vector, x1, are just
+deflated output vector for firm 1,yll/Mk,
+on the productionsurfaceof firmk. Note that mk(x k X k, y k, yk) = 1. Therefore,
+if firm I has a higher level of productivity than firm k from the perspective of
+firm k's production structure, then mk > 1.
+To compare the productivity of firm k with that of firm 1 from the perspective
+of firm 1, we define the Malmquist firm / output based productivity index,
+mI(X35 X klxly
+
+(35)
+
+y
+
+dk)
+
+m 1(XIeXklyIly
+
+k)=
+
+dl(y IX1l)dl
+
+(yk,
+
+Xk.
+
+" The relationship between input and output based productivity measures is discussed in Caves,
+Christensen, and Swanson [2], in a continuous time framework.
+
+This content downloaded from 142.51.1.212 on Fri, 25 Oct 2013 21:06:52 PM
+All use subject to JSTOR Terms and Conditions
+
+1403
+
+INDEX NUMBERS
+
+Under (16) d'(y',x') = 1, so that
+
+(36)
+
+m (Xl,Xk,
+
+yl
+
+= I/dl(yk,
+
+yk)
+
+=
+
+xk)
+
+:gl(yk/3
+
+1/min3{8
+
+= max {p
+
+,
+
+using (17)
+
+k)<xk}
+
+? X1I}.
+
+gl(pyk,Xk)
+
+Thus m 1(x 1, xkI yt, yk) is the maximum inflation factor for the firm k output
+vector such that the resulting inflated output vector, m k, and the firm k input
+vector, x k, are just on the production surface of firm 1. If firm 1 has a higher level
+of productivity than firm k from the perspective of firm l's production structure,
+then ml > 1.
+Assumption (18) in the previous section enabled us to compute the partial
+derivatives of the output deflation functions ds(ys,xs)
+with respect to their
+arguments in terms of partial derivatives of the input requirements functions
+gs(yS,Xs).
+
+We also used the assumptionof revenue maximizingbehavior to
+
+derive (28). We maintain the assumption that the firm maximizes revenues
+conditional on input levels, but now we also assume that the firm minimizes cost
+conditional on output levels; i.e. that xs is the solution to
+(37)
+
+s = k,l,
+
+minx{ws * S+ wIgs(ysxs)},
+
+which yields the first order conditions:
+(38)
+
+wS
+
+s= k,l.
+
+wIVx9gs(ysxs)
+
+Multiplying both sides of (38) by xs and adding wlsxs, we obtain
+(39)
+
+w x
+
+wS xS +
+
+-WS
+
+(
+
+V
+
+I
+
+Combining (38) and (39) we find, for s = k, 1,
+
+(40)
+
+ws .xs [
+
+s]
+
+=
+
+=
+
+s- ?s . V;gs(ys,&ZS)
+
+S
+
+{Xs -
+
+V[
+
+[ -
+
+Vgs(ys,&ZS)]4
+
+Vg
+
+.* gS(yS
+
+S)}
+
+{yS
+
+(y,
+
+)]
+
+* Vygs(ys,xs)}
+
+This content downloaded from 142.51.1.212 on Fri, 25 Oct 2013 21:06:52 PM
+All use subject to JSTOR Terms and Conditions
+
+s =k,l.
+
+D. W. CAVES, L. R. CHRISTENSEN, AND W. E. DIEWERT
+
+1404
+
+Using (20) and (32) yields, for s = k, 1,
+[Wi] =
+
+(41)
+(42)
+
+-V
+
+E(ds) sVxds(ys,xs),
+
+dS(yS XS) = WI.X
+
+or
+
+S
+
+We can now prove the following theorem.
+THEOREM3: If firms k and 1 have translog output distance functions with
+identical second order coefficients, then the product of a scale factor and the ratio of
+the Tornqvistindex for comparingthe outputs of k and 1 to the Tornqvistindex for
+comparinginputs of k and 1 is equal to the geometric mean of the firm k and firm 1
+Malmquist output based productivity indexes. That is, if for s = k, 1, (i) ds(y, x)
+= hS(y, x): i.e., the output distancefunction is translog; (ii) (16) and (18) hold; (iii)
+(yS,xs) is a solution to (25) and (37); and
+
+(iv)
+
+for
+
+n,m=1,...,N,
+
+ki=f A.
+
+for
+
+i, j=1,...,,
+
+.Y/k=yiln
+
+for
+
+i=1,...,I
+
+anm=
+
+nm
+
+and n= 1,...,N,
+
+then,
+lnm(x lxk,yl
+
+yk)
+
++
+
+1 lnmk(xlxk,yl,yk)
+
+2
+
+t
+
+2
+-l
+
+[lnx.
+
+[ Wlb xt + ply
+(1_pi
+2 Ek[ k6
+
+2x
+
+(k
+
+p
+
+k
+
++
+
+I(I [Inn
+
++ r(wl,wk,xl
+
+xk ,
+
+1-l
+
+2 lnml(xl,xk,yl,yk)
+
+- lnxk]
+
+I
+1
+
+X,
+
+(k
+
+)
+
+-il
+
+]
+
+1nk)
+
+where the returns to scale term r is defined by the third and fourth lines above.
+
+This content downloaded from 142.51.1.212 on Fri, 25 Oct 2013 21:06:52 PM
+All use subject to JSTOR Terms and Conditions
+
+INDEXNUMBERS
+
+1405
+
+PROOF:
+I
+
+2
+
+1
+
+k
+)
+yly)+I
+
+inm
+M(x,x
+
+Y(lx
+
+I
+
+- lndk(yk,Xk)]
+
+[lndk(yl,xl)
+
+-
+
+21lnml(xl,xk,yl,yk)
+
++ 1 [lndl(yl,xl)
+
+-lnd
+
+(xk, yk)]
+
+(by definitions (33) and (35))
+=2[V1n ylnd (y ,x ) + V1. ylndl(y'xl)]
++
+
+L [Vinxlnd k(yk,xk)
+
+*[Iyl
+
+- lny]
+
+[lnxl -lnxk]
+
++ VI.xlndl(ylxl)]
+
+(applying Lemma 1)
+
+-
+
+2
+
++
+N
+
+r
+
+24[
+
+-
+
+Z
+
+kc
+
+][lnY/-ln Yi]
+1
+
+iyi
+
+e
+
++
+
+e
+
+k
+
+1
+
+Z*
+
+']
+[yln-- Ix
+
+n]
+
+(using(28) and (42))
+2 ,
+
+pIi'>][lny!-lny/
+
++y
+
+1N
+
+[
+
+wI -XI
+
++ 2 2
+
+[
+
+k
+
+-
+
+-in
+
++ wx
+
+(_
+
+Q(pl,pk,yl,yk)
+
+-
+
+]
+
+] [lnx_E
+-[lnxlI]
+
+1)+
+
+ZK(1n-ln4)
+-c')J(lnx
+
+-in Q(w',wg,x
+
+,X
+
+)
+
++ r(w',Wn,kX'x'k ,1c).
+
+Note that the scale factor r is the Tornqvist input index with the shares
+multiplied by unity minus the degree of returns to scale. Given data on inputs,
+input prices, outputs and output prices, we can compute m (x l, x k, l,1
+provided that we know the local degree of returns to scale, ES for s = k, 1.
+
+This content downloaded from 142.51.1.212 on Fri, 25 Oct 2013 21:06:52 PM
+All use subject to JSTOR Terms and Conditions
+
+1406
+
+D. W. CAVES, L. R. CHRISTENSEN, AND W. E. DIEWERT
+
+This leads us to consider the evaluation of m under constant, increasing, and
+decreasing returns to scale.
+CASE(i)-Constant Returns to Scale: Under constant returns to scale ES = 1
+for s = k and 1; hence the scale factor, r, vanishes and m is given by the ratio of
+the Tornqvist output index to the Tornqvist input index.
+CASE(ii)-Decreasing Returns to Scale: Under the cost minimization and
+revenue maximization hypotheses, we know, from (26) and (39), that
+X5y
+
+pS .yS
+
+(43)
+
+wS *x
+
+yg(y
+
+* V;g
+
+-wi
+
+x
+
+(y ,x
+
+)+ wlx
+
+Substituting (32) into (43) we find
+
+(44)
+
+Xs
+
+Ps XS
+
+W
+
+)
+
+We now assume that (y S, xS) is the solution, not only to the cost minimization
+(37) and revenue maximization (25) problems, but also to the profit maximization problem:
+
+(45)
+
+maxyX{pS *yS
+
+W xws(y
+
+x
+
+The partial derivative of (45) with respect toy is
+(46)
+
+pS =wlvygs(
+
+x
+
+which reveals that the Lagrangian multiplier Xs, in (26), is equal to wI if (yS, xs)
+is a solution to (45). Hence, under profit maximization, returns to scale, Es, can
+be computed from (44) as
+(47)
+
+ES = pyS*ys/ws
+
+xX,
+
+s = k,1.
+
+In this case it is straightforward to use observed data on cost and revenue to
+compute m using Theorem 3.
+CASE(iii)-Increasing Returns to Scale: In this case there is no profit maximizing solution. Thus we cannot use observed costs and revenues to compute
+returns to scale. Thus m can only be computed if there is knowledge of Es. Note
+that the importance of the scale factor r depends not only on the degree of
+returns to scale, Es, but on the input differences between the two firms. If the
+firms employ very nearly the same input levels, then precise knowledge of, Es, is
+not crucial to the measurement of their relative productivity levels.
+Analogous to the output based productivity indexes mk(xi ,x k yt y k) and
+m '(x1',x k y1, yk), we can define input based productivity indexes. The
+
+This content downloaded from 142.51.1.212 on Fri, 25 Oct 2013 21:06:52 PM
+All use subject to JSTOR Terms and Conditions
+
+1407
+
+INDEX NUMBERS
+
+Malmquistfirm k input based productivityindex Mk is defined as
+(48)
+
+Mk (x ,xk,
+
+Under (1) D k(yk,xk)
+(49)
+
+yl, yk)
+=
+
+Mk (xl,xk,yl,yk)=
+
+Dk(yk
+
+,xl).
+
+xk)/Dk(yl
+
+1 so that
+1/Dk(yl
+
+xl)
+
+=1/max,{,
+
+:fk(
+
+jlxl/8)
+
+=minpt p :fk( j' ,px
+
+? yl}
+
+I) ? Y1}
+
+(where p = 1/ ).
+
+Thus Mk(Xl,Xk,
+y1 y k) iS the minimal input inflation factor such that the
+inflated input for firm 1,Mkx , and the firm 1 output vector y
+(y1, -Y')lie on
+the production surface of firm k. Note that Mk(xkXl,
+y k,y k)=
+1; therefore if
+firm 1 has a higher productivity level than firm k, Mk > 1.
+The Malmquistfirm 1 input based productivityindex Ml is given by
+(50)
+
+Ml (x ,xk,yl,yk)
+
+Dl(yk,
+
+Xk)/D(yl,xl).
+
+Under (1) D 1(y 1,x 1) = 1, so that
+(51)
+
+Ml(xl
+
+xk yl,yk)
+
+= Dl(yk,
+
+Xk)
+
+=
+
+max,{8
+
+:fl(yk,xk/8)
+
+> yk}*
+
+Thus Ml is the maximum input deflation factor such that deflated input for firm
+k, xk/Ml, and the firm k output vector lie on the production surface of firm 1.
+Note that M'(x 1,x1, y 1, y 1) = 1; therefore if firm 1 has a higher productivity level
+than firm k, M'> 1.
+The derivative of input based measures of productivity differences is analogous to the derivation of the ouput based measures: the only difference is that we
+begin with the production functionyI = fS(y, x) and its associated input distance
+function Ds(ys, xs) instead of the input requirements function and its associated
+output distance function. We do not carry out all the required steps but simply
+state the relevant theorem.
+THEOREM
+4. If firms k and 1 have translog input distancefunctions, with identical
+second order coefficients, then the product of a scale factor and the ratio of the
+Tornqvistindex for comparing the outputs of k and 1 to the Tornqvist index for
+comparing the inputs of k and 1 is equal to the geometric mean of the firm k and
+firm 1 Malmquist input based productivityindexes.
+That is, if for s = k, l, (i) Ds(ys, xs) = hs(y, x), i.e., the input distance function
+is translog; (ii) (1) and (3) hold; (iii) x S is a solution to (11) and yS is a solution to
+
+This content downloaded from 142.51.1.212 on Fri, 25 Oct 2013 21:06:52 PM
+All use subject to JSTOR Terms and Conditions
+
+1408
+
+D. W. CAVES, L. R. CHRISTENSEN, AND W. E. DIEWERT
+
+maxy { Pi fS(y, xs) + A -y}; and (iv) restrictions(iv) under Theorem 3 hold; then,
+InM(xl
+
+xk, yI
+
+y k)
+
+1 lnMk(xl,xk,
+
+[ ikWk
+
+2
+1
+
+yl,
+
+N
+
+r
+
++
+
+yk)
+
+l1
+
+1
+
+k k
+
+- WkX?Wk _nx'S I 1n
+
+>1I((E
+
+1
+
+-
+
+-nx
++ i-Inxn
+
+2 n~ WkjXk
+
+I .
+
++ ((Ek'j')
+
+PI)'
+
+1
+r(/X,y
+
+,y )
+
+X
+
+I
+
++
+
+2 InnMl(x ,xk,y
+
+k(
+
+kk
+p
+
+Iln Q(p IIpk, yl,yk)
+
+[n!ly
+
+*y
+
+-1n Q(Wt,Wk,Xl,
+
+xk)
+
++ R (x', x k, yII yk,EI1 Ek),
+
+where the output returns to scale factor R is defined by the third and fourth lines
+above.
+As with the output based index m, we can compute the input based index, M,
+using observed data, provided we have knowledge of Es for s = k, 1. For the case
+of constant returns to scale, R vanishes and M can be computed from the ratio
+of the Tornqvist output to the Tornqvist input index. For decreasing returns to
+xS; hence M can be
+scale, profit maximization implies (Es)-' = ps ys/ws
+computed from observed data. For increasing returns to scale, knowledge of ESis
+required to compute the productivity indexes.
+The output and input based productivity indexes are identical except for the
+scale terms r and R. Under constant returns to scale, the terms r and R vanish so
+that the input and output based measures are identical; otherwise the two
+measures will in general differ. For example, consider the case in which the firms
+k and 1, both have increasing returns to scale and employ identical inputs, but 1
+produces more of every output. The output based productivity index m will be
+identical to the Tornqvist output indexes (since r = 0) and will show m > 1. The
+input based index M will equal the Tornqvist output index plus R, and R is
+negative under increasing returns to scale. Hence m > M > 1; the input based
+index will still show 1 more productive than k but by a lesser amount than the
+output based index. This is because increasing returns to scale implies that the
+percentage input change required to equalize the firms' output is less than the
+percentage difference in output.
+
+This content downloaded from 142.51.1.212 on Fri, 25 Oct 2013 21:06:52 PM
+All use subject to JSTOR Terms and Conditions
+
+1409
+
+INDEX NUMBERS
+5. EXTENSIONS
+
+It is straightforward to adapt Theorem 1 to the consumer context for the
+purpose of constructing indexes of quantities consumed. In this case Fs is the
+utility function for consumer s, ys is the level of utility, xS >>ON is the consumption vector for consumer s, WS >>N0 is the vector of commodity prices that
+consumer s faces, and yS is a vector of planned purchases or demographic
+variables for consumer s. The input distance function is now interpreted as a
+commodity distance function, and the assumption (11) that the firm minimizes
+the cost of producing a given output vector subject to (1) is now replaced by the
+assumption that the consumer minimizes the expenditure required to obtain a
+given level of utility subject to (1). Under these specifications, Theorem 1 can be
+applied directly to justify the Tornqvist index for comparing the consumption
+levels of consumers k and 1.
+The analysis presented above in Sections 2, 3, and 4 was developed in terms of
+quantities of inputs and outputs. Indexes that are dual to the quantity indexes
+can be derived by substituting prices of inputs and outputs for the quantities.
+This leads to input and output price indexes and a productivity index specified in
+terms of the relationship between input and outpuit prices. The dual to the
+consumption index, discussed in the preceding paragraph, is the consumption
+price index or cost of living index.
+To illustrate the use of our approach in the consumer context and in the
+derivation of dual, or price, indexes, we derive the consumer cost of living index
+implied by our general framework. Let uS = F5(z,x) denote the utility, or
+preference, function for consumer s, where x is a consumption vector and z is a
+vector of demographic variables or public goods. We assume that xS is a solution
+to the following expenditure minimization problem:
+(53)
+
+min,{ wS *x : F5(z5, x) 2 us }--Cs(US, Zs,WS)
+
+where w ?>>0 is the vector of prices of the commodities in x. Equation (53)
+defines the expenditure function of consumer s, Cs. Shephard [19] showed that, if
+Cs(us,zs,ws) is differentiable with respect to the components of ws, then the
+solution, xs, to (53) is given by
+(54)
+
+XS= VWCs(US
+IZS,WS).
+
+The consumerk Konus [15] cost of living or price index can be defined as
+(55)
+
+Kk(w,
+
+Wk)-
+
+Ck(Uk Zk wl)/Ck(Uk,zk,wk)
+
+=min,{w'
+
+. x :fk(zk,x)
+
+? Uk}/Wk.
+
+Xk
+
+using (53).
+
+Thus Kk(wl, wk) is the ratio of the cost of achieving utility level uk with prices w
+to the cost of achieving uk with prices w k when the demographic variables and
+preference function are those of consumer k.
+
+This content downloaded from 142.51.1.212 on Fri, 25 Oct 2013 21:06:52 PM
+All use subject to JSTOR Terms and Conditions
+
+D. W. CAVES, L. R. CHRISTENSEN, AND W. E. DIEWERT
+
+1410
+
+Similarly, the consumer / Konus cost of living or price index is
+(56)
+
+K(w?
+
+Wwk)-
+
+w)C
+
+C(uI,zIW)/
+
+(
+
+,z
+
+I, Wk)
+
+*x :fl(z',x)
+
+=w' .xl/mintwk
+
+? ul}.
+
+Without knowledge of the coefficients of the C functions we cannot compute
+or K'(w , w k); however, under the assumptions of Theorem 5
+either Kk(W1,Wk)
+below, we can identify the geometric mean of Kk(W/, Wk) and K'(w',wk).
+THEOREM 5: If the cost functions for k and / are translog with identical
+coefficients on the second order terms in commodityprices, then the Tiirnqvistindex
+for comparing the cost of living for k and I is equal to the geometric mean of the
+consumerk and consumer I Konus cost of living indexes. That is, if, for s = k, 1, (i)
+the cost functions CS are translog: i.e., CS(u,z,w) = hs(y,x) for y = (u,z) and
+w = x; (ii) x5 is given by (53);
+
+(57)
+
+(iii)
+
+aknm
+
+for m,n = 1,2, ... . Ng
+
+"in
+
+then,
+In K(wZ 1Wk)-
+
+nK
+
+1
+
+-
+
+2 n-l
+
+[
+
+I
+
++
+
+k(WlaWk)
+
+wwxk xn
+
+in K(w'.
+
+;
+
++
+
+[n
+
+Wk)
+
+J
+
+Inw,
+
+-In
+
+W k]
+
+,x k)
+
+lnP(w,wk,x
+
+where P(w I,w k, x 1, x k) is the T6rnqvistcost of living index.
+PROOF:
+
+2 InKk(w/,wk)
+
++
+
+IInK
+
+2 [in Ck(uk,zk,wl)
+
++
+
+(wl,wk)
+
+- lnCk(uk,zkgwk)]
+
+i C'(u',z',w)
+[in
+
+-
+
+ln C (ul,zI,wk)]
+
+(using definitions (55) and (56))
+F2 Lnwln Ck(uk,zkwk)
+
++VInwinC'(u',z',w')[Inw'
+
+-inWk]
+
+(using (57) and applying the translog identity with (u, z) _ y and w -x)
+
+This content downloaded from 142.51.1.212 on Fri, 25 Oct 2013 21:06:52 PM
+All use subject to JSTOR Terms and Conditions
+
+INDEX NUMBERS
+
+Kn21
+=
+
+[
+
+) k. +
+
+I> [lnw[
+
+lnw4'j
+
+1411
+
+(using (54))
+Q.E.D.
+
+lnP(wk,wl,xk,Xl).
+
+Theorem 5 allows for considerable variation in tastes between the two individuals, and it is more powerful than Theorem 1 in that Theorem 5 does not require
+positive levels of consumption for all commodities; however, Theorem 5 does
+share some limitations with Theorem 1: (i) expenditure minimizing behavior
+must be assumed, and (ii) we can identify only a geometric average of the Koniis
+indexes rather than each individual index.
+The above approach to the problem of constructing consumer price indexes
+from observable price and quantity data can readily be adapted to the problem
+of constructing producer price indexes.
+6. CONCLUDING REMARKS
+
+Diewert [8] recommended the use of superlative index numbers, i.e. those
+which are exact for particular flexible functional forms. For example, he showed
+that the Tornqvist input index is exact for the homogeneous translog form, and
+thus is a superlative index. We have shown that the Tdrnqvist input index is also
+exact for the geometric mean of the two Malmquist input indexes when the two
+underlying functions are both translog (not necessarily homogeneous) but with
+different parameters. This result implies that the Tornqvist index is superlative in
+a considerably more general sense than shown by Diewert. We are not aware of
+other indexes that can be shown to be superlative in this more general sense.
+Diewert [9] has shown that superlative indexes will numerically approximate each
+other; thus any superlative index (in the sense of Diewert [8]) will be approximately equal to the geometric mean of two Malmquist indexes based on the
+translog form.
+Comparisons based on econometric estimates of the structure of production
+have often been viewed as being more desirable than index number comparisons;
+this view is based on the belief that index numbers are consistent only with
+restricted structures of production. Our results show that this belief is erroneous;
+in fact, the structures of production which we have considered in this paper are
+so general that they would be difficult to estimate econometrically. Of course,
+econometric estimation is still required to obtain knowledge of the parameters of
+the structure of production and the implied substitution and scale properties.
+Estimation also permits the individual Malmquist indexes to be identified, in
+addition to their mean. But estimation is not required simply to obtain comparisons based on a general structure of production.
+Any data set in which econometric estimation is feasible will have multiple
+observations, and thus, the issue of multilateral vs. bilateral comparisons will
+arise. In our previous paper, Caves, Christensen, and Diewert [3], we discussed
+
+This content downloaded from 142.51.1.212 on Fri, 25 Oct 2013 21:06:52 PM
+All use subject to JSTOR Terms and Conditions
+
+D. W. CAVES, L. R. CHRISTENSEN, AND W. E. DIEWERT
+
+1412
+
+procedures for making multilateral comparisons of input, output, and productivity for the case of constant return to scale structures of production. The index
+numbers that we have proposed in this paper, for arbitrary scale economies, can
+be extended to multilateral comparisons following the approach recommended in
+our previous paper.
+Universityof Wisconsin
+and
+Universityof British Columbia
+ManuscriptreceivedMay. 1981; revisionreceivedDecember, 1981.
+APPENDIX
+XN)
+and x _(x, x2.
+Y,.Yi)
+TECHNICALLEMMA-A TRANSLOGIDENTITY: Let y-(
+be vectorsof positive variables. Let the translogfunctions hs(y, x) be defined by equation (10) in the text.
+The translogfunctions can provide second order approximationsto arbitrary twice continuouslydifferentiablefunctions. In addition it is straightforwardto make the functions linearly homogeneousin the x or y
+variables; hS will be linearly homogeneousin x if and only if
+N
+
+(1A)
+
+E
+n=l
+
+I
+
+N
+
+jns = 1, 2
+
+m=1
+
+for
+
+flnm=O
+
+and
+
+n=1,...,N
+
+i=1
+
+for n=1.
+
+iynS=O
+
+N
+
+and linearly homogeneousin y if and only if
+I
+
+N
+
+I
+
+a7=
+
+(2A)
+
+.a.= 0
+
+f,
+
+for
+
+i
+
+I
+
+and
+
+j=1
+
+i=1
+
+n=1
+
+yS=0
+y.
+
+for
+
+i= .
+
+I.
+
+LEMMA-A Translog Identity: Let the translogfunctional forms hk and h' be defined by (10) for
+7
+for n, m = 1, . . ., N, then the following identity holds for all xk ION, xl>ON,
+s = k, 1. If /3k -8m
+Y > O,, andy > 01:
+
+(3A)
+
++ ln{hl(yl,XI)/h
+
+xl)/hk(yk,Xk)}
+
+ln{hk(yk,
+N
+E
+
+kalnh
+aX
+
+(yk,Xk)
+
++
+
+Xlalnh (y',x')}
+
+VI. xln hxk(yk, Xk) + V) xln h}(y', xI)
+
+-
+
+(yl,xk)}
+
+{1nxl-ln
+In x1-lnn
+
+Xnk
+
+Xk}. x
+
+PROOF:Since the functional forms h k and h' are quadratic in the logarithms of their variables, we
+can apply Diewert's [8, p. 118] Quadratic Identity12 to obtain the following equalities:
+(4A)
+
+lnhk(yk,xl)
+
+- lnhk(yk,
+
+xk)
+
+I2[V.xln nk(yk,x1) + VI.xln hk(yk, xk)] [Ilnxl-ln xkl,
+(5A)
+
+ln h'(y', X)
+
+and
+
+- ln hl(yl, xk)
+
+=- 2 VIJn h'(y', xI) + VI. In h'(y', Xk)] -[n x1-ln
+
+Xk].
+
+12Diewert's result is a global version of Kloek [14] and Theil's [21, pp. 222-223] local result. See
+
+also Lau [16].
+
+This content downloaded from 142.51.1.212 on Fri, 25 Oct 2013 21:06:52 PM
+All use subject to JSTOR Terms and Conditions
+
+1413
+
+INDEX NUMBERS
+Substitute (4A) and (5A) into (3A) and rearrange terms to obtain
+(6A)
+
+[VInxlnhk(yk,xk)
+
++ VInxlnl(yl,xl)]
+
++ 2j[Vinx1nhk(yk,xl)
+
+[Ilnxl-lnxk]
+
+-V
+
+lnhk(yk,
+
+xln h'(y', xI)]
+
++ VInxln hl(yl, xk) -V1
+
+= [VInxlnh k(yk,Xk)
+
++
+
+Xk)
+
+V1.xln hn'(y', x)]
+
+[n x' - ln xk]
+
+[n x' - ln xk]
+
+since the second and third lines of (6A) equal
+
+-o
+-O
+
+n
+
+N
+
+N
+
+N
+
+2 E
+~1
+
+fknm(lnxn
+
+nxk
+
+[3,~m[3,~m
+
+m=l
+
+if
+
+Bnkm= pnlm
+
+(inxI-In
+
+xk))
+
+in x-in
+
+nm.
+
+for all n, m.
+
+Xk
+Q
+
+Q.E.D.
+
+REFERENCES
+C., AND W. E. DIEWERT: "Expenditure Functions, Local Duality, and Second
+[1] BLACKORBY,
+Order Approximations, " Econometrica, 47(1979), 579-601.
+ANDJ. A. SWANSON:
+"Productivity Growth, Scale Economies,
+[2] CAVES,D. W., L. R. CHRISTENSEN,
+and Capacity Utilization in U.S. Railroads, 1955-1974, " American Economic Review,
+71(1981), 994-1002.
+"Multilateral Comparisons of Output,
+[3] CAVES,D. W., L. R. CHRISTENSEN, AND W. E. DIEWERT:
+Input, and Productivity using Superlative Index Numbers," Economic Journal, 92(1982),
+73-86.
+[4] CHRISTENSEN, L. R., AND D. W. JORGENSON: "U.S. Real Product and Real Factor Input,
+1929-1967, " Review of Income and Wealth, 16(1970), 19-50.
+[5] CHRISTENSEN, L. R., D. W. JORGENSON, AND L. J. LAU: "Transcendental Logarithmic Production
+Frontiers," Review of Economics and Statistics, 55(1973), 28-45.
+[6] DEATON, A.: "The Distance Function in Consumer Behavior with Applicatioils to Index
+Numbers and Optimal Taxation," The Review of Economics Studies, 46(1979), 391-405.
+[7] DENNY,M., AND M. Fuss: "Intertemporal and Interspatial Comparisons of Cost Efficiency and
+Productivity," unpublished manuscript, University of Toronto, Canada, 1981.
+W. E.: "Exact and Superlative Index Numbers, " Journal of Econometrics, 4(1976),
+[8] DIEWERT,
+115-145.
+"Superlative Index Numbers and Consistency in Aggregation," Econometrica,46(1978),
+[9]
+883-900.
+: "Aggregation Problems in the Measurement of Capital," in The Measurement of
+[10]
+Capital, ed. by Dan Usher. Chicago: National Bureau of Economic Research, 1980, pp.
+433-528.
+"Duality Approaches to Microeconomic Theory, " in The Handbook of Mathematical
+[11]
+Economics, ed. by K. J. Arrow and M. D. Intriligator. Amsterdam: North-Holland, 1981.
+[12] FISHER,F. M., AND K. SHELL:The Economic Theory of Price Indices. New York: Academic
+Press, 1972.
+[13] JORGENSON, D. W., AND M. NisHmizu: "U.S. and Japanese Economic Growth, 1952-1974: An
+International Comparison, " The Economic Journal, 88(1978), 707-726.
+[14] KLOECK,T.: "On Quadratic Approximations of Cost of Living and Real Income Index
+Numbers," Report 6710, Econometric Institute, Netherlands School of Economics, Rotterdam, 1967.
+[15] KONUS,A. A.: "The Problem of the True Index of the Cost of Living, " Econometrica, 7(1939),
+10-29.
+[16] LAU, L. J.: "On Exact Index Numbers," The Review of Economics and Statistics, 61(1979),
+73-82.
+
+This content downloaded from 142.51.1.212 on Fri, 25 Oct 2013 21:06:52 PM
+All use subject to JSTOR Terms and Conditions
+
+1414
+
+D. W. CAVES, L. R. CHRISTENSEN, AND W. E. DIEWERT
+
+S.: "Index Numbers and Indifference Surfaces," Trabajos de Estatistica, 4(1953),
+[17] MALMQUIST,
+209-242.
+[18] MOORSTEEN,R. H.: "On Measuring Productive Potential and Relative Efficiency," Quarterly
+Journal of Economics, 75(1961), 451-467.
+R. W.: Cost and Production Functions. Princeton: Princeton University Press, 1953.
+[19] SHEPHARD,
+[20] SoLow, R. M.: "Technical Change and the Aggregate Production Function," The Review of
+Economics and Statistics, 39(1957), 312-320.
+[21] THEIL,H.: Economics and Information Theory. Amsterdam: North-Holland, 1967.
+[22] T6RNQVIST, L.: "The Bank of Finland's Consumption Price Index," Bank of Finland Monthly
+Bulletin, No. 10(1936), 1-8.
+
+This content downloaded from 142.51.1.212 on Fri, 25 Oct 2013 21:06:52 PM
+All use subject to JSTOR Terms and Conditions
+
+

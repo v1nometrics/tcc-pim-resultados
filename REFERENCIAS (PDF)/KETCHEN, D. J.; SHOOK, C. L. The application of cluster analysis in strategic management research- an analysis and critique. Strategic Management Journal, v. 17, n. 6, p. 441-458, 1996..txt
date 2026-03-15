@@ -1,0 +1,1502 @@
+The Application of Cluster Analysis in Strategic Management Research: An Analysis and Critique
+Author(s): David J. Ketchen, Jr. and Christopher L. Shook
+Source: Strategic Management Journal, Vol. 17, No. 6 (Jun., 1996), pp. 441-458
+Published by: Wiley
+Stable URL: http://www.jstor.org/stable/2486927
+Accessed: 12-02-2016 12:02 UTC
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at http://www.jstor.org/page/
+info/about/policies/terms.jsp
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide range of content
+in a trusted digital archive. We use information technology and tools to increase productivity and facilitate new forms of scholarship.
+For more information about JSTOR, please contact support@jstor.org.
+
+Wiley is collaborating with JSTOR to digitize, preserve and extend access to Strategic Management Journal.
+
+http://www.jstor.org
+
+This content downloaded from 132.174.254.159 on Fri, 12 Feb 2016 12:02:11 UTC
+All use subject to JSTOR Terms and Conditions
+
+Strategic Management Journal, Vol. 17, 441-458 (1996)
+
+THEAPPLICATIONOF CLUSTERANALYSISIN
+STRATEGICMANAGEMENTRESEARCH:AN
+ANALYSISAND CRITIQUE
+DAVIDJ. KETCHEN,JR.
+College of Business Administration, Louisiana State University, Baton Rouge,
+Louisiana, U.S.A.
+
+CHRISTOPHER
+L. SHOOK
+College of Business, Northern Illinois University, DeKalb, Illinois, U.S.A.
+
+Cluster analysis is a statistical technique that sorts observations into similar sets or groups. The
+use of cluster analysis presents a complex challenge because it requires several methodological
+choices that determinethe quality of a cluster solution. This paper chronicles the application of
+cluster analysis in strategic managementresearch, where the technique has been used since the
+late 1970s to investigate issues of central importance.Analysis of 45 published strategy studies
+reveals that the implementationof cluster analysis has been often less than ideal, perhaps
+detractingfrom the ability of studies to generate knowledge.Given thesefindings, suggestions are
+offeredfor improvingthe application of cluster analysis in future inquiry.
+
+firms that share a common profile along conceptually distinct variables (Meyer, Tsui, and Hinings,
+1993; Miller and Mintzberg, 1983). For example,
+Mintzberg (1989) identified configurations whose
+members were similar in size, age, formality, and
+centralization. One is an 'entrepreneurial' configuration that consists of firms that are simultaneously small, young, informal, and have centralized decision making. In contrast, 'professional
+bureaucracies' are large, old, formalized, and rely
+on decentralized decision making. Examination of
+organizational configurations have been conducted
+under many labels, including strategic groups (e.g.,
+Hatten and Schendel, 1977), organizational
+typologies (e.g., Miles and Snow, 1978), taxonomies (e.g., Galbraith and Schendel, 1983) and
+archetypes (e.g., Miller and Friesen, 1978). Thus,
+in essence, organizational configurations (or, more
+simply, configurations) as used here and elsewhere
+(e.g., Dess, Newport, and Rasheed, 1993; Ketchen,
+Thomas, and Snow, 1993) is a cover term that
+encapsulates a variety of research streams. Regardless of the specific label, the underlying assumption
+is that configurations represent a way to meaningfully capture the complexity of organizational
+Key words: classification;cluster analysis; configu- reality.
+Due to strategic management's emphasis on
+rationalresearch;strategicgroups
+
+Strategic management research focuses on the
+relationships among strategy, environment,
+performance
+and
+leadership/organization,
+(Summer et al., 1990). Each of these four constructs is multidimensional. Strategy, for example,
+can be viewed as composed of process and content
+concerns (Ansoff, 1965), scope and resource
+deployments (Hofer and Schendel, 1978), or corporate, business, and functional-level issues
+(Andrews, 1971). Similarly, environment may be
+divided into task and general elements (Thompson,
+1967). Leadership/organization encapsulates a variety of firm characteristics, including structureand
+culture (Summer et al., 1990). Performance consists of at least three categories: financial, operational, and overall effectiveness (Venkatraman
+and Ramanujam, 1986). The multidimensionality
+of these constructs creates a conceptual challenge
+in that a vast array of specific combinations could
+be developed along these dimensions to describe
+organizations.
+One popular response to this challenge has been
+to identify 'organizational configurations': sets of
+
+CCC 0143-2095/96/060441-18
+? 1996 by John Wiley & Sons, Ltd.
+
+Received 2] November 1994
+Final revision received 24 October 1995
+
+This content downloaded from 132.174.254.159 on Fri, 12 Feb 2016 12:02:11 UTC
+All use subject to JSTOR Terms and Conditions
+
+442
+
+D. J. Ketchen, Jr. and C. L. Shook
+
+identifyinggroupsof similarorganizations,cluster real conditions but instead may simply be statanalysishas been a popularmethodologyfollowing istical artifacts that capitalize on random numeriits introductioninto the field in a stream of cal variation across organizations (Thomas and
+researchoften referredto as the Purduebrewing Venkatraman, 1988). Further, cluster analysis'
+studies (i.e., Hatten, 1974; Hatten and Schendel, sorting ability is powerful enough that it will pro1977; Hatten,Schendel,and Cooper, 1978). Prior vide clusters even if no meaningful groups are
+to these efforts, the searchfor configurationshad embedded in a sample (Barney and Hoskisson,
+eco- 1990). Thus, cluster analysis has the potential
+been centered in the industrial/organization
+nomics literature, where groups were defined not only to offer inaccurate depictions of the
+across narrowsets of variables,often only one or groupings in a sample but also to impose grouptwo (e.g., Hunt,1972;Porter,1973). Suchanalyses ings where none exist.
+These concerns and others have led some
+allowed mappingof the structureof samples,but
+were too coarse-grainedto capturethe multidimen- observers to suggest that the frequent use of clussionality of the constructsof interest in strategy ter analysis is an embarrassment to strategic
+research(HattenandHatten,1987). Clusteranaly- management. For example, when Meyer (1991)
+sis, which takes a sample of elements (e.g., asked prominent researchers to assess the field,
+organizations)and groupsthem such that the stat- cluster analysis was singled out as a source of
+istical varianceamong elementsgroupedtogether 'methodological stigma'. Further, one claimed
+is minimized while between-groupvariance is that 'the empiricism inherent in this method has
+maximized,addressesthis limitation.Specifically, been forever branded upon our collective backcluster analysis permitsthe inclusion of multiple side' (Meyer, 1991: 826). Fueling this contempt
+variablesas sourcesof configurationdefinition.For are the equivocal results that cluster analysis
+example,Hattenet al. (1978) drewon 16 variables often provides. The best illustration is strategic
+representativeof manufacturing,financial, and groups research, which has been unable to conmarketstrategiesas well as environmentalcharac- sistently find a group membership-performance
+teristics. Thus, cluster analysis can provide very link (Barney and Hoskisson, 1990). Thus, at the
+rich descriptionsof configurationswithout over- moment, the value of cluster analysis to strategy
+research is in doubt.
+specifyingthe model.
+Despite the controversy surrounding cluster
+However, the use of cluster analysis in strategic managementresearchhas come under fre- analysis, to date there has been no comprehenquent attack (e.g., Barney and Hoskisson, 1990; sive assessment of the efficacy of its use. Thus,
+Meyer, 1991; Thomas and Venkatraman,1988). the purpose of this paper is to examine the appliOne cause for concern is the extensive reliance cation of cluster analysis in the field of strategic
+on researcherjudgmentthat is inherentin cluster management. Our aim is not only to evaluate the
+analysis. This is an issue throughoutthe process past use of cluster analysis but also to lay out an
+of using the technique, but perhapsmost troub- agenda to guide future research toward making
+ling is the fact that, unlike techniques such as the best possible use of the technique. We begin
+regression and analysis of variance, cluster by describing the issues identified in methodolanalysis does not offer a test statistic (such as an ogical research as critical when using cluster
+F-statistic) that provides a clear answer regard- analysis as well as the appropriate ways for strating the support or lack of support of a set of egy research to address them. Next, we document
+results for a hypothesis of interest. Instead, to a all of the strategy articles published in the Acadlarge extent, it is the researchers who are the emy of Management Journal, Journal of Interarbiters of the meaning of results acquired national Business Studies, Journal of Management, Management Science, and Strategic
+throughcluster analysis.
+A second major issue for critics is their per- Management Journal from 1977 to 1993 that use
+ception that most applicationsof cluster analysis the technique. Based on a comparison of existing
+in strategyhave lacked an underlyingtheoretical practices with the guidelines developed through
+rationale.Often clusteringdimensionsseem to be our review of methodological research, we then
+selected haphazardly(Reger and Huff, 1993). offer recommendations designed to maximize the
+Without a theoretical foundation, however, the value of cluster analysis to strategic manageclusters that are identified may not reflect any ment.
+
+This content downloaded from 132.174.254.159 on Fri, 12 Feb 2016 12:02:11 UTC
+All use subject to JSTOR Terms and Conditions
+
+Application of Cluster Analysis
+CRITICAL ISSUES IN THE USE OF
+CLUSTER ANALYSIS
+This section describes the key issues involved
+when using cluster analysis. It is important to note
+that there is considerable variation in how unified
+methodological experts are regarding these issues.
+Specifically, experts tend to agree on what the
+important issues are, but often disagree about how
+to address them. As described below, there are
+some limited areas of agreement regarding appropriate 'remedies' for clustering issues. There is a
+larger body of issues, however, for which no consensus has emerged. Here we describe the disagreements and discuss how the issue should be
+dealt with in strategic management research to
+satisfy its own, often unique, requirements. Thus,
+in sum, one aspect of this section is the collection
+and synthesis of the wisdom offered by methodological experts. A perhaps more important element
+is the identification of the strengths, weaknesses,
+and trade-offs involved with each issue as it relates
+to the needs of the strategic management literature.
+To avoid overlap with material that is available
+elsewhere, we do not provide detailed explanations
+of the mechanics of specific aspects of cluster
+analysis. Such information is offered by a number
+of prior efforts (e.g., Aldenderfer and Blashfield,
+1984; Everitt, 1980; Hair et al., 1992; Lorr, 1983;
+Punj and Stewart, 1983); the interested reader is
+referred to these sources.
+Clustering variables
+Choosing the variables along which to group
+observations is the most fundamental step in the
+application of cluster analysis, and thus, perhaps
+the most important. This process involves three
+critical issues: (1) how to select variables; (2)
+whether or not to standardize variables; and (3)
+how to address multicollinearity among variables.
+Selection of variables
+There are three basic approaches to identifying
+appropriate clustering variables: inductive; deductive; and cognitive (Ketchen et al., 1993). The
+inductive approach focuses on exploratory classification of observations. In other words, neither the
+clustering variables nor the number and nature of
+the resultant groups are tightly linked to deductive
+theory. Instead, the inductive approach seems to
+
+443
+
+follow McKelvey's (1975, 1978) suggestion to
+consider as many variables as possible because one
+cannot know in advance which variables differentiate among observations. Thus, the use of many
+clustering variables is expected to maximize the
+likelihood of discovering meaningful differences.
+One example of an inductive study is Hambrick
+(1983), where the author used 10 environmental
+variables to develop a taxonomy of mature industries with no a priori expectations about the likely
+nature of the resultant types.
+When following a deductive approach, the number and suitability of clustering variables, as well
+as the expected number and nature of groups in a
+cluster solution, are strongly tied to theory
+(Ketchen et al., 1993). Methodological research
+suggests that using deductive theory to guide variable choice is often wise. Cluster analysis derives
+the most intemally consistent groups across all
+variables, thus irrelevant variables can cause a
+deteriorationof a solution's validity (Punj and Stewart, 1983). An implication is that, when possible,
+studies should focus on variables with solid theoretical foundations. One example of a deductive
+study is Lawless and Finch (1989), where theorybased predictions of the relative performance of
+different configurations are tested within each type
+of environment identified by Hrebiniak and
+Joyce (1985).
+The cognitive approachcan be viewed as a 'conceptual cousin' of the inductive approach because
+both avoid making theory-based predictions. While
+inductive configurations are defined along dimensions that researchersview as important,the cognitive approach relies on the perceptions of expert
+informants such as industry executives (e.g., Mascarenhas and Aaker, 1989a, 1989b; Reger and
+Huff, 1993) to define clustering variables. This latter approach has its roots in research on interpretation in organizations, which posits that it is the
+meaning that top managers attach to phenomena,
+not 'objective' characteristics, which directs subsequent organizational action (Dutton, Fahey, and
+Narayanan, 1983) and performance (Thomas,
+Clark, and Gioia, 1993). One implication is that
+configurations based on the perceptions of top
+managers may be crucial to understanding any
+given setting (Porac and Thomas, 1990).
+We suggest that the approach to selecting variables should match a study's purpose. When
+attempting to explain or predict relationships, a
+theoretical foundation is advisable, if not required
+
+This content downloaded from 132.174.254.159 on Fri, 12 Feb 2016 12:02:11 UTC
+All use subject to JSTOR Terms and Conditions
+
+1444
+
+D. J. Ketchen, Jr. and C. L Shook
+
+(Bacharach,1989). Hence, studiesdesignedto dis- inconsistent across the two solutions, the validity
+cem the nature and extent of links between key of each should be assessed; the solution exhibiting
+constructs(e.g., organizationalconfigurationsand the highest validity might then be adopted.
+perforrnance)shouldrely on a deductiveapproach
+(Ketchenet al., 1993). However,strategyresearch
+Multicollinearity among variables
+is often exploratory,with a focus on theorybuilding ratherthan testing. Here variablesshould be High correlation among clustering variables can be
+chosen in a way that fosters rich descriptionof a problematic because it may overweight one or
+sample'scharacteristics(Meyer et al., 1993). Both more underlying constructs. Thus, researchers may
+the inductive and cognitive approachesfit this want to correct multicollinearity, especially if it is
+requirement.The latter may often be preferred, desirable that constructs be equally weighted. Hair
+however, because its use of experts (often top et al. (1992) suggest using the Mahalanobis dismanagers)enhancesconfidencethat the variables tance measure, which both standardizes variables
+and adjusts for high correlations. As noted above,
+are importantin a particulardata set.
+however, standardizationis controversial. Another
+problem is that statistical programs such as SAS
+Standardizationof variables
+and SPSS do not offer this measure.
+Multicollinearity can also be addressed through
+Because cluster analysis groups elements (e.g.,
+firms) such thatthe distancebetweengroupsalong subjecting variables to factor analysis (specifically,
+all clustering variables is maximized, variables principal components analysis with orthogonal
+with large ranges (i.e., where elementsare separ- rotation) and using the resultant uncorrelatedfactor
+ated by large distances)are given more weight in scores for each observation as the basis for clusdefining a cluster solution than those with small tering (Punj and Stewart, 1983). However, this
+ranges (Hair et al., 1992). As a result,a subset of technique is controversial because researchers
+variablescan dominatethe definitionof clusters. often drop all factors with low eigenvalues (a statwhich transforms istic representingthe amount of variance explained
+The 'remedy'is standardization,
+the distributionof elementsalong variablesso that by a factor). The excluded factors may represent
+each has a mean of zero and a standarddeviation unique, importantinformation (Dillon, Mulani, and
+of one. This processallows variablesto contribute Frederick, 1989), meaning that a less-than-optimal
+equally to the definitionof clustersbut may also set of clusters may result. Thus, as with standardizeliminatemeaningfuldifferencesamongelements ation, any remedy for multicollinearity has a cost.
+Because both methods of correcting multicolli(Edelbrock, 1979). This illustratesa dilemma of
+using cluster analysis: for any remedy, there is nearity have potential pitfalls, researchers should
+attempt to assess the impact of their chosen techalmost always an associatedcost.'
+Giventhis trade-off,whetherto standardizeclus- nique. We suggest that the ideal approach is to perteringvariablesis an equivocalissue. Some experts form a cluster analysis multiple times changing
+(Hair et al., 1992; Harrigan,1985) recommend only the method of addressing multicollinearity.
+standardization,
+perceivinga need to eliminatethe Consistent group assignments despite different
+potentialeffects of scale differencesamong vari- methods would be evidence of stability whereas
+ables. Others offer evidence that standardization inconsistent assignments would suggest a tenuous
+has no significanteffects (Edelbrock,1979; Milli- cluster solution.
+
+gan, 1980). Aldenderferand Blashfield (1984)
+advise that because standardizationmay have
+adverseeffects, it shouldbe addressedon a caseby-case basis. However,they do not offer specific
+guidanceabouthow to approacha particularcase.
+Becauseresultsmay differ solely basedon standardization,we suggestthat analysesbe done both
+If clustersare
+using and not using standardization.
+I We wish to thank an anonymous reviewer for this insight.
+
+Clustering algorithms
+The selection of appropriate clustering algorithms
+(i.e., the rules or procedures followed to sort
+observations) is critical to the effective use of cluster analysis (Punj and Stewart, 1983). There are
+two basic types of algorithms: hierarchical and
+nonhierarchical.
+Hierarchical algorithms progress through a series of steps that build a tree-like structureby either
+
+This content downloaded from 132.174.254.159 on Fri, 12 Feb 2016 12:02:11 UTC
+All use subject to JSTOR Terms and Conditions
+
+Application of Cluster Analysis
+adding individual elements to (i.e., agglomerative)
+or deleting them from (i.e., divisive) clusters. The
+five most popular agglomerative algorithms are
+single linkage, complete linkage, average linkage,
+centroid method, and Ward's method (Hair et al.,
+1992). The differences among them lie in the
+mathematical procedures used to calculate the distance between clusters. Each has different systematic tendencies (or biases) in the way it groups
+observations. For example, the centroid method
+has a bias toward producing irregularly shaped
+clusters. Further, it can only be used with interval
+or ratio data (Hair et al., 1992). Ward's method
+tends to produce clusters with roughly the same
+number of observations (SAS Institute, 1990) and
+the solutions it provides tend to be heavily distorted by outliers (i.e., observations with extreme
+values-Milligan, 1980). Given such tendencies,
+there should be a match between the algorithm
+selected and the underlying structureof focal data
+(i.e., sample size, distribution of observations, and
+what types of variables are included-nominal,
+ordinal, ratio, or interval). Thus, for example, the
+centroid method should only be used when (a) data
+are measured with interval or ratio scales and (b)
+clusters are expected to be very dissimilar from
+each other. Likewise, Ward's method is best suited
+for studies where (a) the number of observations
+in each cluster are expected to be approximately
+equal and (b) there are no outliers.
+The use of divisive methods in the social sciences has been limited to the field of archaeology
+(e.g., Whallon, 1972). As a result, divisive
+methods are not well known in strategic management. There are two types of divisive techniques:
+monothetic and polythetic (Everitt, 1980). The
+monothetic techniques are used with binary (i.e.,
+dichotomous) variables. A sample is divided into
+groups based on each observation's possession (or
+lack) of an attribute. Groups are then broken into
+smaller groups based on the presence or absence
+of individual attributes. Because this procedure
+groups observations through successive rather than
+simultaneous application of variables, it would not
+be useful for configurational research as it has traditionally been conducted in strategic management.
+Polythetic divisive methods, in essence, are the
+logical opposite or 'mirror image' of agglomerative methods. Agglomerative methods initially
+view each observation as a separate cluster and
+then compile them into successively smaller numbers of groups, eventually putting all observations
+
+445
+
+into one group. It is the task of the researcher to
+decide at what point the number of groups is
+appropriate.Polythetic divisive methods follow the
+opposite approach: all observations are in one
+group initially, then observations are divided into
+smaller groups until eventually each observation
+becomes a separate cluster. Again, the researcher
+must decide what level of division is appropriate.
+Although the methods start at opposite ends of the
+clustering process, the number of groups identified
+should be the same regardless of which one is used.
+Thus, the distinction between the two methods is
+of little practical consequence. Should one wish to
+use divisive methods, however, a procedure using
+matrix algebra is described in Everitt (1980).
+All hierarchical algorithms suffer from several
+problems. First, researchers often do not know the
+underlying structureof a sample in advance, making it difficult to select the 'correct' algorithm.
+Second, these algorithms make only one pass
+through a data set, thus poor cluster assignments
+cannot be modified.2 Finally, solutions are often
+unstable when cases are dropped, especially when
+a sample is small (Jardine and Sibson, 1971). This
+is troublesome for strategy research, where sample
+sizes are often small (e.g., 19 in Dess and Davis,
+1984; 16 in Lewis and Thomas, 1990). Because
+of these problems, confidence in the validity of a
+solution obtained using only hierarchical methods
+is limited.
+Nonhierarchical algorithms (also referred to as
+K-means or iterative methods) partition a data set
+into a prespecified number of clusters. Specific
+nonhierarchicalmethods vary slightly, but function
+in essentially the same manner (Hair et al., 1992).
+2 Only one pass is made through the data because of the hierarchical methods treatmentof the observations. Focusing on the
+agglomerative algorithms for a moment, each observation starts
+as its own individual cluster. On each successive step, the two
+closest clusters are joined into a new aggregate cluster, thus
+reducing the number of clusters by one in each step. Eventually,
+all clusters are joined into one cluster. Multiple passes can not
+be made because the algorithm would treat the observations as
+individual clusters in the first step of the next pass. Thus, the
+same clusters would emerge from clustering the observations
+again. Given that the divisive methods follow the same process
+in reverse, the same arguments apply: multiple passes would
+produce the same results.
+However, multiple passes with hierarchical algorithms might
+be helpful if the initial pass is used as a tool to identify outliers.
+One could then remove the outliers from the data set (assuming
+that this would be consistent with the purpose of the study) and
+run the analysis again. This might be particularly valuable if
+one has selected an algorithm that is particularly sensitive to
+outliers (e.g., Ward's method).
+
+This content downloaded from 132.174.254.159 on Fri, 12 Feb 2016 12:02:11 UTC
+All use subject to JSTOR Terms and Conditions
+
+446
+
+D. J. Ketchen, Jr. and C. L Shook
+
+After initial cluster centroids(the 'center points' looks for natural clusters of the data that are indiof clustersalong inputvariables)are selected,each cated by relatively dense 'branches'. This method's
+observationis assignedto the groupwith the near- reliance on interpretation requires that it be used
+est centroid.As each new observationis allocated, cautiously (Aldenderfer and Blashfield, 1984).
+The agglomeration coefficient (i.e., a numerical
+the cluster centroids are recomputed. Multiple
+passes are madethrougha dataset to allow obser- value at which various cases merge to form a
+vations to change cluster membershipbased on cluster) is the basis for two related techniques. The
+their distance from the recomputedcentroids.To first method involves graphing the coefficient on a
+arriveat an optimalsolution,passes througha data y-axis and the number of clusters on an x-axis. A
+set continueuntil no observationschange clusters marked flattening of the graph suggests that the
+clusters being combined are very dissimilar, thus
+(Anderberg,1973).
+Nonhierarchicalmethods have two potential the appropriatenumber of clusters is found at the
+advantagesover hierarchicalmethods. First, by 'elbow' of the graph. Interpreting a graph, howallowing observationsto switch cluster member- ever, may be difficult; for example, the elbow may
+methodsare less impactedby not be pronounced, indicating that there may not
+ship, nonhierarchical
+outlier elements. Although outliers can initially be any natural groups in the data (Hambrick and
+distort clusters, this is often corrected in sub- Schecter, 1983). Alternatively, the graph may have
+sequentpasses as the observationsswitch cluster more than one elbow, indicating that more than one
+membership(Aldenderferand Blashfield, 1984; natural set of clusters fit the data (Aldenderfer and
+Hairet al., 1992). Second,by makingthe multiple Blashfield, 1984). The second procedure involves
+passes throughthe data, the final solution optim- examining the incremental changes in the coefizes within-clusterhomogeneityand between-clus- ficient. A large increase implies that dissimilar
+ter heterogeneity. Obtaining this improvement, clusters have been merged; thus, the number of
+however, requiresthat the numberof clustersbe clusters prior to the merger is most appropriate.A
+specifieda priori (Milligan, 1980). In many fields major limitation with this approach is that there
+(includingstrategicmanagement),this is problem- may be no large jumps in the coefficient, indicating
+atic becauseclusteranalysesare often exploratory. that there may not be any natural groups in the
+A solutionadvocatedby manyexpertsis to use data. In some cases, there may be several large
+a two-stageprocedurewhere a hierarchicalalgor- jumps; this would be evidence for more than one
+ithm is-used to define the numberof clustersand natural set of clusters.
+The cubic clustering criterion (CCC) is a meascluster centroids;these results then serve as the
+clus- ure of within-cluster homogeneity relative to
+startingpointsfor subsequentnonhierarchical
+tering(Hairet al., 1992; Milligan, 1980; Punjand between-cluster heterogeneity. The 'appropriate'
+Stewart,1983). Researchhas shown that this pro- number of clusters is indicated by the peaking of
+cedure increases validity of solutions (Milligan, the CCC; however, Milligan and Cooper (1985)
+1980; Punj and Stewart,1983). The only cost is found that this test may suggest too many clusters.
+the extra time and effort required on the Strategy researchers need to be aware of this
+researchers'part;a cost we contendis worthbear- potential because several use the CCC (e.g., Foming. Thus, in summary,the best solutionsmay be brun and Zajac, 1987; Mascarenhas, 1989), but
+those obtainedby using hierarchicaland nonhier- many oft-cited methodological works predate
+Milligan and Cooper's finding (e.g., Aldenderfer
+archicalmethodsin tandem.
+and Blashfield, 1984) or ignore the CCC (e.g., Hair
+et al., 1992).
+Determining the number of clusters
+Finally, a priori theory can serve as a nonstatA varietyof techniquesare availableto determine istical tool for determining the number of clusters
+the numberof clustersin a data set. When using (Hair et al., 1992). Although a priori theory is, by
+hierarchicalmethods,the most basic procedureis definition, not central to exploratory research, it
+to visually inspect a dendogram,a graph of the does provide a benchmark for assessing the results
+orderthat observationsjoin clustersand the simi- of theory-testing inquiry. For example, comparison
+larity of observations joined. Dendograms of emergent clusters with a theory-based typology
+resemble decision trees with short 'limbs' rep- can provide evidence regarding the typology's
+resentingthe joining of observations.A researcher descriptive validity (e.g., Ketchen et al., 1993).
+
+This content downloaded from 132.174.254.159 on Fri, 12 Feb 2016 12:02:11 UTC
+All use subject to JSTOR Terms and Conditions
+
+Application of Cluster Analysis
+In summary, using a single method to determine
+the number of clusters is questionable because each
+method has limitations (Everitt, 1980). Thus, we
+advocate the use of multiple techniques that can
+overcome each others' shortcomings. For example,
+as noted above, the CCC may indicate too many
+clusters. If the CCC is part of an array of techniques and other techniques point to fewer clusters
+than does the CCC, it might be wise to discount the
+CCC. Thus, confidence in the number of clusters
+identified may be greater when determined through
+the convergence of multiple methods.
+Validating clusters
+
+447
+
+can turn to external validity. This may be done by
+cluster analyzing both the sample of interest and a
+second, similar sample and then assessing the similarity of the results (Hair et al., 1992; Hambrick,
+1983). In many strategy studies, however, a 'holdout' sample is not available. In other instances, the
+use of a second sample may not even be appropriate. For example, strategic groups are often viewed
+as industry specific (Thomas and Venkatraman,
+1988), and thereby cannot be generalized to
+another setting. Thus, validation using multiple
+samples should be used only if consistent with the
+assumptions underlying a study.
+Criterion-relatedvalidity can be assessed through
+significance tests (often multivariate analysis of
+variance) with external variables (Aldenderfer and
+Blashfield, 1984; Anderberg, 1973). Such variables
+should be theoreticallyrelatedto the clusters, but not
+used in defining clusters. Given the field's emphasis
+on defining the strategy-performance relationship
+(Summer et al., 1990), the externalvariablesin strategy research are often perforrnancemeasures (e.g.,
+Miller, 1988; Robinson and Pearce, 1988). Significance tests with extemal variables offer a powerful
+tool to establishvalidity of a cluster solution because
+the technique uses a test static (often an F-statistic),
+thereby avoiding having the researcherprovide the
+meaning of results. Externalvariables are expensive
+to obtain in many fields (Bailey, 1994), but, in strategy research, the availability of archival data often
+solves this problem. Thus, we strongly advocate the
+use of this technique whenever possible.
+In sum, techniques are available to help establish
+reliability and external validity, but the value of
+these techniques is limited because they use cluster
+analysis and thus are subject to its inherent problems, most notably the reliance on researcherjudgment. More promising is the use of significance
+tests with external variables to establish criterionrelated validity. Overall, we suggest that reliability
+and validity will be questionable whenever a
+research design uses clustering techniques in isolation. Only when cluster analysis is augmented
+with additional techniques-especially ones that
+are less subject to researchers' biases-can confidence in the results obtained be strong.
+
+The goals of validation are to ensure that a cluster
+solution has external validity (i.e., is representative
+of the general population of interest-Cook and
+Campbell, 1979) and criterion-relatedvalidity (i.e.,
+is useful for the prediction of important
+outcomes-Kerlinger, 1986). Extreme care in validation is warrantedbecause, despite the rigor used
+in previous steps, without validation one is not
+assured of having arrived at a meaningful and useful set of clusters (Punj and Stewart, 1983).
+Reliability (i.e., consistency) is a necessary but
+not sufficient condition of validity (Kerlinger,
+1986). Therefore, the reliability of a cluster solution must be established before validity is tested.
+There are two primary ways to evaluate reliability.
+First, as advocated above, researchersmay perform
+a cluster analysis multiple times, changing algorithms and methods for addressing multicollinearity. The degree of consistency in solutions indicates reliability (Hair et al., 1992). Second,
+researchers may split a sample and analyze the two
+halves independently (Hambrick, 1983). A modified version of this latter procedure is to obtain
+cluster centroids from half of a sample and use
+them to define clusters in the other half. In either
+case, consistency across sample halves indicates
+reliability (Hair et al., 1992). However, there is no
+standard for assessing a satisfactory level of consistency, leaving this determination largely to
+researcher judgment. Also, in some strategy studies, sample sizes may be too small for meaningful
+clusters to be derived from sample halves. For
+example, splitting their sample of 18 companies
+Summary
+probably would not have been helpful to Reger and
+Huff s (1993) efforts to establish the reliability of As described above, strategy researchers using
+cluster analysis face an array of challenges. Nonethe three strategic groups they found.
+If reliability has been demonstrated, attention theless, the technique has been widely used over
+
+This content downloaded from 132.174.254.159 on Fri, 12 Feb 2016 12:02:11 UTC
+All use subject to JSTOR Terms and Conditions
+
+448
+
+D. J. Ketchen, Jr. and C. L. Shook
+
+the last 15 years. Much of this research(e.g., the SMJ publishes only strategy-related inquiry, while
+strategicgroupsliterature)has seeminglyproduced AMJ and JOM contain studies representative of the
+equivocal results, perhapsin part because of the entire management discipline and JIBS and MS
+role playedby researcherjudgmentthroughouthe include research from a wider spectrum of business
+clustering process. Given the controversy sur- disciplines. It is interesting to note, however, that
+roundingclusteranalysis,we examinedthe extent the other six empirical journals contained no studto which the techniquehas been used appropri- ies using cluster analysis.
+ately. A descriptionof this effort and the related
+resultsare presentedbelow.
+Coding procedure
+
+The critical issues described above served as the
+basis for our coding scheme. Specifically, each study
+was coded according to issues involving clustering
+To identify importantstrategystudies that have variables, clustering algorithms, determining the
+used clusteranalysis,we examinedthe 16 journals number of clusters, and validating clusters.
+
+METHOD
+
+comprising the 'forum for strategy research'
+(MacMillan,1991). Of thesejournals,five with a
+Clustering variables
+non-empiricalorientationwere eliminated,3leaving 11 journals as sources of empirical strategy Several issues related to the selection of clustering
+research,including the Academyof Management variables were coded. The justification of variables
+Journal(AMJ),AdministrativeScience Quarterly, was coded as inductive, deductive, or cognitive.
+Decision Science, Journal of General Manage- Studies focused on exploratory classification of
+ment, Journal of InternationalBusiness Studies observations (i.e., the clustering variables were not
+(JIBS),Journalof Management(JOM),Journalof tightly linked to deductive theory) were coded as
+ManagementStudies,ManagementScience (MS), inductive. Studies that tightly linked clustering
+Omega,RandJournalof Economics,andStrategic variables to theory were coded as deductive. StudManagement Journal (SMJ). These remaining ies where clustering variables were based on
+journalswere searchedfor strategystudies using experts' opinions were coded as cognitive. We also
+clusteranalysisfor the periodfrom 1977 (the year coded whether or not variables were standardized
+of the firstpublishedstrategyresearchusing cluster and if the Mahalanobis distance measure or factor
+analysis-Hatten and Schendel, 1977) through analysis were used to address multicollinearity.
+1993. Strategystudies were defined as empirical
+research efforts examining relationshipsamong
+Clustering algorithms
+strategy, environment, leadership/organization,
+Studies' clustering algorithms were coded as hierand performance(Summeret al., 1990).
+A total of 45 studies (see Appendix) were archical, nonhierarchical, hierarchical and nonlocated.4The use of clusteranalysishas increased hierarchical used in tandem, or not specified.
+over time:seven studieswerefoundin the period's Where appropriate, the specific hierarchical clusfirsthalf (1977-85) whereas38 were found in the tering algorithms were coded as well.
+second half (1986-93). Most studies (n = 28,
+62%) were found in SMJ. Eight studies (18%) Determining the number of clusters
+werefoundin AMJ,five (11%)in JIBS,three(7%)
+in JOM,and one (2%) in MS. The distributionof The methods used to determinethe appropriatenumstudies across these journalsis not surprising,as ber of clusters were coded. The methods included:
+3 These non-empirical journals include Academy of Management Executive, Academy of Management Review, California
+Management Review, Harvard Business Review, and Sloan
+Management Review.
+I One study (Lawless and Finch, 1989) contained two independent applications of cluster analysis (one of environment
+types and the other of strategy types); each application was
+counted as one 'study'.
+
+dendogram observation, change in agglomeration
+coefficient, cubic clusteringcriterion,a priori theory,
+and other methods specified by authors.
+Validating clusters
+Similarly, the methods used for validating solutions were coded, including: multiple clustering
+
+This content downloaded from 132.174.254.159 on Fri, 12 Feb 2016 12:02:11 UTC
+All use subject to JSTOR Terms and Conditions
+
+Application of Cluster Analysis
+
+449
+
+algorithms, split sample, hold-out sample, statistical tests on nonclustering variables, and other
+methods specified by authors.
+
+algorithms alone were used in eight studies (18%).
+Finally, in seven studies (16%), there was no mention of the algorithm(s) used.
+
+Coding reliability
+
+Determining the number of clusters
+
+All studies were coded independently by the two
+authors. To ensure consistency, a random sample
+of nine studies was coded. The resultant interrater
+reliability, as measured by percentage of agreement, was 87 percent. A meeting was held to discuss the discrepancies. The remaining 36 studies
+were then coded with a 93 percent interrater
+reliability, which compares favorably to the 83 percent interraterreliability obtained in a similar study
+by Ford, MacCallum, and Tait (1986). All discrepancies were resolved by the authors reviewing the
+study and coming to a joint decision; relevant items
+were recoded accordingly.
+
+Confidence in the number of clusters is greater
+when multiple methods converge; however, only
+18 studies (40%) used this type of approach. In 21
+studies (47%), one method was used; techniques
+used were not identified in six studies (13%).
+Individual methods were also tallied; change in
+the agglomeration coefficient (n = 19, 42%) and
+observing breaks in the dendogram (n = 16, 36%)
+were the most widely cited. The CCC was used in
+five studies (11%), while a priori theory guided
+cluster definition in four studies (9%). In 13 studies (29%), other methods not grounded in the
+methodological literature were indicated, including, for example, ensuring equal-size groups and
+'interpretability'.
+
+RESULTS
+Clustering variables
+
+Validating clusters
+
+Most studies (n = 35, 78% of the total studies
+located) used an inductive approach to select clustering variables. Four studies (9%) took a deductive approach; in six studies (13%), a cognitive
+approach was evident. In 12 of the 45 studies
+(27%), variables were standardized; 14 studies
+(32%) used factor scores as the basis for clustering
+while none used the Mahalanobis distance measure. The results for these and other coded items are
+presented in Table 1.
+
+Validation may be the most neglected issue in cluster analysis. Ideally, reliability and both external
+and criterion-related validity should be assessed,
+but none of the 45 studies examined all three.
+Further, no validation techniques were cited in 17
+studies (38%).
+Reliability was addressed in 13 studies (29%);
+all of these efforts used multiple clustering algorithms and four (9%) also analyzed split samples.
+External validity was tested by analyzing hold-out
+samples in two studies (4%). While such efforts
+can be valuable in establishing validity, this value
+is sharply limited because each technique shares
+the fundamental concern inherent in cluster analysis: the heavy reliance on researcher judgment. In
+10 studies (22%), statistical tests on nonclustering
+variables were done to assess criterion-relatedvalidity.6 These latter studies are noteworthy because
+they validated results using a technique (i.e.,
+ANOVA or MANOVA) where researcher judgment is limited to the choice of criterion variables.
+
+Clustering algorithms
+Only six studies (13%) used the preferred
+approachof hierarchicaland nonhierarchicalalgorithms in tandem. In combination with nonhierarchical clustering, Ward's method was cited three
+times, and the centroid method, complete linkage,
+and average linkage were each used in one study.
+Hierarchical algorithms alone were cited in 24
+studies (35%). Ward's method was used in 16 of
+these studies, the centroid method in four, complete linkage in two, and average linkage and
+CONCOR5 each in one study. Nonhierarchical
+5 CONCOR is an algorithm introduced by Breiger, Boorman,
+and Arabie (1975) for clustering relational data in social network analysis.
+
+6 We did not include in this count several studies that examined
+
+differences between clusters along non-clustering variables as
+part of their hypothesis testing but did not mention that such
+efforts also provide evidence regarding validity. Our reasoning
+was that many readers would not be aware of this relation to
+validity unless alerted to it and thus could not use this information to make informed judgments about the results.
+
+This content downloaded from 132.174.254.159 on Fri, 12 Feb 2016 12:02:11 UTC
+All use subject to JSTOR Terms and Conditions
+
+450
+
+D. J. Ketchen,Jr. and C. L. Shook
+
+Table 1. Summaryof decisions made by strategyresearcherswhen using clusteranalysis
+
+Clusteringvariables
+Justificationof inputvariables
+Inductive
+Deductive
+Cognitive
+Factoranalysisused
+Variablesstandardized
+Clusteringalgorithms
+Hierarchical
+Ward'smethod
+Centroidmethod
+Completelinkage
+Averagelinkage
+CONCOR
+Nonhierarchical
+Combination
+Ward'smethodand K-means
+Centroidmethodand K-means
+Completelinkageand K-means
+Averagelinkageand K-means
+Not specified
+Determiningthe numbersof clusters
+Multiplemethods
+Single method
+Not specified/none
+Specific methods
+Changein agglomerationcoefficient
+Dendogramobservation
+Cubicclusteringcriterion
+A-prioritheory
+Othertechniques
+Validatingclusters
+Reliability
+Multiplealgorithms
+Split-halfsamples
+Externalvalidity
+Hold-outsamples
+Criterion-related
+validity
+Statisticaltests on non-clusteringvariables
+Other
+Statisticaltests on clusteringvariables
+Expertopinion
+Not specified/none
+
+Two techniques not advocated in the methodological literaturewere found. Eleven studies (24%)
+used MANOVA to demonstrate that the means of
+the clustering variables differ across clusters and
+took this as evidence that the cluster solution
+reflects the underlying structure of a data set (e.g.,
+
+Numberof studies
+
+Percentof total
+
+35
+4
+6
+14
+12
+
+78
+9
+13
+32
+27
+
+16
+4
+2
+1
+1
+8
+
+36
+9
+4
+2
+2
+18
+
+3
+1
+1
+1
+7
+
+7
+2
+2
+2
+16
+
+18
+21
+6
+
+40
+47
+13
+
+19
+16
+5
+4
+13
+
+42
+36
+11
+9
+29
+
+13
+4
+
+29
+9
+
+2
+
+4
+
+10
+
+22
+
+11
+3
+17
+
+24
+7
+38
+
+Kim and Lim, 1988). Such tests, however, should
+always be significant because cluster analysis, by
+design, creates groups that have minimal overlap
+along the clustering variables (Aldenderfer and
+Blashfield, 1984). Hence, this technique does little
+to establish the validity of a solution. A final
+
+This content downloaded from 132.174.254.159 on Fri, 12 Feb 2016 12:02:11 UTC
+All use subject to JSTOR Terms and Conditions
+
+Application of Cluster Analysis
+technique-expert opinions of clusters' validityis not widely discussed by methodologists but was
+used in three studies (7%).
+In total, our findings indicate that the 'norm' for
+strategy research using cluster analysis is to (1)
+select variables inductively, (2) use a hierarchical
+or nonhierarchical algorithm by itself, and (3) pay
+limited attention to determining the number of and
+validating clusters.
+
+451
+
+relevant methodological research. Methodological
+texts generally agree that the critical issues when
+using cluster analysis are: selecting clustering variables; whether or not to standardize variables;
+addressing multicollinearity among variables; sealgorithms;
+lecting
+appropriate clustering
+determining the number of clusters; and validating
+clusters. These texts often disagree, however, about
+how to address the issues. This may help to explain
+why many studies suffer from shortcomings:
+because the available guidance is often unclear or
+even contradictory, rigor is an elusive achieveDISCUSSION
+ment.
+In analyzing extant research, we found problems
+The search for organizational configurations has
+long been a focus of the field of strategic manage- at each step in the clustering process. First, far
+ment. Cluster analysis has played a key role in this more authors have used an inductive approach to
+research because it allows for the inclusion of mul- the selection of clustering variables than have contiple variables as sources of configuration defi- ducted deductive or cognitive inquiry. In 1993, for
+nition, thus enabling the creation of potentially rich example, two-thirds of the studies derived condescriptions. Despite this strength, the use of clus- figurations based on an inductive approach.
+ter analysis has been widely criticized (e.g., Barney Although such exploratory efforts were recand Hoskisson, 1990; Meyer, 1991). As with any ommended in earlier guidance (Hambrick, 1984;
+technique, however, the results provided by cluster Harrigan, 1985), they are less desirable now given
+analysis are only as good as its implementation the advancing state of theory development about
+and, more generally, the overall design of a study. strategy and the emergence of the cognitive
+With this in mind, below we assess the current approach. Indeed, the relatively slow rate of
+state of cluster analysis research. Our efforts here knowledge accumulation in studies using cluster
+are both general and specific. We discuss overall analysis (most notably in the strategic groups
+trends but also examine specific methodological literature-Ketchen et al., 1993) may be attribudecisions that authors made (i.e., what they did table in part to the imbalance of the past. Thus, we
+'right' and 'wrong'), assess the likely empirical believe that the divergent contributions to knowlconsequences of poor choices, and note how such edge promised by each approachrequire that scholconsequences might have been prevented or at ars pursue a more balanced research agenda (cf.
+least minimized. We then look to the future and Montgomery, Wernerfelt and Balakrishnan, 1989).
+offer suggestions to maximize the value of cluster Specifically, there is a need to 'reconfigure' conanalysis to strategy inquiry. Underlying these figurational research toward a substantial increase
+suggestions is our assertion that the ill-effects of in the attention paid to deduction and cognition.
+The standardization of clustering variables has
+the weaknesses of cluster analysis can be controlled through triangulation; bringing to bear mul- advocates and detractors among methodologists.
+tiple, disparate methods (Denzin, 1978; Jick, When no clear guidance is available, as is the case
+1979). Specifically, for cluster analysis to be a here, researchers need to make choices guided by
+helpful tool in the effort to create knowledge about the goals of their study and the nature of their data
+organizations, the technique needs to be embedded (McGrath, Martin, and Kulka, 1982). We suggest
+in research designs that include other methods that that researchers take a very conservative path:
+specifically, that they perform analyses both using
+are far less subject to researcher judgment.
+and not using standardization and compare the
+results. No strategy studies to date have taken this
+The state of cluster analysis research
+approach; most did not standardize. Careful attenOur results suggest that the ability of research tion to this issue is needed, however, because stratusing cluster analysis to generate knowledge has egy studies often include both large- and smallbeen hindered by the technique's implementation. scale variables. For example, in Ketchen et al.
+This is perhaps not surprising given the state of the (1993), clustering variables included both number
+
+This content downloaded from 132.174.254.159 on Fri, 12 Feb 2016 12:02:11 UTC
+All use subject to JSTOR Terms and Conditions
+
+452
+
+D. J. Ketchen, Jr. and C. L. Shook
+
+of hospitalbeds (a relativelylarge-scalemeasure, ated when using a single method, we consider the
+with a mean of approximately250) and hospitals' use of Ward's method, the most often used hiercurrent ratio (a relatively small-scale measure, archical algorithm in strategy research. As noted
+with a mean of approximately2.3). This disparity earlier, Ward's method is greatly impacted by outled the authorsto (appropriately)standardizetheir liers. Although we can not be conclusive (due to
+variables,but confidencein the resultswould have the lack of detail presented in many studies), at
+been heightenedif (a) they haddone theiranalysis least some researchersmay not have paid sufficient
+variablesas well and (b) the attention to the role of outliers. In most cases, all
+with nonstandardized
+observations in the sample were represented in the
+two sets of resultswere consistent.
+Addressingmulticollinearitypresentsa similar cluster solution (e.g., Birley and Westhead, 1990;
+dilemma;clear guidanceis lacking, so researchers Lewis and Thomas, 1990; Manu, 1992; Zahra and
+must use their best judgment,given the specifics Covin, 1993), indicating either there were no outof each study. Some pieces have seeminglyfallen liers or the outliers were ignored. In each of these
+shorthere.We foundsome instances,for example, studies, using an iterative method to refine the solwherehigh correlationsamongclusteringvariables ution derived using Ward's method would have
+(i.e., 0.50 or higher)were evidentbutno corrective enhanced validity because the iterative methods do
+action was reportednor was justificationoffered not share the biases of Ward's. Thus, while the
+for not acting (e.g., Hitt and Tyler, 1991; Ketchen varied, often contradictory guidance offered by
+et al., 1993; Roth, 1992). Many other authorsdid methodologists can be frustrating, strategy
+not reportthe correlationsamong clusteringvari- researchers need to pay careful attention to those
+ables(e.g., Dess andDavis, 1984;Hambrick,1983; instances where methodologists agree on the corManu, 1992; Miles, Snow, and Sharfman,1993). rect tack.
+Authorsmay feel that reportingsuch correlations Turning to the issue of determining the number
+is unnecessary because the linear, continuous of clusters in a solution, each of the available techrelationshipsamong variables are not central to niques has biases, leading us to echo Everitt's
+configurationalresearch. Without correlations, (1980) call for the use of multiple techniques.
+however,the readeris unableto make an informed Unfortunately, the majority of strategy studies did
+judgment about whether or not multicollinearity not employ multiple methods; in these studies,
+was a concern.This is illustrativeof a moregeneral clusters may have been shaped by the biases of a
+problem:articlesoften do not describehow crucial solitary method. Given this potential, it is disconissues were addressed.In any study, the rationale certing that two influential articles (i.e., Dess and
+underlying methodological decisions should be Davis, 1984; Hambrick, 1983) are in this group.
+presentedin sufficient detail to allow readersto Also troublesome are the studies that did not specmakeinformedjudgmentsaboutthe findings(Daft, ify how clusters were identified (e.g., Dominguez
+1985). This is vital for studiesusing clusteranaly- and Sequeira, 1993; Hitt and Tyler, 1991; Miller,
+sis, however, because of the role played by 1988). At this and other steps of the clustering process, the burden of proof lies with the authors.
+researcherjudgment.
+The selectionof clusteringalgorithmsis an issue Absent relevant 'evidence', the reader is unable to
+for which there is consensusamong methodolog- render any verdict regarding the clusters identified.
+A final concem raised by our findings is the
+ists. Unfortunately,however,strategyresearchhas
+rarelyfollowed the guidancethat is offered. The scant attention often paid to validating cluster soltwo-stageprocedurewe advocate(hierarchicaland utions. Reliability was ignored in over two-thirds
+methodsusedin tandem)has been of prior studies. A particularlyeffective method for
+non-hierarchical
+recommendedby many (Aldenderferand Blash- assessing reliability was noted, however: two
+field, 1984; Hartigan, 1975; Hair et al., 1992; authors independently derived clusters using difMilligan, 1980; Punj and Stewart, 1983) because ferent algorithms and then assessed the converboth methodshave weaknesseswhen used alone, gence between their solutions (Reger and Huff,
+hence the 'true' structureof data sets may not be 1993). Researchers should be encouraged to devise
+reflectedin the solutionsthateitherprovides.Most other innovative methodologies. External validity
+strategyresearchershave ignored or are unaware (generalizability) was tested only twice (i.e., Hamof this guidance,however, only six studies used brick, 1983; Mascarenhas, 1989). Unless generalthe dual technique.To illustratethe problemscre- izability is assessed, however, there can be no con-
+
+This content downloaded from 132.174.254.159 on Fri, 12 Feb 2016 12:02:11 UTC
+All use subject to JSTOR Terms and Conditions
+
+Application of Cluster Analysis
+fidence that results are relevant beyond the sample
+at hand. Likewise, criterion-related validity often
+was not assessed; as a result, the predictive utility
+of solutions frequently remains unknown. Ironically, the number of studies that tested criterionrelated validity through significance tests on external (i.e., non-clustering) variables was very close
+to the number that inappropriately cited significance tests on clustering variables as evidence of
+validity. Thus, in sum, researchers need to be wary
+of errors of omission and commission.
+The future of cluster analysis research
+Despite the problemsassociated with its past use, we
+believe that cluster analysis can be valuableto future
+strategyresearchbecause of the technique's unparalleled ability to classify a large number of observations along multiple variables. At the same time,
+the long-running interest in identifying groups of
+similarorganizationscontinues to grow, as shown by
+the explosion of studies using cluster analysis since
+the late 1980s and the publication of an issue on
+'configurationalapproachesto organizationalanalysis' in the Academyof ManagementJournal in 1993.
+For clusteranalysisto be of maximumvalue, however, researchers must take steps to overcome its
+weaknesses. The main problem is that cluster analysis' reliance on researcherjudgment makes the validity of results subject to serious doubts. We believe
+that the key to surnounting this problemis the vigorous pursuit of triangulation;i.e., the application of
+multiple techniquesto a single researchproblem.All
+research methods have both strengths and weaknesses but, importantly,different methods have different strengths and weaknesses. Thus, in many
+instances, the strengths of one method may complement the strengthsof anotherwhile neutralizingthe
+latter's weaknesses (Denzin, 1978; Jick, 1979).
+Applying multiple techniques helps to ensure that
+results are not methodological artifacts;specifically,
+agreement between two or more methods provides
+evidence that results are not a product of the biases
+of one method.
+In considering triangulation, it is important to
+note that there are two types. Within-method triangulation occurs when a research issue has been
+examined using multiple approaches, but these
+approaches share a common weakness which prevents high levels of confidence in the results
+obtained (Denzin, 1978). For example, withinmethod triangulationis apparentin studies that use
+
+453
+
+multiple clustering techniques in an effort to establish validity (e.g., Hawes and Crittenden, 1984;
+Smith and Grimm, 1987). While preferable to the
+use of a single clustering approach, the results are
+still vulnerable to methodological critique because
+all clustering techniques share the reliance on
+researcher judgment. Between-methods triangulation can occur when multiple techniques that do
+not share a common weakness are applied. If these
+methods arrive at the same set of results or support
+the same conclusions, confidence can be high that
+results are valid and not driven by one's method
+(Denzin, 1978). Given that cluster analysis' 'Achilles heel' is its reliance on researcher judgment,
+the logical implication is that studies using cluster
+analysis should include other techniques that do
+not rely heavily on such interpretations.When such
+techniques support the conclusions of cluster
+analysis, there is assurance that findings are not
+driven by researcher judgment.
+Some methodological research on cluster analysis advocates triangulation in efforts to establish
+validity (though usually without using the term).
+Authors' suggestions are generally limited to the
+pursuit of within-method triangulation. For example, recommendations offered include the use of
+multiple clustering techniques (Aldenderfer and
+Blashfield, 1984), clustering of hold-out samples
+(Hair et al., 1992), and supplementing cluster solutions with other judgment-laden techniques, such
+as multidimensional scaling (Arabie, Carroll and
+DeSarbo, 1987). Perhaps not surprisingly, most triangulation in strategy research using cluster analysis has been of the within-method type.
+While the guidance offered by methodologists is
+helpful, strategy researchers should be vigilant for
+opportunities to develop within-method triangulation in order to help meet the specific needs of
+strategy research. We believe that the inclusion of
+monothetic clustering techniques in studies offers
+one such opportunity. Specifically, this might help
+to address a key limitation of most cluster analysis
+techniques (agglomerative hierarchical as well as
+nonhierarchical). Regardless of the algorithm
+selected, cluster analysis treats all variables as equally important to defining clusters. As a result,
+none of the strategy studies to date have purposefully weighted variables.' This has not been prob7Unintentional weighting of clustering variables may occur if,
+as noted above, there are scale differences between variables
+or if multicollinearity is present.
+
+This content downloaded from 132.174.254.159 on Fri, 12 Feb 2016 12:02:11 UTC
+All use subject to JSTOR Terms and Conditions
+
+454
+
+D. J. Ketchen, Jr. and C. L. Shook
+
+lematic becausethe literaturehas been dominated (1993) offer evidence that while managers perby exploratory(i.e., inductive)inquiry,where no ceive groups of firms, these groups are often based
+a priori rationalefor differentialweights is avail- on different variables than those used by
+able. As strategyresearchmoves towardan empha- researchers. Expert opinions also can establish the
+sis on theorytesting(i.e., deductivestudies),how- practical value of a study. This is a central concern
+ever, the relativeweights of strategicconcepts in in strategic management because of its aim to be an
+ourtheoriesmustbe representedempirically.Simi- applied field (e.g., Rumelt, Schendel, and Teece,
+larly, when using top managers'cognitionsas the 1994). When the experts are relevant practitioners
+source of clustering variables (i.e., cognitive like executives in a focal industry, their views can
+studies), managersmay suggest that variablesare establish the 'real world' value of a set of results.
+not equally important;such differences must be In sum, experts' opinions can help maximize valreflectedin empiricalefforts.By splittingsamples idity and establish practical value; thus, they
+on the most importantvariablefirst,then along the should be sought whenever possible.
+Another tack with multiple benefits is to use
+second, and so on, monothetictechniquesoffer a
+means for weightingvariablessuch thattheirrela- cluster analysis in conjunction with other statistical
+tive importancein clusteringis betteralignedwith tools. This not only helps establish validity (to the
+their importancein the perspectiveunderlyingthe extent that the tools are objectively based) but also
+derivationof clusters.Thus,the inclusionof mono- can enable the testing of powerful and sophistithetic techniquesas partof an arrayof clustering cated theoretical models. The intent behind past
+methods might often be helpful in efforts to applications of cluster analysis has been to capture
+develop valid cluster solutions. It is importanto the complexity of organizational reality. Yet the
+caution,however,thatmonothetictechniques'need models examined have been relatively simple;
+for dichotomousvariableswould usually require research generally depicts clusters as stand-alone
+the manipulationof data because many variables entities or as a means of explaining outcome variables. These approaches have provided insights,
+of interestare continuous.
+The stiffer challengeto researchersis the need but are limited in the ability to capture complexity.
+to develop between-methodstriangulation,where Thus, we believe that the advancement of knowlmethodological guidance has been sparse. One edge will be hastened by viewing cluster analysis
+exceptionis the advocationof significancetesting as one possible piece of any methodological
+on external variables through ANOVA or puzzle. Some research has begun to follow this
+MANOVA (Anderberg, 1973; Aldenderferand path. One example is the use of strategic groups as
+Blashfield,1984). In the remainderof this section, a context within which to examine the link between
+we expand upon this initial foray into building firm-specific characteristicsand performance (Cool
+between-methodstriangulationby suggestinghow and Schendel, 1988; Lawless, Bergh, and Wilsted,
+researcherscan use techniquesthat do not share 1989). To take a more comprehensive view, studclusteranalysis'strongrelianceon researcherjudg- ies might include strategic group membership as
+ment to develop confidencein empiricalresults, one of several factors in a structural equation or
+and more broadly,well-foundedknowledgeabout path analysis model designed to predict performance. Interestingly, the earliest research using clusorganizations.
+We look first to extant strategy research. A ter analysis emphasized the use of the technique
+promisingvalidationtool for inductiveand deduc- alongside others (e.g., Hatten and Schendel, 1977;
+tive studiesthatis not discussedin methodological Hatten et al., 1978) as did early methodological
+works but has been used by a few strategyauthors guidance (Anderberg, 1973). We assert that such
+is experts7opinionsof clusters'validity.Like clus- designs are now a necessity.
+To examine specifically how such designs might
+ter analysisitself, the use of expertopinionsrelies
+heavily on perceptions.If the experts used are take shape, we consider the possible value of time
+other researchers,this technique may only help series analysis to studies that include clustering.
+build within-methodtriangulation.If the experts The dominant thrust of research using cluster
+are practitioners,however, between-methodstri- analysis has been the attempt to explain the perangulationis possiblebecausethe perspectivesand formance of organizations through their memberassumptionsof researchersand managersare gen- ship in a configuration. Studies of the link between
+erally quite different. Indeed, Reger and Huff organizational configurations and perfornance
+
+This content downloaded from 132.174.254.159 on Fri, 12 Feb 2016 12:02:11 UTC
+All use subject to JSTOR Terms and Conditions
+
+Application of Cluster Analysis
+across multiple time periods generally use repeated
+cross-sectional tests (e.g., Fiegenbaum and
+Thomas, 1990). Such a design can uncover patterns within years (e.g., finding differentially performing groups in a particular year) and across
+years (e.g., the numberof years that configurations
+are and are not linked to performance) but is limited in its ability to address other interesting questions. Specifically, time series analysis could be
+used to address the cumulative effect of configuration membership on performance over time and
+the extent to which the passage of time impacts the
+configurations-performance relationship (Bergh,
+1993). Time series analysis also can be used to
+explore different lag times between the derivation
+of configurations and the measurement of performance; an important but unexamined issue (cf.
+Ketchen et al., 1993). In terms of methodological
+concerns, time series analysis offers a heightened
+level of protection from potential statistical problems, most notably the chance of committing Type
+I errors (Bergh, 1993). Given that the use of cluster
+analysis introduces significant methodological difficulty into a study's design, such protection is
+highly desirable. Thus, we advocate the incorporation of time series analysis into research on the
+configurations-performance
+organizational
+relationship and, more generally, to any study of
+multiple time periods that uses cluster analysis.
+
+CONCLUSION
+Cluster analysis has been an important tool for
+examining the relationships among strategy,
+environment, leadership/organization, and performance; links which define the field of strategic
+management (Summer et al., 1990). In the field's
+infancy, knowledge about these relationships was
+obtained primarily through in-depth case studies
+focusing on small numbers of firms (e.g., Chandler, 1962). However, strategic. management's
+dominant epistemology changed as the field
+matured. Indeed, cluster analysis' introduction in
+the late 1970s and frequent use in the 1980s paralleled an increased emphasis on developing knowledge through sophisticated statistical tests of large
+data bases. We believe that cluster analysis can
+have a place in strategic management's methodological tool box in the 1990s and beyond, but the
+technique must be applied prudently in order to
+ensure the validity of insights that it provides.
+
+455
+
+Further, to maximize the development of knowledge, cluster analysis should be used in combination with other methods to test sophisticated
+theoretical models.
+
+ACKNOWLEDGEMENTS
+We would like to thank Arthur Bedeian, Kevin
+Mossholder, Timothy Palmer, Craig Russell,
+Charles Snow, James Thomas, and two anonymous
+reviewers for their insights on this article.
+
+REFERENCES
+Aldenderfer, M. S. and R. K. Blashfield (1984). Cluster
+Analysis. Sage, Newbury Park, CA.
+Anderberg, M. R. (1973). Cluster Analysis for Applications. Academic Press, New York.
+Andrews, K. R. (1971). The Concept of Corporate Strategy. Irwin, Homewood, IL.
+Ansoff, H. I. (1965). Corporate Strategy. McGraw-Hill,
+New York.
+Arabie, P., J. D. Carroll and W. S. DeSarbo (1987).
+Three-way Scaling and Clustering. Sage, Newbury
+Park, CA.
+Bacharach, S. B. (1989). 'Organizationaltheories: Some
+criticism for evaluation', Academy of Management
+Review, 14, pp. 496-515.
+Bailey, K. D. (1994). Typologies and Taxonomies: An
+Introduction to Classification Techniques. Sage,
+Newbury Park, CA.
+Barney, J. B. and R. E. Hoskisson (1990). 'Strategic
+groups: Untested assertions and research proposals',
+Managerial and Decision Economics, 11, pp. 187198.
+Bergh, D. D. (1993). 'Watch the time carefully: The use
+and misuse of time effects in management research',
+Journal of Management, 19, pp. 683-705.
+Birley, S. and P. Westhead (1990). 'Growth and performance contrasts between "types" of small firms',
+Strategic Management Journal, 11(7), pp. 535-557.
+Breiger, R. L., S. A. Boorman and P. Arabie (1975). 'An
+algorithm for clustering relational data with applications to social network analysis and comparison
+with multidimensional scaling', Journal of Mathematical Psychology, 12, pp. 328-383.
+Chandler, A. D. (1962). Strategy and Structure. MIT
+Press, Cambridge, MA.
+Cook, T. D. and D. T. Campbell (1979). Quasi-experimentation: Design and Analysis Issues for Field Settings. Houghton-Mifflin, Boston, MA.
+Cool, K. and I. Dierickx (1993). 'Rivalry, strategic
+groups and firm profitability', Strategic Management
+Journal, 14(1), pp. 47-59.
+Cool, K. and D. Schendel (1987). 'Strategic group formation and performance:The case of the U.S. pharmaceutical industry, 1963-1982', Management Science, 33, pp. 1102-1124.
+
+This content downloaded from 132.174.254.159 on Fri, 12 Feb 2016 12:02:11 UTC
+All use subject to JSTOR Terms and Conditions
+
+456
+
+D. J. Ketchen, Jr. and C. L. Shook
+
+Cool, K. and D. Schendel (1988). 'Performance differences among strategic group members', Strategic
+Management Journal, 9(3), pp. 207-223.
+Daft, R. L. (1985). 'Why I recommend that your manuscript be rejected and what you can do about it'. In
+L. L. Cummings and P. J. Frost (eds.), Publishing in
+the Organizational Sciences. Irwin, Homewood, IL,
+pp. 193-209.
+Denzin, N. K. (1978). The Research Act. McGraw-Hill,
+New York.
+Dess, G. and P. Davis (1984). 'Porter's (1980) generic
+strategies as determinantsof strategic group membership and organizational performance', Academy of
+Management Journal, 27, pp.467-488.
+Dess, G., S. Newport and A. M. A. Rasheed (1993).
+'Configurationresearch in strategic management:Key
+issues and suggestions', Journal of Management, 19,
+pp. 775-795.
+Dillon, W. R., N. Mulani and D. G. Frederick (1989).
+'On the use of component scores in the presence of
+group structure', Journal of Consumer Research, 16,
+pp. 106-112.
+Dominguez, L. V. and C. G. Sequeira (1993). 'Determinants of LDC exporters' performance: A crossnational study', Journal of International Business
+Studies, 24, pp. 19-40.
+Douglas, S. P. and D. K. Rhee (1989). 'Examining generic competitive strategy types in U.S. and European
+markets', Journal of International Business Studies,
+20, pp. 437-463.
+Dutton, J. E., L. Fahey and V. K. Narayanan (1983).
+'Toward understanding strategic issue diagnosis',
+Strategic Management Journal, 4(4), pp. 307-323.
+Edelbrock, C. (1979). 'Comparing the accuracy of hierarchical clustering algorithms: The problem of classifying everybody', Multivariate Behavioral Research,
+14, pp. 367-384.
+Everitt, B. (1980). Cluster Analysis (2nd ed.). Heineman
+Educational Books, London.
+Fiegenbaum, A. and H. Thomas (1990). 'Strategic
+groups and performance:The U.S. insurance industry,
+1970-1984', Strategic Management Journal, 11(3),
+pp. 197-215.
+Fombrun, C. J. and E. J. Zajac (1987). 'Structural and
+perceptual influences on intraindustry stratification',
+Academy of Management Journal, 30, pp. 33-50.
+Ford, J. K., R. C. MacCallum and M. Tait (1986). 'The
+application of exploratory factor analysis in applied
+psychology: A critical review and analysis', Personnel Psychology, 39, pp. 291-314.
+Galbraith, C. and D. Schendel (1983). 'An empirical
+analysis of strategy types', Strategic Management
+Journal, 4(2), pp. 153-173.
+Hair, J. F., R. E. Anderson, R. L. Tatham and W. C.
+Black (1992). Multivariate Data Analysis (3rd ed.).
+Macmillan, New York.
+Hambrick, D. C. (1983). 'An empirical typology of
+mature industrial-productenvironments', Academy of
+Management Journal, 26, pp. 213-230.
+Hambrick, D. C. (1984). 'Taxonomic approaches to
+studying strategy: Some conceptual and methodological issues', Journal of Management, 10, pp. 27-41.
+
+ound strategies for mature industrial-productbusiness
+
+units', Academy of Management Journal, 26,
+
+pp. 231-248.
+Harigan, K. R. (1985). 'An application of clustering for
+strategic group analysis', Strategic Management
+Journal, 6(1), pp. 55-73.
+Hartigan,J. A. (1975). Clustering Algorithms. Wiley,
+New York.
+Hatten, K. J. (1974). 'Strategic models in the brewing
+industry', unpublished doctoral dissertation, Purdue
+University.
+Hatten, K. J. and M. L. Hatten (1987). 'Strategic groups,
+asymmetrical mobility barriers and contestability',
+Strategic Management Journal, 8(4), pp. 329-342.
+Hatten, K. J. and D. E. Schendel (1977). 'Heterogeneity
+within an industry: Firm conduct in the U.S. brewing
+industry', Journal of Industrial Economics, 26,
+pp. 97-113.
+Hatten, K. J., D. E. Schendel and A. C. Cooper (1978).
+'A strategic model of the U.S. brewing industry:
+1952-1971', Academy of Management Journal, 21,
+pp. 592-610.
+Hawes, J. and W. Crittenden (1984). 'A taxonomy of
+competitive retailing strategies', Strategic Management Journal, 5(3), pp. 275-287.
+Hitt, M. A. and B. B. Tyler (1991). 'Strategic decision
+making models: Integrating different perspectives',
+Strategic Management Journal, 12(5), pp. 327-351.
+Hofer, C. W. and D. Schendel (1978). Strategy Formulation: Analytical Concepts. West Publishing, St.
+Paul, MN.
+Hoskisson, R., M. Hitt, R. Johnson and D. Moesel
+(1993). 'Construct validity of an objective (entropy)
+measure of diversification strategy', Strategic Management Journal, 14(3), pp. 215-235.
+Hrebiniak, L. G. and W. F. Joyce (1985). 'Organizational adaptation:Strategic choice and environmental
+determinism',Administrative Science Quarterly, 30,
+pp. 336-349.
+Hunt, M. S. (1972). 'Competition in the major home
+appliance industry 1960-1970', unpublished doctoral
+dissertation, Harvard University.
+Jardine, N. and R. Sibson (1971). Mathematical Taxonomy, Wiley, New York.
+Jick, T. D. (1979). 'Mixing qualitative and quantitative
+methods: Triangulation in action', Administrative Science Quarterly, 24, pp. 602-611.
+Kerlinger, F. N. (1986). Foundations of Behavioral
+Research. Holt, Rinehart & Winston, Fort Worth, TX.
+Ketchen, D. J., J. B. Thomas and C. C. Snow (1993).
+'Organizational configurations and performance: A
+comparison of theoretical approaches', Academy of
+Management Journal, 36, pp. 1278-1313.
+Kim, L. and Y. Lim (1988). 'Environment, generic strategies, and performance in a rapidly developing country: A taxonomic approach',Academy of Management
+Journal, 31, pp. 802-827.
+Kim, W., P. Hwang and W. Burgers (1993). 'Multinationals' diversification and the risk-retum trade-off,
+Strategic Management Journal, 14(4), pp. 275-286.
+Lafuente,A., and V. Salas (1989). 'Types of entrepreneurs
+and firms: The case of new Spanish firms', Strategic
+ManagementJoumal, 10(1), pp. 17-30.
+Hambrick,D. C. and S. M. Schecter(1983). 'Turnar-
+
+This content downloaded from 132.174.254.159 on Fri, 12 Feb 2016 12:02:11 UTC
+All use subject to JSTOR Terms and Conditions
+
+Application of Cluster Analysis
+Lawless, M. and L. Finch (1989). 'Choice and determinism: A test of Hrebiniak and Joyce's framework on
+strategy-environment fit', Strategic Management
+
+Journal,10(4), pp. 351-365.
+Lawless, M., D. D. Bergh and W. Wilsted (1989). 'Performance varations among strategic group members:
+An examination of individual firm capability', Journal of Management, 15, pp. 649-661.
+Lewis, P. and H. Thomas (1990). The linkage between
+strategy, strategic groups and performance in the U.K.
+retail grocery industry', Strategic Management Journal, 11(5), pp. 385-397.
+Lorr, M. (1983). Cluster Analysis for the Social Sciences. Jossey-Bass, San Francisco, CA.
+Macmillan, 1. C. (1991). 'The emerging forum for business policy scholars', Strategic Management Journal,
+12(2), pp. 161-165.
+Manu, F. A. (1992). 'Innovation orientation, environment and performance: A comparison of U.S. and
+European markets', Journal of International Business
+Studies, 23, pp. 333-359.
+Mascarenhas, B. (1986). 'Internationalstrategies of nondominant firms', Journal of Intemrational Business
+Studies, 17, pp. 1-25.
+Mascarenhas, B. (1989). 'Strategic group dynamics',
+Academy of Management Journal, 32, pp. 333-352.
+Mascarenhas, B. and D. Aaker (1989a). 'Strategy over
+the business cycle', Strategic Management Journal,
+10(3), pp. 199-210.
+Mascarenhas, B. and D. Aaker (1989b). 'Mobility barriers and strategic groups', Strategic Management
+Journal, 10(5), pp. 475-485.
+McDougall, P. and R. Robinson (1990). 'New venture
+strategies: An empirical identification of eight 4archetypes" of competitive strategies for entry', Strategic
+Management Journal, 11(6), pp. 447-467.
+McGrath, J. E., J. Martin and R. A. Kulka (1982). Judgment Calls in Research. Sage, Beverly Hills, CA.
+McKelvey, B. (1975). 'Guidelines for empincal classification of organizations', Administrative Science
+Quarterly, 20, pp. 509-525.
+McKelvey, B. (1978). 'Organizational systematics:
+Taxonomic lessons from biology', Management Science, 24, pp. 1428-1440.
+Meyer, A. D. (1991). 'What is strategy's distinctive
+competence?', Journal of Management, 17,
+pp. 821-833.
+Meyer, A. D., A. S. Tsui and C. R. Hinings (1993).
+'Configurational approaches to organizational analysis, Academy of Management Journal, 36,
+pp. 1175-1195.
+Miles, G., C. C. Snow and M. P. Sharfman (1993).
+'Industry variety and performance', Strategic Management Journal, 14(3), pp. 163-177.
+Miles, R. E. and C. C. Snow (1978). Organizational
+Strategy, Structure, and Process. McGraw-Hill,
+New York.
+Miller, A. (1988). 'A taxonomy of technological settings, with related strategies and performance levels',
+Strategic Management Journal, 9(3), pp. 239-254.
+Miller, D. and P. Friesen (1978). 'Archetypes of strategy
+formulation', Management Science, 24, pp. 921-933.
+Miller, D. and H. Mintzberg (1983). 'The case for con-
+
+457
+
+figuration'. In G. Morgan (ed.), Beyond Method.
+Sage, Beverly Hills, CA, pp. 57-73.
+Milligan, G. W. (1980). 'An examination of the effect
+of six types of error perturbationon fifteen clustering
+algorithms', Psychometrika, 45, pp. 325-342.
+Milligan, G. W. and M. C. Cooper (1985). 'An examination of procedures for determining the number of
+clusters in a data set', Psychometrika, 50, pp. 159179.
+Mintzberg, H. (1989). Mintzberg on Management. Free
+Press, New York.
+Montgomery, C. A., B. Wemerfelt and S. Balakrishnan
+(1989). 'Strategy content and the research process:
+A critique and commentary', Strategic Management
+Journal, 10(2), pp. 189-197.
+Morrison, A. and K. Roth (1992). 'A taxonomy of business-level strategies in global industries, Strategic
+Management Journal, 13(6), pp. 399-418.
+Morison, A. and K. Roth (1993). 'Relating Porter's
+configuration/coordinationframework to competitive
+strategy and structural mechanisms: Analysis and
+implications', Journal of Management, 19, pp. 797818.
+Nohria, N. and C. Garcia-Pont (1991). 'Global strategic
+linkages and industry structure', Strategic Management Joumal, Summer Special Issue, 12, pp. 105124.
+Porac, J. F. and H. Thomas (1990). 'Taxonomic mental
+models in competitor definition', Academy of Management Review, 15, pp. 224-240.
+Porter, M. E. (1973). 'Consumer behavior, retailer
+power, and manufacturerstrategy in consumer goods
+industries', unpublished doctoral dissertation, Harvard University.
+Punj, G. and D. W. Stewart (1983). 'Cluster analysis in
+marketing research: Review and suggestions for
+application', Journal of Marketing Research, 20,
+pp. 134-148.
+Rajagopalan, N. and S. Finkelstein (1992). 'Effects of
+strategic orientation and environmental change on
+senior management reward systems', Strategic Management Journal, Summer Special Issue, 13,
+pp. 127-142.
+Reger, R. K. and A. S. Huff (1993). 'Strategic groups:
+A cognitive perspective', Strategic Management
+Journal, 14(2), pp. 103-124.
+Robinson, R. and J. Pearce (1988). 'Planned patterns of
+strategic behavior and their relationship to businessunit performance', Strategic Management Journal,
+
+9(1), pp. 43-60.
+Roth, K. (1992). 'Internationalconfiguration and coordination archetypes for medium-sized firns in global
+industries', Journal of IntermationalBusiness Studies,
+23, pp. 533-549.
+Rumelt, R. P., D. E. Schendel and D. J. Teece (1994).
+Fundamental Issues in Strategy: A Research Agenda.
+Harvard Business School Press, Boston, MA.
+SAS Institute, Inc. (1990). SAS Users Guide: Statistics,
+Version 6. SAS Institute, Cary, NC.
+Smith, K. and C. Grimm (1987). 'Environmental variation, strategic change and firm performance:A study
+of railroad deregulation', Strategic Management
+Journal, 8(4), pp. 363-376.
+
+This content downloaded from 132.174.254.159 on Fri, 12 Feb 2016 12:02:11 UTC
+All use subject to JSTOR Terms and Conditions
+
+458
+
+D. J. Ketchen, Jr. and C. L. Shook
+
+Summer, C. E., R. A. Bettis, I. H. Duhaime, J. H. Grant,
+D. C. Hambrick, C. C. Snow and C. P. Zeithaml
+(1990). 'Doctoral education in the field of business
+policy and strategy', Journal of Management, 16,
+pp. 361-398.
+Thomas, H. and N. Venkatraman (1988). 'Research on
+strategic groups: Progress and prognosis', Journal of
+Management Studies, 25, pp. 537-555.
+Thomas, J. B., S. M. Clark and D. A. Gioia (1993).
+'Strategic sensemaking and organizational performance: Linkages among scanning, interpretation,
+action, and outcomes', Academy of Management
+Journal, 36, pp. 239-270.
+Thompson, J. D. (1967). Organizations in Action.
+McGraw-Hill, New York.
+Venkatraman, N. and J. E. Prescott (1990).
+'Environment-strategy coalignment: An empirical
+test of its performance implications', Strategic Management Journal, 11(1), pp. 1-23.
+Venkatraman,N. and V. Ramanujam (1986). 'Measurement of business performance in strategy research',
+Academy of Management Review, 11, pp. 801-814.
+Waddock, S. and L. Isabella (1989). 'Strategy, beliefs
+about the environment and performance in a banking
+simulation', Journal of Management, 15, pp. 617632.
+Walter, G. and J. Barney (1990). 'Management objectives in mergers and acquisitions', Strategic Management Jourmal, 11(1), pp. 79-86.
+Whallon, R. W. (1972). 'A new approach to pottery
+typlogy', American Antiquity, 37, pp. 13-33.
+Woo, C. Y. Y. and A. C. Cooper (1981). 'Strategies of
+effective low share businesses', Strategic Management Journal, 2(3), pp. 301-318.
+Zahra, S. and J. Covin (1993). 'Business strategy, technology policy, and firm performance', Strategic Management Journal, 14(6), pp. 451-478.
+
+APPENDIX: Strategy Articles That Use
+Cluster Analysis
+Academyof ManagementJournal
+Hatten,Schendel,and Cooper(1978)
+Hambrick(1983)
+Hambrickand Schecter(1983)
+Dess and Davis (1984)
+Fombrunand Zajac(1987)
+Kim and Lim (1988)
+Mascarenhas(1989)
+Ketchen,Thomasand Snow (1993)
+
+Journal of International Business Studies
+Mascarenhas (1986)
+Douglas and Rhee (1989)
+Manu (1992)
+Roth (1992)
+Dominguez and Sequeira (1993)
+Journal of Management
+Lawless, Bergh, and Wilsted (1989)
+Waddock and Isabella (1989)
+Morrison and Roth (1993)
+Management Science
+Cool and Schendel (1987)
+Strategic Management Journal
+Woo and Cooper (1981)
+Galbraith and Schendel (1983)
+Hawes and Crittenden (1984)
+Smith and Grimm (1987)
+Cool and Schendel (1988)
+Miller (1988)
+Robinson and Pearce (1988)
+Lafuente and Salas (1989)
+Lawless and Finch (1989)
+Mascarenhas and Aaker (1989a)
+Mascarenhas and Aaker (1989b)
+Birley and Westhead (1990)
+Fiegenbaum and Thomas (1990)
+Lewis and Thomas (1990)
+McDougall and Robinson (1990)
+Venkatraman and Prescott (1990)
+Walter and Barney (1990)
+Hitt and Tyler (1991)
+Nohria and Garcia-Pont (1991)
+Morrison and Roth (1992)
+Rajagopalan and Finkelstein (1992)
+Cool and Dierickx (1993)
+Hoskisson, Hitt, Johnson and Moesel (1993)
+Kim, Hwang, and Burgers (1993)
+Miles, Snow, and Sharfman (1993)
+Reger and Huff (1993)
+Zahra and Covin (1993)
+
+This content downloaded from 132.174.254.159 on Fri, 12 Feb 2016 12:02:11 UTC
+All use subject to JSTOR Terms and Conditions
+
+

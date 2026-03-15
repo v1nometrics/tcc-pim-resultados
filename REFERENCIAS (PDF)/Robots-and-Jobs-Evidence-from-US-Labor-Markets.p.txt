@@ -1,0 +1,3580 @@
+Robots and Jobs: Evidence from US
+Labor Markets
+
+Daron Acemoglu
+Massachusetts Institute of Technology
+
+Pascual Restrepo
+Boston University
+
+We study the effects of industrial robots on US labor markets. We show
+theoretically that robots may reduce employment and wages and that
+their local impacts can be estimated using variation in exposure to robots—defined from industry-level advances in robotics and local industry employment. We estimate robust negative effects of robots on employment and wages across commuting zones. We also show that areas
+most exposed to robots after 1990 do not exhibit any differential trends
+before then, and robots’ impact is distinct from other capital and technologies. One more robot per thousand workers reduces the employmentto-population ratio by 0.2 percentage points and wages by 0.42%.
+
+I. Introduction
+In 1929, John Maynard Keynes famously predicted that the rapid spread
+of automation technologies would bring “technological unemployment”
+
+We thank David Autor, James Bessen, Lorenzo Caliendo, Amy Finkelstein, Matthew Gentzkow, Michael Greenstone, Mikell Groover, Steven Miller, Brendan Price, John Van Reenen,
+three anonymous referees, and participants at various seminars and conferences for comments and suggestions; Giovanna Marcolongo, Mikel Petri, and Joonas Tuhkuri for outstanding research assistance; and the Institute for Digital Economics and the Toulouse Network of
+Information Technology for financial support. Data are provided as supplementary material
+online.
+Electronically published April 22, 2020
+[ Journal of Political Economy, 2020, vol. 128, no. 6]
+© 2020 by The University of Chicago. All rights reserved. 0022-3808/2020/12806-00XX$10.00
+
+000
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+000
+
+journal of political economy
+
+(Keynes 1931). Wassily Leontief prophesied similar problems for workers,
+writing, “Labor will become less and less important. . . . More and more
+workers will be replaced by machines. I do not see that new industries
+can employ everybody who wants a job” (quoted in Curtis 1983, 8). Though
+these predictions have not come to pass, there is renewed concern that advances in robotics and artificial intelligence will lead to massive job losses
+(e.g., Brynjolfsson and McAfee 2014; Ford 2015). There is mounting evidence that the automation of a range of low- and medium-skill occupations
+has contributed to wage inequality and employment polarization (e.g.,
+Autor, Levy, and Murnane 2003; Goos and Manning 2007; Michaels, Natraj,
+and Van Reenen 2014). These concerns notwithstanding, we have little systematic evidence on the equilibrium impact of automation technologies,
+and especially of robots, on employment and wages.1
+In this paper, we estimate the equilibrium impact of a leading automation technology—industrial robots—on local US labor markets. The International Federation of Robotics (IFR) defines an industrial robot as
+“an automatically controlled, reprogrammable, and multipurpose [machine]” (IFR 2014). That is, industrial robots are fully autonomous machines that do not need a human operator and can be programmed to
+perform several manual tasks, such as welding, painting, assembly, handling materials, and packaging. Textile looms, elevators, cranes, or transportation bands are not robots since they have a unique purpose, cannot
+be reprogrammed to perform other tasks, and/or require a human operator. This definition excludes other types of equipment and enables an internationally and temporally comparable measurement of a class of technologies—industrial robots—that are capable of replacing human labor
+in a range of tasks.
+Robotics technology advanced significantly in the 1990s and 2000s, leading to a fourfold rise in the stock of (industrial) robots in the United States
+and western Europe between 1993 and 2007. As figure 1 shows, the increase
+amounted to one new robot per thousand workers in the United States and
+1.6 new robots per thousand workers in western Europe. The automotive
+industry employs 38% of existing robots, followed by the electronics industry (15%), plastics and chemicals (10%), and metal products (7%).
+Our empirical approach is based on a model where robots and workers
+compete in the production of different tasks. Our model builds on Zeira
+(1998), Acemoglu and Autor (2011), and Acemoglu and Restrepo (2018c)
+
+1
+Frey and Osborne (2013), World Development Report (2016), and McKinsey Global
+Institute (2017) estimate which types of jobs are susceptible to automation on the basis
+of various technological projections. Such approaches are not informative about the equilibrium impact of automation since they do not take into account how other sectors and
+occupations will respond to these changes. See also Arntz, Gregory, and Zierahn (2016) on
+other problems with these methodologies.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+robots and jobs
+
+000
+
+F IG . 1.—Industrial robots per thousand workers in the United States and Europe.
+
+but extends these frameworks so that the share of tasks performed by robots
+varies across sectors and there is trade between labor markets specializing in
+different industries. Improvements in robotics technology negatively affect
+wages and employment owing to a displacement effect (as robots directly displace workers from tasks that they were previously performing), but there is
+also a positive productivity effect (as other industries and/or tasks increase
+their demand for labor). Our framework clarifies that, because of the displacement effect, robots can have very different implications for labor demand than capital deepening or factor-augmenting technologies. Our model
+also shows that the effects of robotics technologies on employment and wages
+can be estimated by regressing the change in these variables on exposure
+to robots. Exposure to robots is a Bartik-style measure (Bartik 1991), constructed from the interaction between baseline industry shares in a local
+labor market and technological possibilities for the introduction of robots across industries.
+We first document that there is considerable variation in robot adoption across industries and show that the same industries are rapidly adopting robots in both the United States and Europe. We further show that at
+the industry level, there is no strong positive correlation between robot
+adoption and any of the other major trends affecting US local labor markets, such as import competition from China and Mexico, offshoring,
+the decline of routine tasks, investments in information technology (IT)
+capital, and overall capital deepening. Moreover, consistent with theory,
+robot adoption at the industry level is associated with lower labor share
+and employment and greater value added and labor productivity.
+After presenting industry-level correlations, we investigate the equilibrium impact of robots in local labor markets, proxied by commuting zones
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+000
+
+journal of political economy
+
+in the United States.2 We construct our measure of exposure to robots using data from the IFR on the increase in robot usage across 19 industries
+(roughly at the two-digit level outside manufacturing and at the three-digit
+level within manufacturing) and their baseline employment shares from
+the census before the onset of recent advances in robotics technology.
+To focus on the component of investment in robots driven by technological advances, we exploit adoption trends in European economies that are
+ahead of the United States in robotics. Our identifying assumption is that
+commuting zones housing industries with greater advances in robotics
+technology are not differentially affected by other labor market shocks
+or trends—a presumption that we investigate from a number of angles.3
+Using this strategy, we estimate a negative relationship between a commuting zone’s exposure to robots and its post-1990 labor market outcomes. Our estimates imply that between 1990 and 2007 the increase in
+the stock of robots (approximately one additional robot per thousand workers from 1993 to 2007) reduced the average employment-to-population
+ratio in a commuting zone by 0.39 percentage points and average wages
+by 0.77% (relative to a commuting zone with no exposure to robots).
+These estimates are sizable but not implausible. For example, they imply
+that one more robot in a commuting zone reduces employment by about
+six workers; this estimate includes both direct and indirect effects, the latter caused by the decline in the demand for nontradables as a result of
+reduced employment and wages in the local economy.
+To understand the aggregate implications of these estimates, we need
+to make additional assumptions about how different commuting zones interact. Greater use of robots in a commuting zone generates benefits for
+the rest of the US economy by reducing the prices of tradable goods produced using robots and by creating shared capital income gains. Our
+2
+Not all equilibrium responses take place within commuting zones—the most important
+other responses are trade with other local labor markets, which we model explicitly below;
+migration, which we investigate empirically; and the response of technology and new tasks
+to changes in factor prices emphasized in Acemoglu and Restrepo (2018c). All the same,
+recent research suggests that much of the adjustment to shocks, in both the short and
+the medium run, takes place locally (e.g., Acemoglu, Autor, and Lyle 2004; Moretti 2011;
+Autor, Dorn, and Hanson 2013).
+3
+We show in Acemoglu and Restrepo (2018a) that greater robot adoption in these
+countries is largely a consequence of their more rapid demographic change than in the
+United States. Our empirical strategy is similar to that used by Autor, Dorn, and Hanson
+(2013) and Bloom, Draca, and Van Reenen (2016) to estimate the effects of Chinese imports. Though not a panacea for all sources of omitted variable bias, this strategy allows us
+to filter out variation in robot adoption coming from idiosyncratic US factors (e.g., USspecific declines or worsening labor relations in some industries). This strategy would
+be compromised if changes in robot usage in other advanced economies were correlated
+with adverse shocks to US industries. For instance, there might be common shocks affecting the same industries across advanced economies, such as other technological changes
+or import competition, and these shocks could induce the same industries everywhere
+to adopt robots. We show later that these confounders are not responsible for our results.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+robots and jobs
+
+000
+
+model enables us to quantify these positive spillovers across commuting
+zones and leads to smaller but still negative aggregate effects. With our
+preferred specification, our estimates imply that one more robot per
+thousand workers reduces the aggregate employment-to-population ratio by about 0.2 percentage points and wages by about 0.42% (compared
+with its larger local effects, 0.39 percentage points and 0.77%, respectively), or equivalently, one new robot reduces employment by about
+3.3 workers.
+We verify that our measure of exposure to robots is unrelated to past
+trends in employment and wages from 1970 to 1990, a period that preceded
+the onset of rapid advances in robotics technology. Several robustness checks
+further bolster our interpretation. First, our results are robust to including differential trends by various baseline characteristics, linear commuting zone trends, and controls for other changes affecting demand
+or productivity in various industries. Second, we show that the automotive
+industry, which is the most robot-intensive sector, is not driving our results.
+Third, consistent with our theoretical emphasis that robots (and more generally, automation technologies) have very different labor market effects
+than other types of machinery and overall capital deepening, we find no
+negative employment and wage effects from capital, other IT technologies,
+or overall productivity increases.
+The employment effects of robots are most pronounced in manufacturing and particularly in industries most exposed to robots. They are also
+concentrated in routine manual, blue-collar, assembly, and related occupations. Consistent with the presence of spillovers on nontradables, we estimate negative effects on construction and retail as well as personal services.
+Besides the papers that we have already mentioned, our work is related
+to the empirical literature on the effects of technology on wage inequality
+(Katz and Murphy 1992), employment polarization (Autor, Levy, and
+Murnane 2003; Goos and Manning 2007; Autor and Dorn 2013; Michaels,
+Natraj, and Van Reenen 2014), aggregate employment (Autor, Dorn, and
+Hanson 2015; Gregory, Salomons, and Zierahn 2016), the demand for labor across cities (Beaudry, Doms, and Lewis 2006), and firms’ organization
+and demand for workers with different skills (Caroli and Van Reenen 2001;
+Acemoglu et al. 2007; Bartel, Ichniowski, and Shaw 2007).
+Most closely related to our work is the pioneering paper by Graetz and
+Michaels (2018). Focusing on the variation in robot usage across industries in different countries, Graetz and Michaels estimate that industrial
+robots increase productivity and wages but reduce the employment of
+low-skill workers. Although we rely on the same IFR data, we utilize a different empirical strategy, which enables us to go beyond cross-country,
+cross-industry comparisons and exploit plausibly exogenous changes in
+the spread of robots to estimate the equilibrium impact of robots on local
+labor markets.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+000
+
+journal of political economy
+
+The rest of the paper is organized as follows. Section II presents a simple model of the effects of robots on employment and wages. Section III
+introduces our data and sources. Section IV documents the correlation
+between robot adoption at the industry level and employment, the labor
+share, and value added. Section V presents our main empirical results
+and various robustness checks. This section also looks at the differential
+effects of robots on workers in different industries, occupations, and skill
+groups. Section VI presents our instrumental variable (IV) estimates and
+evaluates the local and aggregate implications of the spread of robotics
+technology in the United States. Section VII concludes. The appendix
+(available online) presents proofs, additional theoretical results, and robustness checks.
+
+II. Robots, Employment, and Wages: A Model
+This section presents a model building on Acemoglu and Restrepo (2018c)
+to exposit the potential effects of robots on employment and wages and derives our estimating equations. To develop intuition, we start with a setting
+without trade between commuting zones.
+
+A.
+
+Effects of Robots in Autarky Equilibrium
+
+The economy consists of jCj commuting zones. Each commuting zone
+c ∈ C has preferences defined over an aggregate of the output of jI j industries, given by
+
+j=ðj21Þ
+1=j ðj21Þ=j
+,
+(1)
+Yc 5 o ni Yci
+i∈I
+
+where j > 0 denotes the elasticity of substitution across goods produced
+by different industries and the ni’s are share parameters that designate
+the importance of industry i in the consumption aggregate (with
+oi ∈ I ni 5 1).
+In the autarky equilibrium, a commuting zone consumes its own production of each good, denoted by Xci. Hence, for all i ∈ I and c ∈ C, we
+have Yci 5 Xci . We choose the consumption aggregate in each commuting zone as numeraire (with price normalized to one) and denote the
+price of the output of industry i in commuting zone c by PciX .
+Each industry produces output by combining capital with a continuum
+of tasks indexed by s ∈ ½0, 1, each of which can be produced using industrial robots or human labor. We use xci(s) to denote the quantity of task s
+utilized in the production of Xci. These tasks must be combined in fixed
+proportions so that
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+robots and jobs
+
+000
+
+Xci 5 a2a ð1 2 aÞ2ð12aÞ Aci ½min fxci ðsÞga Kci12a ,
+s ∈ ½0,1
+
+(2)
+
+where Kci denotes the nonrobot capital used in industry i, 1 2 a represents its share in the production process, Aci represents the productivity
+of industry i, and the term a2a ð1 2 aÞ2ð12aÞ is a convenient normalization.
+Differences in the Aci’s will translate into different industrial compositions of employment across commuting zones.
+Industrial robots replace workers in some of the tasks that they were
+previously performing. Specifically, in industry i, tasks [0, vi] are technologically automated and can be performed by robots. We assume that all
+commuting zones have access to the same technology—that is, the same
+vi in industry i. Denoting the productivity of labor by gL and the productivity of robots by gM > 0, we have
+(
+gM Mci ðsÞ 1 gL Lci ðsÞ if s ≤ vi ,
+xci ðsÞ 5
+if s > vi ,
+gL Lci ðsÞ
+where Lci(s) and Mci(s) represent, respectively, the numbers of workers
+and robots used in task s. Because tasks above vi have not yet been technologically automated, they must be performed by labor.
+In each commuting zone c, labor is supplied by a representative household with preferences
+Cc12w 2 1
+B
+2
+Lc11ε ,
+12w
+11ε
+where Cc denotes this household’s consumption and Lc represents its labor supply. Its budget constraint is Cc ≤ Wc Lc 1 Pc , where Pc is nonlabor
+(capital and profit) income. In this specification, w determines the income elasticity of labor supply, and ε is the inverse of the wage elasticity
+of labor supply.
+Robots are produced using investment (in units of the final good), de1=ð11hÞ
+and have
+noted by Ic, with the production function Mc 5 Dð1 1 hÞIc
+.
+This
+formulation,
+with
+h
+>
+0,
+allows
+the
+supply
+of roa rental price of R M
+c
+bot services to a commuting zone to be upward sloping. This is reasonable in the medium term, since about two-thirds of the costs of robots
+are for services supplied by local, specialized robot integrators that install, program, and maintain this equipment (Leigh and Kraft 2018). Finally, in the autarky model, we take the supply of capital in commuting
+zone c to be fixed at K c and denote its price by R Kc .
+K
+An equilibrium is a tuple of prices fWc , R M
+c , R c gc ∈ C and quantities
+fCc , Yc , Ic , Lc , Mc gc ∈ C , such that in all commuting zones, firms maximize
+profits, households maximize their utility, and the markets for capital, labor, robots, and final goods clear:
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+000
+
+journal of political economy
+
+o
+
+ð
+
+i ∈ I ½0,1
+
+o
+
+Lci ðsÞ 5 Lc ,
+
+ð
+
+i ∈ I ½0,1
+
+Mci ðsÞ 5 Mc ,
+
+o K ðsÞ 5 K ,
+ci
+
+c
+
+i∈I
+
+Cc 5 Yc 2 Ic :
+We prove in the appendix that an equilibrium exists and is unique.
+To analyze the equilibrium impact of robots, let us first define cost savings from using robots in commuting zone c as
+pc 5 1 2
+
+gL RcM
+:
+gM Wc
+
+Robots will not be adopted when pc < 0. In what follows, we focus on the
+case where pc > 0 in all commuting zones. The next proposition characterizes the partial equilibrium impact of an advance in automation/robotics technology for industry i, denoted by d vi.
+Proposition 1. Suppose that pc > 0. Then,
+
+
+dvi
+1
+1
+1 d lnYc 2 j 1 2 1 d ln PciX ,
+(3)
+d ln Lci 5 2
+a
+1 2 vi a
+where Lci denotes the employment in industry i in commuting zone c.
+Like all other results in this section, a proof of this proposition is presented in the appendix.
+Equation (3) highlights three different forces shaping labor demand
+of industry i, represented by Lci. First, there is a negative displacement
+effect: an increase in vi leads to the use of robots in tasks otherwise performed by labor, displacing workers employed in these tasks. This displacement effect always reduces the labor share in the industry undergoing automation and may also reduce its overall labor demand.4 However,
+because of the positive productivity effect represented by the second term,
+labor demand does not necessarily decline following advances in automation technology. Intuitively, automation lowers the cost of production
+(thus increasing productivity) and via this channel raises the demand
+for labor in nonautomated tasks in all industries. Finally, there is a composition effect, represented by the third term: industries undergoing automation expand at the expense of others, and this raises the demand
+for labor coming from their nonautomated tasks.
+
+4
+The negative impact on the labor share can be seen by computing total production in
+industry i as Xci 5 Aci a2a ð1 2 aÞ2ð12aÞ fmin½gM Mci =vi , gL Lci =ð1 2 vi Þga Kci12a , which shows
+that an increase in vi always makes production less labor intensive (see Acemoglu and
+Restrepo 2018c, 2019b). In the appendix, we establish that a sufficient condition for the displacement effect to dominate the other forces and reduce (relative) industry employment is
+j < 1 1 ð1 2 pc sicL Þ=apc sicL , where sicL is the industry’s labor share in production tasks. This
+condition is easily satisfied for plausible parameter values.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+robots and jobs
+
+000
+
+We can aggregate the industry-level implications of proposition 1 to derive the effects of robots on local labor demand as follows:
+
+
+dvi
+1
+1
+1 d lnYc 2 j 1 2 1 o ð‘ci 2 xci Þ d ln PciX , (4)
+d ln Lc 5 2o ‘ci
+1 2 vi a
+a
+i∈I
+i∈I
+where ‘ci represents industry i’s share in total employment in commuting
+zone c, while xci represents this industry’s share of value added in the local
+economy. The first two terms are direct analogues of the displacement
+and productivity effects in (3). The third term shows that the impact of
+the composition effect for labor demand depends on whether automation is reallocating output toward sectors that are more labor intensive
+than average (those for which ‘ci > xci ). This composition effect disappears when all industries have the same labor share.
+Equation (4) provides a partial equilibrium characterization of how
+the demand for labor changes following automation. The next proposition links changes in prices and total output to automation technologies
+and thus derives the full equilibrium impact of automation.
+Proposition 2. Suppose that pc > 0 for all c ∈ C and that vi 5 0 for
+all i ∈ I. Then,
+d ln Lc 5 ½2z disp 1 z prod pc 2 z inc
+c,L w  o ‘ci
+i∈I
+
+dvi gL
+,
+1 2 vi gM
+
+d ln Wc 5 ½2z disp ε 1 z prod εpc 1 z inc
+c,W w  o ‘ci
+i∈I
+
+dvi gL
+,
+1 2 vi gM
+
+(5)
+(6)
+
+inc
+where z disp 5 ð1 2 a 1 hÞ=L, z prod 5 ð1 1 hÞ=L, z inc
+c,L 5 apc =Lc , z c,W 5
+aðpc 2 ð1 2 pc Þð1 2 a 1 hÞÞ=L, and L 5 ðgL =gM Þð1 2 a 1 aw 1 εÞ > 0.
+The assumption that vi 5 0 for all i simplifies the relevant expressions
+by removing the composition effect. The economic effects are similar
+when this assumption is relaxed, as shown in the appendix.5
+Proposition 2 establishes that the response of both employment and
+wages to automation is shaped by the term oi ∈ I ‘ci ½dvi =ð1 2 vi ÞðgL =gM Þ,
+which is the basis of our measure of exposure to robots. In addition, the
+coefficient on this variable in both equations comprises three distinct
+terms. The first term, 2z disp, represents the displacement effect. The second, z prod, represents the productivity effect, generated by cost savings,
+pc. When cost savings from automation are limited, automation decreases
+employment and wages. Conversely, when pc is large, automation increases
+
+5
+Composition effects arise when the term ‘ci 2 xci (or equivalently, the labor share) is
+correlated with the introduction of robots across industries. The correlation between
+the labor share of an industry in 1992 and subsequent robot usage is 0.1 across all industries and 20.04 within manufacturing, suggesting a minor role for composition effects.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+000
+
+journal of political economy
+
+them. Finally, the third term in both equations incorporates the negative
+income effect of automation on labor supply.
+The impacts of robots highlighted in proposition 2 are very different
+from the effects of overall capital deepening (an increase in the supply
+of capital, Kc) or from technological changes that increase the productivity of robots (gM) or industry productivity (Aci). Capital deepening, greater
+productivity of robots, and increases in industry productivity do not displace workers from the tasks they are performing and always raise wages
+and employment.6 This observation clarifies that the displacement effect
+created by automation is responsible for its potentially negative impact on
+labor demand.
+B. Effects of Robots When Commuting Zones Trade
+The autarky model transparently illustrates the displacement and productivity effects of automation but ignores how its economic consequences
+may spill over across local labor markets. Trade in goods and services
+changes the sensitivity of employment and wages to robot adoption and
+their aggregate implications. We now incorporate automation/robots into
+a simple model of trade between commuting zones building on Armington (1969) and Anderson (1979). Specifically, we modify our model in two
+ways. First, we assume that the representative household’s utility depends
+on a tradable good, Cc, and a nontradable (service) good, Sc:
+ðCcf Sc12f Þ12w 2 1
+B
+2
+Lc11ε :
+12w
+11ε
+
+(7)
+
+This specification implies that a constant share f ∈ ð0, 1Þ of spending
+goes to the tradable good. We assume that this nontradable good is produced with labor—that is, Sc 5 LcS —and we denote the price of the nontradable good in commuting zone c by Pc. The remaining labor, Lc 2 LcS ,
+is used in the production of tradable goods.
+The second modification is to assume that the tradable good is produced
+as in (1) but now with inputs sourced from all commuting zones so that
+
+l=ðl21Þ
+1=l
+ðl21Þ=l
+ðfor all c and iÞ,
+(8)
+Yci 5 o usi Xsci
+s∈C
+
+where l is the elasticity of substitution between varieties sourced from different commuting zones and the share parameters—the usi’s—indicate
+6
+As we show in Acemoglu and Restrepo (2018b, 2019b), labor-augmenting technological changes have very different effects from automation as well unless the elasticity of substitution between labor and machines is implausibly low (in particular, lower than the share
+of machines in value added). Here we took this elasticity to be zero for simplicity, since this
+simplification does not impact any of the implications we are focusing on.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+robots and jobs
+
+000
+
+the desirability of varieties from different sources. We assume that there
+are no trade costs, so that the price of the tradable good is equalized
+across commuting zones, and we choose it as the numeraire. Denoting
+the amount of good i exported from commuting zone c to destination
+d by Xcdi (including d 5 c), market clearing imposes
+Xci 5 o Xcdi ðfor all c and iÞ:
+d∈C
+
+We also assume that the initial stock of capital of the economy, K, is
+perfectly mobile across commuting zones, and we modify the budget
+constraint of households to Cc 1 Pc Sc ≤ Wc Lc 1 xPc P, where P is the national nonlabor income and a share xPc of this income is allocated to
+commuting zone c (with oc ∈ C xPc 5 1). The main result of this section is
+presented in the next proposition, which parallels proposition 2.
+Proposition 3. Suppose that pc 5 p0 for all c ∈ C and that vi 5 0 for
+all i ∈ I . Then,
+dvi gL
+1 zYL d lnY
+1 2 v i gM
+
+(9)
+(9)
+
+dvi gL
+1 zYW d ln Y
+d lnWc 5 ½2zdisp ε 1 zprod εp0 1 zinc
+W w o ‘ci
+1
+2 vi gM
+i∈I
+
+(10)
+(10)
+
+d ln Lc 5 ½2zdisp f 1 zprod fp0 2 zinc
+L w o ‘ci
+i∈I
+
+1 zPL d ln P 1 zcL ,
+price
+
+price
+1 zPW d ln P 1 zcW ,
+
+where the 
+z’s are functions of the underlying parameters.
+This proposition assumes that pc is the same across commuting zones
+as well as vi 5 0 for all i; we provide a more general version with similar
+implications in the appendix.
+As before, the 
+z’s summarize the local impact of robots on employment
+and wages. Trade between commuting zones implies that productivity
+gains and price changes in one area will be shared with others. The productivity spillovers, generated by the change in national income d ln Y,
+are captured by the zY terms, while spillovers from changes in prices
+are summarized by the zprice terms. Finally, the zP terms represent the income effects and the demand for nontradables resulting from nonlabor
+income, d ln P. These general equilibrium effects are not functions of exposure to robots in the own commuting zone, and thus we obtain the
+same reduced-form relationship between robots and local labor demand
+as in the autarky model. The aggregate effects of robots, however, depend
+on the extent of trade across commuting zones because of the additional
+spillover terms and because the 
+z’s in this proposition differ from their
+autarky counterparts in proposition 2. We take these differences into account in our quantitative evaluation.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+000
+
+journal of political economy
+
+C. Empirical Specification
+Propositions 2 and 3 summarize the effects of advances in the robotics
+technology on local employment and wages. The key equations, (9) and
+(10), show that the equilibrium impact of robots depends on the same
+object, which we will call a commuting zone’s US exposure to robots,
+US exposure to robotsc 5 o ‘ci  APR i
+
+(11)
+
+i∈I
+
+(recall that ‘ci is the baseline employment share of industry i in commuting zone c), and
+APR i 5
+
+dvi gL
+dM i dYi Mi
+5
+2
+1 2 vi gM
+Li
+Yi L i
+
+(12)
+
+is the (US) adjusted penetration of robots in industry i. Exposure to robots is thus a Bartik-style measure combining industry-level variation in
+the usage of robots and baseline employment shares. Our model implies
+a specific form for this relationship, including an adjustment for the overall expansion of each industry’s output, given by the last term in (12).
+With this measure of exposure to robots, we can estimate
+d lnLc 5 bL  US exposure to robotsc 1 eLc ,
+d lnWc 5 bW  US exposure to robotsc 1 eWc ,
+
+(13)
+(13)
+
+regardless of whether there is trade between commuting zones, though
+the coefficients bL and bW have different interpretations in these two cases.
+In these equations, eLc and eWc represent other factors affecting labor supply and demand, and in our empirical work, we model them as functions
+of various baseline characteristics and observed economic changes.
+The models in equation (13) can be estimated using ordinary least
+squares (OLS) with the variable for US exposure to robots computed
+from US data on the adjusted penetration of robots. Yet there are two related reasons why the US exposure to robots could be correlated with the
+error terms, eLc and eWc , leading to biased estimates. First, some industries
+may be adopting robots in response to other changes that they are undergoing, which could directly impact their labor demand. Second, any shock
+to labor demand in a commuting zone affects the decisions of local businesses, including robot adoption.7
+
+7
+An example of the first concern would be the automotive industry adopting more robots in the United States because of greater wage push from its unions. An example of the
+second would be a local recession in Detroit, Michigan, that impacts the automotive industry that has a large footprint there.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+robots and jobs
+
+000
+
+Ideally, we want to use changes in robot penetration only driven by exogenous improvements in technology, d vi. To identify the component of
+robot penetration driven by changes in technology, we instrument the US
+exposure to robots using an analogous measure constructed from the
+penetration of robots in European countries that are ahead of the United
+States in robotics technology. To do so, we construct
+Exposure to robotsc 5 o ‘ci  APR i ,
+
+(14)
+
+i∈I
+
+where APR i represents the adjusted penetration of robots computed
+from European countries. We describe and motivate this choice in greater
+detail in the next section.
+III. Data
+In this section, we describe our main data sources.
+A.
+
+Robots
+
+Our main data consist of counts of the stock of robots by industry, country,
+and year from the IFR. The IFR data are based on yearly surveys of robot
+suppliers and cover 50 countries from 1993 to 2014, corresponding to
+about 90% of the industrial robots market. However, the stock of industrial
+robots by industry going back to the 1990s is available only for Denmark,
+Finland, France, Germany, Italy, Norway, Spain, Sweden, and the United
+Kingdom, which together account for 41% of the world industrial robot
+market.8 Outside of manufacturing, we have data for the use of robots in
+six broad industries: agriculture, forestry, and fishing; mining; utilities; construction; education, research, and development; and services. Within manufacturing, we have data on the use of robots for 13 more disaggregated
+industries: food and beverages, textiles (including apparel), wood and furniture, paper and printing, plastics and chemicals, minerals, basic metals,
+metal products, industrial machinery, electronics, automotive, shipbuilding and aerospace, and miscellaneous manufacturing (e.g., production of
+jewelry and toys). We use this industry classification throughout and refer
+to it as the “IFR industries.”
+Figure 1 and table A1 (tables A1–A34 are available online) depict the
+evolution of robot stocks for different groups of European countries
+and for the United States. In figure 1, we separately show the evolution
+of the stock of robots for Germany; for the United States; the average
+8
+Though the IFR also reports data by industry for Japan, these data underwent a major
+reclassification. We follow the recommendations of the IFR and exclude Japan from our
+analysis.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+000
+
+journal of political economy
+
+for Denmark, Finland, France, Italy, and Sweden; and the average for
+Norway, Spain, and the United Kingdom. The trends for Denmark, Finland, France, Germany, Italy, and Sweden are particularly interesting, because these countries are technologically more advanced than the United
+States in robotics.9 US robot usage starts near 0.4 robots per thousand
+workers in the early 1990s, increases to 0.7 in 2000, and then rises rapidly
+to 1.4 in the late 2000s; this evolution closely tracks the average of Denmark, Finland, France, Italy, and Sweden, but its level is about 20% lower.10
+The IFR data have some noteworthy shortcomings. First, not all robots
+are classified into one of the 19 IFR industries. About 30% of robots are
+unclassified, and this percentage has declined throughout our sample.
+We allocate these unclassified robots to industries in the same proportions as in the classified data. Second, although the IFR reports data on
+the total stock of industrial robots in the United States from 1993 onward,
+it does not provide industry breakdowns until 2004. This does not affect
+the measure of exposure to robots computed from European data, and in
+section VI.A we describe how we use US data in our IV strategy. Finally, the
+IFR reports only the overall stock of robots for North America. Though
+this aggregation introduces noise in our measures of US exposure to robots, this is not a major concern, since the United States accounts for
+more than 90% of the North American market and our IV procedure
+purges this type of measurement error from the US exposure to robots.11
+We combine the IFR data with employment counts and output by country and industry from the European Union–level analysis of capital, labor,
+energy, materials, and service inputs (EU KLEMS) Growth and Productivity
+
+9
+These countries have more robots than the United States at the beginning of the sample in 1993 and have invested more in robots since. They also have greater “robot exports”
+(measured as exports of intermediates related to robotics from the Comtrade data set; for
+details, see Acemoglu and Restrepo 2018a). For example, robot exports per worker are
+three to four times as large in Italy, France, and Denmark as in the United States and more
+than six times as large in Germany, Finland, and Sweden. Norway and the United Kingdom
+are behind the United States in all of these metrics. Spain has adopted robots rapidly in the
+automotive industry since 1993 but is behind or comparable to the United States in other
+sectors, and its robot exports are at the same level as the United States.
+10
+Acemoglu and Restrepo (2018a) show that demographic factors account for a large
+fraction of this cross-country variation and for why European countries are ahead of the
+United States in robotics. The relative shortage of middle-aged (production) workers in
+countries that are aging rapidly—e.g., Germany, France, Italy, Japan, and South Korea—encourages the development and adoption of robotics technology, which is then exported to
+other countries, including the United States, experiencing less rapid demographic change.
+11
+Robots in different sectors have similar capabilities and prices. Industrial robots belong to one of a handful of standardized types—articulated robots, selective compliance assembly robot arm (SCARA) robots, Cartesian robots, and parallel robots. Consistent with
+this, robot prices are fairly similar across sectors (ranging from about $44,000 per robot
+to about $88,000), and our results in table 5 suggest that the quantitative effects of robots
+in different sectors are similar. We investigate the role of robot prices further in tables A24
+and A25.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+robots and jobs
+
+000
+
+Accounts (see Jägger 2016),12 which allows us to measure the adjusted penetration of robots, APRi and APR i , for different time periods. Following
+equation (12), our baseline measure of the adjusted penetration of robots
+between two dates, t0 and t1, is given by
+ j
+
+j
+1
+Mi,t 2 Mi,t
+Mi,t
+j
+,
+(15)
+APR i,ðt ,t Þ 5
+2
+g
+i,ðt ,t Þ
+j
+j
+o
+5 j∈EURO5
+Li,1990
+Li,1990
+1
+
+0
+
+1
+
+0
+
+0
+
+0
+
+1
+
+j
+
+where Mi,t represents the number of robots in industry i in country j at
+j
+time t (from the IFR data), gi,ðt ,t Þ is the growth rate of output of industry i
+j
+in country j between t0 and t1 (from the EU KLEMS), and Li,1990 represents
+the baseline employment level in industry i and country j (also from the
+EU KLEMS).13 In our long-differences models, we take t0 5 1993 and t1 5
+2007, though we also present models where we focus on other periods.
+For our baseline measure, we use the average penetration in EURO5,
+comprising Denmark, Finland, France, Italy, and Sweden—that is, countries ahead of the United States in robotics, excluding Germany. Focusing on countries that are ahead of the United States helps us isolate
+the source of variation coming from global technological advances (rather
+than idiosyncratic US factors). We exclude Germany from our baseline
+measure because, as figure 1 shows, it is so far ahead of the other countries
+that its adoption trends may be less relevant for US patterns than the
+trends in EURO5. The appendix presents versions of our main results
+for different constructions of the APR i measure, including a specification
+where we use all European countries, one where we use both Germany
+and the EURO5, one where we use the observed increase in robot density
+j
+j
+without the g i,ðt ,t Þ Mi,t =Li,1990 term, and a complementary measure where
+0
+
+0
+
+1
+
+1
+
+0
+
+12
+To obtain comparable data, we use information on hours worked to obtain a count of
+US-equivalent workers by industry in 1990. We then compute the number of robots by industry, country, and year divided by US-equivalent workers in 1990. Because the data for
+Norway are missing from the EU KLEMS, we use the distribution of employment in the
+remaining Scandinavian countries in our sample (Denmark, Finland, and Sweden) to impute the Norwegian distribution. In addition, we were able to match most of the industries
+used in the EU KLEMS data set to the 19 IFR industries. One exception is wood and furniture, since employment in furniture products is pooled with miscellaneous manufacturing. To address this issue, we allocate 40% of the employment in miscellaneous manufacturing to the wood and furniture sector based on the proportions of employment in the
+United States in these detailed industries (obtained from the National Bureau of Economic Research–Center for Economic Studies [NBER-CES] data set described below). Finally, because the IFR data for Denmark are not classified by industry before 1996, we construct estimates for 1993–95 by deflating the 1996 stocks by industry using the total growth
+in its stock of robots.
+j
+j
+13
+Because there were few robots in 1993, the adjustment term g i,ðt ,t Þ Mi,t =Li,1990 is not
+quantitatively important; 96% of the variation in the adjusted penetration of robots across
+industries between 1993 and 2007 is driven by the increase in robot density—the term
+j
+j
+j
+ðMi,t 2 Mi,t Þ=Li,1990 in eq. (15). The exception is the electronics industry, which had a high
+stock of robots in 1993 and experienced rapid growth thereafter.
+0
+
+1
+
+1
+
+0
+
+0
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+000
+
+journal of political economy
+
+we include an adjustment for variation in the average price of a robot across
+industries.
+We also measure the US adjusted penetration of robots as
+APR US
+i,ðt ,t Þ 5
+0
+
+1
+
+Mi,tUS 2 Mi,tUS
+Mi,t
+US
+2 gi,ðt
+:
+,t Þ
+US
+US
+Li,1990
+Li,1990
+1
+
+0
+
+0
+
+0
+
+(16)
+
+1
+
+Given the coverage of the IFR data for US industries, this variable goes
+back only to t0 5 2004.
+B. Industry Data
+To explore the industry-level correlates of robot adoption, we use data on
+US industry employment, wage bill, value added, and labor share. The
+employment and wage bill data come from the County Business Patterns
+(CBP). We supplement the CBP with the NBER-CES data set, which covers
+the manufacturing sector and reports data on employment and wage bills
+for all workers and for production workers (see Acemoglu et al. 2016). We
+also use data on value added and labor shares from the Bureau of Economic
+Analysis input-output (BEA-IO) tables and on IT capital and the overall
+capital stock from the Bureau of Labor Statistics. These data are available
+for a detailed set of industries, which we then aggregate to the 19 IFR industries. Industry-level imports from China and Mexico and exports from
+Germany, Japan, and South Korea are computed from Comtrade data
+(following Acemoglu et al. 2016). Finally, we use the share of tasks in an
+industry that can be offshored (“task offshorability” from Autor and Dorn
+2013) and the share of imported intermediates as a proxy for offshoring
+(from Feenstra and Hanson 1999; Wright 2014).
+C. Commuting Zone Data and Exposure to Robots
+In our main analysis, we focus on the 722 commuting zones covering the
+US continental territory (Tolbert and Sizer 1996). Following equations (11)
+and (14), we measure US exposure to robots in a commuting zone as
+ APR i,ðt ,t Þ ,
+US exposure to robotsc,ðt ,t Þ 5 o ‘1990
+ci
+0
+
+1
+
+0
+
+1
+
+(17)
+
+i∈I
+
+represents industry i’s share in the total employment of comwhere ‘1990
+ci
+muting zone c and APRi is as defined in (16). Exposure to robots is defined analogously, exploiting variation in industry-level adoption of robots in the EURO5 countries,
+ APR i,ðt ,t Þ ,
+Exposure to robotsc,ðt ,t Þ 5 o ‘1970
+ci
+0
+
+1
+
+0
+
+1
+
+(18)
+
+i∈I
+
+where APR i,ðt ,t Þ is given in (15). We now use the 1970 employment shares,
+, as the baseline to focus on historical, persistent differences in the
+‘1970
+ci
+0
+
+1
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+robots and jobs
+
+000
+
+industrial specialization of commuting zones that predate robotics technology. This choice avoids any mechanical correlation due to robot adoption before the 1990s or mean reversion associated with temporary changes
+in industry employment in the 1980s. It is also worth noting that even when
+we consider changes in subperiods (e.g., in our models with stacked differences), we keep the baseline employment shares constant to avoid endogenous and serially correlated changes in our exposure variable.
+We use the public use data from the 1970, 1990, and 2000 censuses and
+the American Community Survey (ACS; see Ruggles et al. 2010) to construct measures of population, employment, employment by industry and
+occupation, and demographics for each commuting zone. To increase
+sample size, we follow Autor, Dorn, and Hanson (2013) and measure the
+2007 outcomes using the ACS for 2006–8. Similarly, we measure the 2014
+outcomes from the ACS for 2012–16. We also use the census and ACS to
+compute the average hourly and weekly wages within 250 demographic 
+commuting zone cells, which corrects for changes in the observed characteristics of employed workers. Our demographic cells are defined by gender, education (less than high school, high school degree, some college,
+college or professional degree, and masters or doctoral degree), 10-year
+age bins (16–25, 25–35, 36–45, 46–55, 56–65, and >65), and race. All topcoded wage income observations are set equal to 1.5 times the value of the
+top code, and we also winsorized wages at $2 per hour as in Acemoglu and
+Autor (2011). We additionally use county-level data (which we again aggregate to the commuting zone level) on employment counts from the CBP
+for 1990, 2000, and 2007; wage and nonwage income from the BEA; and
+wage income and migration flows from the Internal Revenue Service (IRS).
+To control for potentially confounding changes in trade patterns and
+other technological changes, we rely on data on exposure to Chinese imports from Autor, Dorn, and Hanson (2013) and data on the fraction of
+employment in a commuting zone in routine occupations (as defined in
+Autor and Dorn 2013). To distinguish the effects of robots from the effects of capital accumulation, investments in IT, and other technologies
+raising productivity, we construct Bartik measures of increases in capital
+stocks, IT capital, and value added across the 19 IFR industries.
+Finally, we use data compiled by Leigh and Kraft (2018), who scraped
+the web to obtain the location and employment of robot integrators—
+companies that install, program, and maintain robots. Using these data,
+we construct estimates of robot integrator activity in each commuting
+zone.
+IV.
+
+Industry Correlations
+
+We start by documenting industry trends. Figure 2 depicts the relationship between APR i,ð1993,2007Þ (computed from EURO5) and APRi,(2004,2007)
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+000
+
+journal of political economy
+
+F IG . 2.—Adjusted penetration of robots in the United States and EURO5 by industry.
+Plot of the adjusted penetration of robots between 1993 and 2007 (APR i ) and the adjusted
+penetration of robots in the United States between 2004 and 2007 (APRi rescaled to a 14-year
+equivalent change). Adjusted penetration of robots is given in number of robots per thousand workers in the industry. The solid line corresponds to the 457 line. Circle size indicates
+the baseline US employment in the industry.
+
+(computed from the US data and scaled to a 14-year equivalent change).
+Both variables are expressed in terms of robots per thousand workers.
+Consistent with the notion that US industry trends in robotics are driven
+by technological improvements, there is a positive correlation between
+adoption of robots in the EURO5 countries and in the United States
+(see also table A2). The figure also reveals significant heterogeneity across
+industries. While some industries—such as automotive, plastics and chemicals, and metal products—exhibit increases in robot penetration of more
+than 7.5 robots per thousand workers, others—such as paper and printing, textiles and wood, and furniture—experienced modest increases in
+both Europe and the United States.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+robots and jobs
+
+000
+
+In the rest of this section, we focus on the variation in APR i , which we
+interpret as a proxy for improvements in robotics technology available
+to US firms. Table A3 documents that improvements in robotics do not
+mimic other industry-level trends. Industries that are adopting more robots
+are not those affected by Chinese or Mexican import competition or offshoring, nor those experiencing rapid growth in total capital or IT capital,
+nor those with a large fraction of routine jobs. Within manufacturing, the
+correlation between our measure of adjusted penetration of robots, APR i ,
+and the change in imports from China is 20.39 (the overall correlation
+is 0.15). The correlation of APR i with the share of routine tasks is 20.24
+within manufacturing and 20.01 overall. The correlations with the change
+in imports from Mexico, with task offshorability, and with offshoring of
+intermediates are, respectively, 20.03, 20.41, and 20.17 within manufacturing (and 0.31, 20.26, and 0.19 overall). The correlation with the increase in capital is 0.22 within manufacturing (and 20.37 overall), and
+the correlation with the increase in IT capital is 0.23 within manufacturing
+(and 20.17 overall). These patterns strengthen our presumption that the
+use of industrial robots is a technological phenomenon that is largely unrelated to other industry trends.14
+Our model shows that under plausible conditions, industries that adopt
+robots reduce their labor demand. Table 1 reports regressions of various
+industry-level measures of labor demand on APR i for different time periods. Panel A focuses on the wage bill, and panel B looks at employment.
+Columns 1–4 present long-differences specifications where we regress the
+change in log wage bill from 1993 to 2007 on our baseline measure of adjusted robot penetration for the same period, APR i,ð1993,2007Þ . In column 1 of
+panel A, we show the relationship between APR i and log wage bill, which is
+negative, indicating that industries experiencing greater penetration of
+robots have also seen significant (relative) declines in labor demand. To
+control for other industry trends over this time period, column 2 includes
+the change in imports from China and dummies for manufacturing and
+light manufacturing—the latter consists of the textile industry and the
+paper, publishing, and printing industry. These two light manufacturing
+industries have been on a steep downward trend for reasons unrelated to
+robots (mostly because of offshoring and trade from China and the rise
+of digital media). Controlling for the light manufacturing dummy ensures
+that the estimates in column 2 are not driven by the comparison of these
+declining industries to other manufacturing industries. Including these
+three controls reduces the magnitude of the coefficient on APR i but also
+14
+This interpretation is also in line with the close association between APR i and Graetz
+and Michaels’s (2018) replaceability index, which measures the fraction of occupations in
+an industry involving tasks that can be automated using industrial robots. See fig. A1 (figs. A1–
+A4 are available online).
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+000
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+Adjusted penetration
+of robots, APR i
+
+Observations
+R2
+
+Adjusted penetration
+of robots, APR i
+
+21.967
+(.654)
+
+22.718
+(.732)
+19
+.19
+
+All
+Workers
+(1)
+
+2.754
+(.347)
+
+2.923
+(.419)
+19
+.91
+
+All
+Workers
+(2)
+
+CBP
+(All Industries)
+
+2.831
+(.339)
+
+2.816
+(.378)
+13
+.84
+
+All
+Workers
+(3)
+
+All
+Workers
+(5)
+
+All
+Workers
+(6)
+
+CBP
+(All Industries)
+
+22.510
+(.673)
+38
+.53
+
+21.096
+(.235)
+38
+.90
+
+2.991
+(.261)
+
+21.904
+(.609)
+
+2.883
+(.129)
+
+B. Change in Log Employment
+
+2.993
+(.324)
+13
+.91
+
+21.325
+(.329)
+
+21.492
+(.481)
+38
+.95
+
+All
+Workers
+(7)
+
+2.921
+(.114)
+
+21.037
+(.177)
+26
+.87
+
+All
+Workers
+(8)
+
+BEA-IO
+
+Long
+Differences,
+1992–2007
+
+21.016
+(.152)
+
+21.150
+(.205)
+26
+.91
+
+2.797
+(.281)
+
+Labor Share
+
+.128
+(.061)
+19
+.72
+
+Value Added
+
+Production
+All
+Workers Workers
+(9)
+(10)
+
+NBER-CES
+(within
+Manufacturing)
+
+Stacked Differences,
+1993–2000 and 2000–2007
+
+A. Change in Log Wage Bill
+
+Production
+Workers
+(4)
+
+NBER-CES
+(within
+Manufacturing)
+
+Long Differences,
+1993–2007
+
+TABLE 1
+Robots, Labor Demand, Labor Share, and Value Added: Industry-Level Results
+
+000
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+19
+.12
+
+✓
+✓
+
+19
+.90
+
+✓
+✓
+
+13
+.87
+
+✓
+✓
+
+13
+.92
+✓
+
+38
+.30
+✓
+✓
+✓
+
+Covariates
+
+38
+.86
+✓
+✓
+✓
+✓
+
+38
+.93
+✓
+✓
+✓
+
+26
+.89
+✓
+✓
+✓
+
+26
+.93
+
+✓
+✓
+
+19
+.37
+
+Note.—This table presents estimates of the relationship between adjusted penetration of robots and the wage bill, employment, value added, and labor
+share across US industries. Columns 1–4 present long-differences estimates for changes in the log wage bill for 1993–2007 (panel A) and log employment
+for 1993–2007 (panel B). Columns 5–9 present stacked-differences estimates for changes in the log wage bill for 1993–2000 and 2000–2007 (panel A) and
+log employment for 1993–2000 and 2000–2007 (panel B). Column 10 presents long-differences estimates for changes in log value added for 1992–2007
+(panel A) and labor share for 1992–2007 (panel B). Changes in log value added are annualized and given in percent change per year. Changes in labor
+share are in percentage points. Data sources and time periods are reported at the top of the table, and the set of covariates is reported at the bottom.
+Column 1 does not include any covariates, and col. 5 includes only time period dummies. Columns 2–4, 6–9, and 10 control for dummies for manufacturing and light manufacturing (paper/printing and textiles) and exposure to Chinese imports by industry from Acemoglu et al. (2016). Column 7 includes a full set of industry fixed effects. The regressions in cols. 1–9 are weighted by baseline industry employment in 1993, and the regressions in col. 10
+are weighted by baseline value added by industry in 1992. Standard errors that are robust against heteroskedasticity and serial correlation at the industry
+level are given in parentheses.
+
+Time period dummies
+Broad industry dummies
+Chinese imports
+Industry fixed effects
+
+Observations
+R2
+
+000
+
+journal of political economy
+
+makes it more precisely estimated (20.923, standard errors 5 0:419). This
+estimate implies that an increase of one robot per thousand workers in
+our APR i measure is associated with a 0.92% relative decline in the wage
+bill. Therefore, the average increase in the stock of robots in manufacturing—seven robots per thousand workers—is associated with a 6.3% decline in the wage bill. Columns 3 and 4 show similar patterns for the wage
+bill of all workers and production workers within manufacturing using
+the NBER-CES data set.
+Columns 5–9 present stacked-differences models for two subperiods of
+7 years, 1993–2000 and 2000–2007, with analogues of our APR i variable computed for each subperiod (in this case, we have two observations per industry). These models are appealing because they focus on within-industry
+changes and exploit the timing of robot adoption. For instance, robot penetration in the automotive industry accelerated in the 2000s, whereas it decelerated in shipbuilding and aerospace during the 2000s. We now see a
+more precisely estimated relationship than the one shown in columns 1–
+4. For example, the equivalent of the estimate in column 2 is 21.096
+(standard errors 5 0:235), which implies that one more robot per thousand workers (in APR i ) is associated with a 1.1% decline in labor demand.
+Stacked-differences models also enable us to include industry trends, thus
+more flexibly controlling for the possibility that industries have been on
+differential trends for other reasons (and in particular controlling for declining industries). Although specifications controlling for industry trends
+are demanding, in column 7 we estimate a similar negative relationship between robot adoption and labor demand. Finally, columns 8 and 9 show
+similar patterns for the wage bill of all workers and production workers
+within manufacturing using the NBER-CES data set. Panel B shows analogous results for employment, and figure 3 visually illustrates the relationship between APR i and log wage bill and log employment from column 8.
+In the appendix, we present a series of robustness checks for these industry correlations. Figure A2 verifies that there are no significant pretrends
+correlated with the adjusted penetration of robots for log wage bill and
+log employment (for all workers and for production workers). Tables A4
+and A5 confirm that the patterns shown in table 1 are similar when we
+use different constructions for the APR i variable and when we focus on
+more recent time periods. Finally, table A6 shows that the results are also
+similar when, rather than including the light manufacturing dummy, we
+directly control for industry value added or the factors affecting value added
+trends. In particular, in panel A we control for the change in industry value
+added between 1992 and 2007 (from the BEA-IO tables), and in panel B
+we instrument for the change in value added using intermediate imports
+in supplier industries. The estimates are broadly similar to but larger than
+the estimates in table 1, presumably because controlling for value added
+isolates the displacement effect. In panel C, we control for differences in
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+F IG . 3.—Relationship between robots and labor demand across industries. This figure
+presents residual plots of the relationship between adjusted penetration of robots (APR i )
+and the change in log wage bill (A) and the change in log employment (B) from stackeddifferences models, with data for 1993–2000 (in light gray) and 2000–2007 (in dark gray).
+The solid line shows the coefficient estimates from column 8 of panel A (A) and column 8
+of panel B (B) of table 1. The covariates from these models are partialed out. The dashed line
+is for a regression that additionally excludes the automotive industry. Circle size indicates the
+baseline US employment in the industry.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+000
+
+journal of political economy
+
+task offshorability, which is one of the factors leading to the rapid decline
+in production and value added in the light manufacturing industries,
+while in panel D we include a dummy for industries adopting robots.
+The results are again similar.
+We also use the BEA data to estimate the relationship between robots
+and industry labor share and value added between 1992 and 2007. Column 10 in panel A of table 1 shows that, consistent with robots raising
+productivity, value added is increasing in industries adopting more robots—even though employment is contracting.15 This result suggests
+that, as in our theory, industries adopting robots are becoming not only
+more productive but also less labor intensive. This is confirmed by our estimate in column 10 in panel B, which shows a large decline in the labor
+share. This estimate implies that one more robot per thousand workers is
+associated with a 0.8 percentage point decline in the labor share between
+1992 and 2007.
+Although we view the industry correlations mostly as descriptive, they
+establish that industries where robotics technology has made greater advances have experienced expanding output and declining labor demand,
+employment, and labor share. We next turn to the implications of robots
+for employment and wages in local labor markets.
+V. Effect of Robots across Commuting Zones
+In this section, we describe our measure of exposure to robots and document its variation. We then present reduced-form results for employment
+and wages, investigate their robustness, and explore the heterogeneous
+effects of robots across industries, occupations, gender, and skill groups.
+We present IV estimates and discuss their quantitative implications in the
+next section.
+A.
+
+Exposure to Robots and Robot-Related Activities
+
+We focus on the exposure measure defined in equation (18) and constructed from European data on robot penetration by industry. We use
+this variable as an instrument to uncover the effects of the spread of robots on US labor markets.
+15
+Within manufacturing, the industries that adopted the greatest number of robots (in the
+United States and in EURO5)—automotive, plastics and chemicals, and metal products—experienced the fastest growth in value added between 1992 and 2007, ranging between 2% and
+4% per year. In contrast, light manufacturing industries—textiles and paper and printing—
+did not adopt many robots and experienced absolute declines in value added. In table A7,
+we also document the significant positive effect of robots on labor productivity, which confirms one of the main findings of Graetz and Michaels (2018) from cross-industry, cross-country
+data. Because of data availability, we focus on long differences for value added, labor productivity, and labor share.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+robots and jobs
+
+000
+
+Figure 4 depicts the geographic distribution of exposure to robots between 1993 and 2007. In many parts of the United States, there is only a
+small increase of about 0.27–0.67 robots per thousand workers. In others,
+including parts of Kentucky, Louisiana, Missouri, Tennessee, Texas, Virginia, and West Virginia, our measure of exposure ranges between two
+and five robots per thousand workers. More strikingly, in some parts of
+the rust belt and Texas, robot penetration increases by five to 10 per thousand workers. Figure 2 highlighted that there is greater penetration of
+
+F IG . 4.—Geographic distribution of exposure to robots, 1993–2007. A, Distribution of exposure to robots. B, Distribution of exposure to robots outside of the automotive industry.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+000
+
+journal of political economy
+
+F IG . 5.—Exposure to robots and the location of robot integrators. This figure presents the
+relationship between exposure to robots for 1993–2007 and the log of one plus the number
+of robot integrators in a commuting zone. The covariates from column 4 of table 2 are
+partialed out. Data on the location of robot integrators are from Leigh and Kraft (2018).
+The solid line corresponds to a regression with the commuting zone population in 1990
+as weights. The dashed line is for a regression that additionally excludes the top 1% of commuting zones with the highest exposure to robots. Circle size indicates the 1990 population
+in the commuting zone.
+
+robots in the automotive industry than in other sectors (in both the United
+States and Europe). Figure 4B verifies that even after this industry is left
+out, there is still considerable geographic variation in exposure to robots.
+Are commuting zones with a high exposure to robots adopting more
+industrial robots, as our model predicts? Though data on robot adoption
+at the commuting zone level are not available, in figure 5 we provide evidence of greater robot-related activities in exposed commuting zones
+using the data on integrators from Leigh and Kraft (2018). The figure
+shows the residual plot of a regression of log of one plus the number of
+integrators in a commuting zone against exposure to robots (as in most
+figures that follow, we partial out the covariates from our main specification in col. 4 of table 2, which we describe below). The dashed line corresponds to the regression relationship after the top 1% of commuting
+zones with highest exposure to robots are excluded.16 In both cases, we
+see a positive association between exposure to robots and the number
+of integrators in a commuting zone. Table A8 shows that this relationship
+16
+These are Alpena, Michigan; Defiance, Ohio; Detroit, Michigan; Houghton Lake,
+Michigan; Lansing, Michigan; Lorain, Ohio; Mount Pleasant, Michigan; Saginaw, Michigan; Sault Ste. Marie, Michigan; and Wilmington, Delaware.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+robots and jobs
+
+000
+
+TABLE 2
+Effects of Robots on Employment and Wages: Long Differences
+Long Differences, 1990–2007
+Excludes
+Zones with
+the Highest
+Exposure Unweighted
+
+Weighted by Population
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+A. Change in Employment-to-Population Ratio, 1990–2007
+Exposure to
+robots
+Observations
+R2
+
+2.445
+(.094)
+722
+.27
+
+2.414
+(.076)
+722
+.46
+
+2.434
+(.057)
+722
+.66
+
+2.448
+(.059)
+722
+.67
+
+2.572
+(.138)
+712
+.66
+
+2.516
+(.118)
+722
+.62
+
+B. Change in Log Hourly Wages, 1990–2007
+Exposure to
+robots
+Observations
+R2
+
+21.220
+(.163)
+87,100
+.32
+
+21.017
+(.126)
+87,100
+.33
+
+2.874
+(.134)
+87,100
+.33
+
+2.884
+(.132)
+87,100
+.33
+
+2.779
+(.274)
+85,776
+.33
+
+2.932
+(.205)
+87,100
+.08
+
+✓
+✓
+✓
+
+✓
+✓
+✓
+
+✓
+✓
+✓
+
+✓
+
+✓
+
+✓
+
+Covariates
+Census divisions
+Demographics
+Industry shares
+Trade, routine
+jobs
+
+✓
+
+✓
+✓
+
+✓
+✓
+✓
+
+Note.—This table presents estimates of the effects of exposure to robots on employment
+and wages. Panel A presents long-differences estimates for changes in the employment-topopulation ratio for 1990–2007. Panel B presents long-differences estimates for changes in
+log hourly wages for 1990–2007. The specifications in panel B are estimated at the demographic cell  commuting zone level, where demographic cells are defined by age, gender,
+education, and race. Columns 1–5 present regressions weighted by population in 1990. Column 5 presents results excluding the top 1% of commuting zones with the highest exposure
+to robots. Column 6 presents unweighted regressions. The covariates included in each
+model are reported at the bottom of the table. Column 1 includes only census division dummies. Column 2 adds demographic characteristics of commuting zones in 1990 (log population; the share of females; the share of the population over 65 years old; the shares of the
+population with no college, some college, college or professional degree, and masters or
+doctoral degree; and the shares of whites, blacks, Hispanics, and Asians). Column 3 adds
+the shares of employment in manufacturing and light manufacturing and the female share
+of manufacturing employment in 1990. Columns 4–6 add exposure to Chinese imports and
+the share of employment in routine jobs. Standard errors that are robust against heteroskedasticity and correlation within states are given in parentheses.
+
+is robust to alternative specifications and to different ways of measuring
+robot integrator activity.
+B. Reduced-Form Results for Employment and Wages
+Table A9 provides a first look at how commuting zones with high and low
+exposure to robots differ in terms of their labor market characteristics.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+000
+
+journal of political economy
+
+Columns 2–5 present the mean for various outcomes and covariates by
+quartiles of exposure to robots, while columns 6 and 7 show the correlations between these variables and exposure to robots. Three patterns are
+notable. First, only three covariates show significant differences between
+high- and low-exposure commuting zones. These are the share of manufacturing employment, the share of light manufacturing employment, and
+the female share of manufacturing employment, and we control for these
+variables in our base specification. Second, across commuting zones at different quartiles of exposure to robots, there are only very small differences
+in the baseline levels of our two main labor market variables: hourly wages
+in 1990 and private employment-to-population ratio in 1990 (which focuses on salaried workers in the private sector and thus excludes public
+employment and self-employment). Finally and most notably, from 1990
+to 2007, more exposed commuting zones experienced more negative labor market trends.
+To explore these patterns in detail, we estimate reduced-form specifications similar to equation (13). We regress changes in our main labor market outcomes on exposure to robots. Our identifying assumption is that
+there are no differential shocks or trends affecting labor markets with
+greater exposure to robots (on the basis of baseline industry composition
+and European adoption trends) relative to those with less exposure. We
+discuss threats to the validity of this identifying assumption in section V.D.
+Table 2 presents results for a long-differences specification for 1990–
+2007, where we regress changes in employment and wage measures between 1990 and 2007 on the variable for exposure to robots for the same
+period. We end our sample in 2007 to avoid the potentially confounding
+effects of the Great Recession and present results for a longer time window
+as well as for more recent periods in the appendix.17 The table focuses on
+our main outcome variables: the (private) employment-to-population ratio in panel A and log hourly wages in panel B.18 Our baseline specifications are weighted by population in 1990 and report standard errors that
+are robust against arbitrary heteroskedasticity and spatial correlation within
+US states in parentheses.
+Column 1 presents a parsimonious specification that includes only
+census division dummies as covariates. In panel A, we see a strong negative relationship between exposure to robots and employment changes in
+a commuting zone with a coefficient of 20.44 (standard errors 5 0:09).
+This estimate implies that an increase of one robot per thousand workers
+17
+To match the time window over which we measure the adjusted penetration of robots,
+we rescale the outcomes to a 14-year equivalent change. In particular, for each variable, we
+define long differences as ðy2007 2 y2000 Þ 1 0:7  ðy2000 2 y1990 Þ.
+18
+Equation (13) has change in log employment on the left-hand side. We estimate this
+relationship in table A15 but opt for the employment-to-population ratio as our baseline
+because it is the standard specification in the literature.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+robots and jobs
+
+000
+
+in exposure to robots is associated with a relative decline in the (private)
+employment-to-population ratio of 0.44 percentage points.19
+In column 2, we control for demographic characteristics in 1990—specifically, log population; share of females in the population; share of the
+population over 65 years old; shares of the population with no college,
+some college, college or professional degree, and masters or doctoral degree; and shares of whites, blacks, Hispanics, and Asians in the population. Since our regression specification is in changes, these controls allow
+for differential trends by baseline demographic characteristics. Their inclusion slightly reduces our estimate of the impact of exposure to robots
+on the employment-to-population ratio to 20.41.
+In column 3, we control for the baseline shares of employment in manufacturing and light manufacturing and the female share of manufacturing
+employment. These controls allow for differential trends by the baseline industrial structure of a commuting zone and ensure that our exposure variable does not proxy for other trends affecting manufacturing employment. These controls have a minor effect on our coefficient of interest,
+which now stands at 20.43, and is more precisely estimated with a standard error of 0.06.
+In column 4, we control for other changes that have affected labor market outcomes during our period of analysis: imports from China between
+1990 and 2007 and the decline of routine occupations proxied by their
+baseline shares in employment (the coefficient estimates for these controls are shown in table A12). Consistent with the lack of correlation between these measures and exposure to robots, shown in table A9, these
+controls have no impact on our estimates. The point estimate remains
+at 20.45 (standard errors 5 0:06).20
+Figure 6 provides a residual regression plot for our specification from
+column 4 in panel A, with the regression estimate shown with the solid
+line. The figure highlights that there are several commuting zones with
+19
+A difference in exposure of one robot per thousand workers between 1993 and 2007
+(from EURO5) is approximately the increase in US exposure to robots over the same time
+period. It also corresponds to the interquartile range of this variable (between Pittsburgh,
+PA, at the 75th percentile and Omaha, NE, at the 25th percentile). The difference in exposure between the 1st percentile (West Palm Beach, FL) and the 99th percentile (Detroit,
+MI) is much larger—about nine robots per thousand workers.
+20
+As shown in table A9 and discussed above, the shares of employment in manufacturing and light manufacturing and the female share of manufacturing employment differ
+between high- and low-exposure commuting zones. Table A10 shows that these variables
+are significant predictors of exposure to robots, exposure to robots in the automotive industry (which we use in table 5), and exposure to robots when we simultaneously control
+for all covariates on the right-hand side. We continue to estimate negative and significant
+effects on employment and wages when we do not control for light manufacturing and/or
+the female share of manufacturing employment, though the estimates for employment are
+about 30% smaller in specifications that do not control for light manufacturing (see table A11).
+This is because, as discussed above, the decline in employment in light manufacturing industries is negatively correlated with exposure to robots.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+F IG . 6.—Effects of robots on employment and wages. A, B, Long-differences relationship between exposure to robots and changes in the employmentto-population ratio for 1990–2007 (A) and log hourly wages for 1990–2007 (B). The covariates from column 4 of table 2 are partialed out. C, D, Stackeddifferences relationships between exposure to robots and changes in the employment-to-population ratio (C ) and log hourly wages (D) for 1990–2000
+and 2000–2007. In C and D, the observations for 1990–2000 are shown in light gray, the observations for 2000–2007 are shown in dark gray, and the covariates from column 4 of table 3 are partialed out. In all panels, the solid line shows the coefficient estimate from a regression with the commuting zone
+population in 1990 as weights. The dashed line is for a regression that additionally excludes the top 1% of commuting zones with the highest exposure to
+robots. Circle size indicates the 1990 population in the commuting zone.
+
+robots and jobs
+
+000
+
+very large exposure to robots. Column 5 estimates the specification in column 4 after excluding the top 1% of commuting zones with the highest
+exposure (which are the ones listed in n. 16) and demonstrates that these
+high-exposure commuting zones are not driving our negative estimates.
+The coefficient estimate in panel A increases to 20.57 (standard errors 5
+0:14) and is shown with the dashed line in figure 6.
+Finally, column 6 shows that the results are similar in unweighted regressions. In the same specification as in column 4, we now estimate a coefficient of 20.51 (standard errors 5 0:12).
+Panel B presents results for log hourly wages. Because wages are available only for employed workers and our evidence in panel A suggests that
+employment declines in more exposed commuting zones, we present estimates adjusted for changes in the composition of wage earners. Specifically, we use the change in the average log wage between 1990 and 2007
+for each of the 250 demographic cells in a commuting zone as our lefthand-side variable.21 Because we now have multiple observations for each
+commuting zone—one for each demographic group—we weight each observation by the size of the demographic group in the commuting zone in
+1990. The estimates show that greater exposure to robots reduces wages.
+In column 4, when we control for our baseline covariates, the coefficient
+estimate is 20.88 (standard errors 5 0:13). This implies that a one-robot
+increase in our exposure measure (per thousand workers) leads to 0.87%
+lower hourly wages. Figure 6 provides a residual regression plot for this
+specification as well.
+We next turn to stacked-differences models, where we exploit variation
+over two periods: 1990–2000 and 2000–2007 (the former converted to a
+7-year equivalent change for consistency). In this case, our standard errors are robust against heteroskedasticity and within-state serial and spatial correlation. Table 3 presents our findings; panel A is for employment
+and panel B for log hourly wages. Columns 1–6 have the same structure as
+table 2. In both panels, the estimates are more negative than before and
+remain precisely estimated. For example, in column 4 of panel A the coefficient of interest is 20.55 (standard errors 5 0:05), while in panel B
+the estimate for log hourly wages increases to 21.4 (standard errors 5
+0:18). Figure 6C and 6D illustrate these stacked-differences estimates, separately marking observations from the two periods and showing that the
+negative relationship is present in both periods.
+The stacked-differences model focuses on the differential changes in exposure to robots between these two time periods and enables us to control
+for linear commuting zone trends. Although this specification is demanding and exploits a different source of variation than long differences, we
+21
+For each demographic group g in commuting zone c, we compute the long difference
+of average log hourly wages Dln Wcg, as explained in n. 17. We then regress Dln Wcg on the
+exposure measure for commuting zone c and control for a full set of cell fixed effects.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+000
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+2.591
+(.076)
+1,444
+.32
+21.508
+(.199)
+183,606
+.28
+
+2.625
+(.092)
+1,444
+.24
+
+21.544
+(.211)
+183,606
+.28
+
+Exposure to robots
+
+Observations
+R2
+
+Observations
+R2
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+Unweighted
+
+2.551
+(.052)
+1,444
+.41
+
+2.702
+(.150)
+1,424
+.40
+
+2.743
+(.092)
+1,444
+.39
+
+21.405
+(.191)
+183,606
+.28
+
+21.443
+(.182)
+183,606
+.29
+
+21.643
+(.551)
+180,818
+.27
+
+21.684
+(.295)
+183,606
+.09
+
+B. Change in Log Hourly Wages, 1990–2000 and 2000–2007
+
+2.525
+(.059)
+1,444
+.39
+
+21.608
+(.271)
+183,606
+.32
+
+2.508
+(.079)
+1,444
+.71
+
+22.649
+(.407)
+183,606
+.10
+
+21.007
+(.116)
+1,444
+.44
+
+Unweighted
+(8)
+
+Commuting Zone Trends
+Weighted by
+Population
+(7)
+
+A. Change in Employment-to-Population Ratio, 1990–2000 and 2000–2007
+
+(2)
+
+Exposure to robots
+
+(1)
+
+Weighted by Population
+
+Excludes
+Zones with
+Highest
+Exposure
+
+Stacked Differences, 1990–2000 and 2000–2007
+
+TABLE 3
+Effects of Robots on Employment and Wages: Stacked Differences
+
+000
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+✓
+✓
+
+✓
+✓
+✓
+
+✓
+✓
+✓
+✓
+
+Covariates
+✓
+✓
+✓
+✓
+✓
+
+✓
+✓
+✓
+✓
+✓
+
+✓
+✓
+✓
+✓
+✓
+
+✓
+✓
+✓
+✓
+✓
+✓
+
+✓
+✓
+✓
+✓
+✓
+✓
+
+Note.—This table presents estimates of the effects of exposure to robots on employment and wages. Panel A presents stacked-differences estimates for
+changes in the employment-to-population ratio for 1990–2000 and 2000–2007. Panel B presents stacked-differences estimates for changes in log hourly
+wages for 1990–2000 and 2000–2007. The specifications in panel B are estimated at the demographic cell  commuting zone level, where demographic
+cells are defined by age, gender, education, and race. Columns 1–5 and 7 present regressions weighted by population in 1990. Column 5 presents results
+excluding the top 1% of commuting zones with the highest exposure to robots. Columns 6 and 8 present unweighted regressions. The covariates included
+in each model are reported at the bottom of the table. Column 1 includes only census division dummies and time period dummies. Column 2 adds demographic characteristics of commuting zones (log population; the share of females; the share of the population over 65 years old; the shares of the
+population with no college, some college, college or professional degree, and masters or doctoral degree; and the shares of whites, blacks, Hispanics,
+and Asians). Column 3 adds the shares of employment in manufacturing and light manufacturing and the female share of manufacturing employment.
+Columns 4–6 add exposure to Chinese imports and the share of employment in routine jobs. In addition, cols. 7 and 8 include a full set of commuting
+zone fixed effects. Standard errors that are robust against heteroskedasticity and correlation within states are given in parentheses.
+
+Time period dummies
+Census divisions
+Demographics
+Industry shares
+Trade, routine jobs
+Commuting zone trends
+
+000
+
+journal of political economy
+
+estimate a similar negative impact of exposure to robots on both employment and wages. In column 7, for example, the estimates for employment and wages are, respectively, 20.5 (standard errors 5 0:08) and 21.6
+(standard errors 5 0:27). These findings bolster our confidence that exposed commuting zones are not simply on a differential trend unrelated
+to advances in robotics technology. We also estimate negative employment
+and wage effects of robot exposure for the entire period 1990–2014 as well
+as for 2000–2007 and 2000–2014 (see table A13).
+
+C. Other Labor Market Outcomes
+In the appendix, we investigate the effects of exposure to robots on a
+range of other labor market outcomes. Table A14 shows robust negative
+effects on employment in manufacturing, which is relevant since robots
+are mostly adopted in manufacturing and substitute directly for production workers in this industry.
+Tables A15 and A16 look at alternative measures of employment and
+wages. These include the (private) employment-to-population ratio, including self-employment; the total employment-to-population ratio, including public employment and self-employment; employment counts
+from the CBP divided by population; log employment; log weekly wages;
+log yearly wages; and log wage bill from the CBP. The results are broadly
+similar to our baseline estimates in both long-differences and stackeddifferences specifications for all of these measures.
+Table A15 also explores the implications for nonemployment by looking
+at the participation and unemployment margins. We estimate a positive
+impact of exposure to robots on the nonparticipation and unemployment
+rates. Quantitatively, our estimates imply that about three-quarters of the
+additional nonemployed drop out of the labor force, while one-quarter remain unemployed. In line with the rise in nonparticipation, in table A17
+we also estimate increased use of Social Security Administration retirement
+and disability benefits and other government transfers.
+Table A18 turns to the response of migration. Some of our estimates
+show a negative impact on population and net migration (computed from
+the IRS data), though these effects are neither consistent across specifications nor precisely estimated. Quantitatively, the migration responses are
+about one-quarter of the size of the employment responses.22 Consistent
+with the spillovers on the nontradable sector that we report in section V.G,
+22
+For example, using our stacked-differences specification from col. 4 of table 3 and
+comparing this to the equivalent specification in col. 4 of table A18 (panel D), we see that
+an increase of one robot per thousand workers in our exposure measure reduces total employment by 2%, of which 0.5% is explained by the decline in population and 1.5% is explained by the decline in the employment-to-population ratio.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+robots and jobs
+
+000
+
+table A18 also documents a decline in house prices and rents in exposed
+commuting zones.
+Finally, we use data from the BEA and the IRS to estimate the effects of
+robots on wage and nonwage income separately. Our estimates in table A19
+show precise and large negative effects on wage income and no significant
+impact on nonwage income. This last result is consistent with the notion
+that owners of robot integrators and firms introducing robotics technology
+are not necessarily located in exposed commuting zones.
+D. Threats to Validity
+There are two main threats to the identifying assumption behind our estimates. First, the industries that have been adopting more robots over the
+last two decades (in the United States and Europe) could have been on a
+downward trend because of declining demand, international competition,
+other technological changes, or worsening labor relations. Second, the commuting zones that house the industries adopting more robots may be affected by other negative shocks. In either case, our estimates might confound the impact of robots with these preexisting industry and commuting
+zone trends. (A third possible threat, that robot adoption is correlated
+with other concurrent technological changes, is discussed in the next
+subsection).
+Our analysis in section IV, which demonstrates that the penetration of
+robots in EURO5 is not correlated with industry pretrends or with other
+major sources of changes in labor demand, is reassuring for the first threat.
+Moreover, the fact that value added has expanded in industries with the
+greatest penetration of robots suggests that our measure is not correlated
+with negative demand shocks to industries. Regarding the second threat,
+our stacked-differences analysis, which controlled for commuting zone
+trends, already established that linear commuting zone trends do not explain our estimates. These results notwithstanding, we next investigate
+these issues directly by checking for pretrends (which could result from either concern) and by controlling for other industry and commuting zone
+trends.
+Panel A of table 4 shows that there are no significant pretrends. Specifically, we estimate the relationship between exposure to robots and changes
+in the employment-to-population ratio (cols. 1–4) and in log hourly wages
+(cols. 5–8) between 1970 and 1990. Our base specification, in columns 2
+and 6, shows that there is no quantitatively or statistically significant association between exposure to robots and pre-1990 changes in employment or
+wages. The picture is similar when we exclude highly exposed commuting
+zones in columns 3 and 7 and when we report unweighted specifications in
+columns 4 and 8. These results are summarized in figure 7, which presents residual plots for employment and wages from the specifications
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+000
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+Observations
+R2
+
+Exposure to industry trends 1970–90
+
+Exposure to robots
+
+Observations
+R2
+
+Exposure to robots in
+subsequent period, 1993–2007
+
+2.399
+(.046)
+2.041
+(.019)
+722
+.67
+
+2.014
+(.077)
+722
+.41
+
+(1)
+
+(5)
+
+(6)
+
+Weighted by Population
+
+2.158
+(.174)
+712
+.44
+
+2.217
+(.151)
+722
+.32
+
+.106
+(.242)
+59,230
+.50
+
+.145
+(.243)
+59,230
+.50
+
+A. Past Change in Labor Market Outcomes, 1970–90
+
+Unweighted
+(4)
+
+.566
+(.453)
+58,402
+.49
+
+Excludes
+Zones with
+Highest
+Exposure
+(7)
+
+Change in Log Hourly Wages
+
+2.411
+(.049)
+2.041
+(.018)
+722
+.67
+
+2.492
+(.138)
+2.037
+(.019)
+712
+.66
+
+2.395
+(.100)
+2.063
+(.019)
+722
+.63
+
+2.819
+(.136)
+2.065
+(.034)
+87,100
+.33
+
+2.824
+(.135)
+2.067
+(.034)
+87,100
+.33
+
+2.614
+(.273)
+2.077
+(.034)
+85,776
+.33
+
+B. Estimates Controlling for Exposure to Industry Trends, 1970–90
+
+.006
+(.070)
+722
+.43
+
+(2)
+
+Weighted by Population
+
+Excludes
+Zones with
+Highest
+Exposure
+(3)
+
+Change in Employment-to-Population Ratio
+
+TABLE 4
+Effects of Robots on Employment and Wages: Testing and Controlling for Pretrends
+
+2.719
+(.226)
+2.115
+(.034)
+87,100
+.08
+
+2.097
+(.359)
+59,230
+.30
+
+Unweighted
+(8)
+
+000
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+✓
+✓
+✓
+
+✓
+✓
+
+✓
+✓
+✓
+
+2.587
+(.132)
+712
+.66
+✓
+✓
+✓
+
+✓
+✓
+
+2.904
+(.144)
+55,988
+.41
+
+Covariates
+
+2.551
+(.123)
+722
+.62
+✓
+✓
+✓
+
+2.913
+(.142)
+55,988
+.41
+✓
+✓
+✓
+
+2.789
+(.291)
+55,182
+.40
+
+C. Estimates Controlling for the Change in the Dependent Variable, 1970–90
+2.449
+(.060)
+722
+.67
+
+2.434
+(.057)
+722
+.66
+✓
+✓
+✓
+
+21.157
+(.211)
+55,988
+.16
+
+Note.—This table presents estimates of the effects of exposure to robots on past employment and wages, as well as estimates on contemporary changes
+in employment and wages controlling for past changes in these outcomes. Panel A presents estimates for changes in the employment-to-population ratio
+(cols. 1–4) and log hourly wages (cols. 5–8) between 1970 and 1990. For comparison with our main results, these outcomes are scaled to a 14-year equivalent change. Panel B presents long-differences estimates for changes in the employment-to-population ratio (cols. 1–4) and log hourly wages (cols. 5–8)
+between 1990 and 2007 controlling for a measure of exposure to industries that were in decline between 1970 and 1990 (see the main text for details on
+this variable). Panel C presents long-differences estimates for changes in the employment-to-population ratio (cols. 1–4) and log hourly wages (cols. 5–8)
+between 1990 and 2007 controlling for the change in the dependent variable between 1970 and 1990. The specifications for log hourly wages are estimated at the demographic cell  commuting zone level, where demographic cells are defined by age, gender, education, and race. Columns 1–3 and 5–7
+present regressions weighted by population in 1990. Columns 3 and 7 present results excluding the top 1% of commuting zones with highest exposure
+to robots. Columns 4 and 8 present unweighted regressions. The covariates included in each model are reported at the bottom of the table. Columns 1
+and 5 include census division dummies, demographic characteristics of commuting zones (log population; the share of females; the share of the population
+over 65 years old; the shares of the population with no college, some college, college or professional degree, and masters or doctoral degree; and the shares of
+whites, blacks, Hispanics, and Asians), the shares of employment in manufacturing and light manufacturing, and the female share of manufacturing employment. In panel A, the baseline covariates are from 1970, and in panels B and C they are from 1990. Columns 2–4 and 6–8 add exposure to Chinese imports and
+the share of employment in routine jobs. Standard errors that are robust against heteroskedasticity and correlation within states are given in parentheses.
+
+Census divisions
+Demographics and industry shares
+Trade, routine jobs
+
+Observations
+R2
+
+Exposure to robots
+
+000
+
+journal of political economy
+
+F IG . 7.—Pretrends in employment and wages. This figure presents the relationship between exposure to robots for 1993–2007 and the change in the employment-to-population
+ratio for 1970–1990 (A) and the change in log hourly wages for 1970–1990 (B). The covariates from column 2 of table 4 are partialed out. The solid line shows the coefficient estimate
+from a regression with the commuting zone population in 1990 as weights. The dashed line
+is for a regression that additionally excludes the top 1% of commuting zones with highest
+exposure to robots. Circle size indicates the 1970 population in the commuting zone.
+
+in columns 2, 3, 6, and 7. In table A20, we confirm that there are also no
+pretrends in other key labor market variables for which we have pre-1990
+data—in particular, manufacturing employment; the employment rate,
+including self-employment and the public sector; the nonparticipation
+rate; the unemployment rate; and log weekly wages.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+robots and jobs
+
+000
+
+Panel B of table 4 investigates potentially confounding industry trends.
+Specifically, we present estimates that control for predicted employment
+declines based on a Bartik measure of exposure to industry trends in 1970–
+90. To construct this measure, we use the 19 IFR industries and interact
+their national log employment decline between 1970 and 1990 with their
+baseline employment share in 1970 in each commuting zone. Though
+the coefficient of the Bartik measure for exposure to declining industry
+trends is negative and significant in a few specifications, the point estimates
+for exposure to robots are unaffected. These results support our interpretation that the variable for exposure to robots is not proxying for declining
+industries.
+Finally, panel C goes one step further and directly controls for the
+1970–90 change in the employment-to-population ratio or hourly wages
+on the right-hand side of our baseline specifications. This control has no
+effect on our parameter estimates from table 2.
+A related concern is that our estimates may have been driven or unduly
+influenced by the automotive industry, which adopted more robots than
+any other sector between 1993 and 2007 and may be impacted by other
+economic trends.23
+To address this concern, in table 5 we decompose our measure of exposure to robots into two parts, one exploiting the penetration of robots in
+the automotive industry and the other exploiting the penetration of robots in all other industries. We include both of these measures on the
+right-hand side of our employment and wage regressions. The table presents both long-differences (cols. 1–3) and stacked-differences (cols. 4–6)
+specifications. Panel A is for employment, while panel B is for wages. In
+both panels, we find that the effects of exposure to robots in the automotive industry are similar to the effects of exposure to robots in other sectors. In none of these models do we reject the hypothesis that the coefficients of these two variables are equal. These results are reassuring for
+two distinct reasons. First, they indicate that our results are not driven solely
+by the automotive industry. Second, they also suggest that the effects of robots in different sectors are broadly similar.
+E. Robots, Capital, and Other Technologies
+Our model demonstrates that capital deepening and technological changes
+that do not automate tasks previously performed by labor do not generate a
+23
+Indeed, the share of employment in the automotive industry explains 67% of the crosscommuting zone variation in exposure to robots, and table A21 shows that the automotive
+industry has the highest Rotemberg weight, which ranges from 50% to 90% in the specifications presented in table 2 (see Goldsmith-Pinkham, Sorkin, and Swift 2018). In our stackeddifferences specifications in table 3, this industry also receives a large weight but only during
+the 2000–2007 period, when its robot penetration accelerated. These large Rotemberg
+weights indicate that our reduced-form estimates may be sensitive to other shocks affecting
+local labor markets specializing in the automotive industry during this period.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+TABLE 5
+Effects of Robots on Employment and Wages:
+The Role of the Automotive Industry
+Long Differences,
+1990–2007
+Weighted by
+Population
+(1)
+
+(2)
+
+Stacked Differences,
+1990–2000 and 2000–2007
+
+Unweighted
+(3)
+
+Weighted by
+Population
+(4)
+
+(5)
+
+Unweighted
+(6)
+
+A. Change in Employment-to-Population Ratio
+Exposure to robots in
+automotive industry
+Exposure to robots in
+other industries
+Test for equality of coefficients (p -value)
+Observations
+R2
+
+2.429
+(.078)
+
+2.459
+(.065)
+
+2.571
+(.153)
+
+2.620
+(.088)
+
+2.566
+(.054)
+
+2.771
+(.127)
+
+2.505
+(.210)
+
+2.370
+(.117)
+
+2.451
+(.133)
+
+2.654
+(.212)
+
+2.449
+(.181)
+
+2.695
+(.161)
+
+.69
+722
+.27
+
+.42
+722
+.67
+
+.47
+722
+.62
+
+.87
+1,444
+.24
+
+.54
+1,444
+.41
+
+.72
+1,444
+.39
+
+B. Change in Log Hourly Wages
+Exposure to robots in
+automotive industry
+Exposure to robots in
+other industries
+Test for equality of coefficients (p -value)
+Observations
+R2
+
+21.196
+(.105)
+
+2.907
+(.118)
+
+2.914
+(.225)
+
+21.507
+(.162)
+
+21.486 21.740
+(.144)
+(.282)
+
+21.314
+(.515)
+
+2.715
+(.331)
+
+2.955
+(.377)
+
+21.740
+(.710)
+
+21.144 21.588
+(.741)
+(.595)
+
+.80
+87,100
+.32
+
+.52
+87,100
+.33
+
+.93
+87,100
+.08
+
+.73
+183,606
+.28
+
+.63
+183,606
+.29
+
+.81
+183,606
+.09
+
+✓
+✓
+✓
+
+✓
+✓
+✓
+
+Covariates
+Time period dummies
+Census divisions
+Baseline covariates
+
+✓
+
+✓
+✓
+
+✓
+✓
+
+✓
+✓
+
+Note.—This table presents estimates of the effects of exposure to robots separately for
+the automotive industry and other industries. The p -value for a test of equality between the
+coefficients of exposure to robots in the automotive industry and in other industries is reported below the estimates. Columns 1–3 present long-differences estimates for the 1990–
+2007 period. Columns 4–6 present stacked-differences estimates for the 1990–2000 and
+2000–2007 periods. Panel A presents results for the employment-to-population ratio. Panel B
+presents results for log hourly wages. The specifications in panel B are estimated at the demographic cell  commuting zone level, where demographic cells are defined by age, gender, education, and race. Columns 1, 2, 4, and 5 present regressions weighted by population
+in 1990. Columns 3 and 6 present unweighted regressions. The covariates in each model are
+reported at the bottom of the table. Columns 1 and 4 include only census division dummies
+(and time period dummies in the stacked-differences specifications). Columns 2, 3, 5, and 6
+add demographic characteristics of commuting zones (log population; the share of females;
+the share of the population over 65 years old; the shares of the population with no college,
+some college, college or professional degree, and masters or doctoral degree; and the
+shares of whites, blacks, Hispanics, and Asians), the shares of employment in manufacturing
+and light manufacturing, the female share of manufacturing employment, exposure to Chinese imports, and the share of employment in routine jobs. Standard errors that are robust
+against heteroskedasticity and correlation within states are given in parentheses.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+robots and jobs
+
+000
+
+displacement effect and should thus have very different impacts on labor
+demand. We now investigate the effects of capital deepening, increases in
+IT capital, and growth in value added on employment and wages. We want
+to understand whether the effects of these variables differ from the effects
+of robots and also verify that controlling for these trends does not change
+our main estimates.
+Table 6 presents the results from this exercise. We again report both
+long-differences and stacked-differences specifications. Columns 1–4
+are for employment, while columns 5–8 are for wages. In panel A, we control for exposure to capital, which is a Bartik measure of the increase in
+(log) industry capital stocks. In panels B and C, we control for exposure
+to IT capital and exposure to industry value added (which are Bartik measures of increases in log industry ITcapital and in log industry value added,
+respectively).
+Including these variables has little effect on our estimates of the impact
+of robots. Moreover, and in line with our theoretical emphasis that automation is conceptually different from capital deepening and other types
+of technological changes that increase value added, these variables are, if
+anything, positively correlated with changes in employment and wages
+(see table A23 for broadly similar results with other measures of computer
+technology). These results confirm our expectation that, due to the displacement effect, industrial robots should have a very different impact
+on labor demand than other (nonautomation) technologies. They also
+bolster the case that our estimates are not capturing the effects of other
+concurrent technological changes (since these tend to have different impacts from robots and, as already shown in table A3, are uncorrelated with
+exposure to robots).24
+
+F. Other Robustness Checks
+The appendix reports a range of additional robustness checks. First, tables A24 and A25 show that the exact construction of exposure to robots
+does not affect our results. We report estimates where this measure is
+computed from the average of all European countries and from the average of EURO5 plus Germany, as well as a specification where we use the
+1990 (rather than the 1970) employment distribution. In addition, we
+
+24
+Another related threat to our IV strategy is that, as noted in n. 3, international competition may affect robot adoption decisions in both the United States and Europe. Relatedly,
+investments in robots in the countries that are most advanced in robotics technology—Germany, Japan, and South Korea—may increase international competition for US industries.
+Table A22 investigates these issues and shows that our estimates of the effects of robots are
+similar when we control for exposure to imports from Mexico, task offshoring, and exports
+from Germany, Japan, and South Korea.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+000
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+Observations
+R2
+
+Exposure to IT capital
+
+Exposure to robots
+
+Observations
+R2
+
+Exposure to capital
+
+Exposure to robots
+
+Unweighted
+(2)
+2.495
+(.114)
+.027
+(.021)
+722
+.62
+2.515
+(.116)
+.009
+(.010)
+722
+.62
+
+Weighted
+(1)
+2.435
+(.056)
+.025
+(.020)
+722
+.67
+2.445
+(.058)
+.006
+(.009)
+722
+.67
+
+Long Differences
+Unweighted
+(4)
+
+Weighted
+(5)
+
+Unweighted
+(6)
+
+Long Differences
+
+2.601
+(.083)
+.111
+(.028)
+1,444
+.41
+
+2.822
+(.137)
+.116
+(.033)
+87,100
+.33
+
+2.827
+(.213)
+.137
+(.031)
+87,100
+.08
+
+2.507
+(.053)
+.054
+(.032)
+1,444
+.42
+
+2.734
+(.092)
+.014
+(.013)
+1,444
+.39
+
+2.854
+(.135)
+.067
+(.017)
+87,100
+.34
+
+2.921
+(.199)
+.066
+(.016)
+87,100
+.08
+
+B. Estimates Controlling for Exposure to IT Capital
+
+2.502
+(.057)
+.065
+(.036)
+1,444
+.41
+
+21.344
+(.202)
+.123
+(.050)
+183,606
+.29
+
+21.299
+(.154)
+.200
+(.099)
+183,606
+.29
+
+Weighted
+(7)
+
+21.627
+(.298)
+.089
+(.038)
+183,606
+.09
+
+21.407
+(.258)
+.221
+(.073)
+183,606
+.09
+
+Unweighted
+(8)
+
+Stacked Differences
+
+Change in Log Hourly Wages
+
+A. Estimates Controlling for Exposure to Capital
+
+Weighted
+(3)
+
+Stacked Differences
+
+Change in Employment-to-Population Ratio
+
+TABLE 6
+Effects of Robots Controlling for Capital Deepening, IT Capital, and Value Added
+
+000
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+✓
+
+2.483
+(.061)
+.060
+(.013)
+722
+.69
+
+2.563
+(.113)
+.064
+(.015)
+722
+.64
+
+✓
+
+Weighted
+(3)
+
+Unweighted
+(4)
+
+Weighted
+(5)
+
+Unweighted
+(6)
+
+Weighted
+(7)
+
+✓
+✓
+
+2.588
+(.051)
+.082
+(.024)
+1,444
+.42
+✓
+✓
+✓
+
+2.903
+(.133)
+.034
+(.021)
+87,100
+.33
+
+Covariates
+
+2.782
+(.087)
+.079
+(.018)
+1,444
+.41
+
+✓
+
+2.958
+(.201)
+.033
+(.017)
+87,100
+.08
+✓
+✓
+
+21.487
+(.183)
+.097
+(.054)
+183,606
+.29
+✓
+✓
+
+21.717
+(.292)
+.062
+(.025)
+183,606
+.09
+
+Unweighted
+(8)
+
+Stacked Differences
+
+Change in Log Hourly Wages
+Long Differences
+
+C. Estimates Controlling for Exposure to Industry Value Added
+
+Unweighted
+(2)
+
+Stacked Differences
+
+Note.—This table presents estimates of the effects of exposure to robots, capital accumulation, IT capital, and value added on employment and wages.
+Columns 1, 2, 5, and 6 present long-differences estimates for 1990–2007. Columns 3, 4, 7, and 8 present stacked-differences estimates for 1990–2000 and
+2000–2007. Columns 1–4 present results for the employment-to-population ratio. Columns 5–8 present results for log hourly wages. The specifications in
+cols. 5–8 for log hourly wages are estimated at the demographic cell  commuting zone level, where demographic cells are defined by age, gender, education, and race. Odd-numbered columns present regressions weighted by population in 1990. Even-numbered columns present unweighted regressions. In panel A, we control for a measure of exposure to capital, constructed by interacting the increase in log capital in each industry with its baseline
+employment share in the commuting zone. In panel B, we control for a measure of exposure to IT capital, constructed by interacting the increase in log IT
+capital in each industry with its baseline employment share in the commuting zone. In panel C, we control for a measure of exposure to industry value
+added, constructed by interacting the increase in log value added in each industry (between 1992 and 2007 in all models) with its baseline employment
+share in the commuting zone. All models include census division dummies (and time period dummies in the stacked-differences specifications), demographic characteristics of commuting zones (log population; the share of females; the share of the population over 65 years old; the shares of the population with no college, some college, college or professional degree, and masters or doctoral degree; and the shares of whites, blacks, Hispanics, and
+Asians), the shares of employment in manufacturing and light manufacturing, the female share of manufacturing employment, exposure to Chinese imports, and the share of employment in routine jobs. Standard errors that are robust against heteroskedasticity and correlation within states are given in
+parentheses.
+
+Time period dummies
+Census divisions and baseline covariates
+
+Observations
+R2
+
+Exposure to industry value added
+
+Exposure to robots
+
+Weighted
+(1)
+
+Long Differences
+
+Change in Employment-to-Population Ratio
+
+TABLE 6 (CONTINUED)
+
+000
+
+journal of political economy
+
+present estimates for an exposure measure based on the raw penetration
+of robots (rather than our theoretically grounded measure based on adjusted penetration of robots) and from a specification where we weight
+each industry’s adjusted penetration of robots by the average cost of robots in that industry. In all cases, the reduced-form estimates using these
+alternative measures of exposure are negative and significant (and the IV
+estimates reported in col. 7 of tables A24 and A25 are also similar to the
+estimates in table 7 presented in the next section).
+Table A26 explores the role of outliers. Our results are robust when we
+exclude Detroit (the commuting zone with the highest exposure to robots); when we exclude observations with residuals above or below 1.95
+standard deviations; when we estimate Li’s (1985) robust regression,
+which downweights influential observations; and when we estimate median regressions.
+Table A27 shows that our results are also robust to controlling for a full
+set of state fixed effects, to allowing for mean-reverting dynamics in employment and wages by including the baseline value of the dependent variable, and to controlling for contemporaneous changes in all of our baseline demographic variables. Table A28 reports the results from a two-step
+least absolute shrinkage and selection operator (LASSO) specification with
+a large number of covariates (following Belloni, Chernozhukov, and Hansen 2014) and establishes that those included in our main specifications
+are very similar to those identified by the LASSO procedure, and the twostep estimates are close to our baseline estimates.
+G. Effects by Industry, Occupation, Gender, and Skill
+This subsection investigates how exposure to robots has affected employment in different industries and occupations as well as the employment
+and wages of different workers.
+Figure 8A presents estimates of the effects of exposure to robots on
+employment in different industries. We present point estimates and confidence intervals for two long-differences specifications analogous to columns 4 and 5 of table 2 and one stacked-differences specification corresponding to column 4 of table 3 (fig. A4 presents estimates from analogous
+unweighted specifications). Figure 8 shows that the effects of robots concentrate in manufacturing (also shown in table A14) and especially in heavily robotized industries, which include automotive, plastics and chemicals,
+metal products, basic metals, electronics, and food and beverages. There
+are no significant effects on the remaining manufacturing industries. Consistent with the indirect effects on nontradables discussed in section II.B,
+we find negative impacts on construction and retail and personal services.
+The only two sectors that show positive effects in some specifications are
+(1) agriculture and education and (2) health care and the public sector (although these estimates are neither precise nor robust).
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+TABLE 7
+Effects of Robots on Employment and Wages: IV Estimates
+Change in Employment-toPopulation Ratio
+Change in Log Hourly Wages
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+2.762
+(.147)
+87,100
+1.15
+33.17
+
+2.768
+(.148)
+87,100
+1.15
+34.35
+
+A. Long Differences, 1990–2007
+US exposure to robots
+Observations
+First-stage coefficient
+First-stage F-statistic
+
+2.375
+(.119)
+722
+1.19
+38.16
+
+2.377
+(.088)
+722
+1.15
+32.19
+
+2.388
+(.091)
+722
+1.15
+33.62
+
+21.022
+(.225)
+87,100
+1.19
+39.81
+
+B. Alternative Imputation of US Data, 1990–2007
+US exposure to robots
+Observations
+First-stage coefficient
+First-stage F -statistic
+
+2.388
+(.123)
+722
+1.15
+38.16
+
+2.391
+(.092)
+722
+1.11
+32.19
+
+2.402
+(.094)
+722
+1.11
+33.62
+
+21.060
+(.234)
+87,100
+1.15
+39.81
+
+2.790
+(.153)
+87,100
+1.11
+33.17
+
+2.796
+(.153)
+87,100
+1.11
+34.35
+
+C. Long Differences, 1990–2014
+US exposure to robots
+Observations
+First-stage coefficient
+First-stage F -statistic
+
+2.303
+(.126)
+722
+1.20
+105.01
+
+2.241
+(.077)
+722
+1.14
+68.75
+
+2.250
+(.080)
+722
+1.15
+73.34
+
+21.268
+(.169)
+90,341
+1.21
+110.32
+
+21.103
+(.165)
+90,341
+1.14
+70.35
+
+21.128
+(.170)
+90,341
+1.15
+74.86
+
+D. Long Differences, 2000–2007
+US exposure to robots
+Observations
+First-stage coefficient
+First-stage F -statistic
+
+2.623
+(.137)
+722
+.79
+211.46
+
+2.574
+(.067)
+722
+.76
+123.73
+
+2.585
+(.067)
+722
+.75
+124.32
+
+21.376
+(.227)
+99,319
+.79
+223.26
+
+21.147
+(.172)
+99,319
+.76
+131.40
+
+21.191
+(.176)
+99,319
+.75
+131.83
+
+E. Long Differences, 2000–2014
+US exposure to robots
+Observations
+First-stage coefficient
+First-stage F -statistic
+
+2.451
+(.190)
+722
+1.00
+1,195.67
+
+2.327
+(.065)
+722
+.92
+305.25
+
+2.339
+(.067)
+722
+.93
+298.98
+
+21.590
+(.156)
+106,375
+1.00
+1,296.85
+
+21.566
+(.183)
+106,375
+.92
+324.38
+
+21.601
+(.191)
+106,375
+.93
+316.40
+
+✓
+✓
+
+✓
+✓
+✓
+
+Covariates
+Division dummies
+Demographics and industry shares
+Trade, routine jobs
+
+✓
+
+✓
+✓
+
+✓
+✓
+✓
+
+✓
+
+Note.—This table presents IV estimates of the effects of exposure to robots on employment and wages for different time periods. Panels A and B present results for 1990–2007.
+Panel C presents results for 1990–2014. Panel D presents results for 2000–2007. Panel E
+presents results for 2000–2014. In all models, we instrument the US exposure to robots using exposure to robots from EURO5. In panels A and C–E, we rescale the US exposure to
+robots to match the time period used. In panel B, we use an alternative imputation strategy
+for US exposure to robots described in the main text. Columns 1–3 present results for the
+employment-to-population ratio. Columns 4–6 present results for log hourly wages. The
+specifications for log hourly wages are estimated at the demographic cell  commuting
+zone level, where demographic cells are defined by age, gender, education, and race. All
+IV estimates are from regressions weighted by population in 1990. The covariates included
+in each model are reported at the bottom of the table. Columns 1 and 4 include only census
+division dummies. Columns 2 and 5 add demographic characteristics of commuting zones
+(log population; the share of females; the share of the population over 65 years old; the
+shares of the population with no college, some college, college or professional degree,
+and masters or doctoral degree; and the shares of whites, blacks, Hispanics, and Asians),
+the shares of employment in manufacturing and light manufacturing, and the female share
+of manufacturing employment. Columns 3 and 6 add exposure to Chinese imports and the
+share of employment in routine jobs. We also report the first-stage coefficients and their Fstatistics in all models. Standard errors that are robust against heteroskedasticity and correlation within states are given in parentheses.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+000
+
+journal of political economy
+
+Figure 8B presents analogous results for employment by occupation.
+In line with our expectations, the negative employment effects of robots
+are mostly in routine manual occupations and particularly in blue-collar
+occupations, such as machinists, assemblers, material handlers, and
+welders. Workers in these occupations engage in tasks that are being automated by industrial robots, so it is natural for them to experience the
+bulk of the displacement effect created by robots. We do not estimate positive employment effects in other occupations, suggesting that, at least locally, the productivity gains from using industrial robots have not resulted
+in an expansion of employment in nonautomated tasks.
+Figure 9 and table A29 investigate the employment and wage effects by
+gender. We estimate negative impacts for both men and women. The effects are larger for men. For example, with our baseline specification in
+long differences, reported in figure 9 and in column 1 of table A29, the impact of exposure to robots on the employment-to-population ratio of men
+is 20.57, while for women it is 20.34. Table A29 further shows that the decline for male employment is concentrated in manufacturing, while the
+decline in female employment is more pronounced in nonmanufacturing.
+Figure 9 summarizes the effects of robots on employment and wages
+for workers in different education groups. We present estimates for all
+workers and estimates for men and for women separately. We see negative
+employment and wage effects for both men and women with less than
+high school, high school degree, some college, and college or professional
+degree. We find it surprising that there is no positive effect on workers
+with a masters or doctoral degree. One interpretation is that this result reflects reduced demand for these workers from the nontradable sector. A
+complementary explanation is that, in contrast to other computer-assisted
+technologies, industrial robots are not directly complementing high-skill
+workers. Figure 10 investigates the impact of exposure to robots on the
+wage distribution by estimating quantile regressions (using our baseline
+specification from col. 4 of table 2). For all workers, we estimate negative
+and significant effects below the 35th percentile of the wage distribution.
+When we focus on workers with no college degree, the negative and significant effects extend all the way to the 85th percentile, while for workers
+with a college degree or more, the negative effects concentrate below the
+15th percentile. These results confirm that the negative wage effects of
+robots are mostly at the bottom and the middle of the distribution.
+VI. IV Estimates and Local and Aggregate
+Implications
+In this section, we report our IV estimates and explore their quantitative
+implications for local and aggregate changes in employment and wages.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+F IG . 8.—Effects of robots on industries and occupations. This figure presents estimates of the effects of exposure to robots on changes in industry
+employment-to-population ratios (A) and changes in occupation employment-to-population ratios (B). The capped lines provide 95% confidence intervals. The first set of estimates are from long-differences specifications as in column 4 of table 2. The second set of estimates are from long-differences
+specifications as in column 5 of table 2 (where we remove the top 1% of commuting zones with the highest exposure to robots). The third set of estimates
+are from stacked-differences specifications as in column 4 of table 3.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+F IG . 9.—Effects of robots on employment and wages by education and gender. This figure presents estimates of the effects of exposure to robots on changes in
+the employment-to-population ratio (A) and changes in log hourly wages (B) for all workers and for men and women with different education levels (less than high
+school, high school degree, some college, college or professional degree, and masters or doctoral degree). The capped lines provide 95% confidence intervals.
+
+robots and jobs
+
+000
+
+F IG . 10.—Effects of robots on the wage distribution. This figure presents estimates of the
+effects of exposure to robots on quantiles of the wage distribution for a specification equivalent to column 4 in table 2, following the methodology of Chetverikov, Larsen, and Palmer
+(2016). Estimates for the 5th, 10th, . . . , and 95th quantiles together with their 95% confidence intervals are shown. The different panels are for all workers (A), for workers with no
+college degree (B), and for workers with a college degree or more (C ) separately and for
+men (D) and women (E ) separately.
+
+A.
+
+IV Estimates
+
+We use the US exposure to robots to compute two-stage least squares
+(2SLS) estimates of bL and bW in equation (13). Figure 2 already showed
+the close association between the industry-level spread of robots in the
+United States (APRi,(2004,2007)) and in Europe (APR i,ð1993,2007Þ ). Figure A3 depicts our first-stage relationship by plotting the US exposure to robots at
+the commuting zone level computed using APRi,(2004,2007) against exposure
+to robots computed using APR i,ð1993,2007Þ .
+Table 7 reports our IV estimates for the long-differences specifications
+analogous to those in table 2 and also reports the corresponding firststage coefficients and F-statistics (table A33 reports the corresponding
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+000
+
+journal of political economy
+
+OLS estimates). Because we use the IV estimates to quantify the aggregate
+implications of robot adoption, we focus on the population-weighted
+specifications. Columns 1–3 are for the (private) employment-to-population
+ratio, and columns 4–6 are for log hourly wages. Column 1 in each panel
+presents a parsimonious specification that controls only for census division dummies. Column 2 in each panel additionally controls for demographic characteristics and industry composition of commuting zones. Finally, column 3 in each panel adds controls for imports from China and
+the decline of routine jobs.
+Panel A covers our baseline period, 1990–2007, where the 2004–7 US
+data are rescaled to a 14-year equivalent change. Panel B also focuses on
+1990–2007 but constructs the US exposure to robots by imputing US industry data using the aggregate US change between 1993 and 2004 rather
+than rescaling the 2004–7 industry data. Panel C is for 1990–2014, while
+panels D and E focus on 2000–2007 and 2000–2014, respectively, time
+windows that closely overlap with US robots data. In all cases, the 2SLS estimates are negative and precise for both employment and wages. Our base
+estimates in columns 3 and 6 in panel A, which we use in our quantitative
+evaluation in the next subsection, are 20.39 (standard errors 5 0:09) for
+employment and 20.77 (standard errors 5 0:15) for log hourly wages.25
+The estimates in table 7 present standard errors that are robust against
+heteroskedasticity and within-state spatial correlation. As pointed out by
+Borusyak, Hull, and Jaravel (2018), these standard errors do not take into
+account potential correlations across commuting zones resulting from
+other industry shocks. Table A20 reproduces our IV estimates with standard errors computed following Borusyak et al.’s (2018) procedure to account for such correlation (tables A31 and A32 present these adjusted
+standard errors for our main long- and stacked-differences reduced-form
+models). We do not find systematic differences between our baseline standard errors and these potentially more conservative standard errors, presumably because our specifications already control for the most important
+industry shocks affecting US labor markets, such as import competition
+from China, trends in overall manufacturing, light manufacturing, and the
+decline of routine jobs.
+B. Magnitudes
+The IV estimates in the previous subsection quantify the impact of improvements in automation technologies that lead to the adoption of one
+additional robot per thousand workers on employment and wages in a
+25
+For 1990–2014 in panel C, the IV estimate for employment is 40% smaller and the estimate for wages is 40% larger. This might reflect the fact that as wages have continued to
+adjust in the affected commuting zones, some of the initial employment response may have
+been reversed.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+robots and jobs
+
+000
+
+commuting zone relative to other areas. Our estimates in columns 3 and
+6 in panel A, for example, imply that the adoption of one additional robot per thousand workers in a commuting zone reduces its employmentto-population ratio by 0.39 percentage points (roughly a 1% decline) and
+hourly wages by 0.77% relative to other commuting zones. These numbers suggest that one more robot reduces employment by about six workers in the affected commuting zone relative to others.26 These are sizable
+magnitudes but are not implausible since they include both the direct effects of robots on employment and wages and the spillover effects on nontradables resulting from the decline in local demand following the loss of
+employment and wage income in the area we saw in section V.G.27
+The more challenging question is how much (and whether) employment and wages in the aggregate decline in response to the adoption
+of industrial robots. As emphasized in proposition 3, when commuting
+zones interact through trade and capital markets, our local IV estimates
+do not directly translate into aggregate effects because robot adoption in
+one commuting zone reduces the costs of goods consumed in other areas
+and generates capital income gains shared by households across the United
+States. To explore these aggregate implications, we need to make further
+assumptions on cross-commuting zone spillovers (and this suggests greater
+caution in interpreting these aggregate estimates than the local effects discussed in the previous paragraph).
+We first assume that proposition 3 provides a reliable approximation to
+these cross-commuting zone interactions and use our regression evidence
+and external information to discipline the key parameters of the model.
+Specifically, we use equations (9) and (10) in proposition 3, which provide
+expressions for bL and bW in terms of the underlying parameters of the
+model as well as the factor shares. We then use information on factor
+shares and j, l, a, p0, and gM =gL to solve for the values of the inverse of
+the wage elasticity of labor supply, ε, and the inverse of the elasticity of the
+^W . With
+^L and b
+robot supply, h, that are consistent with our IV estimates, b
+26
+The increase of one more robot per thousand workers between 1993 and 2007 is
+equivalent to an increase of 0.6 robots per thousand people or a total increase of
+120,000 robots. Our estimates imply that these additional robots led to a 0.39 percentage
+points lower (private) employment-to-population ratio, which is equivalent to one robot
+reducing employment by six (≈0:0039=ð0:6=1,000Þ) workers. Equivalently, the increase
+of 120,000 in the stock of robots during this period is predicted to have reduced employment by 756,000 jobs. We obtain a reduction in employment of 720,000 jobs (or about four
+jobs per robot) if we use the estimate for 1990–2014 from panel C together with the larger
+increase of 180,000 in the stock of robots over this longer time period.
+27
+These magnitudes can be compared to the local effects from exposure to imports
+from China. Using the stacked-differences estimates from table A12, which correspond
+to the specification used in Autor, Dorn, and Hanson (2013), the implied magnitude from
+the rise in Chinese imports is a decline of about 1 percentage point in the employment-topopulation ratio—2.5 times the 0.39 percentage points decline due to the rising use of industrial robots.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+000
+
+journal of political economy
+
+these parameter estimates, we compute the aggregate implications of robots from our model. Proposition A7 in the appendix provides formulas
+linking the aggregate effects of robots on employment and wages to the
+parameters h and ε.
+Our parameter choices are as follows: (1) j 5 1 as the elasticity of substitution between different industries (see Oberfield and Raval 2014);
+(2) l 5 5 for the elasticity of substitution between traded varieties, which
+follows the trade literature (e.g., Head and Meyer 2014; Simonovska and
+Waugh 2014); (3) s L 5 0:9916 as the baseline share of labor in task production, which is implied by the number of robots in US industries in
+1993;28 (4) a 5 0:67, which together with the estimate for sL yields an initial labor share of approximately two-thirds in all commuting zones;
+(5) f 5 0:25, which matches the 18% share of employment in the tradable or manufacturing sector; (6) p0 5 0:3, which, in line with the evidence surveyed in BCG (2015), implies that robot adoption reduces costs
+by about 30%; (7) gM =gL 5 3, which implies that in automated tasks a robot performs on average the work of three workers;29 and (8) w 5 0:02,
+which is consistent with a marginal propensity to consume leisure of
+10% (see Imbens, Rubin, and Sacerdote 2001).
+Given these parameter values, equations (9) and (10) yield h 5 0:79
+and ε 5 0:17. The estimate for h implies a fairly inelastic supply of robots
+to the local economy, which limits the productivity gains from robot adoption and instead generates greater rents for robot integrators and producers. If we suppose that local robot services are provided by combining
+(elastically supplied) robotics equipment and (mostly inelastically) supplied services of robot integrators, this estimate is equivalent to the share
+of the inelastic component of integrators’ services, h=ð1 1 hÞ, being approximately 0.44. Since the share of local robot integrators in total costs
+is about 0.75 (Leigh and Kraft 2018), this number implies that about
+two-thirds of their services are inelastically supplied to the local economy.
+The estimate for ε, on the other hand, implies an elastic response of labor
+supply. This estimate is in line with the “macro” Frisch elasticities that are
+
+28
+In propositions 2 and 3, we simplified the exposition by focusing on the case where
+v0 5 0, which implied a share of labor in task production equal to s L 5 1. Our more general expressions in propositions A2 and A6 clarify the role of sL.
+29
+This number is consistent with both the conclusions of the early engineering studies
+on the capabilities of industrial robots (see Groover et al. 1986) and more recent estimates.
+For example, Ford (2015, 2) reports that robots can move six times as many boxes as humans in the same time period. Robots also appear to be three times as productive in welding as humans (see https://www.sciencechannel.com/tv-shows/worlds-biggest-shipbuilders),
+six times as productive in placing bricks (see https://www.cnbc.com/2018/02/17/construction
+-robotics-bricklaying-robot-five-times-faster-than-human.html), and nine times as productive
+in smartphone assembly (see https://futurism.com/2-production-soars-for-chinese-factory-who
+-replaced-90-of-employees-with-robots).
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+robots and jobs
+
+000
+
+consistent with the observed short-run movements in wages and employment (see table 1 in Chetty et al. 2011).
+Using these parameter estimates, we compute the aggregate effects of
+improvements in robotics technology. One more robot per thousand workers is predicted to reduce aggregate wages by 0.42% and the aggregate
+employment-to-population ratio by 0.2 percentage points (or 400,000
+jobs); equivalently, one more robot reduces employment by 3.3 workers.30 With these parameter values, about two-thirds of the decline in
+the demand for labor in an exposed commuting zone is driven by the
+contraction of the nontradable sector. This estimate is consistent with
+the magnitudes of the decline in employment in nontradables, such as construction, retail, and personal services, documented in section V.G (where
+manufacturing accounts for 0.16 of the 0.45 decline in the employmentto-population ratio in response to one more robot per thousand workers,
+with the rest of the decline accounted for by nontradables). Our model also
+implies a 0.33% increase in the productivity of the tradable sector, a sizable
+capital income gain of 1.87%, and a 136% increase in industrial robot utilization. This last estimate closely matches the 139% increase in the stock of
+robots observed during this period.
+Table A34 considers variations in the values of the key parameters, j, l,
+p0, gM =gL , and w, and shows that both the implied values of h and ε and the
+resulting aggregate effects are not very sensitive to reasonable variations.
+VII.
+
+Concluding Remarks
+
+The spread of robots, artificial intelligence, and other automation technologies has raised concerns about the future of jobs and wages. Nevertheless, there has been relatively little work on the equilibrium effects
+of new automation technologies and particularly of robots. In this paper,
+we investigate the effects of industrial robots on US local labor markets.
+Robots—and automation technologies more generally—displace workers from tasks that they were previously performing and should thus have
+very different labor market effects than overall capital deepening and
+other types of technological changes (such as factor-augmenting ones).
+This is what we find in our empirical work.
+We focus on the variation in robot adoption originating from the technological frontier, proxied by trends in other economies that are more advanced than the United States in robotics technology (which are ahead of
+
+30
+The aggregate effects are broadly similar if we use the IV estimate for 1990–2014 from
+panel C of table 7. In this case, the same procedure leads to h 5 1 and ε 5 0:39, which imply that one additional robot per thousand workers reduces employment by 0.15 percentage points and hourly wages by 0.67%. Then the increase of 180,000 robots during this period is estimated to reduce aggregate employment by 420,000 jobs and hourly wages by 1%.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+000
+
+journal of political economy
+
+the United States partly because their demographic trajectories have generated greater demand for automation technologies; see Acemoglu and
+Restrepo 2018a). This strategy enables us to purge confounding changes
+across US industries from advances in robotics technologies coming from
+abroad. Using this methodology and approximating local labor markets
+with commuting zones, we estimate robust negative effects of robots on
+employment and wages. We show that commuting zones most exposed to
+robots in the post-1990 era were on trends similar to other labor markets
+before 1990 and that the impact of robots is distinct from and uncorrelated
+with the prevalence of routine jobs, the effects of imports from China, imports from Mexico, offshoring, IT capital, and capital deepening. Moreover, consistent with our theoretical emphasis, advances in robotics technology are estimated to have very different effects from IT technologies
+and overall capital deepening. Our estimates imply that each additional
+robot per thousand workers reduces the local employment-to-population
+ratio by 0.39 percentage points and wages by about 0.77%. Because adopting robots creates benefits for other commuting zones via trade linkages, the
+implied aggregate effects are smaller—one additional robot per thousand
+workers reduces the aggregate employment-to-population ratio by 0.2 percentage points and aggregate wages by 0.42%.
+There are relatively few robots in the US economy, so the number of
+jobs lost due to robots has been limited thus far (a 0.2 percentage point decline in the aggregate employment-to-population ratio, or about 400,000
+jobs). However, if robotics technology proceeds as expected by experts
+over the next two decades (e.g., Brynjolfsson and McAfee 2014, 27–32;
+Ford 2015), the future aggregate implications of robots could be larger.
+For example, BCG (2015) offers two scenarios for the next decade. In their
+aggressive scenario, the world stock of robots will quadruple by 2025. This
+corresponds to 5.25 more robots per thousand workers in the United
+States and with our estimates would lead to a 1 percentage point lower
+employment-to-population ratio and 2 percentage points lower wage
+growth between 2015 and 2025. Their more conservative scenario involves
+a less than threefold increase in the stock of robots and would have a more
+modest impact (a 0.6 percentage point decline in the employment-topopulation ratio and 1% lower wage growth). Crucially, however, any extrapolation about the future effects of robots should acknowledge not
+only the usual uncertainty associated with such exercises but also the
+possibility that some of the general equilibrium effects working through
+technology might emerge only slowly (Acemoglu and Restrepo 2018c)
+and that the response of employment and wages may be different once robots become sufficiently widespread.
+We view our paper as a first step in exploring the labor market implications of different types of technologies. Our conceptual framework
+highlights that, in contrast to the prevailing presumption in economic
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+robots and jobs
+
+000
+
+discussions, automation and nonautomation technologies have distinct
+impacts, and different waves of automation technologies may have different consequences depending on the balance between displacement and
+productivity effects (Acemoglu and Restrepo 2019a, 2019b). The next decade is likely to witness major advances in artificial intelligence, machine
+learning, communication technologies, and new manufacturing technologies, including augmented reality and modular design. Whether these
+technologies will increase labor demand, employment, and wages is an
+open and important question that needs to be investigated using a number of approaches.
+
+References
+Acemoglu, Daron, Philippe Aghion, Claire Lelarge, John Van Reenen, and
+Fabrizio Zilibotti. 2007. “Technology, Information and the Decentralization
+of the Firm.” Q. J.E. 122 (4): 1759–99.
+Acemoglu, Daron, and David Autor. 2011. “Skills, Tasks and Technologies: Implications for Employment and Earnings.” In Handbook of Labor Economics, vol. 4B,
+edited by David Card and Orley Ashenfelter, 1043–171. Amsterdam: NorthHolland.
+Acemoglu, Daron, David Autor, David Dorn, Gordon H. Hanson, and Brendan
+Price. 2016. “Import Competition and the Great US Employment Sag of the
+2000s.” J. Labor Econ. 34 (S1): S141–S198.
+Acemoglu, Daron, David Autor, and David Lyle. 2004. “Women, War, and Wages:
+The Effect of Female Labor Supply on the Wage Structure at Midcentury.”
+J.P.E. 112 (3): 497–551.
+Acemoglu, Daron, and Pascual Restrepo. 2018a. “Demographics and Automation.” Working Paper no. 24421, NBER, Cambridge, MA.
+———. 2018b. “Modeling Automation.” American Econ. Assoc. Papers and Proc.
+108:48–53.
+———. 2018c. “The Race between Machine and Man: Implications of Technology for Growth, Factor Shares and Employment.” A.E.R. 108 (6): 1488–542.
+———. 2019a. “Artificial Intelligence, Automation, and Work.” In The Economics of
+Intelligence: An Agenda, edited by Ajay Agrawal, Joshua Gans, and Avi Goldfarb,
+197–236. Chicago: Univ. Chicago Press (for NBER).
+———. 2019b. “Automation and New Tasks: How Technology Displaces and Reinstates Labor.” J. Econ. Perspectives 33 (2): 3–30.
+Anderson, James. 1979. “A Theoretical Foundation for the Gravity Equation.”
+A.E.R. 69 (1): 106–60.
+Armington, Paul S. 1969. “A Theory of Demand for Products Distinguished by
+Place of Production.” Staff Papers Internat. Monetary Fund 16 (1): 159–78.
+Arntz, Melanie, Terry Gregory, and Ulrich Zierahn. 2016. “The Risk of Automation for Jobs in OECD Countries.” OECD Social, Employment, and Migration
+Paper no. 189, Org. Econ. Cooperation and Development, Paris.
+Autor, David H., and David Dorn. 2013. “The Growth of Low-Skill Service Jobs
+and the Polarization of the U.S. Labor Market.” A.E.R. 103 (5): 1553–97.
+Autor, David H., David Dorn, and Gordon H. Hanson. 2013. “The China Syndrome: Local Labor Market Effects of Import Competition in the United
+States.” A.E.R. 103 (6): 2121–68.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+000
+
+journal of political economy
+
+———. 2015. “Untangling Trade and Technology: Evidence from Local Labor
+Markets.” Econ. J. 125 (584): 621–46.
+Autor, David H., Frank Levy, and Richard J. Murnane. 2003. “The Skill Content
+of Recent Technological Change: An Empirical Exploration.” Q. J.E. 118 (4):
+1279–333.
+Bartel, Ann, Casey Ichniowski, and Kathryn Shaw. 2007. “How Does Information
+Technology Affect Productivity? Plant-Level Comparisons of Product Innovation, Process Improvement, and Worker Skills.” Q. J.E. 122 (4): 1721–58.
+Bartik, Timothy J. 1991. Who Benefits from State and Local Economic Development Policies? Kalamazoo, MI: W. E. Upjohn Inst.
+BCG (Boston Consulting Group). 2015. “The Robotics Revolution: The Next
+Great Leap in Manufacturing.” Tech. report, Boston Consulting Group.
+Beaudry, Paul, Mark Doms, and Ethan Lewis. 2006. “Endogenous Skill Bias in
+Technology Adoption: City-Level Evidence from the IT Revolution.” Working
+Paper no. 12521, NBER, Cambridge, MA.
+Belloni, Alexandre, Victor Chernozhukov, and Christian Hansen. 2014. “HighDimensional Methods and Inference on Structural and Treatment Effects.”
+J. Econ. Perspectives 28 (2): 29–50.
+Bloom, Nicholas, Mirko Draca, and John Van Reenen. 2016. “Trade Induced
+Technical Change? The Impact of Chinese Imports on Innovation, IT and Productivity.” Rev. Econ. Studies 83 (1): 87–117.
+Borusyak, Kirill, Peter Hull, and Xavier Jaravel. 2018. “Quasi-experimental ShiftShare Research Designs.” Working Paper no. 24997, NBER, Cambridge, MA.
+Brynjolfsson, Erik, and Andrew McAfee. 2014. The Second Machine Age: Work, Progress, and Prosperity in a Time of Brilliant Technologies. New York: W. W. Norton.
+Caroli, Eve, and John Van Reenen. 2001. “Skill Biased Organizational Change?
+Evidence from a Panel of British and French Establishments.” Q. J.E. 116
+(4): 1449–92.
+Chetty, Raj, Adam Guren, Day Manoli, and Andrea Weber. 2011. “Are Micro and
+Macro Labor Supply Elasticities Consistent? A Review of Evidence on the Intensive and Extensive Margins.” A.E.R. 101 (3): 471–75.
+Curtis, Charlotte. 1983. “Machines vs. Workers.” New York Times, February 8.
+Goos, Maarten, and Alan Manning. 2007. “Lousy and Lovely Jobs: The Rising
+Polarization of Work in Britain.” Rev. Econ. and Statis. 89 (1): 118–33.
+Graetz, Georg, and Guy Michaels. 2018. “Robots at Work.” Rev. Econ. and Statis.
+100 (5): 753–68.
+Feenstra, Robert C., and Gordon H. Hanson. 1999. “The Impact of Outsourcing
+and High-Technology Capital on Wages: Estimates for the United States,
+1979–1990.” Q. J.E. 114 (3): 907–40.
+Ford, Martin. 2015. The Rise of the Robots. New York: Basic Books.
+Frey, Carl B., and Michael A. Osborne. 2013. “The Future of Employment: How
+Susceptible Are Jobs to Computerisation?” Working paper, Oxford Martin
+School, Oxford.
+Goldsmith-Pinkham, Paul, Isaac Sorkin, and Henry Swift. 2018. “Bartik Instruments: What, When, Why, and How.” Working Paper no. 24408, NBER, Cambridge, MA.
+Gregory, Terry, Anna Salomons, and Ulrich Zierahn. 2016. “Racing With or
+Against the Machine? Evidence from Europe.” ZEW Working Paper no. 16053, Leibniz Centre European Econ. Res., Mannheim.
+Groover, Mikell, Mitchell Weiss, Roger N. Nagel, and Nicholas G. Odrey. 1986. Industrial Robotics: Technology, Programming, and Applications. New York: McGraw-Hill.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+robots and jobs
+
+000
+
+Head, Keith, and Thierry Mayer. 2014. “Gravity Equations: Workhorse, Toolkit,
+and Cookbook.” In Handbook of International Economics, vol. 4, edited by Gita
+Gopinath, Elhanan Helpman, and Kenneth Rogoff, 131–95. Amsterdam:
+North-Holland.
+IFR (International Federation of Robotics). 2014. “World Robotics: Industrial
+Robots.” Tech. report, Internat. Fed. Robotics, Frankfurt.
+Imbens, Guido W., Donald B. Rubin, and Bruce I. Sacerdote. 2001. “Estimating
+the Effect of Unearned Income on Labor Earnings, Savings, and Consumption: Evidence from a Survey of Lottery Players.” A.E.R. 91 (4): 778–94.
+Jägger, Kirsten. 2016. “EU KLEMS Growth and Productivity Accounts 2016 Release: Description of Methodology and General Notes.” Tech. report, Conference Board, New York.
+Katz, Lawrence F., and Kevin M. Murphy. 1992. “Changes in Relative Wages,
+1963–1987: Supply and Demand Factors.” Q. J.E. 107 (1): 35–78.
+Keynes, John Maynard. 1931. “Economic Possibilities for Our Grandchildren.”
+In Essays in Persuasion, 358–74. London: Macmillan.
+Leigh, Nancey Green, and Benjamin R. Kraft. 2018. “Emerging Robotic Regions
+in the United States: Insights for Regional Economic Evolution.” Regional
+Studies 52 (6): 804–15.
+Li, Guoying. 1985. “Robust Regression.” In Exploring Data Tables, Trends, and
+Shapes, edited by David C. Hoaglin, Frederick Mosteller, and John W. Tukey,
+281–343. Hoboken, NJ: Wiley.
+McKinsey Global Institute. 2017. “A Future That Works: Automation, Employment, and Productivity.” Tech. report, McKinsey Global Inst., New York.
+Michaels, Guy, Ashwini Natraj, and John Van Reenen. 2014. “Has ICT Polarized
+Skill Demand? Evidence from Eleven Countries over Twenty-Five Years.” Rev.
+Econ. and Statis. 96 (1): 60–77.
+Moretti, Enrico. 2011. “Local Labor Markets.” In Handbook of Labor Economics,
+vol. 4B, edited by Orley Ashenfelter and David Card, 1237–313. Amsterdam:
+North-Holland.
+Oberfield, Ezra, and Devesh Raval. 2014. “Micro Data and Macro Technology.”
+Working Paper no. 20452, NBER, Cambridge, MA.
+Ruggles, Steven, Matthew Sobek, Trent Alexander, Catherine A. Fitch, Ronald
+Goeken, Patricia Kelly Hall, Miriam King, and Chad Ronnander. 2010. “Integrated Public Use Microdata Series: Version 3.0 [dataset].” Minneapolis: Univ.
+Minnesota.
+Simonovska, Ina, and Michael E. Waugh. 2014. “The Elasticity of Trade: Estimates and Evidence.” J. Internat. Econ. 92 (1): 34–50.
+Tolbert, Charles M., and Molly Sizer. 1996. “US Commuting Zones and Labor
+Market Areas: A 1990 Update.” ERS Staff Paper no. AGES-9614, Econ. Res.
+Service, US Dept. Agriculture, Washington, DC.
+World Bank. 2016. “World Development Report 2016: Digital Dividends.” Report, World Bank, Washington, DC.
+Wright, Greg C. 2014. “Revisiting the Employment Impact of Offshoring.” European Econ. Rev. 66:63–83.
+Zeira, Joseph. 1998. “Workers, Machines, and Economic Growth.” Q. J.E. 113 (4):
+1091–117.
+
+This content downloaded from 018.010.087.049 on May 04, 2020 10:58:04 AM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+

@@ -1,0 +1,1000 @@
+American Economic Association
+
+Productivity Growth, Technical Progress, and Efficiency Change in Industrialized Countries:
+Comment
+Author(s): Subhash C. Ray and Evangelia Desli
+Source: The American Economic Review, Vol. 87, No. 5 (Dec., 1997), pp. 1033-1039
+Published by: American Economic Association
+Stable URL: http://www.jstor.org/stable/2951340 .
+Accessed: 17/07/2014 05:55
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at .
+http://www.jstor.org/page/info/about/policies/terms.jsp
+
+.
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide range of
+content in a trusted digital archive. We use information technology and tools to increase productivity and facilitate new forms
+of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+.
+
+American Economic Association is collaborating with JSTOR to digitize, preserve and extend access to The
+American Economic Review.
+
+http://www.jstor.org
+
+This content downloaded from 82.34.208.77 on Thu, 17 Jul 2014 05:55:02 AM
+All use subject to JSTOR Terms and Conditions
+
+ProductivityGrowth,Technical Progress, and EfficiencyChange
+in IndustrializedCountri'es:Comment
+By SUBHASH C. RAY AND EVANGELIA DESLI *
+In a recent issue of this Review, Rolf Fare
+et al. (FGNZ) (1994) analyzed the rates of
+productivity growth over the period 19791988 in 17 OECD countries. They used Data
+Envelopment Analysis to measure Malmquist
+productivity indices for the individual countries by the ratio of the values of the output
+distance functions for a reference technology
+exhibiting constant returns to scale (CRS) at
+the input-output bundles of the same country
+observed in adjacent years. The Malmquist
+index is first decomposed into two factors:
+one showing technical change and the other,
+changes in technical efficiency, which can be
+interpreted as "catching up." The "catching
+up" term is further factored into two terms:
+one representing pure technical efficiency
+change and the other, changes in scale efficiency. This extended decomposition conceptualizes a technology characterized by
+variable returnsto scale (VRS) .' Their use of
+CRS and VRS within the same decomposition
+of the Malmquist index raises a problem of
+internal consistency. Their technical change
+(TECHCH) measure corresponds to shifts
+over time in the CRS frontier. The other
+factors-pure efficiency change (PEFFCH)
+and scale efficiency change (SCH) -are derived from VRS frontiers from two different
+periods, however. If CRS is assumed to hold,
+the TECHCH term correctly shows the shift
+in the frontier. But, under CRS no scale effect
+exists at all. Hence, the extended decomposition is misleading. On the other hand, if
+
+the VRS assumption is correct, FGNZ's
+TECHCH does not show how the maximum
+producible output changes due to technical
+change holding the input bundle constant. In
+other words, it does not measure the autonomous shift in the frontier. As we show below,
+the Malmquist productivity index is correctly
+measured by the ratio of CRS distance functions even when the technology exhibits variable returns to scale. Thus, we measure the
+productivity index itself the same way as
+FGNZ do. There are alternative ways to decompose the same Malmquist index, which,
+in empirical applications, lead to different
+conclusions about technical change and efficiency change experienced by individual
+countries. We propose a decomposition using
+a VRS frontier as the benchmark. We measure technical change by the ratio of VRS distance functions. While this affects the
+measured value of the scale efficiency
+change, the pure technical efficiency change
+measure remains unaffected. In our empirical
+application, we use data from an updated version of the Penn World Tables (PWT 5.6).2
+This allows the use of two additional years1989 and 1990. In the remainder of this paper, we highlight the problem of internal
+consistency in FGNZ's decomposition and
+propose an alternative procedure. The empirical application demonstrates how consistent
+use of the VRS assumption leads one to significantly different conclusions.
+
+* Department of Economics, Box U-63, University of
+Connecticut, 341 Mansfield Road, Storrs, CT 06269. The
+authors thank Stephen M. Miller and an anonymous referee for valuable comments. The usual disclaimer applies.
+'Decomposition of the Malmquist productivity index
+as defined by Douglas W. Caves et al. (1982a, b) into
+technical change and "catching up" was introduced by
+Fare et al. (1992). The extended decomposition is due to
+Fare et al. (1994).
+
+2 The Penn World Tables (PWT) were constructedby
+Robert Summers and Alan Heston, who have periodically
+updated these tables. Currently, the latest version of the
+PWT can be accessed throughthe internetfrom the public
+domain library of the National Bureau of Economic Research (NBER) at Harvard.Summers and Heston (1991)
+provides a discussion of how the PWT data were
+constructed.
+1033
+
+This content downloaded from 82.34.208.77 on Thu, 17 Jul 2014 05:55:02 AM
+All use subject to JSTOR Terms and Conditions
+
+1034
+
+THE AMERICANECONOMICREVIEW
+
+DECEMBER 1997
+
+Thus, a productivity index for this firm at
+time t + 1, with period t treated as the base,
+will be
+
+Under CRS, however, all radial expansion
+and (nonnegative) contraction of feasible
+input-output bundles are also feasible. Thus,
+the CRS production possibility set in period
+0 is the cone formed by the horizontal axis
+and the ray ORothrough the point CO.Similarly, the VRS frontier in period 1 is the broken line E1B1C1D1-extension and the CRS
+frontier is the ray OR, through the point Cl.
+In period 0, the maximum producible output
+from input Oxo is Poxo under the CRS assumption and Toxo under the VRS assumption. The distance functions are
+
+(2)
+
+(4)
+
+I. The Nonparametric Methodology
+
+Consider, for simplicity, a single outputsingle input industry. Let x4 and yk represent
+the input and outputquantitiesof firmk at time
+t. The average productivity (AP)3 of this firm
+at time t is
+(1)
+
+APt = Yt/
+
+nk=
+
+/APk
+
+APt
+(ytk+
+
+1
+
+Xkt+ 1)I/(ykt
+
+/k)
+
+(3)
+
+Do(x1, yl) = Alxl /P1x
+
+X
+
+This productivity index itself does not in
+any way depend on assumptions about returns
+to scale. In order to identify the sources of
+productivity change, however, we need a
+benchmark technology. The returns-to-scale
+assumptions become important in the definition of the benchmark technology. This is
+shown diagrammaticallyin Figure 1. Consider
+an industry consisting of four firms-A, B,
+C, and D. Points Ao through Do in Figure 1
+show the observed input-outputlevels of these
+firms in period 0. Similarly, A1 through D,
+show their input-output levels in period 1.
+Firm A uses input Oxoto produce output Aoxo
+in period 0 and input Ox, to produce output
+AIxI in period 1. Thus, the productivity index
+for firm A in period 1 is
+nA = (AIx1 /Ox, ) /(Aoxo/Oxo).
+
+By convexity, all points in the convex hull
+of the points Ao, Bo, CO,and Do (i.e., all convex combinations of these points) represent
+feasible input-output combinations in period
+0. The free disposal convex hull is the set of
+points bounded by the horizontal axis and
+the broken line EOBOCODO-extension.
+Under
+VRS, all points in this region represent feasible input-output combinations in period 0.
+
+3 In the multiple-input, multiple-output case the concept of average productivity does not apply. Hence all of
+our results cannot necessarily be generalized.
+
+D?(xo, yo) = Aoxo/Poxo
+
+under CRS, and
+(5)
+
+DO(xO,yo) = Aoxo/ Toxo
+DO(x1, yi) = Aix / Tlxl
+
+under VRS. The productivity index of firm A
+can be expressed alternatively
+(6)
+
+no = Do(x1, yl) /Do(xo, Yo),
+nl = D
+
+y1) /D'(xo, Yo)
+'(xi,
+Clearly, the productivity index is equivalent
+to the ratio of the CRS distance functions
+even if the technology was not characterized
+by constant returns to scale. Compare, now,
+the CRS and the VRS frontiers in period 0.
+Along the CRS frontier, the average productivity remains constant. But this is not the
+case along the VRS frontier. Both To and T1
+are points on the frontier and are, therefore,
+technically efficient. Average productivity at
+To, however, is higher than the average productivity at T1. In fact, the point of highest
+average productivity along the VRS frontier
+in period 0 is C0. This corresponds to what
+Rajiv D. Banker (1984) and Banker et al.
+(1984) call the most productive scale size
+(MPSS). The average productivity at the
+MPSS of the VRS frontier is equal to the constant average productivity at any point on the
+CRS frontier. The scale efficiency at any
+(7)
+
+This content downloaded from 82.34.208.77 on Thu, 17 Jul 2014 05:55:02 AM
+All use subject to JSTOR Terms and Conditions
+
+VOL. 87 NO. 5
+
+RAYAND DESLI: PRODUCTIVITYGROWTH,COMMENT
+
+1035
+
+.RI
+
+output (y)
+
+QS/
+
+DI
+
+'U1
+
+I
+
+PP
+
+C
+
+,T,~~~T
+
+x
+x"
+
+j
+
+Bo
+
+Ee
+
+0l
+
+input(x)
+
+FiGURE 1. THE VRS AND CRS PRODUcTIONPOSSIBILITYSETS
+
+point on the frontier is measured by the ratio
+of the average productivity at that point to the
+average productivity at the MPSS. Thus,
+(8)
+
+SE0(xo,yo) =D5O(xo,yo)/DO(xo,yo),
+
+(9 )
+
+SE?(xl,yl ) =
+
+[DS?(xl, y1) D (xl y1 ) 11/2
+
+(12 'IA = [Dv(xo, yo) DI(xo, yo)
+SE?(xl , yl ) SE I(xi, yl )
+L SEO(xo,yo) SE'(xo, yo)
+
+Do(xi,
+
+yl)I/Du?(xI
+
+l,y) .
+
+Hence, the productivity index, VA, can be expressed alternativelyas
+
+The first factor on the right-hand side can be
+furtherdecomposed as
+E
+
+( 10)
+
+oD?(xl,
+
+DO(x Yl)DJ(xl, yl)
+
+1/2
+
+Yl ) SE?(xl, yl )
+
+HA = D?(xo, yo) SE0(xo, yo)
+
+D DV(x1
+
+xyo)
+
+D l(xo, yo)
+
+i
+
+I/2
+
+go,
+( y, ) SE
+mt(xo
+
+Using the geometric mean,
+
+yo)
+
+XD' (xl, yl )
+DVO(XO,Yo)
+
+This content downloaded from 82.34.208.77 on Thu, 17 Jul 2014 05:55:02 AM
+All use subject to JSTOR Terms and Conditions
+
+D l(xl,
+
+yl )
+
+1036
+
+THE AMERICANECONOMICREVIEW
+
+Thus,
+(13)
+
+DECEMBER 1997
+
+autonomous shift in the production function
+over time holding the input bundle constant
+(Robert G. Chambers, 1988 p. 205). FGNZ's
+measure of technical change is
+
+nIA = (TECHCH(v))
+
+x (PEFFCH) (SCH (v)),
+(17)
+
+where
+(14)
+
+(16)
+
+Qoxo Q1x11/2
+LPoxo PIx1
+
+J
+
+TECHCH(v)
+D0(xvOYO)Do (xl, yl/)
+
+(15)
+
+TECHCH=
+
+PEFFCH=
+
+2
+
+.
+
+SCH(v)
+SE0(xl,yl) SE1(xl,yl)
+_ SE?(xo, yo) SEl(xo, yo)
+
+1/2
+
+This decomposition of the Malmquist productivity index is quite different from the extended decomposition performed by FGNZ.4
+The only factor which is identical is PEFFCH.
+As for the technical change factor, ours is a
+geometric mean of the ratios of VRS distance
+functions whereas FGNZ measure technical
+change by the geometric mean of the ratios of
+CRS distance functions. Also, the other factor
+relating to scale efficiency change differs in
+the two decompositions. FGNZ's scale change
+factor (SCH) is simply the ratio of the scale
+efficiencies of the bundles (x0, yo) and (xl, Yl)
+using own-period VRS technologies as the
+benchmark. Our measure, SCH(v), is a geometric mean of the ratios of scale efficiencies
+of the two bundles using in turnthe VRS technologies from the two periods as the benchmark. In that sense, it is more in the spirit of
+a Fisher index.
+A closer look at Figure 1 will reveal why
+the extended decomposition performed by
+FGNZ is not internally consistent. In standard
+theory technical change is measured by the
+
+C. A. Knox Lovell and Emili Grifell-Tatje(1994) derived this decomposition in a different way. However, they
+call this a generalized Malmquist index.
+
+This correctly measures technical change
+when constant returns to scale holds. But in
+that case, the VRS frontiersdo not characterize
+the technologies in the two periods any more.
+In fact, the points To and T, are interiorpoints
+in period 0. Similarly, points Uo and U1 are
+interior points in period 1. Obviously, under
+CRS there is, by definition, no scale inefficiency. Thus the decomposition of the "catch
+up" factor into pure efficiency change and
+scale efficiency change is inappropriate.
+Now assume, instead, that VRS (ratherthan
+CRS) holds. In this case, the rate of technical
+change at the input bundle x0 is measured by
+the shift of the VRS frontierfrom Toto U0and
+not by the shift in the CRSfrontier from POto
+Q0. Similar reasoning applies to the measurement of technical change at the input level x,.
+By looking at the shift in the CRS frontier,
+FGNZ are actually comparing point C0on the
+VRS frontier in period 0 with point Cl on the
+VRS frontier in period 1. Because these two
+points correspondto two different input levels,
+differences in the output levels between them
+reflect not only technical change but also
+returns-to-scaleeffect. On the other hand,
+
+(18)
+
+[Uoxo U1x1 11/2
+
+TECHCH(v)=- T0x0 Tlxl
+
+is a geometric mean of the shifts in the VRS
+frontier at the two input levels and correctly
+measures technical change between the two
+periods.
+It should be emphasized here that although
+the scale efficiency term involves both CRS
+and VRS distance functions, it only uses a
+point like P0 on what would have been the
+CRS frontier merely as an artifact in order to
+measure the difference in average productivity
+between the points To and C0, both of which
+are on the VRS frontier. We do not need to
+assume that a point like P0 is feasible. Point
+
+This content downloaded from 82.34.208.77 on Thu, 17 Jul 2014 05:55:02 AM
+All use subject to JSTOR Terms and Conditions
+
+VOL. 87 NO. 5
+
+RAYAND DESLI: PRODUCTIVITYGROWTH,COMMENT
+
+1037
+
+TABLE 1-MALMQUIST PRODUCTIVITY
+INDEXAND ITS DECOMPOSITION
+
+Annual averages (1979-1990)
+Country
+
+Malmquist index
+
+Technical change index
+
+Technical efficiency index
+
+Scale efficiency index
+
+Australia
+
+0.97823
+
+0.97576
+
+0.99903
+
+1.00350
+
+Austria
+
+0.96045
+
+0.99328
+
+0.99949
+
+0.96744
+
+Belgium
+
+1.02768
+
+1.02488
+
+1.00295
+
+0.99978
+
+Canada
+
+1.00537
+
+1.02880
+
+1.00361
+
+0.97371
+
+Denmark
+
+1.01436
+
+0.95548
+
+0.99755
+
+1.03183
+
+Finland
+
+1.03204
+
+1.01939
+
+1.01070
+
+1.00169
+
+France
+
+0.99884
+
+0.99839
+
+1.00113
+
+0.99932
+
+Gernany
+
+1.03187
+
+1.00426
+
+0.99659
+
+1.03101
+
+Greece
+
+1.00036
+
+1.00120
+
+0.99806
+
+1.00111
+
+Ireland
+
+0.97026
+
+infeasible solution
+
+1.00000
+
+infeasible solution
+
+Italy
+
+0.97862
+
+1.00501
+
+1.00481
+
+0.96908
+
+Japan
+
+1.00981
+
+1.01340
+
+1.00030
+
+0.99616
+
+Norway
+
+1.01095
+
+1.03674
+
+1.0000
+
+0.97513
+
+Spain
+
+0.97562
+
+1.01210
+
+0.99704
+
+0.96681
+
+Sweden
+
+0.98193
+
+0.98588
+
+0.99998
+
+0.99601
+
+United Kingdom
+
+1.00811
+
+0.99830
+
+1.00000
+
+1.00983
+
+United States
+
+0.94445
+
+1.00576
+
+1.00000
+
+0.93904
+
+Sample average'
+
+0.99582
+
+1.00367
+
+1.00066
+
+0.99134
+
+a
+
+The sample mean is the geometric mean.
+
+COlying on the VRS frontieris feasible,how- estimates an appropriatelyspecified parametric
+form of the distance functions, the problem of
+ever. Because our analysis assumes VRS
+throughout,
+thetechnicalchangefactoris quite infeasibility should not arise.6
+consistentwithpureefficiencychangeandour
+scale changefactor.
+II. The EmpiricalAnalysis
+The own- and cross-periodoutput-oriented
+distancefunctionscan be obtainedby solving
+Like FGNZ (1994), we also consider a sinproblems gle output-twoinputproductiontechnology and
+the appropriate
+linearprogramming
+specified by FGNZ [their problem(17) on treateach of the 17 OECD countriesin the sampage751. It shouldbe notedthatundertheVRS ple as an individualdecision-makingunit. Outproblems put is measured by the real GDP of a country
+assumption,someof thecross-period
+maynot havefeasiblesolutions.5Thisis a limitationof theDEAapproachandnotof theproposed decomposition.If one econometrically
+'For example, we used Dennis Aigner and S. F. Chu's
+
+5 In our application, this happens for Ireland.The problem of infeasibility is addressedin details by Ray and Kankana Mukherjee (1996).
+
+(1968) linear programmingapproachto estimate translog
+production frontiers for 1983 and 1984 under VRS assumption. For these two years the cross-period technical
+efficiency levels for Ireland were 0.9693 when the 1983
+data were used against the 1984 frontier, and 1.0319 when
+1984 data were evaluated against the 1983 frontier.
+
+This content downloaded from 82.34.208.77 on Thu, 17 Jul 2014 05:55:02 AM
+All use subject to JSTOR Terms and Conditions
+
+DECEMBER 1997
+
+THE AMERICANECONOMICREVIEW
+
+1038
+
+TABLE 2-MALMQUIST PRODUCTIVITY
+INDEXAND ITS FGNZ DECOMPOSITION
+
+Annual averages (1979-1990)
+Country
+
+Malmquist index
+
+Technical change index
+
+Technical efficiency index
+
+Scale efficiency index
+
+Australia
+
+0.97823
+
+0.97775
+
+0.99903
+
+1.00169
+
+Austria
+
+0.96045
+
+0.96456
+
+0.99949
+
+0.99624
+
+Belgium
+
+1.02768
+
+1.02273
+
+1.00295
+
+1.00188
+
+Canada
+
+1.00537
+
+1.00088
+
+1.00361
+
+1.00087
+
+Denmark
+
+1.01436
+
+1.00999
+
+0.99755
+
+1.00679
+
+Finland
+
+1.03204
+
+1.01663
+
+1.01070
+
+1.00441
+
+France
+
+0.99884
+
+0.99748
+
+1.00113
+
+1.00023
+
+Germany
+
+1.03187
+
+1.03516
+
+0.99659
+
+1.00024
+
+Greece
+
+1.00036
+
+1.00082
+
+0.99806
+
+1.00148
+
+Ireland
+
+0.97026
+
+0.96390
+
+1.00000
+
+1.00659
+
+Italy
+
+0.97862
+
+0.97380
+
+1.00481
+
+1.00014
+
+Japan
+
+1.00981
+
+1.00127
+
+1.00030
+
+1.00822
+
+Norway
+
+1.01095
+
+1.00605
+
+1.00000
+
+1.00488
+
+Spain
+
+0.97562
+
+0.97822
+
+0.99704
+
+1.00030
+
+Sweden
+
+0.98193
+
+0.97956
+
+0.99998
+
+1.00245
+
+United Kingdom
+
+1.00811
+
+1.00810
+
+1.00000
+
+1.00000
+
+United States
+
+0.94445
+
+0.94454
+
+1.00000
+
+1.00000
+
+Sample averagea
+
+0.99582
+
+0.99303
+
+1.00066
+
+1.00214
+
+a
+
+The sample mean is the geometric mean.
+
+in U.S. dollars.The two inputsare laborand
+capital.This study covers the period 19791990. Table 1 reportsthe annual(geometric)
+averagesof the year-to-yearMalmquistproductivityindexesalongwiththeVRS-baseddecomposition.For comparison,we show the
+decompositionfollowing FGNZ in Table 2.
+Theoverallaverageof theCRS-basedtechnical
+changeindexwas 0.99303.Thisimpliesa very
+slight rate of technicalregress.On the other
+hand, the average of VRS-based technical
+change was 1.00367 showing technicalprogressat therateof 0.37 percentperyear.Based
+on shifts in the CRS frontierone would conclude thatthe UnitedStatesexperiencedtechnicalregressat therateof 5.5 percentannually.
+But the VRS decompositionshows technical
+progressat the rate of 0.58 percentper year.
+Similarly,for Italy and Spain,the FGNZde-
+
+compositionshowstechnicalregressat therate
+of over 2 percentper annum.But the VRSshowsthatbothcountries
+baseddecomposition
+experienced technical progress- Italy at a
+nominalrateof 0.5 percentandSpainata more
+noticeablerateof 1.21 percentper year.Also,
+Table 1 shows that scale efficiencydeclined,
+whileTable2 pointstowardanincreasein scale
+efficiencyfor these countries.In the case of
+Denmark,Table 1 shows technical regress,
+whiletechnicalprogressis foundfromTable2.
+For Canada,while both tablesshow technical
+shows
+progress,the VRS-baseddecomposition
+a muchhigherannualrate(2.88 percent)than
+the CRS-baseddecomposition(0.88 percent).
+ForJapan,also therateof technicalprogressis
+foundto be muchhigher(1.3 percent)under
+the VRS assumptioncomparedto a modest
+0.12 percentunderCRSassumption.
+
+This content downloaded from 82.34.208.77 on Thu, 17 Jul 2014 05:55:02 AM
+All use subject to JSTOR Terms and Conditions
+
+VOL. 87 NO. 5
+
+RAYAND DESLI: PRODUCTIVITYGROWTH,COMMENT
+
+A country contributes to an outward shift in
+the world frontier only if its observed inputoutput combination lies: (a) outside the frontier for the previous period, and (b) on the
+frontierfor the currentperiod. By FGNZ's criterion, only the United Kingdom and the
+United States are found to have pushed the
+frontier forward over the sample period. Our
+approach,on the other hand, shows thatin several years Norway, in conjunction with the
+United Kingdom and/or the United States, has
+contributed positively to technical progress.
+Moreover, in the very last period, Norway
+alone accounted for the shift in the frontier.
+III. Conclusion
+In this paper we provide an alternative decomposition of the Malmquist productivityindex which avoids the problem of internal
+consistency encountered in FGNZ's extended
+decomposition. Remarkably different conclusions follow when one consistently uses a
+VRS technology as a benchmark.
+REFERENCES
+Aigner,Dennis and Chu, S. F. "On Estimating
+the Industry Production Function." American Economic Review, September 1968,
+58(4), pp. 826-29.
+Banker,RajivD. "Estimating Most Productive
+Scale Size Using Data Envelopment Analysis." European Journal of Operational
+Research, July 1984, 17(1), pp. 35-44.
+Banker,RajivD.; Charnes,A. and Cooper,W. W.
+"Some Models for Estimating Technical
+and Scale Inefficiencies in Data Envelopment Analysis." Management Science,
+September 1984, 30(9), pp. 1078-92.
+Caves, DouglasW.; Christensen,LauritsR. and
+Diewert, W. Erwin. "Multilateral Compari-
+
+1039
+
+son of Output, Input, and Productivity Using SuperlativeIndex Numbers." Economic
+Journal, March 1982a, 92(365), pp. 7386.
+'_'The.
+Economic Theory of Index
+Numbers and the Measurement of Input,
+Output, and Productivity." Econometrica,
+November 1982b, 50(6), pp. 1393-1414.
+Chambers,RobertG. Applied production analysis: A dual approach. Cambridge: Cambridge University Press, 1988.
+Fare, Rolf; Grosskopf,Shawna;Lindgren,Bjorn
+and Roos, Pontus. "Productivity Changes in
+Swedish Pharmacies 1980-1989: A NonParametricMalmquist Approach." Journal
+of Productivity Analysis, June 1992, 3(1 /
+2), pp. 85-101.
+Fare, Rolf; Grosskopf,Shawnaand Lovell,C. A.
+Knox. Production frontiers. Cambridge:
+Cambridge University Press, 1994.
+Fare,Rolf;Grosskopf,Shawna;Norris,Maryand
+Zhang, Zhongyang. "Productivity Growth,
+Technical Progress, and Efficiency Change
+in Industrialized Countries." American
+Economic Review, March 1994, 84(1), pp.
+66-83.
+Lovell, C. A. Knox and Grifell-Tatje,Emili. "A
+Generalized Malmquist Productivity Index." Paper presented at the Georgia Productivity Workshop at Athens, GA, October
+1994.
+Ray, Subhash C. and Mukherjee, Kankana.
+"Decomposition of the Fisher Ideal Index
+of Productivity: A Nonparametric Analysis of U.S. Airline Data." Economic Journal, November 1996, 106(439),
+pp.
+1659-78.
+Summers,Robertand Heston,Alan. "The Penn
+World Table (Mark 5): An Expanded Set
+of International Comparisons, 19501988." Quarterly Journal of Economics,
+May 1991, 106(2), pp. 327-68.
+
+This content downloaded from 82.34.208.77 on Thu, 17 Jul 2014 05:55:02 AM
+All use subject to JSTOR Terms and Conditions
+
+

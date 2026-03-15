@@ -1,0 +1,315 @@
+SUMÁRIOS
+
+A Zona Franca de Manaus tem
+impacto na eficiência da indústria?
+
+Políticas industriais têm como propósito estimular o desenvolvimento e o crescimento econômico, por
+meio do aumento da competitividade das firmas locais, e promover uma transformação estrutural. O
+desenho de políticas industriais que cumpram esses objetivos é, portanto, estratégico para o país. Na
+prática, no entanto, observa-se que muitas dessas políticas têm se traduzido em um elevado custo
+fiscal, sem que exista uma comprovação empírica acerca dos supostos efeitos benéficos.
+Uma política industrial comum a vários países é a zona franca, áreas nas quais empresas recebem
+incentivos fiscais para estimular o comércio e acelerar o desenvolvimento industrial de uma
+determinada região. No Brasil, a Zona Franca de Manaus (ZFM) foi criada há mais de meio século com
+o objetivo de desenvolver e dinamizar a indústria e a economia e contribuir para o desenvolvimento da
+região Norte.
+Esse modelo tem sido questionado em relação à sua eficiência. Em 2018, o Banco Mundial ressaltou
+que as políticas de apoio às empresas no Brasil apresentam resultados limitados e têm um custo fiscal
+elevado.1 De fato, são poucos os estudos que avaliam os resultados dos incentivos fiscais e extrafiscais
+para o desenvolvimento e industrialização da região.
+O presente trabalho, realizado por pesquisadores do Climate Policy Initiative/ Pontifícia Universidade
+Católica do Rio de Janeiro (CPI/ PUC-Rio), busca contribuir para esse debate, ao analisar o impacto
+da ZFM sobre a indústria brasileira, no que tange particularmente à eficiência produtiva (EP) e à
+eficiência energética (EE). Os pesquisadores observam que os níveis de eficiência da ZFM e do Brasil
+são semelhantes e permanecem estáveis ao longo do período analisado. Isso significa que, apesar
+do alto volume de renúncias fiscais concedidas às indústrias da ZFM, não existe um indicativo de
+contrapartida em termos de eficiência.
+Avaliar todas as indústrias agregadas pode não representar adequadamente as firmas dos setores
+mais importantes da região. Dessa maneira, foram analisados os setores mais expressivos da ZFM,
+em termos de recebimento de renúncia fiscal, de produção e de representatividade na força de
+trabalho. Como resultado, observou-se que a eficiência energética e produtiva de tais setores não
+indicou um comportamento diferente entre a ZFM e o Brasil. Ou seja, a operação das firmas na ZFM
+não se traduziu em um aumento na eficiência produtiva e energética nem nos casos dos setores mais
+expressivos da ZFM.
+
+1 Banco Mundial, 2018. “Emprego e Crescimento: A Agenda da Produtividade”.
+
+2
+
+PANORAMA DA ZONA FRANCA DE MANAUS
+Quando o governo aplica uma menor tributação em um setor industrial ou em uma região específica,
+uma distorção é gerada: as firmas beneficiadas podem prosperar e aumentar sua participação no
+mercado, mesmo não sendo as firmas mais eficientes. Nesse contexto, a ZFM se apresenta como uma
+política industrial especialmente interessante, uma vez que diversos incentivos fiscais são concedidos
+às firmas localizadas no Polo Industrial de Manaus (PIM). A finalidade de tais benefícios é manter os
+setores da região competitivos frente a regiões mais desenvolvidas do país e a empresas do exterior.
+A ZFM se divide em três polos: comercial, agropecuário e industrial, sendo o Polo Industrial de
+Manaus o principal. Desde a estruturação da ZFM, em 1967, uma das grandes críticas ao modelo é
+que as indústrias do PIM seriam montadoras de componentes importados. A fim de combater essa
+possibilidade, estabeleceu-se, em 1976, índices mínimos de nacionalização para produtos e limites
+máximos de importação de insumos. Essa medida, entretanto, foi posteriormente substituída pelo
+Processo Produtivo Básico (PPB), definido como o conjunto mínimo de operações que caracteriza a
+industrialização do produto em questão.2
+Os principais setores do PIM são o de Eletroeletrônicos, Duas Rodas, Informática, Químico,
+Termoplástico e Metalúrgico, que contam com diversos benefícios fiscais. Dentre os incentivos
+fiscais que as firmas podem receber destacam-se o desconto ao Imposto de Importação (II) e ao
+Imposto sobre a Circulação de Mercadorias e Serviços (ICMS); a isenção do Imposto sobre Produtos
+Industrializados (IPI), PIS/PASEP e COFINS.3
+Para a obtenção dos benefícios, a empresa requisitante deve atender a uma série de requisitos
+condicionados à sua atividade: os lucros obtidos devem ser reinvestidos na região; a produtividade
+e competitividade devem ser crescentes; deve haver incremento da oferta de emprego, e outros (em
+conformidade com o Processo Produtivo Básico).4
+Segundo a Receita Federal do Brasil (RFB), os gastos tributários estimados para a ZFM, Amazônia
+Ocidental (AO) e ALCs (Áreas de Livre Comércio) para os setores da indústria, agricultura, serviço
+e comércio, mais que duplicaram de 2010 a 2015. Atingiram, no ano de 2015, o patamar de R$ 27,8
+bilhões. Verificando somente o setor industrial da ZFM, os gastos tributários destinados apenas à ZFM
+para o ano de 2015 ultrapassaram o montante de R$ 6 bilhões.5
+Para realizar uma análise mais aprofundada da ZFM, foram avaliadas a eficiência energética e a
+produtiva de toda a ZFM. O intuito de verificar tais níveis é poder compará-los com o Brasil, para então
+entender se há indicativo de melhora na eficiência relacionado aos incentivos concedidos à região.
+Para medir a evolução desses indicadores, esse estudo toma como base os dados anuais para
+o período de 2003 a 2015 ao nível da firma industrial utilizando três fontes de dados: Pesquisa
+Industrial Anual (PIA), Relação Anual de Informações Sociais (RAIS) e tarifas industriais médias das
+distribuidoras.6 A partir da compilação dessas bases de dados, foi possível conhecer a evolução da
+eficiência produtiva e da eficiência energética para o Brasil e para a ZFM. O indicador de EE das firmas
+2 Brasileiro, V.M.M.. “Análise do trabalho desenvolvido pela SUDAM e pela SUFRAMA para o desenvolvimento da Amazônia”.
+Página 5. Disponível em: https://bit.ly/2miyfaG. Acesso em: 12 de setembro de 2019.
+3 Para o PIS/PASEP e COFINS, a isenção se dá apenas para entradas e vendas internas, por meio de alíquota zero.
+4 BRASIL. Lei n.º 8.387, de 30 de dez. de 1991.
+5 Foi desconsiderado do cálculo a ZFM e ALCs, referente às Alíquotas diferenciadas e às aquisições de mercadorias.
+6 Instituto Brasileiro de Geografia e Estatística (IBGE), Ministério da Economia e Agência Nacional de Energia Elétrica (ANEEL),
+respectivamente.
+
+3
+
+é definido utilizando o valor adicionado dividido pela quantidade de eletricidade, enquanto a eficiência
+produtiva corresponde ao valor adicionado da firma dividido pelo número de trabalhadores. A Figura 1
+apresenta tais indicadores para o período de 2003 a 2015.
+Figura 1: Evolução da eficiência produtiva e da energética para os setores industriais agregados do Brasil e da ZFM (2003 – 2015)
+
+Fonte: Climate Policy Initiative com dados da PIA, RAIS e ANEEL.
+
+Pela Figura 1 é possível observar que os níveis de eficiência energética e produtiva da ZFM e do Brasil
+são semelhantes e permanecem estáveis ao longo do período analisado. Apesar do alto volume
+de renúncias fiscais direcionados às empresas da ZFM, não há um indicativo de contrapartida em
+termos de eficiência. Dessa forma, a estabilidade da eficiência produtiva e energética da indústria de
+transformação brasileira também se aplica à ZFM, mesmo inseridos em um contexto de disparidades
+de benefícios fiscais.
+
+4
+
+ESTIMATIVA DA RENÚNCIA FISCAL
+Como previamente apresentado, as eficiências – produtiva e energética – do Brasil e da ZFM possuem
+o mesmo padrão e são semelhantes. Isso indica que, apesar da atratividade fiscal inerente à ZFM, a
+indústria de transformação dessa região possui uma realidade similar à indústria brasileira em relação
+aos níveis de eficiência. Assim, a similaridade desses indicadores de eficiências, inseridos em um
+contexto de diferenças no recebimento de benefícios fiscais, reflete a necessidade de uma análise
+desagregada para melhor compreender a dinâmica setorial.
+Com a finalidade de avaliar se os setores que mais recebem benefícios fiscais na ZFM possuem
+padrões diferentes de toda a indústria agregada, comparativamente ao Brasil, as isenções por setor
+foram estimadas. A fim de realizar a estimação ao nível setorial, a proporção das deduções em relação
+à receita foi calculada para o Brasil desconsiderando-se a ZFM. Com essa alíquota, é possível calcular
+a diferença entre o que cada setor da ZFM efetivamente já pagou de dedução com o que teria pago se
+não estivesse na ZFM (alíquota calculada multiplicada pela receita na ZFM). Com essa subtração é
+possível recuperar o valor da renúncia fiscal de cada setor da ZFM em relação ao Brasil.
+A Tabela 1 mostra a participação de cada setor no valor total de renúncia que a ZFM tem a mais que o
+restante do país. Além disso, são apresentados os setores com as maiores participações na produção
+total da ZFM e a maior concentração da força de trabalho na ZFM em comparação com o país.
+Em 2015, de todo o incentivo fiscal que é direcionado a mais para a ZFM, dois setores se destacaram:
+duas rodas e áudio e vídeo. Do total de renúncia fiscal estimada que a ZFM possuía, estes setores
+foram responsáveis por receber, respectivamente, 27% e 16% desse montante. Quanto à produção,
+o setor de duas rodas foi responsável por 15% de todo o valor bruto da produção industrial da ZFM,
+enquanto o setor de áudio e vídeo, 13%. Quanto à expressividade na força de trabalho, de todas as
+unidades locais do setor de áudio e vídeo do Brasil, 24% estão concentradas na ZFM; assim como
+o setor de duas rodas da ZFM é o responsável por empregar 56% de todo o pessoal ocupado que
+trabalha nesse setor no Brasil.
+Tabela 1: Setores mais expressivos da ZFM quanto a isenção fiscal, produção e força de trabalho para o ano de 2015
+Incentivos
+fiscais (%)
+
+Produção (%)
+
+Renúncias fiscais
+estimadas
+
+Valor bruto
+da produção
+industrial
+
+Proporção das
+unidades locais
+da ZFM
+
+Proporção
+do total de
+pessoal ocupado
+da ZFM
+
+Duas rodas
+
+27
+
+15
+
+18
+
+56
+
+Áudio e vídeo
+
+16
+
+13
+
+24
+
+42
+
+Bebidas não alcoólicas
+
+8
+
+12
+
+3
+
+3
+
+Plástico
+
+7
+
+4
+
+2
+
+3
+
+Comunicação
+
+6
+
+17
+
+14
+
+27
+
+Máquinas e
+equipamentos
+
+3
+
+4
+
+1
+
+5
+
+Descrição dos grupos
+setoriais
+
+Fonte: Climate Policy Initiative com dados da PIA, RAIS e ANEEL.
+
+Força de trabalho (%)
+
+5
+
+A Figura 2 mostra, para o ano de 2015, a dispersão dos setores industriais do Brasil e da ZFM em
+relação à eficiência produtiva e energética e a linha de 45º.
+A análise setorial aponta que apesar do regime fiscal diferenciado, o setor de duas rodas e de áudio
+e vídeo têm níveis de eficiência produtiva e de eficiência energética semelhantes ao do resto do país,
+dado que ambos os setores se encontram sobre a linha tracejada de 45º. Nesse sentido, os incentivos
+fiscais não têm tornado as indústrias desses setores na ZFM mais eficientes que as demais dos
+mesmos setores do resto país.
+Figura 2: Dispersão da eficiência produtiva e energética dos setores para o Brasil e a ZFM e linha de 45º para o ano de 2015
+
+Fonte: Climate Policy Initiative com dados da PIA, RAIS e ANEEL.
+
+6
+
+ANÁLISE SETORIAL
+Setor de áudio e vídeo
+É difícil diferenciar o setor de áudio e vídeo da ZFM do Brasil, dado que ambas eficiências são muito
+semelhantes, como mostra a Figura 4. Isso indica que para esse setor, a localização das empresas na
+ZFM não se traduz em vantagens comparativas nos quesitos de eficiência produtiva e energética.
+Vale ressaltar que essa similaridade entre os índices do Brasil e da ZFM não é justificada por uma
+concentração total dessa indústria no PIM. Apenas 24% das unidades locais desse setor se localizam
+na ZFM.
+Figura 4: Eficiência produtiva e energética do setor de áudio e vídeo (2003 – 2015)
+
+Fonte: Climate Policy Initiative com dados da PIA, RAIS e ANEEL.
+
+7
+
+Setor de duas rodas
+Apesar de ser o setor mais beneficiado em renúncia fiscal da ZFM, comparado ao resto do país, e
+possuir fábricas de grandes empresas instaladas há décadas na região, não há indicativos de melhora
+em seus níveis de eficiência ao longo dos anos, assim como um destaque em relação ao Brasil.
+Assim como no setor de áudio e vídeo, a semelhança entre índices brasileiros e da ZFM não pode ser
+justificada por uma concentração total dessa indústria no PIM, uma vez que apenas 18% das unidades
+locais desse setor se localizam na ZFM.
+Pela Figura 5, é válido observar que apesar de se enfatizar os setores mais relevantes da ZFM
+em termos de produção, renúncia fiscal e representatividade na força de trabalho, não é possível
+identificar um destaque, em relação ao Brasil, dada a proximidade de tais indicadores de eficiência.
+Essa constatação indica que os benefícios recebidos pela ZFM não são traduzidos em maiores níveis
+de eficiência.
+Figura 5: Eficiência produtiva e energética do setor de duas rodas (2003 – 2015)
+
+Fonte: Climate Policy Initiative com dados da PIA, RAIS e ANEEL.
+
+8
+
+CONCLUSÃO
+Os pesquisadores comprovam neste estudo que, apesar das vantagens fiscais, a ZFM se comporta,
+em termos de eficiência produtiva e eficiência energética, de modo bastante semelhante à indústria
+em geral. Desta forma, apesar dos benefícios fiscais, essa política industrial não tem contribuído para
+aumentar a produtividade e a eficiência energética do país.
+Dada a importância da região e a evolução crescente dos incentivos fiscais direcionados à ZFM, é
+válido realizar uma análise desagregada setorialmente, com o intuito de investigar as dinâmicas
+inerentes à cada setor industrial. Pela análise setorial, as firmas da ZFM não se mostraram mais
+eficientes do que as do resto do país. Assim, o efeito das isenções e benefícios concedidos à ZFM
+não se mostram suficientes para induzir uma melhora na eficiência das firmas, nem sendo estas
+pertencentes aos setores mais expressivos da região.
+Tais constatações abrem espaço para discutir a estrutura industrial brasileira e os subsídios
+intrínsecos. Este trabalho deixa evidente que os menores custos produtivos, advindos de benefícios
+fiscais, não podem ser associados a aumentos na eficiência. Assim, há a necessidade de se investigar a
+possibilidade de os desdobramentos dos benefícios fiscais estarem relacionados apenas à atratividade
+para Manaus.
+
+AUTORES
+Juliano Assunção
+
+Amanda Schutze
+
+Executive Director
+Climate Policy Initiative/ Pontifícia Universidade Católica
+do Rio de Janeiro (CPI/ PUC-Rio)
+Professor Associado, Departamento de Economia, PUC-Rio
+juliano.assuncao@cpirio.org
+
+Head of Policy Evaluation, Energy
+Climate Policy Initiative/ Pontifícia Universidade Católica
+do Rio de Janeiro (CPI/ PUC-Rio)
+amanda.schutze@cpirio.org
+
+Rhayana Holz
+Assistant Analyst, Energy
+Climate Policy Initiative/ Pontifícia Universidade Católica
+do Rio de Janeiro (CPI/ PUC-Rio)
+rhayana.holz@cpirio.org
+Citação sugerida
+ASSUNÇÃO, Juliano; HOLZ, Rhayana; SCHUTZE, Amanda. Sumários. A Zona Franca de Manaus tem impacto na
+eficiência da indústria? Rio de Janeiro: Climate Policy Initiative, 2020.
+
+Março 2020
+Climate Policy Initiative (CPI) é um grupo internacional de analistas e consultores que trabalham para aprimorar as mais importantes políticas
+de uso da terra e energia no mundo, com escritórios nos Estados Unidos, Europa, Brasil, Índia e Indonésia. No Brasil, o CPI é afiliado à Pontifícia
+Universidade Católica do Rio de Janeiro (PUC-Rio) e mantém estreita colaboração com pesquisadores de universidades dentro e fora do país.
+Esse projeto é financiado pelo Instituto Clima e Sociedade - iCS.
+www.climatepolicyinitiative.org
+Conteúdo sob licença Creative Commons Atribuição 4.0 Internacional.
+Os textos desta publicação podem ser reproduzidos no todo ou em parte
+desde que a fonte e os respectivos autores sejam citados.
+
+

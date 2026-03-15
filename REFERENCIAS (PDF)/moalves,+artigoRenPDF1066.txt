@@ -1,0 +1,2924 @@
+Documentos Técnico-Científicos
+
+Gastos Públicos Municipais e Educação
+Fundamental na Paraíba: Uma Avaliação
+usando DEA
+Resumo
+Parte da constatação de que o esforço de
+universalização do ensino fundamental no Brasil foi
+seguido por sérios questionamentos sobre a qualidade
+dos serviços prestados. E que, apesar da oportunidade
+e da importância de se debater o tema, seja pela
+relevância da educação, seja pela preocupação com
+a eficiência pública, as discussões ainda carecem
+de indicadores objetivos que permitam avaliar
+concretamente a situação. Nesse contexto, o artigo
+propõe um índice de eficiência e qualidade dos gastos
+públicos em educação e o aplica para os municípios do
+Estado da Paraíba. Para tanto, usa a metodologia Data
+Envelopment Analysis (DEA), com o intuito de verificar
+quais as cidades mais e menos eficientes na oferta do
+serviço educacional. Os resultados permitem concluir
+que os municípios menores são os que apresentam
+pior situação e que os grandes centros do Estado
+aparentam influenciar positivamente a performance dos
+vizinhos.
+
+Palavras-chave
+Educação Fundamental. Índice de Eficiência.
+Gastos Públicos. DEA.
+
+Aléssio Tony Cavalcanti de Almeida
+• Professor Assistente da Universidade
+Federal da Paraíba (UFPB);
+• Doutorando em Economia pelo Programa
+de Pós-Graduação em Economia
+(PPGE)/UFPB.
+Carlos Eduardo Gasparini
+• Professor Adjunto da Universidade Federal
+da Paraíba UFPB/Centro de Ciências
+Sociais Aplicadas (CCSA);
+• Doutor em Economia pelo Programa de
+Pós-Graduação em Economia (PIMES)/
+Universidade Federal de Pernambuco
+(UFPE).
+
+1 – INTRODUÇÃO
+Com a conquista de maior estabilidade na economia
+brasileira nos anos de 1990, a situação fiscal do país
+passou por importantes ajustes. Aspectos relacionados
+à carga tributária e às despesas efetuadas pelo setor
+público tornaram-se então motivo de maiores reflexões.
+Desde então, estudos sobre a qualidade dos gastos
+e dos bens e serviços prestados pelo governo têm
+recebido maior espaço na literatura e diversos trabalhos
+sugerem a criação de instrumentos que mensurem e
+avaliem de forma mais precisa a dimensão qualitativa
+dos dispêndios públicos.1
+Isso acontece porque muitos dos bens e serviços
+ofertados pelo Estado são elementos básicos para
+o funcionamento econômico: infraestrutura, sistema
+legal, segurança, prestação de serviços educacionais
+e de saúde, entre outros. No Brasil, entretanto, alguns
+desses importantes bens ainda não se apresentam
+com os predicados necessários para conferir maior
+produtividade à economia. Para alguns autores, como
+Pinheiro e Giambiagi (2006), essa situação impõese como um dos fatores impeditivos para o pleno
+desenvolvimento econômico e social do país.
+Dos inúmeros bens e serviços cuja provisão é de
+responsabilidade do Estado, este trabalho enfoca a
+questão da qualidade da Educação Fundamental no
+nível municipal (primeira fase). Atualmente, considerase a educação um dos setores mais importantes para
+o desenvolvimento de uma nação. Os investimentos na
+área estão associados a um abrangente conjunto de
+benefícios econômicos e não-econômicos. Inclusive,
+alguns dos maiores benefícios podem ser os nãoeconômicos: maior expectativa de vida, redução da
+criminalidade e envolvimento na vida comunitária, só
+para citar alguns exemplos.
+
+pela distribuição de rendimentos e sua persistência
+temporal.2 Nessa direção, a experiência internacional,
+desde meados do século XX, apresenta inúmeros
+exemplos de países que investiram maciçamente
+no seu sistema educacional e obtiveram excelentes
+resultados em termos de desenvolvimento econômico,
+como é o caso da Coreia do Sul.
+Levando em consideração, ainda, a necessidade
+de se criarem parâmetros concretos que auxiliem
+a análise de qualidade das despesas do governo, o
+presente artigo intenciona desenvolver um índice de
+eficiência para os gastos públicos no setor educacional
+com o intuito de fornecer subsídios para a discussão
+de políticas públicas educacionais. Para isso, será
+empregada a metodologia de Análise de Envoltória de
+Dados (DEA) para a estimação de fronteiras eficientes.
+Como o Brasil possui realidades regionais e locais
+muito diferentes, um estudo particularizado pode
+permitir uma compreensão mais aguçada sobre a
+realidade enfocada. Além disso, a dimensão continental
+do país e sua respectiva estrutura Federativa tornam
+essencial a participação das esferas subnacionais
+de governo nas decisões, para que se possa investir
+com propriedade nas áreas de maiores carências.
+Dessa maneira, a análise aqui sugerida será aplicada
+especialmente para os municípios da Paraíba. Esse
+enfoque torna-se interessante pelo fato de esse Estado
+possuir baixo nível de desenvolvimento econômico,
+grandes disparidades internas e uma população com
+escolaridade média baixa. A Paraíba, assim, apresenta
+um bom potencial de crescimento a partir da melhora
+de seus índices educacionais.
+
+Contudo, aspectos econômicos recebem também
+relevantes impulsos de melhorias educacionais que
+atingem desde retornos em termos de prosperidade
+individual (maiores salários e estabilidade no emprego)
+até a prosperidade da economia nacional (aumento
+da produtividade e do capital humano), passando
+
+A educação fundamental foi o nível de escolaridade
+escolhido, haja vista o seu acesso estar praticamente
+universalizado no País. Para que se possa direcionar
+maior atenção às escolaridades mais altas, torna-se
+necessário avaliar a qualidade do ensino e a eficiência
+dos gastos públicos efetuados. (Benhabib; Spiegel,
+2009). Salienta-se que o presente trabalho analisa a
+Educação Fundamental apenas em sua primeira fase.
+Desse modo, fica subentendido tal aspecto no decorrer
+deste estudo.
+
+1 Moita (1995); Cândido Júnior (2008); Gasparini e Ramos (2003); Sousa;
+Santos e Cribari Neto (2007); Brunet; Berte e Borges (2007); Delgado
+(2007); Araújo Júnior (2008) e Faria; Januzzi e Silva (2008), entre outros.
+
+2 Ver Bonelli e Ramos (2009); Cacciamali (2002) e
+Ferreira e Veloso (2006) para maiores detalhes.
+
+622
+
+Volume 42 | Nº 03 | Julho - Setembro | 2011
+
+O artigo está organizado em quatro partes, incluindo
+esta introdução. Na seção seguinte, apresentam-se os
+procedimentos metodológicos adotados, baseados em
+técnicas não-paramétricas de Estimação de Fronteira
+de Eficiência (DEA), e a descrição da base de dados
+utilizada para o desenvolvimento do trabalho. Na
+terceira seção, é feita a análise dos resultados. Por fim,
+a quarta seção traz as conclusões do artigo.
+
+2 – Metodologia
+Para estimar um índice de eficiência, podem-se
+adotar dois tipos de métodos: os paramétricos e os
+não-paramétricos. Este estudo escolheu a metodologia
+não-paramétrica, mais precisamente a técnica Data
+Envelopment Analysis (DEA), haja vista poder lidar
+simultaneamente com múltiplos inputs e outcomes e
+não impor forma funcional para a fronteira.
+O DEA é um método quantitativo, empírico e
+não-paramétrico que mede o desempenho relativo de
+unidades organizacionais semelhantes ao ponderar
+a razão entre resultados e insumos, gerando um
+único indicador de desempenho para cada unidade
+investigada.3 Tecnicamente, a metodologia DEA usa
+a programação matemática linear para construir uma
+fronteira de produção com as unidades eficientes,
+o que permite identificar as unidades-referência
+que são tomadas como parâmetro para as demais
+unidades avaliadas, isto é, aquelas unidades que ficam
+posicionadas abaixo da fronteira estabelecida. Trata-se,
+portanto, de uma metodologia comparativa, que gera
+índices relativos de eficiência.
+A discussão sobre a mensuração empírica da
+eficiência produtiva foi iniciada por Farrel (1957).
+Contudo, essa técnica não havia recebido muita
+atenção até a publicação do trabalho de Charnes;
+Cooper e Rhodes (1978), que designou o método
+como Data Envelopment Analysis (DEA). Desde então,
+foram feitos inúmeros estudos que aperfeiçoaram e
+estenderam a aplicação dessa metodologia.4
+Salienta-se que a metodologia DEA já é bem
+
+consagrada na literatura nacional e internacional no que
+concerne à construção de indicadores, sobretudo, de
+eficiência. Em relação ao estudo da eficiência dos gastos
+na área de educação, cita-se o trabalho de Afonso e
+Aubyn (2005), que analisa tal aspecto para os países
+da Organização para a Cooperação e Desenvolvimento
+Econômico (OCDE), o estudo de Sousa; Santos e Cribari
+Neto (2007) sobre a eficiência do gasto público dos
+municípios brasileiros e Gasparini e Ramos (2003),
+que tiveram como um dos propósitos a avaliação da
+eficiência do ensino médio no Brasil, entre outros.
+Nesse contexto, o presente trabalho busca, em
+especial, contribuir para o debate sobre a qualidade dos
+gastos na Educação Fundamental na esfera municipal
+paraibana, acrescentando para a avaliação dos
+municípios uma perspectiva que relaciona o aspecto
+“qualitativo” tanto do nível de aprendizagem quanto
+da alocação do gasto público, sem perder de vista o
+background socioeconômico que afeta os resultados
+das unidades analisadas. Para isso, calcula-se um
+índice de eficiência pública para o serviço educacional
+no caso dos municípios do Estado da Paraíba.
+
+2.1 – O Modelo DEA
+Para conceituar formalmente a mensuração de
+eficiência na provisão dos serviços educacionais,
+considerou-se o seguinte contexto: existem S
+planos de produção municipais a serem avaliados
+(s=1,2...,S). Esses planos de produção combinam K
+insumos xsk=(xs1,...,xsK), para produzir M resultados
+ysm=(ys1,...,ysM).
+No caso de múltiplos insumos e resultados, uma
+medida de eficiência (h), considerando retornos
+constantes de escala, pode ser obtida a partir da
+maximização da formulação fracionária abaixo, onde
+u e v representam os pesos respectivos para os
+outcomes e os inputs avaliados:
+
+(1)
+
+3 Seiford e Thrall (1990) e Ramanathan (2003) fornecem
+uma descrição mais detalhada da metodologia DEA.
+4 Seiford e Thrall (1990); Bowlin (1998) e Gattoufi; Oral e
+Reisman (2004) fornecem várias indicações bibliográficas
+de trabalhos que usam essa metodologia.
+
+Volume 42 | Nº 03 | Julho - Setembro | 2011
+
+(condição de não-negatividade dos pesos)
+623
+
+No problema acima, h0=1 significa que a unidade
+produtiva “0” está na fronteira eficiente. Caso
+h0<1, tem-se o indicativo de que tal unidade seria
+considerada ineficiente, pois apresenta desperdício
+de recursos em um dado processo de produção.
+Essa formulação fracionária possui, no entanto, uma
+infinidade de soluções. Dessa forma, se u* e v* são
+soluções possíveis da programação matemática,
+assim αu* e αv* (onde α é um escalar maior do que
+zero) também são soluções possíveis. Logo, apenas
+a imposição da restrição de não-negatividade de u e v
+não garantem uma única solução de eficiência técnica
+para h0.
+A partir da inclusão da restrição adicional de que
+o denominador da fração corresponda à unidade
+(v’x = 1), é possível, ao mesmo tempo, transformar
+a análise num problema de programação linear e
+garantir que o sistema possua uma solução única.
+Além disso, a restrição de que os pesos associados
+aos resultados somem-se à unidade permite incluir
+Rendimentos Variáveis de Escala (RVE). A versão com
+orientação para os outcomes na forma de envoltória,
+que maximiza o parâmetro de eficiência (θ), é obtida
+por meio da resolução do problema (2) exibido a
+seguir:
+
+(2)
+
+(condição de não-negatividade dos pesos)
+
+Haja vista a importância de priorizar a qualidade dos
+serviços educacionais, no que concerne ao nível de
+aprendizagem dos alunos, esta análise foi desenvolvida
+considerando o modelo DEA orientado para os
+outcomes. A ideia básica desse modelo é maximizar
+os resultados gerados, dados os insumos utilizados.
+Nesse cenário, o modelo (2) se apresenta como base
+para todas as estimações realizadas neste estudo, de
+
+624
+
+modo que, ao resolvê-lo para cada unidade produtiva,
+a fronteira eficiente pode ser identificada e o índice de
+eficiência θ* pode ser mensurado.
+Enfatiza-se que o indicador (θ), calculado pelo
+método DEA, gera valores iguais ou superiores a
+um as Unidades Tomadoras de Decisão (DMUs)
+consideradas eficientes têm valores unitários. As
+DMUs com coeficientes acima de um são tidas como
+ineficientes. Com o propósito de estabelecer um
+indicador com variação entre 0 e 1, fez-se a inversão
+do valor originado pelo modelo DEA. Desse modo, as
+unidades situadas na fronteira de eficiência continuam
+apresentando índice igual a um. Contudo, as DMUs
+que possuem indicador inferior a uma unidade são
+consideradas ineficientes.
+Devido às diversidades internas observadas na
+realidade municipal paraibana, e como o método busca
+analisar comparativamente unidades de proporções
+e de dimensões similares, optou-se por usar da
+metodologia DEA-BCC, que admite Retornos Variáveis
+de Escala.5 Além disso, como o DEA é sensível a
+observações extremas, os municípios paraibanos
+que tiveram uma ou mais observações consideradas
+como atípicas e, portanto, poderiam gerar distorções
+na determinação da fronteira de eficiência, foram
+desconsiderados para a especificação desta. Não
+obstante, seus índices de eficiência foram calculados,
+apesar de não serem considerados na determinação
+da tecnologia produtiva empregada. Salienta-se que
+foi utilizado o software EMS – Efficiency Measurement
+System, versão 1.3, para o processamento dos
+cálculos do modelo (2).
+
+2.2 – Base de Dados
+Esta pesquisa se preocupou em obter dados
+que representassem da melhor forma a função de
+produção de serviços educacionais ofertados pelos
+municípios, ou seja, a relação entre inputs e outcomes
+na prestação da educação. Nesse sentido, fez-se uso
+de variáveis que representem tanto a mão de obra
+(professores) quanto o capital (infraestrutura das
+escolas) para a oferta dos serviços educacionais.
+Além disso, foram utilizadas variáveis que indicassem
+5 Em homenagem aos autores Banker; Charnes e Cooper (1984), o modelo
+com rendimentos variáveis de escala ficou conhecido como BCC.
+
+Volume 42 | Nº 03 | Julho - Setembro | 2011
+
+também as condições sociais e econômicas das
+cidades. É praticamente consenso que o diagnóstico
+educacional de uma localidade deve levar também
+como referência o contexto socioeconômico mais
+amplo no qual está inserido o estudante.
+As variáveis que foram manipuladas nesta pesquisa,
+portanto, podem ser divididas em três blocos. No
+primeiro, estão incluídos os inputs tradicionais
+(trabalho e capital): o número total de professores da
+primeira fase do Ensino Fundamental, independente
+de sua formação; a média de horas-aula diárias
+na 4ª série, multiplicadas pelo número de alunos
+matriculados nesta classe; quantidade de escolas
+públicas de Ensino Fundamental com acesso a rede de
+energia elétrica; e quantidade de escolas públicas de
+Ensino Fundamental ligadas ao sistema de esgoto.
+O segundo bloco diz respeito aos fatores
+representativos das condições socioeconômicas
+envolvidas no cotidiano dos alunos. Foram
+considerados: a quantidade de pessoas alfabetizadas,
+com 15 anos ou mais de idade, e a renda per capita
+multiplicada pelo número de alunos matriculados na
+4ª série. Como se pretende considerar a dimensão
+dos municípios na oferta dos serviços de educação,
+todas as variáveis que estavam em fluxo ou em termos
+de média foram multiplicadas pelo número de alunos
+matriculados na 4ª série. Assim, por exemplo, a
+variável renda per capita multiplicada pelo número de
+alunos matriculados na 4ª série representa uma proxy
+da renda total dos estudantes matriculados nessa série.
+Por último, as variáveis utilizadas como proxy dos
+resultados gerados foram: nível de aprendizagem
+dos alunos, conforme suas notas de Português e
+Matemática, na Prova Brasil da 4ª série, multiplicadas
+pelos alunos matriculados na 4ª série, bem como o
+inverso das despesas totais das cidades no Ensino
+Fundamental.
+É válido realçar que a Prova Brasil é censitária e
+avalia todos os estudantes da rede pública de ensino,
+de 4ª e 8ª séries do Ensino Fundamental. Essa
+avaliação foi criada em 2005, mas, apenas a partir de
+2007, passou a ser operacionalizada em conjunto com
+o Sistema Nacional de Avaliação da Educação Básica
+(Saeb). Como o objetivo do trabalho é examinar o nível
+
+Volume 42 | Nº 03 | Julho - Setembro | 2011
+
+de aprendizagem e os gastos públicos municipais e
+tendo em vista que os municípios são responsáveis
+pela primeira fase da Educação Fundamental, este
+estudo usou as notas da Prova Brasil da 4ª série como
+uma proxy para o nível de aprendizagem da Educação
+Fundamental da Paraíba sob responsabilidade
+municipal.
+Algumas observações importantes precisam ser
+feitas sobre os “produtos” utilizados. Em primeiro lugar,
+notas em testes padronizados, tais como as utilizadas
+neste estudo, representam mais resultados (outcomes)
+do que produtos propriamente ditos.6 No entanto, dois
+argumentos básicos tornam as variáveis sugeridas
+mais adequadas ao propósito do trabalho. Inicialmente,
+observa-se que o objetivo primeiro dos investimentos
+em educação não é simplesmente colocar os alunos
+na escola, mas que eles aprendam. Os escores
+obtidos nos testes refletem melhor, sem dúvida, esta
+preocupação. Ademais, as notas obtidas permitem
+também que se inclua na avaliação, em alguma
+medida, a dimensão “qualidade” da educação, já que
+um ensino de baixa qualidade pode até matricular
+e aprovar os alunos, mas não se refletirá em bons
+resultados acadêmicos pelos estudantes.
+Por outro lado, no intuito de envolver a questão
+da qualidade dos gastos públicos nos resultados
+colhidos, considerou-se uma variável que mensurasse
+a despesa do município em educação. A sua colocação
+como resultado, que pode parecer estranho à primeira
+vista, procura refletir o fato de que os orçamentos
+educacionais são relativamente rígidos, restando ao
+gestor apenas a opção de gastar do melhor modo
+possível. Assim, gastar “bem” também poderia ser
+considerado um objetivo da gestão educacional e a
+variável usada para essa análise foi o inverso dos
+gastos do município em Educação Fundamental, que foi
+incluída no indicador como outro outcome.
+Sublinha-se que a adoção do inverso dos gastos
+foi feita para considerar que, dado o nível de insumos
+utilizados, gastar menos é melhor e deve ser tomado
+também como um objetivo explícito da política
+
+6 “Produtos” (outputs) seriam variáveis ligadas mais diretamente
+à função de produção, como número de alunos atendidos
+(matrículas) e quantidade de aprovados, por exemplo.
+
+625
+
+educacional. Isto é, quanto maior o inverso dos
+gastos em educação, menor é a despesa. Logo, o uso
+dessa variável parte do princípio de que os gestores
+municipais devem prestar um serviço educacional
+de qualidade e, ao mesmo tempo, alocar os recursos
+públicos da melhor forma possível. Assim, conforme
+o indicador proposto, os municípios que apresentam
+as melhores performances são aqueles que
+necessariamente possuem bom nível de aprendizagem
+e alocam da melhor maneira os recursos públicos,
+dados os recursos físicos utilizados. Finalmente,
+vale mencionar que a metodologia DEA é invariável a
+transformações nas unidades de medidas, conforme
+salienta Pastor (1996).
+Foram obtidos dados anuais das variáveis descritas
+para os municípios da Paraíba nos sítios da Secretaria
+do Tesouro Nacional (STN) e do Instituto Brasileiro
+de Geografia e Estatística (IBGE) e no Sistema de
+Estatísticas Educacionais (Edudata Brasil) do Instituto
+Nacional de Estudos e Pesquisas Educacionais Anísio
+Teixeira (Inep). O trabalho avaliou 203 municípios,
+
+Legenda
+
+y1
+Outcomes
+
+y2
+
+O conjunto de variáveis selecionadas para compor o
+presente índice está exposto no Quadro 1.
+Observa-se, a partir do Quadro 1, que, apesar de
+a maior parte dos dados ter como referência o ano de
+2005, isso não ocorre para todas as variáveis. Desse
+modo, tornam-se necessários alguns comentários
+acerca do uso de períodos diferentes. Inicialmente,
+as variáveis socioeconômicas (w1 e w2) para os
+
+Variável
+
+Fonte (ano de referência)
+
+Nota de Português da 4ª Série multiplicada pelo número de alunos
+matriculados nesta classe
+Nota de Matemática da 4ª Série multiplicada pelo número de
+
+Instituto Nacional... (2009)
+Instituto Nacional... (2009)
+
+alunos matriculados nesta classe
+
+y3
+
+Inverso das despesas dos municípios no Ensino Fundamental
+
+Secretaria... (2009)
+
+x1
+
+Número de professores da primeira fase do Ensino Fundamental
+
+EdudataBrasil (2009)
+
+x2
+Inputs
+
+sendo usado um total de nove variáveis: três indicativas
+de outcomes e as demais representativas dos insumos
+empregados e das condições socioeconômicas das
+localidades. Destaca-se que, das 223 cidades que
+a Paraíba possui, a análise exploratória dos dados
+sugeriu a retirada de vinte municípios por insuficiência
+de informações. Além disso, outros vinte e quatro
+municípios foram detectados com uma ou mais
+observações atípicas. Desse modo, para que não
+houvesse distorções na fronteira, esses municípios
+foram desconsiderados para a determinação desta,
+mas participaram da análise.
+
+Média de horas-aula diárias na 4ª série multiplicadas pelo número
+de alunos matriculados nesta classe
+
+EdudataBrasil (2009)
+
+x3
+
+Escolas públicas com acesso a rede de energia elétrica
+
+EdudataBrasil (2009)
+
+x4
+
+Escolas públicas ligadas ao sistema de esgoto
+
+EdudataBrasil (2009)
+
+w1
+w2
+
+Renda per capita multiplicada pelo número de alunos matriculados
+na 4ª série
+Número de alfabetizados, com 15 anos ou mais de idade
+
+IBGE (2009)
+IBGE (2009)
+
+Quadro 1 – Descrição das Variáveis Usadas para Mensurar a Eficiência da Primeira Fase da Educação Fundamental dos Municípios Paraibanos
+Fonte: Elaboração Própria dos Autores.
+
+626
+
+Volume 42 | Nº 03 | Julho - Setembro | 2011
+
+municípios estão disponíveis apenas em anos
+censitários (o mais recente é o Censo de 2000), de
+modo que as condições socioeconômicas de todas as
+localidades só poderiam ser usadas com essa restrição
+temporal. Em relação às notas da Prova Brasil, apesar
+da existência de tais notas no ano de 2005, tinha-se
+um problema no que concerne à abrangência territorial
+da aplicação desse exame na Paraíba, haja vista
+que, naquele ano, mais de 40 cidades não haviam
+participado da avaliação. Sendo assim, para não
+reduzir ainda mais o número de localidades avaliadas,
+optou-se pelas notas da Prova Brasil de 2007, quando
+tal avaliação se integrou operacionalmente ao Saeb,
+e apenas nove cidades não participaram do processo
+avaliativo. Por fim, salienta-se que esse tipo de variável,
+em geral, não se modifica rapidamente, de tal modo
+que a defasagem de alguns anos compromete pouco a
+análise comparativa.
+A relação de produção estimada pode ser
+sintetizada da seguinte forma:
+              (3)
+Uma última nota acerca do modelo selecionado
+concerne ao uso das variáveis em nível, haja vista a
+possibilidade de captar os diferentes rendimentos de
+escala, dado que a função de produção de cada DMU
+pode apresentar particularidades técnicas (DMUs
+com elevado nível operacional, por exemplo, tendem
+a ter retornos não-crescentes de escala). Portanto, a
+manipulação realizada dos dados teve como intuito
+considerar o fator de dimensão (escala) das unidades
+avaliadas, de modo que, ao examinar as diferentes
+proporções dos municípios na oferta da educação,
+fizeram-se as devidas ponderações em todas as
+variáveis usadas no modelo.
+
+3 – ANÁLISE DOS RESULTADOS
+Para a apresentação dos resultados, a análise foi
+dividida em três partes. A primeira avalia o ranking dos
+municípios com melhores e piores desempenhos no
+Índice de Eficiência em Educação Fundamental (IEE).
+A segunda faz uma agregação dos resultados por
+microrregiões do estado e a última parte apresenta
+os resultados por segmentos populacionais. Para
+a agregação dos dados em microrregiões e por
+
+Volume 42 | Nº 03 | Julho - Setembro | 2011
+
+segmentos populacionais, fez-se uma média ponderada
+dos resultados de eficiência pelo número de estudantes
+da 4ª série de cada município. O apêndice A trás a
+lista completa dos escores de eficiência para todas as
+unidades analisadas.
+
+3.1 – Análise do Indicador (IEE) por Cidades
+A partir do indicador calculado, constatou-se
+que, dos 179 municípios que foram considerados
+para a construção da fronteira de eficiência, cerca de
+28,5% foram tidos como referências para os demais,
+representando as melhores práticas analisadas. Esses
+municípios são aqueles que conseguiram gerar, dados
+os insumos utilizados, o melhor resultado comparativo
+com as outras cidades apreciadas na amostra. A Tabela
+1 apresenta as cinquenta e uma cidades eficientes e
+aponta o respectivo número de vezes em que foram
+referências (benchmark) para outras unidades.
+Das cidades citadas como eficientes na Tabela
+1, algumas delas foram tomadas mais vezes como
+parâmetro de comparação para as demais. Dentre
+elas, se destacam Diamante (100 vezes), Quixaba
+(75 vezes) e Pedra Lavrada (69 vezes). A cidade de
+Diamante foi aquela cujas práticas na geração do
+serviço educacional foram verificadas mais vezes como
+parâmetro comparativo para as demais DMUs. Isso se
+deveu à posição privilegiada obtida por tal município
+na constituição da fronteira de eficiência, visto que
+ele atingiu um resultado acima da média paraibana,
+empregando de forma mais efetiva os insumos quando
+comparado com as demais cidades de proporções
+similares.
+Do ponto de vista das políticas educacionais,
+os municípios que formam a fronteira poderiam ser
+tomados como parâmetros para outras localidades
+de dimensões e proporções parecidas no que tange
+ao emprego dos insumos e à alocação dos recursos
+públicos.
+Ao lado das cidades mais efetivas na provisão
+dos serviços de educação, é válido também sublinhar
+aquelas que tiveram um resultado menos favorável
+quando confrontadas com as cidades situadas
+na fronteira. A Tabela 2 apresenta os municípios
+paraibanos que alcançaram os vinte piores resultados
+no índice.
+
+627
+
+Tabela 1 – Municípios Eficientes na Prestação do Serviço Educacional
+Cidades
+
+Benchmark
+
+Cidades
+
+Benchmark
+
+Cidades
+
+Benchmark
+
+ALAGOA NOVA
+
+28
+
+INGÁ
+
+21
+
+RIACHÃO
+
+4
+
+AREIA
+
+0
+
+ITAPOROROCA
+
+0
+
+RIACHAO DO POÇO
+
+17
+
+ASSUNÇÃO
+
+5
+
+JUAZEIRINHO
+
+7
+
+RIACHO DE SANTO ANTONIO
+
+0
+
+BARAÚNA
+
+6
+
+JURIPIRANGA
+
+0
+
+SANTA INÊS
+
+8
+
+BARRA DE SANTA ROSA
+
+7
+
+LASTRO
+
+1
+
+SANTANA DE MANGUEIRA
+
+4
+
+BAYEUX
+
+14
+
+LUCENA
+
+1
+
+SANTARÉM
+
+0
+
+BERNARDINO BATISTA
+
+0
+
+MANAÍRA
+
+0
+
+SÃO BENTO
+
+26
+
+CABACEIRAS
+
+8
+
+MARCAÇÃO
+
+2
+
+SÃO DOMINGOS DE POMBAL
+
+2
+
+CACIMBA DE DENTRO
+
+23
+
+MATURÉIA
+
+0
+
+SÃO FRANCISCO
+
+7
+
+CACIMBAS
+
+18
+
+PARARI
+
+26
+
+SÃO JOSÉ DA LAGOA TAPADA
+
+37
+
+CAPIM
+
+0
+
+PASSAGEM
+
+4
+
+SÃO JOSÉ DO BREJO DO CRUZ
+
+24
+
+CARRAPATEIRA
+
+1
+
+PEDRA LAVRADA
+
+69
+
+SÃO JOSÉ DOS RAMOS
+
+2
+
+CURRAL VELHO
+
+3
+
+PEDRAS DE FOGO
+
+14
+
+SÃO MIGUEL DE TAIPU
+
+18
+
+DAMIÃO
+
+8
+
+POCINHOS
+
+2
+
+SÃO SEBASTIÃO DE LAGOA DE ROÇA
+
+26
+
+DIAMANTE
+
+100
+
+POÇO DANTAS
+
+0
+
+SÃO VICENTE DO SERIDÓ
+
+7
+
+DONA INÊS
+
+2
+
+POMBAL
+
+0
+
+SERRA GRANDE
+
+1
+
+ESPERANÇA
+
+8
+
+QUIXABA
+
+75
+
+UMBUZEIRO
+
+6
+
+Fonte: Elaboração Própria dos Autores.
+
+Tabela 2 – Vinte Municípios menos Eficientes na Provisão da Educação
+Cidades
+
+IEE(em %)
+
+Cidades
+
+IEE (em %)
+
+CONDADO
+
+84,58
+
+SERTÃOZINHO
+
+82,60
+
+MALTA
+
+84,57
+
+PIRPIRITUBA
+
+82,14
+
+CATINGUEIRA
+
+84,42
+
+JUNCO DO SERIDÓ
+
+82,12
+
+UIRAÚNA
+
+84,30
+
+BOA VENTURA
+
+80,69
+
+BREJO DO CRUZ
+
+84,09
+
+CATURITÉ
+
+80,39
+
+TRIUNFO
+
+83,96
+
+JERICÓ
+
+80,01
+
+PITIMBU
+
+83,09
+
+SÃO JOSÉ DO BONFIM
+
+78,83
+
+SUMÉ
+
+82,99
+
+IGARACY
+
+78,25
+
+BELÉM DO BREJO DO CRUZ
+
+82,87
+
+LAGOA
+
+77,45
+
+SANTANA DOS GARROTES
+
+82,66
+
+BREJO DOS SANTOS
+
+72,49
+
+Fonte: Elaboração Própria dos Autores.
+
+O índice apresentado neste trabalho se encontra
+no intervalo entre 0 e 1. Os municípios tidos como
+referenciais foram aqueles que atingiram o máximo do
+intervalo, ou seja, IEE = 1 (ou 100%). Sendo assim,
+as vinte cidades contidas na Tabela 2 apresentaram
+outcomes aquém do esperado para os insumos que
+
+628
+
+elas tinham disponíveis na provisão dos serviços
+educacionais. A cidade de Brejo dos Santos, por
+exemplo, foi a que auferiu o pior resultado, de maneira
+que, dados os insumos utilizados, o município gerou
+cerca de 27,51% abaixo do que poderia oferecer.
+
+Volume 42 | Nº 03 | Julho - Setembro | 2011
+
+Tabela 3 –Eficiência dos Municípios Atípicos
+Cidades
+
+IEE(em %)
+
+Cidades
+
+IEE(em %)
+
+Cidades
+
+IEE(em %)
+
+ALHANDRA
+
+88,88
+
+FAGUNDES
+
+100,00
+
+OURO VELHO
+
+100,00
+
+AROEIRAS
+
+96,96
+
+GUARABIRA
+
+95,90
+
+PATOS
+
+97,62
+
+BONITO DE SANTA FÉ
+
+92,90
+
+IMACULADA
+
+88,76
+
+QUEIMADAS
+
+100,00
+
+CAAPORA
+
+97,81
+
+ITABAIANA
+
+94,84
+
+SALGADO DE SÃO FÉLIX
+
+87,61
+
+CABEDELO
+
+100,00
+
+ITAPORANGA
+
+85,11
+
+100,00
+
+CAMPINA GRANDE
+
+100,00
+
+JACARAÚ
+
+89,47
+
+SANTA RITA
+SAO JOÃO DO RIO DO
+
+CONCEIÇÃO
+
+96,61
+
+CONDE
+
+98,82
+
+JOÃO
+PESSOA
+MATINHAS
+
+PEIXE
+
+89,36
+
+100,00
+
+VÁRZEA
+
+100,00
+
+97,49
+
+ZABELÊ
+
+100,00
+
+Fonte: Elaboração Própria dos Autores.
+
+Os municípios detectados como outliers, isto é,
+atípicos na amostra, não puderam ser considerados
+para a determinação da fronteira de eficiência, pois
+poderiam criar viés no resultado. Contudo, o índice para
+eles também foi calculado, até porque é interessante
+observar se algumas das principais cidades do estado,
+apesar de possuírem dados atípicos, conseguiram
+ou não alcançar o resultado de referência. Tal fato é
+ilustrado na Tabela 3.
+
+Grande). Por sua vez, o segundo aspecto é uma
+maior concentração de performances nos municípios
+próximos dos citados centros, que respondem por
+grande parte do Produto Interno Bruto (PIB) paraibano.
+Esse resultado parece dar suporte ao estudo de Plenzler
+(2004), que considera explicitamente a influência dos
+desempenhos de uma localidade sobre as vizinhas.
+Aqui, numa primeira avaliação visual, a hipótese parece
+aplicar-se parcialmente para o caso paraibano.
+
+Como era de esperar, as maiores cidades da Paraíba
+− João Pessoa e Campina Grande − alcançaram o
+resultado de referência no desempenho educacional.
+Outras cidades de desenvolvimento acima da média
+do Estado, como Cabedelo e Santa Rita, também
+obtiveram a performance máxima. Todavia, outros
+municípios com dados atípicos não conseguiram
+resultados satisfatórios. Entre eles, destaca-se a cidade
+de Itaporanga, que apresentou um IEE = 85,11%, ou
+seja, dados os insumos utilizados, o município gerou
+cerca de 15% abaixo do que seria possível realizar
+se usasse as melhores práticas empregadas pelas
+unidades que compõem a fronteira.
+
+Percebe-se também que as cidades com piores
+desempenhos se reuniram nos locais mais distantes,
+mais precisamente no Sertão paraibano. Esse resultado
+fornece uma evidência clara de que as políticas
+educacionais nessa mesorregião do estado deveriam
+ser alvo de atenção redobrada.
+
+A Figura 1 mostra a disposição geográfica das
+performances auferidas por todas as cidades paraibanas
+na prestação dos serviços educacionais.
+A Figura 1 mostra visualmente o perfil geográfico do
+desempenho municipal ao longo do território da Paraíba.
+A análise apresenta duas características interessantes
+de serem destacadas. A primeira é que há uma maior
+diversificação de resultados nas localidades distantes
+dos grandes centros do estado (João Pessoa e Campina
+
+Volume 42 | Nº 03 | Julho - Setembro | 2011
+
+3.2 – Avaliação do Índice por Microrregiões
+Tomando, inicialmente, os desempenhos alcançados
+por cada microrregião paraibana, nota-se que João
+Pessoa, Campina Grande e Esperança, em média,
+possuíram os melhores resultados dentro do território
+paraibano.7 Nota-se também que as microrregiões
+de melhores desempenhos situaram-se em duas
+mesorregiões do estado: Zona da Mata e Agreste.
+Conforme ilustra a Figura 2, os desempenhos das
+microrregiões de João Pessoa e Campina Grande,
+localidades com maior desenvolvimento na Paraíba,
+confirmaram as expectativas no que tange à qualidade
+da prestação dos seus serviços educacionais.
+7 O fator de ponderação utilizado para o cálculo da média foi o número de
+alunos da 4ª série de cada município.
+
+629
+
+João Pessoa
+
+Campina Grande
+Selecionada
+até 0,700
+0,700 --| 0,850
+0,850 --| 0,930
+0,930 --| 0,990
+0,990 --| 1,000
+
+Figura 1 – Eficiência dos Gastos em Educação por Município Paraibano
+Fonte: Elaboração Própria dos Autores.
+
+Catolé do Rocha
+
+Seridó
+Oriental
+
+Sousa
+
+Seridó
+Ocidental
+
+Curimataú
+Ocidental
+
+Curimataú
+Oriental
+
+Esperança
+
+Brejo
+
+Guarabira
+
+Patos
+
+Litoral Norte
+
+Cajazeiras
+João Pessoa
+
+Itaporanga
+Sapé
+Itabaiana
+
+Serra Teixeira
+Piancó
+
+Litoral Sul
+
+Cariri Oriental
+
+Campina
+Grande
+
+Cariri Ocidental
+
+Selecionada
+Umbuzeiro
+
+até 0,9000
+0,9000 --| 0,9400
+0,9400 --| 0,9600
+0,9600 --| 0,9800
+0,9800 --| 1,0000
+
+Figura 2 – Eficiência dos Gastos em Educação por Microrregião Paraibana
+Fonte: Elaboração Própria dos Autores.
+
+630
+
+Volume 42 | Nº 03 | Julho - Setembro | 2011
+
+Ainda de acordo com a ilustração acima,
+observa-se que as performances encontradas por
+microrregião não são tão díspares, tendo em vista que
+a microrregião com pior resultado (Catolé do Rocha)
+teve um indicador de eficiência cerca de 15% menor
+do que o das localidades que tiveram os desempenhos
+mais satisfatórios. Essa ineficiência foi derivada da
+combinação de gastos por aluno ligeiramente mais
+elevados que a média com modesto desempenho na
+Prova Brasil. Esse índice, no nível mais agregado,
+demonstra que, em média, as vinte e três microrregiões
+paraibanas geraram outcomes bem próximos, o que
+demonstra alguma uniformidade entre as microrregiões
+no que concerne à provisão dos serviços educacionais.
+Na intenção de melhor examinar a relação dos
+inputs com seus respectivos resultados, a Tabela 4
+apresenta alguns dados das seis microrregiões mais e
+menos eficientes do Estado da Paraíba. A microrregião
+de João Pessoa auferiu um nível de eficiência próximo
+ao máximo possível. Ainda que o desempenho dessa
+localidade não se sobressaia tanto em relação às
+demais regiões, o fator dimensão faz com que seus
+resultados ganhem notoriedade. O pior resultado
+no nível microrregional foi o encontrado, como já
+mencionado, em Catolé do Rocha.
+
+Dentro das microrregiões mais ineficientes da
+Paraíba, vale destacar o Seridó Ocidental, formado
+pelas cidades de Junco do Seridó, Salgadinho, Santa
+Luzia, São José do Sabugi, São Mamede e Várzea.
+Na média ponderada, a microrregião obteve um
+dos desempenhos menos satisfatório da análise.
+Dados os insumos usados, o resultado poderia ser
+aproximadamente 10% maior do que o verificado.
+O grande algoz da performance dessa microrregião
+foram as suas despesas por aluno em educação,
+que se situaram muito acima das outras localidades,
+implicando dizer que, ao considerar o montante gasto,
+o resultado poderia ser melhor do que o alcançado.
+A partir da Tabela 4, é possível fazer-se uma
+análise comparativa dos dados entre as microrregiões
+do Seridó Ocidental e de Esperança, uma vez que as
+quantidades de alunos, docentes e outros inputs são
+bem parecidas. Dessa maneira, tendo em vista os
+insumos disponíveis em cada microrregião, observa-se
+que Esperança conseguiu atingir uma melhor relação
+custo-benefício no que tange aos seus resultados.
+Por outro lado, a região do Seridó Ocidental, na
+comparação com Esperança, gerou um resultado
+menos eficiente, pois teve um maior custo para isso.
+
+Tabela 4 – Dados Agregados de Cinco Microrregiões mais e menos Eficientes do Estado da Paraíba
+Micro
+
+Gastos
+Por Aluno
+(R$)
+
+Proficiência em
+Língua Portuguesa
+
+Proficiência
+em
+Matemática
+
+Quant.
+Docentes
+
+Média de
+hora-aula
+diária
+
+IEE
+(%)
+
+João Pessoa
+
+1483,83
+
+160,65
+
+175,26
+
+3008
+
+4,17
+
+99,96
+
+Mais
+
+Campina Grande
+
+1226,15
+
+160,39
+
+179,54
+
+1742
+
+4,05
+
+99,50
+
+eficientes
+
+Brejo Paraibano
+
+1220,45
+
+159,67
+
+174,77
+
+794
+
+4,09
+
+97,67
+
+Curimataú Oriental
+
+1655,14
+
+156,09
+
+174,35
+
+480
+
+4,05
+
+97,35
+
+Esperança
+
+1657,96
+
+166,59
+
+183,60
+
+245
+
+4,00
+
+97,22
+
+Itabaiana
+
+1264,00
+
+154,93
+
+173,87
+
+596
+
+4,03
+
+93,26
+
+Menos
+
+Guarabira
+
+1472,79
+
+152,29
+
+171,31
+
+835
+
+3,98
+
+91,01
+
+eficientes
+
+Seridó Ocidental
+
+2703,90
+
+162,35
+
+184,04
+
+219
+
+4,12
+
+89,72
+
+Piancó
+
+1599,29
+
+149,55
+
+168,47
+
+592
+
+4,07
+
+86,93
+
+Catolé do Rocha
+
+1736,33
+
+154,14
+
+171,93
+
+641
+
+4,18
+
+85,36
+
+Fonte: Elaboração Própria dos Autores, a partir de Médias Ponderadas de Dados do Ministério da Educação (MEC)/ Instituto Nacional de
+Estudos e Pesquisas Educacionais Anísio Teixeira (Inep), do Instituto Brasileiro de Geografia e Estatística (IBGE), do Secretaria do
+Tesouro Nacional (STN) e dos resultados do índice calculado pelo presente trabalho.
+
+Volume 42 | Nº 03 | Julho - Setembro | 2011
+
+631
+
+Tabela 5 – Renda Per Capita, IDH e Desempenho (IEE) dos Municípios por Intervalos Populacionais
+Intervalo populacional
+
+Número de
+cidades
+
+Renda per
+capita(em R$)
+
+% da Renda per
+capita em relação
+ao salário mínimo
+
+IDH
+
+IEE
+
+Menos de 5.000
+
+68
+
+74,99
+
+49,7
+
+0,59
+
+94,1
+
+5.000 a menos de 10.000
+
+61
+
+71,47
+
+47,3
+
+0,57
+
+92,0
+
+10.000 a menos de 15.000
+
+33
+
+82,02
+
+54,3
+
+0,59
+
+93,1
+
+15.000 a menos de 30.000
+
+29
+
+89,71
+
+59,4
+
+0,60
+
+94,9
+
+30.000 a menos de 100.000
+
+9
+
+144,94
+
+96,0
+
+0,67
+
+98,4
+
+100.000 e mais
+
+3
+
+220,93
+
+146,3
+
+0,72
+
+100,0
+
+Fonte: Elaboração Própria dos Autores a partir de Dados do IBGE, do Programa das Nações Unidas para o Desenvolvimento (PNUD) e dos
+Resultados do Índice Calculado pelo Presente Trabalho.
+
+3.3 – Avaliação do Índice por Segmentos
+Populacionais
+Com o propósito de realizar uma avaliação que
+considerasse também a dimensão das cidades
+envolvidas no estudo, fez-se a disposição dos
+resultados por segmentos populacionais. Foram
+agrupados todos os municípios paraibanos avaliados,
+inclusive aqueles que foram detectados como outliers,
+em seis grupos de intervalos de população, conforme
+apresentado na Tabela 5. Essa segmentação pode
+facilitar a identificação e, no caso das cidades com
+baixo desempenho, ajudar no desenho de políticas
+públicas educacionais mais adequadas. É importante
+realçar que os dados sobre Índice de Desenvolvimento
+Humano (IDH), Renda per capita e percentual da
+Renda per capita, em relação ao salário mínimo do
+ano de 2000, foram agrupados dentro dos intervalos
+populacionais através de uma média aritmética.8 Já o
+IEE foi agrupado de acordo com a média ponderada pelo
+número de estudantes da 4ª série de cada município.
+Nota-se que a Paraíba, em geral, é formada por
+municípios pequenos e de baixo desenvolvimento
+econômico. Apenas as três cidades constituídas
+por mais de 100 mil habitantes (João Pessoa,
+Campina Grande e Santa Rita), com indicadores
+socioeconômicos bem superiores aos das demais
+cidades, foram avaliadas entre as mais eficientes.
+8 Renda per capita calculada pelo IBGE, com ano base 2000
+– em tal ano o salário mínimo estabelecido pelo governo, em
+03 de abril, era de R$ 151,00 – e Índice de Desenvolvimento
+Humano (IDH) calculado pelo Programa das Nações Unidas
+para o Desenvolvimento (PNUD), com ano-base 2000.
+
+632
+
+Salienta-se que, como a metodologia DEA é sensível
+a observações atípicas, tais municípios ficaram
+impedidos de definir a fronteira tecnológica para evitar
+possíveis distorções, uma vez que suas características
+fogem da realidade média do estado.
+Os municípios de menor porte, com menos de
+10 mil habitantes, representam 64% das cidades
+consideradas e tiveram os piores resultados. Contudo,
+destaca-se que o intervalo de população entre 5
+mil e 10 mil habitantes, dentre os seis intervalos
+considerados, foi o que apresentou o mais baixo
+desempenho de eficiência. Na comparação incluindo
+todas as cidades envolvidas para o cálculo do índice,
+Brejo dos Santos, cidade inserida nesse intervalo, foi a
+mais ineficiente.
+No que concerne às três cidades mais vezes
+tomadas como referência (benchmark) no índice −
+Diamante, Quixaba e Pedra Lavrada, respectivamente,
+100, 75 e 69 vezes –, elas estão localizadas no
+intervalo de municípios com menos de 10 mil
+habitantes. Assim, a escolha desses locais como
+benchmarks faz muito sentido, até porque a maior
+parte das localidades avaliadas é de pequeno porte,
+tais como essas cidades.
+A Tabela 6 apresenta as cidades que obtiveram
+resultados eficientes com maiores benchmarks e as
+mais ineficientes por segmento populacional abaixo
+de 15 mil habitantes. O caso mais interessante de ser
+analisado é o do intervalo de 5 mil a 10 mil habitantes,
+uma vez que Brejo dos Santos foi a cidade menos
+eficiente da pesquisa e Diamante foi o município com a
+
+Volume 42 | Nº 03 | Julho - Setembro | 2011
+
+Tabela 6 – Dados das Localidades mais e menos Eficientes do Estado da Paraíba com menos de 15 mil
+habitantes
+Cidade
+representante
+
+Docentes por
+alunos
+
+Média de
+hora-aula
+diária
+
+Proficiência
+em Língua
+Portuguesa
+
+Proficiência
+em
+Matemática
+
+Despesas
+dos
+municípios
+no Ens.
+Fund. por
+alunos
+
+Quixaba
+
+0,26
+
+4,00
+
+161,8
+
+181,0
+
+1944,67
+
+Lagoa
+
+0,34
+
+4,30
+
+142,4
+
+170,0
+
+1282,20
+
+Na fronteira
+
+Diamante
+
+0,24
+
+4,10
+
+181,7
+
+215,3
+
+1404,01
+
+Mais
+ineficiente
+
+Brejo dos Santos
+
+0,26
+
+4,40
+
+140,4
+
+163,4
+
+1846,90
+
+Na fronteira
+
+Lagoa de Roça
+
+0,19
+
+4,00
+
+175,8
+
+193,3
+
+1510,40
+
+Pirpirituba
+
+0,25
+
+4,10
+
+147,6
+
+161,1
+
+1170,88
+
+Intervalo
+populacional
+
+Menos de
+
+Na fronteira
+
+5.000
+Mais
+ineficiente
+
+5.000 a menos
+de 10.000
+
+10.000 a
+menos de
+15.000
+
+Mais
+ineficiente
+
+Fonte: Elaboração Própria dos Autores a partir de Dados do MEC/Inep, STN e dos Resultados do Índice Calculado pelo Presente
+Trabalho.
+
+prática produtiva mais vezes tomada como parâmetro
+de referência. Observa-se que a relação de docentes
+por alunos dos dois locais é bem próxima, assim
+como os outros inputs empregados são similares. O
+desempenho de Diamante, no entanto, é muito superior,
+tanto no nível de aprendizagem quanto das despesas
+menores executadas por aluno. Levando em conta
+esse resultado, seria interessante que as políticas
+educacionais do Município de Brejo dos Santos
+observassem, de alguma maneira, as boas práticas
+de provisão dos serviços de Educação Fundamental
+de Diamante, na finalidade de tentar melhorar a sua
+performance.
+
+4 – conclusões
+A educação é hoje considerada um dos pilares
+para o desenvolvimento socioeconômico de qualquer
+
+Volume 42 | Nº 03 | Julho - Setembro | 2011
+
+país e relevante para a redução das desigualdades
+de rendimentos. Diversos trabalhos, como Barros e
+Mendonça (1997) e Barros; Henriques e Mendonça
+(2002), seguem essa linha de pensamento, apontando
+que a melhor recomendação de política social e
+econômica para o Brasil é o ensino de qualidade.
+Assim, a construção de uma sociedade mais justa e
+com uma economia mais dinâmica e moderna passa
+pela priorização do sistema educacional, sobretudo no
+aspecto qualitativo.
+Como destacam Ferreira e Veloso (2006), o governo
+brasileiro intensificou, a partir da década de 1990,
+os investimentos e as atenções para a Educação
+Fundamental. O Estado da Paraíba, acompanhando a
+tendência nacional, conseguiu expandir o acesso ao
+Ensino Fundamental, obedecendo às leis e às diretrizes
+que regulam há mais de uma década a educação no
+país. No entanto, é imprescindível que a expansão
+
+633
+
+educacional seja acompanhada por progressos
+qualitativos no ensino e na aprendizagem dos alunos.
+
+da média paraibana, como Cabedelo e Santa Rita,
+também mostraram desempenho satisfatório.
+
+Ao identificar a lacuna de indicadores que auxiliem
+na avaliação objetiva das despesas efetuadas pelo
+governo, criou-se neste trabalho um índice a partir
+da metodologia DEA, que, de certo modo, listasse
+as cidades que ofertaram com mais eficiência
+e qualidade os serviços de educação. No caso
+paraibano, onde a grande maioria dos municípios tem
+receitas constituídas majoritariamente pelo Fundo de
+Participação dos Municípios (FPM), a alocação dos
+recursos requer cuidados ainda maiores.
+
+Considerando a distribuição geográfica da
+performance municipal ao longo do território paraibano,
+não se evidenciou nenhuma clara concentração dos
+resultados, com exceção das localidades situadas
+próximas às cidades de João Pessoa e Campina
+Grande. Além disso, observou-se que o maior número
+de cidades com baixo desempenho se concentra
+nas áreas mais distantes desses centros, mais
+precisamente no Sertão paraibano. Isso fornece
+evidências de que as políticas educacionais nessa
+mesorregião precisam ser mais discutidas.
+
+Nesse sentido, o presente estudo se deteve em
+examinar a relação entre o desempenho educacional
+dos alunos no Ensino Fundamental frente aos recursos
+utilizados e aos respectivos custos para se atingir tal
+meta. Além das variáveis que pudessem servir como
+proxy da aprendizagem auferida pelos estudantes da
+rede pública, considerou-se a diminuição dos gastos
+como um objetivo a ser alcançado, na intenção de
+se atentar para o binômio custo-benefício. A adição
+de mais essa variável teve como função incluir as
+despesas feitas pelos municípios na questão técnica da
+prestação dos serviços educacionais.
+Os resultados encontrados mostraram que muitos
+municípios, em face dos inputs empregados, poderiam
+ter gerado um resultado mais satisfatório tanto no nível
+de aprendizagem dos alunos quanto no de dispêndios
+realizados. Observou-se que apenas 28,5% dos
+municípios foram eficientes, podendo ser tomados
+como parâmetros para as outras localidades. Dentre
+as unidades que formaram a fronteira de eficiência, as
+cidades de Diamante, Quixaba e Pedra Lavrada foram
+aquelas que tiveram os três maiores benchmarks, visto
+que atingiram um resultado acima da média paraibana,
+ao empregarem de forma mais efetiva os recursos.
+Algumas das principais cidades do estado, apesar
+de serem observações atípicas para a amostra e,
+por isso, não participarem da definição da fronteira,
+conseguiram alcançar o resultado de referência.
+Confirmando as expectativas, as duas maiores
+cidades paraibanas – João Pessoa e Campina Grande
+– alcançaram o resultado máximo no desempenho
+educacional. Outras cidades de desenvolvimento acima
+
+634
+
+O índice mais agregado, no nível microrregional,
+demonstra que as vinte e três microrregiões
+paraibanas, em média, geraram outcomes próximos,
+o que pode ser visto como um resultado interessante.
+A maior uniformidade na provisão dos serviços
+educacionais pode gerar menor sobrecarga sobre os
+grandes centros do estado ao evitar que populações
+interioranas busquem nessas cidades um Ensino
+Público Fundamental de melhor qualidade.
+Observou-se também que a Paraíba, de um modo
+geral, é constituída por municípios pequenos e de
+baixo desenvolvimento econômico. Os municípios
+de menor porte, com menos de 10 mil habitantes,
+apresentaram os piores resultados. Destaca-se que no
+intervalo de 5 mil a 10 mil habitantes foram observados
+os desempenhos mais fracos. As três cidades com
+maiores benchmarks, Diamante, Quixaba e Pedra
+Lavrada, estão localizadas nessa faixa populacional.
+Essa situação faz todo sentido, uma vez que a maior
+parte das localidades avaliadas é de pequeno porte,
+tais como essas cidades.
+É importante destacar, no entanto, que alguns
+cuidados devem ser tomados na interpretação
+dos resultados apresentados. Em primeiro lugar,
+a metodologia empregada, como qualquer outra,
+possui limitações. Ao lado disso, a base de dados
+utilizada está longe de ser a ideal e apresenta algumas
+limitações que não permitem captar integralmente a
+realidade educacional da Paraíba. Assim, é fundamental
+analisar cada situação individual com cautela. Os
+resultados apresentados devem ser vistos antes como
+
+Volume 42 | Nº 03 | Julho - Setembro | 2011
+
+indicações para averiguações mais aprofundadas do
+que como avaliações inequívocas.
+Tomados os devidos cuidados, entretanto, esperase que o índice apresentado neste estudo possa ser
+usado para ajudar na orientação das políticas públicas
+educacionais na Paraíba, sobretudo nas localidades
+que apresentaram as piores práticas relativas. Devese ter em mente também que o presente estudo pode
+ser ampliado e desdobrado em diversas direções.
+Inovações metodológicas e inclusão de dados novos e
+mais completos são sempre possíveis e bem-vindas.
+Ademais, assim como a Paraíba, vários outros estados
+brasileiros necessitam de indicadores educacionais
+nos moldes aqui traçados. Se a educação tem, como
+se alardeia atualmente, papel tão fundamental para o
+desenvolvimento do país, o Brasil não poderá se furtar
+de avaliar a qualidade do seu sistema educacional.
+
+Abstract
+The effort to universalize primary education in Brazil
+was followed by severe criticism about the quality of
+services. Despite the opportunity and the importance
+of discussing the subject, given the relevance of
+education and public efficiency, the discussions still
+need objective indicators to assess the real situation.
+Within this context, this paper proposes an index
+of efficiency and quality of the public expenses and
+education and applies it to Paraiba’s municipalities. To
+do so, Data Envelopment Analysis (DEA) methodology
+is used to determine which cities are more and less
+efficient in the educational services offering. The
+results show that the smaller cities are those with the
+worst situation, and major centers seem to contribute
+positively for the performance of the neighbors.
+
+Key words
+Primary Education. Efficiency Index.
+Public Expenses. DEA.
+
+Referências
+AFONSO, A.; AUBYN, M. Non-parametric approaches
+to education and health: expenditure efficiency in
+
+Volume 42 | Nº 03 | Julho - Setembro | 2011
+
+OECD countries. Journal of Applied Economics,
+Buenos Aires, v. 8, n. 2, p. 227-246, 2005.
+ARAÚJO JÚNIOR, A. Índice de Desempenho do
+Planejamento (IDP): uma proposta de avaliação
+orçamentária e Institucional. Brasília, DF: SOF,
+2008. Prêmio SOF de Monografias 2007.
+BANKER, R. D.; CHARNES, A.; COOPER, W. W. Some
+models for estimating technical and scale inefficiencies
+in data envelopment analysis. Management
+Science, v. 13, n. 9, p. 1078-1092, Sept. 1984.
+BARROS, R. P.; Henriques, R.; Mendonça, R.
+Pelo fim das décadas perdidas: educação e
+desenvolvimento sustentado no Brasil. Rio de Janeiro:
+IPEA, 2002. (Texto para Discussão, n. 857).
+BARROS, R. P.; Mendonça, R. Investimentos em
+educação e desenvolvimento econômico. Rio de
+Janeiro: IPEA, 1997. (Texto para Discussão, n. 525).
+BENHABIB, J.; SPIEGEL, M. M. The role of human
+capital in economic development: evidence form
+aggregate cross-country regional U.S. Data. New
+York: New York University, 1992. Disponível em:
+<http://www.econ.nyu.edu/cvstarr/worzking/1992/
+RR92-46.pdf>. Acesso em: 3 jan. 2009.
+BONELLI, R.; RAMOS, L. Distribuição de renda
+no Brasil: avaliação das tendências de longo
+prazo e mudanças na desigualdade desde
+meados dos anos 70. Revista de Economia
+Política, São Paulo, v. 13, n. 2, p. 76-97, abr./
+jun. 1993. Disponível em: <http://www.rep.org.
+br/pdf/50-5.pdf>. Acesso em: 1 jan. 2009.
+BOWLIN, W. F. Measuring performance: an introduction
+to Data Envelopment Analysis (DEA). The Journal of
+Cost Analysis & Management, p. 3-27, Fall 1998.
+BRASIL. Lei nº 9.394, de 20 de dezembro
+de 1996. Estabelece as diretrizes e bases da
+educação nacional. Diário Oficial [da] República
+Federativa do Brasil, Brasília, DF, 23 dez. 1996.
+Disponível em: <http://www.planalto.gov.br/
+ccivil_03/Leis/L9394.htm>. Acesso em: 2011.
+635
+
+BRUNET, J. F. G.; BERTE, A. M. A.; BORGES,
+C. B. Estudo comparativo das despesas
+públicas dos estados brasileiros: um índice de
+qualidade do gasto público. Brasília, DF: ESAF,
+2007. Monografia premiada com o terceiro lugar
+no XII Prêmio Tesouro Nacional – 2007.
+CACCIAMALI, M. C. Distribuição de renda no Brasil:
+persistência do elevado grau de desigualdade. In:
+Pinho, D. B.; Vasconcellos, M. A. S. Manual de
+economia. São Paulo: Saraiva, 2002. p. 406-422.
+Cândido Júnior, J. O. Os gastos públicos no
+Brasil são produtivos?. Brasília, DF: IPEA, 2001.
+Disponível em: <http://www.ipea.gov.br/pub/ppp/
+ppp23/Parte6.pdf>. Acesso em: 1 out. 2008.
+CHARNES, A.; COOPER, W.W.; RHODES, E.
+Measuring the efficiency of decision making
+units. European Journal of Operational
+Research, n. 2, p. 429-444, 1978.
+DELGADO, V. M. S. Eficiência das escolas públicas
+estaduais de Minas Gerais: considerações
+acerca da qualidade a partir da análise dos dados
+do Sica e do Simave. 2007. 144 f. Dissertação
+(Mestrado em Ciências Econômicas) - Universidade
+Federal de Minas Gerais, Belo Horizonte, 2007.
+EDUDATABRASIL. Sistema de estatísticas
+educacionais. [S.l.], 2005. Disponível
+em: <http://www.edudatabrasil.inep.gov.
+br>. Acesso em: 1 ago. 2009.
+FARIA, F. P.; JANNUZZI, P. M.; SILVA, S. J. Efficiency
+of municipal expenditure in health and education:
+an investigation using data envelopment analysis
+in the State of Rio de Janeiro, Brazil. Revista
+da Administração Pública, Rio de Janeiro,
+v. 42, n. 1, p. 155-177, Jan./Feb. 2008.
+FARRELL, M. J. The measurement of productive
+efficiency. Journal of the Royal Statistical
+Society, v. 120, p. 252-290, 1957.
+
+636
+
+FERREIRA, S. G.; VELOSO, F. A reforma da Educação.
+In: PINHEIRO, A. C.; GIAMBIAGI, F. Rompendo
+o marasmo: a retomada do desenvolvimento no
+Brasil. Rio de Janeiro: Elsevier, 2006. p. 251-279.
+GASPARINI, C. E.; RAMOS, F. S. Efetividade e
+eficiência no ensino médio brasileiro. Economia
+aplicada: Brazilian Journal of Applied Economics,
+São Paulo, v. 7, n. 2, p. 389-411, jun. 2003.
+GATTOUFI, S.; ORAL, M.; REISMAN, A. Data
+envelopment analysis literature: a bibliography
+update (1951–2001). Socio-Economic Planning
+Sciences, v. 38, p. 159-229, 2004.
+IBGE. Censo demográfico 2000. Disponível
+em: <http://www.ibge.gov.br/home/estatistica/
+populacao/censo2000>. Acesso em: 8 ago. 2009.
+INSTITUTO NACIONAL DE ESTUDOS E PESQUISAS
+EDUCACIONAIS ANÍSIO TEIXEIRA (Brasil). [S.l.], 2007.
+Disponível em: <http://sistemasprovabrasil2.inep.gov.
+br/ProvaBrasilResultados>. Acesso em: 5 ago. 2009.
+MOITA, M. H. V. Medindo a eficiência relativa de
+escolas municipais da cidade do Rio GrandeRS usando a abordagem dea (Data Envelopment
+Analysis). 1995. 75 f. Dissertação (Mestrado
+em Engenharia de Produção) - Universidade
+Federal de Santa Catarina, Florianópolis, 1995.
+PASTOR, J. Translation invariance in data envelopment
+analysis: a generalization. Annals of Operations
+Research 66, v. 66, n. 2, p. 93-102, 1996.
+PINHEIRO, A.; GIAMBIAGI, F. Rompendo o
+marasmo: a retomada do desenvolvimento
+no Brasil. Rio de Janeiro: Elsevier, 2006.
+PLENZLER, N. Student performance and
+educational resources: a spatial econometric
+examination. Ohio: University of Toledo, 2004.
+RAMANATHAN, R. An introduction to data
+envelopment analysis: a tool for performance
+measurement. New Delhi: Sage Publications, 2003.
+
+Volume 42 | Nº 03 | Julho - Setembro | 2011
+
+SEIFORD, L. M.; Thrall, R. M. Recent developments
+in DEA: the mathematical programming
+approach to frontier analysis. Journal of
+Econometrics, v. 46, p. 7-38, 1990.
+SECRETARIA DO TESOURO NACIONAL (Brasil).
+[S.l.], 2005. Disponível em: <http://www.tesouro.
+fazenda.gov.br/estados_municipios/financas/
+Finbra2005v0809.exe>. Acesso em: 1 set. 2009.
+SOUSA, M. C. S.; Santos, F. B. C.; CRIBARI
+NETO, F. Uma análise da eficiência do gasto
+público municipal no Brasil. Revista Brasileira
+de Estatística, v. 68, p. 7-55, 2007.
+
+Recebido para publicação em 11.11.2009.
+
+Volume 42 | Nº 03 | Julho - Setembro | 2011
+
+637
+
+APÊNDICE A – RESULTADOS DA ESTIMAÇÃO DO ÍNDICE DE EFICIÊNCIA EM EDUCAÇÃO
+FUNDAMENTAL PARA OS MUNICÍPIOS PARAIBANOS9
+Tabela 1A – Eficiência em Educação Fundamental dos Municípios Paraibanos
+DMU
+DIAMANTE
+QUIXABA
+PEDRA LAVRADA
+S. JOSÉ DA LAGOA TAPADA
+ALAGOA NOVA
+PARARI
+SÃO BENTO
+S. SEBAST. DE LAG. DE ROÇA
+S. JOSÉ DO BREJO DO CRUZ
+CACIMBA DE DENTRO
+INGÁ
+CACIMBAS
+SÃO MIGUEL DE TAIPU
+RIACHÃO DO POÇO
+BAYEUX
+PEDRAS DE FOGO
+CABACEIRAS
+DAMIÃO
+ESPERANÇA
+SANTA INÊS
+BARRA DE SANTA ROSA
+JUAZEIRINHO
+SÃO FRANCISCO
+SÃO VICENTE DO SERIDÓ
+BARAÚNA
+UMBUZEIRO
+ASSUNÇÃO
+PASSAGEM
+RIACHÃO
+SANTANA DE MANGUEIRA
+CURRAL VELHO
+DONA INÊS
+MARCAÇÃO
+POCINHOS
+SÃO DOMINGOS DE POMBAL
+SÃO JOSÉ DOS RAMOS
+CARRAPATEIRA
+LASTRO
+LUCENA
+SERRA GRANDE
+AREIA
+BERNARDINO BATISTA
+CAPIM
+ITAPOROROCA
+JURIPIRANGA
+MANAÍRA
+
+θ
+
+1/ θ
+
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+
+DMU
+MATURÉIA
+POÇO DANTAS
+POMBAL
+RIACHO DE S. ANTONIO
+SANTARÉM
+CUITEGI
+CAJAZEIRAS
+CASSERENGUE
+SOUSA
+CAJAZEIRINHAS
+PRATA
+ALGODÃO DE JANDAÍRA
+BOM JESUS
+CACIMBA DE AREIA
+BANANEIRAS
+MARIZÓPOLIS
+CUITÉ
+VIEIRÓPOLIS
+MÃE D’ÁGUA
+OLHO D’ÁGUA
+SANTA CRUZ
+NATUBA
+ALAGOA GRANDE
+ARARUNA
+BOQUEIRÃO
+TAPEROÁ
+CURRAL DE CIMA
+NAZAREZINHO
+MARI
+RIO TINTO
+FREI MARTINHO
+BORBOREMA
+TAVARES
+C. DO ESPIRITO SANTO
+MASSARANDUBA
+SOLEDADE
+SÃO JOSÉ DE CAIANA
+APARECIDA
+GADO BRAVO
+REMÍGIO
+RIAC. DO BACAMARTE
+SÃO JOSÉ DE PIRANHAS
+NOVA PALMEIRA
+SÃO JOÃO DO CARIRI
+C. DE MAMANGUAPE
+ÁGUA BRANCA
+
+θ
+
+1/ θ
+
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,01
+1,01
+1,01
+1,01
+1,01
+1,01
+1,02
+1,02
+1,02
+1,02
+1,02
+1,02
+1,02
+1,02
+1,03
+1,03
+1,03
+1,03
+1,03
+1,03
+1,03
+1,03
+1,04
+1,04
+1,04
+1,04
+1,04
+1,04
+1,04
+1,04
+1,05
+1,05
+1,05
+1,05
+1,05
+1,05
+1,06
+1,06
+1,06
+
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+1,00
+0,99
+0,99
+0,99
+0,99
+0,99
+0,99
+0,98
+0,98
+0,98
+0,98
+0,98
+0,98
+0,98
+0,98
+0,98
+0,97
+0,97
+0,97
+0,97
+0,97
+0,97
+0,97
+0,97
+0,97
+0,96
+0,96
+0,96
+0,96
+0,96
+0,96
+0,95
+0,95
+0,95
+0,95
+0,95
+0,95
+0,94
+0,94
+0,94
+
+DMU
+AREIAL
+PAULISTA
+SERRARIA
+SÃO MAMEDE
+CUBATI
+PUXINANA
+SOLÃNEA
+TEIXEIRA
+MULUNGU
+PICUÍ
+DESTERRO
+JUAREZ TÁVORA
+LIVRAMENTO
+SOBRADO
+LAGOA DE DENTRO
+CALDAS BRANDÃO
+MONTE HOREBE
+SANTA LUZIA
+ARARA
+SÃO JOÃO DO TIGRE
+POÇO DE JOSÉ DE MOURA
+S. SEBAST. DO UMBUZEIRO
+SERRA BRANCA
+PEDRA BRANCA
+AMPARO
+CONGO
+CAMALAÚ
+PILÕEZINHOS
+SERRA REDONDA
+CATOLÉ DO ROCHA
+PILAR
+SANTA HELENA
+ITATUBA
+MONTADAS
+ALCANTIL
+PIANCÓ
+ALAGOINHA
+MOGEIRO
+PEDRO RÉGIS
+CACHOEIRA DOS ÍNDIOS
+MONTEIRO
+PILÕES
+AREIA DE BARAÚNAS
+SANTO ANDRÉ
+CARAÚBAS
+NOVA OLINDA
+
+θ
+
+1/ θ
+
+1,06
+1,06
+1,07
+1,07
+1,07
+1,07
+1,07
+1,08
+1,08
+1,08
+1,08
+1,08
+1,08
+1,08
+1,08
+1,09
+1,09
+1,09
+1,09
+1,09
+1,09
+1,10
+1,10
+1,10
+1,10
+1,10
+1,10
+1,10
+1,10
+1,10
+1,11
+1,11
+1,11
+1,11
+1,11
+1,12
+1,12
+1,12
+1,12
+1,12
+1,12
+1,13
+1,13
+1,13
+1,13
+1,13
+
+0,94
+0,94
+0,94
+0,94
+0,94
+0,93
+0,93
+0,93
+0,93
+0,93
+0,93
+0,93
+0,92
+0,92
+0,92
+0,92
+0,92
+0,92
+0,92
+0,91
+0,91
+0,91
+0,91
+0,91
+0,91
+0,91
+0,91
+0,91
+0,91
+0,91
+0,90
+0,90
+0,90
+0,90
+0,90
+0,89
+0,89
+0,89
+0,89
+0,89
+0,89
+0,89
+0,89
+0,89
+0,89
+0,89
+
+(Continua)
+
+9 As DMUs apresentadaS no final deste apêndice com o primeiro caractere {X} representam as cidades detectadas
+como outliers e que, portanto, não participaram da formação da fronteira de eficiência.
+
+638
+
+Volume 42 | Nº 03 | Julho - Setembro | 2011
+
+Tabela 1A – Eficiência em Educação Fundamental dos Municípios Paraibanos
+
+(Conclusão)
+
+DMU
+
+θ
+
+1/ θ
+
+DMU
+
+θ
+
+1/ θ
+
+DMU
+
+θ
+
+1/ θ
+
+SALGADINHO
+
+1,13
+
+0,88
+
+MALTA
+
+1,18
+
+0,85
+
+{X} CAAPORA
+
+1,02
+
+0,98
+
+RIACHO DOS CAVALOS
+
+1,13
+
+0,88
+
+CATINGUEIRA
+
+1,18
+
+0,84
+
+{X} CABEDELO
+
+1,00
+
+1,00
+
+SÃO JOSÉ DE ESPINHARAS
+
+1,13
+
+0,88
+
+UIRAÚNA
+
+1,19
+
+0,84
+
+{X} CAMPINA GRANDE
+
+1,00
+
+1,00
+
+BELÉM
+
+1,14
+
+0,88
+
+BREJO DO CRUZ
+
+1,19
+
+0,84
+
+{X} CONCEIÇÃO
+
+1,04
+
+0,97
+
+OLIVEDOS
+
+1,14
+
+0,88
+
+TRIUNFO
+
+1,19
+
+0,84
+
+{X} CONDE
+
+1,01
+
+0,99
+
+SÃO JOSÉ DE PRINCESA
+
+1,14
+
+0,88
+
+PITIMBU
+
+1,20
+
+0,83
+
+{X} FAGUNDES
+
+1,00
+
+1,00
+
+EMAS
+
+1,14
+
+0,88
+
+SUMÉ
+
+1,21
+
+0,83
+
+{X} GUARABIRA
+
+1,04
+
+0,96
+
+GURJÃO
+
+1,14
+
+0,87
+
+BELÉM DO B. DO CRUZ
+
+1,21
+
+0,83
+
+{X} IMACULADA
+
+1,13
+
+0,89
+
+SÃO JOSÉ DOS CORDEIROS
+
+1,15
+
+0,87
+
+SANT. DOS GARROTES
+
+1,21
+
+0,83
+
+{X} ITABAIANA
+
+1,05
+
+0,95
+
+NOVA FLORESTA
+
+1,15
+
+0,87
+
+SERTÃOZINHO
+
+1,21
+
+0,83
+
+{X} ITAPORANGA
+
+1,18
+
+0,85
+
+DUAS ESTRADAS
+
+1,15
+
+0,87
+
+PIRPIRITUBA
+
+1,22
+
+0,82
+
+{X} JACARAÚ
+
+1,12
+
+0,89
+
+SERRA DA RAÍZ
+
+1,15
+
+0,87
+
+JUNCO DO SERIDÓ
+
+1,22
+
+0,82
+
+{X} JOÃO PESSOA
+
+1,00
+
+1,00
+
+LOGRADOURO
+
+1,16
+
+0,86
+
+BOA VENTURA
+
+1,24
+
+0,81
+
+{X} MATINHAS
+
+1,03
+
+0,97
+
+BARRA DE SANTANA
+
+1,17
+
+0,86
+
+CATURITÉ
+
+1,24
+
+0,80
+
+{X} OURO VELHO
+
+1,00
+
+1,00
+
+SÃO JOSÉ DO SABUGI
+
+1,17
+
+0,85
+
+JERICÓ
+
+1,25
+
+0,80
+
+{X} PATOS
+
+1,02
+
+0,98
+
+CAIÇARA
+
+1,17
+
+0,85
+
+SÃO JOSÉ DO BONFIM
+
+1,27
+
+0,79
+
+{X} QUEIMADAS
+
+1,00
+
+1,00
+
+SANTA TERESINHA
+
+1,17
+
+0,85
+
+IGARACY
+
+1,28
+
+0,78
+
+{X} SALGADO DE S. FÉLIX
+
+1,14
+
+0,88
+
+AGUIAR
+
+1,17
+
+0,85
+
+LAGOA
+
+1,29
+
+0,77
+
+{X} SANTA RITA
+
+1,00
+
+1,00
+
+BOM SUCESSO
+
+1,18
+
+0,85
+
+BREJO DOS SANTOS
+
+1,38
+
+0,72
+
+{X} S. J. DO RIO DO PEIXE
+
+1,12
+
+0,89
+
+JURU
+
+1,18
+
+0,85
+
+{X} ALHANDRA
+
+1,13
+
+0,89
+
+{X} VÁRZEA
+
+1,00
+
+1,00
+
+COREMAS
+
+1,18
+
+0,85
+
+{X} AROEIRAS
+
+1,03
+
+0,97
+
+{X} ZABELÊ
+
+1,00
+
+1,00
+
+CONDADO
+
+1,18
+
+0,85
+
+{X} BONITO DE S. FÉ
+
+1,08
+
+0,93
+
+Fonte: Elaboração Própria dos Autores.
+
+Volume 42 | Nº 03 | Julho - Setembro | 2011
+
+639
+
+640
+
+Volume 42 | Nº 03 | Julho - Setembro | 2011
+
+

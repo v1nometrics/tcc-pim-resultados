@@ -1,0 +1,3009 @@
+2757
+AVALIAÇÃO DE IMPACTO DA LEI
+DE INFORMÁTICA UTILIZANDO OS
+MÉTODOS PROPENSITY SCORE
+MATCHING E DIFERENÇAS
+EM DIFERENÇAS
+
+ANTONIO SERGIO MALAQUIAS DE QUEIROZ FILHO
+BRUNO CÉSAR ARAÚJO
+MAURO ODDO NOGUEIRA
+
+2757
+Brasília, março de 2022
+
+AVALIAÇÃO DE IMPACTO DA LEI
+DE INFORMÁTICA UTILIZANDO OS
+MÉTODOS PROPENSITY SCORE
+MATCHING E DIFERENÇAS
+EM DIFERENÇAS
+ANTONIO SERGIO MALAQUIAS DE QUEIROZ FILHO1
+BRUNO CÉSAR ARAÚJO2
+MAURO ODDO NOGUEIRA3
+
+1. Servidor da carreira de ciência e tecnologia.
+2. Técnico de planejamento e pesquisa na Diretoria de Estudos e Políticas
+Setoriais de Inovação e Infraestrutura (Diset) do Ipea.
+3. Técnico de planejamento e pesquisa na Diset/Ipea.
+
+Texto para
+
+Governo Federal
+
+Discussão
+
+Ministério da Economia
+Ministro Paulo Guedes
+
+Publicação seriada que divulga resultados de estudos e
+pesquisas em desenvolvimento pelo Ipea com o objetivo
+de fomentar o debate e oferecer subsídios à formulação e
+avaliação de políticas públicas.
+
+Fundação pública vinculada ao Ministério da Economia,
+o Ipea fornece suporte técnico e institucional às ações
+governamentais – possibilitando a formulação de inúmeras
+políticas públicas e programas de desenvolvimento
+brasileiros – e disponibiliza, para a sociedade, pesquisas
+e estudos realizados por seus técnicos.
+
+© Instituto de Pesquisa Econômica Aplicada – ipea 2022
+Texto para discussão / Instituto de Pesquisa Econômica
+Aplicada.- Brasília : Rio de Janeiro : Ipea , 1990ISSN 1415-4765
+1.Brasil. 2.Aspectos Econômicos. 3.Aspectos Sociais.
+I. Instituto de Pesquisa Econômica Aplicada.
+
+Presidente
+
+CDD 330.908
+
+ERIK FIGUEIREDO
+Diretor de Desenvolvimento Institucional
+
+MANOEL RODRIGUES JUNIOR
+Diretora de Estudos e Políticas do Estado,
+das Instituições e da Democracia
+
+As publicações do Ipea estão disponíveis para download
+gratuito nos formatos PDF (todas) e EPUB (livros e periódicos).
+Acesse: http://www.ipea.gov.br/portal/publicacoes
+
+FLÁVIA DE HOLANDA SCHMIDT
+Diretor de Estudos e Políticas Macroeconômicas
+
+JOSÉ RONALDO DE CASTRO SOUZA JÚNIOR
+Diretor de Estudos e Políticas Regionais,
+Urbanas e Ambientais
+
+NILO LUIZ SACCARO JÚNIOR
+Diretor de Estudos e Políticas Setoriais de
+Inovação e Infraestrutura
+
+ANDRÉ TORTATO RAUEN
+Diretora de Estudos e Políticas Sociais
+
+As opiniões emitidas nesta publicação são de exclusiva
+e inteira responsabilidade dos autores, não exprimindo,
+necessariamente, o ponto de vista do Instituto de Pesquisa
+Econômica Aplicada ou do Ministério da Economia.
+É permitida a reprodução deste texto e dos dados nele
+contidos, desde que citada a fonte. Reproduções para fins
+comerciais são proibidas.
+
+LENITA MARIA TURCHI
+Diretor de Estudos e Relações Econômicas e
+Políticas Internacionais
+
+IVAN TIAGO MACHADO OLIVEIRA
+Assessor-chefe de Imprensa e Comunicação
+
+ANDRÉ REIS DINIZ
+
+Ouvidoria: http://www.ipea.gov.br/ouvidoria
+URL: http://www.ipea.gov.br
+
+JEL: O31; O38.
+DOI: http://dx.doi.org/10.38116/td2757
+
+SUMÁRIO
+
+SINOPSE
+ABSTRACT
+1 INTRODUÇÃO. .......................................................................6
+2 EVOLUÇÃO DA LEI DE INFORMÁTICA.....................................8
+3 AVALIAÇÕES DA LEI DE INFORMÁTICA. ................................12
+4 ESTRATÉGIA EMPÍRICA. .......................................................22
+5 DADOS.................................................................................25
+6 O PROCEDIMENTO DE MATCHING. ......................................30
+7 PRINCIPAIS RESULTADOS......................................................38
+8 CONCLUSÕES. .....................................................................40
+REFERÊNCIAS..........................................................................41
+APÊNDICE A............................................................................46
+APÊNDICE B............................................................................49
+APÊNDICE C............................................................................53
+APÊNDICE D............................................................................57
+
+SINOPSE
+Este Texto para Discussão avalia o impacto da Lei de Informática sobre os esforços tecnológicos
+das firmas, mensurados pela contratação de pessoal ocupado em ocupações técnico-científicas
+(PoTec). A partir da aplicação, entre 2006 e 2017, do algoritmo de propensity score matching
+(PSM), aliado à técnica de diferenças em diferenças, não podemos concluir cabalmente que o
+esforço tecnológico das firmas beneficiárias da Lei de Informática seja significativamente superior
+ao grupo de controle. Secundariamente, a Lei de Informática apresentou efeito positivo sobre o
+market share de massa salarial dentro do setor das beneficiárias. Estes resultados estão em linha
+com outros estudos que aplicam técnicas contrafactuais, com impactos insignificantes sobre o
+desenvolvimento tecnológico e algum impacto sobre a produção, ainda que direcionada às atividades de montagem de menor intensidade tecnológica.
+Palavras-chave: Lei de Informática; PD&I; PoTec; propensity score matching; diferenças
+em diferenças.
+
+ABSTRACT
+This article assesses the impact of the Informatics Law on the technological efforts of firms, measured by the hiring of personnel in technical-scientific occupations (PoTec). Using Propensity Score
+Matching (PSM) combined with differences-in-differences between 2006 and 2017, we cannot conclude that technological efforts beneficiary firms of the Informatics Law are significantly superior to
+the control group. Secondarily, the Information Technology Law had a positive effect on the market
+share of total wages within the beneficiary sector. These results are in line with other studies that
+apply counterfactual techniques, with negligible impacts on technological development and some
+impact on production, even though directed at assembly activities of lesser technological intensity.
+Keywords: Informatics Law; RD&I; PoTec; propensity score matching; diff-in-diff.
+
+2757
+TEXTO para DISCUSSÃO
+1 INTRODUÇÃO
+A Lei no 8.248/91, conhecida como Lei de Informática, é uma das políticas industriais de estímulo à inovação há mais tempo em vigor no Brasil. Durante seus quase trinta anos, o instrumento
+foi modificado diversas vezes, mas sua operação permaneceu basicamente a mesma: empresas
+participantes fabricam produtos de informática e podem, entre outros benefícios menos importantes,
+vendê-los com isenção no Imposto sobre Produtos Industrializados (IPI). Como contrapartida, essas
+empresas devem investir uma parcela mínima do seu faturamento bruto em pesquisa, desenvolvimento e inovação (PD&I) – atualmente fixada em 4% – e cumprir um processo produtivo básico
+(PPB), ou seja, realizar uma série de etapas produtivas no Brasil.
+A primeira versão da Lei previa que ela fosse um instrumento temporário, que permitisse o
+desenvolvimento da indústria de informática e a tornasse competitiva frente ao mercado global.
+Contudo, sua vigência foi estendida diversas vezes, e atualmente o benefício tem previsão de
+término somente no ano de 2029. Paralelamente, a Lei de Informática foi questionada em um
+painel proposto por União Europeia e Japão no âmbito da Organização Mundial do Comércio
+(OMC). Resumidamente, este painel questionou o âmago da política, isto é, o tratamento tributário
+diferenciado via desconto no IPI vinculado ao requisito de conteúdo local representados nos PPBs.
+O benefício implicou uma renúncia fiscal anual da ordem de R$ 5,7 bilhões em 2018 (Rauen,
+2020). Se as renúncias fiscais representaram, em 2018, 57% dos recursos federais para inovação,
+só a Lei de Informática contribuiu com 23,7% das isenções, ou 13,5% do total dos gastos em
+inovação naquele ano. A Secretaria de Avaliação de Políticas Públicas, Planejamento, Energia e
+Loterias (Secap, 2019) do Ministério da Economia estima um custo tributário de R$ 42.794/trabalhador empregado nas firmas beneficiárias em 2018. Especialmente num contexto de restrição
+fiscal, é importante avaliar a aplicação eficiente dos recursos públicos e quais benefícios reais e
+externalidades são providos pela política. Dessa forma, este trabalho se justifica como um complemento ao vasto acervo de avaliações já realizadas sobre o tema.
+A pergunta de pesquisa que orienta este trabalho é: “Qual a efetividade da Lei de Informática como política de estímulo ao investimento em PD&I?” Entretanto, dificilmente esta pergunta
+seria respondida comparando-se as médias dos investimentos das empresas que acessam o programa frente àquelas que não acessam. Tal comparação pode estar prejudicada pelo fenômeno
+da autosseleção das empresas participantes do programa, ou seja, pelo fato de as empresas
+participantes já investirem mais em PD&I do que as não participantes mesmo antes de sua estreia
+como beneficiária da Lei de informática. Além disso, pode haver o fenômeno do crowding out, isto
+é, a política financiar investimentos que a empresa já faria mesmo na ausência da lei, sem haver
+impacto marginal algum.
+
+6
+
+2757
+TEXTO para DISCUSSÃO
+
+Nesse sentido, a hipótese que será aqui testada é a de que o benefício oferecido pela Lei é
+capaz de estimular um nível maior de investimento em PD&I do que seria esperado na ausência
+da política. Essa hipótese é testada a partir da comparação de um grupo de casos (firmas que
+acessam a Lei de Informática) e controles (firmas que não acessam a Lei) comparáveis, obtidos a
+partir da técnica de propensity score matching. O uso de controles comparáveis a partir da técnica
+PSM permite estimar contrafactuais, isto é, aquilo que teria acontecido com quem acessou a Lei
+de Informática caso não o tivesse feito. Após o pareamento dos casos e controles, é aplicada a
+técnica de diferenças em diferenças, a fim de eliminar efeitos fixos não observáveis em ambos os
+grupos e garantir maior robustez nas estimativas (Gertler et al., 2018).
+Este trabalho utilizou as seguintes bases de dados:
+• Extração do Sistema de Gestão da Lei de Informática (Sigplani);
+• Relação Anual de Informações Sociais (Rais);
+• Banco Nacional de Desenvolvimento Econômico e Social (BNDES); e
+• Secretaria de Comércio Exterior do Brasil (Secex).
+
+Cabe destacar que todas essas bases de dados são censitárias, o que proporciona maior
+robustez para a análise desde o seu ponto de partida. De acordo com nosso conhecimento, este
+é o segundo estudo que avalia a Lei de Informática a partir das bases censitárias e que utilizam
+técnicas de pareamento quase-experimentais a partir da junção do Sigplani com registros administrativos (o primeiro estudo é o da Secap, 2019). Todos os outros estudos quase experimentais
+revisados fizeram suas estimativas a partir da Pesquisa de Inovação Tecnológica (Pintec) do Instituto Brasileiro de Geografia e Estatística (IBGE). Além da avaliação de impacto sobre os esforços
+de P&D – aqui representados pelos profissionais em ocupações técnico-científicas (PoTec) –, esse
+estudo avalia o possível impacto da Lei de Informática sobre o pessoal ocupado total, massa
+salarial, remuneração média e market share.
+Além desta introdução e da conclusão, este trabalho se divide em quatro seções: a primeira
+trata brevemente da evolução da Lei de Informática ao longo do tempo; a segunda revisa a literatura com as principais avaliações já realizadas; a terceira descreve as bases de dados e os métodos
+empregados; e a quarta seção apresenta os principais resultados encontrados.
+
+7
+
+2757
+TEXTO para DISCUSSÃO
+2 EVOLUÇÃO DA LEI DE INFORMÁTICA
+Ao longo de seus quase trinta anos, a Lei de Informática sofreu várias alterações legais, mas
+sua operação básica foi mantida, sofrendo apenas ajustes pontuais. É importante destacar que
+interesses políticos desempenharam um papel importante em todo o processo de atualização da
+Lei, especialmente quando se considera a polarização de parlamentares ligados à Zona Franca de
+Manaus (ZFM) e os do setor industrial da região Sudeste.
+A Exposição de Motivos no 348/1990, que acompanhou o Projeto de Lei (PL) da Lei de Informática, demonstra a intenção do governo em revogar, na data de 29 de outubro de 1992, o controle
+de importações previsto na Lei no 7.232/1984. Outro ponto a ser ressaltado é que o conceito de
+“empresa nacional” para as firmas do setor de informática passaria a ter o mesmo tratamento
+que para os demais setores da economia, uma vez que a definição anterior era bastante restritiva.
+O objetivo dessa proposição do Poder Executivo se restringia a liberalizar o setor removendo a
+reserva de mercado anteriormente vigente. Colombo (2009) elabora um relato detalhado de todo
+o debate em torno da proposição na Câmara dos Deputados. O autor destaca que o deputado
+Luiz Henrique foi o contraponto da proposta do governo, ao propor, no âmbito da Comissão de
+Ciência, Tecnologia, Comunicação e Informática, que uma nova política substituísse a anterior,
+ao invés de haver uma mera revogação, como previsto inicialmente. Ainda que seja muito difícil
+estabelecer um marco lógico claro da Lei de Informática, o que dificulta a definição clara de seus
+objetivos, o debate à época em torno do substitutivo do deputado Luiz Henrique leva a crer que
+havia dois macrobjetivos: i) substituição de importações e fomento às exportações; e ii) capacidade
+de desenvolvimento tecnológico significativo (CGU, 2019).
+O texto sancionado na versão original da Lei no 8.248 limita, em seu art. 4o, a concessão
+da isenção do IPI às empresas por sete anos contados a partir de 29 de outubro de 1992. Isso
+ressalta o caráter temporal da Lei de Informática. Ela deveria ser um instrumento que mediaria a
+transição entre a reserva de mercado instituída na década de 1980 e a liberalização do comércio,
+permitindo que a indústria nacional dos setores de informática e automação se tornasse competitiva nesse interim. O que ocorreu de fato é que as constantes extensões do seu prazo de vigência
+descaracterizaram esse princípio.
+Cabe mencionar que a norma concedia também dois outros tipos de benefícios que se
+encerraram em 1997 e não foram renovados por nenhuma das alterações da lei: a redução de
+até 50% de desconto no Imposto de Renda (IR), desde que o valor fosse investido em PD&I; e a
+capitalização incentivada.
+
+8
+
+2757
+TEXTO para DISCUSSÃO
+
+A primeira tentativa de extensão de prazo veio com o Projeto de Lei (PL) no 2.514/1996.
+Mas sua aprovação como lei ocorreu apenas em 2001, com a sanção da Lei no 10.176/2001, ou
+seja, haveria uma interrupção da isenção do IPI, uma vez que os benefícios da norma inicial se
+encerram em 29 de outubro de 1999. Com a finalidade de manter sua continuidade, o governo
+de Fernando Henrique Cardoso editou treze medidas provisórias durante o ano 2000 (à época,
+sua validade era de trinta dias), o que causou incerteza na indústria de informática, mas garantiu
+a continuidade do benefício (Colombo, 2009).
+O benefício concedido pela ZFM para as empresas de informática que se instalam em seu
+lócus é bastante semelhante ao que a Lei de Informática oferece em âmbito nacional. Dessa
+forma, a ZFM e a Lei de Informática podem ser consideradas instrumentos conflitantes, uma vez
+que uma empresa poderia receber benefício análogo sem a necessidade de se instalar na Zona
+Franca. Colombo (2009) relata a polarização motivada por interesses políticos entre os deputados do estado do Amazonas, que defendiam que a Lei de Informática conflitava com a ZFM, e
+os deputados (principalmente da região Sudeste) que buscavam a continuidade do benefício em
+âmbito nacional.
+A solução acordada envolveu três pontos principais (Colombo, 2009): i) redução do prazo de
+prorrogação da Lei de informática, do ano de 2013 para o ano de 2009; ii) alíquota diferenciada
+para as regiões Norte, Nordeste e Centro-Oeste, o que tornaria o preço final dos produtos ali produzidos 1% mais baixo; e iii) direcionamento de 40% dos recursos investidos em PD&I por meio
+de convênios para as regiões Norte, Nordeste e Centro-Oeste.
+Destacam-se, como alterações relevantes da norma de 2001, a formalização do PPB como
+requisito para concessão do benefício, ao passo que o texto anterior trazia como critério apenas
+a expressão “valor agregado local”; a alteração da base de cálculo do faturamento bruto das
+empresas; e a extensão de prazo para o benefício do IPI até 2009, seguindo um cronograma de
+redução gradual.
+O cronograma de término foi mais uma vez postergado (para o ano de 2019), por meio da
+Lei no 11.077/2004. Outras alterações legais ocorreram nas décadas de 2000 e 2010, mas representam ajustes pontuais, sem impactar consideravelmente no funcionamento do programa.
+A Lei no 13.674/2018 (originalmente Medida Provisória no 810/2017) é a alteração legal que
+promoveu mudanças mais radicais na Lei de Informática. O contexto da sua elaboração remete
+ao processo aberto pela União Europeia contra o Brasil na OMC, em que foram questionados
+sete programas de políticas industriais, incluindo a Lei de Informática. Em agosto de 2017, foi
+divulgado o Relatório de Painel referente à DS472, classificando a Lei de Informática, o Programa
+
+9
+
+2757
+TEXTO para DISCUSSÃO
+de Apoio ao Desenvolvimento Tecnológico da Indústria de Semicondutores (Padis), o Programa
+de Apoio ao Desenvolvimento da TV Digital (PATVD), o Programa Inclusão Digital e o Inovar-Auto
+como subsídios, o que feriria as normas da OMC.
+Em dezembro de 2013, a União Europeia submeteu um requerimento de consulta com o
+Brasil no âmbito da OMC, gerando a DS497.1 Uma consulta é a primeira instância do sistema de
+resolução de conflitos da OMC. Nessa etapa, as partes tentam alcançar uma solução de comum
+acordo com a opção de serem mediadas pelo diretor-geral da Organização.2
+No tocante à Lei de Informática, o principal item questionado era a exigência do PPB como
+cláusula de conteúdo local, o que violaria dois princípios basilares da Organização: o princípio da
+nação mais favorecida (todos os membros da OMC devem receber entre si o mesmo tratamento
+tarifário da nação que usufrui dos melhores benefícios) e o princípio do tratamento nacional (não
+pode haver distinção entre o tratamento tarifário de produtos nacionais e importados com o intuito
+de discriminar estes, à exceção dos impostos de importação). Tomados em conjunto, esses dois
+princípios formam o princípio básico da OMC, o da não discriminação.
+Em janeiro de 2014, o Japão solicitou integrar a consulta e, posteriormente, naquele mesmo
+ano, Argentina e Estados Unidos também solicitaram participação. No mês de abril foi realizada
+uma reunião conciliatória, mas o Brasil e as partes impetrantes não chegaram a um acordo
+satisfatório. Dessa forma, em outubro de 2014, a União Europeia requereu ao Órgão de Solução
+de Controvérsias da OMC (Dispute Settlement Body – DSB, em inglês) a formação de um painel
+(segunda etapa do processo de resolução de controvérsias) para analisar os questionamentos da
+consulta. O painel foi aberto naquele mesmo ano. Das demais partes envolvidas, apenas o Japão
+juntou-se à União Europeia no painel.
+O relatório final do painel foi divulgado em agosto de 2017, dando causa à União Europeia e
+ao Japão na maioria dos pontos reclamados. O benefício de redução do IPI da Lei de Informática
+foi considerado como subsídio (representando violação grave das regras da OMC), e a exigência
+do PPB foi considerada cláusula discriminatória contra produtos estrangeiros. O relatório também
+estipulava que o Brasil teria apenas noventa dias para se adequar a essas exigências.
+
+1. Toda a documentação e o histórico da disputa estão disponíveis (em inglês) em: <https://bit.
+ly/3Jjee9f>.
+2. As regras e procedimentos para resolução de disputas da OMC constam do anexo II do tratado da
+organização, disponível (em inglês) em: <https://bit.ly/3Jjw8IS>.
+
+10
+
+2757
+TEXTO para DISCUSSÃO
+
+O governo brasileiro então recorreu à terceira e última instância do sistema de resolução de
+conflitos, a apelação. O resultado, divulgado em dezembro de 2018, pode ser considerado como
+uma vitória para o Brasil, uma vez que reverteu as decisões mais impositivas do relatório do painel.
+O benefício do IPI concedido pela Lei de Informática (assim como benefícios de alguns dos outros
+dos programas questionados) foi considerado renúncia fiscal, não subsídio. O prazo de noventa dias
+para adequação das medidas foi entendido como impraticável, considerando-se o processo legislativo necessário para promover a alteração legal. Posteriormente, em uma comunicação conjunta do
+Brasil e da União Europeia, publicada em maio de 2019 (WTO, 2019), foi acordado que a adequação
+ocorreria até o dia 31/12/2019.
+Os PPBs regulares foram considerados como uma mera coleção de etapas que devem ser
+realizadas no Brasil, não representando, assim, violação dos princípios e normas da Organização.
+Entretanto, verificou-se que algumas das etapas descritas nos PPBs eram outros PPBs inteiros.
+Esse caso específico, denominado de PPB aninhado (nested PPB), foi considerado pelo órgão de
+apelação como favorecimento de conteúdo nacional, e não deve mais ser permitido como exigência.
+Diante desse contexto, cabe destacar alguns pontos da Exposição de Motivos no 6 de 2017
+(EMI no 6/2017 MDIC MCTIC MF). Ela esclarece que o espírito que guiou o texto proposto na MPV
+foi o de desburocratizar e aperfeiçoar a operação da Lei de Informática. Há alterações propostas
+tanto na Lei de Informática (Lei de Informática Nacional, segundo o texto da EMI) quanto na
+chamada “Lei de Informática da Suframa”, o que pode ser visto como uma tentativa do governo
+federal de evitar a polarização, mencionada anteriormente, entre parlamentares do estado do
+Amazonas, defensores da ZFM, e os da região Sudeste, principal polo industrial do país.
+Os principais pontos propostos para alteração na Lei de Informática (nacional) são os
+descritos a seguir.
+1) Reduzir a burocracia e aumentar a eficiência dos procedimentos de acompanhamento das
+obrigações advindas do programa.
+2) Permitir às empresas o parcelamento de débitos oriundos da aplicação em PD&I, decorrentes
+de glosas ou de insuficiência de investimentos (de acordo com a própria EMI, essas glosas
+representavam cerca de 60% dos valores investidos).
+3) Permitir o reinvestimento de valores residuais atualizados.
+4) Amenizar efeitos de punições que recairiam sobre as empresas beneficiadas por atrasos da
+administração pública em avaliar os relatórios demonstrativos anuais (RDAs) das empresas.
+5) Incluir o investimento em inovação como contrapartida pela concessão dos benefícios, ao passo
+que antes era permitido apenas investimento em PD&I.
+
+11
+
+2757
+TEXTO para DISCUSSÃO
+6) Permitir que parte dos recursos da contrapartida seja investida em fundos de investimento
+destinados à capitalização de empresas de base tecnológica.
+7) Atualizar o conceito anteriormente utilizado de “indústria de informática e automação”, passando-se a direcionar o benefício a “empresas de desenvolvimento ou produção de bens e
+serviços de tecnologias da informação e comunicação” (apesar de conceitual, essa alteração é
+importante para acompanhar a rápida evolução tecnológica do setor e abranger em seu bojo
+produtos com intensa aplicação de informática, mas que estariam classificados dentro de outra[s]
+categoria[s], como os smartphones).
+8) Manter o avanço dos investimentos em PD&I no setor de tecnologias de informação e comunicação (TICs), aprimorando e consolidando o sistema de inovação no Brasil.
+9) Institucionalização dos chamados projetos prioritários, projetos estruturantes de interesse estratégico para o país definidos pelo Comitê da Área de Tecnologia da Informação (Cati), como
+alternativa de investimento das empresas beneficiadas.
+
+Fica clara a intenção de ofertar mais opções de investimento como forma de contrapartida e
+de flexibilizar a quitação de débitos de exercícios anteriores que não foram comunicados devido ao
+passivo do MCTI na análise dos processos dos RDAs. O texto final aprovado pelo Poder Legislativo
+incluía dispositivo prevendo que a análise das obrigações seria feita por amostragem ou de forma
+automatizada. Este dispositivo foi vetado a pedido do Ministério do Planejamento, Desenvolvimento
+e Gestão, bem como o instrumento que aprovava automaticamente os RDAs com mais de cinco
+anos que não fossem analisados.
+Por fim, a Lei no 13.969 de dezembro 2019 terminou o processo de adequação da Lei de
+Informática à controvérsia na OMC. Em essência, essa Lei estabelece que o percentual mínimo
+de investimentos em PD&I passará a ser de 4% e não mais 5%, e que o mecanismo de incentivo
+fiscal passará a ser um crédito sobre Imposto de Renda de Pessoa Jurídica (IRPJ) ou Contribuição
+Social sobre Lucro Líquido (CSLL), e não mais uma isenção direta sobre o IPI. Os benefícios permanecem estendidos até 2029.
+
+3 AVALIAÇÕES DA LEI DE INFORMÁTICA
+Durante seus quase trinta anos, a Lei de Informática foi amplamente avaliada por diversos
+grupos de pesquisadores de diferentes instituições. Esses trabalhos são bastante ricos e suas contribuições agregam um conhecimento essencial para a continuidade dos estudos sobre o tema. É
+importante destacar que a literatura não é uníssona sobre o impacto da Lei de Informática, o que é
+natural, dada a complexidade dos efeitos que uma política industrial pode causar, além de questões
+metodológicas que impactam nos resultados, o que torna ainda mais pertinente a elaborações de
+
+12
+
+2757
+TEXTO para DISCUSSÃO
+
+novas avaliações. Além disso, conforme mencionado anteriormente, a Lei de Informática não tem
+um marco lógico definido. Portanto, ao longo do tempo, as avaliações abordam seus impactos
+sobre dimensões correlatas como competitividade, inovação, investimento em PD&I, produtividade,
+balança comercial, e outras.
+Nesta seção, serão apresentadas as principais avaliações da Lei de Informática, suas metodologias, achados e conclusões. Ao final, será apresentado um quadro com o resumo dessas avaliações
+para melhor comparação.
+A partir de uma colaboração entre o Centro de Gestão de Estudos Estratégicos (CGEE) e o
+Grupo de Estudos da Organização da Pesquisa e Inovação da Universidade Estadual de Campinas
+(Geopi/Unicamp), foi elaborado um dos primeiros e mais extensivos trabalhos de avaliação da Lei
+de Informática. Para a elaboração do relatório final (CGEE, 2010), foram utilizadas diversas bases
+de dados, conforme descrito a seguir.
+1) Base da Secretaria de Políticas de Informática (Sepin/MCT, à época do estudo).
+2) Dados coletados das empresas beneficiárias e dos institutos de ciência e tecnologia (ICTs) via
+questionário eletrônico.
+3) Tabulações especiais da Pesquisa Industrial Anual (PIA) e Pintec, ambas do IBGE.
+4) Entrevistas com empresas participantes e ICTs.
+5) Outras bases públicas.
+
+O método utilizado foi o de decomposição, que, de acordo com o próprio estudo, propõe a
+distribuição do objeto em dimensões de investigação e atribuição de causalidade na avaliação de
+processos; ou seja, para identificar os impactos da Lei de Informática, foi feita uma comparação
+da evolução de uma série de indicadores.
+O relatório final da avaliação apresenta resultados bastante arrojados: o faturamento das
+empresas incentivadas quadruplicou no período analisado, crescimento 1,7 vez maior do que o
+das empresas da indústria de TICs que não utilizam os benefícios da Lei de Informática. O investimento em PD&I decresce, entre 2001 e 2004, devido a mudanças na Lei (diversos outros estudos
+revisados também detectam essa queda), mas retoma seu crescimento, entre 2006 e 2008, chegando a 40% a mais do que o requerido para concessão do benefício. Destaca-se que a maior
+parte desse investimento está concentrada nas empresas de maior porte. O gasto médio em PD&I
+das empresas que participam do programa é 17% maior do que o gasto das que não participam.
+
+13
+
+2757
+TEXTO para DISCUSSÃO
+Outros dados coletados da base de dados da Sepin/MCT demonstram que as beneficiárias
+triplicaram sua força de trabalho total entre 1998 e 2008, porém, não houve uma qualificação de
+recursos humanos significativa que as diferenciasse do restante da indústria. Quanto a inovações,
+o estudo aponta que 96% das empresas analisadas afirmam ter realizado inovações.
+Por fim, a avaliação conclui que há pouca inserção das empresas beneficiadas no mercado
+global de TICs e que o benefício não é capaz de estimular progressivamente uma maior densidade
+na cadeia produtiva da indústria.
+Devido à grande extensão do trabalho, não foram apresentados todos os seus resultados,
+como cooperação com ICTs ou adoção de métodos de proteção à propriedade intelectual, limitando-se ao escopo de interesse desta avaliação. O estudo CGEE/GEOPI é um dos mais abrangentes
+já realizados sobre a Lei de Informática, combinando diversos métodos de análises qualitativas e
+quantitativas e captando perspectivas pouco abordadas em outros estudos, como o impacto da Lei
+nos ICTs. Como será apontado mais adiante em relação ao trabalho de Kannebley Junior e Porto
+(2012), há uma tendência de que esses resultados sejam enviesados, uma vez que não foi utilizado
+nenhum método contrafactual com o intuito de reduzir a heterogeneidade inicial existente entre as
+empresas beneficiárias e as não beneficiárias. O próprio estudo admite essa limitação afirmando
+que, para alguns perfis de empresa, a amostra analisada correspondia ao próprio universo.
+Sousa (2011) analisou a Lei de Informática na ocasião dos vinte anos de sua publicação.
+A proposta do autor foi não se focar apenas na visão dos beneficiários da Lei como a maioria dos
+estudos que o precederam, mas no próprio modelo de incentivo em si. De acordo com esse trabalho, os principais objetivos da política nacional de informática seriam: i) estabelecer uma política
+industrial para bens e serviços de informática e automação; ii) fomentar o desenvolvimento do
+processo produtivo no Brasil; iii) incentivar as atividades de PD&I; iv) estimular a demanda por
+produtos de TICs; v) estabelecer uma barreira comercial a produtos importados; e vi) proporcionar
+equalização entre o regime fiscal da ZFM e o restante do país.
+O mercado de TICs é demasiado importante, complexo e de rápida evolução, mas ainda,
+segundo Sousa, a Lei de Informática não conseguiu acompanhar o desenvolvimento do setor. Os
+PPBs representariam exigências ultrapassadas; a desoneração do IPI estimularia principalmente as
+etapas de montagem de produtos finais nas cadeias produtivas, ou seja, etapas com baixo valor
+agregado e com baixa intensidade tecnológica. Os benefícios são direcionados para empresas
+que já atuam no mercado, deixando de atender, por exemplo, startups. O autor também critica a
+burocracia do processo de aprovação do benefício, que não condiz com a volatilidade do mercado.
+
+14
+
+2757
+TEXTO para DISCUSSÃO
+
+Por fim, ele assim resume os principais problemas da Lei de Informática: i) limitada inserção
+internacional das firmas brasileiras; ii) reduzida agregação de valor no Brasil; e iii) baixa densidade
+científica e tecnológica dos investimentos realizados em PD&I.
+Kannebley Junior e Porto (2012) analisam a Lei de Informática e a Lei do Bem sob a perspectiva
+de incentivos fiscais de apoio à PD&I, em um estudo que se tornou canônico. Os autores combinam
+métodos qualitativos e quantitativos em seu trabalho, buscando avaliar a capacidade dos instrumentos
+em estimular PD&I nas empresas beneficiadas. As seções qualitativas do trabalho são compostas por
+análises de avaliações anteriores e entrevistas com empresas beneficiárias dos programas.
+Especificamente sobre a Lei de Informática, os autores citam duas avaliações, uma realizada pela
+Fundação Dom Cabral (1997, apud MCTI, 2011) e outra, pelo CGEE em parceria com o Geopi, (CGEE,
+2010), já mencionada nesta seção. Sobre o primeiro estudo, trata-se de uma avaliação baseada em
+entrevistas com 29 empresas beneficiárias, e os autores questionam se os resultados encontrados de
+fato podem ser atribuídos à ação da Lei de Informática, uma vez que não houve comparação com o
+período anterior à adesão ou mesmo grupo de controle, além de a amostra analisada ser bastante
+reduzida. Os resultados do estudo para as empresas entrevistadas são descritos a seguir.
+1) 74% dos gastos em PD&I foram incentivados pela Lei de Informática.
+2) 67% das empresas ampliaram seus dispêndios em PD&I em razão de benefícios fiscais.
+3) 95% das empresas obtiveram ganhos de produtividade ou agregaram valor a produtos e
+processos.
+4) 58% das empresas declararam que os benefícios da Lei de Informática não são suficientes para
+apoiar a inserção competitiva no mercado internacional.
+
+Em relação ao estudo CGEE e Geopi (CGEE, 2010), a principal crítica é sobre a não adoção
+de um método contrafactual para o grupo de controle, o que tornaria seus resultados enviesados.
+Quanto à análise quantitativa, os autores adotam o pressuposto estabelecido em Araújo,
+Cavalcante e Alves (2009), em que a variável pessoal ocupado técnico-científico é utilizada como
+proxy para o investimento da firma em PD&I (a explicação sobre essa abordagem será adensada
+mais adiante neste trabalho).
+Os autores utilizam o método de diferenças em diferenças, combinado com modelo de pareamento por escore de propensão (propensity score matching – PSM), evitando assim a heterogeneidade entre os grupos de empresas analisadas. Os resultados para os três estimadores calculados
+são que a Lei de Informática não produz impactos relevantes nas empresas beneficiadas, ou seja,
+elas não investem em PD&I a mais do que seria esperado caso não aderissem ao programa.
+
+15
+
+2757
+TEXTO para DISCUSSÃO
+Salles Filho et al. (2012) analisam o impacto da Lei de Informática na densidade produtiva e
+tecnológica da indústria nacional de TICs. A partir desse objetivo de pesquisa macro, foram definidos temas e indicadores de análise se valendo do método da decomposição, com o objetivo de
+avaliar o impacto da Lei nos aspectos elencados a seguir.
+1) Capacidade de PD&I.
+2) Tecnologias desenvolvidas; formação de parcerias e redes de desenvolvimento tecnológico e de
+inovação entre setor público e privado; produção científica e acadêmica.
+3) Criação de cultura de inovação.
+4) Descentralização regional do desenvolvimento científico-tecnológico.
+5) Ampliação da cadeia produtiva.
+
+O estudo agrega uma vasta gama de bases de dados, incluindo a base do MCTIC (da Sepin/MCTI à
+época da realização da pesquisa) referente às empresas beneficiadas pela Lei de Informática e tabulações
+especiais do IBGE (PIA e Pintec); bases públicas da Organização para a Cooperação e Desenvolvimento
+Econômico (OCDE)/Stats, Organização das Nações Unidas ONU/Comtrade, OMC, Secex, IBGE, Fundação Centro de Estudos do Comércio Exterior (Funcex), International Labour Organization (ILO), além
+de questionários eletrônicos e entrevistas presenciais respondidas por ICTs e empresas beneficiadas.
+Os resultados encontrados são bastante positivos. Todavia, cabe destacar que o trabalho
+não relata a aplicação de metodologia para reduzir o viés no grupo de controle, apresentando
+comparações simples entre as empresas que receberam e as que não receberam o benefício, ou
+antes e depois para as que receberam. Mais uma vez, a ausência de um contrafactual desperta
+questionamentos sobre o viés dos resultados. Como será explicado adiante, tanto a comparação
+“antes e depois” quanto “tratadas e não tratadas”, tomadas em separado, não são suficientes
+para afirmar a efetividade de uma política. Ademais, no caso específico de políticas de inovação,
+há normalmente um viés na seleção (ou autosseleção) das empresas participantes, o que precisa
+ser corrigido antes de se proceder à avaliação em si.
+A conclusão dos autores é que a Lei de Informática tem um efeito positivo nas empresas
+beneficiadas: em média, elas quadruplicaram seu faturamento e triplicaram sua força de trabalho, aumento acima da média das empresas do setor de TICs que não utilizam o benefício da Lei.
+A média de investimento em PD&I também seria três vezes maior no grupo tratado. Da mesma
+maneira, houve melhorias nos indicadores de qualificação de recursos humanos e geração de
+patentes nas empresas beneficiadas.
+Todavia, o estudo também aponta que há deficiências na Lei. Em primeiro lugar, a participação do Brasil no mercado internacional de TICs não cresceu significativamente durante o período
+
+16
+
+2757
+TEXTO para DISCUSSÃO
+
+analisado, especialmente quando comparado a países como China e Coreia do Sul. Em segundo,
+praticamente não há impacto na descentralização da produção industrial, já que as regiões Nordeste
+e Centro-Oeste continuam com participações ínfimas nas empresas beneficiadas. Por fim, o estímulo
+à inovação é focado em inovações incrementais, com pouca densidade científica e tecnológica.
+Quanto à operacionalização da Lei, a mudança na base de cálculo para concessão dos benefícios ocorrida em 2006 impactou negativamente o investimento em PD&I. É questionado o fato
+de a Lei de Informática não beneficiar a produção de software (além do considerado software
+embarcado) e de não ser capaz de estimular as etapas de design e de produção de insumos críticos.
+Outro estudo considerado canônico sobre a Lei de Informática é o realizado por Prochnik
+et al. (2015). Por meio de uma abordagem que combina as perspectivas da ciência política e da
+economia, os autores elaboraram uma crítica ao modelo de apoio oferecido pela Lei focada em
+suas alterações ocorridas em 2001 e 2004.
+Na dimensão política, o principal argumento é o de que a Lei de Informática é meramente
+uma compensação de benefícios para empresas que não fazem parte da ZFM, mais notadamente,
+segundo os autores, para as empresas do estado de São Paulo, como já relatado na seção anterior.
+No âmbito econômico, a Lei de Informática é avaliada a partir da lógica de política industrial
+como política de conteúdo local (PPB) e de estímulo a PD&I nas empresas. O grupo de autores
+constata uma espécie de contradição, em termos na operação da Lei, que compromete sua efetividade. O PPB seria um entrave, pois, caso seja preexistente, o produto beneficiado já tem sua
+produção documentada e, por consequência, consolidada na indústria, não representando uma
+inovação para o mercado. Por seu turno, a submissão de um novo PPB poderia requerer investimentos em PD&I, contudo, da forma como o benefício da Lei funciona, apenas o gasto em PD&I
+posterior à aprovação do pedido seria beneficiado. Ou seja, o benefício é concedido a um produto
+que dificilmente será favorecido pelo investimento em PD&I que o programa estimula, sendo isso
+ainda mais crítico para as pequenas e médias empresas (PMEs).
+Especialmente quando comparada com instrumentos de outros países que cumprem objetivos
+congêneres, a Lei de Informática seria ineficiente e anacrônica. Os autores concluem com a recomendação de que futuras alterações da Lei deveriam considerar essas experiências internacionais,
+visando ao aprimoramento dos resultados alcançados. Adicionalmente, há a preocupação com
+entraves burocráticos no processo de aprovação dos pedidos.
+Brigante (2017) procura avaliar o impacto da Lei de Informática nos gastos em PD&I das
+empresas beneficiárias. Sua análise é circunscrita a três períodos específicos: 2003 a 2005; 2005
+
+17
+
+2757
+TEXTO para DISCUSSÃO
+a 2008; e 2008 a 2011. Visando reduzir o viés de características não observáveis da adesão de
+empresas à política pública e controlar a influência das observáveis, foi utilizada a metodologia
+de diferenças em diferenças com covariadas. O autor destaca que o diferencial do seu trabalho é
+a combinação do método com dados da Pintec de períodos mais recentes da Lei.
+Os resultados encontrados não apontam para o crowding out (efeito substituição), mas também não identificam um aumento significativo no investimento em PD&I como consequência da
+adesão ao benefício. O próprio autor ressalva que as amostras foram reduzidas devido à dificuldade em se incorporar mais variáveis de controle ao modelo, uma vez que nem sempre estavam
+disponíveis para todas as empresas.
+Silva Junior (2017) analisa diversas políticas que beneficiam o setor de TICs, incluindo a Lei
+de Informática, com o intuito de identificar impactos positivos e significativos desses incentivos
+na inovação nas empresas do setor. São utilizados microdados da Pintec (edições de 2003, 2005
+e 2008), avaliando-se o impacto dos benefícios nas variáveis PD&I (interna, externa e contínua),
+inovações em produto e em processo, inovação somente para o mercado brasileiro e para o principal mercado relevante da firma, parcela de mercado da firma (proxy para poder de mercado ex
+ante), uso de mix de mecanismos de apropriabilidade como indicador de poder de mercado ex
+post e indicadores de exportações (proxy para exposição à competição internacional).
+O modelo utilizado pelo autor estima regressões probit para um painel desbalanceado com
+efeitos aleatórios. O resultado encontrado é que o benefício da Lei de Informática impacta positivamente todas as atividades inovativas analisadas. Quanto ao mercado internacional, o efeito
+positivo demonstrou-se mais ameno do que em outras variáveis, o que indica que as firmas brasileiras deste mercado são tomadoras de tecnologia para fornecimento doméstico, fato que condiz
+com a estruturação do mercado global de TICs.
+Recente relatório de avaliação da Controladoria-Geral da União (CGU, 2019) constatou diversos fatos estilizados sobre o setor de TICs no Brasil durante a vigência da Lei de Informática. Ainda
+que isso não seja exatamente a avaliação da Lei, pois não é possível determinar exatas relações
+de causalidade, este panorama fornece alguma indicação de que talvez a Lei não esteja sendo
+capaz de alavancar o segmento de TICs no Brasil. Estes fatos estão descritos a seguir.
+1) Em um espaço de vinte anos, o pessoal ocupado do setor não cresceu, se mantendo em torno de
+0,05% da PEA (para comparação, em 2015 China e Coreia do Sul tinham mais de dez vezes isso).
+2) Há poucos trabalhadores em PD&I dedicados à manufatura de componentes eletrônicos e placas,
+onde há mais densidade tecnológica, e proporcionalmente mais voltados para a manufatura de
+computadores e equipamentos periféricos e eletrônicos de consumo.
+
+18
+
+2757
+TEXTO para DISCUSSÃO
+
+3) A Lei de informática beneficia principalmente empresas de equipamentos de comunicação,
+computadores e periféricos, atendendo a poucas empresas do segmento eletrônico, de maior
+densidade tecnológica.
+4) Apesar de os segmentos CNAE beneficiados serem mais intensivos em PD&I que a média da
+indústria, não parece haver externalidades das empresas do setor, pois a fabricação de equipamentos de comunicações e computadores não está nem entre os dez setores mais intensivos
+em PD&I no Brasil, apesar de ser o segmento mais intensivo em benefício da lei de informática.
+5) Padrão de inovação baseado em imitação tecnológica, como demonstrado pela abertura dos
+gastos em inovação das empresas.
+
+Ademais, o trabalho da CGU (2019) revisou catorze estudos de avaliação da Lei de Informática,
+de estudos de caso a estudos quase-experimentais, passando por outras revisões de literatura, e
+concluiu que os resultados dessas avaliações são bastante ambíguos a respeito do impacto da Lei
+de Informática sobre a produtividade, balança comercial, arranjos produtivos locais, desenvolvimento
+tecnológico e aumento do valor agregado. O gráfico a seguir, extraído de CGU (2019, p. 27), resume
+os resultados dos estudos revisados.
+GRÁFICO 1
+Estudos revisados em CGU (2019): principais resultados
+
+Fonte: CGU (2019).
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+19
+
+2757
+TEXTO para DISCUSSÃO
+Outro importante trabalho é o realizado pela Secap (2019), do Ministério da Economia. Após
+uma revisão da evidência disponível, o estudo avalia a Lei de Informática em três subperíodos:
+2000-2007, 2007-2013 e 2013-2016, utilizando técnica de propensity socre matching para controlar a autosseleção aliada às diferenças em diferenças. A técnica foi aplicada sobre os setores
+CNAE 1.0 30 a 33. Os dados são do Sigplani (beneficiários) e da Rais (variáveis de impacto: pessoal
+ocupado e PoTec). Percebe-se, portanto, que esse estudo é o que mais se aproxima ao que é feito
+neste trabalho.
+Os resultados indicam que a Lei de Informática tem impacto sobre a primeira diferença do
+emprego em todos os subperíodos analisados, contudo, o custo de cada emprego gerado na
+margem é bastante elevado – entre R$ 18 mil e R$ 45 mil por mês. No tocante ao PoTec, a Lei
+de Informática só mostrou impacto positivo para o último subperíodo, talvez indicando que em
+um período de crise, os benefícios da Lei tenham tido papel contracíclico em relação à perda de
+pessoal em ocupações técnico-científicas.
+Dos estudos aqui analisados, fica evidente que a mera comparação entre empresas beneficiárias e não beneficiárias da indústria, sem nenhuma metodologia contrafactual, normalmente
+indica resultados positivos sobre a Lei de Informática. Os estudos que utilizam contrafactuais,
+por sua vez, normalmente apresentam impactos mais conservadores em relação à utilização ou
+não do benefício. De uma maneira geral, pode-se afirmar que os impactos da Lei de Informática
+nos estudos que utilizam contrafactuais, quando positivos, tendem a ocorrer sobre o emprego e
+a produção de bens finais, sem efeitos significativos sobre exportação e ampliação das atividades
+de P&D, exceto em algumas iniciativas restritas e localizadas (Secap, 2019). Do ponto de vista
+institucional, a rigidez dos PPBs frente ao dinamismo do segmento, a limitação do incentivo de
+IPI ao mercado interno e o direcionamento dos incentivos às empresas já existentes (desconsiderando, portanto, startups e spin-offs de empresas) reforçam as capacidades produtivas na etapa
+de montagem, com baixa intensidade tecnológica.
+
+20
+
+2757
+TEXTO para DISCUSSÃO
+
+QUADRO 1
+Resumo das principais avaliações sobre a Lei de Informática
+Ano
+
+2010
+
+Autores
+
+CGEE
+
+Metodologia
+
+Decomposição,
+entrevistas e
+formulários
+eletrônicos
+
+Variáveis
+dependentes
+
+Período analisado
+
+1998-2008
+
+Principais resultados
+
+-
+
+O crescimento das
+empresas incentivadas
+é 1,7 vezes maior e elas
+investem 17% a mais
+em PD&I do que as não
+incentivadas.
+
+2011
+
+Souza
+
+Análise qualitativa do benefício
+
+1992-2011
+
+-
+
+i) limitada inserção
+internacional das firmas
+brasileiras;
+ii) reduzida agregação de
+valor no Brasil; e
+iii) baixa densidade científica e tecnológica dos
+investimentos realizados
+em PD&I.
+
+2012
+
+Kannebley
+Junior e Porto
+
+Diff in diff combinado com PSM
+
+2001-2008
+
+Log(PoTec)
+
+A Lei de Informática não
+influencia o investimento
+em PD&I.
+
+-
+
+Empresas beneficiadas,
+em média, quadruplicaram seu faturamento e
+triplicaram sua forção de
+trabalho, aumento acima
+da média das empresas
+do setor de TICs que não
+utilizam o benefício da Lei.
+A média de investimento
+em PD&I também seria
+três vezes maior no grupo
+tratado.
+
+2012
+
+2015
+
+2017
+
+Salles Filho
+et al.
+
+Entrevistas e
+análise de dados
+
+1998-2008
+
+Prochnik
+et al.
+
+Revisão da Literatura, Pesquisa
+Bibliográfica
+
+Atualizações da
+Lei de Informática
+em 2001 e 2004
+
+-
+
+A Lei de Informática é
+uma compensação para as
+empresas localizadas fora
+da ZFM, notadamente no
+estado de São Paulo.
+
+Brigante
+
+Diff in diff com
+PSM
+
+2003 a 2005;
+2005 a 2008; e
+2008 a 2011
+
+Intensidade de
+PD&I (LnPD&I)
+
+Rejeita crowding out, mas
+não há evidências significativas de aumento no
+investimento em PD&I.
+(Continua)
+
+21
+
+2757
+TEXTO para DISCUSSÃO
+(Continuação)
+
+Ano
+
+2017
+
+2019
+
+2019
+
+Autores
+
+Metodologia
+
+Silva Junior
+
+Regressões probit
+para um painel
+desbalanceado
+com efeitos
+aleatórios
+
+CGU
+
+Secap/ME
+
+Análise qualitativa de fatos estilizados, revisão
+de literatura
+
+Diff in diff com
+PSM
+
+Variáveis
+dependentes
+
+Principais resultados
+
+2003 a 2008
+
+Realização de
+inovação ou
+PD&I no período
+analisado.
+
+Há uma correlação positiva entre o uso da Lei de
+Informática e as variáveis
+analisadas, com um
+resultado mais fraco para
+o indicador do mercado
+externo.
+
+Diversos períodos
+
+Variáveis relativas
+a produtividade,
+balança comercial, arranjos
+produtivos locais,
+desenvolvimento
+tecnológico e
+valor agregado.
+
+Os resultados da Lei de
+Informática são inconclusivos sobre as variáveis
+analisadas.
+
+Pessoal ocupado
+e PoTec
+
+A Lei de Informática
+impacta o crescimento
+do pessoal ocupado, mas
+não afeta o PoTec, exceto
+no último subperíodo
+(2013-2016).
+
+Período analisado
+
+2000 a 2016,
+dividido em três
+subperíodos
+
+Elaboração dos autores.
+
+4 ESTRATÉGIA EMPÍRICA
+Em que pese a falta de um marco lógico bem definido para a Lei de Informática, podemos
+assumir que um de seus objetivos é elevar o gasto de PD&I (explicitado por uma cláusula de PD&I
+mínimo que é bem acima do praticado na média da indústria nacional). Porém, este objetivo pode
+ser enquadrado em uma estrutura lógica mais ampla, que relaciona políticas de inovação, seus
+impactos sobre os esforços tecnológicos das empresas e seus resultados em termos de inovação.
+Araújo et al. (2012) formulam tal estrutura lógica em que as políticas de inovação, tais como
+subsídios, incentivos fiscais ou mesmo o acesso privilegiado ao conhecimento produzido em universidades e centros de pesquisa, afetam a decisão das firmas sobre investir ou não e o quanto
+gastar em PD&I, e quantos profissionais contratarão para fazê-lo. Espera-se que essa decisão
+traga resultados em termos de inovação, como patentes, novos produtos ou processos, os quais
+afetam o desempenho da firma, no que concerne a crescimento de faturamento e participação
+de mercado interno e externo, por exemplo. Tais ganhos de desempenho trazem externalidades
+positivas para a sociedade, as quais, apesar de difícil mensuração, fazem parte da própria razão
+de ser das políticas de inovação.
+
+22
+
+2757
+TEXTO para DISCUSSÃO
+
+Essa estrutura lógica está ilustrada na figura 1. Feitas estas considerações, este trabalho tem
+por objetivo mais específico avaliar se o acesso à lei de informática impacta os investimentos em
+PD&I das firmas, expressos pela contratação de pessoal técnico-científico (seta 1 do esquema), no
+sentido de estimular um investimento privado em PD&I acima do que a empresa estaria inicialmente
+disposta a fazer na ausência do programa.
+FIGURA 1
+Estrutura lógica das pesquisas sobre impactos de políticas de inovação nas empresas
+
+Fonte: Araújo et al. (2012)
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+O problema fundamental nesse tipo de avaliação é responder à pergunta: “o que teria acontecido com as firmas que acessaram à Lei de Informática caso elas não a tivessem acessado?” Ora,
+esse é o problema fundamental das avaliações de impacto: não é possível verificar o que aconteceu
+e o que não aconteceu ao mesmo tempo, de forma que um dos estados precisa ser imputado.
+Matematicamente, tem-se que o problema fundamental da avaliação é estimar
+,
+sendo y a variável de impacto, o sobrescrito 1 o indicador do valor de y quando o indivíduo recebe
+o tratamento, e 0 caso contrário. O problema é que
+não é observado para quem acessa a lei
+de informática. Definindo o efeito médio do tratamento sobre os tratados (Wooldridge, 2002) como
+
+23
+
+2757
+TEXTO para DISCUSSÃO
+
+.
+
+(1)
+
+O problema então se torna estimar o contrafactual
+, isto é, o resultado que
+teria acontecido com o indivíduo i caso ele não tivesse recebido o tratamento LIi = 1. Esse termo,
+, é não observável.
+Caso a distribuição da Lei de Informática fosse aleatória entre as firmas, o grupo que não recebeu
+poderia ser um bom candidato para fornecer essa imputação. Sendo a distribuição aleatória, o resultado seria ortogonal ao acesso, de modo que
+,e
+.
+Mas sabemos que esse está longe de ser o caso, e as firmas que participam da Lei de
+Informática provavelmente se autosselecionam. Isso faz com que elas sejam melhores do que
+a média geral já de saída, e que trilhem um caminho a priori diferente daquelas que não acessam o instrumento. Porém, se soubermos a fonte dessa autosseleção, no caso, se o acesso à
+Lei de Informática for condicionado por variáveis observáveis (hipótese de seleção sobre observáveis), é possível aplicar um algoritmo de PSM que emparelha firmas com a mesma probabilidade de acessarem à Lei, sendo que uma efetivamente acessou, e a outra, não. Calcula-se
+então uma probabilidade
+e tem-se que, um período antes de
+acessar à Lei, dado p(x) casos e controles têm características e probabilidades tão semelhantes entre si que se assume que a seleção entre acessar ou não a Lei é aleatória. Matematicamente, estamos tomando
+de forma que
+
+Neste trabalho, foi necessário sanar um desbalanceamento entre os grupos de empresas
+tratadas e não tratadas, já que o modelo PSM normalmente não se comporta bem neste tipo de
+circunstância (Alves, Botelho e Fernandes, 2018). Como o grupo de tratadas representava menos
+de 1% da amostra, foi utilizado o método de reamostragem denominado bootstrapping. Após
+a aplicação da técnica, a proporção passou a ser de pelo menos 10% de empresas tratadas nas
+amostras por ano, a fim de se calibrar o modelo para calcular o escore de propensão p(x). Mais
+detalhes serão fornecidos adiante, quando da descrição do modelo probabilístico.
+Após o pareamento entre casos e controles, ainda foi aplicada a técnica de diferenças-em-diferenças, que avalia o impacto, não no nível das variáveis, mas sim sobre a primeira diferença
+entre elas. Essa técnica visa eliminar eventuais fatores não observáveis que porventura ainda
+diferenciem casos e controles, mas que sejam fixos no tempo – em outras palavras, efeitos fixos.
+
+24
+
+2757
+TEXTO para DISCUSSÃO
+
+Entretanto, é preciso atentar que a interpretação dos resultados muda: a interpretação de um
+estimador de diferenças-em-diferenças diz respeito à mudança na trajetória da variável dos casos
+em relação aos controles, e não mais à diferença entre elas; no caso de logs, a interpretação
+não é mais sobre os percentuais (diferenças) e sim quanto às diferenças em pontos percentuais
+(diferenças nas trajetórias).
+Deste modo, as comparações são feitas ajustando-se as seguintes equações:
+.
+
+(2)
+
+Ou, em sua versão em primeira diferença
+,
+
+(3)
+
+em que
+é o indicador da estreia da firma i na Lei de Informática, no momento t.
+Empresas que estrearam antes de t ou entre t + 1 e t + n não estão nessas estimativas;
+é um
+indicador de esforço tecnológico ou de desempenho da empresa i no período t + n, com
+. Y também pode estar em logs;
+é a primeira diferença da variável y para a empresa i, de
+forma que
+com
+e
+se n = 0;
+é uma matriz de controles que
+indica qual o ano de estreia da empresa na Lei de Informática e distingue se a empresa se situa
+nas regiões Sul ou Sudeste ou nas demais regiões.
+
+5 DADOS
+Este trabalho utilizou a base de dados pública da Sempi/MCTIC em que constam dados não
+sensíveis das empresas participantes (detalhados no quadro 2) para o período de 2001 a 2018.
+Para auxiliar a tabulação dos dados, a equipe da Sempi/MCTIC gentilmente cedeu uma extração
+do Sigplani. Essa base de dados foi então cruzada com a base de dados da RAIS/ME cobrindo o
+período de 2001 a 2017 (quadro 3). Apesar de a Rais não conter informações específicas sobre
+gasto das empresas em PD&I, Araújo, Cavalcanti e Alves (2009) ratificaram o uso da variável
+“pessoal ocupado técnico-científico” (PoTec) como proxy válida para o gasto em PD&I. Segundo
+estes autores, o PoTec tem uma correlação bastante elevada com o PD&I da Pintec para os anos
+que ele está disponível (acima de 0,8 entre PoTec e PD&I interno), com a vantagem de que o PoTec
+está disponível todos os anos na Rais.
+Essa combinação de bases de dados propiciou uma das mais abrangentes avaliações da Lei
+de Informática até o momento.
+
+25
+
+2757
+TEXTO para DISCUSSÃO
+QUADRO 2
+Descrição das variáveis da base extraída do Sigplani
+CNPJ
+
+Cadastro Nacional de Pessoa Jurídica. Considerado até o oitavo dígito para abranger,
+como uma mesma empresa, todas as suas filiais e subsidiárias.
+
+Portaria MCTI/MDIC/MF
+
+Número do instrumento com data de publicação. Esta variável foi tratada e utilizada
+como variável de estreia (t) na Lei de Informática.
+
+Elaboração dos autores.
+
+Essas variáveis identificam o grupo de tratamento da avaliação quantitativa, ou seja, quais
+empresas da base de dados da Rais/ME utilizam o benefício da Lei de Informática. As estatísticas
+descritivas geradas com o cruzamento das bases de dados apresentam informações essenciais para
+a construção do modelo de avaliação apropriado para a Lei de Informática e embasam a maioria
+das escolhas metodológicas das seções seguintes deste texto.
+QUADRO 3
+Descrição das variáveis da base Rais/ME
+CNAE 2.0
+
+Classificação Nacional de Atividades Econômicas (CNAE 2.0), estabelecida em
+2006 e em vigor atualmente
+
+Contratos (Po)
+
+Pessoal ocupado da firma, ponderado pelo número de meses que o empregado
+ficou contratado na firma
+
+Crescimento do Po
+
+Taxa de crescimento do Po entre os momentos t-1 e t0
+
+Idade
+
+Idade da empresa em anos
+
+Market share (share da massa salarial)
+
+Calculado a partir da massa salarial dentro da divisão 26 da CNAE
+
+Massa salarial
+
+Soma de todos os salários pagos aos trabalhadores durante o ano, guarda correlação com o faturamento da empresa
+
+PoTec
+
+Pessoal nas ocupações científicas, engenheiros e pesquisadores
+
+Renda média
+
+Remuneração média mensal das empresas
+
+Share PoTec
+
+Razão do número de técnicos (em ocupações científicas, engenheiros e pesquisadores) da firma pelo pessoal ocupado total
+
+UF
+
+Unidade da Federação da sede da firma
+Elaboração dos autores.
+Nota: 1 Inicialmente, cogitou-se utilizar mais variáveis disponíveis da base de dados da RAIS, mas estas variáveis apresentaram baixa relevância estatística no modelo logit aplicado para o bootstrap.
+
+QUADRO 4
+Descrição das variáveis de bases diversas
+Origem
+
+Variável
+
+Descrição
+
+BNDES
+
+Contrato
+
+Variável dummy que identifica se a empresa utilizou ou não recursos de financiamento via BNDES
+
+Secex
+
+Exportadora
+
+Variável dummy que indica se a empresa é exportadora
+
+Elaboração dos autores.
+
+26
+
+2757
+TEXTO para DISCUSSÃO
+
+A seguir, serão apresentadas algumas estatísticas descritivas elaboradas a partir dos dados das
+bases combinadas, tendo 2017 como ano de referência. Essas estatísticas ajudam a compreender melhor
+o grupo de empresas beneficiadas pela Lei de Informática e suas peculiaridades em comparação com o
+grupo de controle. Nogueira et al. (2012), em suas análises de políticas de desenvolvimento tecnológico
+no Brasil sugerem que os instrumentos avaliados têm pouca capacidade de cativar novas empresas
+a participarem, ficando restritos, em grande medida, a empresas que já desempenham as atividades
+incentivadas. Apesar de a Lei de Informática não ser objeto do referido estudo, a proposição dos autores
+ajuda a compreender a distinção entre as empresas que participam do programa e as demais.
+Quanto à distribuição por Unidade da Federação, fica clara a concentração nos estados de São
+Paulo, Minas Gerais e nos da Região Sul. Essa informação vai ao encontro do relatado na seção 2:
+havia um interesse dos parlamentares do estado de São Paulo em prorrogar o benefício da Lei de
+Informática. A parcela de empresas sediadas nas regiões Norte, Nordeste e Centro-Oeste é diminuta,
+apesar de essas firmas contarem com um benefício especial desde 2001, que torna o preço final
+dos seus produtos, em média, 1% mais baratos do que os produzidos nas regiões Sul e Sudeste.
+GRÁFICO 2
+Distribuição de empresas contempladas por Unidade da Federação (2017)
+BA
+2,61
+AM
+0,65
+
+CE
+1,30
+DF
+0,43
+MS
+0,22
+
+MG
+15,43
+SP
+36,52
+
+SC
+13,48
+
+RS
+12,17
+
+PB
+0,43
+
+PE
+1,09
+
+PR
+12,83
+
+SE
+0,65
+
+MT
+0,22
+
+RJ
+1,96
+
+Elaboração dos autores.
+
+Como esperado no grupo de tratamento, pela natureza dos produtos aptos a receber o
+benefício da Lei de Informática, a maioria das empresas tratadas encontram-se nas divisões 26
+e 27 da CNAE 2.0 (fabricação de equipamentos de informática, produtos eletrônicos e ópticos, e
+fabricação de máquinas, aparelhos e materiais elétricos, respectivamente).
+
+27
+
+2757
+TEXTO para DISCUSSÃO
+GRÁFICO 3
+Empresas contempladas por divisão da CNAE (2017)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+No grupo de empresas contempladas, 6,89% acessaram benefícios do BNDES e 53,03% são
+exportadoras, conforme os gráficos 4 e 5.
+GRÁFICO 4
+Parcela das empresas contempladas que utilizaram recursos do BNDES (2017)
+6,89
+
+93,11
+
+BNDES
+
+Sem BNDES
+
+Elaboração dos autores.
+
+28
+
+2757
+TEXTO para DISCUSSÃO
+
+GRÁFICO 5
+Parcela das empresas contempladas que exportam (2017)
+
+46,97
+53,03
+
+Exportadoras
+
+Não Exportadoras
+
+Elaboração dos autores.
+
+Em geral, as empresas que recebem o benefício da Lei de Informática apresentam médias
+melhores em tempo de estudos dos funcionários, remuneração média, pessoal ocupado e proporção do pessoal técnico-científico no total. Em especial, a remuneração média paga nas empresas
+beneficiadas é mais que o dobro das que não recebem o benefício em algumas UFs, e a proporção
+do PoTec sobre o pessoal ocupado é dez vezes superior. Isso mostra que a simples comparação
+das médias entre as empresas que são contempladas e as não são contempladas pode servir
+apenas para evidenciar que as empresas são estruturalmente diferentes já antes de receberem o
+benefício da Lei de Informática.
+TABELA 1
+Características das empresas contempladas versus não contempladas (2017)
+Variável
+
+Contempladas
+
+Total de empresas
+
+Não contempladas
+
+479
+
+3.070.015
+
+Pessoal ocupado médio
+
+215,1
+
+14,5
+
+Pessoal ocupado com 3º grau completo (%)
+
+46,5
+
+26,7
+
+Remuneração média (R$)
+
+3.988,94
+
+1.556,40
+
+Tempo de estudo médio
+
+11,82
+
+10,39
+
+PoTec/pessoal ocupado (%)
+
+10,9
+
+1,7
+
+Elaboração dos autores.
+
+29
+
+2757
+TEXTO para DISCUSSÃO
+Visando aprimorar a robustez do modelo econométrico, foram feitos recortes específicos na
+base de dados. Como a CNAE 2.0 foi instituída apenas em setembro de 2006, pelo exposto a
+seguir não é seguro estabelecer uma correspondência com o sistema anterior para esse estudo.
+Apesar de o próprio IBGE fornecer tabelas de tradução da CNAE 2.0 para suas versões anteriores,
+os setores ligados à área de informática foram alterados significativamente nessa atualização, o
+que dificulta largamente (ou mesmo inviabiliza) esse procedimento. Dessa forma, a base de dados
+foi limitada no intervalo entre 2007 e 2017.
+Ainda foi necessário restringir a amostra apenas a empresas da divisão 26 da CNAE. Apesar
+de a divisão 27 apresentar um número significativo de empresas, detectou-se um óbice: as amostras entre os grupos eram muito desbalanceadas uma vez que o número de empresas no grupo
+de controle era muito maior do que no grupo de tratamento. A divisão 26 também apresenta um
+desbalanceamento (9% de empresas contempladas versus 91% de não contempladas), contudo,
+a diferença não é tão crítica quanto na 27 (2% versus 98%). Essa desproporção e a metodologia
+utilizada para contorná-la serão abordadas mais adiante.
+O modelo estatístico adotado utiliza um período de cinco anos em sua análise (o ano de
+estreia (t) como referência; t-1 para pareamento e dados do momento anterior ao tratamento; e
+t+1, t+2 e t+3 para comparações do pós tratamento). Dessa forma, as empresas que não tinham
+dados disponíveis para todo o período de cinco anos foram excluídas da amostra. Adicionalmente,
+as empresas com menos de dez funcionários também foram excluídas do modelo, por agravarem
+a situação de desbalanceamento. A amostra inicial era composta por 479 empresas contempladas pela Lei de Informática (todas que acessaram o benefício no período analisado) e 3.070.015
+não contempladas; após todos os recortes, a amostra foi reduzida a 90 empresas contempladas
+e 16.709 não contempladas.
+
+6 O PROCEDIMENTO DE MATCHING
+Algumas das avaliações revisadas na seção 3 deste texto apontam que as empresas que participam da Lei de Informática são estruturalmente diferentes das que não participam. O argumento
+de que uma política industrial está disponível para todas as firmas elegíveis pode ser falacioso:
+muitas vezes, entraves burocráticos, receio de exposição ao fisco (especialmente no caso das MPEs)
+e outras barreiras inibem o acesso das empresas a esses benefícios.
+Isso fica evidente no caso da Lei de Informática quando os resultados das avaliações que
+se valeram de métodos contrafactuais são contrastados com as que apenas compararam empresas tratadas e não tratadas. No caso específico deste estudo, cabe destacar que as estatísticas
+
+30
+
+2757
+TEXTO para DISCUSSÃO
+
+descritivas confirmaram a heterogeneidade entre os dois grupos de empresas. Ademais, a literatura em avaliação de políticas públicas enfatiza os riscos de obterem-se resultados enviesados, o
+chamado “viés de seleção”, ao considerar dois grupos que são estatisticamente diferentes como
+se fossem semelhantes, especialmente em casos de autosseleção, em que os indivíduos (ou, neste
+caso, empresas) optam por participar ou não de um programa (Gertler et al. 2018).
+Araújo et al. (2012) corroboram a necessidade de adoção de um método contrafactual ao se
+analisar a relação entre os gastos público e privado em PD&I. Segundo os autores, pressupõe-se
+que as empresas que aderem aos instrumentos de políticas de inovação conservam características
+distintas das que não participam, dessa forma, deve-se evitar a comparação direta entre os dois
+grupos. Assim, desde a década de 2000 a maioria dos estudos ligados a esse tema vale-se de
+métodos que identificam grupos de empresas que teriam chances similares de aderir aos programas,
+de modo que em um grupo de fato as empresas acessam o programa, e no outro, não.
+Assim, antes de aplicar qualquer modelo que compare os dois grupos, é necessário verificar se
+as características de ambos os grupos são, em média, aproximadas no período de pré-tratamento.
+Como o objetivo é identificar a efetividade da política, deve-se prezar para que a comparação não
+ocorra entre grupos de empresas significativamente diferentes e que os resultados obtidos não
+sejam atribuídos a causas alheias à Lei de Informática.
+Fez-se a escolha metodológica da técnica do PSM para construção do contrafactual. Essa
+construção do contrafactual se inicia com o cálculo do escore de propensão, compreendido como
+a probabilidade de o indivíduo acessar o programa. O guia Avaliação de impacto na prática, do
+Banco Mundial (Gertler et al. 2018, p. 161), traz a seguinte definição para o escore de propensão:
+para cada unidade do grupo de tratamento e do grupo de não inscritos, calculamos
+a probabilidade de que essa unidade se inscreva no programa (o chamado escore
+de propensão) com base nos valores observáveis de suas características (as variáveis
+explicativas). Essa pontuação é um número real entre 0 e 1 que resume a influência de
+todas as características observáveis sobre a probabilidade de se inscrever no programa.
+
+Entretanto, o grande desbalanceamento entre os grupos de tratamento e controle torna-se um
+problema para a calibragem do modelo probabilístico, necessário para o pareamento. Conforme
+a tabela 2, após todos os recortes na base de dados, a desproporção ficou além do recomendável
+para um bom funcionamento do PSM. De acordo com Alves, Botelho e Fernandes (2018), a proporção deveria ser de pelo menos 10%.
+
+31
+
+2757
+TEXTO para DISCUSSÃO
+TABELA 2
+Proporção entre os grupos de tratamento e controle
+Ano
+
+Tratamento
+
+Controle
+
+Proporção (%)
+
+2007
+
+7
+
+1.957
+
+0,358
+
+2008
+
+12
+
+2.005
+
+0,599
+
+2009
+
+10
+
+2.093
+
+0,478
+
+2010
+
+12
+
+2.086
+
+0,575
+
+2011
+
+4
+
+2.147
+
+0,186
+
+2012
+
+14
+
+2.186
+
+0,640
+
+2013
+
+17
+
+2.130
+
+0,798
+
+2014
+
+14
+
+2.105
+
+0,665
+
+Total
+
+90
+
+16.709
+
+-
+
+Elaboração dos autores.
+
+A tabela 3 mostra as médias (teste t) da amostra. Os dados apontam que as médias dos
+grupos são diferentes para as variáveis Po (log), share PoTec e crescimento Po (diferente a 10% de
+significância) e semelhantes para “idade da empresa”. A escolha dessas variáveis para o modelo
+probabilístico tem amparo na literatura sobre o tema, como em Araújo et al. (2012), Kannebley
+Junior e Porto (2012) e Alves, Botelho e Fernandes (2018).
+TABELA 3
+Médias das variáveis utilizadas no modelo logit para toda a amostra (antes do bootstrap)
+Variável
+
+Tratamento
+
+Controle
+
+Estatística
+
+P-valor
+
+Po (log)
+
+3,113081
+
+2,289591
+
+5,389375
+
+5,61E-07
+
+Idade
+
+13,073
+
+13,36574
+
+-0,23465
+
+0,815016
+
+Share PoTec
+
+0,15561
+
+0,050811
+
+2,414744
+
+0,01778
+
+Crescimento Po
+
+0,255407
+
+0,11627
+
+1,725839
+
+0,087826
+
+Elaboração dos autores.
+
+Alves, Botelho e Fernandes (2018) se depararam com situação similar, ao avaliarem o impacto
+dos financiamentos do BNDES nas firmas brasileiras no período pós-crise econômica. Em sua amostra, acessar o BNDES era um evento raro (ou seja, fazer parte de um dos grupos de tratamento).
+Assim, fez-se necessário balancear a amostra antes de proceder com o pareamento. Os autores
+utilizaram reamostragem por bootstrapping para solucionar a questão baseados na metodologia
+de Alves e Silva (2017).
+
+32
+
+2757
+TEXTO para DISCUSSÃO
+
+No caso citado, foi adotado o seguinte procedimento (Alves, Fernandes e Botelho, 2018, p. 109):
+Trata-se de uma abordagem baseada em reamostragem, da qual se extraem amostras
+equilibradas (balanceadas) da população de empresas, com reposição. Em seguida,
+para cada amostra balanceada, estima-se o modelo multinomial por máxima verossimilhança, e armazenamos as probabilidades preditas até que todas as empresas sejam
+selecionadas pelo menos uma vez.
+
+Nesta avaliação, para cada ano analisado (2007 a 2014) a população de empresas tratadas
+foi selecionada em sua integralidade juntamente com uma amostra aleatória simples do grupo
+de controle com reposição e de proporção 1:10. Foi aplicado o modelo logit sobre cada um dos
+resultados encontrados. Todo o processo foi repetido quinhentas vezes para cada ano, e compilados os seus resultados. Como resultado, o grupo tratado passou a representar pelo menos 10%
+da amostra para cada ano, uma representatividade muito mais balanceada. Os coeficientes das
+médias das amostras para cada ano estão na tabela 4, e a estatística completa está no apêndice
+A. Os gráficos das distribuições e médias de ajuste do coeficiente de determinação (pseudo-R²)
+para cada ano estão no apêndice B. De uma forma geral, apenas a variável referente ao logaritmo
+do pessoal ocupado é positiva e significante em todos os anos.
+TABELA 4
+Médias dos coeficientes das médias das amostras do modelo logit do bootstrap
+(2007-2014)
+Variável
+
+2007
+
+2008
+
+2009
+
+2010
+
+2011
+
+2012
+
+2013
+
+2014
+
+Intercepto
+
+-3,19628
+
+-3,08181
+
+-3,5405
+
+-5,06899
+
+-2,10837
+
+-4,36756
+
+-3,9265
+
+-3,4064
+
+Po (log)
+
+0,609865
+
+0,372633
+
+0,378247
+
+0,807615
+
+0,68654
+
+0,723245
+
+0,48598
+
+0,595095
+
+Idade
+
+-0,16342
+
+-0,04453
+
+-0,01631
+
+-0,00445
+
+-0,2277
+
+-0,02132
+
+-0,00089
+
+-0,03887
+
+Crescimento Po
+
+1,316812
+
+0,805515
+
+0,766695
+
+1,447961
+
+0,382353
+
+-0,34632
+
+0,695884
+
+-0,12196
+
+Share PoTec
+
+3,336663
+
+2,22407
+
+3,983402
+
+0,60262
+
+-1,04839
+
+3,001411
+
+2,200237
+
+-0,32619
+
+Elaboração dos autores.
+
+Após o bootstrap, as quinhentas amostras de cada ano foram empilhadas e as probabilidades
+de propensão dos grupos de tratamento e controle foram plotadas. Esses gráficos estão no apêndice
+C, e confirmam que os grupos são muito diferentes, uma vez que há pouca sobreposição entre eles.
+O PSM foi parametrizado a partir das unidades tratadas na proporção de 1:1, tomando-se
+como referência os dados da empresa no ano t-1 em relação à variável do ano de estreia (t) na
+Lei de Informática. Ou seja, cada empresa que acessou a Lei de Informática teve um contrafactual
+
+33
+
+2757
+TEXTO para DISCUSSÃO
+que não a acessou. O propósito de buscar os dados da empresa tratada no período antes da sua
+adesão ao benefício da lei é justamente identificar seu “par” ideal dentro do grupo de controle
+naquele mesmo ano, antes de qualquer interferência ou benefício que a política possa causar. Nem
+todas as unidades tratadas encontraram suporte comum. Os gráficos da distribuição dos escores
+de propensão de cada ano constam no apêndice D deste trabalho, para os quatro grupos: quem
+não acessou a lei e não foi pareado; quem não acessou a lei e foi pareado; quem acessou a lei e
+foi pareado; e quem não acessou a lei e não foi pareado. Vale notar que a distribuição daqueles
+que não acessam à Lei de Informática e não foram pareados é bastante concentrada à esquerda.
+A tabela 5 mostra as médias das variáveis após o bootstrap e o pareamento (com os anos
+empilhados). O teste t sugere que não há diferença entre as médias, como era o objetivo do
+algoritmo PSM. Em outras palavras, casos e controles saem do mesmo patamar nas variáveis
+explicativas. Como se trata de uma distribuição, também foi realizado o teste Kolmogorov-Smirnov
+(teste KS) para confirmar a robustez do modelo. A conclusão é de que não apenas as médias, mas
+também as distribuições das variáveis explicativas, não são significativamente diferentes entre
+casos e controles.
+TABELA 5
+Médias das variáveis utilizadas no modelo logit para toda a amostra (após o
+bootstrap e o PSM)
+Tratamento
+
+Controle
+
+T.Teste
+
+T.P.Valor
+
+Ks. Teste
+
+Ks. P.Valor
+
+Po (log)
+
+3,26346
+
+3,303132
+
+-0,17274
+
+0,863079
+
+0,129412
+
+0,474999
+
+Idade
+
+13,64882
+
+12,93071
+
+0,381864
+
+0,703046
+
+0,129412
+
+0,474999
+
+Share PoTec
+
+0,079353
+
+0,092312
+
+-0,46992
+
+0,639115
+
+0,141176
+
+0,365248
+
+Crescimento Po
+
+0,160267
+
+0,194491
+
+-0,49603
+
+0,620579
+
+0,105882
+
+0,727369
+
+Probabilidade
+
+0,159759
+
+0,159617
+
+0,009283
+
+0,992604
+
+0,105882
+
+0,727369
+
+Elaboração dos autores.
+
+Os gráficos 6 a 10 ilustram a distribuição das variáveis antes e depois do match (pareamento)
+para os grupos de tratamento e controle. Uma melhor sobreposição nos gráficos pós-pareamento
+indica que as empresas dos dois grupos agora têm características semelhantes. O gráfico 10 mostra a distribuição do escore de propensão antes e depois do match. Observa-se, neste caso, uma
+sobreposição quase perfeita.
+
+34
+
+2757
+TEXTO para DISCUSSÃO
+
+GRÁFICO 6
+Distribuição do pessoal ocupado (antes e depois do match)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+GRÁFICO 7
+Distribuição do crescimento do Po (antes e depois do match)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+35
+
+2757
+TEXTO para DISCUSSÃO
+GRÁFICO 8
+Distribuição da idade da empresa (antes e depois do match)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+GRÁFICO 9
+Distribuição do share do PoTec (antes e depois do match)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+36
+
+2757
+TEXTO para DISCUSSÃO
+
+GRÁFICO 10
+Distribuição do escore de propensão (antes e depois do match)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+Após o balanceamento das amostras e realização do pareamento, foi possível prosseguir com
+o processo de avaliação, tanto com as diferenças em nível quanto com o método de diferenças em
+diferenças. A aplicação do método segue estratégia bastante similar à utilizada por Araújo et al.
+(2012). Para estimar essas diferenças, adotou-se uma regressão por mínimos quadrados ordinários
+(ordinary least squares – OLS). O ano em que a empresa teve o primeiro produto homologado pela
+Lei de Informática foi considerado variável de estreia t. A primeira comparação entre tratados e
+não tratados (primeira diferença) tomada como referência foi no momento t-1. O modelo então
+comparou as médias do grupo de tratamento com as do grupo controle pós-pareamento nos
+momentos t+1, t+2 e t+3 (segunda diferença). Além da diferença entre tratadas e não tratadas,
+esse procedimento foi realizado para cada variável de interesse em nível e diferença de log. As
+variáveis dependentes (Y) utilizadas foram: contratos (pessoal ocupado – Po), massa salarial, renda
+média da empresa, market share (share da massa salarial dentro da CNAE 26), PoTec e PoTec em
+razão do Po. Como variáveis preditoras, além da dummy que identifica o grupo de tratamento,
+destacou-se uma combinação das regiões Sul e Sudeste e controles para cada ano.
+
+37
+
+2757
+TEXTO para DISCUSSÃO
+7 PRINCIPAIS RESULTADOS
+Os resultados das regressões estão compilados nas tabelas a seguir. Os dados com as estatísticas completas (erro-padrão, valor t e significância) dos resultados completos das regressões
+estão disponíveis sob demanda.
+TABELA 6
+Compilação dos resultados do PoTec para os momentos t+1, t+2 e t+3
+Variável Dependente
+
+PoTec
+
+PoTec/Po
+
+t+1
+
+t+2
+
+t+3
+
+Nível
+
+-0,40019
+
+0,50414
+
+-3,31585
+
+Diferença
+
+1,15826
+
+2,0626
+
+-1,75739
+
+Diferença (log)
+
+0,1022907
+
+0,2285306*
+
+0,248108*
+
+Nível
+
+-0,0052037
+
+-0,024654
+
+-0,033971
+
+Diferença
+
+-0,017198
+
+-0,03664825.
+
+-0,0459653.
+
+Diferença (log)
+
+-0,0330113
+
+-0,057762
+
+-0,1191328
+
+Elaboração dos autores.
+Obs.: *** Significante a 0,1%; ** significante a 1%; * significante a 5%; e . significante a 10%.
+
+Retomando a hipótese proposta na introdução deste trabalho, seria esperado que a contribuição da Lei de Informática no investimento em PD&I das firmas beneficiadas fosse positivo,
+ou seja, as empresas investiriam a mais do que já estariam dispostas a investir na ausência do
+benefício. Pela tabela 5, no que tange ao investimento absoluto em PD&I, representado pelo
+investimento em recursos humanos (PoTec), a metodologia PSM é inconclusiva. Para as variáveis
+PoTec em nível e em primeira diferença, os resultados não permitem rejeitar a hipótese nula de que
+as firmas beneficiárias da Lei de Informática não aumentam seu gasto em PD&I frente às firmas
+do grupo de controle, mas elas parecem aumentar o gasto na primeira diferença em log. Porém,
+este aumento não parece ser suficiente para elevar a razão PoTec/Po (esforço relativo de PD&I):
+de fato, a primeira diferença da razão PoTec/Po até cai no segundo e terceiro períodos, a 10% de
+significância. Isso tudo posto, não podemos concluir cabalmente que o esforço tecnológico das
+firmas beneficiárias da Lei de Informática é significativamente superior ao do grupo de controle.
+Com o objetivo foi identificar um possível efeito secundário da Lei de Informática, foram
+realizadas regressões com outras variáveis dependentes aplicando-se o mesmo modelo, conforme
+os resultados da tabela 6.
+
+38
+
+2757
+TEXTO para DISCUSSÃO
+
+TABELA 7
+Compilação dos resultados das regressões para os momentos t+1, t+2 e t+3 (demais
+variáveis)
+Variável dependente
+
+t+1
+
+t+2
+
+t+3
+
+-8,7676
+
+-14,293
+
+-5,9052
+
+Diferença
+
+12,02813*
+
+6,50228
+
+14,8905
+
+Diferença (log)
+
+0,1353020*
+
+0,286293
+
+0,3672408**
+
+Nível
+
+-24.051,9
+
+-24.204
+
+-33.140
+
+Diferença
+
+36.805,4
+
+36.654
+
+27.717,02
+
+0,1002217
+
+0,251230*
+
+0,371354**
+
+234,861
+
+208,224
+
+229,82
+
+Diferença
+
+-140,8750
+
+-167,5119
+
+-145,919
+
+Diferença (log)
+
+-0,0350803
+
+-0,03506338
+
+0,08015947
+
+Nível
+
+0,00039149
+
+0,00024473
+
+0,000500942
+
+Diferença
+
+0,000439300
+
+0,0002925403
+
+0,000548751
+
+Diferença (log)
+
+0,220667**
+
+0,3434934**
+
+0,439357**
+
+Nível
+Contratos (Po)
+
+Massa salarial
+
+Diferença (log)
+Nível
+Renda média
+
+Market share
+(CNAE 26)
+
+Elaboração dos autores.
+Obs.: *** Significante a 0,1%; ** significante a 1%; * significante a 5%; e . significante a 10%.
+
+Um resultado interessante é a evolução do share da massa salarial (variável market share)
+dentro da divisão 26 da CNAE. Os resultados da diferença em log são significantes a 1% e crescentes ao longo do período analisado, e sinalizam que o benefício tributário propiciado pela Lei
+de Informática permite que as empresas ganhem market share. Com respeito ao pessoal ocupado,
+algumas estimativas em primeira diferença apontam para o crescimento das empresas beneficiárias,
+mas no geral os resultados são não significantes.
+Estes resultados são consoantes com o encontrado na literatura revista na terceira seção deste
+texto, em especial com os resultados do trabalho da Secap (2019), que emprega metodologia semelhante. Os resultados indicam um impacto geralmente não significativo sobre os esforços tecnológicos
+das empresas beneficiárias. Quando existentes, os impactos positivos se dão sobre a produção – no
+artigo da Secap, impactos sobre emprego, aqui, sobre o aumento do market share das firmas.
+As tabelas 6 e 7 contêm apenas os resultados do grupo de tratamento para fins de maior
+objetividade na análise dos dados do grupo de tratamento, mas os resultados das variáveis preditoras também indicam que a renda média das empresas das regiões Sul e Sudeste apresentam
+resultados crescentes e significância a 0,1% para todo o período analisado (t+1 = 843,176; t+2
+= 895,263; e t+3 = 1111,78).
+
+39
+
+2757
+TEXTO para DISCUSSÃO
+8 CONCLUSÕES
+A Lei no 8.248/1991, conhecida como Lei de Informática, foi proposta durante o governo
+Collor de Mello (1990-1992) como uma revogação da reserva de mercado estabelecida na década
+de 1980 para o setor. Apesar de a proposta do Executivo ter caráter liberal, promovendo a abertura do mercado e reduzindo a interferência do Estado, as discussões na Câmara dos Deputados
+resultaram na criação de uma política de proteção à indústria nascente, programa atípico naquele
+momento político.
+Para que as empresas gozassem de desconto no IPI, eram estimuladas a aumentar seus
+investimento em PD&I. No decorrer de seus quase trinta anos, o prazo de vigência do benefício
+(que na proposta inicial se encerraria em 1999) foi postergado diversas vezes. Atualmente há
+um cronograma de redução gradual do desconto do IPI até 2029, prazo para suposta cessação
+do benefício.
+À primeira vista, os resultados das avaliações anteriores parecem divergir sobre a efetividade
+do impacto da Lei de Informática nas empresas. Contudo, uma análise mais criteriosa evidencia que
+muitos estudos não controlam pelo chamado “viés de autosseleção” das empresas que participam
+do programa. Tal viés se caracteriza pelo fato de quem nem todas as empresas que se qualificariam
+para receber o benefício de fato conseguem, ou mesmo desejam, participar do programa. Diante
+dessa constatação, fica clara a necessidade de se adotar um método contrafactual para estimar,
+dentro do grupo das empresas que não participam, as que teriam chances de aderir à Lei. Ocorre
+que os estudos que apresentam resultados positivos mais notáveis normalmente não adotam esse
+tipo de método em seus modelos, ostentando resultados enviesados.
+Nesta avaliação, a heterogeneidade das empresas que participam da Lei de Informática
+ficou evidente já na análise das estatísticas descritivas, corroborando a literatura sobre políticas
+industriais de inovação. Essa foi uma das hipóteses apresentadas na introdução. Assim, adotou-se
+o método PSM como contrafactual para o grupo controle. Diante do desbalanceamento entre os
+grupos de empresas analisadas (o grupo de tratamento representava menos de 1% da amostra),
+foi feita uma reamostragem por bootstrap antes da execução do PSM.
+O bootstrap reduziu o desbalanceamento para uma proporção de 1:10 entre empresas tratadas e controle. Por sua vez, o PSM, tomando por base o grupo de tratamento, fez o pareamento
+1:1 no momento t-1 (ano anterior à adesão da empresa à Lei de Informática). Aplicou-se então
+regressão OLS, estimando-se resultados em nível, diferença e diferença de log. Foram executadas
+regressões com diversas variáveis dependentes tradicionais na literatura, sendo a mais relevante
+para esta avaliação o PoTec, considerado uma proxy para o gasto em PD&I.
+
+40
+
+2757
+TEXTO para DISCUSSÃO
+
+Os coeficientes referentes ao PoTec estimados nesta avaliação não permitem concluir cabalmente que o esforço tecnológico das firmas beneficiárias da Lei de Informática seja significativamente superior ao grupo de controle, pois a hipótese nula de que o coeficiente é zero não é
+rejeitada na maioria dos modelos. Em outras palavras, não é possível concluir que o programa,
+frente a um grupo de controle comparável, estimule as empresas participantes a investir em PD&I
+mais do que elas já estariam dispostas na ausência dele.
+O modelo também revelou que as empresas tratadas apresentam um share da massa salarial
+referente à divisão 26 da CNAE superior e crescente. Infere-se que a massa salarial das empresas
+beneficiadas cresce a uma taxa maior do que a das não beneficiadas, ocupando progressivamente
+uma parcela maior do total.
+Como sugestão para trabalhos futuros, devido às mudanças na Lei de Informática ao longo
+do tempo, pretende-se estimar os impactos da Lei por subperíodo.
+Os resultados aqui encontrados são coerentes com os estudos que utilizam comparação contrafactual. Isto é, a Lei de Informática não apresenta impactos sobre os esforços tecnológicos das
+empresas beneficiárias, e seus impactos positivos, quando presentes, se dão sobre as variáveis de
+produção. O problema é que, como estimado pela Secap (2019), o custo de geração de empregos
+no setor é relativamente alto, entre R$ 18 mil e 45 mil/mês, e direcionado para a etapa menos
+intensiva em tecnologia (a montagem).
+
+REFERÊNCIAS
+ALVES, P.; BOTELHO, D.; FERNANDES, J. Avaliação de impacto dos financiamentos do BNDES sobre
+as firmas industriais brasileiras no período pós-crise econômica. In: DE NEGRI, J. A.; ARAÚJO, B.
+C.; BACELETTE, R. (Org.). Financiamento do desenvolvimento no Brasil. Brasília: Ipea,
+2018. p. 93-135.
+ALVES, P. F.; SILVA, A. R. Modelagem de eventos raros: uma aplicação utilizando regressão
+probit. Revista de Estatística da Universidade Federal de Ouro Preto, Ouro Preto,
+v. 6, fev. 2017.
+ARAÚJO, B. C.; CAVALCANTI, L.; ALVES, P. Variáveis proxy para os gastos empresariais em inovação com base no pessoal ocupado técnico-científico disponível na Relação Anual de Informações
+Sociais (Rais). Radar, n. 5, p. 16-21, dez. 2009.
+ARAÚJO, B. C. et al. Impactos dos fundos setoriais nas empresas. Rio de Janeiro: Ipea,
+maio 2012. (Texto para Discussão, n. 1737).
+
+41
+
+2757
+TEXTO para DISCUSSÃO
+BRASIL. Lei no 8.248, de 23 de outubro de 1991. Dispõe sobre a capacitação e competitividade do
+setor de informática e automação, e dá outras providências. Diário Oficial da União, Brasília,
+24 out. 1991.
+______. Ministério da Ciência, Tecnologia, Inovações e Comunicações. Relatório de resultados da Lei de Informática: Lei no 8248/91. Brasília: MCTIC, 2015. Disponível em: <https://
+bit.ly/3HQRFIP>.
+BRIGANTE, P. C. Uma avaliação da Lei de Informática e seus impactos sobre os gastos empresariais em
+P,D&I nos anos 2000. Revista Brasileira de Inovação, Campinas, v. 17, n. 1, p. 119-148, 2017.
+CGEE – CENTRO DE GESTÃO E ESTUDOS ESTRATÉGICOS. Projeto avaliação da política de
+informática. Brasília: CGEE, 2010.
+COLOMBO, D. G. A política pública de incentivo ao setor de informática no Brasil a
+partir da década de 90: uma análise jurídica. 2009. 261 f. Dissertação (Mestrado) – Faculdade
+de Direito, Universidade de São Paulo, São Paulo, 2009.
+CGU – CONTROLADORIA-GERAL DA UNIÃO. Relatório de avaliação da Lei de Informática: Exercício 2018. Brasília: CGU, 2019. Disponível em: <https://bit.ly/3iDbxUC>.
+GERTLER, P. J. et al. (Org.). Avaliação de impacto na prática. 2. ed. Washington: BID; Banco
+Mundial, 2018. Disponível em: <https://bit.ly/3JqsIV1>.
+KANNEBLEY JUNIOR, S.; PORTO, G. Incentivos fiscais à pesquisa, desenvolvimento e
+inovação no Brasil: uma avaliação das políticas recentes. [s.l.]: BID, set. 2012. (Documento
+para Discussão, IDB-DP-236).
+NOGUEIRA, M. O. et al. Vende mais porque é fresquinho, ou é fresquinho porque
+vende mais: uma avaliação de políticas selecionadas de desenvolvimento tecnológico no Brasil.
+Brasília: Ipea, jan. 2012. (Texto para Discussão n. 1691).
+PROCHNIK, V. et al. A política da política industrial: o caso da lei de informática. Revista Brasileira de Inovação, Campinas, v. 14, p. 133-152, jul. 2015.
+RAUEN, A. T. Panorama dos recursos federais mobilizados à inovação empresarial no Brasil. Brasília: Ipea, abr. 2020. (Nota Técnica Diset, n. 58). Disponível em: <https://bit.
+ly/3rMxRR0>.
+SALLES FILHO, S. et al. Avaliação de impactos da Lei de Informática: uma análise da política industrial e de incentivo à inovação no setor de TICs brasileiro. Revista Brasileira de Inovação,
+Campinas, v. 11, p. 191-218, jul. 2012.
+
+42
+
+2757
+TEXTO para DISCUSSÃO
+
+SECAP – SECRETARIA DE AVALIAÇÃO DE POLÍTICA PÚBLICAS, PLANEJAMENTO, ENERGIA E
+LOTERIAS. Boletim mensal sobre os subsídios da União: Lei de Informática. 6. ed. Brasília:
+ME, mar. 2019. Disponível em: <https://bit.ly/3gKJPo6>.
+SILVA JUNIOR, G. G. Impactos de incentivos à inovação no desempenho inovador das empresas de
+TIC da indústria brasileira de transformação. In: TURCHI, L. M.; MORAIS, J. M. de. (Org.). Políticas
+de apoio à inovação tecnológica no Brasil: avanços recentes, limitações e propostas de
+ações. Brasília: Ipea, 2017. p. 469-485.
+SOUSA, R. A. F. de. Vinte anos da Lei de Informática: estamos no caminho certo? Radar, Brasília,
+n. 16, nov. 2011.
+WOOLDRIDGE, J. Econometric analysis of cross section and panel data. Cambridge:
+MIT Press, 2002.
+WTO – WORLD TRADE ORGANIZATION. Brazil: certain measures concerning taxation and charges.
+[s.l.]: WTO, 14 May 2019. (Reports of the Appellate Body, WT/DS472/15).
+
+BIBLIOGRAFIA COMPLEMENTAR
+ARAÚJO, B. C.; SALERNO, M. S. Technological strategies and learning-by-exporting: the case of Brazilian manufacturing firms, 2006-2008. International Business Review, v. 24, n. 5, p. 725-738,
+Feb. 2015.
+ARAÚJO, B. C. Políticas de apoio à inovação no Brasil: uma análise de sua evolução recente.
+Brasília: Ipea, ago. 2012. (Texto para Discussão, n. 1759).
+ARRUDA, M.; VERMULM, R.; HOLLANDA, S. (Org.). Inovação tecnológica no Brasil: a indústria
+em busca da competitividade global. São Paulo: Anpei, 2006.
+BRASIL. Lei no 8.387, de 30 de dezembro de 1991. Dá nova redação ao § 1o do art. 3o aos arts.
+7o e 9o do Decreto-Lei no 288, de 28 de fevereiro de 1967, ao caput do art. 37 do Decreto-Lei
+no 1.455, de 7 de abril de 1976 e ao art. 10 da Lei no 2.145, de 29 de dezembro de 1953, e dá
+outras providências. Diário Oficial da União, Brasília, 31 dez. 1991.
+______. Ministério do Planejamento, Desenvolvimento e Gestão. Estratégia nacional de
+desenvolvimento econômico e social. Brasília: MPDG, 2018.
+CASA CIVIL DA PRESIDÊNCIA DA REPÚBLICA; IPEA – INSTITUTO DE PESQUISA ECONÔMICA
+APLICADA. Avaliação de políticas públicas: guia prático de análise ex ante. Brasília: Ipea,
+2018. v. 1. Disponível em: <https://bit.ly/3rIUVjD>.
+
+43
+
+2757
+TEXTO para DISCUSSÃO
+______. Avaliação de políticas públicas: guia prático de análise ex post. Brasília: Casa Civil,
+2018. v. 2. Disponível em: <https://bit.ly/3gHrJmQ>.
+CHANG, H-J. (Org.). Chutando a escada: a estratégia do desenvolvimento em perspectiva
+histórica. São Paulo: Ed. Unesp, 2003.
+CORONEL, D.; AZEVEDO, A.; CAMPOS, A. Política industrial e desenvolvimento econômico: a reatualização de um debate histórico. Revista de Economia Política, v. 34, n. 1, p. 103-119,
+jan.-mar. 2014.
+CRUZ, H. N. Observações sobre a mudança tecnológica em Schumpeter. Estudos Econômicos,
+São Paulo, v. 18, n. 3, p. 433-448, set.-dez. 1988.
+DE NEGRI, F.; RAUEN, A. T. Innovation policies in Brazil during the 2000s: the need for
+new paths. Brasília: Ipea, Sept. 2018. (Discussion Paper, n. 235).
+FERRAZ, J. C.; PAULA, G. M.; KUPFER, D. Política industrial. In: KUPFER, D.; HASENCLEVER, L. (Org.).
+Economia industrial. Rio de Janeiro: Campus, 2002. p. 313-323.
+IMBENS, G.; WOOLDRIDGE, J. M. Difference-in-differences estimation – what is new in
+econometrics? Cambridge, MA: NBER, 20 July 2007. (Lecture, n. 10).
+KING, G.; ZENG, L. Logistic regression in rare events data. Political Analysis, v. 9, n. 2, p. 137-163,
+2001.
+LALL, S. Reinventing industrial strategy: the role of government policy in building industrial
+competitiveness. New York; Geneva: UNCTAD, Apr. 2004. (G-24 Discussion Paper, n. 28).
+NOGUEIRA, M. O.; ZUCOLOTO, G. F. (Org.). Um pirilampo no porão: um pouco de luz nos
+dilemas da produtividade das pequenas empresas e da informalidade no Brasil. 2. ed. Brasília:
+Ipea, 2019.
+OECD – ORGANISATION FOR ECONOMIC CO-OPERATION AND DEVELOPMENT. Technology and
+the economy, the key relationships. Environment and Planning C: Government and
+Policy, Paris, v. 12, p. 257-260, 1992.
+PEREIRA, M. Política industrial e tecnológica e desenvolvimento. Observatorio de la Economia
+Latinoamericana, n. 28, p. 1-19, jul. 2004.
+PREBISCH, R. O desenvolvimento econômico da América Latina e seus principais problemas. Revista
+Brasileira de Economia, v. 3, n. 3, p. 47-111, jul. 1949.
+
+44
+
+2757
+TEXTO para DISCUSSÃO
+
+SCHOLZE, S. H. C. Pesquisa, desenvolvimento e inovação em tecnologias da informação e comunicação: Lei de Informática e incentivos fiscais à luz das novas teorias regulatórias.
+2016. Tese (Doutorado) – Faculdade de Direito, Universidade de Brasília, Brasília, 2016. Disponível
+em: <https://bit.ly/3HSA6Iq>.
+SZIRMAI, A. (Org.). The dynamics of socio-economic development. Cambridge: Cambridge University Press, 2005.
+______. Socio-economic development. 2nd ed. Cambridge: Cambridge University Press,
+2015.
+TCU – TRIBUNAL DE CONTAS DA UNIÃO. Auditoria na Lei de Informática. Brasília: TCU,
+2014. Disponível em: <https://bit.ly/3uPietZ>.
+THIRLWALL, A. P.; PACHECO-LOPEZ, P. (Org.). 10th ed. Economics of development. London:
+Palgrave Macmillan, Apr. 2017.
+VIOTTI, E. B. Brazil: from S&T to innovation policy? the evolution and the challenges facing Brazilian policies for science, technology and innovation. In: GLOBELICS CONFERENCE, 6., Mexico City.
+Proceedings… Mexico City: Globelics, Sept. 2008.
+WOOLDRIDGE, J. M. Introductory econometrics: a modern approach. 5th. ed. [s.l.]: South
+Western, 2012.
+WTO – WORLD TRADE ORGANIZATION. Brazil: certain measures concerning taxation and charges.
+[s.l.]: WTO, Dec. 13, 2018. (Reports of the Appellate Body, WT/DS472/AB/R).
+
+45
+
+2757
+TEXTO para DISCUSSÃO
+APÊNDICE A
+TABELA A.1
+Médias dos coeficientes do bootstrap (2007)
+Variable
+
+Mean
+
+Sd
+
+Statistic
+
+P.Value
+
+(Intercept)
+
+-3,19628
+
+0,662182
+
+-4,82689
+
+1,39E-06
+
+log(CONTRATOS)
+
+0,609865
+
+0,311169
+
+1,959918
+
+0,050005
+
+EMPR_ANOS
+
+-0,16342
+
+0,068904
+
+-2,37171
+
+0,017706
+
+Crescimento PO
+
+1,316812
+
+0,497566
+
+2,64651
+
+0,008133
+
+sharePOTEC
+
+3,336663
+
+3,554284
+
+0,938772
+
+0,347848
+
+Elaboração dos autores.
+
+TABELA A.2
+Médias dos coeficientes do bootstrap (2008)
+Variable
+
+Mean
+
+Sd
+
+Statistic
+
+P.Value
+
+(Intercept)
+
+-3,081813561
+
+0,289276634
+
+-10,65351706
+
+1,67899E-26
+
+log(CONTRATOS)
+
+0,372633499
+
+0,109724703
+
+3,396076634
+
+0,000683592
+
+EMPR_ANOS
+
+-0,044527283
+
+0,014257221
+
+-3,123138995
+
+0,001789332
+
+crescimentoPO
+
+0,805514863
+
+0,374357478
+
+2,151726384
+
+0,031418911
+
+sharePOTEC
+
+2,224069749
+
+1,448335221
+
+1,535604269
+
+0,124635467
+
+Elaboração dos autores.
+
+TABELA A.3
+Médias dos coeficientes do bootstrap (2009)
+Variable
+
+Mean
+
+Sd
+
+Statistic
+
+P.Value
+
+(Intercept)
+
+-3,5405
+
+0,457891
+
+-7,73218
+
+1,06E-14
+
+log(CONTRATOS)
+
+0,378247
+
+0,146492
+
+2,582032
+
+0,009822
+
+EMPR_ANOS
+
+-0,01631
+
+0,014541
+
+-1,12129
+
+0,262163
+
+crescimentoPO
+
+0,766695
+
+0,491748
+
+1,559121
+
+0,118968
+
+sharePOTEC
+
+3,983402
+
+1,737265
+
+2,292915
+
+0,021853
+
+Elaboração dos autores.
+
+46
+
+2757
+TEXTO para DISCUSSÃO
+
+TABELA A.4
+Médias dos coeficientes do bootstrap (2010)
+Variable
+
+Mean
+
+Sd
+
+Statistic
+
+P.Value
+
+(Intercept)
+
+-5,06899
+
+0,559369
+
+-9,06198
+
+1,28E-19
+
+log(CONTRATOS)
+
+0,807615
+
+0,167353
+
+4,825809
+
+1,39E-06
+
+EMPR_ANOS
+
+-0,00445
+
+0,016656
+
+-0,26707
+
+0,789418
+
+crescimentoPO
+
+1,447961
+
+0,538515
+
+2,688803
+
+0,007171
+
+sharePOTEC
+
+0,60262
+
+1,642141
+
+0,366972
+
+0,71364
+
+Elaboração dos autores.
+
+TABELA A.5
+Médias dos coeficientes do bootstrap (2011)
+Variable
+
+Mean
+
+Sd
+
+Statistic
+
+P.Value
+
+(Intercept)
+
+-2,10837
+
+0,638989
+
+-3,29954
+
+0,000968
+
+log(CONTRATOS)
+
+0,68654
+
+0,399886
+
+1,716839
+
+0,086009
+
+EMPR_ANOS
+
+-0,2277
+
+0,088024
+
+-2,58685
+
+0,009686
+
+crescimentoPO
+
+0,382353
+
+0,783264
+
+0,488154
+
+0,625441
+
+sharePOTEC
+
+-1,04839
+
+8,136039
+
+-0,12886
+
+0,897471
+
+Elaboração dos autores.
+
+TABELA A.6
+Médias dos coeficientes do bootstrap (2012)
+Variable
+
+Mean
+
+Sd
+
+Statistic
+
+P.Value
+
+(Intercept)
+
+-4,36756
+
+0,468109
+
+-9,33023
+
+1,06E-20
+
+log(CONTRATOS)
+
+0,723245
+
+0,166375
+
+4,347077
+
+1,38E-05
+
+EMPR_ANOS
+
+-0,02132
+
+0,016329
+
+-1,30574
+
+0,19164
+
+crescimentoPO
+
+-0,34632
+
+0,466456
+
+-0,74246
+
+0,457811
+
+sharePOTEC
+
+3,001411
+
+1,34732
+
+2,227689
+
+0,025901
+
+Elaboração dos autores.
+
+47
+
+2757
+TEXTO para DISCUSSÃO
+TABELA A.7
+Médias dos coeficientes do bootstrap (2013)
+Variable
+
+Mean
+
+Sd
+
+Statistic
+
+P.Value
+
+(Intercept)
+
+-3,9265
+
+0,286722
+
+-13,6944
+
+1,1E-42
+
+log(CONTRATOS)
+
+0,48598
+
+0,09444
+
+5,145911
+
+2,66E-07
+
+EMPR_ANOS
+
+-0,00089
+
+0,010398
+
+-0,08572
+
+0,931686
+
+crescimentoPO
+
+0,695884
+
+0,277815
+
+2,504843
+
+0,012251
+
+sharePOTEC
+
+2,200237
+
+0,997729
+
+2,205244
+
+0,027437
+
+Elaboração dos autores.
+
+TABELA A.8
+Médias dos coeficientes do bootstrap (2014)
+Variable
+
+Mean
+
+Sd
+
+Statistic
+
+P.Value
+
+(Intercept)
+
+-3,4064
+
+0,276973
+
+-12,2987
+
+9,21E-35
+
+log(CONTRATOS)
+
+0,595095
+
+0,124241
+
+4,789846
+
+1,67E-06
+
+EMPR_ANOS
+
+-0,03887
+
+0,012499
+
+-3,10977
+
+0,001872
+
+crescimentoPO
+
+-0,12196
+
+0,349092
+
+-0,34937
+
+0,726815
+
+sharePOTEC
+
+-0,32619
+
+0,952498
+
+-0,34246
+
+0,732004
+
+Elaboração dos autores.
+
+48
+
+2757
+TEXTO para DISCUSSÃO
+APÊNDICE B
+GRÁFICO B.1
+Distribuição e média do ajuste do modelo R² das amostras do bootstrap (2007)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+GRÁFICO B.2
+Distribuição e média do ajuste do modelo R² das amostras do bootstrap (2008)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+49
+
+2757
+TEXTO para DISCUSSÃO
+GRÁFICO B.3
+Distribuição e média do ajuste do modelo R² das amostras do bootstrap (2009)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+GRÁFICO B.4
+Distribuição e média do ajuste do modelo R² das amostras do bootstrap (2010)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+50
+
+2757
+TEXTO para DISCUSSÃO
+
+GRÁFICO B.5
+Distribuição e média do ajuste do modelo R² das amostras do bootstrap (2011)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+GRÁFICO B.6
+Distribuição e média do ajuste do modelo R² das amostras do bootstrap (2012)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+51
+
+2757
+TEXTO para DISCUSSÃO
+GRÁFICO B.7
+Distribuição e média do ajuste do modelo R² das amostras do bootstrap (2013)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+GRÁFICO B.8
+Distribuição e média do ajuste do modelo R² das amostras do bootstrap (2014)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+52
+
+2757
+TEXTO para DISCUSSÃO
+APÊNDICE C
+GRÁFICO C.1
+Probabilidades de propensão dos grupos de tratamento e controle antes do
+pareamento (2007)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+GRÁFICO C.2
+Probabilidades de propensão dos grupos de tratamento e controle antes do
+pareamento (2008)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+53
+
+2757
+TEXTO para DISCUSSÃO
+GRÁFICO C.3
+Probabilidades de propensão dos grupos de tratamento e controle antes do
+pareamento (2009)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+GRÁFICO C.4
+Probabilidades de propensão dos grupos de tratamento e controle antes do
+pareamento (2010)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+54
+
+2757
+TEXTO para DISCUSSÃO
+
+GRÁFICO C.5
+Probabilidades de propensão dos grupos de tratamento e controle antes do
+pareamento (2011)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+GRÁFICO C.6
+Probabilidades de propensão dos grupos de tratamento e controle antes do
+pareamento (2012)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+55
+
+2757
+TEXTO para DISCUSSÃO
+GRÁFICO C.7
+Probabilidades de propensão dos grupos de tratamento e controle antes do
+pareamento (2013)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+GRÁFICO C.8
+Probabilidades de propensão dos grupos de tratamento e controle antes do
+pareamento (2014)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+56
+
+2757
+TEXTO para DISCUSSÃO
+APÊNDICE D
+FIGURA D.1
+Distribuição dos escores de propensão (2007)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+FIGURA D.2
+Distribuição dos escores de propensão (2008)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+57
+
+2757
+TEXTO para DISCUSSÃO
+FIGURA D.3
+Distribuição dos escores de propensão (2009)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+FIGURA D.4
+Distribuição dos escores de propensão (2010)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+58
+
+2757
+TEXTO para DISCUSSÃO
+
+FIGURA D.5
+Distribuição dos escores de propensão (2011)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+FIGURA D.6
+Distribuição dos escores de propensão (2012)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+59
+
+2757
+TEXTO para DISCUSSÃO
+FIGURA D.7
+Distribuição dos escores de propensão (2013)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+FIGURA D.8
+Distribuição dos escores de propensão (2014)
+
+Elaboração dos autores.
+Obs.: Figura reproduzida em baixa resolução e cujos leiaute e textos não puderam ser padronizados e revisados em
+virtude das condições técnicas dos originais (nota do Editorial).
+
+60
+
+Ipea – Instituto de Pesquisa Econômica Aplicada
+EDITORIAL
+Chefe do Editorial
+Aeromilson Trajano de Mesquita
+Assistentes da Chefia
+Rafael Augusto Ferreira Cardoso
+Samuel Elias de Souza
+Supervisão
+Camilla de Miranda Mariath Gomes
+Everson da Silva Moura
+Revisão
+Alice Souza Lopes
+Amanda Ramos Marques
+Ana Clara Escórcio Xavier
+Clícia Silveira Rodrigues
+Luiz Gustavo Campos de Araújo Souza
+Olavo Mesquita de Carvalho
+Regina Marta de Aguiar
+Reginaldo da Silva Domingos
+Brena Rolim Peixoto da Silva (estagiária)
+Nayane Santos Rodrigues (estagiária)
+Editoração
+Anderson Silva Reis
+Cristiano Ferreira de Araújo
+Danielle de Oliveira Ayres
+Danilo Leite de Macedo Tavares
+Leonardo Hideki Higa
+Capa
+Aline Cristine Torres da Silva Martins
+Projeto Gráfico
+Aline Cristine Torres da Silva Martins
+The manuscripts in languages other than Portuguese
+published herein have not been proofread.
+
+Missão do Ipea
+Aprimorar as políticas públicas essenciais ao desenvolvimento brasileiro
+por meio da produção e disseminação de conhecimentos e da assessoria
+ao Estado nas suas decisões estratégicas.
+
+

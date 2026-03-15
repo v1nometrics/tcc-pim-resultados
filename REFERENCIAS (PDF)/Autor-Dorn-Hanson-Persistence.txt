@@ -1,0 +1,3142 @@
+DAVID AUTOR
+Massachusetts Institute of Technology
+
+DAVID DORN
+University of Zurich
+
+GORDON HANSON
+Harvard Kennedy School
+
+On the Persistence of the China Shock
+ABSTRACT We evaluate the duration of the China trade shock and its
+impact on a wide range of outcomes over the period from 2000 to 2019. The
+shock plateaued in 2010, enabling analysis of its effects for nearly a decade
+past its culmination. Adverse impacts of import competition on manufacturing
+employment, overall employment-population ratios, and income per capita in
+more trade-exposed US commuting zones are present out to 2019. Over the full
+study period, greater import competition implies a reduction in the manufacturing employment-population ratio of 1.54 percentage points, which is 55 percent
+of the observed change in the value, and the absorption of 86 percent of this net
+job loss via a corresponding decrease in the overall employment rate. Reductions in population head counts, which indicate net out-migration, register only
+for foreign-born workers and the native born who are 25–39 years old, implying
+that exit from work is a primary means of adjustment to trade-induced contractions in labor demand. More negatively affected regions see modest increases
+in the uptake of government transfers, but these transfers primarily take the form
+of Social Security and Medicare benefits. Adverse outcomes are more acute
+in regions that initially had fewer college-educated workers and were more
+industrially specialized. Impacts are qualitatively—but not quantitatively—
+similar to those caused by the decline of employment in coal production since
+
+Conflict of Interest Disclosure: The authors did not receive financial support from any firm
+or person for this article or from any firm or person with a financial or political interest in
+this article. David Autor is on the Panel of Economic Advisers for the Congressional Budget
+Office, is a trustee of the Urban Institute, and is a member of the advisory boards of the
+Opportunity and Inclusive Growth Institute at the Federal Reserve Bank of Minneapolis,
+the Malcolm Wiener Center for Social Policy at the Harvard Kennedy School, and WorkRise
+at the Urban Institute. Other than the aforementioned, they are currently not officers, directors,
+or board members of any organization with an interest in this article.
+
+381
+
+382
+
+Brookings Papers on Economic Activity, Fall 2021
+
+the 1980s, indicating that the China trade shock holds lessons for other episodes
+of localized job loss. Import competition from China induced changes in income
+per capita across local labor markets that are much larger than the spatial heterogeneity of income effects predicted by standard quantitative trade models. Even
+using higher-end estimates of the consumer benefits of rising trade with China,
+a substantial fraction of commuting zones appears to have suffered absolute
+declines in average real incomes.
+
+R
+
+ecent literature analyzing how import competition affects local labor
+markets has transformed our understanding of economic adjustment to
+globalization. Since at least David Ricardo, economists have appreciated
+that freer trade creates both winners and losers.1 Yet, until recently, the
+prevailing view among scholars was that losses from trade were likely
+to be diffuse. The logic behind this view is simple and appealing: if labor
+is mobile across industries and regions, then the effects of greater import
+competition on, say, a labor-intensive and spatially agglomerated industry
+such as furniture making would be transmitted across all industries and
+regions employing less-educated labor.2 Even though furniture factories in
+the North Hickory, North Carolina, commuting zone (CZ) may shut their
+doors, the pain felt by former furniture workers in the region would be little
+different from the losses suffered by those in equivalently skilled service
+sector jobs in Houston or Miami. We have since learned that losses from
+trade are often highly regionally concentrated.3
+Much of the research that elucidates how local economies adjust to
+globalization is based on the China trade shock. In the early 1990s, China
+had both a large economy and, for its size, a narrow comparative advantage in manufacturing. Its rapid opening to trade and investment disrupted
+global markets. Economies producing the labor-intensive goods that China
+began exporting experienced a massive increase in global competitive
+1. That Ricardo recognized winners and losers from trade is evident in his opposition to
+the British Corn Laws (Ricardo 1815), which he saw as redistributing income to landlords
+from workers (Maneschi 2008).
+2. Labor mobility across industries and regions is core to the Heckscher-Ohlin trade
+model, for example (Feenstra 2016).
+3. The seminal work of Jacobson, LaLonde, and Sullivan (1993) found scarring effects
+from job loss due to mass layoffs in the form of lower long-run earnings, which are more
+severe when the job loss occurs during a recession (Davis and von Wachter 2011). Although
+earlier work in trade found that exposure to imports can induce job loss (Grossman 1982;
+Kletzer 2001), the literature has only recently connected trade shocks to scarring effects from
+worker displacement.
+
+AUTOR, DORN, and HANSON
+
+383
+
+supply, while those producing the raw materials and other inputs demanded
+by China felt a commensurately large increase in global demand. Recent
+work exploits the speed, scale, and concentrated impacts of China’s reformdriven export growth to analyze the labor market consequences of globalization. Labor markets more exposed to import competition from China
+experienced more plant closures; larger declines in manufacturing employment, employment-population ratios, earnings for low-wage workers, housing
+prices, and tax revenues; and larger increases in childhood and adult poverty,
+single parenthood, and mortality related to drug and alcohol abuse, as well
+as greater uptake of government transfers.4
+In this paper, we reexamine the local labor market impacts of exposure to
+Chinese import competition in order to evaluate which market adjustment
+mechanisms are operative and over what time horizons, how long adverse
+impacts endure, and how adjustment to trade compares to adjustment to
+other localized shocks. Among the most striking findings in recent work is
+that regions experiencing larger trade-induced reductions in manufacturing employment saw neither differential reductions in labor supply—due,
+for example, to out-migration—nor greater absorption of workers by nonmanufacturing sectors. Manufacturing job loss translated nearly one for one
+into declines in the employment-population ratio.5 Because in equilibrium
+changes in the employment rate are approximately proportional to changes
+4. Research addresses regional and industry employment (Autor, Dorn, and Hanson 2013a;
+Pierce and Schott 2016; Handley and Limão 2017); plant closure (Bernard, Jensen, and
+Schott 2006; Acemoglu and others 2016; Asquith and others 2019); labor earnings (Autor
+and others 2014; Chetverikov, Larsen, and Palmer 2016); government transfers (Autor, Dorn,
+and Hanson 2013a; Autor and others 2014); housing prices and tax revenues (Feler and
+Senses 2017); migration (Autor, Dorn, and Hanson 2013a; Monte, Redding, and RossiHansberg 2018; Faber, Sarto, and Tabellini 2019; Greenland, Lopresti, and McHenry 2019);
+and marriage, fertility, and mortality (Autor, Dorn, and Hanson 2019; Pierce and Schott
+2020). Other work explores impacts on consumer prices (Bai and Stumpner 2019; Jaravel
+and Sager 2019; Hottman and Monarch 2020; Borusyak and Jaravel 2021), US exports
+(Feenstra, Ma, and Xu 2019), domestic innovation (Hombert and Matray 2018; Autor and
+others 2020b), and schooling (Greenland and Lopresti 2016). Additional work studies how
+trade shock impacts are mediated by labor market conditions (Austin, Glaeser, and Summers
+2018), industry product cycles (Eriksson and others 2019), labor regulations (Chan 2019),
+and trade deficits (Dix-Carneiro and Kovak 2017). Autor, Dorn, and Hanson (2016) and
+Redding (2020) review the literature; and Dorn and Levell (2021) provide a comparative
+European-US perspective.
+5. The absence of a local labor supply response to the China trade shock is consistent
+with findings on the null impact of generic Bartik (1991) labor demand shocks on local
+population head counts for less skilled workers (Bound and Holzer 2000; Diamond 2016;
+Notowidigdo 2020). Charles, Hurst, and Schwartz (2019) report comparable downward
+impacts on local employment rates from regional exposure to the national decline in manufacturing over 2000–2017.
+
+384
+
+Brookings Papers on Economic Activity, Fall 2021
+
+in real income (Amior and Manning 2018; Galle, Rodríguez-Clare, and Yi
+2017), trade-induced increases in joblessness may indicate adverse changes
+in welfare. Motivated by this concern, we explore the duration of shock
+impacts through 2019.
+In more trade-exposed regions, we find that negative effects on manufacturing employment continue to build well beyond the culmination of the
+trade shock itself. Adverse impacts persist out to 2019, nearly a decade after
+the shock reached peak intensity. When examining the full study period, the
+midpoint for estimates using alternative data sources indicates that greater
+import competition implied a reduction in the manufacturing employmentpopulation ratio of 1.54 percentage points, which is 55 percent of the
+observed change in the value, and that 86 percent of this manufacturing
+employment decline was absorbed by a decrease in the overall employment
+rate. Although the trade shock generated modest net out-migration, this
+occurred only among native-born adults age 25–39 and the foreign-born.
+Impacts of the trade shock thus appear to be long-lasting and to entail
+reduced participation in work, as evident in declines in wages and salaries
+and personal income in trade-exposed regions. Income losses are only minimally offset by the increased uptake of government transfers, which also
+remain elevated to the end of the analytic window.
+Why has the China trade shock had such enduring consequences? One
+logical explanation is that the shock itself never stopped intensifying. The
+data do not support this conjecture, however. China’s spectacular manufacturing export growth slowed dramatically in the last decade, by which
+point China’s reform-driven boom had run its course and the government
+had begun to roll back some reforms (Lardy 2019; Brandt and others 2020;
+Brandt and Lim 2020). Nor did export growth simply move en masse from
+China to nearby countries. Whether we look at the US market presence of
+China alone or combined with Vietnam and other Southeast Asian nations,
+to which China has begun to offshore some labor-intensive activities, the
+trade shock reached peak intensity around 2010 and stabilized thereafter
+(Hanson 2020). Thus, the China trade shock did not unwind, but it did
+plateau, allowing us to examine its consequences for nearly a decade beyond
+its full expression.
+We conduct preliminary analyses of two other explanations for why tradeexposed labor markets suffered long-lasting hardship. One hypothesis is
+that many traditional manufacturing regions were poorly positioned to
+recover from job loss because of a dearth of college-educated workers, who
+are in high demand by sectors that are expanding nationally (Glaeser,
+Scheinkman, and Shleifer 1995; Diamond 2016; Bloom and others 2019).
+
+AUTOR, DORN, and HANSON
+
+385
+
+A second is that specialization in a narrow set of industries left these regions
+exposed to industry-specific shocks that, once industry decline was initiated,
+would set in motion a process that is self-reinforcing (Dix-Carneiro and
+Kovak 2017). We find some support for both the dearth of human capital
+hypothesis and the reverse agglomeration hypothesis. We also discuss other
+mechanisms that may be at work, though we do not provide a definitive,
+monocausal explanation.
+To put the China trade shock in context, we examine adjustment to the
+secular decline of the coal industry and the impact of the Great Recession,
+the intensity of each of which varied sharply across regions. Regions more
+specialized in coal saw larger declines in employment rates, which remained
+suppressed more than a quarter century after the industry downturn began
+in 1980 (Black, Daniel, and Sanders 2002; Black, McKinnish, and Sanders
+2005). Similarly, localities harder hit by the Great Recession had lower
+employment-population ratios ten years after the recession had officially
+ended, extending the findings in Yagan (2019). Although the long-run impacts
+of import competition from China do not appear to be unique qualitatively,
+the quantitative magnitudes of these impacts stand out relative to other shocks.
+Much of the empirical trade literature estimates trade shock impacts by
+comparing changes in outcomes in more and less trade-exposed regions.
+This strategy identifies the relative impact of the trade shock—for example,
+whether manufacturing employment fell by more in more-trade-exposed
+locations—but not the absolute impact of the shock, for example, whether
+the trade shock reduced manufacturing employment nationally (Heckman,
+Lochner, and Taber 1998; Helpman 2018). Although relative impacts are
+informative about the distributional consequences of trade, they may not
+be indicative of changes in aggregate outcomes.6 To evaluate the welfare
+impacts of trade, recent literature uses reduced-form empirical results to
+discipline the calibration of quantitative trade models. These calibrations
+suggest that US aggregate welfare gains from China’s market opening
+were positive but small and that some relatively adversely affected regions
+may have suffered absolute welfare declines.7 To investigate these effects
+further, we compare regional variation in real income changes in quantitative
+analyses with that implied by our reduced-form work, which imposes no
+
+6. This issue also arises in empirical work in macroeconomics (Chodorow-Reich 2019,
+2020; Guren and others 2021; Wolf 2019).
+7. See Caliendo, Dvorkin, and Parro (2019); Rodríguez-Clare, Ulate, and Vásquez (2020);
+Adão, Arkolakis, and Esposito (2019); Galle, Rodríguez-Clare, and Yi (2017); Kim and
+Vogel (2020).
+
+386
+
+Brookings Papers on Economic Activity, Fall 2021
+
+model structure. Standard quantitative models generate regional variation
+in income changes that is only one-quarter of what we find in reduced-form
+estimation. Even higher-end estimates of the cost-reducing impact of trade
+with China on US consumer prices (Jaravel and Sager 2019; Borusyak and
+Jaravel 2021) imply that a substantial number of regional economies suffered
+absolute declines in real incomes.
+A final consideration regards the normative implications of adverse
+impacts of the China trade shock on labor markets in the United States and
+other countries. Few economists would interpret our empirical results as
+justifying greater trade protection. As expected, quantitative models indicate that US aggregate gains from trade with China are positive. Yet, the
+fact that the losses from trade are regionally concentrated and long-lasting
+suggests that existing policies failed to insulate workers from the disruptive
+impacts of globalization. We close the paper by discussing what we know,
+and do not know, about policies that help shield workers from concentrated
+job loss.
+
+I. The Timing of the China Shock
+We begin by reviewing China’s recent export performance. Enduring impacts
+of the China trade shock on US local labor markets could be the result of
+the shock continuing to build after the 2000s and into the 2010s. We find
+this not to be the case. China’s export growth has progressed through welldefined periods of initiation, acceleration, and stabilization. The country’s
+share of the US market approached peak intensity around 2010 and plateaued
+thereafter.
+That China’s export growth has been explosive is universally understood.
+Its share of world manufacturing exports rose from 3.1 percent in 1991 to
+17.6 percent in 2015, before dipping to 14.2 percent in 2018, as documented
+in figure 1, panel A.8 This export boom has been concentrated in manufacturing and is recognized as transforming China into the world’s factory.9
+Conversely, China’s share of world exports of nonmanufactured goods
+has changed little over time, averaging just 2.3 percent between 1991 and
+2018 and showing no discernible trend. This divergence in export growth
+between major sectors reflects China’s powerful comparative advantage
+in manufacturing—particularly in labor-intensive manufacturing—which
+derived from the country’s initial abundant supply of labor relative to its
+8. Online appendix A.2 provides details on the data we use in this section.
+9. See, for example, Economist (2015).
+
+387
+
+AUTOR, DORN, and HANSON
+
+Figure 1. China’s Share of World Trade by Major Sector
+A. China’s share of world exports
+
+0.15
+Manufacturing export share
+0.10
+
+0.05
+Nonmanufacturing export share
+
+1994
+
+1997
+
+2000
+
+2003
+2006
+Year
+
+2009
+
+2012
+
+2015
+
+B. China’s share of world imports
+
+Nonmanufacturing import share
+
+0.15
+
+0.10
+Manufacturing import share
+0.05
+
+1994
+
+1997
+
+2000
+
+Source: UN Comtrade, SITC Revision 2.
+
+2003
+2006
+Year
+
+2009
+
+2012
+
+2015
+
+388
+
+Brookings Papers on Economic Activity, Fall 2021
+
+supplies of agricultural land, natural resources, and physical capital (Wood
+1995, 2018). Once China began to relax restrictions on foreign trade and
+investment, first through the expansion of special enterprise zones initiated
+by Deng Xiaoping (Naughton 2006), and later through an economy-wide
+liberalization tied to the country’s accession to the World Trade Organization (WTO) in 2001 (Lardy 2019), it was able to realize this latent prowess
+and integrate into global value chains. The surge in manufacturing exports
+generated a corresponding increase in the import of raw materials used
+in industrial production, which mushroomed China’s share of world nonmanufacturing imports from 1.2 percent in 1991 to 15.7 percent in 2018
+(figure 1, panel B).10
+Our concept of the China shock is the period spanning the country’s
+reform-driven transition from an inward-oriented and heavily centrally
+planned economy to a comparatively open and market-oriented one in
+which the majority of production occurred in privately owned firms. We
+conventionally date the China trade shock as commencing in 1992, when
+Deng expanded his “reform and opening” agenda to include foreign trade
+and investment (Naughton 2006; Vogel 2011).11 China’s market transition
+unleashed dramatic improvements in productivity resulting from spatial
+and sectoral reallocation of resources (Hsieh and Klenow 2009; Brandt,
+Tombe, and Zhu 2013), the expansion of the private sector at the expense of
+inefficient state-owned enterprises (Song, Storesletten, and Zilibotti 2011;
+Khandelwal, Schott, and Wei 2013; Hsieh and Song 2015; Bai, Krishna,
+and Ma 2017), inflows of foreign capital and imported intermediate inputs
+(Yu 2015; Brandt and Morrow 2017), a reorientation of manufacturing
+to export assembly plants producing at the behest of multinational firms
+(Feenstra and Hanson 2005; Brandt and others 2017), and the adoption
+of previously banned foreign technologies (Hu and Jefferson 2009; Wei,
+Xie, and Zhang 2017; Li 2020).12 Over 1998–2007, output per worker
+in Chinese manufacturing grew at the stunning annual average rate of
+
+10. China’s share of world manufacturing imports also rose over time, from 2.1 percent
+in 1991 to 10 percent in 2018, an increase driven in part by the expansion of global value
+chains whose assembly operations were anchored in China (Koopman, Wang, and Wei 2012;
+Kee and Tang 2016).
+11. China’s manufacturing export growth in fact began in the 1980s (Brandt and others
+2020). Given the country’s very low initial export levels, however, this early growth did little
+to change China’s share of global exports.
+12. The undervaluing of China’s yuan-dollar exchange rate in the early 2000s may have
+also contributed to the country’s export boom (Bergsten and Gagnon 2017), though without
+creating an industry bias in this growth.
+
+AUTOR, DORN, and HANSON
+
+389
+
+8.0 percent (Brandt, Van Biesebroeck, and Zhang 2012; Liu and Ma 2020).
+The 1992–2007 export surge thus appears to be an episode in which China’s
+trade growth was driven largely by productivity gains resulting from its
+market opening.
+Because much of China’s post-Deng manufacturing growth was transitional, it was destined to be short-lived (Song, Storesletten, and Zilibotti 2011).
+Once a substantial share of the labor force had moved from the countryside
+to cities and from state-owned to private firms, easy growth may have been
+less attainable. Between 2010 and 2013, Brandt and Lim (2020) estimate
+that total factor productivity (TFP) growth in Chinese manufacturing was
+negative in eight of eleven subsectors, in stark contrast to earlier years.
+Changes in the political economy of reform may have further hampered
+manufacturing. In 2008, President Hu Jintao gave (low productivity) stateowned enterprises renewed prominence in industrial planning (Naughton
+2016), a shift strongly reinforced by President Xi Jinping in 2012 (Lardy
+2019). After 2007, entry of private and foreign-owned manufacturing firms
+fell sharply (Brandt and others 2020). The end of the productivity growth
+miracle and the roll back of pro-market reforms slowed manufacturing
+growth after 2010. Whereas the differential in annual manufacturing export
+growth between China and the rest of the world was 8.2 percentage points
+over 1991–2001 and 8.4 percentage points over 2001–2010, it was −0.4 percentage points over the 2010–2018 period.
+China’s post-2010 slowdown is also apparent when we compare its trade
+performance to the United States, which is helpful for defining the shock
+facing US manufacturing industries. A simple method to evaluate China’s
+relative export success is to use the Balassa (1965) measure of revealed
+comparative advantage (RCA), which is the ratio of a country’s share of
+world exports in a particular sector to its share of world exports of all
+goods.13 In figure 2, we show the gap between the log China and log US
+RCA for manufacturing and nonmanufacturing. China began with a modest
+comparative advantage in manufacturing over the United States in 1991—
+as indicated by a China-US manufacturing versus all goods export differential of just 2.0 percentage points in that year. By 2011, its manufacturing
+versus all goods export differential over the United States had leaped to
+13.1 percentage points, before falling and rising over the ensuing eight years.
+After 2010, the China-US relative RCA exhibits little trend.
+13. In the Eaton and Kortum (2002) model of Ricardian comparative advantage, RCA
+summarizes differences in effective productivity between a country and the rest of the world.
+See also Hanson, Lind, and Muendler (2015).
+
+390
+
+Brookings Papers on Economic Activity, Fall 2021
+
+Figure 2. China versus US Revealed Comparative Advantage
+Manufacturing
+
+Nonmanufacturing
+
+log China-USA RCA, nonmanufacturing
+–0.05
+0.10
+–0.10
+0.05
+–0.15
+log China-USA RCA, manufacturing
+
+1994
+
+1997
+
+2000
+
+2003
+2006
+Year
+
+2009
+
+2012
+
+2015
+
+Source: UN Comtrade, SITC Revision 2.
+Note: Revealed comparative advantage (RCA) is a country’s share of world exports in a sector relative
+to a country’s share of world exports of all merchandise.
+
+By construction, China’s RCA in nonmanufacturing compared to the
+United States exhibits approximately the inverse pattern, dropping steadily
+through the 1990s and 2000s and then remaining at negative levels after
+2011. China’s comparative disadvantage in nonmanufacturing relative to
+the United States likely reflects the success of US firms in exporting agricultural products, certain mineral products, and oil and gas to the rest of the
+world, as well as market forces in China that have concentrated factors of
+production in manufacturing at the expense of other sectors.
+Even though China’s export growth in manufacturing slowed after
+2010, it still could have contributed to overall US manufacturing import
+growth by offshoring production to other low-wage countries. Chinese
+firms have been active in building industrial parks for export production in
+Southeast Asia, and in Vietnam in particular.14 In figure 3, we plot shares
+of US imports and import penetration in the US market for China alone
+and for China combined with low-income countries in Southeast Asia. We
+select these countries—Cambodia, Indonesia, Laos, Myanmar, Philippines,
+14. See, for example, Economist (2016).
+
+391
+
+AUTOR, DORN, and HANSON
+
+Figure 3. US Manufacturing Imports from China and Southeast Asia
+A. Shares of US imports
+
+0.25
+0.20
+0.15
+China + SE Asia share of
+US imports
+0.10
+0.05
+
+China share of US imports
+
+1994
+
+1997
+
+2000
+
+2003
+2006
+Year
+
+2009
+
+2012
+
+2015
+
+2012
+
+2015
+
+B. Import penetration in the US market
+
+China + SE Asia import
+penetration in the US
+
+0.08
+
+0.06
+
+0.04
+China import penetration
+in the US
+
+0.02
+
+1994
+
+1997
+
+2000
+
+2003
+2006
+Year
+
+2009
+
+Sources: UN Comtrade, SITC Revision 2; St. Louis Federal Reserve Bank; and authors’ calculations.
+Note: Import penetration in panel B is the ratio of US imports of manufactured goods to US domestic
+absorption (defined as gross output plus imports minus exports). All values exclude oil and gas.
+
+392
+
+Brookings Papers on Economic Activity, Fall 2021
+
+Vietnam—based on their per capita GDP in 2010 being less than that of
+China.15 We also add neighboring Bangladesh to this group because in
+recent decades multinational companies from Asia have expanded apparel
+factories in the country (Heath and Mobarak 2015). Figure 3 underscores
+that China’s exports to the United States dwarf those of Southeast Asia.
+In 2010, China accounted for 23.4 percent of US manufacturing imports,
+whereas the Southeast Asian nations accounted for just 2.6 percent. In 2018,
+these figures were only modestly changed, at 23.6 percent and 3.8 percent,
+respectively. Although Southeast Asian countries did gain a larger share of
+US imports, the increase over the 2010 to 2018 period was just 1.2 percentage
+points. Import penetration, shown in figure 3, panel B, tells a similar story.
+Whether we look at China alone or combined with low-income Southeast
+Asian nations, its US market presence largely stabilized after 2010.16
+Taken together, these trade patterns allow us to mark three distinct periods
+of China’s export performance: the gradual initiation of China’s export
+boom in the early 1990s, the dramatic acceleration of China’s export growth
+following its WTO accession in 2001, and China’s export plateau after
+2010, which coincided with slowing manufacturing productivity growth.
+This slowdown may have been the result of China having completed its
+transitional period of post-reform growth, and possibly also of the partial
+reversal of reforms by Presidents Hu and Xi. Whatever the cause, the China
+trade shock appears to have stopped intensifying after 2010.
+
+II. Estimating Labor Market Adjustment to Trade Shocks
+This section presents our measure of the China trade shock and main
+empirical specification, which builds on Autor, Dorn, and Hanson (2013a)
+and Acemoglu and others (2016). We aim to identify the causal effect of
+import competition from China on labor market outcomes for US CZs,
+which is our measure of local labor markets (Tolbert and Sizer 1996; Dorn
+2009), and evaluate impacts as the shock intensifies in the early 2000s,
+reaches peak intensity around 2010, and stabilizes thereafter.
+15. In 2010, world development indicators show per capita GDP (at 2010 prices) of
+$4,560 in China and a range of $988 (Myanmar) to $2,130 (Philippines) in our Southeast
+Asian nations. The excluded, higher-income countries in the region are Brunei, Malaysia,
+Singapore, and Thailand, whose per capita GDPs range from $5,075 to $46,570; World Bank,
+“DataBank: World Development Indicators,” https://databank.worldbank.org/source/worlddevelopment-indicators.
+16. Results are qualitatively similar when we include additional low-income countries in
+South Asia (India, Pakistan, Sri Lanka), whose shares of global manufacturing exports have
+remained flat in recent years (Hanson 2020).
+
+393
+
+AUTOR, DORN, and HANSON
+
+Table 1. Summary Statistics for CZ Import Penetration
+Change in
+CZ import
+penetration
+
+Mean
+(ppts)
+
+Standard
+deviation
+
+25th
+percentile
+
+50th
+percentile
+
+75th
+percentile
+
+Imports by
+United States
+
+1991 to 2000
+2000 to 2007
+2000 to 2010
+2000 to 2012
+2000 to 2014
+
+0.94
+1.35
+0.85
+0.89
+0.85
+
+0.60
+0.84
+0.59
+0.59
+0.56
+
+0.52
+0.84
+0.50
+0.51
+0.47
+
+0.88
+1.15
+0.69
+0.75
+0.73
+
+1.22
+1.62
+1.07
+1.17
+1.10
+
+Imports by other
+high-income
+countries
+
+1991 to 2000
+2000 to 2007
+2000 to 2010
+2000 to 2012
+2000 to 2014
+
+0.70
+1.38
+1.27
+1.22
+1.01
+
+0.48
+0.79
+0.82
+0.69
+0.58
+
+0.40
+0.91
+0.82
+0.79
+0.66
+
+0.63
+1.31
+1.13
+1.15
+0.96
+
+0.87
+1.61
+1.47
+1.44
+1.21
+
+Sources: UN Comtrade, SITC Revision 2; NBER-CES Manufacturing Industry Database; BEA Regional
+Economic Information System; National Vital Statistics System; and authors’ calculations.
+Note: This table shows the change in import penetration (100 × CZ weighted average change in imports
+from China/domestic industry absorption) for the 722 commuting zones in the continental United States
+and the instrumental variable for this value at given time horizons. Values are decadalized (× 10/length of
+time period) and weighted by the CZ working-age population in the initial year.
+
+II.A. Baseline Specification
+We examine exposure to import competition from China for the 722 CZs
+in the continental United States. As in Acemoglu and others (2016), our measure of trade exposure is the average change in Chinese import penetration
+across industries, weighted by industry shares in initial CZ employment:
+(1)
+
+∆IPicuτ = 100 × ∑ j sijt ∆IP cujτ ,
+
+where ΔIPcujτ = ΔM cujτ /(Yjt + Mjt − Xjt) is the growth of Chinese import penetration for US manufacturing industry j over time interval τ (2000 to 2012 in
+most cases), t is the base period (2000 in most cases), and sijt ≡ Lijt /Lit is the
+share of industry j in CZ i’s total employment in the base year. We compute
+the change in import penetration as the growth in US industry imports from
+China, ΔM cujτ , divided by initial industry domestic absorption (US industry
+shipments plus net imports, Yjt + Mjt − Xjt), as summarized in table 1.17
+Differences in ΔIP cuiτ across CZs stem from variation in local industry
+17. We measure imports using Harmonized System (HS) trade data from UN Comtrade,
+harmonized to four-digit Standard Industrial Classification (SIC) industries, and industry
+shipments using the National Bureau of Economic Research (NBER) manufacturing productivity database (Autor and others 2014).
+
+394
+
+Brookings Papers on Economic Activity, Fall 2021
+
+Figure 4. Chinese Import Penetration (2000–2012) in US Commuting Zones
+
+2000-2012 trade shock
+
+1.81 − 6.10
+1.33 − 1.81
+0.85 − 1.33
+0.51 − 0.85
+0.23 − 0.51
+–0.51 − 0.23
+
+Sources: UN Comtrade, SITC Revision 2; NBER-CES Manufacturing Industry Database; BEA Regional
+Economic Information System; National Vital Statistics System; and authors’ calculations.
+Note: This figure shows the change in import penetration from China in equation (1) over 2000–2012.
+The legend indicates values for the bottom four quintiles and the top two deciles.
+
+employment in the base year, which arises from differential specialization
+in manufacturing and in import-intensive industries within manufacturing.
+In figure 4, we map the China trade shock in equation (1) across CZs
+for the 2000–2012 time period. The most affected CZs, shown as those in
+the top two deciles of increased import penetration, are concentrated in the
+eastern half of the United States, and especially in the Southeast (north of
+the Deep South) and Midwest (outside of large metropolitan areas). These
+CZs are where US manufacturing relocated as it moved out of major cities
+in the Northeast and northern Midwest in the middle of the twentieth century
+(Eriksson and others 2019).18
+To quantify the evolving impact of the China trade shock on labor market
+outcomes, we estimate first-difference models using successively longer time
+differences. Our regressions have the form,
+(2)
+
+∆Yit + h = α t + β1h ∆IPicuτ + X ′it β 2 + ε it + h ,
+
+18. Autor, Dorn, and Hanson (2013b) show that there is little correlation between a CZ’s
+exposure to Chinese import competition and exposure to routine task-replacing technological
+change.
+
+AUTOR, DORN, and HANSON
+
+395
+
+where ΔYit+h is the change in an outcome for CZ i between the initial year t
+and later year t + h for h = 1, . . . , T, such that we estimate separate regressions for each time difference between 2000–2001 and 2000–2019. We
+focus on the period 2000–2019, which comprises the decade of China’s
+most intense export growth, and the subsequent decade when China’s
+export growth leveled off, up to the year before the onset of the COVID-19
+recession in 2020. Our baseline definition of the trade shock is the period
+2000–2012, whose first year is one year prior to China’s WTO entry and
+whose final year postdates the culmination of the trade shock in 2010
+and the volatility in global trade following the 2008 global financial
+crisis.19 For h < 12, we estimate shock impacts for outcome periods that
+are less than complete—that is, whose length is less than that of the trade
+shock itself—which reveals how long it takes for the full impact of the shock
+to manifest. For h > 12, we estimate shock impacts on outcome periods
+that extend beyond the culmination of China’s export boom, which reveals
+whether shock impacts attenuate over longer time horizons. If, for instance,
+it takes time for workers displaced from manufacturing to find jobs in other
+sectors or to migrate elsewhere, we may not see full adjustment along these
+margins until well after the shock reaches full intensity.
+The control vector X′it contains time trends for US Census divisions and
+start-of-period CZ-level covariates: the manufacturing share of employment, which allows us to focus on trade exposure arising from the withinmanufacturing industry mix; specialization in occupations according to
+their routine-task intensity and offshorability (based on Autor and Dorn
+2013), thus accounting for exposure to automation and non-China-specific
+globalization; the fractions of foreign-born and non-white workers, the
+college-educated portion of the population, and the fraction of workingage women who are employed, which absorbs variation in outcomes related
+to labor-force composition; and the population shares of residents age 0–17,
+18–39, and 40–64, which control for demographic factors that may affect
+labor force participation and eligibility for government transfers (see online
+appendix table A2). For all outcomes other than population head counts,
+
+19. We show in online appendix figure A4 that we obtain nearly identical coefficient
+estimates when using trade shocks constructed for the 2000–2007, 2000–2010, 2000–2012,
+and 2000–2014 time periods. This similarity in results is a consequence of the post-2000 trade
+shock being front-loaded on the 2000–2007 period. The 2000–2007 shock is 79.8 percent of
+the magnitude of the 2000–2012 shock and 88.8 percent of the magnitude of the 2000–2014
+shock. The CZ-level pairwise correlations of the 2000–2007, 2000–2010, 2000–2012, and
+2000–2014 trade shocks range from 0.93 to 0.96.
+
+396
+
+Brookings Papers on Economic Activity, Fall 2021
+
+regressions are weighted by the CZ working-age population (age 18–64) in
+the initial year; for head count regressions, weights are the total CZ population in the initial year. All specifications cluster standard errors at the
+state level.
+We focus on US imports from China and not US exports to China
+because the former dwarf the latter and because our instrumentation strategy
+(see below) is less well-suited to isolating exogenous variation in US
+export growth.20 Autor, Dorn, and Hanson (2013a) find similar results
+when replacing growth in US imports with growth in US net imports.
+Consistent with these findings, Feenstra, Ma, and Xu (2019) detect no
+impact of growth in US exports to China on US manufacturing employment, although overall US export growth is positively associated with manufacturing activity.21
+In related work, Eriksson and others (2019) study the Japan trade
+shock of 1975–1985 (during which Japan’s exports of autos and other
+durables surged) and the East-Asian Tiger trade shock of 1975–1988
+(during which Hong Kong, Korea, Singapore, and Taiwan had manufacturing export booms), which occurred a dozen years before China’s WTO
+accession. They detect no impact of the Japan shock on employment rates
+in US CZs, while Batistich and Bond (2019) find a similar overall null
+effect of the shock on CZ manufacturing employment, though a differentially negative effect on Black relative to white manufacturing workers. It is
+further the case that the CZs exposed to the earlier East Asian export surges
+had limited overlap with those exposed to the later China trade shock.
+The former group had relatively high levels of income, college attainment,
+20. The 2000–2012 increase in US manufacturing imports from China ($292 billion)
+was 4.1 times the increase in US manufacturing exports to China ($71 billion), for values in
+2015 US dollars.
+21. Weak US manufacturing exports to China could be a result of US comparative
+advantage lying elsewhere, such as in agriculture, oil and gas, and intellectual property.
+Dorn and Levell (2021) show that most major European economies experienced a combination of rapidly increasing Chinese import penetration and modestly growing exports to
+China that was qualitatively comparable to the US experience, with the notable exception
+of Germany where manufacturing exports (dominated by machine tools and cars) grew
+in parallel to imports (dominated by labor-intensive products). In Germany, job loss in
+import-exposed regions counteracted job growth in export-oriented ones (Dauth, Findeisen,
+and Suedekum 2014). OECD countries in which exports to China grew to a similar extent
+as imports from China experienced smaller declines in manufacturing employment than
+countries like the United States, where imports strongly dominated exports (Dorn and Levell
+2021). Weak US export growth could also be attributable to the forces behind large trade
+surpluses in China and trade deficits in the United States (Autor, Dorn, and Hanson 2016;
+Dix-Carneiro and others 2021).
+
+AUTOR, DORN, and HANSON
+
+397
+
+and patents per capita, whereas the latter had relatively low values of these
+indicators.22
+Import penetration in equation (1) includes all types of shipments from
+China to the United States, whether they emanate from Chinese companies exporting final goods to the US market on their own accord or export
+processing plants—such as Foxconn, which assembles Apple iPhones from
+imported parts and components—that are part of global value chains controlled by multinational enterprises. Boehm, Flaaen, and Pandalai-Nayar
+(2020) find that much of the post-1990 employment decline in US manufacturing occurred in establishments owned by US multinationals that were
+simultaneously expanding operations in their foreign subsidiaries. Between
+1995 and 2005, export processing plants contracting with multinationals
+accounted for a hefty 55 percent of China’s manufacturing exports (Feenstra
+and Hanson 2005). Over time, however, Chinese firms have expanded input
+production in China, which reduced the share of processing plants in China’s
+exports to 35 percent by 2015 (Ma 2020). Unfortunately, our data do not
+allow us to separate US imports from China into those that came through
+global value chains versus other channels. In recent work, Aghion and others
+(2021) use firm-level data for France to separate imports from China into
+“horizontal” products—imports in product categories similar to a firm’s
+exports—and “vertical” products—imports in product categories similar
+to a firm’s imported inputs. Whereas exposure to the first type of imports
+predicts employment declines, exposure to the second type of imports does
+not. These results suggest that imports that intensify head-to-head competition with domestic firms spur contraction of domestic manufacturing.23
+
+II.B. Causal Identification
+A challenge for identifying the causal impact of import exposure on
+labor-market outcomes in equation (2) is that US imports may change both
+because of shocks to US product demand and shocks to foreign product
+22. Despite a null net impact of the Japan shock on overall employment levels, Borjas
+and Ramey (1995) find that US metropolitan areas more exposed to import competition during
+the East Asian shock period had large increases in college-noncollege wage differentials.
+Batistich and Bond (2019) find further that the Japan shock caused changes in composition
+of employment in exposed CZs, with employment falling for Black workers and rising for
+white workers.
+23. In Aghion and others (2021), adverse impacts of import exposure are concentrated
+on low-productivity firms. In the US market, by contrast, Bernard, Jensen, and Schott (2006)
+and Autor and others (2014) find that trade-induced employment declines are concentrated
+in larger manufacturing establishments, consistent with the framework in Holmes and
+Stevens (2014).
+
+398
+
+Brookings Papers on Economic Activity, Fall 2021
+
+supply, where the former may be correlated with the residual, εit+h. To
+identify the foreign supply–driven component of US imports from China,
+we follow Autor, Dorn, and Hanson (2013a) and Acemoglu and others
+(2016) in instrumenting US import exposure, ΔIP cuiτ , using non-US exposure,
+ΔIP coiτ , which we measure as the industry-level growth of Chinese exports
+to eight other developed countries:24
+(3)
+
+∆IPicoτ = ∑ j sijt −10 ∆IP cojτ ,
+
+where ΔIP cojτ = ΔM cojτ /(Yjt–3 + Mjt–3 − Xjt−3). This expression differs from
+equation (1) by using imports from China in other high-income markets
+(ΔM cojτ ) in place of US imports (ΔM cujτ ), the three-year lag of industry absorption (Yjt–3 + Mjt–3 − Xjt–3) in place of its base year t value, and the ten-year lag
+of CZ industry employment shares, sijt−10 ≡ Lijt−10/Lit−10, in place of year t values
+(see table 1).25
+Analyses of the China trade shock have used ΔIP coiτ as a shift-share
+instrument in local labor market regressions and have directly applied the
+industry-level shocks, ΔIP cojτ , as instruments for the growth in industrylevel import penetration (Autor and others 2014; Autor and others 2020b).
+Recent literature formalizes the basis for identification and inference in
+such shift-share settings. Borusyak, Hull, and Jaravel (2022) treat identification as based on exogeneity of the shifts—that is, the industry-level
+changes in import penetration—which clarifies the identifying assumptions
+in the analysis and provides an asymptotic rationale for using the shift-share
+structure to construct standard errors.26 Adão, Kolesár, and Morales (2019)
+present a related method for estimating standard errors. Although these
+refinements of the shift-share approach do not change the fundamental
+conclusions about the impact of the China trade shock on regional employment, they do formalize exclusion restrictions and advance methods for
+24. The eight comparison countries—determined by the availability of comparable HS
+trade data for the full sample period—are Australia, Denmark, Finland, Germany, Japan,
+New Zealand, Spain, and Switzerland.
+25. The use of lagged values helps reduce both the role of simultaneity and the influence
+of measurement error.
+26. The assumption of exogenous shifts is evident in industry-level analyses of the
+China shock that instrument a US industry’s import growth from China with the industry’s
+Chinese imports in other countries (Autor and others 2014; Acemoglu and others 2016).
+Goldsmith-Pinkham, Sorkin, and Swift (2020) develop an alternative approach to shift-share
+analysis, which is based on exogeneity of the shares (i.e., preexisting industry structures).
+As we discuss in online appendix A.4, their approach appears to be less suitable for our application. See Ferman (2019) for further discussion.
+
+AUTOR, DORN, and HANSON
+
+399
+
+statistical inference. In online appendix A.4, we draw on this recent literature to discuss the basis for econometric identification, present results using
+alternative methods for constructing standard errors, and provide analysis
+of pre-trends in the data.
+
+III. Empirical Results
+This section presents our main empirical results for the impact of trade
+exposure on US CZs. We use equation (2) to estimate how the 2000–2012
+trade shock affected CZs over 2000–2019, focusing on three sets of outcomes. The first are ratios of manufacturing employment, nonmanufacturing
+employment, and total wage and salary employment to the working-age
+population (defined as individuals age 18–64). We measure employment
+using the Bureau of Economic Analysis (BEA) Regional Economic Information System (REIS) and population using the National Vital Statistics
+System, where we aggregate data from the county to the CZ level. Trade
+shock impacts on these outcomes reveal the direct consequences on manufacturing employment, and the magnitude of labor reallocations to nonemployment and other sectors. A second set of outcomes is population
+head counts, overall and by nativity and age-based subgroups, which reveal
+whether exposure to import competition led to net reductions in the resident
+population (e.g., due to out-migration). A third set of outcomes is per capita
+personal income, labor compensation, and government transfers, overall and
+by program type, which reveal the impact of trade shocks on average income
+and its components. We measure income, earnings, and government transfers using county-level data from the REIS. For most series, we use 2000
+as the initial year.27 Summary statistics on outcome and control variables
+are reported in the online appendix tables A1 and A2; online appendix A.2
+contains further details on data sources and variable construction.
+
+III.A. Employment Outcomes
+We begin with the impact of the China trade shock on the CZ employmentpopulation ratio, where we measure employment either as the total number
+of wage and salary jobs in a CZ or by splitting these jobs into manufacturing
+and nonmanufacturing (where the latter is defined as total wage and salary
+employment less manufacturing employment). Figure 5 displays two-stage
+least squares estimates of impact coefficients for trade exposure from the
+27. Because of BEA changes in industry classification from the SIC to the North American
+Industry Classification System (NAICS) in 2001, our REIS series for manufacturing and
+nonmanufacturing employment begins in that year, rather than 2000.
+
+400
+
+Brookings Papers on Economic Activity, Fall 2021
+
+Figure 5. Trade Shock Impact on Employment, 2001–2019
+A. Manufacturing employment/
+working-age population
+2000–2012 shock impact on
+manufacturing employment/
+population 18–64 (2002 to 2019)
+1
+
+B. Nonmanufacturing employment/
+working-age population
+2000–2012 shock impact on
+nonmanufacturing employment/
+population 18–64 (2002 to 2019)
+1
+
+0
+
+0
+
+–1
+
+–1
+
+–2
+
+–2
+
+–3
+
+–3
+03 05 07 09 11 13 15 17
+Year
+
+03 05 07 09 11 13 15 17
+Year
+
+C. Total wage and salary employment/
+working-age population
+2000–2012 shock impact on wage &
+salary employment/population 18–64
+(2002 to 2019)
+1
+0
+–1
+–2
+–3
+03 05 07 09 11 13 15 17
+Year
+Source: Authors’ calculations.
+Note: Panels report two-stage least squares coefficient estimates for β1h in equation (2) and 95 percent
+confidence intervals for these estimates. The dependent variable is the change in the specified outcome
+between 2001 and the year indicated on the horizontal axis; the trade shock is the decadalized 2000–2012
+change in CZ import exposure, as defined in equation (1) and instrumented by equation (3). Control
+variables include initial-period CZ employment composition (shares of employment in manufacturing,
+routine-task-intensive occupations, and offshorable occupations, as well as employment share among
+women), initial period CZ demographic conditions (shares of the college educated, the foreign born,
+non-white individuals, and those age 0–17, 18–39, and 40–64 in the population), and census region
+dummies. Regressions are weighted by the CZ working-age population in 2000; standard errors are
+clustered by state.
+
+AUTOR, DORN, and HANSON
+
+401
+
+time difference specification in equation (2) when using equation (3) to
+instrument for equation (1). Each panel shows results for eighteen separate
+regressions, where the horizontal axis organizes specifications according
+to the time difference being considered, beginning with 2001–2002 and
+extending out to 2001–2019. Vertical bars show 95 percent confidence
+intervals for the coefficient estimates. Structured in this manner, figure 5
+shows the cumulative impact of trade exposure for progressively longer time
+differences (one to eighteen years).
+The results for manufacturing employment in figure 5, panel A, show
+a negative effect of trade exposure that builds quickly and then stabilizes.
+The impact coefficient is −1.45 (t-value = −4.41) for 2001–2007, which
+is the end year of analysis in Autor, Dorn, and Hanson (2013a), reaches
+−1.90 (t-value = −6.24) for the 2001–2015 period, and then attenuates
+modestly to −1.79 (t-value = −5.42) for the 2001–2019 period. As one
+moves past 2012, the negative effect of greater import competition on
+manufacturing employment continues to grow, even though the trade shock
+itself no longer appears to be intensifying. Given a decadalized increase
+in import penetration over 2000–2012 of 0.89 percentage points (see
+table 1), the implied reduction in the manufacturing employment share over
+2001–2019 is −1.59 (= −1.79 × 0.89) percentage points, or 59.3 percent of
+the overall 2001–2019 change in the manufacturing employment share of
+−2.68 percentage points (online appendix table A1). Alternatively, when
+comparing CZs at the 25th and 75th percentiles of trade exposure, the latter
+would be predicted to have a reduction in its manufacturing employment
+share that is 1.18 (= −1.79 × [1.17 − .51]) percentage points larger than
+in the former over 2001–2019. This compares to the 25th–75th percentile differential change in the manufacturing employment share of −2.17
+(= −3.79 + 1.62) percentage points for the same period. Exposure to import
+competition from China thus appears to account for a large share of net
+manufacturing job loss in US CZs after 2000.28
+Those losing jobs in manufacturing may move into other sectors or out
+of employment. Simultaneously, they may move to another CZ.29 In figure 5,
+28. These sustained negative impacts of trade exposure on local manufacturing employment for the United States are consistent with an analysis by Dix-Carneiro and Kovak (2017)
+for Brazil where trade liberalization in the 1990s persistently reduced employment in exposed
+regions, with even larger magnitudes than China trade impacts for the United States.
+29. Workers exiting manufacturing employment may also end up incarcerated, enlisted
+into military service, homeless, or deceased. We observe these outcomes imperfectly in the
+data, but they are likely to be small in aggregate relative to the margins that we observe.
+Workers exiting the labor force may be of course replaced by new entrants, offsetting these
+losses. Our analysis captures net effects of the trade shock on employment.
+
+402
+
+Brookings Papers on Economic Activity, Fall 2021
+
+panel B, we consider the impact of exposure to import competition on
+the CZ share of the working-age population employed in nonmanufacturing industries. Impact coefficient estimates are close to zero at all time
+intervals and are imprecisely estimated (e.g., the impact coefficient for
+the 2001–2019 period is 0.05, t-value = 0.06). We see no evidence that
+nonmanufacturing sectors absorbed local workers released from manufacturing due to the China trade shock.30 The wide standard error bounds in
+figure 5, panel B, are suggestive of heterogeneity across CZs in how nonmanufacturing absorbs displaced manufacturing workers, a possibility we
+explore in section III.D.
+The fall in manufacturing employment and absence of offsetting job
+gains in nonmanufacturing imply a decline in total wage and salary employment in trade-exposed CZs, confirmed by figure 5, panel C. Decreases in
+the employment-population ratio are comparable in magnitude to those for
+manufacturing employment. The effect reaches its maximum value for the
+2001–2017 period: the impact coefficient of −1.91 (t-value = −2.70) compares to −1.88 (t-value = −5.89) for manufacturing employment at the
+same horizon. The impact attenuates modestly late in the period, ending at
+−1.74 (t-value = −2.35) over 2001–2019, which is close to the manufacturing
+impact at this horizon. At long time horizons, much of the net absorption of
+manufacturing job loss is through increases in nonemployment. Amior and
+Manning (2018) argue that changes in the local employment-population
+ratio summarize changes in local average real income. By this logic, the
+China trade shock would have substantially altered the distribution of wellbeing across CZs, a possibility we explore in more detail below through our
+analysis of personal income per capita.
+Figure 6, panel A, maps the actual change in wage and salary employmentpopulation ratios across CZs for the 2001–2019 time period. While the
+national employment rate barely changed over this period (+0.19 percentage
+points), the map reveals considerable variation across space, with lower
+employment growth in parts of the South, Midwest, and Northeast, and
+faster employment growth in the Great Plains and some of the western and
+northeastern coastal areas. In figure 6, panel B, we map the implied impact
+of the China trade shock (as measured in equation (1) for 2000–2012) on
+changes in employment-population ratios for the same 2001–2019 time
+30. Bloom and others (2019) report evidence that CZs experiencing greater import
+competition do see larger increases in nonmanufacturing employment. We do not find this
+to be the case. We do, however, confirm their finding that employment losses spurred by the
+China trade shock are highly durable in CZs with a less-educated population, while they are
+ultimately more than fully offset in CZs with a more-educated population (see section III.D).
+
+403
+
+AUTOR, DORN, and HANSON
+
+Figure 6. Implied Impact of Import Competition 2001–2019
+A. Actual change in total employment-population ratio
+
+Deviation from mean
+
+1.82 − 8.26
+0.23 − 1.82
+–1.01 − 0.23
+–2.08 − –1.01
+–3.01 − –2.08
+– .12 − –3.01
+
+B. Predicted change due to the China trade shock
+
+Deviation from mean
+
+0.66 − 1.3
+0.38 − 0.66
+0.0 − 0.38
+–0. 2 − 0.0
+–0.88 − –0. 2
+–5.16 − –0.88
+
+Sources: UN Comtrade, SITC Revision 2; NBER-CES Manufacturing Industry Database; BEA Regional
+Economic Information System; National Vital Statistics System; and authors’ calculations.
+Note: Panel A plots the observed change in the ratio of wage and salary employment to working-age
+population over 2001–2019; panel B plots the implied change in this value due to the China trade shock
+based on our estimates (i.e., the product of the change in import penetration over 2000–2012 in equation
+(1) multiplied by the two-stage least squares coefficient estimate for this variable from the specification
+in equation (2) in which the dependent variable is the 2001–2019 change in the ratio of wage and salary
+employment to the working-age population, as shown in figure 4, panel C). Legends indicate values for
+the bottom four quintiles and the top two deciles of this value, arranged in order of shock intensity.
+
+404
+
+Brookings Papers on Economic Activity, Fall 2021
+
+period. A visual comparison between the two panels in figure 6 shows a
+striking correlation, as many of the CZs that lost employment overall (in
+panel A) were also more adversely affected by the trade shock (in panel B).
+This correlation suggests that the China shock had an important influence on the differential employment growth across US regions in the last
+two decades. The top 5 percent of CZs in terms of implied reductions
+in employment-population ratios, which are listed in online appendix
+table A4, include a preponderance of locations that in 2000 were relatively highly specialized in manufacturing and had relatively few collegeeducated workers. In 2000, thirty-three of the thirty-eight most exposed
+CZs had a manufacturing employment share above 25 percent, relative
+to the national population-weighted median of 15.4 percent, and thirty-three
+of thirty-eight had a college-educated share of the working-age population
+below 20 percent, relative to the national population-weighted median of
+23.4 percent. The distinctiveness of trade-impacted CZs motivates the
+heterogeneity analysis that we undertake in section III.D.
+To test robustness, online appendix figure A5 replicates the analysis in
+figure 5, now using US Census and American Community Survey (ACS)
+data to construct changes in employment-population ratios.31 Census-ACS
+data have the advantage over the REIS of measuring employment as the
+number of individuals with a job rather than the total number of jobs in
+a CZ. A disadvantage of these household survey–based data is that they
+offer comparatively small sample sizes in annual samples after 2000,
+requiring us to use combined ACS annual surveys. We estimate the impact
+of the China trade shock on employment-population ratios for three time
+differences: 2000 (using data from the 2000 census 5 percent sample) to
+2007 (using pooled 1 percent annual samples from the 2006–2008 ACS
+files), 2012 (using pooled 1 percent annual samples from the 2011–2013
+ACS files), and 2018 (using pooled 1 percent annual samples from the
+2017–2019 files).32 The 2000–2007 period matches the later time period
+studied in Autor, Dorn, and Hanson (2013a), the 2000–2012 period matches
+the duration of our trade shock measure, and 2000–2017/2019 is the longest
+post-2000 period that we can study using the census and ACS.
+Focusing on results at the long horizon (i.e., 2000–2018 in censusACS data, 2001–2019 in REIS data), we see that in figure A5 in the online
+31. US Census Bureau, “American Community Survey (ACS),” https://www.census.gov/
+programs-surveys/acs.
+32. See online appendix table A3 for summary statistics; other regression variables are
+the same as in figure 5.
+
+AUTOR, DORN, and HANSON
+
+405
+
+appendix the impact coefficient for manufacturing employment-population
+of −1.67 (t-value = −7.00) compares to −1.79 (t-value = −5.42) in figure 5,
+panel A. Similarly, in figure A5 the impact coefficient for total employmentpopulation of −1.23 (t-value = −3.32) compares to −1.74 (t-value = −2.35)
+in figure 5, panel C. These two sets of results appear quite comparable
+in light of the differences between the data sources, specifically: using
+census-ACS data-based estimates with 2000 as a start year (instead of
+2001), combining 2017–2019 data for the 2019 observation, and measuring
+employment as persons employed instead of the total number of jobs. In
+census-ACS data, the implied trade-induced reduction in the manufacturing
+employment share is −1.49 (= −1.67 × 0.89) percentage points, or 50.9 percent of the overall 2000–2018 change in the manufacturing employment
+share of −2.92 percentage points (online appendix table A3); recall that
+when using REIS data, the corresponding figure is 59.3 percent. The two
+sets of results differ mildly in that the long-run impact of the China trade
+shock on the nonmanufacturing employment ratio is larger in figure A5,
+panel b (β = 0.43, t-value = 1.35) than in figure 5, panel B (β = 0.05,
+t-value = 0.06), though the former estimate is imprecise and too small to
+prevent a decline in the overall employment rate.33 Thus, in census-ACS
+data the long-horizon, trade-induced decline in the overall employmentpopulation ratio (given by the impact coefficient −1.23) absorbs 73.7 percent
+of the trade-induced decline in manufacturing employment (given by the
+impact coefficient −1.67), whereas in REIS data the corresponding figure is
+97.2 percent (= 1.74 / 1.79).
+One of the most surprising results reported by Autor, Dorn, and Hanson
+(2013a) is that the adverse impacts of the China shock on manufacturing
+and total employment-to-population persisted over at least a decade. At the
+time that paper was written, the China trade shock was ongoing, making
+it infeasible to distinguish short-term from steady-state (or medium-run)
+impacts. The evidence presented above makes clear that even in 2019, nine
+years after the plateau of the China trade shock, there is no recovery of
+manufacturing or total employment-to-population rates in trade-exposed
+CZs. To a first approximation, CZs that are more trade-exposed suffered
+a durable reduction in the size of their manufacturing labor force, with the
+bulk of this decline translating into a long-run increase in nonemployment.
+The consequences of these disruptions went far beyond earnings and
+33. Because the China trade shock began in the 1990s, one may view the specification in
+equation (2) as incomplete in that it does not control for the previous decade’s trade shock.
+Online appendix section A.5.1 explores these adjustment dynamics.
+
+406
+
+Brookings Papers on Economic Activity, Fall 2021
+
+employment. Job loss engendered social dislocation, in the form of lower
+marriage rates, increased single parenthood, a higher incidence of children
+living in poverty, and increased mortality from drug and alcohol abuse,
+especially among young males (Autor, Dorn, and Hanson 2019; Pierce and
+Schott 2020).
+
+III.B. Spillovers across Regions and Industries
+The empirical specification in equation (2) is consistent with a setting in
+which CZs are functionally small open economies. If changes in economic
+conditions in a given CZ do not materially affect outcomes in other CZs,
+we can examine each CZ on its own without modeling the transmission of
+shocks across locations. Of course, trade shocks having a direct impact on
+one CZ may be transmitted to other CZs via changes in regional flows of
+goods and production factors. We next evaluate evidence of cross-region and
+cross-industry spillovers of trade shocks.
+CHANGES IN LOCAL LABOR SUPPLY The impact of import competition on
+CZ population head counts summarizes the net effect of trade shocks on the
+pool of both potential workers and nonworking residents (e.g., children, the
+elderly, and working-age nonparticipants). Labor supply responses to negative labor demand shocks may in turn differ by worker age. Younger workers,
+in particular, are likely to be relatively mobile (Bound and Holzer 2000).
+We examine the responsiveness of population head counts to greater import
+exposure separately for workers 18–24, 25–39, and 40–64 years old. This
+analysis is complicated by the fact that there are strong secular trends in
+population growth across US regions which began well before the China
+trade shock (Blanchard and Katz 1992). Greenland, Lopresti, and McHenry
+(2019) suggest that the approach used in Autor, Dorn, and Hanson (2013a)
+for evaluating the impact of trade shocks on labor supply, which conditions
+on a control vector similar to that in equation (2), does not account for such
+dynamics.34 Accordingly, when we estimate equation (2) for log population head counts, we additionally include as a control the log change in
+CZ population over 1970–1990 in order to capture long-standing trends
+in population growth.
+Figure 7 reports estimation results for population head counts. In figure 7,
+panel A, we find negative but insignificant impacts of trade exposure on the
+size of the working-age population, though the point estimates grow as
+34. Estimation results for the employment-population ratio are not subject to this critique
+because using the ratio of employment to population effectively differences out population
+growth trends.
+
+407
+
+AUTOR, DORN, and HANSON
+
+Figure 7. Trade Shock Impact on Log Population Head Counts, 2000–2019
+A. Log population, age 18–64
+2000–2012 shock impact on log
+population 18–64 (2001 to 2019)
+
+B. Log population, age 40–64
+2000–2012 shock impact on log
+population 40–64 (2001 to 2019)
+2
+0
+–2
+–4
+–6
+–8
+
+2
+0
+–2
+–4
+–6
+–8
+02 04 06 08 10 12 14 16 18
+Year
+
+02 04 06 08 10 12 14 16 18
+Year
+
+C. Log population, age 25–39
+2000–2012 shock impact on log
+population 25–39 (2001 to 2019)
+
+D. Log population, age 18–24
+2000–2012 shock impact on log
+population 18–24 (2001 to 2019)
+
+2
+0
+–2
+–4
+–6
+–8
+
+2
+0
+–2
+–4
+–6
+–8
+02 04 06 08 10 12 14 16 18
+Year
+
+02 04 06 08 10 12 14 16 18
+Year
+
+Source: Authors’ calculations.
+Note: Panels report two-stage least squares coefficient estimates for β1h in equation (2) and 95 percent
+confidence intervals for these estimates. The dependent variable is the change in the specified log
+population head count between 2000 and the year indicated on the horizontal axis; the trade shock is the
+decadalized 2000–2012 change in CZ import exposure, as defined in equation (1) and instrumented
+by equation (3); and control variables are the same as in figure 5 plus CZ population growth over
+1970–1990. Regressions are weighted by the CZ total population in 2000; standard errors are clustered
+by state.
+
+the time interval lengthens. The other three panels of the figure make clear
+that these negative effects are driven by one age group, those 25–39 years
+old. For adults age 18–24 and 40–64, the impact of greater import competition on population head counts is negative but small and imprecisely
+estimated for all time differences. The finding of no net impact of trade
+exposure on CZ populations is consistent with Faber, Sarto, and Tabellini
+(2019), while the greater responsiveness of younger adults echoes Bound
+and Holzer (2000), who show that less experienced workers are relatively
+
+408
+
+Brookings Papers on Economic Activity, Fall 2021
+
+more mobile in the face of adverse shocks. For the 2000–2019 time difference, the coefficient estimate of −5.89 (t-value = −2.52) indicates that when
+comparing CZs at the 25th and 75th percentiles of trade exposure, the moreexposed CZ would have a −3.89 (= −5.89 × [1.17 − .51]) percentage point
+larger decrease in head counts for this age group. For comparison, the
+75th–25th percentile difference in population growth across CZs for individuals age 25–39 over 2000–2019 was 20.92 (= 16.08 + 4.84) percentage
+points. Cross-CZ spillovers transmitted via net migration appear to be modest
+and concentrated on a narrow age group.
+The greater mobility of foreign-born workers may contribute to the labor
+supply responsiveness to the China trade shock seen in figure 7 (Cadena
+and Kovak 2016). To explore this channel, we use census and ACS data to
+evaluate the impact of trade exposure on population head counts by nativity.
+Online appendix figure A6 summarizes regressions for two time differences: 2000 (using data from the 2000 census) to 2010 (using data from the
+combined 2006–2010 ACS 1 percent samples), and 2000 to 2019 (using
+data from the combined 2015–2019 1 percent samples).35 All other variables
+are the same as in the regressions in figure 7. The impact of trade exposure
+on the total working-age population is negative for both the 2000–2010
+(β = −2.42, t-value = −1.92) and 2000–2019 (β = −3.47, t-value = −1.84)
+time differences, and marginally significant in each case. When we examine
+the impact on the native-born population, we find a smaller and much less
+precisely estimated effect: the impact coefficient for 2000–2019 is −0.75
+(t-value = −0.79). This contrasts with impacts on foreign-born workers,
+for whom greater import competition significantly reduces population head
+counts over 2000–2019 (β = −6.79, t-value = −2.05). When looking at age
+subgroups within these populations, we see negative significant impacts of
+import competition on native-born workers age 25–39 (β = −5.03, t-value =
+−2.29), which aligns with the results in figure 7, and on foreign-born workers
+age 40–64 (β = −12.70, t-value = −2.08). Whereas native-born labor-supply
+responses are strongest for younger workers, for foreign-born workers
+they are strongest for older workers.
+GRAVITY-BASED TRADE SHOCKS To evaluate how changes in labor-market
+outcomes in one region affect outcomes in other regions, Adão, Arkolakis,
+and Esposito (2019) build a general equilibrium trade model that captures such spillovers explicitly and generates reduced-form equilibrium
+35. Because of small population counts of foreign-born workers in many CZs in any
+individual year, we use combined five-year ACS samples rather than the combined three-year
+samples used in online appendix figure A5.
+
+AUTOR, DORN, and HANSON
+
+409
+
+conditions that have a shift-share structure. If national industries are subject
+to exogenous shocks, such as reform-induced growth in Chinese manufacturing, then employment and wages in regional economies will be affected
+through two channels. One is through changes in local industry revenue,
+which in the case of greater import competition will place downward pressures on local wages and employment, as captured by changes in import
+penetration in equation (2). Second, in the presence of cross-region spillovers, wages and employment in one region will also be affected by localized
+changes in import penetration in other regions, whether through cross-CZ
+trade or migration. For a given CZ, shocks to other CZs will matter more
+for employment outcomes the larger and the closer these other markets are,
+as dictated by the gravity structure of trade. Adão, Arkolakis, and Esposito
+(2019) quantify this cross-region spillover by adding to the specification in
+equation (2) the gravity-weighted changes in import competition in all other
+regions (i.e., the sum of the trade shock in each region weighted by the size
+of and the distance to that region).
+We incorporate their approach by estimating an extended version of
+equation (2) that includes a gravity-based measure of trade exposure in
+other CZs. Online appendix A.5.3 provides details on the estimation and
+reports results. For all time differences, the impacts of trade shocks to
+a CZ’s own industries are very similar in magnitude and significance to
+those in figure 4. The impacts of gravity-based trade shocks are small
+and imprecisely estimated, both for manufacturing employment and nonmanufacturing employment-population ratios. Evidence of gravity-based
+spillovers appears to be weak.
+CROSS-INDUSTRY SPILLOVERS The literature also investigates spillovers in
+trade shocks between industries, which may operate both within and
+across regions. On within region transmission, Autor and others (2014) find
+that workers’ earnings are adversely affected both by shocks to their own
+industry of employment and by shocks to the industries of other workers in
+the same CZ (as captured by the average trade shock for these workers’
+industries). Acemoglu and others (2016) and Pierce and Schott (2016)
+document spillovers that operate through input-output linkages in industry
+supply chains. Rising US furniture imports from China, for instance, may
+cause US factories in this downstream industry to reduce purchases of
+inputs from the upstream (i.e., supplier) sectors with which it is linked—
+for example, planed lumber, plywood, woodworking machinery, textiles,
+screws, and adhesives. Because buyers and suppliers often locate near
+one another, much of the impact of increased trade exposure in downstream industries may transmit to suppliers in the same regional market.
+
+410
+
+Brookings Papers on Economic Activity, Fall 2021
+
+Using US input-output data to construct upstream (supplier) and downstream (customer) import exposure shocks for both manufacturing and nonmanufacturing industries, Acemoglu and others (2016) estimate negative
+employment effects in industries whose customer industries are directly
+trade-exposed. Conversely, they find little evidence for differential employment changes in industries whose suppliers are directly trade-exposed. Trade
+exposure thus appears to primarily propagate upstream in the supply chain—
+that is, from trade-exposed customers to their suppliers.
+
+III.C. Personal Income, Labor Compensation,
+and Government Transfers
+Adverse impacts of trade shocks on local labor demand are likely to reduce
+labor income, especially among low-wage workers. Chetverikov, Larsen,
+and Palmer (2016) and Autor, Dorn, and Hanson (2019) find that greater
+exposure to import competition from China caused larger relative reductions
+in earnings in the bottom four deciles of earnings distributions within CZs,
+where declines were larger for men than for women. Yet, impacts of trade
+exposure on labor earnings provide only a partial sense of the consequences
+for economic activity. Reductions in the employment-population ratio in
+a CZ may dampen demand for local goods and services and housing,
+possibly reducing revenues flowing to local business owners and landlords.
+Feler and Senses (2017) document negative impacts of the China trade
+shock on CZ housing values and property tax revenues, though they do not
+find evidence that CZs that are more trade-exposed saw larger declines in
+the number of business establishments. Declines in local income may in
+turn trigger greater uptake of government transfers, as more individuals
+qualify for means-tested government assistance or elect to retire and begin
+to receive Social Security income. Autor, Dorn, and Hanson (2013a) find
+that trade exposure caused an increase in government transfer receipts in
+adversely affected CZs, with most of the uptake accounted for by retirement,
+disability, and medical benefits. These prior analyses extend only through
+2007, however, so they do not illuminate the long-run impact of the China
+trade shock on local area income.
+To fill in this picture, we examine how trade exposure affects the components of personal income per capita. BEA estimates of local area personal
+income include labor compensation (wages, salaries, bonuses, employer
+contributions to health and pension plans), proprietor income (income of
+sole proprietorships, partnerships, tax-exempt cooperatives), financial returns
+(rent, interest, dividends, realized capital gains), government transfers (both
+cash and in-kind), and adjustments to capture income by place of residence.
+
+411
+
+AUTOR, DORN, and HANSON
+
+Figure 8. Trade Shock Impact on Income, 2000–2019
+A. Log personal income per capita
+2000–2012 shock impact on log
+personal income per capita
+(2001 to 2019)
+4
+2
+0
+–2
+–4
+–6
+
+B. Log government transfers per capita
+2000–2012 shock impact on log
+government transfers per capita
+(2001 to 2019)
+4
+2
+0
+–2
+–4
+–6
+
+02 04 06 08 10 12 14 16 18
+Year
+
+02 04 06 08 10 12 14 16 18
+Year
+
+C. Log total labor compensation per
+worker
+2000–2012 shock impact on log wages
+and salaries per worker (2001 to 2019)
+4
+2
+0
+–2
+–4
+–6
+02 04 06 08 10 12 14 16 18
+Year
+Source: Authors’ calculations.
+Note: Panels report two-stage least squares coefficient estimates for β1h in equation (2) and 95 percent
+confidence intervals for these estimates. The dependent variable is the change in the specified outcome
+between 2000 and the year indicated on the horizontal axis; the trade shock is the decadalized 2000–2012
+change in CZ import exposure, as defined in equation (1) and instrumented by equation (3); and control
+variables are the same as in figure 5. Regressions are weighted by the CZ population in 2000; standard
+errors are clustered by state.
+
+By including as many sources of income as possible, and by seeking to assign
+income according to the place of residence of recipients, BEA personal
+income per capita approximates aggregate local income per capita and is
+therefore suitable for evaluating the distributional consequences of trade
+exposure across CZs.
+Estimation results for these outcomes appear in figure 8, where outcomes
+are in terms of log income and transfers relative to the total population of
+
+412
+
+Brookings Papers on Economic Activity, Fall 2021
+
+a CZ, except for total labor compensation, which is relative to wage and
+salary employment.36 The impact of exposure to import competition on
+personal income per capita in figure 8, panel A, is negative at all time
+horizons and precisely estimated for most time differences from 2000 to
+2014 forward. Negative effects reach their peak for the 2000–2015 time
+difference, for which the impact coefficient is −3.64 (t-value = −2.55).
+The moderately attenuated coefficient estimate of −2.66 (t-value = −1.90)
+for the 2000–2019 time difference indicates that for CZs at the 25th and
+75th percentiles of trade exposure, the more exposed CZ would have a
+1.76 (= −2.66 × [1.17 − .51]) percentage point smaller increase in personal
+income per capita over 2000–2019, which compares to the 25th–75th percentile difference in the growth of personal income per capita over 2000–2019
+of −12.2 (= 21.3 − 33.5) percentage points. Consistent with Autor, Dorn,
+and Hanson (2013a), we see in figure 8, panel B, that CZs that are more
+trade-exposed had larger increases in government transfer receipts per
+capita, which remain elevated through 2019. For the 2000–2019 time difference, the impact coefficient of 4.03 (t-value = 2.75) implies that at the
+75th–25th percentile difference in trade exposure, the more exposed CZ
+would have a 1.81 (= 2.75 × [1.17 − .51]) percentage point larger increase
+in transfers per capita over the time period, relative to the 75th–25th percentile difference in the growth of transfers per capita of 10.90 (= 67.6 − 56.7)
+percentage points.
+In online appendix A.5.4, we further explore the impact of trade shocks
+on government transfers by program type. Consistent with results in Autor,
+Dorn, and Hanson (2013a) for earlier time periods, adjustments in Social
+Security and Medicare benefits account for most of the responsiveness
+in government transfers induced by greater import competition, where the
+magnitude of these benefit gains expands as the time horizon lengthens. To
+receive these benefits, an individual must have left the labor force, either
+through retirement or by being declared medically unable to hold a job. The
+primary means through which government transfers replace labor income
+lost due to import competition is thus by accommodating an exit from paid
+work, which may help account for the long-run negative effects of trade
+exposure on employment-population ratios we see in figure 5. Despite
+trade-induced reductions in incomes, means-tested government programs
+36. We normalize personal income by the total (rather than working-age) population,
+given that non-working-age individuals may earn income from nonlabor sources and receive
+government transfers of various kinds.
+
+AUTOR, DORN, and HANSON
+
+413
+
+meant to provide income assistance to poor households are instead largely
+unresponsive to greater import competition.
+
+III.D. Heterogeneity in Impacts across Regions
+We have so far focused on the average response of CZs to import competition, which provides insight into the overall implications of the China trade
+shock. These average impacts mask heterogeneity in how CZs adjust to
+adverse shocks. Among the most trade-impacted CZs, there is wide variation
+in initial industrial specialization and labor-force composition (see online
+appendix table A4). Consider, for instance, North Hickory (2000 population
+378,000), and Raleigh-Cary (2000 population 1,420,000), both of which are
+located in North Carolina. Over 2000–2012, the two CZs were each above
+the 95th percentile of trade exposure, with increases in import penetration
+of 4.4 percentage points for the industries in North Hickory and 3.4 percentage points for those in Raleigh-Cary. However, these CZs entered the
+2000s with distinctly different economic structures. Hickory was a traditional
+factory town; in 2000, 43.0 percent of its working-age population had a
+manufacturing job and just 15.6 percent had a bachelor’s degree. RaleighCary, by contrast, was more educated and industrially diversified. In 2000,
+34.2 percent of its working-age population had at least a college degree,
+and only 17.0 percent worked in manufacturing. These initial differences
+may have shaped how the two CZs responded to the large and sudden
+increase in import competition.
+A substantial literature documents that US regions with fewer collegeeducated workers have grown less rapidly (Glaeser, Scheinkman, and
+Shleifer 1995; Behrens, Duranton, and Robert-Nicoud 2014; Diamond
+2016) and have seen larger declines in employment-population rates (Austin,
+Glaeser, and Summers 2018). To explore the role that a dearth of human
+capital may play in the poor adjustment of local labor markets to the China
+shock, we separately examine CZs that initially had smaller versus larger
+supplies of college-educated workers.
+Other work studies how greater specialization leaves regions more
+exposed to industry-specific shocks (Feyrer, Sacerdote, and Stern 2007;
+Michaels 2010). Many of the labor-intensive US industries exposed to trade
+with China were agglomerated in small and medium-sized cities in the
+Southeast and Midwest (Ellison, Glaeser, and Kerr 2010). Existing work
+documents that the impact of the China shock was greater in CZs that at the
+outset had lower employment rates (Austin, Glaeser, and Summers 2018)
+and were more specialized in mature industries positioned later in their
+
+414
+
+Brookings Papers on Economic Activity, Fall 2021
+
+product cycles (Eriksson and others 2019).37 We explore the role that reverse
+agglomeration contributes to poor adjustment to the China shock, and
+we separately analyze CZs that initially were less versus more industrially
+specialized.
+Figure 9 presents estimates in which we divide the sample of CZs into
+groups based on whether the share of college-educated workers in their
+working-age populations was above or below the population-weighted
+national median in 2000. There are 336 CZs in the former group and 386 in
+the latter group. We consider four outcomes: the manufacturing employmentpopulation ratio, the total wage and salary employment-population ratio,
+the log working-age population, and log personal income per capita. To
+keep the time horizon constant across outcomes, we evaluate time differences from 2001–2002 to 2001–2019. To control the false discovery rate
+when evaluating differences in coefficient estimates across sample splits,
+we compute and display minimal Benjamini-Hochberg q-values based on
+the number of hypotheses being tested.38
+Although CZs with higher-educated and lower-educated workers both
+experienced declines in manufacturing employment, the negative impacts
+of trade exposure on overall employment in figure 5 are concentrated in
+CZs with relatively few college-educated workers, as shown in figure 9,
+panels A and B. These results are consistent with those in Bloom and
+others (2019), who study the 1992–2012 time period. For the 2001–2019
+horizon, the first two figures show that in CZs with less-educated workers,
+a 1 percentage point increase in import penetration over 2000–2012 predicts
+a 1.74 (t-value = −4.07) percentage point decrease in the manufacturing
+employment-population ratio and a 2.47 (t-value = −3.59) percentage point
+decrease in the total wage and salary employment-population ratio. Across
+all CZs (see figure 5), trade-induced changes in manufacturing and total
+employment-population ratios are very similar at long horizons, indicating
+37. In Brazil, Dix-Carneiro and Kovak (2017) document that regional manufacturing
+continued to decline well after trade reform had permitted greater import competition, in a
+manner consistent with agglomeration economies.
+38. The number of hypotheses (144) is the product of the four outcomes, eighteen
+years in the sample, and two sample splits. In the standard Benjamini-Hochberg procedure,
+hypotheses are ranked according to their unadjusted p-value. For a fixed significance level q,
+the researcher rejects all hypotheses that satisfy p < qr / M, where p is the p-value, r is the
+rank of the p-value, and M is the number of hypotheses being tested. Following the step-up
+method in Anderson (2008), we find the smallest q at which each null hypothesis can be
+rejected. In figures 8 and 9, we show the coefficients whose differences across sample splits
+have a minimal q-value of less than 0.05 with solid markers and use hollow markers everywhere else.
+
+415
+
+AUTOR, DORN, and HANSON
+
+Figure 9. Heterogeneity in Trade Shock Impacts: Initial College-Educated Population
+A. Manufacturing employment/
+working-age population
+2000–2012 shock impact on
+manufacturing employment-population
+18–64 (2002 to 2019) by share
+college-educated in 2000
+Coefficient for trade shock, 2000 to 2012
+
+B. Wage and salary employment/
+working-age population
+2000–2012 shock impact on wage &
+salary employment-population
+18–64 (2002 to 2019) by share
+college-educated in 2000
+Coefficient for trade shock, 2000 to 2012
+
+4
+2
+0
+–2
+–4
+
+4
+2
+0
+–2
+–4
+02 04 06 08 10 12 14 16 18
+Year
+
+C. Log working-age population
+2000–2012 shock impact on log
+population 18–64 (2002 to 2019) by
+share college-educated in 2000
+Coefficient for trade shock, 2000 to 2012
+0
+–2
+–4
+–6
+–8
+–10
+–12
+
+02 04 06 08 10 12 14 16 18
+Year
+D. Log personal income per capita
+2000–2012 shock impact on log personal
+income per capita (2002 to 2019) by
+share college-educated in 2000
+Coefficient for trade shock, 2000 to 2012
+0
+–5
+–10
+
+02 04 06 08 10 12 14 16 18
+Year
+Below median
+Above median
+
+02 04 06 08 10 12 14 16 18
+Year
+Below median, q val. ≤ 0.05
+Above median, q val. ≤ 0.05
+
+Source: Authors’ calculations.
+Note: Panels report two-stage least squares coefficient estimates for β1h in equation (2) and 95 percent
+confidence intervals for these estimates. Coefficient estimates whose differences have a minimal
+Benjamini-Hochberg q-value of less than or equal to 0.05 are shown with solid markers (with hollow
+markers for other estimates). Estimates are reported for two samples: the 386 CZs whose share of
+college-educated workers in the working-age population was below the population-weighted national
+median in 2000, and the complementary set of 336 CZs. The dependent variable is the change in the
+indicated measure between 2001 and the year on the horizontal axis; the trade shock is the decadalized
+2000–2012 change in CZ import exposure as defined in equation (1) and instrumented by equation (3);
+control variables are the same as in regressions reported in figure 4. Regressions in panels A–C are
+weighted by the CZ working-age population in 2000; regressions in panel D are weighted by the CZ total
+population in 2000. Standard errors are clustered by state.
+
+416
+
+Brookings Papers on Economic Activity, Fall 2021
+
+that employment impacts on nonmanufacturing employment are null. For
+CZs with relatively few college-educated workers, the substantially larger
+impact on total employment than on manufacturing employment reveals
+a negative impact of trade exposure on nonmanufacturing employment, as
+shown in online appendix figure A9. Despite manufacturing job losses being
+compounded by nonmanufacturing losses in these CZs, there is no effect
+of trade exposure on the size of the log working-age population (figure 9,
+panel C). It thus appears that more trade-impacted CZs with fewer collegeeducated workers did not experience differential out-migration, though they
+did experience larger declines in personal income per capita, as shown in
+figure 9, panel D. Since economically motivated migration would tend to
+mitigate local employment-reducing effects of trade exposure, one interpretation of these results is that the lack of migration is both symptom and
+cause of the slow adjustment process.
+In CZs with more-educated working-age populations, the pattern of adjustment is qualitatively different. Impacts of trade exposure on manufacturing
+employment (figure 9, panel A) are negative but somewhat smaller and
+less precisely estimated. Impacts on the total wage and salary employmentpopulation ratio are small and imprecise for short time differences and then
+become large, positive, and marginally significant for long time differences.
+For the 2001–2016 time difference and beyond, we easily reject that impact
+coefficients for wage and salary employment-population are the same in
+CZs with more-educated versus less-educated workers. This trade-induced
+increase in the total employment-population ratio must imply a corresponding
+positive impact of trade exposure on the nonmanufacturing-population ratio,
+as seen in online appendix figure A9.
+Just as critical, CZs with more-educated workers adjusted to adverse trade
+shocks in part through net out-migration. For all time differences except
+2001–2006, we reject that impact coefficients on the working-age population are equal for CZs with more-educated versus less-educated workers.
+At the 2001–2019 time difference in CZs with more-educated workers,
+a 1 percentage point increase in import penetration is predicted to cause
+a 9.13 (t-value = −3.31) percentage point decrease in the working-age
+population, or an annual population decline of approximately one-half a
+percentage point. The impact coefficient on log nonmanufacturing employment at the 2001–2019 time difference of 6.04 (t-value = 2.37, online
+appendix figure A9, panel b) implies that more of the increase in the nonmanufacturing employment population ratio occurred through the outmigration of labor rather than through greater job growth. Like CZs with
+less-educated workers, those with more-educated workers also see negative
+
+AUTOR, DORN, and HANSON
+
+417
+
+impacts of trade exposure on personal income per capita (figure 9, panel D).
+Distinct from CZs with less-educated workers, these impacts reach their maximum negative value for the 2001–2012 time difference and then diminish
+over time, becoming close to zero for the 2001–2016 horizon and beyond.39
+Next, we consider a second dimension of heterogeneity in adjustment
+to the China trade shock. In figure 10, we split the sample of CZs by their
+industrial specialization in 2000, which we measure using a Hirschman
+Herfindahl Index (HHI) equal to the sum of the squared shares of CZ
+employment in each industry.40 There are 103 CZs with HHIs above the
+population-weighted median and 619 CZs with HHIs below it. The uneven
+split in CZs across the two groups reveals, unsurprisingly, that large CZs
+are less specialized by industry than smaller and medium-sized CZs. In
+figure 10, panels A and B, it appears that the negative impacts of trade
+exposure on manufacturing and wage and salary employment across all CZs
+are driven predominantly by smaller, more industrially specialized CZs.
+For these CZs, there are negative and significant impacts of greater import
+competition on manufacturing employment and total wage and salary
+employment-population ratios. For less specialized CZs, impacts on manufacturing employment are small, negative, and imprecise, and impacts on
+total employment are null. In the more-specialized CZs but not in the less
+specialized ones (figure 10, panel C), trade exposure induces larger decreases
+in the working-age population. Despite this, employment-population ratios
+decline by relatively more in more trade-exposed and more specialized
+CZs. Our conclusions about differences in adjustment between more and
+less specialized CZs are tentative, however, given that for most time horizons
+and outcomes we cannot reject that impact coefficients for the two groups
+of CZs are the same.
+
+III.E. Putting the Pieces Together
+The first wave of China shock research found that greater import competition caused localized job loss in manufacturing, declines in earnings for
+low-wage workers, and greater economic distress across a wide range of
+outcomes. The primary mechanism of adjustment to trade exposure was
+exit from work, rather than increased employment in nonmanufacturing or
+39. Online appendix figure A9, panels c and d, show that in both CZs with more-educated
+and less-educated workers trade exposure induced an increase in government transfers per
+capita, with the majority of this increase accounted for by payments related to Social Security
+and Medicare.
+40. We construct these HHIs using ACS data for 2000 and the 1990 census industry
+classification code.
+
+418
+
+Brookings Papers on Economic Activity, Fall 2021
+
+Figure 10. Heterogeneity in Trade Shock Impacts: Initial Industry Specialization
+A. Manufacturing employment/
+working-age population
+2000–2012 shock impact on
+manufacturing employment-population
+18–64 (2002 to 2019) by industry
+employment HHI in 2000
+Coefficient for trade shock, 2000 to 2012
+
+B. Wage and salary employment/
+working-age population
+2000–2012 shock impact on wage &
+salary employment-population
+18–64 (2002 to 2019) by industry
+employment HHI in 2000
+Coefficient for trade shock, 2000 to 2012
+
+4
+2
+0
+–2
+–4
+
+4
+2
+0
+–2
+–4
+02 04 06 08 10 12 14 16 18
+Year
+
+C. Log working-age population
+2000–2012 shock impact on log
+population 18–64 (2002 to 2019) by
+industry employment HHI in 2000
+Coefficient for trade shock, 2000 to 2012
+0
+–2
+–4
+–6
+–8
+–10
+–12
+
+02 04 06 08 10 12 14 16 18
+Year
+D. Log personal income per capita
+2000–2012 shock impact on log personal
+income per capita (2002 to 2019) by
+industry employment HHI in 2000
+Coefficient for trade shock, 2000 to 2012
+0
+–5
+–10
+
+02 04 06 08 10 12 14 16 18
+Year
+Below median
+Above median
+
+02 04 06 08 10 12 14 16 18
+Year
+Below median, q val. ≤ 0.05
+Above median, q val. ≤ 0.05
+
+Source: Authors’ calculations.
+Note: Panels report two-stage least squares coefficient estimates for β1h in equation (2) and 95 percent
+confidence intervals for these estimates. Coefficient estimates whose differences have a minimal
+Benjamini-Hochberg q-value of less than or equal to 0.05 are shown with solid markers (with hollow
+markers for other estimates). Estimates are for two samples: the 619 CZs whose Hirschman Herfindahl
+Index of industry specialization was above the population-weighted national median in 2000, and the
+complementary set of 103 CZs. The dependent variable is the change in the indicated measure between
+2001 and the year on the horizontal axis; the trade shock is the decadalized 2000–2012 change in CZ
+import exposure as defined in equation (1) and instrumented by equation (3); control variables are the
+same as in regressions reported in figure 4. Regressions in panels A–C are weighted by the CZ
+working-age population in 2000; regressions in panel D are weighted by the CZ total population in 2000.
+Standard errors are clustered by state.
+
+AUTOR, DORN, and HANSON
+
+419
+
+migration to other regions. The impacts of rising import competition, originally documented for 1991 through 2007, are manifest out to 2019, nearly
+two decades after China’s accession to the WTO in 2001 and nine years
+after the plateau of China’s export surge. CZs that are more trade-exposed
+suffered durable increases in joblessness and decreases in personal income
+per capita that are not close to being offset by government transfers. The
+resulting economic distress appears to be most acute in local labor markets
+that lacked abundant supplies of college-educated workers—consistent with
+the dearth of human capital hypothesis—and that were narrowly specialized
+in labor-intensive manufacturing—consistent with the reverse agglomeration
+hypothesis. For CZs such as North Hickory, North Carolina, the consequences
+of the China trade shock have been profound and long-lasting.
+There are other plausible explanations for the lack of an out-migration
+response to the China trade shock. These include downward pressure on
+housing values in contracting CZs (Feler and Senses 2017), which for renters
+may have diminished the pressure to leave and for homeowners may have
+complicated selling their homes (Glaeser and Gyourko 2005; Notowidigdo
+2020). Lower housing values may have further blocked local recovery by
+slowing the formation of new businesses, which are often financed using
+home equity (Davis and Haltiwanger 2019).41 It does not appear, however,
+that regional variation in labor market regulations account for differential
+adjustment to the China shock. The impacts of trade exposure were no less
+acute in CZs located in right-to-work states or states with lower minimum
+wages (Chan 2019).
+There are alternative characterizations of the China trade shock that
+deserve mention. One is that, amid the regular ebb and flow of the US
+labor market, the China shock was no more consequential than a high tide.
+If every year millions of jobs are created and millions of jobs are destroyed,
+how could job loss in a collection of factory towns be important? A second is
+that manufacturing job loss would have happened anyway.42 That is, import
+competition from low-wage countries other than China (Hanson 2020),
+41. Housing market regulations in large US cities could also have impeded adjustment in
+trade-exposed regions. Inelastic housing supply in major cities, due in part to housing regulations (Glaeser, Gyourko, and Saks 2005), may hinder low-wage workers in the heartland
+from moving to expensive coastal cities (Hsieh and Moretti 2019).
+42. A related argument, that it was technological change and not import competition
+that caused manufacturing job loss in trade-exposed CZs, has two weaknesses. One is
+that the cross-CZ correlation between exposure to automation and exposure to import
+competition is very low (Autor, Dorn, and Hanson 2013b); a second is that there was no
+obvious abrupt acceleration in technological change after 2001 (indeed, productivity growth
+slowed after 2004).
+
+420
+
+Brookings Papers on Economic Activity, Fall 2021
+
+rising capital intensity in manufacturing (Fort, Pierce, and Schott 2018),
+and the availability of industrial robots (Acemoglu and Restrepo 2020)
+would ultimately have closed factories and displaced workers, irrespective
+of China’s rise. Both lines of thought overlook how concentrated the China
+trade shock was in place and time. The concentration in place was due to the
+relocation of manufacturing to smaller cities and towns over the twentieth
+century, made possible by the maturation of industrial production (Eriksson
+and others 2019) and improved transportation (Kim 1995; Michaels 2008).
+The concentration in time was due to the speed of China’s rise and the
+immensity of its economy (Naughton 2006). The scarring effects of job loss
+in trade-exposed CZs were made more acute by this job loss occurring
+during trade-induced local economic recessions (Jacobson, LaLonde, and
+Sullivan 1993; Davis and von Wachter 2011; Huckfeldt 2021). Workers were
+not just losing their jobs, they were experiencing the dislocating effects of
+work disappearing in their communities (Wilson 1996; Autor, Dorn, and
+Hanson 2019; Charles, Hurst, and Schwartz 2019).
+
+IV. Was the China Shock Unique?
+A question arises as to whether the China trade shock was a singular event
+with limited relevance for other shocks or whether it holds general lessons
+about concentrated job loss. The regional consequences of trade-induced
+employment contractions in the United States mirror those of the broader
+decline of manufacturing. Charles, Hurst, and Schwartz (2019) document
+that US CZs suffering greater job loss in manufacturing after 2000—
+whether because of import competition, automation, or other forces—had
+larger declines in employment rates and wages out to 2017. We do not
+know, however, whether this pattern of adjustment is closely comparable
+to shocks that are not specific to manufacturing or that occurred at other
+moments in time.
+To provide a benchmark against which to compare the China trade shock,
+we examine outcomes associated with two other major events whose impacts
+were also highly localized. One is the decline of the coal industry, which
+after 1980 suffered two decades of contraction due to changes in production
+technology and energy demand (Black, Daniel, and Sanders 2002; Black,
+McKinnish, and Sanders 2005).43 A second is the Great Recession, in which
+43. On regional boom and bust cycles in energy production, see Michaels (2010),
+Jacobsen and Parker (2014), Allcott and Keniston (2017), Feyrer, Mansur, and Sacerdote
+(2017), Bartik and others (2019), Clay and Portnykh (2018), and Kearney and Wilson (2018).
+
+421
+
+AUTOR, DORN, and HANSON
+
+Figure 11. Employment Decline in Coal Production versus Manufacturing
+log employment - log employment in 1980
+
+0
+–0.25
+Manufacturing
+
+–0.50
+–0.75
+–1.00
+
+Coal mining
+
+–1.25
+–1.50
+1975
+
+1980
+
+1985
+
+1990
+
+1995
+Year
+
+2000
+
+2005
+
+2010
+
+2015
+
+Sources: BEA Industry Economic Accounts and authors’ calculations.
+
+a housing collapse and subsequent credit freeze differentially affected
+US regions (Mian and Sufi 2014; Charles, Hurst, and Notowidigdo 2018;
+Beraja, Hurst, and Ospina 2019; Yagan 2019). The first episode lets us
+evaluate long-run adjustment to a sectoral shock during an earlier period,
+while the second involves adjustment to an unusually deep cyclical shock.
+
+IV.A. Labor Market Adjustment to the Decline of Coal
+The secular decline of employment in the coal industry is a case of a
+spatially concentrated shock that precedes China’s rise. Figure 11 plots
+employment in US coal mining and, for reference, employment in US manufacturing, each expressed as the log for a given year relative to the log value
+in 1980. There was a boom in coal production during the 1970s due to a
+spike in energy prices caused by the decade’s two major oil price shocks.
+Employment in coal rose from 140,600 workers in 1969 to 263,600 workers
+in 1979. After 1980, coal prices began an extended decline. Employment in
+coal followed suit, falling to 151,200 workers in 1990 and to 80,400 workers
+in 2000. After rebounding modestly in the 2000s, coal employment plummeted after 2011 (Black, McKinnish, and Sanders 2005). Given these
+
+422
+
+Brookings Papers on Economic Activity, Fall 2021
+
+patterns, we specify the coal shock as the change in coal employment over
+1980–2000. Our analysis builds on Black, McKinnish, and Sanders (2005),
+who find that during the 1983–1993 coal bust, counties more specialized
+in coal (as indicated by initial coal reserves) in Kentucky, Ohio, Pennsylvania, and West Virginia had larger decreases in employment rates, total
+earnings, and earnings per worker. We expand their analysis forward in
+time from 1993 to 2019 and include all US CZs.44
+To evaluate local labor market adjustment to the decline of coal, we
+adapt the specification in equation (2) to the following:
+(4)
+
+∆Yit + h = α t + β1h ∆SSicoal + X ′it β 2 + ε it + h ,
+
+where ΔYit+h is the change in an outcome for CZ i between year t + h for
+h = −5, . . . , 39 and the base year t = 1980; ΔSS icoal is a shift-share variable that projects the coal shock onto CZ i; and Xit is a vector of controls.
+We specify the decadalized shift-share coal shock as,
+(5)
+
+ 100  Lic1980
+∆SSicoal = − 
+×
+[ ln L−coali,2000 − ln L−coali,1980 ],
+ 20  Li1980
+
+where Lic1980/Li1980 is the share of coal production in the employment of CZ i
+in 1980, and the term in brackets is the log change in national employment
+in coal production over 1980–2000, outside of the state in which CZ i is
+located. To facilitate interpretation, in the regression analysis we multiply
+the shock in equation (5) by −1, such that a higher value of the shift-share
+variable indicates a larger negative change. The population-weighted mean
+of this projected employment change is 0.22 (σ = 1.25) percentage points.45
+Control variables in the regression include a dummy for the CZ having
+positive coal employment in 1980, time trends for census region divisions,
+and, parallel to above, values in 1980 for the share of CZ employment
+in manufacturing, the share of women in CZ employment, the share of
+college-educated workers in the CZ population, and the share of foreignborn workers in the CZ population. Because of the spatial concentration of
+coal deposits, the shock hit a relatively small number of CZs: just 258 CZs
+44. Because CZs are aggregates of counties, our analysis may dampen the county-level
+effects in Black, McKinnish, and Sanders (2005).
+45. Given our shock definition, this indicates that the average change in coal employment
+across CZs was negative. The correlation between the coal shift-share variable in equation
+(5) and the China shock shift-share variable in equation (2) is −0.08.
+
+AUTOR, DORN, and HANSON
+
+423
+
+(35.7 percent) had positive coal employment in 1980, and the populationweighted median value of the shock is only 0.001 percentage points. By
+contrast, the shocks at the 90th and 95th percentiles were 0.19 and 0.83 percentage points, respectively.
+Estimation results appear in figure 12. The impact coefficients for the
+ratio of wage and salary employment to population (figure 12, panel A)
+become increasingly negative during the 1980–2000 shock. They are largest
+for the 1980–2003 horizon (−0.48, t-value = −3.98) and remain negative
+for all horizons out to 1980–2019, though the estimates for the longest time
+windows lack statistical precision. For the 1980–2006 difference—on the
+eve of the Great Recession and twenty-six years after coal’s decline had
+begun—the impact coefficient of −0.39 (t-value = −2.94) indicates that a
+CZ subject to a 1980–2000 coal shock at the 95th percentile of intensity
+would have experienced a 0.32 (= 0.39 × [0.83 − .001]) percentage point
+larger decline in its wage and salary employment-population ratio than
+a CZ at the median of shock intensity. For context, over 1980–2006 the
+5th–50th percentile difference in the change in employment-population was
+−9.4 percentage points.
+In figure 12, panel B, we see that CZs more exposed to the decline of coal
+also had larger reductions in total labor compensation per worker, which
+persist well beyond the 1983–1993 period studied in Black, McKinnish,
+and Sanders (2005) and are precisely estimated at long horizons. Over
+1980–2019 (β = −1.05, t-value = −2.46), a CZ subject to a coal shock at the
+95th percentile of intensity would have seen a 0.88 (= −1.05 × [0.83 − .001])
+log point greater decline in average labor income.
+Given these lasting adverse labor market impacts of the coal shock, one
+might expect that heavily exposed CZs saw substantial population declines.
+However, figure 12, panel C, shows that the impact of exposure to the coal
+shock on population head counts is small and imprecisely estimated for the
+first two decades after the coal contraction began. Larger negative population responses appear only well after 2000 and are statistically significant
+only for time periods beyond 1980–2016. For the 1980–2019 difference,
+the impact coefficient of −1.33 (t-value = −2.15) indicates that a CZ subject to a coal shock at the 95th percentile of intensity would have had
+a 1.22 (= −2.23 × [0.83 − .001]) log point larger decline in its workingage population when compared to a CZ at the median of shock intensity.
+These impacts are small and do not appear until twenty-five years after the
+shock arrived.
+Qualitatively, figure 12 indicates that the reaction of employment, earnings, and population to the coal shock was similar to the response to the
+
+424
+
+Brookings Papers on Economic Activity, Fall 2021
+
+Figure 12. Local Labor Adjustment to the Decline of Coal
+A. Wage and salary employment/
+working-age population
+Decline of coal impact on wage &
+salary employment/population 18–64
+(1975 to 2019)
+Coefficient for 1980–2000 Bartik shock
+
+B. Log labor compensation per
+worker
+Decline of coal impact on log wages
+and salaries per worker (1975 to 2019)
+Coefficient for 1980–2000 Bartik shock
+0
+
+0
+
+–0.5
+–1.0
+
+–0.5
+
+–1.5
+78 82 86 90 94 98 02 06 10 14 18
+Year
+
+78 82 86 90 94 98 02 06 10 14 18
+Year
+
+C. Log population, age 18–64
+Decline of coal impact on log
+population 18–64 (1975 to 2019)
+Coefficient for 1980–2000 Bartik shock
+0
+–1
+–2
+78 82 86 90 94 98 02 06 10 14 18
+Year
+Source: Authors’ calculations.
+Note: Panels report two-stage least squares coefficient estimates for β1h in equation (4) and 95 percent
+confidence intervals for these estimates. The dependent variable is the change in the indicated measure
+between 1980 and the year on the horizontal axis; the coal shock is defined in equation (5); control
+variables in the regression include a dummy for the CZ having positive coal employment in 1980, time
+trends for census region divisions, and values in 1980 for the share of CZ employment in manufacturing,
+the share of women in CZ employment, the share of the college educated in the CZ population, and the
+share of the foreign born in the CZ population. Regressions are weighted by the CZ working-age
+population in 1980; standard errors are clustered by state.
+
+AUTOR, DORN, and HANSON
+
+425
+
+China import shock (see figures 5, 7, and 8). In both cases, CZs with greater
+exposure to the adverse sectoral shocks suffered declines in employment
+and earnings that persisted well beyond the period reaching peak intensity.
+These local labor markets eventually saw a decline in population but that
+decline was neither immediate nor large. Despite these qualitative similarities between the coal shock and the China trade shock, there is a substantial
+quantitative difference between the two. Whereas the estimates in figure 5
+suggest that the China shock induced a decline in the wage and salary
+employment-population ratio of −1.55 (= −1.74 × 0.89) percentage points
+between 2001 and 2019, the corresponding employment decline for the
+coal shock was only −0.04 (= −0.198 × 0.22) percentage points per decade
+from 1980 to 2019.46 The much smaller average impact of the coal shock
+may be unsurprising given that only a subset of CZs produce coal. Nor did
+the coal shock generate the extremes of variation in labor market outcomes
+across CZs that we observe for the China trade shock. Although wage and
+salary income per worker in a CZ at the 95th percentile of exposure to the
+coal shock declined by 0.88 log points more than in a CZ at the 5th percentile over the 1980–2019 period, the differential impact of the China shock
+on wages from 2000 to 2019 was three times as large when comparing CZs
+at the 75th and 25th (instead of 95th and 5th) percentile of exposure.
+
+IV.B. Labor Market Adjustment to the Great Recession
+As a second point of comparison, we evaluate local labor market adjustment to the Great Recession. We adapt the specification in equation (4)
+where ΔYit+h becomes the change in an outcome for CZ i between year t + h
+for h = −5, . . . , 13, and base year t = 2006; ΔSS gri is a shift-share variable
+that projects the Great Recession onto CZ i; and Xit is a vector of controls.
+The National Bureau of Economic Research (NBER) dates the Great Recession as beginning in December 2007 and ending in June 2009. Because
+US housing markets, which played a major role in the downturn, began
+contracting in 2006 (Charles, Hurst, and Notowidigdo 2016), we specify the
+shock as commencing in that year. We estimate equation (4) for twenty-one
+separate time periods: five periods before the shock begins (2001–2006
+to 2005–2006) to check for pre-trends in outcomes; three shock periods
+46. We obtain these estimated impacts by multiplying the impact coefficient for the wage
+and salary employment/working-age population ratio (−1.74 for the China shock, −0.19 for
+the coal shock) that corresponds to the longest time difference (2001–2019 for the China
+shock, 1980–2019 for the coal shock) times the decadalized mean of the respective shock
+(0.89 for the China shock, 0.22 for the coal shock).
+
+426
+
+Brookings Papers on Economic Activity, Fall 2021
+
+(2006–2007 to 2006–2009) to examine shock impacts as the shock intensifies; and thirteen periods after the recession had ended (2006–2007 to
+2006–2019) to evaluate longer-run adjustment.
+Similar to equation (5), we specify the annualized Great Recession shock
+in shift-share form as,
+(6)
+
+Lij
+ 100 
+i
+i
+∆SSigr = − 
+× ∑ j 2000 [ ln L−j,2009
+− ln L−j,2006
+],
+
+3
+Li 2000
+
+where Lij2000/Li2000 is the share of industry j in employment of CZ in the year
+2000, and the term in brackets is the log change in national employment
+in industry j over 2006–2009, outside of the state in which CZ i is located.
+To help interpret the results, we again multiply the shock in equation (6)
+by −1, such that a higher value indicates a larger negative projected change
+in employment. The population-weighted mean of the shift-share variable
+is 2.19 (σ = 0.73) percentage points—on average, CZs faced strongly
+contractionary forces during the recession period. The control variables
+included in the regressions are the same as those in the China shock regressions in equation (2).47
+Yagan (2019) documents that the recovery in unemployment rates after
+the Great Recession was not matched by a recovery in employment rates.
+In CZs more adversely affected by the downturn, employment rates were
+suppressed out to 2015. Charles, Hurst, and Notowidigdo (2016) document
+further that declines in employment rates were concentrated among lesseducated workers. We extend Yagan’s analysis out to 2019, using CZ-level
+REIS data, as compared to Yagan’s use of federal income tax records.
+Estimation results appear in figure 13. CZs more exposed to contracting
+industries during the Great Recession saw larger declines in their employment rates (figure 13, panel A). Impact coefficients for the wage and salary
+employment-population ratio become rapidly more negative as the recession intensified, reaching their peak value for the 2006–2009 difference
+(β = −1.60, t-value = −5.42). As the post-2009 expansion began, CZs began
+to recover from earlier declines in employment; the impact coefficient for
+the 2006–2016 period is less than one-third the size of the 2006–2009 effect.
+47. The correlation between the Great Recession shift-share variable in equation (6)
+(over 2006–2009) and the China shock shift-share variable in equation (2) (over 2000–2012)
+is 0.48. In unreported robustness exercises, we replicate the results in figure 13 in which we
+include as a control variable the instrument for the China trade shock, as defined in equation (3).
+Coefficient estimates and patterns of significance for the two sets of results are very similar.
+
+427
+
+AUTOR, DORN, and HANSON
+
+Figure 13. Local Labor Market Adjustment to the Great Recession
+A. Wage and salary employment/
+working-age population
+Great recession impact on wage &
+salary employment/population 18–64
+(2001 to 2019)
+Coefficient for 2006–09 Bartik shock
+0.5
+
+B. Log labor compensation per
+worker
+Great recession impact on log wages
+and salaries per worker (2001 to 2019)
+Coefficient for 2006–09 Bartik shock
+2
+
+0
+–0.5
+
+0
+
+–1.0
+
+–2
+
+–1.5
+
+02 04 06 08 10 12 14 16 18
+Year
+
+02 04 06 08 10 12 14 16 18
+Year
+
+C. Log population, age 18–64
+Great recession impact on log
+population 18–64 (2001 to 2019)
+Coefficient for 2006–09 Bartik shock
+2
+1
+0
+–1
+02 04 06 08 10 12 14 16 18
+Year
+Source: Authors’ calculations.
+Note: Panels report two-stage least squares coefficient estimates for β1h in equation (4) and 95 percent
+confidence intervals for these estimates. The dependent variable is the change in the indicated measure
+between 2006 and the year on the horizontal axis; the Great Recession shock is defined in equation (6);
+control variables include initial period CZ employment composition (shares of employment in
+manufacturing, routine-task-intensive occupations, and offshorable occupations, as well as employment
+share among women), initial period CZ demographic conditions (shares of the college educated, the
+foreign born, non-white individuals, and those age 0–17, 18–39, and 40–64 in the population), and census
+region dummies. Regressions are weighted by the CZ working-age population in 2001; standard errors
+are clustered by state.
+
+428
+
+Brookings Papers on Economic Activity, Fall 2021
+
+This recovery appears to stall in 2016, however. For the 2006–2019 long
+difference, CZs that were more exposed to the Great Recession still register
+net declines in their employment-population ratios. The impact coefficient
+of −0.76 (t-value = −2.11) at that horizon indicates that a CZ subject to
+the mean Great Recession shock over 2006–2009 would have experienced
+a 1.66 (= 2.19 × 0.76) percentage point decline in its wage and salary
+employment-population ratio, relative to the mean change for the 2006–2019
+period of +2.20 percentage points (σ = 3.89).
+In figure 13, panel B, we see that CZs more exposed to the Great Recession had larger declines in wage and salary income. The impact reaches its
+maximum for the 2006–2011 time difference (β = −1.41, t-value = −3.52),
+then attenuates modestly through 2016, after which recovery stops. Over
+the 2006–2019 long difference, a CZ subject to the mean Great Recession
+shock would have experienced a 2.45 (= −2.19 × 1.12) percentage point
+decline in compensation per worker.
+The enduring declines in employment ratio and labor income per capita
+over the period 2006–2019 could indicate persistent scarring effects of
+the Great Recession. However, figure 13, panels A and B, also show that
+CZs with greater exposure to the Great Recession had differentially faster
+growth in employment and labor income leading up to the recession. To
+the extent that this faster growth was driven by a temporary boom in construction that expanded employment and earnings to unsustainable levels
+(Charles, Hurst, and Notowidigdo 2016), one might expect that these variables would not fully recover following the recession. Indeed, the estimates
+in figure 13, panel C, for population belie the expectation of a lasting downturn in the CZs with greater exposure to the Great Recession. These CZs
+experienced only modest and imprecisely estimated population declines
+during the recession and, from 2006 to 2016 onward, had faster relative
+population growth. This rapid growth raises the denominators for both the
+employment-population ratio and average wage and salary income, thus
+helping to explain why the recovery of those outcomes stalls in exposed CZs
+after 2015. These CZs were rapidly gaining population, which is likely a
+positive economic development.
+In summary, we observe that Chinese import competition, the fall in
+demand for coal, and the Great Recession each reduced employment and
+labor incomes as these shocks unfolded. CZs with greater shock exposure did
+not experience large declines in population in any of these cases, suggesting
+that migration did not disperse the local impacts of these shocks. CZs
+more exposed to the Great Recession eventually experienced a substantial
+recovery of their employment rates and faster population growth. Those with
+
+AUTOR, DORN, and HANSON
+
+429
+
+greater exposure to the China or coal shocks instead endured persistently
+depressed employment rates and labor income levels, combined with a
+slow decline in population. The comparison with the coal shock in particular
+indicates that the China shock’s long-lasting impact on CZ labor market
+conditions and the sluggish population response to depressed local labor
+market conditions was not without precedent. However, the large magnitude
+of the China shock, which had a sizable impact on many local labor markets
+in the United States, sets it apart from shocks such as the decline of the coal
+sector, the impact of which was more limited in scope. As the United States
+prepares for potentially more job loss due to ongoing energy transformation
+and expected changes in oil and gas production, the failure of local labor
+markets to adjust successfully to the coal and China trade shocks reminds
+us that the adjustment process is typically slow and sclerotic, unlike the
+textbook model of frictionless labor market adjustment.
+
+V. The Distributional Consequences
+of the China Trade Shock
+Local labor markets more exposed to import competition from China suffered larger declines in manufacturing jobs, employment-population ratios,
+and personal income per capita. These effects persist for nearly two decades
+beyond the intensification of the trade shock after 2001, and almost a
+decade beyond the shock reaching peak intensity. The absence of a substantial out-migration response to the shock indicates that resident populations
+in exposed CZs bore the brunt of local job loss and its repercussions. While
+it is uncontroversial to infer that trade-exposed CZs suffered losses in
+average economic well-being relative to less trade-exposed CZs, these results
+do not reveal which if any CZs experienced absolute declines in average
+welfare or by how much. Computing absolute effects requires combining
+reduced-form empirical analysis, which estimates relative effects, with a
+general equilibrium model, which quantifies aggregate gains.
+
+V.A. Quantitative General Equilibrium Analysis
+of the China Trade Shock
+For individuals living in a given US CZ, trade with China affects well-being
+by changing earnings and consumption possibilities. If economic reform in
+China raises its productivity in labor-intensive manufacturing, economies
+with a comparative advantage in these industries would see demand for their
+factor services contract, thus diminishing their consumption possibilities,
+while economies whose comparative advantage lies elsewhere would see
+
+430
+
+Brookings Papers on Economic Activity, Fall 2021
+
+their factor demand and consumption possibilities expand (Arkolakis,
+Costinot, and Rodríguez-Clare 2012). If labor is fully mobile across regions
+and sectors within a country, as has traditionally been assumed in modeling
+trade shocks, then the change in welfare would be common across regions.
+The evidence above contradicts such baseline assumptions; to a startling
+degree, trade shocks appear to have an enduring impact on the locations in
+which their immediate impact is felt. To interpret cross-region differences
+in welfare impacts emanating from trade shocks, theoretical models must
+incorporate frictions—normally labor market frictions—that produce the
+concentrated geographic impacts that we observe in the data.
+As a benchmark for how labor immobility affects the welfare impact of
+the China trade shock, consider the analysis in Galle, Rodríguez-Clare, and
+Yi (2017).48 They combine a model of heterogeneous firms from Eaton and
+Kortum (2002) with a model of heterogeneous workers from Roy (1951).49
+Workers are immobile across regions and partially mobile across sectors.
+They specify the China trade shock as innovations to China’s industrial
+productivity, which they calibrate for the period 2000–2007 by backing out
+the implied productivity growth needed to generate the observed change in
+US manufacturing imports from China that is predicted by the first-stage
+regression of Autor, Dorn, and Hanson (2013a). Using these innovations,
+plus assumptions on other parameter values, they calculate that the average
+change in real income across CZs from trade with China is 0.22 percent,
+with a (unweighted) standard deviation across CZs of 0.31 percentage points.
+The analysis in Caliendo, Dvorkin, and Parro (2019), also based on Eaton
+and Kortum (2002), allows labor to be mobile geographically in the longer
+run. Dynamic adjustment in labor allocations across US states and sectors
+arises from workers facing a fixed cost in moving from one region-industry
+to another and preference shocks in region-industry choice. Applying a
+calibrated China trade shock over 2000–2007, again using Autor, Dorn,
+and Hanson (2013a), and estimated model elasticities, they find that labor
+reallocation across sectors and regions is largely complete by thirteen years
+after shock initiation (i.e., 2013, which is well within our period of analysis).
+At this horizon, the average change in welfare is 0.20 percent, with a
+(unweighted) standard deviation across US states of 0.09 percentage points.50
+48. For an early welfare analysis of China’s trade expansion, see Hsieh and Ossa (2016).
+49. Lagakos and Waugh (2013) and Hsieh and others (2019) were the first to combine
+the Eaton and Kortum and Roy models.
+50. We thank Lorenzo Caliendo for providing this estimate. Regional labor reallocation
+does not eliminate variation in welfare impacts across regions because migration costs and
+region-specific preferences create real adjustment costs.
+
+AUTOR, DORN, and HANSON
+
+431
+
+In both studies, because goods prices are assumed identical across regions,
+aggregate welfare impacts are similar.51 Naturally, regional variation in
+welfare impacts is larger in Galle, Rodríguez-Clare, and Yi (2017), owing
+to geographic labor immobility. The two models also differ in how they
+model labor market frictions, which determine how trade shocks affect the
+overall employment rate.52 In Caliendo, Dvorkin, and Parro (2019), nonemployment arises because of an option for home production; in an extended
+version of Galle, Rodríguez-Clare, and Yi (2017), nonemployment arises
+because of both a home production option and search and matching frictions
+in the labor market. Notably, in the latter analysis eliminating search and
+matching frictions and home production yields little change in the mean
+and variance of income changes across CZs. Wherever regional variance
+in income changes is coming from, it does not appear to be labor-market
+frictions within regions as modeled.
+To evaluate quantitative analyses of the China trade shock, we compare
+changes in the regional dispersion of income per capita in these analyses
+with reduced-form estimates of the trade-induced change in the variance of
+income across regions. Because quantitative approaches target the average
+impact of trade exposure on manufacturing employment in their calibrations,
+untargeted moments, such as regional dispersion in income changes, are
+useful for assessing modeling approaches.
+In considering regional variation in trade impacts, we abstract from
+within-region variation in the welfare impacts of trade shocks, which would
+arise from differential effects of trade exposure on earnings and price levels
+across households within a CZ. On earnings, Chetverikov, Larsen, and
+Palmer (2016) and Autor, Dorn, and Hanson (2019) find that lower-wage
+workers suffered larger percentage declines in earnings in CZs harder hit
+by the China trade shock. Our focus on personal income per capita aggregates over such worker-level variation. On prices, although the China trade
+shock appears to have raised consumer purchasing power, Borusyak and
+Jaravel (2021) document that shares of imports in consumer expenditures
+51. Kim and Vogel (2020) provide a related assessment of trade with China, which we
+discuss in online appendix A.6.
+52. In related work, Adão, Arkolakis, and Esposito (2019) modify the baseline framework in Galle, Rodríguez-Clare, and Yi (2017) by making trade between CZs costly and
+production subject to external economies of scale. If some trade-exposed CZs are proximate to other trade-exposed CZs, the impact of adverse trade shocks will be magnified via
+localized changes in trade flows, where scale economies may intensify such effects. Their
+counterfactual analysis implies that the China trade shock reduced average real income by
+0.35 percent, with a standard deviation across CZs of 0.56. In online appendix A.5.3, we find
+weak evidence of gravity-based spillovers of trade shocks across regions.
+
+432
+
+Brookings Papers on Economic Activity, Fall 2021
+
+are flat across the income distribution, which implies that the purchasing
+power effects of freer trade are distributionally neutral. Relatedly, Bai and
+Stumpner (2019) and Hottman and Monarch (2020) find that the impact of
+trade with China on US product prices was similar across income groups
+(and geographic regions). To a first approximation, we can analyze the
+impact of the China shock on welfare in the United States as the sum of
+a price-level effect, which is presumed homogeneous across regions, and
+an income effect, which varies across regions.53
+
+V.B. Relative and Absolute Welfare Effects across Regions
+Following Galle, Rodríguez-Clare, and Yi (2017), we can write the average change in welfare for a CZ due to the China trade shock as the induced
+change in real income,
+Yˆ
+Wˆi = i ∏ j Pˆ j−β ,
+Lˆ
+
+(7)
+
+j
+
+i
+
+where Ŵi ≡ Wi′/Wi is the trade-induced change in income per capita (Yci/Lci) in
+US region i, relative to the change in the national price index, which
+applies the βj Cobb-Douglas expenditure shares for products in each sector j
+to induced changes in the price level Pj for each sector j. Because Galle,
+Rodríguez-Clare, and Yi (2017) calibrate their model to the 2000–2007
+trade shock, they implicitly assume that the long-run impacts of the shock
+had been realized by 2007. For context, we see in figure 5 that the impact of
+trade exposure on manufacturing employment over 2001–2007 (β = −1.45,
+t-value = −4.56) is approximately 80 percent of that over the 2001–2019
+long difference (β = −1.79, t-value = −5.42). It thus seems reasonable to
+compare their simulated standard deviation in income changes (0.31) to that
+estimated for a long-run time change.
+As a reduced-form application of the welfare formula in equation (7),
+we estimate the impact of trade shocks on the variation in average income,
+Yci/Lci. Specifically, we evaluate the deviation in changes in income per capita
+in each CZ relative to the national weighted average,
+(8)
+
+ln
+
+Yˆi
+Yˆ
+− ∑ l γ l ln l = β1y ∆IPicuτ − ∑ l γ l β1y ∆IPlcu ,
+Lˆ
+Lˆ
+i
+
+l
+
+53. In online appendix A.6, we discuss results in Feler and Senses (2017) on how trade
+affects housing values.
+
+AUTOR, DORN, and HANSON
+
+433
+
+Figure 14. Implied Variation in Changes in Personal Income per Capita, 2000–2019
+CZ unweighted distribution of trade shock impacts (2000–2012)
+
+0.4
+
+0.3
+
+0.2
+
+0.1
+
+–6
+–4
+–2
+0
+2
+Deviation from mean for impact on log personal income per capita, 2000–2019
+Source: Authors’ calculations.
+Note: This figure shows a histogram for the welfare change in equation (8), evaluated for the
+2000–2012 trade shock–induced change in personal income per capita (based on results in figure 8,
+panel A), expressed as the deviation in shock impacts from the population-weighted national mean.
+The impact coefficient used is that for the 2000–2019 time difference (β = −2.66, t-value = −1.90). The
+standard deviation in the implied shock impact is 1.22 percentage points.
+
+where γl is the share of region l in the US population, β1y is the parameter
+estimate in equation (2) for the log change in personal income per capita,
+and IP cuiτ is the trade shock. This estimate of the relative impact leaves
+unmeasured the shock impact on the overall price level, which we treat as
+common across regions, as consistent with Caliendo, Dvorkin, and Parro
+(2019) and Galle, Rodríguez-Clare, and Yi (2017).
+In figure 14, we show the estimation-implied variance in equation (8)
+induced by the 2000–2012 trade shock over the 2000–2019 horizon.54
+54. The impact coefficient for 2000–2019 in figure 7, panel A, is marginally significant
+(t-value = −1.90). Impacts are statistically significant for all time differences from 2000–2014
+to 2000–2018. Because these coefficients are larger in absolute value than the one for
+2000–2019, using the long period difference can be seen as a conservative choice.
+
+434
+
+Brookings Papers on Economic Activity, Fall 2021
+
+The (unweighted) standard deviation in trade shock impacts on personal
+income per capita across CZs over 2000–2019 is 1.22 percentage points,
+which far exceeds the cross-CZ income dispersion generated by quantitative models. Online appendix table A4 lists the CZs that are above the
+95th percentile of gross income losses—not accounting for any offsetting
+gains from trade—which is 2.23 percentage points. The number of CZs
+that suffered net declines in welfare depends, of course, on the magnitude
+of the gains from trade that potentially offset these gross losses. The high
+variance of impacts across CZs, relative to apparently small average gains
+from trade in quantitative analyses, raises the possibility that many CZs
+suffered net welfare losses. In Caliendo, Dvorkin, and Parro (2019) and
+Galle, Rodríguez-Clare, and Yi (2017), gains from trade in the aggregate are
+0.22 percent or less. When adding this value to the gross losses calculated
+above, the implied number of CZs experiencing net losses from trade is 223,
+representing 32.8 percent of the US continental population in 2000. Even if
+we double these gains to 0.44 percent, 173 CZs, representing 15.9 percent
+of the US population, would be estimated to have suffered net absolute
+welfare losses.
+The translation of the CZ-level relative effects into absolute level effects
+hinges on the impact of trade on consumer prices. Jaravel and Sager (2019)
+estimate the impact of the China trade shock on consumer prices in a
+reduced-form analysis. Using the 1991–2007 trade shock from Autor and
+others (2014), they find that a 1.0 percentage point larger increase in import
+penetration produces a decline in consumer prices of 1.4 percent.55 Using
+the mean decadalized change in import penetration over 2000–2012 of
+0.89 percentage points (table 1), the implied reduction in consumer prices
+based on Jaravel and Sager (2019) is 1.25 percent. If the positive impact
+of trade exposure on consumer prices is indeed this large—over five times
+the gains from the China trade shock based on quantitative analyses—the
+number of CZs suffering net losses from trade is smaller but still meaningful. In figure 14, there are 82 CZs, representing 6.3 percent of US population, with declines in personal income per capita of 1.25 percent or more.
+For these CZs, the net welfare effect of trade with China is negative, even
+when applying the sizable Jaravel and Sager (2019) price index adjustment.
+Given the large dispersion of per capita incomes across CZs in figure 14,
+there would have to be enormous consumer price benefits from trade with
+China in order to generate net average gains for all US CZs.
+55. Dorn and Levell (2021) analyze the impact of trade with China on consumer prices
+in the United Kingdom and obtain treatment effects that are about half as large as those in
+Jaravel and Sager (2019)
+
+AUTOR, DORN, and HANSON
+
+435
+
+VI. Concluding Discussion
+Economists have long known that individuals are scarred by job loss.
+Displaced workers earn significantly less than similar workers who are not
+displaced, even years after displacement. The China trade shock caused
+locally concentrated job loss, which led to lasting declines in employment
+rates and income levels in the most exposed communities. Despite these
+now well-documented adverse labor market impacts of globalization, there
+is no consensus about how to remediate such injuries.
+The United States does little to protect workers from mass layoff events
+such as the China trade shock. Although Trade Adjustment Assistance
+delivers benefits to some workers who have been displaced by trade
+shocks (Hyman 2018), the program is far too small to have reached most
+workers who lost their jobs because of import competition in the 1990s
+and 2000s. A further limitation of Trade Adjustment Assistance is that it
+conditions assistance on the cause of job loss, that is, trade. Presumably,
+job loss is equally scarring no matter whether the underlying cause of
+displacement is import competition, technological change (Autor and
+Dorn 2013; Acemoglu and Restrepo 2020), government regulation (Walker
+2013), or some other factor. Policy failures in this domain are far from
+innocuous. The political gains of US and European nationalist-populists,
+for instance, have been greater in regions that have suffered larger tradeinduced employment declines (Colantone and Stanig 2018a, 2018b; Autor
+and others 2020a; Rodrik 2020).
+The favored solution of populist politicians to regional distress is to
+raise import barriers and block immigration. Indeed, the Donald J. Trump
+administration cited the adverse impacts of the China trade shock to justify
+taking aggressive trade action against China (Redding 2020). The subsequent US-China trade war succeeded in elevating US product prices
+(Amiti, Redding, and Weinstein 2019; Fajgelbaum and others 2020; Cavallo
+and others 2021) but not in expanding employment in import-protected
+sectors (Flaaen and Pierce 2019). We are aware of no research that would
+justify ex post protectionist trade measures as a means of helping workers
+hurt by past import competition.
+Recent literature suggests that fostering employment growth in regions
+beset by chronic joblessness may help workers hurt by persistent negative
+local labor demand shocks.56 Austin, Glaeser, and Summers (2018) find that
+employment impacts of labor demand shocks are larger in local markets in
+56. On optimal spatial policies, see Fajgelbaum and Gaubert (2020) and Gaubert, Kline,
+and Yagan (2021).
+
+436
+
+Brookings Papers on Economic Activity, Fall 2021
+
+which joblessness was initially high. Bartik (2020) argues further that job
+growth in distressed regions is especially beneficial for low-wage workers.
+Absent success in helping regions left behind by globalization, one may
+expect continued popular support for political platforms that disparage
+foreign trade, despite the apparent inefficacy of these platforms to date.
+Because of the distinctiveness of the China trade shock—in terms of its
+enduring magnitude and concentration in place and time—some see it
+as holding few lessons for policymakers. Such characterizations are mistaken. Large, localized contractions in labor demand—for example, trade
+and technology shocks to autos and steel in the 1970s, price shocks to coal in
+the 1980s, and ongoing automation and roboticization—are unfortunately
+common events. The global economy is now witnessing another round of
+localized shocks, arising from the energy transition. If economies succeed
+in sharply reducing reliance on fossil fuels, demand will plummet for the
+workers who mine coal, drill for oil and gas, refine petroleum, and transport
+and distribute these outputs (Popp and others 2021). Industries that are
+energy intensive in production and that located their operations close to
+carbon-based energy sources may also experience significant disruptions.
+Although increased demand for renewable energy will surely create new
+jobs in harnessing solar, wind, and hydro power, these jobs may be located
+far from existing carbon-based production facilities. New energy-intensive
+industries, such as data centers, may choose to locate near renewable energy
+providers, possibly further disadvantaging those working in the carbon-based
+economy. We are now armed with knowledge both of the consequences of
+localized job loss and the likely location of future worker displacement. This
+should enable policymakers to prepare for assisting workers, as carbon-based
+jobs disappear, and regions, as they reorient toward less carbon-intensive
+activities. Without such preparation, the energy transition may add to the
+painful history of regionalized job loss.
+It is now clear that the China trade shock as we understand it appears
+to have stopped intensifying a decade ago. The China shock of the 1990s
+and 2000s was about China’s onetime transition to a market economy. This
+transition, which affected US industries that were late in their economic
+life cycles, was in some sense forecastable based on market fundamentals,
+both in China and the United States. The next China shock may be more
+likely to be triggered by industrial policy, for example, if China makes
+good on its promise to support advanced technology industries. Such a
+shock may depend less on market fundamentals and more on China’s future
+interventionist policy choices—and the reactions of the United States and
+other countries to these choices—making its dimensions difficult to foresee.
+
+AUTOR, DORN, and HANSON
+
+437
+
+Because of China’s immense scale and willingness to enact sweeping policy
+changes in short order, future China shocks may again have profound albeit
+unpredictable consequences.
+
+ACKNOWLEDGMENTS For helpful comments, we thank Loren Brandt,
+Lorenzo Caliendo, Federico Esposito, Bruno Ferman, Stephen Redding,
+Andrés Rodríguez-Clare, Katheryn Russ, Jonathan Vogel, and, especially,
+Marianne Bertrand, Edward Glaeser, and James Stock. Anne Beck, Peter Bruno,
+Brendan Chapuis, Rebecca Jackson, René Livas, Sophia Mo, and Savannah
+Noray provided excellent research assistance. Autor thanks the following for
+financial support: Smith Richardson Foundation (#20202252), Accenture LLP
+(#027843-0001), and Andrew Carnegie Fellowship (G-F-19-56882). Dorn
+acknowledges support by the University of Zurich’s Research Priority Program
+Equality of Opportunity.
+
+438
+
+Brookings Papers on Economic Activity, Fall 2021
+
+References
+Acemoglu, Daron, David H. Autor, David Dorn, Gordon H. Hanson, and Brendan
+Price. 2016. “Import Competition and the Great US Employment Sag of the
+2000s.” Journal of Labor Economics 34, no. S1: S141–98.
+Acemoglu, Daron, and Pascual Restrepo. 2020. “Robots and Jobs: Evidence from
+US Labor Markets.” Journal of Political Economy 128, no. 6: 2188–244.
+Adão, Rodrigo, Costas Arkolakis, and Federico Esposito. 2019. “Spatial Linkages,
+Global Shocks, and Local Labor Markets: Theory and Evidence.” Working
+Paper 2019-10. Chicago: University of Chicago, Becker Friedman Institute for
+Economics.
+Adão, Rodrigo, Michal Kolesár, and Eduardo Morales. 2019. “Shift-Share Designs:
+Theory and Inference.” Quarterly Journal of Economics 134, no. 4: 1949–2010.
+Aghion, Philippe, Antonin Bergeaud, Matthieu Lequien, Marc Melitz, and Thomas
+Zuber. 2021. “Opposing Firm-Level Responses to the China Shock: Horizontal
+Competition versus Vertical Relationships?” Working Paper 29196. Cambridge,
+Mass.: National Bureau of Economic Research. https://www.nber.org/papers/
+w29196.
+Allcott, Hunt, and Daniel Keniston. 2017. “Dutch Disease or Agglomeration?
+The Local Economic Effects of Natural Resource Booms in Modern America.”
+Review of Economic Studies 85, no. 2: 695–731.
+Amior, Michael, and Alan Manning. 2018. “The Persistence of Local Joblessness.”
+American Economic Review 108, no. 7: 1942–70.
+Amiti, Mary, Stephen J. Redding, and David E. Weinstein. 2019. “The Impact of
+the 2018 Tariffs on Prices and Welfare.” Journal of Economic Perspectives 33,
+no. 4: 187–210.
+Anderson, Michael L. 2008. “Multiple Inference and Gender Differences in the
+Effects of Early Intervention: A Reevaluation of the Abecedarian, Perry Preschool,
+and Early Training Projects.” Journal of the American Statistical Association 103,
+no. 484: 1481–95.
+Arkolakis, Costas, Arnaud Costinot, and Andrés Rodríguez-Clare. 2012. “New Trade
+Models, Same Old Gains?” American Economic Review 102, no. 1: 94–130.
+Asquith, Brian, Sanjana Goswami, David Neumark, and Antonio Rodriguez-Lopez.
+2019. “U.S. Job Flows and the China Shock.” Journal of International Economics
+118:123–37.
+Austin, Benjamin, Edward L. Glaeser, and Lawrence Summers. 2018. “Jobs for the
+Heartland: Place-Based Policies in 21st-Century America.” Brookings Papers on
+Economic Activity, Spring, 151–232.
+Autor, David H., and David Dorn. 2013. “The Growth of Low-Skill Service Jobs
+and the Polarization of the US Labor Market.” American Economic Review 103,
+no. 5: 1553–97.
+Autor, David H., David Dorn, and Gordon H. Hanson. 2013a. “The China Syndrome:
+Local Labor Market Effects of Import Competition in the United States.” American Economic Review 103, no. 6: 2121–68.
+
+AUTOR, DORN, and HANSON
+
+439
+
+Autor, David H., David Dorn, and Gordon H. Hanson. 2013b. “The Geography
+of Trade and Technology Shocks in the United States.” American Economic
+Review 103, no. 3: 220–225.
+Autor, David H., David Dorn, and Gordon H. Hanson. 2016. “The China Shock:
+Learning from Labor Market Adjustment to Large Changes in Trade.” Annual
+Review of Economics 8, no. 1: 205–40.
+Autor, David H., David Dorn, and Gordon H. Hanson. 2019. “When Work Disappears: Manufacturing Decline and the Falling Marriage Market Value of
+Young Men.” American Economic Review: Insights 1, no. 2: 161–78.
+Autor, David H., David Dorn, Gordon H. Hanson, and Kaveh Majlesi. 2020a.
+“Importing Political Polarization? The Electoral Consequences of Rising Trade
+Exposure.” American Economic Review 110, no. 10: 3139–83.
+Autor, David H., David Dorn, Gordon H. Hanson, Gary Pisano, and Pian Shu.
+2020b. “Foreign Competition and Domestic Innovation: Evidence from US
+Patents.” American Economic Review: Insights 2, no. 3: 357–74.
+Autor, David H., David Dorn, Gordon H. Hanson, and Jae Song. 2014. “Trade
+Adjustment: Worker-Level Evidence.” Quarterly Journal of Economics 129,
+no. 4: 1799–860.
+Bai, Liang, and Sebastian Stumpner. 2019. “Estimating US Consumer Gains from
+Chinese Imports.” American Economic Review: Insights 1, no. 2: 209–24.
+Bai, Xue, Kala Krishna, and Hong Ma. 2017. “How You Export Matters: Export
+Mode, Learning and Productivity in China.” Journal of International Economics
+104:122–37.
+Balassa, Bela. 1965. “Trade Liberalisation and ‘Revealed’ Comparative Advantage.”
+Manchester School 33, no. 2: 99–123.
+Bartik, Alexander W., Janet Currie, Michael Greenstone, and Christopher R. Knittel.
+2019. “The Local Economic and Welfare Consequences of Hydraulic Fracturing.”
+American Economic Journal: Applied Economics 11, no. 4: 105–55.
+Bartik, Timothy J. 1991. Who Benefits from State and Local Economic Development
+Policies? Kalamazoo, Mich.: W. E. Upjohn Institute.
+Bartik, Timothy J. 2020. “Should Place-Based Jobs Policies Be Used to Help Distressed Communities?” Journal of Economic Perspectives 34, no. 3: 99–127.
+Batistich, Mary Kate, and Timothy N. Bond. 2019. “Stalled Racial Progress and
+Japanese Trade in the 1970s and 1980s.” Working Paper 12133. Bonn: IZA
+Institute of Labor Economics.
+Behrens, Kristian, Gilles Duranton, and Frédéric Robert-Nicoud. 2014. “Productive
+Cities: Sorting, Selection, and Agglomeration.” Journal of Political Economy
+122, no. 3: 507–53.
+Beraja, Martin, Erik Hurst, and Juan Ospina. 2019. “The Aggregate Implications of
+Regional Business Cycles.” Econometrica 87, no. 6: 1789–833.
+Bergsten, C. Fred, and Joseph E. Gagnon. 2017. Currency Conflict and Trade Policy:
+A New Strategy for the United States. Washington: Peterson Institute for International Economics.
+
+440
+
+Brookings Papers on Economic Activity, Fall 2021
+
+Bernard, Andrew B., Bradford Jensen, and Peter K. Schott. 2006. “Survival of the
+Best Fit: Exposure to Low-Wage Countries and the (Uneven) Growth of U.S.
+Manufacturing Plants.” Journal of International Economics 68, no. 1: 219–37.
+Black, Dan, Kermit Daniel, and Seth Sanders. 2002. “The Impact of Economic
+Conditions on Participation in Disability Programs: Evidence from the Coal
+Boom and Bust.” American Economic Review 92, no. 1: 27–50.
+Black, Dan, Terra McKinnish, and Seth Sanders. 2005. “The Economic Impact of
+the Coal Boom and Bust.” Economic Journal 115, no. 503: 449–76.
+Blanchard, Olivier Jean, and Lawrence F. Katz. 1992. “Regional Evolutions.” Brookings Papers on Economic Activity, no. 1: 1–75.
+Bloom, Nicholas, Kyle Handley, Andre Kurman, and Phillip Luck. 2019. “The
+Impact of Chinese Trade on U.S. Employment: The Good, the Bad, and the
+Debatable.” https://nbloom.people.stanford.edu/sites/g/files/sbiybj4746/f/bhkl_
+posted_draft.pdf.
+Boehm, Christoph E., Aaron Flaaen, and Nitya Pandalai-Nayar. 2020. “Multinationals, Offshoring, and the Decline of US Manufacturing.” Journal of International Economics 127:103391.
+Borjas, George J., and Valerie A. Ramey. 1995. “Foreign Competition, Market
+Power, and Wage Inequality.” Quarterly Journal of Economics 110, no. 4:
+1075–110.
+Borusyak, Kirill, Peter Hull, and Xavier Jaravel. 2022. “Quasi-Experimental ShiftShare Research Designs.” Review of Economic Studies 89, no. 1: 181–213.
+Borusyak, Kirill, and Xavier Jaravel. 2021. “The Distributional Effects of Trade:
+Theory and Evidence from the United States.” Working Paper 28957. Cambridge,
+Mass.: National Bureau of Economic Research. https://www.nber.org/papers/
+w28957.
+Bound, John, and Harry J. Holzer. 2000. “Demand Shifts, Population Adjustments,
+and Labor Market Outcomes during the 1980s.” Journal of Labor Economics 18,
+no. 1: 20–54.
+Brandt, Loren, and Kevin Lim. 2020. “Accounting for Chinese Exports.” Working
+Paper. https://www.economics.utoronto.ca/public/workingPapers/tecipa-680.pdf.
+Brandt, Loren, John Litwack, Elitza Mileva, Luhang Wang, Yifan Zhang, and Luan
+Zhao. 2020. “China’s Productivity Slowdown and Future Growth Potential.”
+Working Paper 9298. Washington: World Bank Group. https://openknowledge.
+worldbank.org/handle/10986/33993.
+Brandt, Loren, and Peter M. Morrow. 2017. “Tariffs and the Organization of Trade
+in China.” Journal of International Economics 104:85–103.
+Brandt, Loren, Trevor Tombe, and Xiaodong Zhu. 2013. “Factor Market Distortions
+across Time, Space and Sectors in China.” Review of Economic Dynamics 16,
+no. 1: 39–58.
+Brandt, Loren, Johannes Van Biesebroeck, Luhang Wang, and Yifan Zhang. 2017.
+“WTO Accession and Performance of Chinese Manufacturing Firms.” American
+Economic Review 107, no. 9: 2784–820.
+
+AUTOR, DORN, and HANSON
+
+441
+
+Brandt, Loren, Johannes Van Biesebroeck, and Yifan Zhang. 2012. “Creative
+Accounting or Creative Destruction? Firm-Level Productivity Growth in Chinese
+Manufacturing.” Journal of Development Economics 97, no. 2: 339–51.
+Cadena, Brian C., and Brian K. Kovak. 2016. “Immigrants Equilibrate Local Labor
+Markets: Evidence from the Great Recession.” American Economic Journal:
+Applied Economics 8, no. 1: 257–90.
+Caliendo, Lorenzo, Maximiliano Dvorkin, and Fernando Parro. 2019. “Trade and
+Labor Market Dynamics: General Equilibrium Analysis of the China Trade
+Shock.” Econometrica 87, no. 3: 741–835.
+Cavallo, Alberto, Gita Gopinath, Brent Neiman, and Jenny Tang. 2021. “Tariff
+Pass-Through at the Border and at the Store: Evidence from US Trade Policy.”
+American Economic Review: Insights 3, no. 1: 19–34.
+Chan, Jeff. 2019. “Labour Market Characteristics and Surviving Import Shocks.”
+World Economy 42, no. 5: 1288–315.
+Charles, Kerwin Kofi, Erik Hurst, and Matthew J. Notowidigdo. 2016. “The Masking
+of the Decline in Manufacturing Employment by the Housing Bubble.” Journal
+of Economic Perspectives 30, no. 2: 179–200.
+Charles, Kerwin Kofi, Erik Hurst, and Matthew J. Notowidigdo. 2018. “Housing
+Booms and Busts, Labor Market Opportunities, and College Attendance.”
+American Economic Review 108, no. 10: 2947–94.
+Charles, Kerwin Kofi, Erik Hurst, and M. Schwartz. 2019. “The Transformation of
+Manufacturing and the Decline in US Employment.” NBER Macroeconomics
+Annual 33:307–72.
+Chetverikov, Denis, Bradley Larsen, and Christopher Palmer. 2016. “IV Quantile
+Regression for Group-Level Treatments, with an Application to the Distributional
+Effects of Trade.” Econometrica 84, no. 2: 809–33.
+Chodorow-Reich, Gabriel. 2019. “Geographic Cross-Sectional Fiscal Spending
+Multipliers: What Have We Learned?” American Economic Journal: Economic
+Policy 11, no. 2: 1–34.
+Chodorow-Reich, Gabriel. 2020. “Regional Data in Macroeconomics: Some Advice
+for Practitioners.” Journal of Economic Dynamics and Control 115:103875.
+Clay, Karen, and Margarita Portnykh. 2018. “The Short-Run and Long-Run
+Effects of Resources on Economic Outcomes: Evidence from the United States
+1936–2015.” Working Paper 24695. Cambridge, Mass.: National Bureau of Economic Research. https://www.nber.org/papers/w24695.
+Colantone, Italo, and Piero Stanig. 2018a. “Global Competition and Brexit.” American Political Science Review 112, no. 2: 201–18.
+Colantone, Italo, and Piero Stanig. 2018b. “The Trade Origins of Economic Nationalism: Import Competition and Voting Behavior in Western Europe.” American
+Journal of Political Science 62, no. 4: 936–53.
+Dauth, Wolfgang, Sebastian Findeisen, and Jens Suedekum. 2014. “The Rise of the
+East and the Far East: German Labor Markets and Trade Integration.” Journal
+of the European Economic Association 12, no. 6: 1643–75.
+
+442
+
+Brookings Papers on Economic Activity, Fall 2021
+
+Davis, Steven J., and John C. Haltiwanger. 2019. “Dynamism Diminished: The Role
+of Housing Markets and Credit Conditions.” Working Paper 25466. Cambridge,
+Mass.: National Bureau of Economic Research. https://www.nber.org/papers/
+w25466.
+Davis, Steven J., and Till von Wachter. 2011. “Recessions and the Costs of Job
+Loss.” Brookings Papers on Economic Activity, Fall, 1–72.
+Diamond, Rebecca. 2016. “The Determinants and Welfare Implications of US
+Workers’ Diverging Location Choices by Skill: 1980–2000.” American Economic
+Review 106, no. 3: 479–524.
+Dix-Carneiro, Rafael, and Brian K. Kovak. 2017. “Trade Liberalization and Regional
+Dynamics.” American Economic Review 107, no. 10: 2908–46.
+Dix-Carneiro, Rafael, João Paulo Pessoa, Ricardo M. Reyes-Heroles, and Sharon
+Traiberman. 2021. “Globalization, Trade Imbalances and Labor Market Adjustment.” Working Paper 28315. Cambridge, Mass.: National Bureau of Economic
+Research. https://www.nber.org/papers/w28315.
+Dorn, David. 2009. “Essays on Inequality, Spatial Interaction, and the Demand for
+Skills.” Diss., University of St. Gallen. https://www.e-helvetica.nb.admin.ch/api/
+download/urn%3Anbn%3Ach%3Abel-152672%3Adis3613.pdf/dis3613.pdf.
+Dorn, David, and Peter Levell. 2021. “Trade and Inequality in Europe and the US.”
+Working Paper 14914. Bonn: IZA Institute of Labor Economics.
+Eaton, Jonathan, and Samuel Kortum. 2002. “Technology, Geography, and Trade.”
+Econometrica 70, no. 5: 1741–79.
+Economist. 2015. “Made in China?” March 12. https://www.economist.com/leaders/
+2015/03/12/made-in-china.
+Economist. 2016. “Good Afternoon, Vietnam.” August 6. https://www.economist.
+com/finance-and-economics/2016/08/06/good-afternoon-vietnam.
+Ellison, Glenn, Edward L. Glaeser, and William R. Kerr. 2010. “What Causes
+Industry Agglomeration? Evidence from Coagglomeration Patterns.” American
+Economic Review 100, no. 3: 1195–213.
+Eriksson, Katherine, Katheryn Russ, Jay C. Shambaugh, and Minfei Xu. 2019.
+“Trade Shocks and the Shifting Landscape of US Manufacturing.” Working
+Paper 25646. Cambridge, Mass.: National Bureau of Economic Research. https://
+www.nber.org/papers/w25646.
+Faber, Marius, Andres Sarto, and Marco Tabellini. 2019. “The Impact of Technology and Trade on Migration: Evidence from the US.” Working Paper 20-071.
+Boston: Harvard Business School. https://hbswk.hbs.edu/item/the-impact-oftechnology-and-trade-on-migration-evidence-from-the-us.
+Fajgelbaum, Pablo D., and Cecile Gaubert. 2020. “Optimal Spatial Policies, Geography, and Sorting.” Quarterly Journal of Economics 135, no. 2: 959–1036.
+Fajgelbaum, Pablo D., Pinelopi K. Goldberg, Patrick J. Kennedy, and Amit K.
+Khandelwal. 2020. “The Return to Protectionism.” Quarterly Journal of Economics 135, no. 1: 1–55.
+Feenstra, Robert C. 2016. Advanced International Trade: Theory and Evidence.
+Princeton, N.J.: Princeton University Press.
+
+AUTOR, DORN, and HANSON
+
+443
+
+Feenstra, Robert C., and Gordon H. Hanson. 2005. “Ownership and Control in
+Outsourcing to China: Estimating the Property-Rights Theory of the Firm.”
+Quarterly Journal of Economics 120, no. 2: 729–61.
+Feenstra, Robert C., Hong Ma, and Yuan Xu. 2019. “US Exports and Employment.”
+Journal of International Economics 120:46–58.
+Feler, Leo, and Mine Z. Senses. 2017. “Trade Shocks and the Provision of Local
+Public Goods.” American Economic Journal: Economic Policy 9, no. 4: 101–43.
+Ferman, Bruno. 2019. “Assessing Inference Methods.” ArXiv:1912.08772. Ithaca,
+N.Y.: Cornell University.
+Feyrer, James, Erin T. Mansur, and Bruce Sacerdote. 2017. “Geographic Dispersion of Economic Shocks: Evidence from the Fracking Revolution.” American
+Economic Review 107, no. 4: 1313–34.
+Feyrer, James, Bruce Sacerdote, and Ariel Dora Stern. 2007. “Did the Rust Belt
+Become Shiny? A Study of Cities and Counties That Lost Steel and Auto Jobs
+in the 1980s.” Brookings-Wharton Papers on Urban Affairs, 41–102.
+Flaaen, Aaron, and Justin R. Pierce. 2019. “Disentangling the Effects of the
+2018–2019 Tariffs on a Globally Connected US Manufacturing Sector.” Finance
+and Economics Discussion Series 2019-086. Washington: Board of Governors
+of the Federal Reserve System. https://doi.org/10.17016/FEDS.2019.086.
+Fort, Teresa C., Justin R. Pierce, and Peter K. Schott. 2018. “New Perspectives
+on the Decline of US Manufacturing Employment.” Journal of Economic Perspectives 32, no. 2: 47–72.
+Galle, Simon, Andrés Rodríguez-Clare, and Moises Yi. 2017. “Slicing the Pie:
+Quantifying the Aggregate and Distributional Effects of Trade.” Working
+Paper 23737. Cambridge, Mass.: National Bureau of Economic Research. https://
+www.nber.org/papers/w23737.
+Gaubert, Cecile, Patrick M. Kline, and Danny Yagan. 2021. “Place-Based Redistribution.” Working Paper 28337. Cambridge, Mass.: National Bureau of Economic
+Research. https://www.nber.org/papers/w28337.
+Glaeser, Edward L., and Joseph Gyourko. 2005. “Urban Decline and Durable
+Housing.” Journal of Political Economy 113, no. 2: 345–75.
+Glaeser, Edward L., Joseph Gyourko, and Raven Saks. 2005. “Why Is Manhattan
+So Expensive? Regulation and the Rise in Housing Prices.” Journal of Law and
+Economics 48, no. 2: 331–70.
+Glaeser, Edward L., Jose A. Scheinkman, and Andrei Shleifer. 1995. “Economic
+Growth in a Cross-Section of Cities.” Journal of Monetary Economics 36, no. 1:
+117–43.
+Goldsmith-Pinkham, Paul, Isaac Sorkin, and Henry Swift. 2020. “Bartik Instruments:
+What, When, Why, and How.” American Economic Review 110, no. 8: 2586–624.
+Greenland, Andrew, and John Lopresti. 2016. “Import Exposure and Human
+Capital Adjustment: Evidence from the U.S.” Journal of International Economics
+100:50–60.
+Greenland, Andrew, John Lopresti, and Peter McHenry. 2019. “Import Competition
+and Internal Migration.” Review of Economics and Statistics 101, no. 1: 44–59.
+
+444
+
+Brookings Papers on Economic Activity, Fall 2021
+
+Grossman, Gene M. 1982. “The Employment and Wage Effects of Import Competition in the United States.” Working Paper 1041. Cambridge, Mass.: National
+Bureau of Economic Research. https://www.nber.org/papers/w1041.
+Guren, Adam, Alisdair McKay, Emi Nakamura, and Jón Steinsson. 2021. “What
+Do We Learn from Cross-Regional Empirical Estimates in Macroeconomics?”
+NBER Macroeconomics Annual 35:175–223.
+Handley, Kyle, and Nuno Limão. 2017. “Policy Uncertainty, Trade, and Welfare:
+Theory and Evidence for China and the United States.” American Economic
+Review 107, no. 9: 2731–83.
+Hanson, Gordon H. 2020. “Who Will Fill China’s Shoes? The Global Evolution
+of Labor-Intensive Manufacturing.” East Asian Economic Review 24, no. 4:
+313–36.
+Hanson, Gordon H., Nelson Lind, and Marc-Andreas Muendler. 2015. “The
+Dynamics of Comparative Advantage.” Working Paper 21753. Cambridge,
+Mass.: National Bureau of Economic Research. https://www.nber.org/papers/
+w21753.
+Heath, Rachel, and A. Mushfiq Mobarak. 2015. “Manufacturing Growth and the
+Lives of Bangladeshi Women.” Journal of Development Economics 115:1–15.
+Heckman, James J., Lance Lochner, and Christopher Taber. 1998. “Explaining Rising
+Wage Inequality: Explorations with a Dynamic General Equilibrium Model of
+Labor Earnings with Heterogeneous Agents.” Review of Economic Dynamics 1,
+no. 1: 1–58.
+Helpman, Elhanan. 2018. Globalization and Inequality. Cambridge, Mass.: Harvard
+University Press.
+Holmes, Thomas J., and John J. Stevens. 2014. “An Alternative Theory of the Plant
+Size Distribution, with Geography and Intra- and International Trade.” Journal
+of Political Economy 122, no. 2: 369–421.
+Hombert, Johan, and Adrien Matray. 2018. “Can Innovation Help U.S. Manufacturing Firms Escape Import Competition from China?” Journal of Finance 73,
+no. 5: 2003–39.
+Hottman, Colin J., and Ryan Monarch. 2020. “A Matter of Taste: Estimating Import
+Price Inflation across U.S. Income Groups.” Journal of International Economics
+127:103382.
+Hsieh, Chang-Tai, Erik Hurst, Charles I. Jones, and Peter J. Klenow. 2019. “The Allocation of Talent and U.S. Economic Growth.” Econometrica 87, no. 5: 1439–74.
+Hsieh, Chang-Tai, and Peter J. Klenow. 2009. “Misallocation and Manufacturing
+TFP in China and India.” Quarterly Journal of Economics 124, no. 4: 1403–48.
+Hsieh, Chang-Tai, and Enrico Moretti. 2019. “Housing Constraints and Spatial
+Misallocation.” American Economic Journal: Macroeconomics 11, no. 2: 1–39.
+Hsieh, Chang-Tai, and Ralph Ossa. 2016. “A Global View of Productivity Growth
+in China.” Journal of International Economics 102:209–24.
+Hsieh, Chang-Tai, and Zheng Michael Song. 2015. “Grasp the Large, Let Go of the
+Small: The Transformation of the State Sector in China.” Brookings Papers on
+Economic Activity, Spring, 295–366.
+
+AUTOR, DORN, and HANSON
+
+445
+
+Hu, Albert Guangzhou, and Gary H. Jefferson. 2009. “A Great Wall of Patents:
+What Is Behind China’s Recent Patent Explosion?” Journal of Development
+Economics 90, no. 1: 57–68.
+Huckfeldt, Christopher. 2021. “Understanding the Scarring Effect of Recessions.”
+American Economic Review, forthcoming.
+Hyman, Benjamin. 2018. “Can Displaced Labor Be Retrained? Evidence from
+Quasi-Random Assignment to Trade Adjustment Assistance.” Working Paper.
+Social Science Research Network, April 20. https://ssrn.com/abstract=3155386.
+Jacobsen, Grant D., and Dominic P. Parker. 2014. “The Economic Aftermath of
+Resource Booms: Evidence from Boomtowns in the American West.” Economic
+Journal 126, no. 593: 1092–128.
+Jacobson, Louis S., Robert J. LaLonde, and Daniel G. Sullivan. 1993. “Earnings
+Losses of Displaced Workers.” American Economic Review 83, no. 4: 685–709.
+Jaravel, Xavier, and Erick Sager. 2019. “What Are the Price Effects of Trade?
+Evidence from the US and Implications for Quantitative Trade Models.” CEP
+Discussion Paper 1642. London: Center for Economic Performance.
+Kearney, Melissa S., and Riley Wilson. 2018. “Male Earnings, Marriageable Men,
+and Nonmarital Fertility: Evidence from the Fracking Boom.” Review of Economics and Statistics 100, no. 4: 678–90.
+Kee, Hiau Looi, and Heiwai Tang. 2016. “Domestic Value Added in Exports:
+Theory and Firm Evidence from China.” American Economic Review 106,
+no. 6: 1402–36.
+Khandelwal, Amit K., Peter K. Schott, and Shang-Jin Wei. 2013. “Trade Liberalization and Embedded Institutional Reform: Evidence from Chinese Exporters.”
+American Economic Review 103, no. 6: 2169–95.
+Kim, Ryan, and Jonathan Vogel. 2020. “Trade and Welfare (across Local Labor
+Markets).” Working Paper 27133. Cambridge, Mass.: National Bureau of Economic Research. https://www.nber.org/papers/w27133.
+Kim, Sukkoo. 1995. “Expansion of Markets and the Geographic Distribution of
+Economic Activities: The Trends in U.S. Regional Manufacturing Structure,
+1860–1987.” Quarterly Journal of Economics 110, no. 4: 881–908.
+Kletzer, Lori G. 2001. Job Loss from Imports: Measuring the Costs. Washington:
+Peterson Institute for International Economics.
+Koopman, Robert, Zhi Wang, and Shang-Jin Wei. 2012. “Estimating Domestic
+Content in Exports When Processing Trade Is Pervasive.” Journal of Development Economics 99, no. 1: 178–89.
+Lagakos, David, and Michael E. Waugh. 2013. “Selection, Agriculture, and CrossCountry Productivity Differences.” American Economic Review 103, no. 2:
+948–80.
+Lardy, Nicholas R. 2019. The State Strikes Back: The End of Economic Reform in
+China? Washington: Peterson Institute for International Economics.
+Li, Lei. 2020. “Skill-Biased Imports, Human Capital Accumulation, and the
+Allocation of Talent.” CRC TR 224 Discussion Paper. https://www.kcg-kiel.org/
+wp-content/uploads/2020/06/LI_KCG-Seminar-on-260620.pdf.
+
+446
+
+Brookings Papers on Economic Activity, Fall 2021
+
+Liu, Chen, and Xiao Ma. 2020. “China’s Export Surge and the New Margins of
+Trade.” Working Paper. https://acsweb.ucsd.edu/∼xim032/pdfs/China_shock_
+draft.pdf
+Ma, Xiao. 2020. “College Expansion, Trade, and Innovation: Evidence from China.”
+Working Paper. https://acsweb.ucsd.edu/∼xim032/pdfs/college_inno.pdf.
+Maneschi, Andrea. 2008. “How Would David Ricardo Have Taught the Principle
+of Comparative Advantage?” Southern Economic Journal 74, no. 4: 1167–76.
+Mian, Atif, and Amir Sufi. 2014. “What Explains the 2007–2009 Drop in Employment?” Econometrica 82, no. 6: 2197–223.
+Michaels, Guy. 2008. “The Effect of Trade on the Demand for Skill: Evidence from
+the Interstate Highway System.” Review of Economics and Statistics 90, no. 4:
+683–701.
+Michaels, Guy. 2010. “The Long Term Consequences of Resource-Based Specialisation.” Economic Journal 121, no. 551: 31–57.
+Monte, Ferdinando, Stephen J. Redding, and Esteban Rossi-Hansberg. 2018.
+“Commuting, Migration, and Local Employment Elasticities.” American Economic Review 108, no. 12: 3855–90.
+Naughton, Barry J. 2006. The Chinese Economy: Transitions and Growth. Cambridge,
+Mass.: MIT Press.
+Naughton, Barry J. 2016. “Inside and Outside: The Modernized Hierarchy That
+Runs China.” Journal of Comparative Economics 44:404–415.
+Notowidigdo, Matthew J. 2020. “The Incidence of Local Labor Demand Shocks.”
+Journal of Labor Economics 38, no. 3: 687–725.
+Pierce, Justin R., and Peter K. Schott. 2016. “The Surprisingly Swift Decline
+of US Manufacturing Employment.” American Economic Review 106, no. 7:
+1632–62.
+Pierce, Justin R., and Peter K. Schott. 2020. “Trade Liberalization and Mortality:
+Evidence from US Counties.” American Economic Review: Insights 2, no. 1:
+47–64.
+Popp, David, Francesco Vona, Giovanni Marin, and Ziqiao Chen. 2021. “The
+Employment Impact of a Green Fiscal Push: Evidence from the American
+Recovery and Reinvestment Act.” In the present volume of Brookings Papers
+on Economic Activity.
+Redding, Stephen J. 2020. “Trade and Geography.” Working Paper 27821. Cambridge, Mass.: National Bureau of Economic Research. https://www.nber.org/
+papers/w27821.
+Ricardo, David. 1815. An Essay on the Influence of a Low Price of Corn on the
+Profits of Stock, with Remarks on Mr. Malthus’ Two Last Publications. Oxford
+University.
+Rodríguez-Clare, Andres, Mauricio Ulate, and Jose P. Vásquez. 2020. “NewKeynesian Trade: Understanding the Employment and Welfare Effects of SectorLevel Shocks.” Working Paper 2020-32. Federal Reserve Bank of San Francisco.
+https://www.frbsf.org/economic-research/files/wp2020-32.pdf.
+
+AUTOR, DORN, and HANSON
+
+447
+
+Rodrik, Dani. 2020. “Why Does Globalization Fuel Populism? Economics, Culture,
+and the Rise of Right-Wing Populism.” Working Paper 27526. Cambridge, Mass.:
+National Bureau of Economic Research.
+Roy, A. D. 1951. “Some Thoughts on the Distribution of Earnings.” Oxford Economic
+Papers 3, no. 2: 135–46.
+Song, Zheng, Kjetil Storesletten, and Fabrizio Zilibotti. 2011. “Growing Like China.”
+American Economic Review 101, no. 1: 196–233.
+Tolbert, Charles M., and Molly Sizer. 1996. “US Commuting Zones and Labor
+Market Areas: A 1990 Update.” Staff Paper AGES-9614. Washington: US Department of Agriculture. https://usa.ipums.org/usa/resources/volii/cmz90.pdf.
+Vogel, Ezra F. 2011. Deng Xiaoping and the Transformation of China. Cambridge,
+Mass.: Harvard University Press.
+Walker, W. Reed. 2013. “The Transitional Costs of Sectoral Reallocation: Evidence
+from the Clean Air Act and the Workforce.” Quarterly Journal of Economics
+128, no. 4: 1787–835.
+Wei, Shang-Jin, Zhuan Xie, and Xiaobo Zhang. 2017. “From ‘Made in China’ to
+‘Innovated in China’: Necessity, Prospect, and Challenges.” Journal of Economic
+Perspectives 31, no. 1: 49–70.
+Wilson, William Julius. 1996. When Work Disappears: The World of the New Urban
+Poor. New York: Alfred A. Knopf; Vintage Books, 1997.
+Wolf, Christian K. 2019. “The Missing Intercept in Cross-Regional Regressions.”
+Working Paper. https://scholar.princeton.edu/sites/default/files/ckwolf/files/
+missing_intercept.pdf.
+Wood, Adrian. 1995. “How Trade Hurt Unskilled Workers.” Journal of Economic
+Perspectives 9, no. 3: 57–80.
+Wood, Adrian. 2018. “The 1990s Trade and Wages Debate in Retrospect.” World
+Economy 41, no. 4: 975–99.
+Yagan, Danny. 2019. “Employment Hysteresis from the Great Recession.” Journal
+of Political Economy 127, no. 5: 2505–58.
+Yu, Miaojie. 2015. “Processing Trade, Tariff Reductions, and Firm Productivity:
+Evidence from Chinese Firms.” Economic Journal 125, no. 585: 943–88.
+
+

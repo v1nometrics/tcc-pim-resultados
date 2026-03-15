@@ -1,0 +1,405 @@
+Análise Envoltória de Dados: Uma aplicação no Polo de Industrial de
+Manaus (PIM)
+Afonso Fonseca Fernandes (Devry|FMF) afernandes@fmf.edu.br
+Américo Matsuo Minori (UFAM) aminori@bol.com.br
+Raimundo Nonato Morais (Faculdade Boas Novas) raimundo.morais@fbnovas.edu.br
+
+Resumo:
+O presente artigo teve como objetivo determinar os índices de eficiência relativa dos subsetores
+industriais do Polo Industrial de Manaus nos de 2010 e 2014. Para tanto, utilizou-se a técnica nãoparamétrica de Analise Envoltória de dados (DEA) para a estimação da eficiência a partir dos modelo
+CCR e BCC, ambos orientados a insumos. Os dados das DMUs, de insumos e produtos são do
+relatório Indicadores de Desempenho do Polo Industrial de Manaus (PIM) elaborado anualmente pela
+Superintendência da Zona Franca de Manaus (SUFRAMA). Os resultados obtidos mostraram que os
+nove principais subsetores industriais que representam 90% do faturamento do PIM apresentaram-se
+ineficientes com a média de eficiência em torno de 50%, exceto o setor Químico que se apresentou
+eficiente, global e tecnicamente. A ineficiência encontrada independente do ano observado, 2010, ano
+sem crise, com o registro do maior nível do PIB ou com crise, o ano de 2014 registrando o menor nível
+do PIB, segundo dados do IPEADATA.
+Palavras chave: DEA. CCR. BCC. Eficiência.
+
+Data Envelopment Analysis: An application at the Industrial Pole of
+Manaus (IPM)
+Abstract
+This article had the aim to determine the relative efficiency indices of the industrial sectors of the
+Industrial Pole of Manaus in 2010 and 2014. Thefore, the non-parametric Data Envelopment Analysis
+technique was used to estimate the efficiency from the CCR and BCC models, both oriented to inputs.
+DMU data, inputs and outputs are from the Performance Indicators report of the Industrial Pole of
+Manaus (PIM), prepared annually by the Superintendence of the Manaus Free Trade Zone
+(SUFRAMA). The results showed that the nine major industrial sectors that represent 90% of the
+IMP's revenues were inefficient with an average efficiency of around 50%, except for the Chemical
+sector, which was efficient, global and technically efficient. The inefficiency found independent of the
+observed year, 2010, year without crisis, with the record of the highest level of GDP or with crisis, the
+year of 2014 registering the lowest level of GDP, according to IPEADATA data.
+Key-words: DEA. CCR. BCC. Efficiency.
+
+1 Introdução
+Com a revolução industrial ocorrida no século XVIII, a indústria ganhou importância
+principalmente no crescimento da produção em escala para atender as necessidades da
+sociedade, seja em quantidade e facilidade de acesso aos produtos, seja em qualidade. Além
+do aumento da capacidade de transformação das matérias-primas em produto para atender a
+necessidade da população, outros benefícios inerentes da atividade industrial contribuíram
+para o bem-estar da sociedade, pesquisa e desenvolvimento, geração e diversificação de
+outros produtos, criação de mais empregos, apenas para citar como exemplos.
+No cenário da economia brasileira, uma evidência da importância da indústria é que a
+indústria de transformação inclusos os serviços de utilidade pública, tais como água, energia,
+gás de cozinha e a indústria de extrativa de mineral, representou 19% do Produto Interno
+Bruto (PIB), conforme dados do Sistema de Contas Nacionais do Instituto Brasileiro de
+Geografia e Estatística-IBGE (2015). Ainda, conforme esta entidade, a indústria de
+transformação representou 11% do PIB, demonstrando a importância desse segmento para o
+Brasil.
+De acordo com os dados da Superintendência da Zona Franca de Manaus-SUFRAMA (2015),
+o Polo Industrial de Manaus (PIM) é considerado o maior pólo industrial da América Latina
+com aproximadamente 600 empresas de diversos portes e com faturamento acima de US$
+30,1 bilhões. Gera aproximadamente 100 mil empregos diretos e 400 mil empregos indiretos
+somente em Manaus, e mais de 20 mil na Amazônia Ocidental (Acre, Rondônia e Roraima).
+Desse conjunto de indústrias, nove subsetores se destacam: o eletroeletrônico, o de duas
+rodas, o termoplástico, o metalúrgico, o mecânico, químico, o papelão, o relojoeiro e o grupo
+composto por isqueiro, barbeadores e descartáveis, tendo em vista que juntos representam
+mais de 90% do faturamento total do PIM. Todavia, a contribuição industrial para o
+desenvolvimento de uma região ou país pode pouco ser significativa se não existir um
+mecanismo de avaliação de eficiência diante de uma crise econômica financeira.
+Neste contexto, o objetivo deste artigo é determinar o índice de eficiência relativa de nove
+subsetores do Polo Industrial de Manaus (PIM) por meio da modelagem DEA nos anos de
+2010 e 2014.
+A escolha do período de 2010 e 2014 se justifica, conforme dados disponibilizados no
+IPEADATA (2017), por representar, respectivamente, o ano sem crise com o PIB real positivo
+no primeiro trimestre de 9,21%, e ano com crise com o PIB real negativo no quarto trimestre
+de -0,31%. Por meio da técnica não-paramétrica Análise Envoltória de Dados (DEA) serão
+identificados quais subsetores denominadas como Decision Making Unit (DMU)
+permaneceram eficientes nestes períodos de crise e não crise. De outra forma, a técnica DEA
+visou identificar quais subsetores conseguiram a melhor combinação no uso dos insumos
+disponíveis a fim de ser eficiente no período considerado como não crise e crise.
+2 Referencial Teórico
+2.2 Conceitos de Eficiência e técnicas de estimação
+Segundo Mariano (2007) dois fatores impactam na eficiência ou ineficiência produtiva: o de
+ordem técnica ou de escala de produção. Em consequência, surgem dois modelos para
+medição de desempenho: eficiência técnica e eficiência de escala. A eficiência técnica está
+relacionada a fatores típicos de engenharia como, por exemplo: treinamento ou qualificação
+dos funcionários, maquinário utilizado, qualidade do material, uso ou não das tecnologias, por
+exemplo, o uso das técnicas da indústria 4.0 tendo como fulcro a internet das coisas dentre
+outros. A eficiência ou deficiência de escala está relacionada com fatores econômicos,
+
+exemplo, a empresa estar ou não produzindo em sua escala ótima de produção em função da
+economia (não crise) ou deseconomia (crise) que a unidade está inserida.
+O sistema de medição de eficiência categoriza a eficiência produtiva em: (a) a Eficiência
+Produtiva total, que mede a capacidade de uma DMU transformar inputs em outputs em
+proporções adequadas e de maneira produtiva; (b) a Eficiência Técnica que é um índice que
+representa o quanto da eficiência produtiva de uma empresa pode ser relacionada a fatores
+técnicos ou de engenharia e; (c) a Eficiência de Escala que é um índice que representa o
+quanto da eficiência produtiva de uma empresa pode ser relacionada a fatores econômicos ou
+de escala (MARIANO, 2007). Na figura 1, Belloni (2000) ilustra na direção da ineficiência.
+
+Fonte Adaptado de Belloni (2000)
+Figura 1- Ineficiência técnica, de escala e total
+
+De acordo com a Figura 1, o segmento AB corresponde a ineficiência técnica; BC, a
+ineficiência de escala e AC a ineficiência produtiva total.
+Conforme Ferreira e Gomes (2009), a eficiência produtiva pode ser classificada em eficiência:
+técnica, com a menor utilização de insumos; de escala, para obter o nível de produção mais
+adequado; e alocativa, com o menor custo e maior receita aos preços de mercado.
+Segundo Lim e Zhu (2016) há muitas abordagens de medição de eficiência. Mariano e
+Rebelato (2010) defendem que há duas classes técnicas de análise de eficiência produtiva. A
+primeira é as paramétricas que necessitam da função produção relacionando os inputs às
+quantidades médias de outputs que eles podem produzir. Já a segunda, as não paramétricas,
+não necessitam da determinação da função produção. Baseiam-se no conceito de fronteira de
+eficiência. Ainda, segundo os autores, dentre as técnicas não paramétricas, uma das mais
+importantes é a DEA.
+Ao longo das últimas décadas, a metodologia DEA teve considerável atenção por parte dos
+gestores como uma ferramenta para medir o desempenho das empresas que administram.
+Além disso, tem sido amplamente utilizada para avaliar a eficiência tanto em setor público,
+quanto no setor privado, desde hospitais, universidades até companhias aéreas (LEE e JI,
+2010).
+Segundo Colin (2011), a Análise Envoltória de Dados (DEA), embora seja uma técnica
+relativamente nova, sua aplicação tem um crescimento de destaque por ser relativamente
+simples e ter aplicação em diversos problemas do mundo real. Esta técnica de estimação de
+eficiência relativa é bastante útil para unidades ou segmentos que trabalham de forma similar.
+Exemplo: redes de supermercado, indústrias de eletroeletrônicos, fabricantes de duas rodas,
+
+dentre outros. Cada unidade dentro do mesmo segmento, exemplo, farmácia 1, farmácia 2,
+assim por diante, são denominadas de Unidades de Tomada de Decisão (UTD). Estas UTDs
+são também conhecidas como Decision Making Unit (DMU).
+Por fim, Lorenzett et al. (2010), alertam que existe um grau de dificuldade para se encontrar
+um método para avaliação de desempenho relativo de unidades dentro de um segmento que
+seja eficiente e ainda estabelecer metas a serem adotadas para alcançar o grau de eficiência
+das unidades eficientes do grupo.
+3 Metodologia
+Conforme Andersson et al. (2017), a moderna técnica empírica de estimação de eficiência foi
+resultado do trabalho dos pesquisadores Charnes, Cooper e Rhodes (1978) com a
+denominação de DEA. O autor ainda menciona que a base empírica da metodologia DEA foi
+o trabalho de Farrel (1957) que estabeleceu conceitos, princípios e fundamentos da DEA.
+3.1 Análise Envoltória de Dados (DEA)
+Conforme mencionado, Lim e Zhu (2016) ratifica que há muitas abordagens de estimação de
+medidas de eficiência. Os autores consideram que o modelo DEA possibilita uma melhor
+organização e análise de dados.
+A DEA é uma técnica não paramétrica que mede a eficiência relativa entre as unidades
+tomadoras de decisão (DMU-Decision Making Unit). Estas unidades possuem objetivos
+semelhantes e utilizam também variáveis de entradas e saídas semelhantes. E por ser uma
+técnica não-paramétrica, que difere das técnicas estatísticas tradicionais, possibilita estimar a
+eficiência relativa por meio de uma fronteira de eficiência que denomina quais os pontos
+limitam a produtividade sobre a qual uma unidade produtiva é eficiente (MORAIS, 2016).
+Conforme Coelli et al. (1998), a metodologia DEA, em sua forma original, se inicia com o
+modelo CCR orientado a insumo. O modelo CCR consistia em que para cada empresa, seria
+obtida uma medida de proporção de todas as saídas sobre todas as entradas, tais como u’qi /
+v’xi, onde u é um vetor Mx1 de pesos das saídas e v é um vetor Nx1 de pesos das entradas. Os
+pesos ideias seriam obtidos pela solução de problema de programação:
+max u, v (u’qi / v’xi)
+sujeito a
+u’qj / v’xj ≤ 1
+
+j = 1, 2, …, I
+
+u, v ≥ 0.
+Isso envolvia encontrar valores para u e v de modo que a eficiência da i-ésima firma fosse
+maximizada, sujeita a restrição de que todas as medidas de eficiência devem ser menor ou
+igual a 1. Coelli et al. (1998) adverte que uma formulação igual a essa apresenta inúmeras
+soluções, sendo impossível determinar a solução mais adequada para a estimar a eficiência.
+Para evitar isso, pode-se impor a restrição v’xi = 1, que prevê:
+max μ, ν (μ’qi),
+s.a.
+
+ν’xi = 1,
+
+μ’qj – ν’xj ≤ 0,
+
+j=1, 2, …, I
+
+μ, ν ≥ 0,
+onde a mudança de notação de u e v para μ e ν é usado para denotar um problema de
+programação linear diferente, conhecido como forma dos multiplicadores.
+
+Usando a dualidade em programação linear, obtém-se uma forma equivalente, a forma do
+envoltório (COELLI et al. 1998).
+min θ, λ θ,
+s.a.
+
+-qi + Qλ ≥ 0,
+
+θxi – Xλ ≥ 0,
+λ ≥ 0,
+onde θ é uma escalar e λ é um Ix1 vetor de constantes. A forma do envoltório envolve menos
+restrições do que a forma dos multiplicadores (N + M < I + 1). Conforme Coelli et al (1998),
+o valor de θ obtido é o índice de eficiência para a i-ésima firma. Satisfaz: θ ≤ 1, com valor 1
+indicando um ponto na fronteira e, portanto, uma firma tecnicamente eficiente, de acordo com
+a definição de Farrel (1957). O problema é repetido I vezes, com θ sendo obtido para cada
+firma.
+3.2 O Modelo CCR e o Modelo BCC
+A denominação do modelo CCR é derivada das iniciais dos seus autores Charnes, Cooper e
+Rhodes (1978). Também conhecido como modelo de retorno constante de escala (CRSConstant Return to Scala), significando que os input e outputs (entrada ou insumos e saídas
+ou produtos, respectivamente) são proporcionais entre si, ou seja, cresce ou decresce na
+mesma proporção (MARIANO et al., 2006). Ainda segundo o autor, a análise de eficiência no
+modelo CCR, pode ser orientada a insumos, para um dado produto, ou pode ser orientada ao
+produto, dado um determinado nível de insumos. O modelo de retorno constante de escala
+ocorre na prática com pouca frequência diante da realidade de mercado em razão das próprias
+imperfeições ou restrições e que se pressupõe que a tecnologia não muda de forma
+significativa registra Mariano et al. (2006).
+Conforme Morais (2016), no modelo CCR, as DMUs são comparadas de forma
+indiscriminada, independente da escala, calculando uma medida denominada de eficiência
+total que é conjunto das eficiências técnica e de escala. Em outros termos, o modelo BCC leva
+em conta que o fato de que, em diferentes escalas, as DMUs podem ter diferentes
+produtividades e ainda ser consideradas eficientes. Benicio et al. (2015) ratifica que o modelo
+de BCC considera que em situações diferentes a produtividade máxima é variável.
+Banker e Trall (1992), justificam que as tecnologias de produção impactam na produtividade
+em escala que as DMUs estão operando.
+O modelo BCC, criado pelos autores Banker, Charnes e Cooper (1984), cujas primeiras letras
+dos seus nomes deram a denominação do modelo, tendo como característica o retorno de
+escala variável (VRS-Variabel Returns to Scale). O modelo mede a eficiência técnica com a
+restrição de convexidade a fim de assegurar que a composição da DMU permita retornos de
+escala constante, crescente ou decrescente. Conforme Finamore et al. (2005), o modelo BCC
+compara DMUs em escalas diferentes. Estes autores ainda afirmam que o modelo BCC
+apresenta três tipos de retorno de escala:
+a) Retorno Crescente: quando um aumento do número de inputs provoca um aumento
+desproporcionalmente maior no número de outputs, identificando que a empresa está
+operando abaixo da capacidade ótima.
+b) Retorno Constante: quando um aumento do número de inputs provoca um aumento
+proporcional no número de outputs, identificando que a empresa está operando na capacidade
+ótima.
+
+c) Retorno Decrescente: quando um aumento do número de inputs provoca um aumento
+desproporcionalmente menor no número de outputs, identificando que a empresa está
+operando muito acima da capacidade ótima.
+Um melhor entendimento destes conceitos pode ser na Figura 2.
+
+Fonte: Coelli (1998)
+Figura 2 – Retorno Crescente, constante e Decrescente
+
+Observa-se que na Figura 2, a linha reta representa o modelo CCR de retorno constante de
+escala (RC), ou seja, uma variação no insumo provoca uma variação proporcional a esta
+variação. A curva pontilhada representa o modelo BCC e possui dois trechos, o de retorno
+crescente representado por RND (Retorno Não Decrescente) e o de retorno crescente
+representado por RNC (Retorno não Crescente). O trecho RND inicia no eixo dos x e vai até o
+ponto Rc, e o trecho RNC, acima do ponto Rc. No trecho RND (crescente), uma variação de
+insumo provoca uma variação de saída maior que a variação de insumo, já no trecho RNC,
+uma variação de insumo provoca uma variação menor de saída.
+Assevera Mariano et al. (2006) que os modelos CCR e BCC possibilitam a estimativas de
+diferentes eficiências conforme Figura 3:
+
+Fonte: Mariano, Almeida e Rebelatto (2006)
+Figura 3 – Modelos da DEA e os tipos de eficiência
+
+A eficiência estimada pelo modelo CCR é a eficiência global relativa cuja propriedade
+principal é a proporcionalidade entre inputs e outputs na fronteira, ou seja, o aumento
+(decremento) na quantidade dos inputs provocará acréscimo (redução) proporcional no valor
+dos outputs, enquanto no modelo BCC, a DMU que tiver o menor valor de um determinado
+input ou o menor valor de um certo output será eficiente (SOARES DE MELLO et al., 2005).
+3.3 Dados
+Os dados das DMUs, os nove principais subsetores industriais cujo somatório do faturamento
+destes no período representaram um valor superior a 90% do faturamento do PIM e dos
+insumos e produto, respectivamente, a aquisição de insumos e a quantidade média anual da
+mão-de-obra, e o faturamento, são oriundos do relatório de Indicadores de Desempenho do
+PIM publicado pela SUFRAMA (2015), no período de 2010 e 2014, conforme a figura 4.
+
+Fonte: Elaborado pelos autores (2017)
+Figura 4 – Matriz das variáveis e DMUs
+
+A orientação aos insumos nos modelos DEA é pertinente, uma vez que os subsetores
+industriais do PIM buscam a combinação ótima dos seus recursos para prover maior produção
+possível.
+O período analisado foi 2010, um ano sem crise com o PIB do primeiro trimestre de 9,21%.
+Em 2014, um ano de crise, o PIB do quarto trimestre foi de -0,31%, conforme figura 5
+(IPEADATA, 2017).
+
+Fonte: Adaptado pelos autores do IPEADATA (2017)
+Figura 5 – PIB Real
+
+Para o cálculo da eficiência foi utilizado o SIAD, software desenvolvido pela Universidade
+Federal Fluminense (UFF) disponibilizado gratuitamente.
+4 Resultados
+Os resultados obtidos pelos modelos DEA, o CCR e BCC, na forma de envelope, estão de
+acordo com o descrito na metodologia e atenderam ao objetivo proposto deste trabalho.
+Na construção do ranking dos resultados, verificou-se que, algumas DMUs obtiveram um
+score de 100% de eficiência, tanto com uso do modelo CCR quanto do BCC, evidenciando
+uma limitação da fronteira clássica da DEA em discriminar as unidades eficientes. Isso pode
+
+se tornar um problema quando se pretende tomar uma decisão, uma vez que as firmas
+apresentam uma falsa eficiência (SOARES DE MELLO et al., 2005).
+A solução dada ao problema de baixa discriminação entre as DMUs foi a avaliação da
+eficiência em uma fronteira invertida, introduzida por Yamada et al. (1994) e Entani et al.
+(2002), e usado por Lins et al. (2005) e Leta et al. (2005). Com a fronteira invertida é possível
+apresentar a eficiência normalizada das DMUs, aumentando o poder de discriminação entre
+elas. Dessa forma, foram apresentados os resultados das eficiências normalizadas para os
+modelos utilizados e apresentados nas tabelas 1 e 2 a seguir:
+
+Fonte: Elaboração própria
+Tabela 1 – Resultados das Eficiências utilizando o modelo CCR, orientado a input
+
+Fonte: Elaboração própria
+Tabela 2 – Resultados das Eficiências utilizando o modelo BCC, orientado a input
+
+Nas tabelas 1 e 2, confirmou-se que o setor Químico foi o mais eficiente no período analisado,
+conforme os conceitos de estimação de eficiência pela DEA. O setor Metalúrgico apresentou a
+maior variação negativa nos níveis de eficiência, respectivamente, de -39,0% e -45,6%, seja
+de eficiência global ou técnica, do ano de 2010 para o ano de 2014. O setor Eletroeletrônico
+apresentou uma grande variação positiva de 32,6% no nível de eficiência global, no ano de
+2010 para o ano de 2014 e manteve a variação positiva em 0,1% no nível de eficiência
+técnica, no ano de 2014. Além disso, evidenciou-se que os subsetores apresentaram-se uma
+média maior de variação nos níveis de eficiência quando a eficiência foi estimada pelo
+
+modelo BCC, -8,9% contra -0,8% pelo modelo CCR, respectivamente no ano de 2010, o ano
+sem crise e para o ano de 2014, o ano de crise. Os gráficos 1 e 2, abaixo, representam a
+eficiência das DMUS em função dos modelos CCR e BCC.
+
+Fonte: Elaboração própria
+Gráfico 1 – Eficiências das DMUs utilizando o modelo CCR nos anos de 2010 e 2014, orientado a input
+
+Fonte: Elaboração própria
+Gráfico 2 – Eficiências das DMUs utilizando o modelo BCC nos anos de 2010 e 2014, orientado a input
+
+É importante notar nos gráficos que as médias de eficiência nos dois modelos estão
+distribuídas em torno de 50%, o que é corroborado pela estimação média das eficiências
+global e técnica, normalizada, respectivamente, 51,92% e 51,51% no ano de 2010 e 58,47% e
+53,72% no ano de 2014.
+5 Conclusão
+Este trabalho objetivou determinar os índices de eficiência dos subsetores industriais do Polo
+Industrial de Manaus, nos anos de 2010 e 2014 por meio da técnica não-paramétrica
+denominada de Análise Envoltória de Dados. Os resultados obtidos demonstraram que os
+subsetores industriais apresentaram ineficiência nos anos analisados, independente de ser um
+ano sem ou com crise, conforme proposta do trabalho, exceto o setor Químico que se
+apresentou eficiente de acordo com os conceitos da DEA. De forma geral, os demais
+subsetores apresentaram-se ineficientes, variando negativamente na média de eficiência de um
+ano para o outro.
+A média de eficiência nos dois anos analisados, a partir dos modelos utilizados, em torno de
+50%, pode indicar os subsetores industriais do Polo Industrial tem espaço para ajustar seus
+planejamentos de produção a partir do uso racional dos recursos, principalmente dos insumosmatérias-primas que em grande parte é de procedência estrangeira, com o fim de atingir uma
+maior produção. Não custa lembrar que o Polo Industrial de Manaus enfrentar problemas
+crônicos de logística, infraestrutura e de efeitos da instabilidade econômica.
+Vale ressaltar que os modelos utilizados para a estimação da eficiência dos subsetores
+industriais do Polo Industrial de Manaus, permitem inferir por meio do modelo CCR que os
+subsetores industriais podem reduzir a utilização dos seus insumos em 50% e manter o nível
+de produção. De outra maneira, o modelo BCC permite inferir que a estimada pode estar
+relacionada com os efeitos de escala e o tipo de retorno que os subsetores industriais estão
+
+sujeitos. A identificação e os ajustes na escala de produção por parte dos subsetores
+proporcionaria uma maior e melhor produção. Novos estudos de eficiência dos subsetores
+industriais do PIM não cobertos por este trabalho proporcionariam identificar as causas da
+ineficiência.
+Referências
+ANDERSSON, C.; ANTELIUS, J.; MANSSON, J.; SUND, K. Technical efficiency and productivity for
+higher education institutions in Sweden. Scandinavian Journal of Educational Research. v.61(2), 2017.
+Disponível em:
+<http://www.tandfonline.com/action/showCitFormats?doi=10.1080%2F00313831.2015.1120230&>. Acesso em:
+25 Mar. 2017.
+BANKER, R. D.; CHARNES, A.; COOPER, W. Some Models for Estimating Technical and Scale
+Inefficiencies, in Data Envelopment Analysis. Management Science, v.30, n.9, pp. 1078-1092, Set. 1984.
+______; THRALL, R. Estimation of Returns to Scale Using Data Envelopment Analysis. European Journal
+Of Operational Research, v.62, pp. 74-84, 1992.
+BELLONI, José Ângelo. Uma metodologia de avaliação da eficiência produtiva de Universidade Federais
+Brasileiras. 2000. 245 f. Tese (Doutorado em Engenharia de Produção). Programa de Pós-Graduação em
+Engenharia de Produção/Departamento de Engenharia de Produção e Sistemas/Universidade Federal de Santa
+Catarina, Florianápolis, 2000.
+CHARNES, A.; COOPER, W.; RODES, E. Measuring the efficiency of decision making units. European
+Journal of Operational Rescarch, v.2, n. 6, pp. 429-444, 1978.
+COELLI, T.; RAO, D.; BATTESE, G. An introduction to efficiency and productivity analysis. London:
+Kluwer Academic Publishers, 1998.
+COLIN, E. C. Pesquisa operacional: 170 aplicações em estratégia, finanças, logística, produção, marketing
+e vendas. Rio de Janeiro: LTC, 2011.
+ENTANI, T.; MAEDA, Y.; TANAKA, H. Dual models of interval DEA and its extensions to interval data.
+European Journal of Operational Research, v.36, pp. 32-45, 2002.
+FARRELL, M. J. The measurement of productive efficienty. Journal Royal Statistical Society, v.120, part III,
+pp. 253-259, 1957.
+FERREIRA, C. M. C.; GOMES, A. P. Introdução à análise envoltória de dados. Viçosa: Editora UFV, 2009.
+389 p.
+FINAMORE, E. B.; GOMES, M.; PROVEZANO, A.; DIAS, R. S. Eficiência relativa dos setores econômicos
+do Rio Grande do Sul: uma aplicação do modelo DEA na matriz de insumo-produto. Análise, v. 16, n.2. pp.
+217-240, dez.2005. Disponível
+em:<http://revistaseletronicas.pucrs.br/ojs/index.php/face/article/download/272/221>.Acesso em: 01 de Mar.
+2017.
+IBGE. Sistema de Contas Nacionais. Rio de Janeiro: Ibge, 2015. 93 p.
+IPEADATA. Produto interno bruto (PIB real). Disponível em:
+http://www.ipeadata.gov.br/ExibeSerie.aspx?serid=38414. Acesso em 20 Mar. 2017.
+LEE, Choogoo; JI, Yong-bae. Data Envelopment Analysis. The StataJournal. v.10, n.2, p. 267-280, 2010.
+LETA, F. R.; SOARES DE MELLO, J. C. C. B.; GOMES, E. G.; ANGULO-MEZA, L. Métodos de melhora de
+ordenação em DEA aplicados à avaliação estática de tornos mecânicos. Investigação Operacional, v.25, n.2,
+pp. 229-242, 2005.
+LIM, S.; ZHU, J. A note on two-stage network DEA model: Frontier projection and duality. European Journal
+of Operational Research, Elsevier, vol.248(1), pages 342-346, 2016.
+LINS, M. P. E.; NOVAES, L. F. L.; LEGEY, L. F. L. Real estate value assessment: a double perspective data
+envelopment analysis. Annals of Operations Research, v. 138, n.1, pp. 79-96, 2005.
+LORENZETT, J. R.; LOPES, A. L. M.; LIMA, M.V. A. de. Aplicação de Métodos de Pesquisa Operacional
+(DEA) na avaliação de desempenho de unidades produtivas para a área de educação profissional. Revista
+Eletrônica de Estratégia e Negócios, Florianópolis, v.1, n.3, jan. 2010. Disponível em:
+<http://www.portaldeperiodicos.unisul.br/index.php/EeN/issue/view/48>. Acesso em 02 deMar. 2017.
+
+MARIANO, E. B; REBELLATO. D. A. do N. Sistematização do processo de escolha dos modelos e
+perspectivas da análise envoltória de dados por meio de um sistema especialista. In: ENCONTRO
+NACIONAL DE ENGENHARIA DE PRODUÇÃO, 30., 2010. São Carlos. Anais. Disponível
+em:<https://www.researchgate.net/publication/257397203_Sistematizacao_do_processo_de_escolha_dos_model
+os_e_perspectivas_da_analise_envoltoria_de_dados_por_meio_de_um_sistema_especialista> Acessado em: 24
+de Mar. 2017.
+______; ALMEIDA M. R.; REBELATTO, D. A. N. Princípios Básicos para uma proposta de ensino sobre
+análise por envoltória de dados. In: CONGRESSO BRASILEIRO DE ENSINO DE ENGENHARIA
+(COBENGE 2006), 34., 2006, Passo Fundo. Anais… Passo Fundo: Abenge, 2006. Disponível em:
+<https://www.researchgate.net/profile/Enzo_Mariano/publication/257409786_Principios_basicos_para_uma_pro
+posta_de_ensino_sobre_analise_por_envoltoria_de_dados/links/00463525379e8e2fbc000000/Principiosbasicos-para-uma-proposta-de-ensino-sobre-analise-por-envoltoria-de-dados.pdf>. Acesso 02 de Mar. 2017.
+______. Conceitos Básicos de Análise de Eficiência Produtiva. In: SIMPÓSIO DE ENGENHARIA DE
+PRODUÇÃO (SIMPEP), 14., 2007. Bauru. Anais… Disponível em:
+<http://www.simpep.feb.unesp.br/anais_simpep.php?e=1>. Acesso 02 de Mar. 2017.
+MORAIS, Raimundo Nonato de Souza. Análise da eficiência dos setores industriais do Polo Industrial de
+Manaus (PIM). 2016. 72 f. Dissertação (mestrado em economia de empresas). Universidade Católica de
+Brasília, Brasília, 2016.
+SOARES DE MELLO, João Carlos C. B. et al . Fronteiras DEA Difusas. Inv. Op., Lisboa , v. 25, n. 1, p. 85103, jun. 2005 . Disponível em <http://www.scielo.mec.pt/scielo.php?script=sci_arttext&pid=S087451612005000100005&lng=pt&nrm=iso>. acessos em 24 fev. 2017.
+SUFRAMA. Perfis das indústrias. Disponível em: <http://www.suframa.gov.br/
+downloads/download/indicadores/RelIndDes_7_2015_julho.pdf.> Acesso em 24 Fev. 2017.
+YAMADA, Y.; MATUI, T.; SUGIYAMA, M. New analysis of efficiency based on DEA. Journal of the
+Operations Research Society of Japan, v.37, n.2, pages 158-167. 1994.
+
+

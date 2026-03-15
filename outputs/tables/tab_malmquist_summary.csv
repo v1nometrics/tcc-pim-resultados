@@ -1,0 +1,24 @@
+subsetor,cluster,EC_gmean,PEC_gmean,SC_gmean,TC_gmean,M_gmean,n_periods
+Brinquedos,0,0.918,1.0,0.918,1.0,0.918,5
+Papel e Papelão,1,1.246,1.085,1.148,1.025,1.278,5
+Vestuário e Calçados,1,1.076,1.047,1.027,0.995,1.071,4
+Editorial e Gráfico,1,1.014,1.007,1.007,1.007,1.022,5
+Naval,1,0.91,1.014,0.897,1.123,1.022,2
+Mobiliário,1,0.908,0.94,0.966,1.01,0.917,5
+Beneficiamento de Borracha,1,0.98,0.944,1.038,0.923,0.905,3
+Produtos Alimentícios,1,0.826,0.951,0.868,0.997,0.824,5
+Bebidas,1,0.808,0.979,0.825,1.012,0.817,5
+Relojoeiro,1,0.779,1.0,0.779,0.99,0.771,5
+Couros e Similares,1,0.663,0.688,0.964,1.051,0.697,4
+Metalúrgico,1,0.694,0.982,0.707,1.0,0.693,5
+Mecânico,1,0.713,1.0,0.713,0.965,0.688,5
+Eletroeletrônico,1,0.628,1.0,0.628,1.005,0.631,3
+Diversos,1,,,,,,0
+Madeireiro,1,,,,,,0
+Têxtil,1,,,,,,0
+"Isqueiros, Canetas e Barbeadores",2,0.916,1.005,0.912,0.991,0.907,5
+Mineral Não Metálico,2,0.899,1.113,0.808,1.001,0.9,5
+Termoplástico,2,0.824,0.974,0.846,1.083,0.892,5
+Duas Rodas,2,0.771,1.0,0.771,0.986,0.76,5
+Ótico,2,0.701,0.986,0.711,0.986,0.691,5
+Químico,2,0.606,0.958,0.632,0.966,0.585,5

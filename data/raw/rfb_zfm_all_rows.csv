@@ -1,0 +1,273 @@
+aba,linha,descricao,col_idx,valor
+Q III,20,Zona Franca de Manaus,0,2322698156.5002446
+Q III,20,Zona Franca de Manaus,1,0.007068909217424673
+Q III,24,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,24925107.939285137
+Q III,24,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,7.585717703534891e-05
+Q III,56,Zona Franca de Manaus,0,10911935153.190508
+Q III,56,Zona Franca de Manaus,1,0.03320942877078508
+Q III,60,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,1092467796.9263833
+Q III,60,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,0.0033248210310153244
+Q III,115,Zona Franca de Manaus,0,7806911304.286907
+Q III,115,Zona Franca de Manaus,1,0.02375958629150648
+Q III,119,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,957648475.6639806
+Q III,119,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,0.0029145113486781582
+Q IV,20,Zona Franca de Manaus,0,2322698156.5002446
+Q IV,20,Zona Franca de Manaus,1,2322698156.5002446
+Q IV,24,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,24925107.939285137
+Q IV,24,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,24925107.939285137
+Q IV,56,Zona Franca de Manaus,0,10911935153.190508
+Q IV,56,Zona Franca de Manaus,1,10911935153.190508
+Q IV,60,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,1092467796.9263833
+Q IV,60,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,1092467796.9263833
+Q IV,115,Zona Franca de Manaus,0,7806911304.286907
+Q IV,115,Zona Franca de Manaus,1,7806911304.286907
+Q IV,119,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,957648475.6639806
+Q IV,119,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,957648475.6639806
+Q VII,16,Zona Franca de Manaus,0,10.0
+Q VII,16,Zona Franca de Manaus,1,3649914027.7799993
+Q VII,16,Zona Franca de Manaus,2,0.04796461662529565
+Q VII,16,Zona Franca de Manaus,3,0.2632032741972992
+Q VII,16,Zona Franca de Manaus,4,1.1108163513014322
+Q VII,96,Zona Franca de Manaus,0,15.0
+Q VII,96,Zona Franca de Manaus,1,13503182264.94766
+Q VII,96,Zona Franca de Manaus,2,0.17744937432228883
+Q VII,96,Zona Franca de Manaus,3,0.9737439723693546
+Q VII,96,Zona Franca de Manaus,4,4.109564099412666
+Q VII,108,Zona Franca de Manaus,0,11.0
+Q VII,108,Zona Franca de Manaus,1,3888448321.2500005
+Q VII,108,Zona Franca de Manaus,2,0.05109926742835397
+Q VII,108,Zona Franca de Manaus,3,0.2804045032048303
+Q VII,108,Zona Franca de Manaus,4,1.1834119772575247
+Q VII,152,Zona Franca de Manaus  - Importação de Matéria-Prima,0,34.0
+Q VII,153,Zona Franca de Manaus - Importação de Bens de Capital,0,35.0
+Q VII,154,Zona Franca de Manaus - Matéria-Prima Produzida na ZFM ,0,36.0
+Q VII,155,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,37.0
+Q VII,155,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,372443324.7104498
+Q VII,155,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,2,0.00489438960710337
+Q VII,155,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,3,0.026857701789853503
+Q VII,155,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,4,0.11334955614641493
+Q VII,156,Zona Franca de Manaus e Área de Livre Comércio - Aquisição de Mercadorias,0,38.0
+Q VII,216,Zona Franca de Manaus  - Importação de Matéria-Prima,0,39.0
+Q VII,217,Zona Franca de Manaus - Importação de Bens de Capital,0,40.0
+Q VII,218,Zona Franca de Manaus - Matéria-Prima Produzida na ZFM ,0,41.0
+Q VII,219,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,42.0
+Q VII,219,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,1702598055.819199
+Q VII,219,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,2,0.022374352489615404
+Q VII,219,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,3,0.12277806532504457
+Q VII,219,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,4,0.5181693995264681
+Q VII,220,Zona Franca de Manaus e Área de Livre Comércio - Aquisição de Mercadorias,0,43.0
+Q VII (REG),15,Zona Franca de Manaus,0,3649914027.7799993
+Q VII (REG),15,Zona Franca de Manaus,1,3649914027.7799993
+Q VII (REG),95,Zona Franca de Manaus,0,13503182264.94766
+Q VII (REG),95,Zona Franca de Manaus,1,13503182264.94766
+Q VII (REG),107,Zona Franca de Manaus,0,3888448321.2500005
+Q VII (REG),107,Zona Franca de Manaus,1,3888448321.2500005
+Q VII (REG),154,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,372443324.7104498
+Q VII (REG),154,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,372443324.7104498
+Q VII (REG),218,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,1702598055.819199
+Q VII (REG),218,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,1702598055.819199
+Q X,8,Zona Franca de Manaus e Áreas de Livre Comércio,0,23699940476.928204
+Q X,8,Zona Franca de Manaus e Áreas de Livre Comércio,1,0.07212849729135962
+Q XI,91,Zona Franca de Manaus e Amazônia Ocidental ,0,18.0
+Q XI,91,Zona Franca de Manaus e Amazônia Ocidental ,1,3649914027.7799993
+Q XI,91,Zona Franca de Manaus e Amazônia Ocidental ,2,0.04796461662529565
+Q XI,91,Zona Franca de Manaus e Amazônia Ocidental ,3,0.2632032741972992
+Q XI,91,Zona Franca de Manaus e Amazônia Ocidental ,4,7.948476786406296
+Q XV,146,Zona Franca de Manaus e Amazônia Ocidental ,0,29.0
+Q XV,146,Zona Franca de Manaus e Amazônia Ocidental ,1,13503182264.94766
+Q XV,146,Zona Franca de Manaus e Amazônia Ocidental ,2,0.17744937432228883
+Q XV,146,Zona Franca de Manaus e Amazônia Ocidental ,3,0.9737439723693546
+Q XV,146,Zona Franca de Manaus e Amazônia Ocidental ,4,37.19804138202863
+Q XVI,96,Zona Franca de Manaus e Amazônia Ocidental ,0,19.0
+Q XVI,96,Zona Franca de Manaus e Amazônia Ocidental ,1,3888448321.2500005
+Q XVI,96,Zona Franca de Manaus e Amazônia Ocidental ,2,0.05109926742835397
+Q XVI,96,Zona Franca de Manaus e Amazônia Ocidental ,3,0.2804045032048303
+Q XVI,96,Zona Franca de Manaus e Amazônia Ocidental ,4,17.684073178786676
+Q XIX,261,Zona Franca de Manaus  - Importação de Matéria-Prima,0,52.0
+Q XIX,266,Zona Franca de Manaus - Importação de Bens de Capital,0,53.0
+Q XIX,271,Zona Franca de Manaus - Matéria-Prima Produzida na ZFM ,0,54.0
+Q XIX,276,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,54.0
+Q XIX,276,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,372443324.7104498
+Q XIX,276,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,2,0.00489438960710337
+Q XIX,276,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,3,0.026857701789853503
+Q XIX,276,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,4,0.5735552735798195
+Q XXI,281,Zona Franca de Manaus  - Importação de Matéria-Prima,0,56.0
+Q XXI,286,Zona Franca de Manaus - Importação de Bens de Capital,0,57.0
+Q XXI,291,Zona Franca de Manaus - Matéria-Prima Produzida na ZFM ,0,58.0
+Q XXI,296,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,59.0
+Q XXI,296,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,1702598055.8191993
+Q XXI,296,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,2,0.022374352489615407
+Q XXI,296,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,3,0.12277806532504458
+Q XXI,296,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,4,0.7540087503658741
+Q XXVI,24,Zona Franca de Manaus,0,2738333296.650003
+Q XXVI,24,Zona Franca de Manaus,1,3078901910.34
+Q XXVI,24,Zona Franca de Manaus,2,3649914027.7799997
+Q XXVI,24,Zona Franca de Manaus,3,5203186398.98
+Q XXVI,24,Zona Franca de Manaus,4,4728449282.010036
+Q XXVI,24,Zona Franca de Manaus,5,5022343574.752594
+Q XXVI,130,Zona Franca de Manaus,0,13535087675.021542
+Q XXVI,130,Zona Franca de Manaus,1,14849598547.395302
+Q XXVI,130,Zona Franca de Manaus,2,13503182264.94766
+Q XXVI,130,Zona Franca de Manaus,3,16776919888.003002
+Q XXVI,130,Zona Franca de Manaus,4,17476692714.052452
+Q XXVI,130,Zona Franca de Manaus,5,17638273473.743958
+Q XXVI,150,Zona Franca de Manaus,0,2925019584.9399915
+Q XXVI,150,Zona Franca de Manaus,1,3265829675.1499996
+Q XXVI,150,Zona Franca de Manaus,2,3888448321.25
+Q XXVI,150,Zona Franca de Manaus,3,5736396643.21
+Q XXVI,150,Zona Franca de Manaus,4,4572894683.780018
+Q XXVI,150,Zona Franca de Manaus,5,4857120561.804965
+Q XXVI,213,Zona Franca de Manaus  - Importação de Matéria-Prima,0,692059535.0400001
+Q XXVI,213,Zona Franca de Manaus  - Importação de Matéria-Prima,1,771753762.15
+Q XXVI,214,Zona Franca de Manaus - Importação de Bens de Capital,0,4355634.860000001
+Q XXVI,214,Zona Franca de Manaus - Importação de Bens de Capital,1,3446754.22
+Q XXVI,215,Zona Franca de Manaus - Matéria-Prima Produzida na ZFM ,0,43027366.454575
+Q XXVI,215,Zona Franca de Manaus - Matéria-Prima Produzida na ZFM ,1,53908235.829695
+Q XXVI,216,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,216202788.12524003
+Q XXVI,216,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,242404104.6274764
+Q XXVI,216,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,2,372443324.7104498
+Q XXVI,216,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,3,481806264.97528017
+Q XXVI,216,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,4,540555569.7365954
+Q XXVI,216,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,5,576547550.9597036
+Q XXVI,217,Zona Franca de Manaus e Área de Livre Comércio - Aquisição de Mercadorias,0,391281117.2014813
+Q XXVI,217,Zona Franca de Manaus e Área de Livre Comércio - Aquisição de Mercadorias,1,369616731.7956294
+Q XXVI,298,Zona Franca de Manaus  - Importação de Matéria-Prima,0,3252949770.09
+Q XXVI,298,Zona Franca de Manaus  - Importação de Matéria-Prima,1,3561616199.83
+Q XXVI,299,Zona Franca de Manaus - Importação de Bens de Capital,0,22002673.17
+Q XXVI,299,Zona Franca de Manaus - Importação de Bens de Capital,1,17378234.86
+Q XXVI,300,Zona Franca de Manaus - Matéria-Prima Produzida na ZFM ,0,198192653.55446
+Q XXVI,300,Zona Franca de Manaus - Matéria-Prima Produzida na ZFM ,1,248309649.84146
+Q XXVI,301,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,988355602.8582401
+Q XXVI,301,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,1108133047.7446375
+Q XXVI,301,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,2,1702598055.819199
+Q XXVI,301,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,3,2202542925.6012807
+Q XXVI,301,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,4,2471111175.938722
+Q XXVI,301,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,5,2635645947.2443595
+Q XXVI,302,Zona Franca de Manaus e Área de Livre Comércio - Aquisição de Mercadorias,0,1802264539.8371258
+Q XXVI,302,Zona Franca de Manaus e Área de Livre Comércio - Aquisição de Mercadorias,1,1702477067.6647172
+Q XXVII,20,Zona Franca de Manaus,0,2273562274.938485
+Q XXVII,20,Zona Franca de Manaus,1,2273562274.938485
+Q XXVII,21,Zona Franca de Manaus  - Importação de Matéria-Prima,0,15183963.909212742
+Q XXVII,21,Zona Franca de Manaus  - Importação de Matéria-Prima,1,15183963.909212742
+Q XXVII,22,Zona Franca de Manaus - Importação de Bens de Capital,0,101450.6093344294
+Q XXVII,22,Zona Franca de Manaus - Importação de Bens de Capital,1,101450.6093344294
+Q XXVII,23,Zona Franca de Manaus - Matéria-Prima Produzida na ZFM ,0,928432.8108513971
+Q XXVII,23,Zona Franca de Manaus - Matéria-Prima Produzida na ZFM ,1,928432.8108513971
+Q XXVII,24,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,12930559.021632005
+Q XXVII,24,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,12930559.021632005
+Q XXVII,25,Zona Franca de Manaus e Área de Livre Comércio - Aquisição de Mercadorias,0,23547029.182889357
+Q XXVII,25,Zona Franca de Manaus e Área de Livre Comércio - Aquisição de Mercadorias,1,23547029.182889357
+Q XXVII,56,Zona Franca de Manaus,0,10251819746.792625
+Q XXVII,56,Zona Franca de Manaus,1,10251819746.792625
+Q XXVII,57,Zona Franca de Manaus  - Importação de Matéria-Prima,0,2009935157.81647
+Q XXVII,57,Zona Franca de Manaus  - Importação de Matéria-Prima,1,2009935157.81647
+Q XXVII,58,Zona Franca de Manaus - Importação de Bens de Capital,0,13429243.358478563
+Q XXVII,58,Zona Franca de Manaus - Importação de Bens de Capital,1,13429243.358478563
+Q XXVII,59,Zona Franca de Manaus - Matéria-Prima Produzida na ZFM ,0,122898721.26660927
+Q XXVII,59,Zona Franca de Manaus - Matéria-Prima Produzida na ZFM ,1,122898721.26660927
+Q XXVII,60,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,685387260.65845
+Q XXVII,60,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,685387260.65845
+Q XXVII,61,Zona Franca de Manaus e Área de Livre Comércio - Aquisição de Mercadorias,0,1248115708.0143151
+Q XXVII,61,Zona Franca de Manaus e Área de Livre Comércio - Aquisição de Mercadorias,1,1248115708.0143151
+Q XXVII,118,Zona Franca de Manaus,0,6673058534.8804245
+Q XXVII,118,Zona Franca de Manaus,1,6673058534.8804245
+Q XXVII,119,Zona Franca de Manaus  - Importação de Matéria-Prima,0,1919890183.4043176
+Q XXVII,119,Zona Franca de Manaus  - Importação de Matéria-Prima,1,1919890183.4043176
+Q XXVII,120,Zona Franca de Manaus - Importação de Bens de Capital,0,12827614.062187012
+Q XXVII,120,Zona Franca de Manaus - Importação de Bens de Capital,1,12827614.062187012
+Q XXVII,121,Zona Franca de Manaus - Matéria-Prima Produzida na ZFM ,0,117392865.93157433
+Q XXVII,121,Zona Franca de Manaus - Matéria-Prima Produzida na ZFM ,1,117392865.93157433
+Q XXVII,122,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,506240571.30339813
+Q XXVII,122,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,506240571.30339813
+Q XXVII,123,Zona Franca de Manaus e Área de Livre Comércio - Aquisição de Mercadorias,0,921882919.8414025
+Q XXVII,123,Zona Franca de Manaus e Área de Livre Comércio - Aquisição de Mercadorias,1,921882919.8414025
+Q XXVIII,20,Zona Franca de Manaus,0,2273895187.8108754
+Q XXVIII,20,Zona Franca de Manaus,1,306175.5616947615
+Q XXVIII,20,Zona Franca de Manaus,2,7985263.831803844
+Q XXVIII,20,Zona Franca de Manaus,3,2282186627.2043743
+Q XXVIII,21,Zona Franca de Manaus  - Importação de Matéria-Prima,0,15269083.657347599
+Q XXVIII,21,Zona Franca de Manaus  - Importação de Matéria-Prima,1,15269083.657347599
+Q XXVIII,22,Zona Franca de Manaus - Importação de Bens de Capital,0,73379.0336887321
+Q XXVIII,22,Zona Franca de Manaus - Importação de Bens de Capital,1,73379.0336887321
+Q XXVIII,23,Zona Franca de Manaus - Matéria-Prima Produzida na ZFM ,0,1064896.4246180085
+Q XXVIII,23,Zona Franca de Manaus - Matéria-Prima Produzida na ZFM ,1,1064896.4246180085
+Q XXVIII,24,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,13421425.422781106
+Q XXVIII,24,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,13421425.422781106
+Q XXVIII,25,Zona Franca de Manaus e Área de Livre Comércio - Aquisição de Mercadorias,0,20592141.696021188
+Q XXVIII,25,Zona Franca de Manaus e Área de Livre Comércio - Aquisição de Mercadorias,1,20592141.696021188
+Q XXVIII,56,Zona Franca de Manaus,0,11268829562.048407
+Q XXVIII,56,Zona Franca de Manaus,1,1517325.9696830262
+Q XXVIII,56,Zona Franca de Manaus,2,39572878.12162399
+Q XXVIII,56,Zona Franca de Manaus,3,11309919766.139713
+Q XXVIII,57,Zona Franca de Manaus  - Importação de Matéria-Prima,0,2109624983.1040244
+Q XXVIII,57,Zona Franca de Manaus  - Importação de Matéria-Prima,1,2109624983.1040244
+Q XXVIII,58,Zona Franca de Manaus - Importação de Bens de Capital,0,10138279.819515502
+Q XXVIII,58,Zona Franca de Manaus - Importação de Bens de Capital,1,10138279.819515502
+Q XXVIII,59,Zona Franca de Manaus - Matéria-Prima Produzida na ZFM ,0,147129464.49220964
+Q XXVIII,59,Zona Franca de Manaus - Matéria-Prima Produzida na ZFM ,1,147129464.49220964
+Q XXVIII,60,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,751878054.3663889
+Q XXVIII,60,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,751878054.3663889
+Q XXVIII,61,Zona Franca de Manaus e Área de Livre Comércio - Aquisição de Mercadorias,0,1153586817.042653
+Q XXVIII,61,Zona Franca de Manaus e Área de Livre Comércio - Aquisição de Mercadorias,1,1153586817.042653
+Q XXVIII,115,Zona Franca de Manaus,0,7574604010.00602
+Q XXVIII,115,Zona Franca de Manaus,1,1019905.6886222125
+Q XXVIII,115,Zona Franca de Manaus,2,26599823.846572176
+Q XXVIII,115,Zona Franca de Manaus,3,7602223739.541214
+Q XXVIII,116,Zona Franca de Manaus  - Importação de Matéria-Prima,0,2208475895.218628
+Q XXVIII,116,Zona Franca de Manaus  - Importação de Matéria-Prima,1,2208475895.218628
+Q XXVIII,117,Zona Franca de Manaus - Importação de Bens de Capital,0,10613330.226795765
+Q XXVIII,117,Zona Franca de Manaus - Importação de Bens de Capital,1,10613330.226795765
+Q XXVIII,118,Zona Franca de Manaus - Matéria-Prima Produzida na ZFM ,0,154023524.75432733
+Q XXVIII,118,Zona Franca de Manaus - Matéria-Prima Produzida na ZFM ,1,154023524.75432733
+Q XXVIII,119,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,585237672.5829439
+Q XXVIII,119,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,585237672.5829439
+Q XXVIII,120,Zona Franca de Manaus e Área de Livre Comércio - Aquisição de Mercadorias,0,897914840.7216722
+Q XXVIII,120,Zona Franca de Manaus e Área de Livre Comércio - Aquisição de Mercadorias,1,897914840.7216722
+Q XXIX,20,Zona Franca de Manaus,0,2322698156.5002446
+Q XXIX,20,Zona Franca de Manaus,1,2322698156.5002446
+Q XXIX,24,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,24925107.939285137
+Q XXIX,24,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,24925107.939285137
+Q XXIX,56,Zona Franca de Manaus,0,10911935153.190508
+Q XXIX,56,Zona Franca de Manaus,1,10911935153.190508
+Q XXIX,60,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,1092467796.9263833
+Q XXIX,60,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,1092467796.9263833
+Q XXIX,115,Zona Franca de Manaus,0,7806911304.286907
+Q XXIX,115,Zona Franca de Manaus,1,7806911304.286907
+Q XXIX,119,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,957648475.6639806
+Q XXIX,119,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,957648475.6639806
+Q XXX,20,Zona Franca de Manaus,0,3059522076.04702
+Q XXX,20,Zona Franca de Manaus,1,3059522076.04702
+Q XXX,24,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,32244028.456326716
+Q XXX,24,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,32244028.456326716
+Q XXX,57,Zona Franca de Manaus,0,14373501955.107079
+Q XXX,57,Zona Franca de Manaus,1,14373501955.107079
+Q XXX,61,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,1413256175.9620264
+Q XXX,61,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,1413256175.9620264
+Q XXX,117,Zona Franca de Manaus,0,10283478899.038902
+Q XXX,117,Zona Franca de Manaus,1,10283478899.038902
+Q XXX,121,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,1238848986.158208
+Q XXX,121,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,1238848986.158208
+Q XXXI,20,Zona Franca de Manaus,0,2955928263.4436054
+Q XXXI,20,Zona Franca de Manaus,1,2955928263.4436054
+Q XXXI,24,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,36175721.32173695
+Q XXXI,24,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,36175721.32173695
+Q XXXI,57,Zona Franca de Manaus,0,13886822718.617958
+Q XXXI,57,Zona Franca de Manaus,1,13886822718.617958
+Q XXXI,61,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,1585582324.0905983
+Q XXXI,61,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,1585582324.0905983
+Q XXXI,119,Zona Franca de Manaus,0,9935285697.780947
+Q XXXI,119,Zona Franca de Manaus,1,9935285697.780947
+Q XXXI,123,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,1389908700.2629821
+Q XXXI,123,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,1389908700.2629821
+Q XXXII,20,Zona Franca de Manaus,0,3037581108.757887
+Q XXXII,20,Zona Franca de Manaus,1,3037581108.757887
+Q XXXII,24,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,38584420.73293497
+Q XXXII,24,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,38584420.73293497
+Q XXXII,57,Zona Franca de Manaus,0,14270424242.840734
+Q XXXII,57,Zona Franca de Manaus,1,14270424242.840734
+Q XXXII,61,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,1691155649.8157768
+Q XXXII,61,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,1691155649.8157768
+Q XXXII,119,Zona Franca de Manaus,0,10209732258.702896
+Q XXXII,119,Zona Franca de Manaus,1,10209732258.702896
+Q XXXII,123,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,0,1482453427.6553512
+Q XXXII,123,Zona Franca de Manaus e Área de Livre Comércio - Alíquotas Diferenciadas,1,1482453427.6553512

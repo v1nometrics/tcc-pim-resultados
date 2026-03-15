@@ -1,0 +1,4789 @@
+Pró-Reitoria Acadêmica
+Escola de Humanidades, Negócios e Direito
+Programa de Pós-Graduação Stricto Sensu em Economia
+
+ANÁLISE DA EFICIÊNCIA EM REGIÕES INDUSTRIAIS
+INCENTIVADAS: O CASO DO POLO INDUSTRIAL DE
+MANAUS (PIM)
+
+Autor: Raimundo Nonato de Souza Morais
+Orientador: Prof.ª Dr.ª Paula Virgínia Tófoli
+
+Brasília - DF
+2019
+
+1
+
+RAIMUNDO NONATO DE SOUZA MORAIS
+
+ANÁLISE DA EFICIÊNCIA EM REGIÕES INDUSTRIAIS INCENTIVADAS: O
+CASO DO POLO INDUSTRIAL DE MANAUS (PIM)
+
+Tese apresentada ao Programa de Pós-Graduação Stricto Sensu,
+Doutorado em Economia de Empresas da Universidade Católica
+de Brasília, como requisito parcial à obtenção do título de Doutor
+em Economia.
+Orientador: Profª. Drª. Paula Virgínia Tófoli
+
+Brasília - DF
+2019
+
+M827a
+
+Morais, Raimundo Nonato de Souza.
+Análise da eficiência em regiões industriais incentivadas: o caso do Polo
+Industrial de Manaus (PIM) / Raimundo Nonato de Souza Morais – 2019.
+72 f.: il. ; 30 cm.
+Tese (Doutorado) – Universidade Católica de Brasília, 2019.
+Orientação: Profa. Dra. Paula Virgínia Tófoli.
+1. Eficiência. 2. Produtividade. 3. Incentivos fiscais. I. Tófoli, Paula
+Virgínia, orient. II. Título.
+CDU 330
+
+4
+
+Dedico ao meu Grande Deus. Ao meu amor, Eliana e amados
+filhos Gabriel, Daniel e Maria Julia. Vocês são a razão de tudo
+isso.
+
+5
+
+AGRADECIMENTOS
+A todos que se juntaram a mim nesta jornada longa e cansativa, mas extremamente prazerosa.
+
+6
+
+RESUMO
+
+MORAIS, Raimundo N S. Análise da Eficiência em Regiões Industriais Incentivadas: o
+Caso do Polo Industrial de Manaus (PIM). 2019. 72f. Tese de Doutorado em Economia de
+Empresas - Universidade Católica de Brasília, Brasília, 2019.
+
+Este trabalho estima as medidas de eficiências e de produtividade com o objetivo analisar quais
+fatores determinam a ineficiência técnica em setores industriais, localizados em uma região
+incentivada com a oferta de incentivos fiscais. O caso especifico é o Polo Industrial de Manaus
+(PIM) representado pelos seus principais 9 subsetores industriais, responsáveis por cerca de
+96 % do faturamento. Os dados são do relatório de indicadores de Desempenho da SUFRAMA,
+no período de 1994 a 2016 e do IPEADATA. A técnica DEA em dois estágios com a modelo
+Tobit e o Índice Malmquist compuseram os métodos de estimação das eficiências e
+produtividade e na determinação dos fatores de ineficiências. O principal resultado é que o PIM
+opera com ineficiências com tendência de crescimento das eficiências, fomentado pela mudança
+técnica, capturado pelo Índice de produtividade Malmquist. A volatilidade da taxa de câmbio e
+a concessão de incentivo fiscal no modelo Tobit são fatores determinantes de ineficiências.
+
+Palavras-chave: Eficiência. Produtividade. Incentivos fiscais.
+
+7
+
+ABSTRACT
+
+This paper estimates the efficiency and productivity measures with the objective to analyze
+which factors determine the technical inefficiency in industrial sectors, located in a region
+stimulated with the offer of fiscal incentives. The specific case is the Industrial Pole of Manaus
+(PIM) represented by its main 9 industrial subsectors, responsible for about 96% of sales. The
+data are from the performance indicators report of SUFRAMA, from 1994 to 2016 and from
+IPEADATA. The two-stage DEA technique with the Tobit model and the Malmquist Index
+comprised efficiency and productivity estimation methods and the determination of inefficiency
+factors. The main result is that the PIM operates with inefficiencies with a trend of increasing
+efficiencies, fueled by technical change, captured by the Malmquist Productivity Index. The
+exchange rate volatility and the tax incentive concession in the Tobit model are determinant
+factors of inefficiencies.
+Keyswords: Efficiency. Productivity. Tax incentives
+
+8
+
+SUMÁRIO
+
+1 Introdução .....................................................................................................................
+2 Análise da Dinâmica da Eficiência e Ganhos de Produtividade no Setor
+Industrial ..........................................................................................................................
+2.1 Introdução ..................................................................................................................
+2.2 Revisão da
+literatura ...................................................................................................
+2.2.1 O Perfil do Polo Industrial de Manaus (PIM) ........................................................
+2.3 Metodologia ..............................................................................................................
+2.3.1 Análise Envoltória de Dados .................................................................................
+2.3.2 Índice Malmquist ...................................................................................................
+2.3.3 Dados .....................................................................................................................
+2.4 Resultados .................................................................................................................
+2.4.1 Análise da eficiência em DEA ...............................................................................
+2.4.2 Ganhos de produtividade com Índice Malmquist ..................................................
+2.5 Conclusão ..................................................................................................................
+3 Fatores Determinantes da Ineficiência em Região Industrial
+Incentivada ......................................................................................................................
+3.1 Introdução .................................................................................................................
+3.2 Revisão da literatura .................................................................................................
+3.3 Metodologia .............................................................................................................
+3.3.1 Metodologia DEA ..................................................................................................
+3.3.2 Modelo Tobit ..........................................................................................................
+3.3.3 Dados .....................................................................................................................
+3.4 Resultados .................................................................................................................
+3.4.1 A modelagem DEA ...............................................................................................
+3.4.2 Modelo Tobit censurado .........................................................................................
+3.5 Conclusão ..................................................................................................................
+4 Considerações Finais....................................................................................................
+Referências ..............................................................................................................
+
+10
+13
+13
+14
+19
+21
+22
+25
+30
+31
+31
+36
+43
+45
+45
+46
+52
+52
+55
+57
+59
+59
+62
+64
+65
+67
+
+9
+
+1 INTRODUÇÃO
+A atividade da indústria continua despertando o interesse de pesquisadores. Segundo
+Thirlwall (2005), inúmeros dados históricos empíricos sugerem que há algo de especial na
+atividade industrial, ora pela estreita associação entre o nível da renda per capita e o grau de
+industrialização, ora pela associação estreita entre o crescimento do PIB e o crescimento da
+indústria.
+No início dos anos 90 com a abertura da economia brasileira, a indústria promoveu
+profundas mudanças, seja de caráter estrutural, seja de caráter econômico, a fim de fazer frente
+a forte competição externa a que ficou exposta.
+No Estado do Amazonas, o setor industrial denominado Polo Industrial de Manaus
+(PIM), implantado a mais de 50 anos, na cidade de Manaus, capital do Estado. São mais de 450
+empresas efetivamente instaladas, distribuídos em mais de 17 subsetores industriais, uma média
+mensal de 122 mil empregos diretos, cerca de 31% de participação da indústria na composição
+do PIB estadual completam um perfil mínimo do PIM, segundo dados constantes do relatório
+da Centro das Indústrias do Estado do Amazonas (CIEAM, 2015). Praticamente toda atividade
+econômica local está diretamente relacionada às empresas do PIM, ou de alguma forma é uma
+consequência indireta da existência dessas empresas (RIVAS et al., 2009).
+Toda esta pujança só é possível por se tratar de uma região incentivada, com a oferta de
+benefícios fiscais pelas três esferas de governo, federal, estadual e municipal. Estes benefícios
+foram estabelecidos no decreto nº 288/67 que justificava a concessão destes benefícios: os
+fatores locacionais. Nascimento (2002) recorda que a instalação de indústrias obedece a alguns
+requisitos como, o papel do custo de transporte, da disponibilidade de matérias-primas, da
+dimensão dos mercados e das economias de aglomeração. Neste sentido, uma região
+incentivada goza de recursos e meios para fazer frente aos custos relacionados aos fatores
+locacionais, como é o caso do polo industrial de Manaus.
+Lyra (1995) em estudo sobre a avaliação dos incentivos fiscais da Zona Franca de
+Manaus (ZFM), apresentou conclusões da necessidade de reavaliação dos incentivos, visto ter
+sido válido quando da implantação do modelo ZFM e não há como justificar a totalidade dos
+custos fiscais que vêm sendo observados, associados à baixa eficiência econômica de vários
+segmentos e empresas do parque industrial da ZFM.
+Diniz, Diniz e Oliveira Júnior (2011) acentua que o PIM tem passado por mudanças,
+tanto de natureza estrutural como econômica, em função da abertura da economia nos anos de
+1990, seja para proporcionar investimentos em pesquisa e desenvolvimento, seja para
+proporcionar ganhos constantes de eficiência.
+
+10
+
+Nesta esteira de importância da indústria, a eficiência e a produtividade são duas
+medidas econômicas essenciais para determinar o crescimento econômico de uma unidade
+produtiva, de um setor econômico ou de um país. O setor industrial, como um setor econômico
+dinâmico, promove uma ampla integração e inter-relação com outros setores, tornando-se um
+importante indicador da economia.
+Os trabalhos que estimaram as medidas de eficiência e produtividade têm contribuído
+para uma maior compreensão sobre as características do setor industrial. No que diz respeito, a
+estimação das medidas de eficiência, destaca-se o trabalho pioneiro de Pinheiro (1990) sobre a
+eficiência da indústria brasileira nos anos de 1970 e 1980. E de Diniz, Diniz e Oliveira Júnior
+(2011) sobre a eficiência produtiva das empresas do PIM, no período de 2000 a 2006. O ponto
+comum em ambos os trabalhos foi a utilização do método paramétrico denominado de Análise
+de Fronteira Estocástica de Produção para a estimação da eficiência. Por sua vez, Finamore,
+Gomes e Dias (2005) e Barreto e Mesquita Filho (2007) abordaram a questão da eficiência em
+setores industriais brasileiros específicos, utilizando métodos não-paramétricos de estimação
+das medidas de eficiência, como a Análise Envoltória de Dados (DEA-Data Envelopment
+Analysis).
+Existe um corpo substancial de aplicações que usam a metodologia DEA, tanto a nível
+nacional como internacional. Por exemplo, Almeida e Cavalcanti Filho (2013), Cicolin e
+Oliveira (2016), Morini et al. (2014), Silveira et al. (2013), Barros e Monteiro (2016), Cerqueira
+et al. (2017), Emerenciano et al. (2013), Mainetti Junior et al. (2014), Yuzhia e Zhangnab
+(2012), Pahwa, Feng e Lubkeman (2003), Voulgaris e Lemonakis (2013), Fenyves et al. (2015),
+Sufian et al. (2016).
+Quanto aos estudos relacionados a produtividade, há uma extensa literatura sobre o
+tema. Recentemente, surgiram diversos trabalhos que utilizaram métodos alternativos de
+medição da produtividade, como o índice de Malmquist, um método não-paramétrico,
+desenvolvido por Caves et al. (1982) e aprimorado por Färe et al. (1994). Esse índice estima a
+produtividade total dos fatores (PTF) como um efeito conjunto da mudança na fronteira de
+produção (progresso técnico) e da eficiência técnica.
+Para Grifell y Lovell (1995), o índice de Malmquist apresenta várias vantagens frente
+aos outros métodos mais tradicionais de medir a produtividade total dos fatores, destacando-se
+o fato de que por está baseado em funções de distância, não se requerem preços dos inputs ou
+outputs em sua formulação. Dado esta facilidade, muitos trabalhos passaram a utilizar o índice
+para medir a PTF, ainda podendo ser decomposto em seus componentes para verificar a PTF
+de forma intrínseca.
+
+11
+
+Mello e Macedo (2003) foram os primeiros a direcionarem seus estudos de eficiência
+para a eficiência produtiva e o progresso técnico, a partir do trabalho de Färe et al. (1994). Os
+autores estimaram o índice de produtividade Malmquist para a indústria brasileira para o
+período compreendido entre 1996 e 2000.
+Uma questão a ser discutida é em que medida os incentivos fiscais contribuem para a
+eficiência. Neste sentido, o objetivo deste trabalho é verificar a relação entre as eficiências e
+incentivos fiscais no PIM como uma região industrial incentivada. Em primeiro lugar, buscouse estimar as eficiências e suas tendências. Em segundo lugar, como as eficiências estimadas
+guardam alguma convergência com a produtividade e finalmente, quais os fatores
+determinantes da eficiência.
+Este trabalho é composto de dois capítulos. No primeiro, foram feitas a estimação das
+medidas de eficiências dinâmicas e dos índices de produtividade com a utilização da
+metodologia DEA e o índice Malmquist. No segundo capitulo, foram verificados os fatores
+determinantes da ineficiência, tendo como as variáveis explanatórias o ICMS restituído e taxa
+de câmbio real regredidos em um modelo Tobit, a partir da técnica DEA em dois estágios. Em
+ambos os capítulos, os dados gerais são do relatório Indicadores de Desempenho do PIM e
+SUFRAMA (2016), com a análise longitudinal de 207 observações.
+Nosso trabalho é uma contribuição ao estudo da eficiência pela tentativa de relação entre
+eficiência, produtividade e incentivos fiscais. O trabalho obedece a seguinte organização. O
+capitulo 2 aborda as estimações das eficiências e dos índices de produtividade, fazendo uma
+revisão dos principais trabalhos que tratam do tema, a metodologia, a discussão dos resultados
+e conclusão. No capítulo 3 é verificado se os incentivos fiscais guardam relação com a
+eficiência, com o levantamento da bibliografia relacionada a questão, a metodologia, a
+discussão dos resultados e conclusão. Por fim, apresentamos as considerações gerais.
+
+12
+
+2 ANÁLISE DA DINÂMICA DA EFICIÊNCIA E GANHOS DE PRODUTIVIDADE NO
+SETOR INDUSTRIAL
+2.1 INTRODUÇÃO
+O setor industrial é um dos setores de maior propulsão do crescimento econômico pelos
+efeitos intrínsecos e extrínsecos nos demais setores da economia. A variedade e intensidade de
+estudos para este setor tem comprovado a importância da atividade industrial. Na cidade de
+Manaus, o Polo Industrial de Manaus (PIM) é um gigantesco parque industrial erguido no meio
+da floresta amazônica com números impressionantes. Composto por inúmeras empresas que se
+instalaram em um meio inóspito e adverso com fatores locacionais preponderantes, se faz
+necessário verificar o grau de maturidade assumido por esta área industrial, a partir de medidas
+consagradas pelos pesquisadores da área econômica, a eficiência e a produtividade.
+Estas medidas ganharam relevância e importância para a aferição da atividade
+econômica com o surgimento de modernas técnicas de econometria, especialmente os métodos
+não-paramétricos de estimação das medidas de eficiência e produtividade como a Analise
+Envoltória de Dados (DEA, data envelopment analysis) e o Índice de produtividade total
+Malquist.
+Desde o trabalho seminal de Charnes, Cooper e. Rhodes (1978) de avaliação da
+eficiência das iniciativas das empresas que se destacam no mercado com a introdução da
+metodologia DEA, técnica que permite compor diversas entradas para saídas em que se utilize
+o menor números de recursos, criando uma referência para outras empresas, houve uma
+profusão de trabalhos avaliaram a eficiência de vários setores da economia.
+No que diz respeito, se a eficiência sofre mudanças ao longo do tempo, ou seja, se aquela
+empresa obteve uma variação na sua produtividade. A ideia inicial de introduzir um índice que
+refletisse esta variação desta produtividade coube Malmquist (1953) como razão de funções
+distância. O índice Malmquist mostra a variação da produtividade no tempo, podendo ser
+decomposto em uma mudança técnica, melhoria de eficiência ou mudança tecnologia, melhoria
+na tecnologia.
+Ambas as medidas, a eficiência e produtividades, são cruciais para a aferição do
+desempenho do PIM pelas características inerentes do polo: distancias do centro fornecedor de
+insumos e do centro consumidor, ocasionando pesado custos de transportes que tornam
+inviáveis a implantação de um segmento industrial na região.
+Este estudo pretende analisar o comportamento das eficiências e da produtividade do
+PIM ao longo de um período de tempo. O objetivo é estimar as medidas de eficiências e de
+
+13
+
+produtividade através da metodologia DEA e do Índice de Malmquist. De posse das medidas
+estimadas, verificar-se-á se as eficiências variam ao longo tempo, seja para um crescimento,
+decrescimento ou permanecem constantes. Complementarmente, verificar-se-á se estas
+variações das eficiências convergem para a variação das produtividades, seja na mudança
+técnica ou tecnológica.
+O estudo utilizou como base de dados, o relatório de indicadores de Desempenho da
+Superintendência da Zona Franca de Manaus (SUFRAMA) no período de 1994 a 2016. O
+objeto do estudo são os 9 principais subsetores industriais do PIM, somados são responsáveis
+por 96% do faturamento, a variável de saída, tendo como entradas o valor de aquisição de
+matérias-primas (insumos) e a quantidade de mão-de-obra empregada pelos subsetores.
+A motivação e a importância do estudo, estão não somente na ausência de estudos
+voltados para o PIM, mas de um esforço embrionário para apresentar estas medidas de
+eficiências variáveis ao longo do tempo, as eficiências dinâmicas, diferentes dos trabalhos
+pulicados que abordam somente a eficiência estática, em um ou no máximo em dois períodos
+de tempo.
+O estudo está organizado em seções. A primeira uma diligente revisão da literatura dos
+trabalhos que tratam sobe o tema eficiência e produtividade e os métodos de estimação. EM
+seguida, a metodologia apresentará o conjunto e o tratamento dos dados, os métodos de
+estimação e as ferramentas computacionais utilizadas. Na seção Resultados serão apresentadas
+as medidas estimadas e conhecimento quanto ao comportamento e variações das eficiências e
+das produtividades. Na conclusão será abordada as implicações que as medidas estimadas têm
+para a teoria de produção.
+2.2 REVISÃO DA LITERATURA
+A eficiência e a produtividade são duas medidas econômicas essenciais para determinar
+o crescimento econômico de uma unidade produtiva, de um setor econômico ou de um país. O
+setor industrial, como um setor econômico dinâmico, promove uma ampla integração e interrelação com outros setores, tornando-se um importante indicador da economia.
+No Estado do Amazonas, na cidade de Manaus, capital do Estado, o modelo de
+desenvolvimento regional, a Zona Franca de Manaus (ZFM)1, com mais de 50 anos de
+1
+
+A Zona Franca de Manaus (ZFM) é um modelo de desenvolvimento econômico implantado pelo governo
+brasileiro objetivando viabilizar uma base econômica na Amazônia Ocidental e Amapá, promover a melhor
+integração produtiva e social dessa região ao País, garantindo a soberania nacional sobre suas fronteiras.
+Compreende três polos econômicos: comercial, industrial e agropecuário.
+
+14
+
+implantação, o seu setor industrial denominado Polo Industrial de Manaus (PIM) alcançou
+importância em termos de sua participação relativa na economia do Estado. Praticamente toda
+atividade econômica local está diretamente relacionada às empresas do PIM, ou de alguma
+forma é uma consequência indireta da existência dessas empresas (RIVAS et al., 2009).
+Diniz, Diniz e Oliveira Júnior (2011) acentua que o PIM tem passado por mudanças,
+tanto de natureza estrutural como econômica. A mudança de natureza estrutural diz respeito as
+transformações ou reconstruções internas no PIM: a organização dos setores industriais, a
+infraestrutura básica e logística. A de natureza econômica, em função da abertura da economia
+nos anos de 1990, acompanhada de competição externa intensa, resultou na alteração da
+legislação da ZFM (Lei nº 8.387/1991) para proporcionar investimentos em pesquisa e
+desenvolvimento e ganhos constantes de eficiência.
+Neste sentido, estudos sobre estimação de medidas de eficiência e produtividade tem
+contribuído para uma maior compreensão sobre as características do setor industrial.
+Em um trabalho pioneiro sobre eficiência, utilizando a análise determinística da função
+de produção, uma das modernas técnicas de econometria, Pinheiro (1990) desenvolveu estudos
+sobre a eficiência da indústria brasileira com dados de 110 empresas do censo industrial para
+os anos de 1970 e 1980. Os resultados apontaram que o nível de eficiência tinha forte correlação
+com a estrutura produtiva da indústria, em especial, o tamanho da indústria que tem um impacto
+positivo significativo na eficiência.
+Na primeira década nos anos 2000, os estudos de Finamore, Gomes e Dias (2005),
+Barreto e Mesquita Filho (2007) analisaram o desempenho setorial das economias gaúcha e
+fluminense, respectivamente. Ambos buscavam respostas para a melhor combinação de
+insumos e produtos, de forma que a acumulação de capital fosse obtida mais eficientemente
+possível. A metodologia utilizada foi a Análise Envoltória de Dados (DEA, Data Envelopment
+Analysis) que possui critérios de avaliação de eficiência técnica.
+Concomitantemente, Mello e Macedo (2003) foram os pioneiros no Brasil na utilização
+do índice para a análise da produtividade total dos fatores (PTF) e seus componentes na segunda
+metade dos anos 90 na indústria brasileira. A partir de microdados de 27 setores da indústria
+brasileira para o período compreendido entre 1996 e 2000, o índice de produtividade de
+Malmquist mostrou que o resultado principal foi o de que quase três quartos dos setores
+analisados apresentaram declínio na taxa de crescimento da PTF.
+Mendonça (2007) analisou o desempenho da produtividade da indústria de
+transformação brasileira em um painel que compreende aos anos de 1996 a 2002 e contemplam
+os 22 setores da indústria de transformação brasileira de acordo com a Classificação Nacional
+
+15
+
+de Atividade Econômica (CNAE) do IBGE. Utilizando o índice de produtividade de Malmquist
+e seus componentes (índice de mudança na eficiência técnica e índice de mudança na
+tecnologia), seguindo a metodologia de Färe et al. (1994), o cálculo foi feito pelos dois métodos:
+a análise de fronteira estocástica (SFA-Stochastic Frontier Analysis) e a análise envoltória de
+dados (DEA). Os resultados mostraram que em ambos os métodos, a indústria de transformação
+obteve ganhos médios de eficiência, houve contração da fronteira tecnológica e declínio na
+Produtividade Total dos Fatores puxado pela contração na fronteira tecnológica.
+Nos estudos de Färe et al. (1994), o crescimento da produtividade recebeu atenção em
+razão das várias questões relacionadas. O estudo surgiu na esteira da diminuição da
+produtividade nos Estados Unidos e de outros países industrializados nos de 1960 e 1970,
+especialmente relacionado ao Japão. Os autores utilizaram uma metodologia alternativa para
+estimar a PTF usando o Índice Malmquist, decompostos em duas medidas de componentes, a
+saber, mudança de eficiência técnica (efeito recuperação - “catch-up”) e mudança de eficiência
+(efeito inovação - “frontier-shift”) ao analisar o crescimento da produtividade em 17 países da
+OCDE durante o período de 1979-1988. Os resultados mostraram que o crescimento da
+produtividade dos EUA é ligeiramente maior do que a média, o que é devido à mudança técnica.
+O crescimento da produtividade do Japão é o mais alto da amostra, com quase metade devido
+à mudança de eficiência.
+Na busca por um indicador que aferisse a evolução da produtividade das unidades como
+um todo, Rebelo (2000) utilizou o índice PTF de Malmquist, com a aplicação dos métodos DEA
+e da Análise da Fronteira Estocástica (SFA) em um painel equilibrado de 26 explorações
+agrícolas para o período 1990-97, no planalto mirandês, em Portugal. De forma geral, os
+resultados obtidos por ambas as metodologias são consistentes. O índice de PTF cresceu, 14,6%
+e 10% segundo o DEA e o SFA, respectivamente. Na análise dos componentes do índice de
+Malmquist, no componente inovação, efeito “frontier-shift”, resultou do progresso ou inovação
+tecnológica observada (mudança técnica, Technical Change-TC) igual 27,6% no DEA e a
+12,7% no SFA, cujo efeito foi, no entanto, amortecido pela evolução negativa da mudança de
+eficiência técnica, efeito recuperação, “catch-up” (-10,2% no DEA e –2,4% no SFA).
+Chen e Agha (2004) apresentaram um estudo, fornecendo uma extensão para o modelo
+DEA-Malmquist. Os dados são do relatório Fortune Global 500 empresas de computador e de
+equipamentos de escritório (doravante referidas como a indústria de computadores) de 1991 a
+1997, e nesta categoria, existem oito empresas: Apple, Canon, Compaq, Digital, Fujitsu, HP,
+IBM e Ricoh. O estudo não só revelou padrões de mudança de produtividade, mas apresentou
+uma nova interpretação, juntamente com a implicação gerencial de cada componente de
+
+16
+
+Malmquist, que identificou as mudanças de estratégia de DMUs individual com base em
+mudanças de isoquantas.
+Hu e Liang (2008) descreveram as mudanças dinâmicas na produtividade da pesquisa
+das instituições de ensino superior (IES) chinesas com o índice de Malmquist. A amostra da
+pesquisa abrangeu 25 universidades que foram recém-fundidas em 2000 com dados
+longitudinalmente por quatro anos (1999-2002, um ano antes da fusão, o ano de fusão, bem
+como os dois anos após), abarcando horizontalmente as principais cidades chinesas, capitais
+provinciais e os municípios mais representativos. Os dados são da coleção de Statistics na
+Ciência
+
+e
+
+na
+
+Tecnologia
+
+em
+
+IESs
+
+chinesas
+
+(2000-2003),
+
+editado
+
+pelo
+
+Departamento de Ciência e Tecnologia do Ministério da educação República Popular da China.
+O principal resultado foi que a melhoria tecnológica e a inovação são fatores importantes para
+melhorar a produtividade da pesquisa científica das IESs chinesas.
+Mahlberg e Url (2010) analisaram a indústria de seguros alemã, concentrando-se em
+melhorias na produtividade, medida por custo, bem como eficiência de receita. Os dados são
+da Hoppenstedt (empresa de publicação privada especializada na coleta de dados de negócios;
+publica o anuário do seguro, que contém informações básicas e dados de balanço para as
+empresas) para a indústria de seguros alemã no período 1991 a 2006. Os resultados da DEA
+mostraram grandes desvios do benchmark, independentemente das premissas subjacentes sobre
+tecnologia e a produtividade total do fator aumentou em média 17,8%, implicando um
+crescimento médio anual de produtividade em 1,1%, no período analisado.
+Tanasea e Tidor (2012) examinaram a eficiência e a produtividade de um lote de 27
+empresas em um universo de 87 grandes empresas (mais de 250 funcionários) na indústria de
+máquinas romena, composta por setores de fabricação de carros, máquinas e equipamentos e a
+fabricação de veículos motorizados e seus componentes. As técnicas selecionadas para a
+avaliação do progresso da eficiência e da mudança da produtividade estudadas foram a DEA e
+o índice de produtividade de Malmquist. Os resultados do estudo mostraram que a tendência de
+crescimento da produtividade do fator total (PTF) se deve, em particular, a melhoria da
+eficiência e não à mudança tecnológica, o que demonstra que a qualidade dos recursos humanos
+tem tido um impacto positivo na indústria.
+Torres et al. (2013), partindo do estudo de três subsetores líderes na perspectiva de
+eficiência e produtividade, no contexto dos estados mexicanos, analisaram os dados de 311
+subsetores da indústria de transformação, 325 da indústria alimentícia, 325 da indústria química
+e 336 da fabricação de equipamentos de transporte, com dados provenientes dos censos
+econômicos do México, correspondendo aos anos 2003 e 2008, do Instituto Nacional de
+
+17
+
+estatística e Geografia do México (INEGI). Os resultados obtidos através da metodologia DEA
+e índice de Malmquist mostraram que a maioria dos Estados no México estão operando com
+eficiências de escala e ainda perderam produtividade multifatorial, afinidade estreita por
+mudanças técnicas, enquanto na maioria dos Estados, eficiência técnica permaneceu inalterada.
+Soltane Bassem (2014) investigou as mudanças de produtividade de 33 instituições de
+microfinanças (MFI) do médio oriente e norte da África, durante os períodos de 2006 a 2011,
+utilizando o índice de produtividade de Malmquist em um conjunto de dados de painel
+equilibrado de 198 observações. Os resultados mostraram que a indústria de microfinanças
+apresentou redução na PTF no período de estudo. Na decomposição da PTF, o estudo revelou
+também que a indústria como um todo tem demonstrado um declínio na mudança tecnológica
+e têm experimentado principalmente um incremento de eficiência técnica pura (melhoria das
+práticas de gestão).
+Grilo e Santos (2015) realizaram um estudo e desenvolveram um modelo baseado na
+DEA, que permite que novas empresas baseadas em tecnologia (NEBT) incubadas avaliem e
+melhorem a eficiência de sua gestão, bem como a utilização do índice de Malmquist para
+examinar a mudança da produtividade. Os dados são 13 NEBTs incubadas no Parque Madan,
+uma incubadora de empresas, localizado em Almada, Portugal, nos períodos de 2009 a 2011.
+A conclusão do estudo mostrou que as empresas ineficientes investem excessivamente em
+pesquisa
+
+e
+
+desenvolvimento
+
+(R&D)
+
+e,
+
+na
+
+média,
+
+as
+
+empresas
+
+tiveram
+
+crescimento da produtividade no período de estudo.
+Campano et al. (2016) analisaram a evolução do PTF da indústria de transformação
+chilena, estimando o índice de Malmquist por meio do método DEA, com fontes de dados
+secundárias correspondentes a três painéis construído com estabelecimentos fabris de dez ou
+mais trabalhadores durante os períodos de 1998-2010, do Instituto Nacional de estatísticas
+(INE). Os resultados dos períodos 1998-2010 indicam que a PTF diminuiu significativamente,
+e que esta redução é principalmente devido à mudança tecnológica negativa, enquanto a
+eficiência técnica permanece constante.
+María et al. (2016) analisaram a evolução da mudança na produtividade total dos fatores
+para a indústria de transformação no estado mexicano de Hidalgo por subsetor e pela área
+metropolitana, utilizando o índice de Malmquist, para os períodos de 1989 a 2009, considerando
+os 21 subsetores que integram a indústria de transformação, segundo o Sistema de Classificação
+Industrial de América do Norte (SCIAN, 2002). Uma vez que mais de 70% da atividade de
+fabricação no estado de Hidalgo está concentrada nas três áreas metropolitanas, os resultados
+
+18
+
+inferiram que, a nível estadual, a PTF não registrou um aumento na produtividade no período
+estudado.
+No plano regional, Diniz Diniz e Oliveira Júnior (2011) desenvolveram estudos sobre a
+relação entre a adoção de inovações e seu efeito sobre a eficiência econômica nas empresas
+localizadas no PIM para o período 2000-2006 com dados da Superintendência da Zona Franca
+de Manaus (SUFRAMA)2 e coletados através da aplicação de um questionário a uma amostra
+de 132 empresas do PIM cadastradas nessa Instituição no ano de 2006. Os autores utilizaram o
+método paramétrico conhecido como Análise de Fronteira Estocástica de Produção com o
+objetivo de estimar a eficiência produtiva das empresas, controlando para a introdução de
+inovações. Um dos resultados que o estudo apontou em relação à eficiência, foi a estimativa do
+parâmetro lambda (λ) que apresentou um valor superior a unidade. Segundo os autores, o
+parâmetro indica que a maior parte da variabilidade na produção advém da ineficiência técnica
+e não de fatores aleatórios. Ou seja, reduzindo a ineficiência técnica, obtém-se melhores
+resultados quanto à produção e seu valor.
+Mais recente, Silva e Reis (2016) desenvolveram estudos para verificar a aplicação da
+Lei de Kaldor-Verdoorn ao PIM, lei que trata da relação entre a produção e a produtividade,
+em comparação com o Brasil. Os autores optaram pelo método paramétrico de estimação da
+produtividade adotando o modelo da contabilidade do crescimento, com taxas de variações. Os
+dados são da Suframa, IBGE e IPEADATA, nos períodos de 2002 a 2014. Utilizado as variáveis
+faturamento das indústrias do PIM, mão de obra empregada, em número de horas, consumo de
+energia elétrica, valor adicionado da produção, índice da produção industrial mensal do Brasil,
+índice do número de horas trabalhadas no Brasil, os resultados apontaram para um crescimento
+da produtividade maior do PIM, com fortes oscilações negativos em períodos específicos, do
+que a produtividade brasileira.
+A importância do PIM é medida pelo gigantismo de seus números como será visto a
+seguir.
+2.2.1 O Perfil Polo Industrial de Manaus (PIM)
+O Decreto Nº 288, de 28 de fevereiro de 1967, do governo federal, declara:
+A Zona Franca de Manaus (ZFM) é uma área de livre comércio de importação e
+exportação e de incentivos fiscais especiais, estabelecida com a finalidade de criar no
+interior da Amazônia, um centro industrial, comercial e agropecuário dotado de
+2
+
+A Superintendência da Zona Franca de Manaus (SUFRAMA) é uma autarquia vinculada ao Ministério da
+Economia que administra a Zona Franca de Manaus (ZFM).
+
+19
+
+condições econômicas que permitam seu desenvolvimento, em face dos fatores locais
+e da grande distância que se encontram os centros consumidores de seus produtos
+(grifo nosso). (Decreto-Lei Nº 288, Art. 1º).
+
+Este diploma legal cria na Amazônia Ocidental um modelo de desenvolvimento
+regional, especialmente o PIM com características peculiares, os “fatores locais e da grande
+distância que se encontram os centros consumidores de seus produtos”.
+Segundo o sítio da Superintendência da Zona Franca de Manaus (SUFRAMA),
+autarquia do Governo Federal responsável pela gestão da ZFM, o PIM encontra representação
+em áreas distintas, agrupados em subsetores industriais, conforme tabela 1.
+Tabela 1 – Subsetores Industriais do PIM
+Ord.
+1
+
+Subsetores
+Bebidas não alcoólicas e seus
+
+Ord.
+
+Subsetores
+
+10
+
+Produtos derivados da borracha
+
+concentrados
+2
+
+Editorial e gráfico
+
+11
+
+Produtos alimentícios
+
+3
+
+Material elétrico, eletrônico e de
+
+12
+
+Químico e farmacêutico
+
+comunicação
+4
+
+Madeira
+
+13
+
+Produtos de matérias plásticas
+
+5
+
+Mecânico
+
+14
+
+Têxtil
+
+6
+
+Metalúrgico
+
+15
+
+Vestuário, artigos de tecidos e viagem
+
+7
+
+Minerais e não metálicos
+
+16
+
+Material de transporte
+
+8
+
+Mobiliário
+
+17
+
+Construção
+
+9
+
+Papel, papelão e celulose
+
+18
+
+Diversos
+
+
+Ótico
+
+
+
+Aparelhos,
+
+equipamentos
+
+e
+
+acessórios
+
+fotográficos
+
+
+Isqueiros, canetas e barbeadores descartáveis
+
+
+
+Brinquedos
+
+
+
+Outras empresas do subsetor diversos
+
+Fonte: Elaborado pelo Autor.
+
+Os dados constantes do relatório da CIEAM (2015) mostram números significativos da
+atividade industrial do PIM desenvolvidos por mais de 450 empresas efetivamente instaladas.
+Nos terceiros e quartos trimestres de 2014 e nos primeiros e terceiros de 2015, a
+participação da indústria na composição do PIB estadual, de cerca de R$ 87 bilhões,
+correspondeu a 31%, aproximadamente R$ 27 bilhões. Somente a indústria de transformação,
+onde estão inseridos os subsetores do PIM, representou cerca de R$ 24 bilhões, ou
+aproximadamente 27% do PIB estadual.
+
+20
+
+A evolução do emprego formal no Estado, tendo como base o mês de dezembro de 2014,
+representou 631 mil postos de trabalho, incluído a mão-de-obra temporária e terceirizada. A
+média mensal do PIM foi de 122 mil empregos diretos, ou seja, cerca de 19% do emprego no
+Estado
+Segundo o relatório Indicadores de Desempenho do PIM, em 2014, os subsetores
+industriais faturaram cerca de R$ 87 bilhões, equivalente a US$ 37 bilhões, convertido a taxa
+de câmbio da época. Os polos a serem destacados são os eletroeletrônicos, bens de informática,
+duas rodas e químico. O faturamento destes setores foram respectivamente, US$ 12,1 bilhões,
+US$ 6,1 bilhões, US$ 5,8 bilhões e US$ 4,6 bilhões. Os produtos de maior valor agregado como
+televisor com tela LCD, telefone celular e placa de circuito impresso representaram mais de
+30% do faturamento total do PIM. Com base na classificação de Costa (2012), estes produtos
+compõem os setores industriais da indústria diferenciada e baseada em tecnologia.
+O emprego nos subsetores do PIM, tendo como base o ano de 2014, alcançou 122 mil
+empregos, representado pelo quantitativo dos postos de trabalho, média mensal, dos empregos
+diretos, incluído a mão-de-obra temporária e terceirizada. O grande empregador é o setor de
+material elétrico, eletrônico e de comunicação com os polos eletroeletrônico, de bens de
+informática e celular com cerca de 42% do total dos empregos do PIM. Somados aos empregos
+diretos, todos os subsetores do PIM potencializam os postos de trabalhos em cerca de 300 mil
+empregos indiretos em todo o Estado do Amazonas. Torna-se inegável a importância alcançada
+pelo polo industrial, em termos de sua participação relativa na economia do Estado do
+Amazonas. (RIVAS, 2009).
+Como a revisão da literatura sugere, o Índice de Malmquist (IM) foi usado como um
+método para medir a produtividade na indústria em diferentes setores. Deve, naturalmente, ser
+notado que o IM, assim como a DEA, pode produzir dados mais ricos, se considerar tanto as
+fronteiras eficientes e ineficientes.
+2.3 METODOLOGIA
+Neste trabalho, estimamos a eficiência relativa de nove subsetores industriais do Polo
+Industrial de Manaus utilizando a técnica não-paramétrica de Análise Envoltória de Dados (ou
+DEA-Data Envelopment Analysis), um método de programação linear que permite avaliar a
+eficiência relativa das unidades de tomada de decisão (ou DMU-decision making units). A
+técnica é não-paramétrica porque não exige prescrever formas funcionais das relações entre
+entradas e saídas, que são necessárias em abordagens paramétricas, e as variáveis podem ser
+medidas em unidades diferentes.
+
+21
+
+Para obtermos indicadores de mudanças na produtividade entre dois períodos de tempo
+distintos, utilizamos o índice de produtividade Malmquist baseado em DEA (MURILLOZAMORANO, 2004). Segundo Grifell e Lovell (1995), o índice de Malmquist apresenta
+inúmeras vantagens frente a outros métodos tradicionais de se medir a produtividade total dos
+fatores (PTF). Podem ser destacadas, pelo menos, duas vantagens: baseado em funções
+distancias, não requer preços dos inputs e outputs na sua formulação; além disso, não se baseia
+no comportamento da DMU, ou seja, não se baseia em problemas de maximização das receitas
+ou minimização dos custos.
+2.3.1 Análise Envoltória de Dados
+A técnica não-paramétrica de análise de eficiência DEA foi desenvolvida por Charnes
+et al. (1978) para estimar os níveis de eficiência relativa das unidades produtivas ou DMUs em
+vários campos de aplicações. Com o auxílio de programação matemática não paramétrica, a
+DEA gera uma envoltória dos planos de produção observados, sendo que todos os planos de
+produção pertencentes a esta envoltória, denominada de fronteira de produção, são eficientes
+tecnicamente e, seus níveis de consumo e de produção são ótimos. Assim, a DEA é uma técnica
+de benchmarking potente, uma vez que permite medir o nível de eficiência das unidades nãofronteiriças e identificar benchmarks contra os quais essas unidades ineficientes podem ser
+comparadas.
+Ao longo dos anos, vários modelos DEA foram estudados desde a introdução do
+conceito de eficiência por Farrell (1957). Dois modelos são amplamente utilizados, o modelo
+CCR em homenagem a Charnes, Cooper e Rhodes (1978) e o modelo BCC dos autores Banker,
+Charnes e Cooper (1984).
+Segundo Faria et al. (2006), a DEA constrói uma fronteira de eficiência considerando
+retornos constantes de escala ou variáveis de escala:
+• o modelo CCR constrói fronteiras considerando retornos constantes de escala;
+• o modelo BCC constrói fronteiras considerando retornos variáveis de escala.
+O modelo CCR assume retornos constantes para dimensionar o que significa que um
+aumento proporcional em todas as entradas resulta no mesmo aumento proporcional nas saídas.
+É apropriado somente quando todas as DMUs operam na escala ótima de produção; no entanto,
+podem existir restrições nas DMUs que não lhes permitam operar na escala ideal. O modelo é
+independente de escala, pois divide a produtividade de um DMU pela DMU mais produtiva de
+um determinado conjunto. É chamada de eficiência total.
+
+22
+
+No modelo BCC, ao incorporar o conceito de economia de escala, a estimação da
+eficiência é obtida pela razão da produtividade de cada DMU pela maior produtividade das
+DMUs que apresentem o mesmo tipo de retorno a escala que ela (BANKER, CHARNES,
+COOPER, 1984). Com a incorporação das propriedades da tecnologia que exiba retorno à
+escala ao modelo BCC, o acréscimo de inputs não resulta em uma mudança proporcional nos
+outputs, ou seja, a produtividade máxima varia ao longo de sua fronteira. Esta eficiência, livre
+dos efeitos de escala, é chamada de eficiência técnica pura.
+No gráfico 1 tem-se ilustrado a superfície envoltória dos dados considerando uma
+tecnologia de produção com retorno constante de escala com orientação ao insumo. Nesta figura
+encontram-se, também, 4 DMUs (A, B, C e D), as quais consomem uma quantidade x de
+insumos e produzem uma quantidade y de produtos.
+Gráfico 1 – Modelo CCR aplicado ao insumo
+
+Fonte: Elaborado pelo Autor.
+
+Destes quatro produtores, o único eficiente e, segundo esta tecnologia de produção, é C,
+o qual está sobre a fronteira de eficiência. Os demais produtores (A, B e D) são ineficientes;
+para modificar este padrão e se tornar eficientes eles terão que diminuir seus insumos.
+O produtor B, por exemplo, para se tornar eficiente, segundo esta tecnologia, mantendo
+a quantidade do produto YB, deve reduzir a quantidade do insumo de XB para XB’. Para
+descobrir qual é a dimensão da redução do insumo é necessário calcular o índice de eficiência
+técnica do produtor. Este índice é calculado através da razão onde (θ, θ =
+
+≥ 1) multiplicado
+
+por 100%, e o percentual de aumento da produtividade para se tornar eficiente tecnicamente.
+
+23
+
+Para atingir essa redução, o produtor B deverá observar o produtor C, que é sua referência de
+produtividade (benchmark).
+A escolha da orientação dos modelos, resume Coelli (1994) dependerá das quantidades
+de insumos e produtos que se tem controle. Se pretendesse verificar quais outputs alcançar com
+as quantidades mínimas de inputs para um determinado de produto, a orientação é ao insumo.
+Por outro lado, se pretendesse a partir de uma quantidade fixa de inputs obter mais outputs, isto
+é, obter uma máxima quantidade de produtos sem alterar o nível de insumos, a orientação é ao
+produto, encerra o autor.
+As equações (1) e (2) mostram os modelos DEA-CCR (CHARNES et al., 1978) e DEABCC (BANKER et al., 1984), respectivamente.
+(1)
+
+(2)
+
+MIN θ, λ θ
+
+MIN θ, λ θ
+
+s.a.
+
+s.a.
+
+- ys + Yλ ≥ 0
+
+- ys + Yλ ≥ 0
+
+θxs - X λ ≥ 0
+
+θxs - X λ ≥ 0
+
+λ≥0
+
+eλ = 1
+λ≥0
+
+em que:
+s = 1, ..., S corresponde ao número de DMUs.
+xs é um vetor (1xm) de insumos da DMU s.
+ys é um vetor (nx1) de produtos da DMU s.
+X é uma matriz (mxs) dos insumos das DMUs.
+Y é uma matriz (nys) dos produtos das DMUs.
+e é um vetor (1xs) de uns.
+λ é um vetor (sx1) de pesos; λk corresponde à contribuição da DMU k na formação do alvo da
+DMU s. Quanto maior λk, maior a importância da DMU correspondente para a DMU
+ineficiente.
+θ é o escore de eficiência técnica da DMU s e varia entre 0 e 1.
+Se θ = 1, indica uma DMU tecnicamente eficiente, se 0 < θ < 1, indica uma DMU
+tecnicamente ineficiente. Para aquelas DMUs que são ineficientes, as variáveis de λ
+identificarão seus benchmarks, isto é, a DMU eficiente que pertence a seu conjunto de
+referência. Os valores de λ refletem a importância de uma unidade eficiente no conjunto de
+referência de uma DMU ineficiente. A programação linear mencionada em (1) e (2) será
+
+24
+
+resolvida n número de vezes, uma vez para cada DMU, proporcionando um valor de θ para cada
+DMU.
+A metodologia DEA neste trabalho segue a abordagem orientada à entrada (input), uma
+vez que o desempenho do PIM depende das entradas com os quais ele deve gerenciar
+eficientemente.
+2.3.2 O Índice Malmquist de produtividade total dos fatores
+Os números índices são amplamente utilizados na construção de indicadores que meçam
+a mudança na produtividade ao longo do tempo. Existem basicamente dois tipos de indicadores
+de produtividade: fator parcial de produtividade (FPP) que indica o rendimento de um fator de
+cada vez, demonstrando apenas a relação entre a produção de um único produto e a quantidade
+de um único insumo utilizado, como por exemplo, a produção de soja por hectare. O segundo
+tipo de indicador é denominado de fator total de produtividade (FTP), que é um índice que
+indica o quanto de produto é possível produzir a partir dos diversos insumos utilizados.
+O índice de produtividade de Malmquist foi introduzido por Cave et al. (1982). Färe et
+al. (1994), por sua vez, propuseram uma medida da mudança na produtividade calculada como
+uma média geométrica de dois índices de produtividade de Malmquist. Calculam essa medida
+explorando o fato de que as funções de distância sobre as quais ela é baseada podem ser
+calculadas a partir das medidas de eficiência técnica de Farrel (1957). Isso também permite
+decompor a mudança na produtividade em dois componentes mutuamente exclusivos: mudança
+na eficiência (efeito “recuperação”, catching up) e a mudança na tecnologia (efeito “inovação”,
+frontier-shift). Esta possibilidade do desmembramento das mudanças de produtividade dentro
+de mudança no indicador de eficiência e mudança tecnológica, permite, dessa forma, conhecer
+a natureza da mudança de produtividade.
+Tone (2004) acentua que o índice de Malmquist é um índice que representa o
+crescimento da produtividade total dos Fatores de uma unidade de tomada de decisão (DMU)
+com variações da eficiência e da técnica ao longo do tempo às múltiplas estruturas de entradas
+e saídas.
+Segundo Grifell-Tatjé e Lovell (1995), a estimação da medida de mudança de
+produtividade quando os retornos de escala não são constantes são inadequadas,
+consequentemente para uma medida mais acurada é preferível o retorno constante, ou modelo
+CCR da metodologia DEA.
+A seguir, apresentamos brevemente o índice de Malmquist de mudança na
+produtividade proposta por Färe et al. (1994). Para definir o índice de Malmquist de mudança
+
+25
+
+na produtividade orientado para insumos, assume-se que, para cada período de tempo t=1…,T,
+a tecnologia de produção St pode ser definida como St={(xt, yt): xt pode produzir yt}, em que xt
+ϵ RN+ é o vetor de insumos e yt ϵ RM+ é o vetor de produtos. Define-se a função distância de
+insumo no período t como:
+Dti (xt, yt) = sup {λ : (xt / λ, yt) ϵ St
+a recíproca da redução proporcional máxima em xt que ainda permite produzir yt.
+Para definir o índice de Malmquist, é preciso, ainda, definir funções distância de insumo
+com respeito a dois períodos de tempo distintos:
+Dti (xt + 1, yt + 1) = sup {λ : (xt + 1 / λ, yt + 1) ϵ St
+Essa função distância mede a mudança proporcional mínima nos insumos necessária para que
+(xt + 1, yt + 1) seja factível em relação à tecnologia em t.
+Uma ilustração da função distância pode ser vista no gráfico 2.
+Gráfico 2 - Função distância orientada pelo insumo e a isoquanta L(y)
+
+Fonte: Adaptado de Carvalho et al. (2006).
+
+O conjunto de insumos corresponde à área limitada inferiormente pela isoquanta L(y).
+O ponto A define o ponto de produção onde a firma usa a quantidade X1A do insumo 1 e X2A
+do insumo 2 para produzir o vetor de produtos Y. O valor da função distância para o ponto A é
+dado pela razão ρ = 0A/ 0B.
+O conceito de índice de produtividade Malmquist pode ser ilustrado no gráfico 3
+definido por Caves et al. (198), Berg et al. (1992) Price e Weyman-Jones (1996). Nesta figura,
+uma fronteira de produção está representando o nível eficiente de saída y que pode ser
+produzido a partir de um determinado nível de entrada x. A figura apresenta o caso de uma
+única entrada/saída, mas pode ser estendido para múltiplas entradas/saídas no quadro da
+definição de Modelos DEA.
+
+26
+
+Gráfico 3 – Índice de produtividade de Malmquist e suas decomposições
+
+Fonte: Adaptado de (Emrouznejad e Thanassoulis, 2010)
+
+No pressuposto de que a fronteira pode mudar ao longo do tempo, foi construída uma
+fronteira produtiva que representa o nível eficiente de saída (y) que pode ser produzido a partir
+de um determinado nível de entrada (x). O diagrama mostra claramente a mudança das
+fronteiras como L(t) e L(t + 1). Onde, L(t) é o tempo atual e L(t + 1) é a fronteira futura do
+tempo. A ineficiência é assumida como estando presente; e o movimento relativo de qualquer
+DMU dado ao longo do tempo dependerá, portanto, tanto de sua posição relativa à fronteira
+correspondente (eficiência técnica) e da posição da própria fronteira (mudança de tecnologia).
+Se a ineficiência não for observada, então o crescimento da produtividade ao longo do tempo
+será incapaz de distinguir entre melhorias que derivam da DMU alcançando para sua própria
+fronteira, ou aqueles que resultam da própria fronteira deslocando-se ao longo do tempo.
+No período de tempo t, qualquer DMU pode ser representado pelo conjunto de entrada
+ou saída A(t), uma medida de eficiência baseada em entrada pode ser deduzida pela relação de
+distância horizontal OC/OB. As entradas podem ser reduzidas a fim de tornar a produção
+tecnicamente eficiente no período t (ou seja, movimento para a fronteira eficiente). Por
+comparação, no período t + 1 as entradas devem ser multiplicadas pela relação de distância
+horizontal OF/OE, a fim de alcançar uma eficiência técnica comparável à encontrada no período
+t. Desde que a fronteira mudou, OF/OE excede a unidade, mesmo que seja ineficiente técnico
+quando comparado com o período t + 1 fronteira. Foi possível decompor essa mudança de
+produtividade total entre os dois períodos em mudança técnica e mudança de eficiência técnica
+aplicando IM orientado a insumos. A orientação de entrada refere-se à ênfase na redução
+equiproporcional de insumos, dentro do contexto de um determinado nível de produção.
+
+27
+
+Para calcular a mudança na produtividade entre os períodos t e (t+1), o índice de
+Malmquist com orientação a insumos, Mi, pode ser calculado como:
+
+1
+ D  x ,y  D  x ,y   2
+M i  xt+1 , y t+1 , xt , y t  =  t t t . t+1 t t 
+Di  x , x  
+ Di  x , y 
+t
+i
+
+t+1
+
+t+1
+
+t+1
+i
+
+t+1
+
+t+1
+
+ T E C  T C , onde
+
+TEC =
+
+Dit+1  xt+1 , y t+1 
+Dit  xt , y t 
+
+e 𝑇𝐶
+
+,
+,
+
+,
+
+.
+
+,
+
+.
+
+O índice de Malmquist pode ser calculado como o produto de um índice de mudança na
+eficiência técnica
+
+(TEC-technical efficiency change, também chamado de efeito
+
+“recuperação”, catch up), que captura a mudança na distância da DMU em relação à fronteira
+tecnológica, e um índice de mudança tecnológica (TC-technical change, também chamado de
+efeito “inovação”, frontier-shift), que captura a mudança na fronteira tecnológica.
+No gráfico 4, podem ser vistos os efeitos e os componentes do índice Malmquist através
+de um exemplo prático de um caso de uma DMU com um input e um output.
+Gráfico 4 – Índice Malmquist e seus componentes
+Output
+
+Fronteira
+no
+periodo 2
+
+A
+
+Q(xo, yo)2 F
+
+D
+
+B
+
+E
+
+Fronteira
+no
+periodo 1
+
+C
+
+P(xo, yo)1
+
+Input
+
+Fonte: Adaptado pelos autores a partir de Tone (2004).
+
+O efeito catch-up (recuperação) ou de mudança de eficiência técnica (TEC, technical
+efficiency change), orientado a input, pode ser composto como segue:
+
+28
+
+BD
+BQ
+catch − up =
+AC
+(TEC )
+AP
+
+Färe et al. (1994) afirmam que TEC > 1 significa que a eficiência no período t + 1 foi
+maior que a eficiência no período t, TEC < 1 indica que a eficiência no período t foi melhor que
+no período t + 1 e TEC = 1, a eficiência se manteve inalterada nos períodos t e t + 1.
+O efeito frontier-shift (inovação) ou de mudança técnica (TC, technical change),
+orientado a input, é explicado da seguinte maneira: o ponto C move-se para o ponto E na
+fronteira do período 2. O efeito é avaliado como:
+φ 1=
+
+AC
+AE
+
+que equivale a
+AC
+1
+AP eficiência ( x 0 ,y 0 ) nafronteira 1
+φ1 =
+=
+1
+AE
+eficiência
+x
+,y
+( 0 0 nafronteira 2
+AP
+
+)
+
+De modo similar, o ponto F desloca-se para o ponto D na fronteira 2. O efeito é avaliado
+como:
+
+φ 2=
+
+BF
+BD
+
+que equivale a
+BF
+2
+BQ eficiência ( x 0 ,y 0 ) nafronteira 1
+=
+φ2 =
+2
+BD
+eficiência ( x 0 ,y 0 nafronteira 2
+BQ
+
+)
+
+O efeito frontier-shift é definido como uma média geométrica:
+frontier − shift =φ =√φ 1∗ φ 2
+(TC )
+
+Quanto à mudança técnica, TC > 1 indica uma mudança positiva ou progresso técnico, TC < 1
+indica uma mudança negativa ou regressão técnica e TC =1 indica nenhuma mudança na
+fronteira tecnológica.
+
+29
+
+O índice de Malmquist (M0) captura a mudança na produtividade total dos fatores de
+uma DMU. Färe et al. (1994) destacam que M0 > 1 indica ganho de produtividade, M0 < 1 indica
+perda de produtividade e M0 = 1 significa que não houve alteração na produtividade entre os
+períodos t e t + 1. A partir da análise da decomposição do índice, é possível inferir as causas
+das variações na produtividade. Estas variações podem estar relacionadas à mudança na
+eficiência ou mudança na tecnologia.
+2.3.3 Dados
+Os dados que subsidiaram a análise da eficiência e produtividade são do relatório de
+indicadores da SUFRAMA (2017), no período de 1994 a 2016.
+A escolha das variáveis de entradas e saída seguiu a forma padrão da função de produção
+Y = f(x). A variável quantidade de produto (Y) foi representada pelo valor do faturamento (Fat).
+Os fatores utilizados (x) são, respectivamente, a aquisição de matérias-primas (Ins) e quantidade
+de mão-de-obra (mo).
+A tabela 2 resume as informações dos subsetores e as variáveis utilizadas neste estudo.
+As DMUs são representadas por nove subsetores industriais que juntos representam mais de
+90% do faturamento do Polo Industrial de Manaus (CIEAM, 2017).
+Tabela 2 – Subsetores industriais e as variáveis de entradas (inputs)e saída (output) do PIM
+Abreviatura
+Nome
+Significado
+Definição
+ee
+Eletroeletrônico
+rel
+Relojoeiro
+2r
+Duas rodas
+tmp
+Termoplástico
+met
+Metalúrgico
+Reunião de empresas que desenvolvem
+Subsetores
+atividades correlatas.
+industriais
+mec
+Mecânico
+pap
+Papel e papelão
+qui
+Químico
+Isqueiros, Canetas e
+isq
+Barbeadores descartáveis
+Aquisição de matériasA soma dos valores de todos os insumos de
+1
+Ins
+cada subsetor.
+primas
+Entradas
+Os valores médios mensais de mão-de-obra
+(Inputs)
+efetiva, temporária e terceirizada por
+MO 2
+Mão-de-obra
+subsetor.
+Fat 1
+Valor de faturamento
+A soma das vendas brutas de cada subsetor.
+Saída (Output)
+Nota: 1 - Valores em US$ 1.000, deflacionados pelo IGP-M e convertidos pelo Dólar comercial venda (PTAX),
+ambos da FGVDados; 2 - Quantidade média mensal.
+Fonte: Elaboração pelos Autores.
+
+Na tabela 3 são apresentados a estatística descritiva das variáveis de entradas e saída de
+todos os subsetores do PIM. As estatísticas são apresentadas pelo valor médio, no período
+analisado.
+
+30
+
+Tabela 3 - Sumário das Estatísticas das Entradas (Inputs) e Saída (Output) - 1994-2016
+Subsetores
+
+Entradas
+
+industriais
+
+1
+
+Ins
+
+Saída
+MO
+
+2
+
+Fat 1
+
+Max
+
+5.651.004
+
+37.316
+
+10.341.266
+
+Min
+
+50.377
+
+1.246
+
+112.656
+
+Média
+
+1.114.297
+
+7.946
+
+2.204.118
+
+Desvio Padrão
+
+1.837.137
+
+11.593
+
+3.279.551
+
+Nota: 1 - Valores em US$ 1.000, deflacionados pelo IGP-M e convertidos pelo Dólar comercial venda (PTAX),
+ambos da FGVDados; 2 - Quantidade média mensal.
+Fonte: Elaborado pelo Autor.
+
+As medidas de eficiências foram obtidas ano a ano com a técnica Analise Envoltória de
+Dados (DEA), aplicado aos modelos CCR e BCC. A orientado a input é pertinente neste
+trabalho, uma vez que as indústrias do PIM buscam a combinação ótima dos seus recursos para
+prover maior produção possível.
+Os índices de produtividades, foram obtidos a cada dois períodos, com o Índice
+Malmquist, orientado ao input.
+As ferramentas computacionais utilizadas foram os softwares DEA SOLVER-LV(V8)
+e Win4deap 2.
+2.4 RESULTADOS
+Em primeiro lugar, será apresentado os resultados para a análise da eficiência com a
+utilização da técnica DEA, a partir dos modelos, orientado a input. A análise buscou verificar
+qual a trajetória ou a tendência das medidas de eficiências dinâmicas dos subsetores do PIM no
+período estudado, se crescente, constante ou decrescente. O resultado dessa análise
+proporcionou fazer algumas inferências sobre a produtividade do PIM, a partir da análise do
+índice de Malmquist e suas decomposições.
+2.4.1 Análise da eficiência em DEA
+Conforme pode ser visto, as tabelas 4, 5 e 6 apresentam as estimativas das medidas das
+eficiências dos subsetores industriais do PIM, nos modelos CCR, eficiências com retornos
+constantes e BCC, eficiências com retornos variáveis. Também são apresentadas nestas tabelas,
+as estatísticas descritivas, médias, máximos, mínimos e desvios-padrão.
+Com relação as medidas das eficiências no modelo CCR (tabela 4), apenas o subsetor
+químico apresentou medida de eficiência total 1 ou 100% em todo o período analisado. Os
+
+31
+
+subsetores Duas rodas (2r) e Isqueiros, Canetas e Barbeadores descartáveis (isq) apresentaram
+eficiência total em anos distintos. O de “2r” apenas no ano de 2016. O de “isq” nos de anos de
+2002, 2012 e 2013. As médias anuais das eficiências desses subsetores, “2r” e “isq”, são,
+respectivamente, 28,2% e 59%, ou de outra forma, as ineficiências (1 – eficiência) são 71,8%
+e 41%. Isto significa que esses subsetores e os demais subsetores que apresentaram eficiências
+abaixo 1 ou 100% terão que reduzir suas entradas, no caso do nosso estudo, a utilização das
+matérias-primas ou insumos e a quantidade de mão-de-obra para obter um maior nível de
+produção.
+
+Tabela 4 – Medidas das eficiências dos subsetores no período de 1994-2016 – Modelo CCR
+Subsetores
+Anos
+Média Max Min DP
+industriais 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016
+Eletroeletrônico 0,257 0,200 0,174 0,121 0,099 0,135 0,124 0,142 0,311 0,309 0,303 0,325 0,245 0,264 0,200 0,216 0,188 0,419 0,391 0,384 0,372 0,366 0,468 0,261 0,468 0,099 0,107
+relojoeiro 0,200 0,155 0,147 0,157 0,113 0,136 0,142 0,251 0,463 0,572 0,582 0,646 0,457 0,486 0,343 0,402 0,344 0,369 0,315 0,263 0,287 0,195 0,475 0,326 0,646 0,113 0,161
+Duas rodas 0,237 0,187 0,177 0,171 0,158 0,163 0,149 0,185 0,255 0,315 0,318 0,321 0,256 0,233 0,226 0,159 0,188 0,369 0,356 0,360 0,340 0,361 1,000 0,282 1,000 0,149 0,175
+Termoplástico 0,291 0,214 0,153 0,165 0,100 0,097 0,114 0,154 0,580 0,376 0,356 0,374 0,264 0,242 0,191 0,232 0,204 0,422 0,383 0,343 0,354 0,387 0,369 0,277 0,580 0,097 0,123
+Metalúrgico 0,186 0,163 0,140 0,098 0,071 0,132 0,115 0,154 0,231 0,259 0,263 0,298 0,272 0,251 0,197 0,206 0,179 0,578 0,429 0,399 0,403 0,483 0,400 0,257 0,578 0,071 0,134
+Mecânico 0,289 0,177 0,152 0,140 0,100 0,088 0,088 0,135 0,207 0,244 0,205 0,199 0,174 0,165 0,133 0,140 0,151 0,269 0,352 0,283 0,259 0,297 0,376 0,201 0,376 0,088 0,082
+Papel e papelão 0,196 0,174 0,150 0,148 0,136 0,122 0,111 0,177 0,362 0,384 0,367 0,390 0,303 0,239 0,233 0,215 0,246 0,612 0,536 0,411 0,419 0,402 0,150 0,282 0,612 0,111 0,139
+Químico 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 0,000
+Isq (*) 0,190 0,278 0,253 0,209 0,271 0,317 0,263 0,447 1,000 0,856 0,689 0,622 0,694 0,709 0,711 0,487 0,477 0,848 1,000 1,000 0,997 0,819 0,444 0,590 1,000 0,190 0,284
+(*) Isqueiros, Canetas e Barbeadores descartáveis.
+
+Fonte: Elaborado pelo Autor.
+
+Tabela 5 – Medidas das eficiências dos subsetores no período de 1994-2016 – Modelo BCC
+Subsetores
+Anos
+Média Max Min DP
+industriais 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016
+Eletroeletrônico 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 0,000
+relojoeiro 0,252 0,216 0,261 0,304 0,278 0,291 0,421 0,524 0,811 0,945 1,000 1,000 1,000 1,000 1,000 1,000 1,000 0,940 0,916 0,963 1,000 1,000 1,000 0,744 1,000 0,216 0,326
+Duas rodas 0,559 0,509 0,547 0,966 1,000 0,673 0,631 0,807 0,504 0,729 0,767 0,842 0,953 1,000 1,000 0,539 0,638 0,750 0,583 0,573 0,495 0,480 1,000 0,719 1,000 0,480 0,191
+Termoplástico 0,457 0,413 0,267 0,364 0,207 0,227 0,259 0,228 0,617 0,399 0,379 0,385 0,282 0,267 0,214 0,270 0,242 0,442 0,385 0,347 0,354 0,410 0,451 0,342 0,617 0,207 0,102
+Metalúrgico 0,636 0,669 0,668 0,428 0,312 0,298 0,329 0,367 0,652 0,510 0,453 0,353 0,301 0,274 0,243 0,263 0,273 0,591 0,429 0,400 0,403 0,514 0,491 0,429 0,669 0,243 0,140
+Mecânico 1,000 1,000 1,000 1,000 0,970 1,000 1,000 1,000 0,578 0,478 0,420 0,387 0,357 0,278 0,253 0,235 0,233 0,288 0,363 0,300 0,275 0,318 0,478 0,574 1,000 0,233 0,325
+Papel e papelão 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 0,813 0,778 0,762 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 0,972 1,000 0,762 0,075
+Químico 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 1,000 0,000
+Isq (*) 0,289 0,425 0,446 0,389 0,427 0,476 0,489 0,660 1,000 1,000 0,859 0,744 0,896 0,990 1,000 0,842 0,832 1,000 1,000 1,000 1,000 1,000 0,729 0,761 1,000 0,289 0,252
+(*) Isqueiros, Canetas e Barbeadores descartáveis.
+
+Fonte: Elaborado pelo Autor.
+
+Tabela 6 – Medidas das eficiências médias anuais dos subsetores no período de 1994-2016
+Anos
+Média Máx Mín DP
+1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016
+CCR 0,316 0,283 0,261 0,245 0,228 0,243 0,234 0,294 0,490 0,479 0,454 0,464 0,407 0,399 0,359 0,340 0,331 0,543 0,529 0,494 0,492 0,479 0,520 0,386 0,543 0,228 0,109
+BCC 0,688 0,692 0,688 0,717 0,688 0,663 0,681 0,732 0,796 0,785 0,764 0,725 0,730 0,730 0,745 0,683 0,691 0,779 0,742 0,731 0,725 0,747 0,794 0,727 0,796 0,663 0,039
+
+Modelos
+
+Fonte: Elaborado pelo Autor.
+
+33
+
+Em uma microanálise, a partir do modelo CCR, de eficiência total com retornos
+constantes, a maioria dos subsetores do PIM apresentam um nível médio anual de eficiência
+entre 20% e 30% (verificar coluna “média” na tabela 4).
+No que diz respeito as medidas das eficiências no modelo BCC (tabela 5), diversos
+subsetores apresentaram medidas de eficiência técnica “pura” 1 ou 100% em algum ano do
+período analisado. Somente os subsetores Eletroeletrônicos (ee) e químico (qui) apresentaram
+eficiência técnica “pura” 1 ou 100%.
+Um ponto a destacar na análise do modelo BCC é que ao levar em conta o efeito de
+escala, os subsetores que demanda uma planta diferenciada em função das características de
+produção é que se apresentam ineficientes como, o de Duas rodas (2r), o termoplástico (termo)
+e o metalúrgico (met). Nesse modelo, o nível de eficiência média anual é superior a 70%
+(verificar coluna “média” na tabela 5), significando que considerado o efeito escala de
+produção, os subsetores terão que reduzir, em média, 30% das suas entradas para alcançarem
+um maior nível de produção.
+Na tabela 6 são apresentadas as médias anuais das medidas de eficiência para todos os
+subsetores industriais, a partir dos modelos CCR e BCC. Os dados da tabela 5 subsidiaram a
+elaboração do esboço dos gráficos das curvas de eficiências médias anuais.
+No gráfico 5 pode ser visto, o esboço da curva das eficiências médias anuais do modelo
+CCR. O gráfico apresenta uma forte tendência de crescimento das eficiências, de outra forma,
+há um maior espaço para a redução das ineficiências.
+Cabe destacar dois aspectos na eficiência técnica total, do modelo CCR. Em primeiro
+lugar, a medida da eficiência não leva em consideração o efeito de escala. E esse é um aspecto
+importante a considerar, pois a medida da eficiência neste modelo reflete a gestão dos recursos,
+isto é, é uma medida gerencial. Pode-se conjecturar que no período analisado, os subsetores
+estão melhorando a gestão dos recursos, mesmo em detrimento às crises que solapam o PIM,
+refletidos nos períodos de decrescimento ou de crescimento da eficiência.
+
+34
+
+Gráfico 5 – Curva das eficiências medias anuais – Modelo CCR
+
+Fonte: Elaborado pelo Autor.
+
+O esboço da curva das eficiências médias anuais no modelo BCC pode ser visto no
+gráfico 6. O gráfico apresenta uma leve tendência de crescimento das eficiências, de outra
+forma, há um pequeno espaço para a redução das ineficiências.
+Gráfico 6 – Curva das eficiências
+
+Fonte: Elaborado pelo Autor.
+
+No que diz respeito, a um espaço menor para a redução da ineficiência do modelo BCC,
+o aspecto a considerar é o efeito de escala. No período analisado, a maioria dos subsetores
+apresentou eficiência técnica “pura” total igual 1 ou muito próximo conforme a tabela 5. Os
+
+35
+
+choques do período são em decorrência dos subsetores eficientes quando comparados com os
+ineficientes, levando a média anual a oscilar muito para cima ou para baixo.
+Em uma análise conclusiva, seja no modelo CCR ou BCC, a observância das curvas de
+eficiências médias anuais apresentaram uma tendência de crescimento, ou seja, o PIM
+apresentou no período analisado uma melhoria crescente em suas medidas de eficiência técnica
+relativa.
+2.4.2 Ganhos de produtividade com índice Malmquist
+Os resultados para o índice Malmquist é resumido na tabela 7. O índice médio de
+produtividade para o período foi de 1,043, indicando que houve ganho de produtividade nos
+subsetores industriais nos períodos analisados.
+Nos 22 períodos analisados, em 12 deles os subsetores industriais apresentaram ganhos
+de produtividade – valores maiores que 1. Somente em 10 períodos, os subsetores deixaram de
+apresentar ganhos de produtividade – valores menores que 1.
+
+36
+
+Tabela 7 – Mudança do Índice de produtividade- Índice Malmquist por períodos
+Anos
+
+Subsetores
+rel
+
+2r
+
+qui
+
+isq
+
+0,828
+
+1,112
+
+0,652
+
+0,951
+
+0,863
+
+0,786
+
+1,117
+
+1,387
+
+0,977
+
+1,387
+
+0,652
+
+0,223
+
+1995=>1996
+
+1,133
+
+1,077
+
+1,238
+
+0,812
+
+0,977
+
+1,123
+
+0,978
+
+1,218
+
+1,034
+
+1,066
+
+1,238
+
+0,812
+
+0,133
+
+1996=>1997
+
+0,747
+
+0,959
+
+1,079
+
+0,967
+
+0,704
+
+1,012
+
+0,888
+
+1,003
+
+0,742
+
+0,900
+
+1,079
+
+0,704
+
+0,137
+
+1997=>1998
+
+0,983
+
+1,131
+
+0,882
+
+0,949
+
+0,847
+
+0,782
+
+1,435
+
+1,223
+
+2,031
+
+1,140
+
+2,031
+
+0,782
+
+0,392
+
+1998=>1999
+
+0,889
+
+1,073
+
+0,671
+
+0,893
+
+1,207
+
+0,684
+
+0,830
+
+0,774
+
+1,075
+
+0,899
+
+1,207
+
+0,671
+
+0,185
+
+1999=>2000
+
+1,275
+
+1,008
+
+1,277
+
+1,135
+
+1,218
+
+0,966
+
+0,882
+
+1,162
+
+0,804
+
+1,081
+
+1,277
+
+0,804
+
+0,173
+
+2000=>2001
+
+0,777
+
+1,097
+
+0,856
+
+0,837
+
+0,922
+
+0,950
+
+0,985
+
+0,654
+
+1,051
+
+0,903
+
+1,097
+
+0,654
+
+0,139
+
+2001=>2002
+
+1,011
+
+0,933
+
+0,750
+
+1,865
+
+0,752
+
+0,747
+
+1,077
+
+0,501
+
+1,171
+
+0,979
+
+1,865
+
+0,501
+
+0,391
+
+2002=>2003
+
+0,973
+
+1,088
+
+1,136
+
+0,597
+
+1,084
+
+1,125
+
+0,905
+
+0,950
+
+0,751
+
+0,957
+
+1,136
+
+0,597
+
+0,183
+
+2003=>2004
+
+1,067
+
+1,103
+
+1,158
+
+1,027
+
+1,101
+
+0,913
+
+1,037
+
+1,172
+
+0,874
+
+1,050
+
+1,172
+
+0,874
+
+0,102
+
+2004=>2005
+
+1,044
+
+1,083
+
+1,030
+
+1,025
+
+1,104
+
+0,945
+
+1,036
+
+1,111
+
+0,880
+
+1,028
+
+1,111
+
+0,880
+
+0,075
+
+2005=>2006
+
+0,986
+
+0,925
+
+1,014
+
+0,922
+
+1,195
+
+1,143
+
+1,017
+
+1,271
+
+1,459
+
+1,103
+
+1,459
+
+0,922
+
+0,180
+
+2006=>2007
+
+1,092
+
+1,077
+
+1,103
+
+0,932
+
+0,936
+
+0,958
+
+0,799
+
+1,187
+
+1,036
+
+1,013
+
+1,187
+
+0,799
+
+0,118
+
+2007=>2008
+
+0,900
+
+0,837
+
+0,941
+
+0,934
+
+0,933
+
+0,960
+
+1,159
+
+1,043
+
+1,189
+
+0,989
+
+1,189
+
+0,837
+
+0,118
+
+2008=>2009
+
+1,242
+
+1,351
+
+0,776
+
+1,400
+
+1,200
+
+1,209
+
+1,063
+
+1,107
+
+0,788
+
+1,126
+
+1,400
+
+0,776
+
+0,222
+
+2009=>2010
+
+0,938
+
+0,847
+
+1,272
+
+0,869
+
+0,913
+
+1,068
+
+1,128
+
+1,076
+
+0,970
+
+1,009
+
+1,272
+
+0,847
+
+0,138
+
+2010=>2011
+
+1,054
+
+0,493
+
+1,005
+
+0,951
+
+1,485
+
+0,819
+
+1,146
+
+0,684
+
+0,817
+
+0,939
+
+1,485
+
+0,493
+
+0,285
+
+2011=>2012
+
+0,984
+
+0,901
+
+1,015
+
+0,970
+
+0,787
+
+1,384
+
+0,953
+
+0,999
+
+1,279
+
+1,030
+
+1,384
+
+0,787
+
+0,186
+
+2012=>2013
+
+0,984
+
+0,840
+
+1,015
+
+0,931
+
+0,965
+
+0,823
+
+0,864
+
+0,967
+
+1,120
+
+0,945
+
+1,120
+
+0,823
+
+0,094
+
+2013=>2014
+
+1,039
+
+1,167
+
+1,012
+
+1,060
+
+1,035
+
+0,964
+
+0,942
+
+0,959
+
+0,929
+
+1,012
+
+1,167
+
+0,929
+
+0,075
+
+2014=>2015
+
+0,893
+
+0,614
+
+0,962
+
+0,991
+
+1,086
+
+1,039
+
+0,870
+
+0,788
+
+0,744
+
+0,888
+
+1,086
+
+0,614
+
+0,152
+
+1,325
+
+Fonte: Elaborado pelo Autor.
+
+2,808
+1,056
+
+6,657
+1,271
+
+1,219
+0,997
+
+1,010
+1,019
+
+1,535
+1,000
+
+Pap
+
+DP
+
+1,098
+
+1,020
+
+mec
+
+Min
+
+ee
+
+Média
+
+met
+
+Max
+
+1994=>1995
+
+2015=>2016
+
+tmp
+
+Média
+
+0,819
+0,982
+
+0,915
+0,995
+
+0,857
+1,045
+
+1,905
+1,043
+
+6,657
+1,546
+
+0,819
+0,753
+
+1,884
+0,254
+
+37
+
+Os resultados da decomposição do índice de Malmquist, nas componentes mudança de
+eficiência técnica e mudança técnica são vistos, respectivamente, nas tabelas 7 e 8.
+Na tabela 7, o valor médio do índice que reflete a mudança de eficiência técnica para o
+período foi de 1,081, indicando que, em termos médios, o nível das eficiências técnicas dos
+subsetores industriais do período t + 1 foi maior que no período t, ou seja, houve melhoria nos
+níveis das eficiências técnicas no período analisado.
+Como ilustração, comparando-se os níveis das eficiências técnicas dos subsetores
+industriais do ano 2000 para 2001, os níveis das eficiências técnicas do ano 2001 foi maior que
+do ano 2000 visto apresentar o valor do índice médio das eficiências de 1,407, ou seja, o nível
+de eficiência melhorou de um ano para o outro. Observa-se que em todos os subsetores, o nível
+de eficiência técnica do ano 2001 é maior do que do ano 2000, visto que todos os índices são
+maiores que 1.
+
+38
+
+Tabela 8 – Mudança da eficiência técnica- efeito catch-up nos períodos
+Anos
+
+Subsetores industriais
+
+Média
+
+Max
+
+Min
+
+DP
+
+ee
+
+rel
+
+2r
+
+tmp
+
+met
+
+mec
+
+Pap
+
+qui
+
+isq
+
+1994=>1995
+
+0,780
+
+0,776
+
+0,790
+
+0,735
+
+0,877
+
+0,613
+
+0,887
+
+1,000
+
+1,464
+
+0,880
+
+1,464
+
+0,613
+
+0,244
+
+1995=>1996
+
+0,867
+
+0,949
+
+0,947
+
+0,716
+
+0,861
+
+0,859
+
+0,862
+
+1,000
+
+0,911
+
+0,886
+
+1,000
+
+0,716
+
+0,081
+
+1996=>1997
+
+0,699
+
+1,066
+
+0,964
+
+1,076
+
+0,702
+
+0,921
+
+0,988
+
+1,000
+
+0,825
+
+0,916
+
+1,076
+
+0,699
+
+0,143
+
+1997=>1998
+
+0,817
+
+0,723
+
+0,923
+
+0,607
+
+0,723
+
+0,713
+
+0,917
+
+1,000
+
+1,298
+
+0,858
+
+1,298
+
+0,607
+
+0,207
+
+1998=>1999
+
+1,366
+
+1,201
+
+1,031
+
+0,970
+
+1,854
+
+0,884
+
+0,902
+
+1,000
+
+1,168
+
+1,153
+
+1,854
+
+0,884
+
+0,305
+
+1999=>2000
+
+0,914
+
+1,041
+
+0,916
+
+1,172
+
+0,873
+
+0,998
+
+0,911
+
+1,000
+
+0,830
+
+0,962
+
+1,172
+
+0,830
+
+0,103
+
+2000=>2001
+
+1,144
+
+1,772
+
+1,239
+
+1,353
+
+1,335
+
+1,534
+
+1,592
+
+1,000
+
+1,699
+
+1,407
+
+1,772
+
+1,000
+
+0,260
+
+2001=>2002
+
+2,194
+
+1,843
+
+1,381
+
+3,776
+
+1,500
+
+1,530
+
+2,039
+
+1,000
+
+2,240
+
+1,945
+
+3,776
+
+1,000
+
+0,799
+
+2002=>2003
+
+0,994
+
+1,236
+
+1,235
+
+0,649
+
+1,122
+
+1,180
+
+1,061
+
+1,000
+
+0,856
+
+1,037
+
+1,236
+
+0,649
+
+0,192
+
+2003=>2004
+
+0,983
+
+1,016
+
+1,011
+
+0,946
+
+1,015
+
+0,841
+
+0,956
+
+1,000
+
+0,805
+
+0,953
+
+1,016
+
+0,805
+
+0,078
+
+2004=>2005
+
+1,071
+
+1,111
+
+1,010
+
+1,051
+
+1,133
+
+0,969
+
+1,063
+
+1,000
+
+0,902
+
+1,034
+
+1,133
+
+0,902
+
+0,072
+
+2005=>2006
+
+0,754
+
+0,708
+
+0,798
+
+0,705
+
+0,914
+
+0,874
+
+0,777
+
+1,000
+
+1,115
+
+0,849
+
+1,115
+
+0,705
+
+0,140
+
+2006=>2007
+
+1,078
+
+1,063
+
+0,909
+
+0,920
+
+0,924
+
+0,946
+
+0,788
+
+1,000
+
+1,022
+
+0,961
+
+1,078
+
+0,788
+
+0,090
+
+2007=>2008
+
+0,759
+
+0,705
+
+0,972
+
+0,787
+
+0,786
+
+0,809
+
+0,976
+
+1,000
+
+1,002
+
+0,866
+
+1,002
+
+0,705
+
+0,119
+
+2008=>2009
+
+1,078
+
+1,173
+
+0,703
+
+1,216
+
+1,046
+
+1,050
+
+0,923
+
+1,000
+
+0,685
+
+0,986
+
+1,216
+
+0,685
+
+0,187
+
+2009=>2010
+
+0,872
+
+0,857
+
+1,178
+
+0,879
+
+0,867
+
+1,080
+
+1,141
+
+1,000
+
+0,981
+
+0,984
+
+1,178
+
+0,857
+
+0,125
+
+2010=>2011
+
+2,224
+
+1,072
+
+1,964
+
+2,067
+
+3,227
+
+1,780
+
+2,492
+
+1,000
+
+1,776
+
+1,956
+
+3,227
+
+1,000
+
+0,684
+
+2011=>2012
+
+0,934
+
+0,854
+
+0,965
+
+0,909
+
+0,742
+
+1,308
+
+0,875
+
+1,000
+
+1,179
+
+0,974
+
+1,308
+
+0,742
+
+0,173
+
+2012=>2013
+
+0,980
+
+0,834
+
+1,013
+
+0,895
+
+0,931
+
+0,806
+
+0,767
+
+1,000
+
+1,000
+
+0,914
+
+1,013
+
+0,767
+
+0,093
+
+2013=>2014
+
+0,969
+
+1,092
+
+0,943
+
+1,031
+
+1,010
+
+0,913
+
+1,019
+
+1,000
+
+0,997
+
+0,997
+
+1,092
+
+0,913
+
+0,052
+
+2014=>2015
+
+0,986
+
+0,678
+
+1,061
+
+1,093
+
+1,199
+
+1,147
+
+0,960
+
+1,000
+
+0,821
+
+0,994
+
+1,199
+
+0,678
+
+0,162
+
+2015=>2016
+Média
+
+1,277
+1,079
+
+Fonte: Elaborado pelo Autor.
+
+2,443
+1,101
+
+2,773
+1,124
+
+0,954
+1,114
+
+0,829
+1,112
+
+1,266
+1,046
+
+0,374
+1,058
+
+1,000
+1,000
+
+0,542
+1,096
+
+1,273
+1,081
+
+2,773
+1,500
+
+0,374
+0,769
+
+0,817
+0,233
+
+39
+
+Na tabela 8, o valor do índice médio que reflete a mudança técnica para o período foi
+de 1,016, indicando que, em termos médios, os subsetores industriais apresentaram progresso
+técnico, ou seja, houve o deslocamento da fronteira tecnológica no período analisado.
+Tomado como exemplo os anos de 1995 e 1996, todos os subsetores industriais
+apresentaram índices de mudança técnica maiores que 1, indicando que houve progresso
+técnico.
+
+40
+
+Tabela 9 – Mudança técnica- efeito frontier-shift nos períodos
+Anos
+
+Subsetores
+
+Média
+
+Max
+
+Min
+
+DP
+
+ee
+
+rel
+
+2r
+
+tmp
+
+met
+
+mec
+
+Pap
+
+qui
+
+isq
+
+1994=>1995
+
+1,408
+
+1,068
+
+1,408
+
+0,886
+
+1,085
+
+1,408
+
+0,886
+
+1,117
+
+0,948
+
+1,135
+
+1,408
+
+0,886
+
+0,221
+
+1995=>1996
+
+1,307
+
+1,134
+
+1,307
+
+1,134
+
+1,134
+
+1,307
+
+1,134
+
+1,218
+
+1,134
+
+1,201
+
+1,307
+
+1,134
+
+0,084
+
+1996=>1997
+
+1,069
+
+0,899
+
+1,119
+
+0,899
+
+1,003
+
+1,099
+
+0,899
+
+1,003
+
+0,899
+
+0,988
+
+1,119
+
+0,899
+
+0,092
+
+1997=>1998
+
+1,203
+
+1,565
+
+0,955
+
+1,565
+
+1,172
+
+1,096
+
+1,565
+
+1,223
+
+1,565
+
+1,324
+
+1,565
+
+0,955
+
+0,242
+
+1998=>1999
+
+0,651
+
+0,893
+
+0,651
+
+0,920
+
+0,651
+
+0,774
+
+0,920
+
+0,774
+
+0,920
+
+0,795
+
+0,920
+
+0,651
+
+0,123
+
+1999=>2000
+
+1,394
+
+0,968
+
+1,394
+
+0,968
+
+1,394
+
+0,968
+
+0,968
+
+1,162
+
+0,968
+
+1,132
+
+1,394
+
+0,968
+
+0,207
+
+2000=>2001
+
+0,679
+
+0,619
+
+0,691
+
+0,619
+
+0,691
+
+0,619
+
+0,619
+
+0,654
+
+0,619
+
+0,645
+
+0,691
+
+0,619
+
+0,033
+
+2001=>2002
+
+0,461
+
+0,506
+
+0,543
+
+0,494
+
+0,502
+
+0,488
+
+0,528
+
+0,501
+
+0,523
+
+0,505
+
+0,543
+
+0,461
+
+0,024
+
+2002=>2003
+
+0,979
+
+0,880
+
+0,920
+
+0,921
+
+0,966
+
+0,953
+
+0,853
+
+0,950
+
+0,877
+
+0,922
+
+0,979
+
+0,853
+
+0,044
+
+2003=>2004
+
+1,085
+
+1,085
+
+1,146
+
+1,085
+
+1,085
+
+1,085
+
+1,085
+
+1,172
+
+1,085
+
+1,102
+
+1,172
+
+1,085
+
+0,033
+
+2004=>2005
+
+0,975
+
+0,975
+
+1,020
+
+0,975
+
+0,975
+
+0,975
+
+0,975
+
+1,111
+
+0,975
+
+0,995
+
+1,111
+
+0,975
+
+0,046
+
+2005=>2006
+
+1,308
+
+1,308
+
+1,271
+
+1,308
+
+1,308
+
+1,308
+
+1,308
+
+1,271
+
+1,308
+
+1,299
+
+1,308
+
+1,271
+
+0,016
+
+2006=>2007
+
+1,013
+
+1,013
+
+1,213
+
+1,013
+
+1,013
+
+1,013
+
+1,013
+
+1,187
+
+1,013
+
+1,055
+
+1,213
+
+1,013
+
+0,083
+
+2007=>2008
+
+1,187
+
+1,187
+
+0,968
+
+1,187
+
+1,187
+
+1,187
+
+1,187
+
+1,043
+
+1,187
+
+1,147
+
+1,187
+
+0,968
+
+0,082
+
+2008=>2009
+
+1,152
+
+1,152
+
+1,103
+
+1,152
+
+1,148
+
+1,152
+
+1,152
+
+1,107
+
+1,152
+
+1,141
+
+1,152
+
+1,103
+
+0,020
+
+2009=>2010
+
+1,076
+
+0,989
+
+1,080
+
+0,989
+
+1,053
+
+0,989
+
+0,989
+
+1,076
+
+0,989
+
+1,025
+
+1,080
+
+0,989
+
+0,044
+
+2010=>2011
+
+0,474
+
+0,460
+
+0,512
+
+0,460
+
+0,460
+
+0,460
+
+0,460
+
+0,684
+
+0,460
+
+0,492
+
+0,684
+
+0,460
+
+0,074
+
+2011=>2012
+
+1,054
+
+1,056
+
+1,052
+
+1,066
+
+1,061
+
+1,058
+
+1,088
+
+0,999
+
+1,085
+
+1,058
+
+1,088
+
+0,999
+
+0,026
+
+2012=>2013
+
+1,004
+
+1,007
+
+1,002
+
+1,040
+
+1,037
+
+1,021
+
+1,127
+
+0,967
+
+1,120
+
+1,036
+
+1,127
+
+0,967
+
+0,054
+
+2013=>2014
+
+1,072
+
+1,069
+
+1,073
+
+1,028
+
+1,025
+
+1,056
+
+0,924
+
+0,959
+
+0,931
+
+1,015
+
+1,073
+
+0,924
+
+0,061
+
+2014=>2015
+
+0,906
+
+0,906
+
+0,906
+
+0,906
+
+0,906
+
+0,906
+
+0,906
+
+0,788
+
+0,906
+
+0,893
+
+0,906
+
+0,788
+
+0,039
+
+2015=>2016
+
+1,037
+
+1,149
+
+2,401
+
+1,278
+
+1,218
+
+1,213
+
+2,189
+
+0,915
+
+1,581
+
+1,442
+
+2,401
+
+0,915
+
+0,519
+
+Média
+
+1,022
+
+Fonte: Elaborado pelo Autor.
+
+0,995
+
+1,079
+
+0,995
+
+1,003
+
+1,006
+
+1,035
+
+0,995
+
+1,011
+
+1,016
+
+1,156
+
+0,904
+
+0,099
+
+41
+
+Pode-se observar na tabela 10, a mudança dos índices de produtividade, de eficiência e
+de técnica, pelos seus valores médios, por subsetor industrial, para o período analisado. Os
+resultados mostram que 6 subsetores industriais apresentaram ganho de produtividade e 3
+subsetores industriais apresentaram perda de produtividade.
+Na decomposição do índice de produtividade, os 9 subsetores industriais apresentaram
+mudança de eficiência técnica. Quanto a mudança técnica, 6 subsetores industriais
+apresentaram progresso técnico e 3 deles, regressão técnica.
+Em uma observação acurada dos índices médios de mudança, verifica-se que, a partir
+dos valores médios mínimos e máximos, a mudança de eficiência técnica tem impulsionado a
+mudança no índice de produtividade. Os valores médios mínimos e máximos do índice de
+mudança de eficiência técnica são superiores a 1, respectivamente, 1,000 e 1,124, enquanto que
+o índice de mudança técnica apresenta valor médio mínimo inferior a 1, 0,995 e valor médio
+máximo superior a 1, 1,079.
+Tabela 10 – Mudança de produtividade dos subsetores no período 1994-2016
+Subsetores
+
+Mudança
+Produtividade
+
+Eficiência
+
+Técnica
+
+ee
+
+1,020
+
+1,079
+
+1,022
+
+rel
+
+1,056
+
+1,101
+
+0,995
+
+2r
+
+1,271
+
+1,124
+
+1,079
+
+tmp
+
+0,997
+
+1,114
+
+0,995
+
+met
+
+1,019
+
+1,112
+
+1,003
+
+mec
+
+1,000
+
+1,046
+
+1,006
+
+pap
+
+0,982
+
+1,058
+
+1,035
+
+qui
+
+0,995
+
+1,000
+
+0,995
+
+isq
+
+1,045
+
+1,096
+
+1,011
+
+Média
+
+1,043
+
+1,081
+
+1,016
+
+Max
+
+1,271
+
+1,124
+
+1,079
+
+Min
+
+0,982
+
+1,000
+
+0,995
+
+DP
+
+0,089
+
+0,040
+
+0,027
+
+Número de
+
+6
+
+9
+
+6
+
+3
+
+0
+
+3
+
+aumento
+Número de
+diminuição
+Fonte: Elaborado pelo Autor.
+
+42
+
+O gráfico 7 apresenta visualmente a mudança nos índices de produtividade, de mudança
+de eficiência técnica e de mudança técnica, a partir dos dados da tabela 8.
+Gráfico 7 – Curvas das mudanças
+
+Fonte: Elaborado pelo Autor.
+
+Excluindo-se o subsetor 2r, a curva de mudança de produtividade, o índice Malmquist,
+apresenta leve tendência crescente, ou seja, valores próximos ou superiores a 1. A mudança
+técnica, o efeito frontier-shift, apresenta tendência constante com valores muito próximos de 1.
+A curva da mudança de eficiência técnica, o efeito catch-up, apresenta leve tendência
+decrescente com valores iguais ou superiores a 1.
+2.5 CONCLUSÃO
+O presente estudo se propôs a estimar as medidas de eficiências e de produtividades do
+PIM ao longo do tempo, a partir de conjuntos de dados elaborados pela SUFRAMA, autarquia
+de faz a gestão da Zona Franca de Manaus (ZFM), dispostos no relatório de Indicadores de
+Desempenho, no período de 1994 a 2016. Foram objetos de estudos, os 9 principais subsetores
+industriais do PIM, responsáveis por 96 % do faturamento total. As variáveis de entrada e saída
+para a metodologia DEA foram, respectivamente, o valor do faturamento total, o valor da
+aquisição de matérias-primas (insumos) e a quantidade de mão-de-obra empregada nos
+subsetores industriais.
+Os resultados mostraram que o PIM é ineficiente durante o período analisado. Quando
+analisamos, a eficiência técnica total, sem levar em consideração os efeitos de escala e ainda
+que todos os subsetores utilizam a mesma tecnologia e a referência para os outros subsetores é
+
+43
+
+o subsetor mais eficiente (benchmarking), a eficiência média anual do PIM é de cerca de 30%,
+ou seja, a ineficiência é de cerca de 70%. De outra maneira, os subsetores do PIM precisariam
+reduzir suas entradas em cerca de 70% para tornarem-se eficientes. Quando levado em
+consideração em efeitos de escala, a eficiência técnica é a “pura”, a eficiência alcança um nível
+de cerca de 70%, ou seja, a ineficiência é de cerca de 30%.
+Em ambas as eficiências, técnica ou “pura”, a tendência é de crescimento, ou seja, no
+período há uma melhoria continua da eficiência. Esta melhoria na eficiência é convergente com
+a variação da produtividade.
+A estimação das medidas de produtividade do Índice Malmquist quando analisados os
+seus componentes, é perceptível uma melhoria na eficiência técnica média de cerca de 8% no
+período. Quanto a mudança tecnologia, ou seja, melhoria na tecnologia, a fronteira pouco se
+expandiu em cerca de média de 1,6%.
+Portanto, ainda que o PIM tenha se apresentado ineficiente no período, há uma tendência
+de melhoria na eficiência, demonstrado pela tendência de crescimento da curva das eficiências
+medias anuais e pela Índice de Malmquist na componente mudança técnica. Isto pode indicar
+que os pressupostos em que o PIM foi estabelecido necessite de uma revisão, haja vista que o
+comportamento destes índices variou muito lentamente.
+Nesta perspectiva, este estudo oferece uma base para estudos posteriores com a adição
+de novas variáveis de entrada e saída.
+
+44
+
+3 FATORES DETERMINANTES DA INEFICIÊNCIA EM REGIÃO INDUSTRIAL
+INCENTIVADA
+3.1 INTRODUÇÃO
+A eficiência técnica consiste na maximização do nível de produção que pode ser obtido
+a partir de uma dada combinação de fatores. O conceito de eficiência técnica indica o grau de
+sucesso na utilização dos recursos produtivos. Portanto, a ineficiência é simplesmente a
+diferença entre o observado valores de produção e os valores máximos atingíveis, dada a
+tecnologia utilizada. Para estimar a diferenças entre os agentes econômicos é necessário estimar
+a fronteira de produção em que os agentes eficientes estão localizados. Os desvios das demais
+firmas desta fronteira, ou seja, suas ineficiências, são calculados.
+Estudos anteriores na literatura econômica analisaram tanto os modelos quanto os
+determinantes da eficiência produtiva usando abordagens de fronteira. Destacam-se entre eles
+os estudos de Beeson e Husted (1989) e Perelman (1995). O primeiro usa um modelo de função
+estocástica para medir eficiência no setor manufatureiro dos estados dos Estados Unidos.
+Variação na eficiência produtiva são relacionadas a diferenças regionais nas características da
+força de trabalho, nível de urbanização e estrutura industrial. O segundo, estima a produtividade
+total dos fatores (PTF) utilizando uma fronteira estocástica paramétrica e uma fronteira de
+produção paramétrica (DEA). A PTF é decomposta em dois componentes: mudança de
+progresso tecnológico e eficiência e sua relação é testada com um conjunto de possíveis
+variáveis explicativas.
+Para o caso do PIM, a inexistência de estudos de fatores determinante da eficiência
+dificulta uma possível comparação com dados atuais. Consequentemente, este estudo pretende
+oferecer, pela primeira vez no caso do PIM, evidências sobre os fatores que explicam o grau de
+eficiência das empresas, no nível agregado para todas os subsetores da indústria. Como a teoria
+econômica não nos oferece um modelo para explicar os determinantes da eficiência, o estudo
+não visa encontrar relações causais, mas apenas correlações entre eficiência e um conjunto de
+variáveis que, em outros estudos em outros setores da economia, demonstraram explicar a
+eficiência.
+Em suma, o objetivo deste artigo é analisar os determinantes da eficiência do PIM, em
+dois estágios. As estimativas das medidas de eficiência serão por uma abordagem de fronteira,
+a metodologia DEA com os modelos CCR e BCC, sendo o primeiro modelo o de retornos
+constantes e o segundo de retornos variáveis. Ainda, os modelos possibilitam estimar dois tipos
+de eficiências, a eficiência técnica total com o pressuposto que todas as empresas ou unidades
+
+45
+
+produtivas utilizam a mesma tecnologia e o segundo, a eficiência técnica “pura”, considerando
+os efeitos de escala. No segundo estágio, o modelo tobit, a variável dependente, as eficiências
+serão regredidas com as candidatas variáveis explanatórias.
+O estudo é baseado nos dados constantes do relatório de Indicadores de Desempenho,
+elaborado pela Superintendência da Zona Franca de Manaus (SUFRAMA), com os 9 principais
+subsetores industriais do PIM e do IPEADATA.
+O estudo está estruturado da seguinte forma. A seção Revisão da literatura descreve
+brevemente os fatores que a literatura apontou como explicando as diferenças de eficiência. A
+metodologia descreve a amostra e as variáveis utilizadas. Os resultados apresentam os
+resultados empíricos da análise dos determinantes da eficiência do PIM. Finalmente, a última
+seção apresenta as conclusões do estudo.
+3.2 REVISÃO DA LITERATURA
+Há muita discussão sobre o tema envolvendo os incentivos fiscais e utilidade para a
+economia, sobretudo no Brasil, especialmente quando temos na região amazônica a mais de 50
+anos, um modelo de desenvolvimento regional, a Zona Franca de Manaus (ZFM). As diversas
+discussões acadêmicas a favor e contra, no tocante a sua utilização como instrumento de
+intervenção econômica pelo Estado, conforme Ferreira (1998) e Do Nascimento (2013) passam
+pela questão da eficiência.
+É ponto pacífico que a medida da eficiência é um problema de comparar a eficiência
+através dos conjuntos diferentes da possibilidade da produção. Segundo Chambers e Miller
+(2014), a eficiência envolve dois fatores: a tecnologia da empresa- as possibilidades de
+produção disponíveis para essa empresa- e as escolhas de insumos e saídas feitas por essa
+empresa.
+Neste sentido, o estudo da eficiência é a combinação de entrada/saída escolhida em
+relação à tecnologia dada. De forma complementar, Farrel (1957) conceitua eficiência como a
+capacidade de uma empresa remete à sua capacidade de maximizar sua produção a partir de um
+determinado conjunto de entradas (insumos). De forma contrária, ineficiência é a incapacidade
+de minimizar um conjunto de entradas para uma máxima saída (produção).
+A indústria busca sempre a eficiência. E o ponto de partida é a escolha da localização
+para a instalação. Segundo Clemente e Higachi (2000) para Weber3, a localização das indústrias
+
+3
+
+Weber, Alfred [translated by Carl J. Friedrich from Weber's 1909 book]. Theory of the Location of Industries.
+Chicago: The University of Chicago Press, 1929.
+
+46
+
+pode ser explicada por fatores específicos. O autor admite que a decisão quanto à escolha
+locacional de atividades industriais decorreria da ponderação de três fatores: os custos de
+transporte, os custos de mão-de-obra e os fatores aglomerativos e desaglomerativos.
+(NASCIMENTO, 2002).
+Na Amazônia, os fatores locacionais são impeditivos para o desenvolvimento de
+atividades industriais de grande porte. Para Isard4, que no seu modelo de teoria da localização,
+destacou o papel do custo de transporte, da disponibilidade de matérias-primas, da dimensão
+dos mercados e das economias de aglomeração, fica explicito que região não possui os
+requisitos mínimos para atrair as indústrias. Naturalmente, os altos custos locacionais tornarão
+quaisquer empreendimentos ineficientes.
+Em função das características peculiares da Amazônia, o governo federal deu atenção
+no sentido de valorização e ocupação territorial. Uma das medidas foi a criação, em 1957, da
+Zona Franca de Manaus (ZFM), inicialmente um entreposto de mercadoria. Em 1967, o governo
+federal regulamenta a ZFM, ampliando sua atuação com a criação dos centros agropecuário,
+comercial e o industrial, denominado polo industrial de Manaus (PIM), a definição dos
+incentivos fiscais para as atividades econômicas e a criação de um órgão com a responsabilidade
+de administrá-la, a Superintendência da Zona Franca de Manaus (SUFRAMA), bem como, a
+extensão dos incentivos fiscais concedidos aos produtos provenientes da Zona Franca utilizados
+em outras áreas da Amazônia Ocidental. (LYRA, 1995).
+Cabe destacar que no Decreto-Lei nº 288, de 26 de fevereiro de 1967, o governo federal
+já sinalizava com a preocupação dos fatores locacionais:
+“Art 1º A Zona Franca de Manaus é uma área de livre comércio de importação e
+exportação e de incentivos fiscais especiais, estabelecida com a finalidade de criar no
+interior da Amazônia um centro industrial, comercial e agropecuário dotado de
+condições econômicas que permitam seu desenvolvimento, em face dos fatores
+locais e da grande distância, a que se encontram, os centros consumidores de seus
+produtos. (grifo nosso)”.
+
+Os incentivos fiscais com relação à política industrial e comercial para a ZFM, trouxe o
+impacto redutor dos custos dos insumos industriais e dos preços dos bens em geral, além dos
+seus efeitos estimulantes à formação de capital. Além disso, a garantia de participação no
+mercado interno devido à baixa competitividade dos produtos gerados, baseados nos impostos
+incidentes sobre as importações dos produtos estrangeiros. Quanto mais elevada a incidência
+
+4
+
+Isard, Walter. Location and Space Economy: A General Theory Relating to Industrial Location, Market
+Areas, Land Use, Trade and Urban Structure. SERBIULA (sistema Librum 2.0). 123. 10.2307/1790403, 1957.
+
+47
+
+do II, do IPI e do ICMS sobre os produtos estrangeiros, maior é o espaço para a intensidade dos
+incentivos fiscais neles apoiados.
+Modernamente admite-se que o custo fiscal da localização na ZFM tem espaço para sua
+redução. Primeiro, porque existem segmentos produtivos e empresas que, com o atual nível de
+incentivos, apresentam rentabilidade muito elevada, em uma indicação da sua redundância.
+Segundo a redução de sua intensidade possibilitaria o aumento da eficiência das empresas e dos
+segmentos menos eficientes, assim como a eliminação dos não viáveis economicamente e que
+somente se sustentam graças ao alto nível dos incentivos.
+Os incentivos fiscais podem apresentar-se sob a forma de isenção, dedução e tributação
+discriminatória e incidem sobre o custo do capital, produção, valor adicionado, renda,
+exportações e importações. As isenções baseiam-se sobretudo nos impostos sobre a renda de
+atividades selecionadas, custos de produção, exportação, e importação de máquinas,
+equipamentos e insumos. As deduções, por sua vez, mais recomendadas baseiam-se no imposto
+sobre a renda pessoal ou empresarial, pois destinam-se à formação de fundos de investimentos,
+financiamento de investimentos em ativos fixos, recuperação de gastos com tecnologia e
+treinamento de mão-de-obra, depreciação acelerada dos ativos fixos e recuperação de gastos de
+investimentos em ativos fixos.
+De acordo com dados da SUFRAMA (2016), a política tributária da ZFM tem como
+diferencial a concessão de incentivos fiscais nos âmbitos federal, estadual e municipal. O
+quadro 1 resume quais os incentivos fiscais concedidos.
+
+48
+
+Quadro 1 – Principais Incentivos Fiscais por nível de governo
+O que é
+Isenção e redução de
+até 88% do Imposto de
+importação.
+
+Legislação
+Decreto-lei nº 288, de
+28/2/1967.
+Lei nº 8387, de 30/12/1991 e
+outras legislações
+complementares.
+
+Isenção do Imposto sobre produtos
+Industrializados –IPI.
+
+Isenção geral para
+produtos entrados na
+Zona Franca de Manaus
+e Produção na Zona
+franca de Manaus na
+saída para
+outras regiões do país.
+Isenção geral para
+produtos entrados na
+Zona Franca de Manaus
+e Produção na Zona
+franca de Manaus.
+
+Decreto-lei nº 288, de 28/2/1967.
+Lei nº 8387, de 30/12/1991 e outras
+legislações complementares.
+
+Concedida a
+restituição, total ou
+parcial, do montante
+recolhido
+Isenção
+
+Lei nº 2.826, de 2003, e regulamentada
+pelo Decreto nº 23.994, de 2003.
+
+Municipal
+
+Estadual
+
+Suframa
+
+Instrumento
+Redução/Isenção do Imposto de
+Importação para insumos máquinas
+e equipamentos.
+
+Alíquota 0 (zero) de PIS e COFINS
+incidentes sobre as receitas de
+vendas de mercadorias destinadas
+ao consumo ou à industrialização na
+ZFM
+por
+pessoa
+jurídica
+estabelecida fora da ZFM.
+ICMS
+
+IPTU e Taxas Municipais
+
+Art. 1º do Decreto nº. 5.310, de
+15/12/2004.
+
+Do ponto de vista de seu impacto sobre a receita das empresas, a isenção do IPI sobre a
+produção industrial da ZFM tem sido considerada o principal incentivo. Trata-se aqui da
+isenção total do IPI sobre os produtos industrializados na ZFM, conforme o artigo 9º, do
+Decreto-Lei nº 188/67, e o artigo 1º, da Lei nº 8.387/91. Esta isenção é estendida a Amazônia
+Ocidental como um todo para a produção industrial realizada com matérias-primas agrícolas e
+extrativas vegetais. Os insumos de origem estrangeira ou de origem interna utilizados nos
+produtos fabricados na ZFM também são isentos. Aos produtores do restante do país dos
+insumos exportados para industrialização na ZFM, também é concedido o crédito fiscal do IPI
+incidente sobre insumos e equipamentos utilizados em sua produção.
+São em número de dois os incentivos fiscais baseados no ICMS que favorecem a
+indústria e o comércio da ZFM:
+1) restituição do ICMS de empresas industriais fabricantes de produtos prioritários; e
+2) isenção do ICMS sobre a exportação de produtos para a ZFM.
+No âmbito estadual, ainda é concedida a restituição, total ou parcial, do montante
+recolhido a título de ICMS e, finalmente, na esfera dos tributos de competência do Município,
+ainda há a isenção de IPTU e das taxas municipais de uma forma geral.
+
+49
+
+Sob o ponto de vista da eficiência dos instrumentos tributários, é importante ter-se em
+conta a possibilidade de que os mesmos se mostrem redundantes (desnecessários ou
+excessivos), com várias consequências indesejáveis: mais altos preços dos produtos para o
+usuário (tarifas elevadas); baixa eficiência produtiva, em suas diferentes modalidades;
+desperdício de recursos reais; perda de recursos fiscais; etc. (LYRA, 2002). De outra forma,
+comenta Almeida (1968) que os incentivos fiscais devem ser usados, não somente para eliminar
+pressões fiscais sobre o custo de produção, e, desta forma, aumentar a rentabilidade dos
+investimentos, mas, principalmente, para garantir o crescimento do capital próprio das
+empresas.
+Em um estudo empírico da relação entre crescimento econômico e tributação para os
+Estados Unidos e outros países, Engen e Skinner (1996) demonstraram que a premissa aceita
+por muitos economistas ‘impostos elevados são nocivos para o crescimento econômico,’ não
+era muito óbvia em termos teóricos ou em termos de dados, uma vez que os resultados de seus
+trabalhos revelaram que baixos impostos têm efeitos positivos, porém, modestos sobre o
+crescimento econômico.
+Na ZFM a questão dos tributos perpassa se estes promovem ou não o crescimento, mas
+são instrumentos de atração de indústria pela concessão de incentivos ou renúncia fiscal. Lyra
+(1995) em estudo sobre a avaliação dos incentivos fiscais da ZFM, apresentou conclusões da
+necessidade de reavaliação dos incentivos, visto ter sido válido quando da implantação do
+modelo ZFM e não há como justificar a totalidade dos custos fiscais que vêm sendo observados,
+associados à baixa eficiência econômica de vários segmentos e empresas do parque industrial
+da ZFM.
+Nascimento (2002) ao analisar os incentivos fiscais destinados à desoneração do capital
+e/ou à desoneração da produção, como é o caso da ZFM, na região norte, demonstrou que o
+esquema de incentivos fiscais sob estudo configurou-se mais como um fator condicionante na
+expansão da capacidade produtiva. Esse esquema foi importante para alguns setores específico
+da economia. Isso, ficou evidente quando se leva em conta as atividades pecuárias concentradas
+no Pará e Tocantins, e fora da Região, nos estados do Maranhão e Mato Grosso. O autor sugere
+que os incentivos fiscais podem causar impacto negativo na eficiência.
+Alguns estudos procuraram aferir, através de modernas técnicas econométricas, a
+contribuição de variáveis explicativas nas medidas de ineficiências. O modelo Tobit tem sido
+utilizado conjuntamente com a análise DEA para verificar os determinantes da eficiência. Entre
+os trabalhos que utilizam esses dois modelos analíticos, citam-se os de Chilingerian (1995),
+
+50
+
+Kirjavainen e Loikkanen (1998), Jackson e Fethi (2000), Fethi et al. (2002), Hoff (2007), entre
+outros.
+Chilingerian (1995) analisou a eficiência técnica e de escala usando DEA e um modelo
+de Tobit multifactor para estudar as variáveis que foram associadas com níveis mais altos de
+desempenho dos médicos. O estudo revelou que a economia de recursos estaria associada com
+a competência de cada médico.
+Jackson e Fethi (2000) investigaram o desempenho de bancos comerciais turcos usando
+DEA e com um modelo de Tobit identificaram as variáveis que explicaram a eficiência de
+alguns bancos como o tamanho do banco, o número de filiais, a rentabilidade, a posse e a relação
+de adequação do capital. Eles descobriram que os bancos maiores e mais rentáveis são mais
+propensos a operar em níveis mais elevados de eficiência técnica.
+Um estudo realizado por Luoma, et al. (1998) para examinar a eficiência produtiva dos
+centros de saúde finlandeses aplicou a metodologia DEA e Tobit para avaliar a forma como
+vários fatores econômicos, estruturais e demográficos afetam a ineficiência. Os resultados
+indicaram que um nível mais elevado de subsídios do governo central e uma maior renda
+tributável por habitante são preditores de ineficiência.
+Usando dados de oito grandes fabricantes de automóveis, Leachman, et al. (2005)
+adotaram um modelo DEA de dois estágios para examinar o desempenho de fabricação e
+mostraram que um forte P&D comprometido e capacidade de diminuir o tempo de produção
+pode explicar as diferenças no desempenho da fabricação.
+Watcharasriroj e Tang (2004) buscaram investigar em sua pesquisa os efeitos da TI na
+eficiência nos hospitais públicos sem fins lucrativos da Tailândia. Os autores utilizaram a
+técnica DEA para medir a eficiência dos hospitais e os resultados obtidos serviram também
+como variável dependente na Regressão Tobit, e a TI como variável independente. Os
+resultados indicaram que os grandes hospitais operam mais eficientemente do que os pequenos
+e a TI contribui positivamente na eficiência de ambos os tipos de hospitais.
+Grosskopf et al. (2004) também realizaram um estudo combinando a técnica DEA e
+Regressão Tobit em hospitais. Os autores utilizaram uma amostra de 254 hospitais de ensino
+nos Estados Unidos com dados de 2005, com o objetivo de verificar o desempenho e sua relação
+com a competitividade. Os resultados mostraram que quanto maior a competição entre os
+hospitais de ensino, maior será a eficiência relativa.
+Com uma amostra de 38 companhias aéreas da América do Norte, Europa, Ásia e
+Oriente Médio, Scheraga (2004) investigou como a eficiência operacional relativa teve
+implicação na mobilidade financeira. A DEA foi utilizada para identificar os escores de
+
+51
+
+eficiência de cada companhia aérea. Entretanto, no segundo estágio da análise, que utilizou a
+Regressão Tobit, encontrou que a eficiência operacional relativa não teve implicação na
+mobilidade financeira.
+O estudo de Krasachat (2004) teve por finalidade medir e investigar a eficiência técnica
+em fazendas de arroz Thai na Tailândia no ano de 1999. Neste estudo, a eficiência foi
+identificada utilizando a DEA e a Regressão Tobit para explicar a probabilidade de mudanças
+na ineficiência, utilizando fatores específicos das fazendas. Os resultados indicaram uma
+diferença de eficiência de fazenda a fazenda e também sugerem que a diversidade de recursos
+naturais possui influência na eficiência técnica em fazendas de arroz Thai.
+3.3 METODOLOGIA
+Este trabalho utiliza a Análise Envoltória de Dados (DEA) de dois estágios para alcançar
+seus objetivos. No primeiro estágio, um conjunto de entradas e saídas observadas é usado para
+obter as medidas de eficiência para todos os subsetores do Polo Industrial de Manaus (PIM). A
+análise do primeiro estágio utilizando DEA é feito a seguir. No segundo estágio, as estimativas
+de eficiência obtidas são regredidas em fatores que influenciam a eficiência. Para este efeito,
+uma regressão censurada, Tobit, foi utilizada.
+3.3.1 Metodologia DEA
+A técnica não-paramétrica de análise de eficiência DEA foi desenvolvida por Charnes
+et al. (1978) para estimar os níveis de eficiência relativa das unidades produtivas ou DMUs em
+vários campos de aplicações. Com o auxílio de programação matemática não paramétrica, a
+DEA gera uma envoltória dos planos de produção observados, sendo que todos os planos de
+produção pertencentes a esta envoltória, denominada de fronteira de produção, são eficientes
+tecnicamente e, seus níveis de consumo e de produção são ótimos. Assim, a DEA é uma técnica
+de benchmarking potente, uma vez que permite medir o nível de eficiência das unidades nãofronteiriças e identificar benchmarks contra os quais essas unidades ineficientes podem ser
+comparadas.
+Ao longo dos anos, vários modelos DEA foram estudados desde a introdução do
+conceito de eficiência por Farrell (1957). Dois modelos são amplamente utilizados, o modelo
+CCR em homenagem a Charnes, Cooper e Rhodes (1978) e o modelo BCC dos autores Banker,
+Charnes e Cooper (1984).
+Segundo Faria et al. (2006), a DEA constrói uma fronteira de eficiência considerando
+retornos constantes de escala ou variáveis de escala:
+
+52
+
+• o modelo CCR constrói fronteiras considerando retornos constantes de escala;
+• o modelo BCC constrói fronteiras considerando retornos variáveis de escala.
+O modelo CCR assume retornos constantes para dimensionar o que significa que um
+aumento proporcional em todas as entradas resulta no mesmo aumento proporcional nas saídas.
+É apropriado somente quando todas as DMUs operam na escala ótima de produção; no entanto,
+podem existir restrições nas DMUs que não lhes permitam operar na escala ideal. O modelo é
+independente de escala, pois divide a produtividade de um DMU pela DMU mais produtiva de
+um determinado conjunto. É chamada de eficiência total.
+No modelo BCC, ao incorporar o conceito de economia de escala, a estimação da
+eficiência é obtida pela razão da produtividade de cada DMU pela maior produtividade das
+DMUs que apresentem o mesmo tipo de retorno a escala que ela (BANKER, CHARNES,
+COOPER, 1984). Com a incorporação das propriedades da tecnologia que exiba retorno à
+escala ao modelo BCC, o acréscimo de inputs não resulta em uma mudança proporcional nos
+outputs, ou seja, a produtividade máxima varia ao longo de sua fronteira. Esta eficiência, livre
+dos efeitos de escala, é chamada de eficiência técnica pura.
+No gráfico 8 tem-se ilustrado a superfície envoltória dos dados considerando uma
+tecnologia de produção com retorno constante de escala com orientação ao insumo. Nesta figura
+encontram-se, também, 4 DMUs (A, B, C e D), as quais consomem uma quantidade x de
+insumos e produzem uma quantidade y de produtos.
+Gráfico 8 – Modelo CCR aplicado ao insumo
+
+Fonte: Elaborado pelo Autor.
+
+53
+
+Destes quatro produtores, o único eficiente e, segundo esta tecnologia de produção, é C,
+o qual está sobre a fronteira de eficiência. Os demais produtores (A, B e D) são ineficientes;
+para modificar este padrão e se tornar eficientes eles terão que diminuir seus insumos.
+O produtor B, por exemplo, para se tornar eficiente, segundo esta tecnologia, mantendo
+a quantidade do produto YB, deve reduzir a quantidade do insumo de XB para XB’. Para
+descobrir qual é a dimensão da redução do insumo é necessário calcular o índice de eficiência
+técnica do produtor. Este índice é calculado através da razão onde (θ, θ =
+
+≥ 1) multiplicado
+
+por 100%, e o percentual de aumento da produtividade para se tornar eficiente tecnicamente.
+Para atingir essa redução, o produtor B deverá observar o produtor C, que é sua referência de
+produtividade (benchmark).
+A escolha da orientação dos modelos, resume Coelli (1994) dependerá das quantidades
+de insumos e produtos que se tem controle. Se pretendesse verificar quais outputs alcançar com
+as quantidades mínimas de inputs para um determinado de produto, a orientação é ao insumo.
+Por outro lado, se pretendesse a partir de uma quantidade fixa de inputs obter mais outputs, isto
+é, obter uma máxima quantidade de produtos sem alterar o nível de insumos, a orientação é ao
+produto, encerra o autor.
+As equações (1) e (2) mostram os modelos DEA-CCR (CHARNES et al., 1978) e DEABCC (BANKER et al., 1984), respectivamente.
+(1)
+
+(2)
+
+MIN θ, λ θ
+
+MIN θ, λ θ
+
+s.a.
+
+s.a.
+
+- ys + Yλ ≥ 0
+
+- ys + Yλ ≥ 0
+
+θxs - X λ ≥ 0
+
+θxs - X λ ≥ 0
+
+λ≥0
+
+eλ = 1
+λ≥0
+
+em que:
+s = 1, ..., S corresponde ao número de DMUs.
+xs é um vetor (1xm) de insumos da DMU s.
+ys é um vetor (nx1) de produtos da DMU s.
+X é uma matriz (mxs) dos insumos das DMUs.
+Y é uma matriz (nys) dos produtos das DMUs.
+e é um vetor (1xs) de uns.
+
+54
+
+λ é um vetor (sx1) de pesos; λk corresponde à contribuição da DMU k na formação do alvo da
+DMU s. Quanto maior λk, maior a importância da DMU correspondente para a DMU
+ineficiente.
+θ é o escore de eficiência técnica da DMU s e varia entre 0 e 1.
+Se θ = 1, indica uma DMU tecnicamente eficiente, se 0 < θ < 1, indica uma DMU
+tecnicamente ineficiente. Para aquelas DMUs que são ineficientes, as variáveis de λ
+identificarão seus benchmarks, isto é, a DMU eficiente que pertence a seu conjunto de
+referência. Os valores de λ refletem a importância de uma unidade eficiente no conjunto de
+referência de uma DMU ineficiente. A programação linear mencionada em (1) e (2) será
+resolvida n número de vezes, uma vez para cada DMU, proporcionando um valor de θ para cada
+DMU.
+A metodologia DEA neste trabalho segue a abordagem orientada à entrada (input) e
+modelo CCR, a eficiência técnica total. Esta medida estimada subsidiou a composição da
+variável dependente truncada em zero para o segundo estágio, o modelo Tobit.
+3.3.2 Modelo Tobit
+A fim de verificar quais as variáveis que determinam a ineficiência, utiliza-se, no
+segundo estágio, o modelo econométrico Tobit, que originalmente foi desenvolvido por Tobin
+(1958) e é conhecido como modelo regressão truncada ou censurada, cujos erros esperados são
+diferentes de zero.
+De acordo com Greene (2012), a formulação geral do modelo Tobit é :
+yi* = Xiβ + εi
+
+(1)
+
+em que
+yi* é a variável-índice, também conhecida como variável latente;
+Xi representa o vetor das variáveis explicativas; e
+β é o vetor dos parâmetros a ser estimado. Assume-se que εi seja normalmente distribuído, com
+média zero e variância constante, σ2, ou seja, (ε ~ N(0, σ2).
+Apesar de o escore de eficiência ter limite superior igual a um, Fethi et al. (2000)
+indicam usar a truncagem em zero. Assim, o escore de eficiência da DEA, θ, é transformado, e
+o valor truncado é concentrado em zero:
+yi =
+
+–1
+
+Portanto, para Santos et al. (2009), tendo escore da DMU de eficiência igual a 1
+transformado para zero, os escores menores que 1 tornam-se valores positivos. Dessa forma, a
+
+55
+
+equação estimada (1) revela quais as variáveis que reduzem a ineficiência. Diante do exposto,
+o modelo Tobit padrão pode ser definido da seguinte forma, para a observação i:
+Se yi* > 0, então yi = yi*
+Se yi* ≤ 0, então yi = 0
+O modelo Tobit estruturado dessa forma pode ser estimado pelo método de máxima
+verossimilhança. Para as observações em que y* ≤ 0, a contribuição da verossimilhança será
+dada por Prob (y* ≤ 0), que é:
+Prob (-Xiβ ≤ εi)
+
+(2)
+
+Padronizando as variáveis em (2), obtém-se:
+=1-Ф
+
+Prob
+
+Para uma observação y* > 0, a contribuição para a verossimilhança é:
+Prob(y* > 0) 𝜙 (yi* | yi* > 0) = Ф
+
+,
+
+em que Ф( ) é a função de distribuição cumulativa normal padrão; e 𝜙( ) é a
+função de densidade probabilidade normal padrão.
+Considerando esses dois componentes e logaritimizando, pode-se formar a função de
+verossimilhança:
+L=∑
+
+𝑙𝑛 1
+
+𝛷
+
+∑
+
+𝑙𝑛
+
+√
+
+,
+
+em que a primeira soma se refere ao conjunto de observações, no qual yi = 0, e a segunda, ao
+conjunto de observações, em que yi > 0.
+A regressão direta de OLS dos escores de eficiência calculados da DEA em variáveis
+ambientais produz estimativas inconsistentes de β. O mesmo problema da inconsistência ocorre
+quando somente as observações são observadas inteiramente, isto é, amostra sem censura são
+usados.
+No tocante ao efeito marginal, tem-se, segundo Greene (2003), a seguinte equação:
+E𝑀 =
+
+= βΦ
+
+O efeito marginal fornece, de forma geral, o impacto de cada variável na probabilidade
+de a DMU ser eficiente.
+Para avaliar o modelo Tobit como um todo, foi usado o teste de razão de
+verossimilhança (LR statistic). O teste é semelhante ao teste F dos modelos de mínimos
+quadrados ordinários (OLS), ou seja, pelo teste LR statistic verifica-se se as variáveis
+explicativas incluídas no modelo influenciam, conjuntamente, a variável dependente. As
+
+56
+
+conclusões procedem da seguinte maneira: se LR > χ2 tabelado, implica que a regressão será
+válida como um todo, ou seja, haverá pelo menos uma variável explicativa inserida no modelo
+que exercerá algum tipo de influência sobre a variável explicada.
+3.3.3 Dados
+A partir do relatório de Indicadores de Desempenho (SUFRAMA, 2016),
+compreendendo o período de 1994 a 2016, foi realizado o tratamento dos dados para a
+especificação do conjunto dos subsetores industriais e das variáveis de entrada e saída para a
+estimação das medidas de eficiências, ano a ano. As medidas de eficiências estimadas com a
+metodologia DEA foram a Eficiência técnica total (Ef_CCR), a Eficiência técnica pura
+(Ef_BCC), respectivamente na modelagem CCR e BCC e, a Eficiência de escala (EE). Para o
+modelo Tobit, a Eficiência técnica total (Ef_CCR) foi selecionada por se tratar de uma medida
+de eficiência relativa global com retornos constantes à escala, supondo-se que as DMUs
+utilizam a mesma tecnologia, ou seja, a tecnologia é invariável. A Ef_CCR foi truncada em
+zero (0), conforme Fethi et al. (2000), passando a denominar-se Eficiência técnica total truncada
+(EfTr_CCR).
+A tabela 11 resume as informações dos subsetores industriais e as variáveis de entrada.
+
+57
+
+Tabela 11 – Subsetores industriais e variáveis
+Nome
+
+Abreviatura
+
+Significado
+
+ee
+
+Eletroeletrônico
+
+rel
+
+Relojoeiro
+
+2r
+
+Duas rodas
+
+tmp
+
+Termoplástico
+
+met
+
+Metalúrgico
+
+mec
+
+Mecânico
+
+pap
+
+Papel e papelão
+
+qui
+
+Químico
+
+isq
+
+Isqueiros, Canetas e
+Barbeadores descartáveis
+
+Ins 1
+
+Aquisição de matériasprimas
+
+A soma dos valores de todos os insumos de
+cada subsetor.
+
+MO 2
+
+Mão-de-obra
+
+Os valores médios mensais de mão-de-obra
+efetiva, temporária e terceirizada por subsetor.
+
+Fat 1
+
+Valor de faturamento
+
+Reunião de empresas que desenvolvem
+atividades correlatas, responsáveis por cerca de
+96% do faturamento do PIM.
+
+A soma das vendas brutas de cada subsetor.
+
+Definição
+
+Subsetores
+industriais
+
+Variáveis de
+Entradas (Inputs)
+Variável de
+Saída (Output)
+
+Nota: 1 - Valores em US$ 1.000, deflacionados pelo IGP-M e convertidos pelo Dólar comercial venda (PTAX),
+ambos da FGVDados; 2 - Quantidade média mensal.
+Fonte: Elaboração pelo Autor.
+
+Os dados da Taxas de Câmbio Nominais anuais foram coletados no IPEADATA (2018)
+e o ICMS, restituído, do relatório de Indicadores de Desempenho (SUFRAMA, 2016), a partir
+dos subsetores industriais selecionados, no período entre 1994 e 2016.
+A escolha dos tributos se justifica por ser o ICMS, o principal incentivo fiscal, em nível
+estadual, cujo valor do imposto a pagar é reduzido, a depender do bem, podendo variar de 55%
+a 100% (SEPLANCTI, 2018). O ICMS restituído é resultado da seguinte equação:
+ICMS restituído = ICMS devido – ICMS recolhido
+Quanto a taxa de câmbio, um custo importante para o PIM, devido a flutuação
+recorrente, em função contexto econômico, tem impacto no valor dos insumos e nos preços dos
+produtos. Segundo relatório da SUFRAMA (2018), a aquisição de insumos, em moeda
+estrangeira, o dólar, representa em média cerca de 55% do valor dos insumos. Enquanto, o valor
+do faturamento, na conta exportações, representa em média cerca de 3% do faturamento total.
+A Taxa de câmbio real (TC real) é resultante da equação abaixo:
+TC real = [(TC nominal x Inflação BR / Inflação EUA) – 1] x 100
+Este conjunto de variáveis ICMS e Taxa de câmbio anual real foram utilizados como
+variáveis explicativas dos fatores determinantes da ineficiência do PIM.
+
+58
+
+Para a verificação dos fatores determinantes da ineficiência do PIM com o modelo
+Tobit, foi elaborada a seguinte proposta de análise, resumida no quadro 2.
+Quadro 2 – Proposta de análise dos fatores das ineficiências
+Método de
+estimação
+Tobit
+
+Variáveis
+explicativas
+
+Previsão do
+Sinal da
+Variável
+
+ICMS restituído
+
+(-)
+
+Taxa de
+câmbio Real
+
+(-)
+
+Análise
+O sinal do coeficiente negativo indica que a redução do
+incentivo fiscal melhora a gestão dos custos de produção.
+O sinal do coeficiente negativo indica que a apreciação ou
+diminuição da taxa de câmbio torna o Real mais forte frente ao
+Dólar, ou seja, será necessário menos reais para a aquisição de
+insumos, diminuindo os custos de produção.
+
+Fonte: Elaborado pelo Autor.
+
+É importante ressaltar que os modelos pretendem explicar a “ineficiência”. Assim, o
+sinal dos coeficientes de regressão exigido para ser revertido para explicar a eficiência - um
+coeficiente positivo (+) implica um aumento da ineficiência ou diminuição da eficiência,
+enquanto que um coeficiente negativo (-) significa uma associação com declínio da ineficiência
+ou aumento da eficiência.
+Neste contexto, estimamos a seguinte regressão Tobit censuradas à esquerda:
+EfTr_CCRit = β0 + β1ICMS restituído it + β2TC real it + εit
+onde
+EfTr_CCRit – eficiência técnica total truncada em zero
+i - subsetor e
+t - ano.
+Neste trabalho, utilizamos os softwares DEA SOLVER-LV(V8) e Win4deap 2 para
+estimar as eficiências e pacote econométrico Stata 14 para estimar os parâmetros das equações
+de regressão acima pela estimativa por máxima verossimilhança (maximum-likelihood
+estimation- MLE).
+3.4 RESULTADOS
+Nesta seção, apresentamos e discutimos o conteúdo dos escores eficiência estimadas,
+obtidos pela execução dos modelos CCR e BCC. Além disso, os resultados relativos ao retorno
+à escala também são apresentados aqui. Finalmente, para investigar os possíveis determinantes
+da eficiência técnica total (Ef_CCR), realizou-se uma análise de regressão pós-DEA.
+3.4.1 Modelagem DEA
+
+59
+
+Tabela 12 – Medidas das eficiências e a média anual dos subsetores industriais de 1994-2016
+subset
+Média
+Média
+Média
+Eficiência técnica_CCR
+Eficiência técnica_BCC
+Eficiência de escala
+Ano ee
+rel
+2r
+tmp met mec pap qui isq
+Anual ee
+rel
+2r
+tmp met mec pap qui isq
+Anual ee
+rel
+2r
+tmp met mec pap qui isq
+Anual
+1994 0,257 0,200 0,237 0,291 0,186 0,289 0,196 1,000 0,190 0,316 1,000 0,252 0,559 0,457 0,636 1,000 1,000 1,000 0,289 0,688 0,257 0,795 0,424 0,635 0,292 0,289 0,196 1,000 0,657 0,505
+1995 0,200 0,155 0,187 0,214 0,163 0,177 0,174 1,000 0,278 0,283 1,000 0,216 0,509 0,413 0,669 1,000 1,000 1,000 0,425 0,692 0,200 0,719 0,368 0,518 0,243 0,177 0,174 1,000 0,654 0,450
+1996 0,174 0,147 0,177 0,153 0,140 0,152 0,150 1,000 0,253 0,261 1,000 0,261 0,547 0,267 0,668 1,000 1,000 1,000 0,446 0,688 0,174 0,564 0,324 0,573 0,210 0,152 0,150 1,000 0,567 0,413
+1997 0,121 0,157 0,171 0,165 0,098 0,140 0,148 1,000 0,209 0,245 1,000 0,304 0,966 0,364 0,428 1,000 1,000 1,000 0,389 0,717 0,121 0,516 0,177 0,452 0,230 0,140 0,148 1,000 0,537 0,369
+1998 0,099 0,113 0,158 0,100 0,071 0,100 0,136 1,000 0,271 0,228 1,000 0,278 1,000 0,207 0,312 0,970 1,000 1,000 0,427 0,688 0,099 0,408 0,158 0,481 0,228 0,103 0,136 1,000 0,635 0,361
+1999 0,135 0,136 0,163 0,097 0,132 0,088 0,122 1,000 0,317 0,243 1,000 0,291 0,673 0,227 0,298 1,000 1,000 1,000 0,476 0,663 0,135 0,468 0,242 0,427 0,443 0,088 0,122 1,000 0,666 0,399
+2000 0,124 0,142 0,149 0,114 0,115 0,088 0,111 1,000 0,263 0,234 1,000 0,421 0,631 0,259 0,329 1,000 1,000 1,000 0,489 0,681 0,124 0,337 0,236 0,438 0,351 0,088 0,111 1,000 0,538 0,358
+2001 0,142 0,251 0,185 0,154 0,154 0,135 0,177 1,000 0,447 0,294 1,000 0,524 0,807 0,228 0,367 1,000 1,000 1,000 0,660 0,732 0,142 0,480 0,229 0,673 0,420 0,135 0,177 1,000 0,677 0,437
+2002 0,311 0,463 0,255 0,580 0,231 0,207 0,362 1,000 1,000 0,490 1,000 0,811 0,504 0,617 0,652 0,578 1,000 1,000 1,000 0,796 0,311 0,571 0,506 0,939 0,354 0,358 0,362 1,000 1,000 0,600
+2003 0,309 0,572 0,315 0,376 0,259 0,244 0,384 1,000 0,856 0,479 1,000 0,945 0,729 0,399 0,510 0,478 1,000 1,000 1,000 0,785 0,309 0,606 0,431 0,943 0,507 0,510 0,384 1,000 0,856 0,616
+2004 0,303 0,582 0,318 0,356 0,263 0,205 0,367 1,000 0,689 0,454 1,000 1,000 0,767 0,379 0,453 0,420 1,000 1,000 0,859 0,764 0,303 0,582 0,415 0,940 0,579 0,489 0,367 1,000 0,803 0,609
+2005 0,325 0,646 0,321 0,374 0,298 0,199 0,390 1,000 0,622 0,464 1,000 1,000 0,842 0,385 0,353 0,387 0,813 1,000 0,744 0,725 0,325 0,646 0,381 0,970 0,844 0,515 0,480 1,000 0,836 0,666
+2006 0,245 0,457 0,256 0,264 0,272 0,174 0,303 1,000 0,694 0,407 1,000 1,000 0,953 0,282 0,301 0,357 0,778 1,000 0,896 0,730 0,245 0,457 0,269 0,935 0,904 0,488 0,390 1,000 0,774 0,607
+2007 0,264 0,486 0,233 0,242 0,251 0,165 0,239 1,000 0,709 0,399 1,000 1,000 1,000 0,267 0,274 0,278 0,762 1,000 0,990 0,730 0,264 0,486 0,233 0,907 0,917 0,591 0,314 1,000 0,717 0,603
+2008 0,200 0,343 0,226 0,191 0,197 0,133 0,233 1,000 0,711 0,359 1,000 1,000 1,000 0,214 0,243 0,253 1,000 1,000 1,000 0,745 0,200 0,343 0,226 0,892 0,813 0,527 0,233 1,000 0,711 0,550
+2009 0,216 0,402 0,159 0,232 0,206 0,140 0,215 1,000 0,487 0,340 1,000 1,000 0,539 0,270 0,263 0,235 1,000 1,000 0,842 0,683 0,216 0,402 0,295 0,858 0,786 0,594 0,215 1,000 0,578 0,549
+2010 0,188 0,344 0,188 0,204 0,179 0,151 0,246 1,000 0,477 0,331 1,000 1,000 0,638 0,242 0,273 0,233 1,000 1,000 0,832 0,691 0,188 0,344 0,294 0,842 0,657 0,647 0,246 1,000 0,574 0,533
+2011 0,419 0,369 0,369 0,422 0,578 0,269 0,612 1,000 0,848 0,543 1,000 0,940 0,750 0,442 0,591 0,288 1,000 1,000 1,000 0,779 0,419 0,393 0,492 0,954 0,977 0,934 0,612 1,000 0,848 0,736
+2012 0,391 0,315 0,356 0,383 0,429 0,352 0,536 1,000 1,000 0,529 1,000 0,916 0,583 0,385 0,429 0,363 1,000 1,000 1,000 0,742 0,391 0,344 0,609 0,996 0,999 0,970 0,536 1,000 1,000 0,761
+2013 0,384 0,263 0,360 0,343 0,399 0,283 0,411 1,000 1,000 0,494 1,000 0,963 0,573 0,347 0,400 0,300 1,000 1,000 1,000 0,731 0,384 0,273 0,629 0,990 0,998 0,944 0,411 1,000 1,000 0,736
+2014 0,372 0,287 0,340 0,354 0,403 0,259 0,419 1,000 0,997 0,492 1,000 1,000 0,495 0,354 0,403 0,275 1,000 1,000 1,000 0,725 0,372 0,287 0,687 0,999 0,999 0,942 0,419 1,000 0,997 0,745
+2015 0,366 0,195 0,361 0,387 0,483 0,297 0,402 1,000 0,819 0,479 1,000 1,000 0,480 0,410 0,514 0,318 1,000 1,000 1,000 0,747 0,366 0,195 0,752 0,942 0,939 0,932 0,402 1,000 0,819 0,705
+2016 0,468 0,475 1,000 0,369 0,400 0,376 0,150 1,000 0,444 0,520 1,000 1,000 1,000 0,451 0,491 0,478 1,000 1,000 0,729 0,794 0,468 0,475 1,000 0,818 0,814 0,786 0,150 1,000 0,609 0,680
+
+Fonte: Elaborado pelo Autor
+Legenda:
+Eletroeletrônico (ee)
+Relojoeiro (reloj)
+Duas rodas (2r)
+Termoplástico (termo)
+Metalúrgico (met)
+Mecânico (mec)
+Papel e papelão (pap)
+Químico (qui)
+Isqueiros, Canetas e Barbeadores descartáveis (isq)
+
+60
+
+Os resultados da modelagem DEA foram obtidos com software DEA SOLVERLV(V8), desenvolvido por Zhu (2003).
+A tabela 12 apresenta as medidas estimadas da eficiência técnica total (CCR), a
+eficiência técnica “pura” (BCC) e a eficiência de escala (EE), no nível agregado, em valores
+médios anuais. As eficiências técnicas totais (CCR) serão as variáveis dependentes no modelo
+Tobit.
+Seja no nível por subsetor ou agregado, média anual, o PIM apresenta os valores das
+medidas de eficiências menores que 1, indicando ineficiências.
+A tabela 13 apresenta um resumo das medidas de eficiências médias por setor e os tipos
+de retornos à escala para os subsetores industriais. A discussão subsequente é baseada na tabela
+13.
+Tabela 13 – Eficiências Médias Anuais dos subsetores industriais de 1994-2016
+
+Fonte: Elaborado pelo Autor
+
+A tabela 11 mostra que, dos 9 subsetores industriais, apenas 1 subsetor, o setor químico,
+obteve score Ef_CCR igual a 1 e é tido como eficiente técnico total. Este subsetor eficiente
+define a fronteira eficiente para os demais subsetores e forma a referência para os subsetores
+ineficientes. O nível de ineficiência nos restantes dos subsetores ineficientes pode ser medido
+como a distância radial desta fronteira. Além disso, os subsetores ineficientes identificados na
+amostra poderiam se mover para a fronteira eficiente, emulando as melhores práticas do
+subsetor eficiente. O subsetor químico é tecnicamente eficiente porque procurou reduzir ao
+
+61
+
+máximo o desperdício de seus insumos em cada produção (Kumbhaker e Lovell, 2003). Isto
+posto, o destino final para todos os subsetores ineficientes para alcançar um alto nível de
+desempenho é seguir as combinações de entrada-saída que é usado pelo subsetor de referência.
+Quando considerados os efeitos de escala, a eficiência técnica total, do modelo CCR é
+denominada de eficiência técnica “pura”, do modelo BCC. Na tabela 11, as médias anuais são
+superiores as da eficiência técnica total. A explicação é que na estimação das medidas de
+eficiência técnica “pura”, cada DMU, no caso do estudo, os subsetores industriais são
+comparados com os subsetores do mesmo tamanho. O que não ocorre com a estimação da
+eficiência técnica total quando é tomado como referência aquela DMU que atingiu a fronteira
+eficiente.
+Ainda na tabela 11, é apresentado a eficiência de escala resultante da divisão da
+eficiência técnica total (CCR) e eficiência técnica “pura” (BCC). As estimativas das medidas
+de eficiência de escala permitem verificar se a DMU, ou o subsetor industrial a está operando
+ou não em escala ótima de produção. O único subsetor com eficiência total é o subsetor químico
+(qui). O subsetor “qui” faz a gestão eficiente dos recursos, bem como opera em escala ótima de
+produção (CRS), no tamanho adequado de sua planta.
+Uma DMU pode ser eficiente e não operar em escala ótima de produção, como é o caso
+do subsetor eletroeletrônico (ee). É eficiente tecnicamente, mas opera com retornos
+decrescentes à escala (DRS), ou seja, opera abaixo da escala ótima de produção. O caso de
+subsetor de papel e papelão (pap) é o inverso do “ee”. É ineficiente e opera com retornos
+crescentes à escala (IRS), ou seja, opera acima da escala ótima de produção.
+O PIM apresenta ineficiência e a maioria dos seus subsetores operam fora da escala
+ótima de produção. As estimativas das medidas apontam para fatores de ineficiência
+relacionados a gestão de recursos.
+3.4.2 Modelo Tobit censurado
+No presente estudo, nossa análise de regressão pós-DEA tem como objetivo explicar as
+variações nas medidas da Ef_CCR regredidos com as variáveis explanatórias, O ICMS e a taxa
+de câmbio real. A escolha da medida de eficiência Ef_CCR é porque retorna uma eficiência
+relativa total, desprovido dos efeitos de escala, ou seja, pressupõe que todos os subsetores
+utilizam a mesma tecnologia.
+Para tanto, utilizou-se a análise multivariada de Tobit para explicar os determinantes
+das medidas das Ef_CCR.
+
+62
+
+Na tabela 13 são apresentadas as correlações entre as variáveis do estudo. As variáveis
+explanatórias têm relação inversa com a variável dependente, ou seja, movem-se em direção
+oposta a variável dependente.
+Tabela 13 – Correlação entre as variáveis
+
+Eficiência técnica_CCR ICMS restituído Taxa de câmbio real
+Eficiência técnica_CCR
+1,000
+ICMS restituído
+-0,1566
+1,000
+Taxa de câmbio real
+-0,103
+-0,140
+1,000
+Fonte: Elaborado pelo Autor.
+
+Na tabela 14 são apresentados os resultados da regressão Tobit com os coeficientes
+calculados.
+Tabela 14 – Resultados do Modelo Tobit
+
+Eficiência técnica_CCR Coeficientes
+
+p-valor
+
+ICMS restituído
+
+-5,69e-06
+
+0,000**
+
+Taxa de câmbio real
+
+-1,349373
+
+0,006**
+
+Constante
+
+4,593575
+
+0,000**
+
+/sigma_u
+
+2.765992
+
+0,000
+
+/sigma_e
+
+2.086467
+
+0,000
+
+Observações
+
+207
+
+Prob > chi2
+
+0,0000
+
+*p < 0,05, **p < 0,01, ***p < 0,001
+
+A forma funcional do modelo é:
+Ef_CCRit = 4,593 – 5,69-6ICMS rest it – 1,349373TC realit + εit
+onde
+Ef_CCR – eficiência técnica total truncada em zero
+ICMS rest – ICMS restituído
+TC real – taxa de câmbio real
+
+A prob < chi2 comprova a validade do modelo. Esta é a probabilidade de obter uma
+estatística de teste LR tão extrema quanto, ou mais, do que a estatística observada a hipótese
+nula; a hipótese nula é que todos os coeficientes de regressão são simultaneamente iguais a
+zero. Esse valor de p, 0,000 é comparado a um nível alfa especificado, nossa disposição de
+aceitar um erro tipo I, que normalmente é definido em 0, 5 ou 0, 1. O pequeno valor de p do
+teste LR, < 0,01, nos levaria a concluir que pelo menos um dos coeficientes de regressão no
+
+63
+
+modelo não é igual a zero. O parâmetro da distribuição do qui-quadrado usado para testar a
+hipótese nula é definido pelos graus de liberdade na linha anterior, chi2 (2).
+O p-valor do modelo, a probabilidade de a estatística de teste t (ou uma estatística de
+teste mais extrema) ser observada a hipótese nula de que o coeficiente de regressão de um
+determinado preditor é zero, uma vez que o restante das preditoras está no modelo. No caso do
+estudo, p < | t | é menor que o alfa, então a hipótese nula pode ser rejeitada e a estimativa de
+parâmetro é considerada estatisticamente significante nesse nível alfa, ou seja, estatisticamente
+os coeficientes são diferentes de zero. No caso das variáveis do estudo, O ICMS e a taxa de
+câmbio, ambas são significativas a um nível de 1%, ou não são estatisticamente iguais a zero.
+Os resultados dos sinais dos coeficientes estão de acordo com o pretendido no trabalho.
+O ICMS restituído com sinal negativo indica que a medida que o incentivo fiscal é reduzido, a
+eficiência do PIM é aumentada. A taxa de câmbio com sinal negativo também pode indicar um
+fator de ineficiência. A apreciação da taxa de câmbio é vantajosa para a aquisição de um maior
+volume de insumos, vez que a moeda nacional, o Real está valorizado frente à moeda
+americana, o Dólar.
+As variáveis explanatórias ICMS e taxa de câmbio real são particularmente importantes
+no modelo em função de o PIM apresentar ineficiência técnica, ou seja, a necessidade de
+melhoria na gestão dos recursos, já exposto em seção anterior.
+No PIM, a eficiência técnica total, estimada pelo modelo CCR, de retornos constantes,
+mostrou um espaço maior de crescimento da eficiência do que a eficiência técnica “pura”,
+estimada pelo modelo BCC, de retornos variáveis, quando considerados o efeito de escala.
+3.5 CONCLUSÃO
+Um dos aspectos econômicos mais importantes para garantir a competitividade de uma
+empresa ou setor é o grau de eficiência na produção. Assim, a evidência empírica disponível
+mostra que os aspectos relacionados a eficiência técnica podem ser considerados fatores
+determinantes da ineficiência do PIM.
+O objetivo deste trabalho foi analisar os fatores que explicam a ineficiência técnica do
+PIM no período 1994-2016, utilizando as informações fornecidas pelo relatório de Indicadores
+de desempenho da SUFRAMA. O estudo pretendeu lançar luz sobre este assunto, oferecendo
+evidência descritiva empírica para ajudar para um melhor conhecimento da realidade do setor
+industrial de Manaus.
+A partir dos níveis de eficiência técnica do PIM estimados no primeiro estágio, usando
+a metodologia DEA, foi possível verificar que o PIM opera com eficiências menores que 1,
+
+64
+
+portanto, atua com ineficiências. Além disso, foi possível constatar que a eficiência técnica total
+apresenta maior espaço de ineficiência em cerca de 70% em valores médios anuais.
+Os resultados obtidos para todo o PIM mostram que a eficiência aumenta com a gestão
+adequada dos custos, refletidos na concessão do incentivo fiscal. A farta distribuição do
+incentivo fiscal pode ensejar um descuido com outros custos relevantes de produção. Além
+disso, a eficiência está mais sujeita a volatilidade da taxa de câmbio. O efeito do valor do
+coeficiente da taxa de câmbio real é maior que o efeito do ICMS restituído. Nos choques
+cambiais, as empresas dos subsetores não conseguem fazer um planejamento adequado de
+produção em função do encarecimento da moeda estrangeira.
+Os resultados obtidos a nível agregado para toda o PIM não devem mascarar o fato de
+que existem importantes diferenças a nível setorial no que se refere às desigualdades de
+eficiência e seus determinantes. A seleção de outras variáveis que possam esclarecer de forma
+mais clara outros fatores determinantes de ineficiência no PIM serão objetos de estudos
+posteriores a este trabalho.
+4 CONSIDERAÇÕES FINAIS
+Este trabalho se propôs a fazer a análise da eficiência e da produtividade, bem como dos
+fatores determinantes da ineficiência no polo industrial de Manaus (PIM), um modelo de
+desenvolvimento regional no coração da Amazônia, em uma região ausente de pré-requisitos
+que atraísse indústrias, especialmente por fatores locacionais.
+Passados mais de 50 anos, a região de instalação do PIM é uma região incentivada com
+benefícios fiscais dos governos federal estadual e municipal. Os incentivos fiscais
+proporcionaram a criação de um gigante na Amazônia com mais de 400 empresas instaladas, a
+oferta de uma média mensal de mais de 100 mil postos de trabalhos diretos e outros 300 mil
+indiretos e faturamento médio anual de US$ 20 bilhões.
+O objeto de análise foram os 9 subsetores industriais do PIM, por representarem cerca
+de 96 % do faturamento total, no período de 1994 a 2016. Os dados utilizados compõem o
+relatório de Indicadores de Desempenho da SUFRAMA, autarquia federal que faz a
+administração do PIM e dados do IPEADATA.
+Os resultados mostraram que o PIM opera com nível de ineficiência extremamente
+elevado, quando se considerou as medidas de eficiências técnicas totais. Contudo, as medidas
+de eficiências apresentaram uma tendência de crescimento em todas as medidas de eficiências,
+de eficiências técnicas “puras” e de escalas.
+
+65
+
+O principal resultado obtido é que a dinâmica das eficiências se reflete na mudança de
+produtividade nos subsetores industriais analisados. Os resultados mostraram que a dinâmica
+das eficiências representada pela curva das eficiências médias anuais apresentou um
+comportamento crescente, ainda que no período os subsetores industriais permanecessem
+ineficientes com valores entre 0,6 e 0,8, abaixo de 1. A eficiência crescente foi confirmada pela
+mudança de produtividade no período. O valor médio da produtividade de 1,043, capturado
+pelo índice Malmquist, indicou ganhos de produtividade nos subsetores industriais analisados.
+Na decomposição do índice Malmquist pelos seus componentes, mudança de eficiência
+técnica e mudança técnica, dois resultados podem ser destacados. Em primeiro ligar, foi
+verificada que o ganho de produtividade dos subsetores industriais está relacionado a mudança
+de eficiência técnica. O valor médio de 1,081 deste índice revelou que a cada período analisado,
+o período seguinte apresentava um melhor nível de eficiência técnica. Por mudança na
+eficiência técnica entende-se que houve melhoria na escolha da melhor combinação dos
+recursos de um período para o outro. Em segundo lugar, o valor médio do índice de mudança
+técnica de 1,016, muito próximo de 1, revelou que no período os subsetores industriais
+apresentaram progresso técnico quase constante, ou seja, a inovação tecnológica foi insipiente.
+Em uma primeira análise, os resultados mostraram que os subsetores industriais do PIM
+obtiveram, em termos médios, ganhos de produtividade quase constante alavancado pelo
+progresso tecnológico também quase constante. O ganho mínimo de produtividade deveu-se a
+mudança de eficiência técnica.
+O DEA em dois estágios, mostrou em primeira fase que as eficiências estimadas do PIM
+estão abaixo de 1, ou seja, os subsetores operam de forma ineficientes. Ainda, de forma
+complementar, o PIM apresentou uma ineficiência maior na eficiência técnica total, 77% dos
+subsetores industriais operam com eficiência inferior a 50%, com predominância nas
+ineficiências de escala.
+Para fechar a questão, com o modelo Tobit, as variáveis explanatórias selecionadas, o
+ICMS restituído e a taxa de câmbio real apresentaram potencial de explicação como fatores
+determinantes da ineficiência no PIM. Na contribuição das variáveis explanatórias para a
+ineficiência, a taxa de câmbio ao apresentar uma maior volatilidade, em função de contextos
+econômicos específicos, é um fator determinante de ineficiência no modelo, vez que a
+depreciação da moeda nacional encarece os custos de produção.
+O trabalho oferece uma janela de investigação sobre o estudo dos incentivos fiscais no
+fomento as atividades industriais, sendo este um ensaio mínimo sobre este entendimento.
+
+66
+
+Referências
+CLEMENTE, A; HIGACHI, H. Y. Economia e desenvolvimento regional. São Paulo: Atlas,
+2000, p. 99 – 122 e 130-148.
+9, p.851-74, 2005.
+ALMEIDA, J. Incentivos fiscais e desenvolvimento industrial na América Central. Revista
+Brasileira de Economia, Rio de Janeiro, v. 2, p 53-71, jun. 1968.
+ANDERSEN, P.; PETERSEN, N.C. A procedure for ranking efficient units in data
+envelopment analysis, Management Science, v. 39, n. 10, p. 1261–1265. 1993.
+ASHTON, J.K.; HARDWICK, P. Estimating inefficiencies in banking, Journal of
+Interdisciplinary Economics, v. 11, n. 1, p. 1–33. 2000.
+BANKER, R.D.; CHARNES, A.; COOPER, W.W. Some models for estimation technical and
+scale inefficiencies in Data Envelopment Analysis. Management Science, v. 30, n. 9, p.
+1078-1092, 1984.
+BARRETO, Ricardo Candéa Sá; MESQUITA FILHO, João Benigno de. Desempenho
+Setorial da Economia Fluminense: Uma Aplicação da Análise Envoltória de Dados. In:
+Congresso da Sober, 45., 2007, Londrina. Anais.... Londrina: Sober, 2007. p. 1-16.
+Disponível em: <http://www.sober.org.br/palestra/6/92.pdf>. Acesso em: 11 jul. 2015.
+BEESON, Patrícia; HUSTED, Stephen. Patterns and determinants of inefficiency in state
+manufacturing. Federal Reserve Bank of Cleveland, Working Paper. 1986.
+BAGDADIOGLU, Necmiddin; WADDAMS PRICE, Catherine M.; WEYMAN-JONES,
+Thomas G. Efficiency and ownership in electricity distribution: A non-parametric model of
+the Turkish experience, Energy Economics, n. 18, issue 1-2, p. 1-23. 1996,
+https://EconPapers.repec.org/RePEc:eee:eneeco:v:18:y:1996:i:1-2:p:1-23.
+CAMPANO, Claudio C.; GONZÁLEZ, Medardo A.; FARÍAS, Natalia C. La productividad
+total de factores en el sector manufacturero chileno, Revista de Economía Institucional, v. 18,
+n. 35, segundo semestre/2016, p. 229-255.
+CAVES D. W.; CHRISTENSEN L. R.; DIEWERT W. E The economic theory of index
+numbers and the measurement of input, output and productivity. Econometrica, v. 50, n. 6, p.
+1393–1414, 1982.
+CENTRO DA INDÚSTRIA DO ESTADO DO AMAZONAS (CIEAM) (Manaus).
+Associação de Classe (Ed.). Indicadores Econômicos e Setoriais da Indústria. 2. ed.
+Manaus: Cieam, 2015. 77 p. Disponível em: <www.cieam.com.br>. Acesso em: 2 out. 2015.
+CHARNES, A.; COOPER, W. W.; RHODES, E. Measuring the efficiency of decision
+making units. European Journal of Operational Research, v. 2, n. 6, p. 429-444, 1978.
+CHARNES, A.; COOPER, W.W.; LEWIN, A.Y.; SEIFORD, L.M. Data Envelopment
+Analysis: Theory, Methodology and Applications, Boston: Kluwer Academic Publishers.
+1994.
+
+67
+
+CHEN, Yao; AGHA, Iqbal Ali. DEA Malmquist productivity measure: New insights with an
+application to computer industry, European Journal of Operational Research, 159, issue 1, p.
+239-249. 2004.
+CHILINGERIAN, J. A. Evaluating physician efficiency in hospitals: A multivariate analysis
+of best practices. European Journal of Operational Research, v. 80, p.548-574, 1995.
+CICOLIN, Lucas de Oliveira Melo; OLIVEIRA, Andréa Leda Ramos de. Avaliação de
+desempenho do processo logístico de exportação do milho brasileiro: uma aplicação da
+análise envoltória de dados – DEA. J. Transp. Lit., Manaus, v. 10, n. 3, p. 30-34, Sept. 2016.
+Available from <http://www.scielo.br/scielo.php?script=sci_arttext&pid=S223810312016000300030&lng=en&nrm=iso>. access on 29 nov. 2018.
+http://dx.doi.org/10.1590/2238-1031.jtl.v10n3a6.
+CLEMENTE, A. HIGACHI, H. Y. Economia e desenvolvimento regional. São Paulo: Atlas,
+2000. 260p.
+COELLI, T. J. A Guide to FRONTIER Version 4.1: A Computer Program for Stochastic
+Frontier Production and Cost Function Estimation, mimeo, Department of
+COELLI, T.; RAO, D.S.P.; BATTESE, G. E. An introduction to efficiency and productivity
+analysis. London: Kluwer Academic, 1998. 275 p.
+COOPER, W.W.; SEIFORD, L.M.; TONE, K. Data Envelopment Analysis: A
+Comprehensive Text with Models, Applications, References and DEA-Solver Software, 2nd
+ed., New York: Springer Science + Business Media. 2007.
+DAS, A. Measurement of productive efficiency and its decomposition in Indian banking
+firms, Asian Economic Review, Vol. 39, No. 3, pp.422–439. 1997a.
+determinants. International Journal of Operations & Production Management, v. 25, n.
+DINIZ, Márcia Jucá Teixeira; DINIZ, Marcelo Bentes; OLIVEIRA JÚNIOR, José Nilo de.
+Inovação x eficiência: um estudo empírico para o Polo Industrial de Manaus (2000-2006).
+Revista de Economia, [s.l.], v. 37, n. 3, p.91-118, 6 jun. 2011. Universidade Federal do
+Paraná. http://dx.doi.org/10.5380/re.v37i3.27940.
+Econometrics, University of New England, Armidale, 1994.
+EMROUZNEJAD, A.; PARKER, B.; TAVARES, G. Evaluation of research in efficiency and
+productivity: a survey and analysis of the first 30 years of scholarly literature in DEA, Journal
+of Socio-Economics Planning Science, Vol. 42, No. 3, pp.151–157. 2008.
+FÄRE, R.; GROSSKOPF, S.; NORRIS M.; ZHANG Z. Productivity growth, technical
+progress and efficiency change in industrialized countries. American Economic Review, vol.
+84, p.66–83, 1994.
+FARIA, João Adelino de; PAULA, Luiz Fernando de; MARINHO, Alexandre. Fusões e
+Aquisições bancárias no Brasil: Uma Avaliação da Eficiência Técnica e de Escala, IPEA,
+texto para discussão nº 1233, Rio de Janeiro, nov. 2006.
+
+68
+
+FARRELL, M. J. The measurement of productive efficiency. J. Royal Statistical Society, v.
+120, Part III, p. 253-290, 1957.
+FETHI, M.D.; JACKSON, P. M.; WEYMAN-JONES, T. G. Measuring the Efficienvy of
+European Airlines: Na Application of DEA and Tobit Analysis. In: Annual Meeting of the
+European Public Choice Society, Siena, Italy, 2000. 32 p. Siena, Italy, 2000. p. 32.
+FINAMORE, Eduardo Belisário M. C.; GOMES, Adriano Provezano; DIAS, Roberto Serpa.
+Eficiência Relativa dos Setores Econômicos do Rio Grande do Sul: Uma Aplicação do
+Modelo DEA na Matriz de Insumo-Produto. Análise: Revista de Administração da PUCRS,
+Porto Alegre, v. 2, n. 16, p.217-240, 1 ago. 2005. Semestral. Disponível em:
+<http://revistaseletronicas.pucrs.br/ojs/index.php/face>. Acesso em: 3 ago. 2015.
+GREENE, W. H. Econometric analysis. 5. ed. New Jersey: Prentice Hall, 2003. 1.026p.
+GRIFELL, Tatje; LOVELL, C. A. K. A Note on the Malmquist Productivity Index.
+Economics Letters, n. 4, p. 169-175, 1995.
+GRILO, Antonio; SANTOS, J. Measuring Efficiency and Productivity Growth of New
+Technology-Based Firms in Business Incubators: The Portuguese Case Study of Madan
+Parque. TheScientificWorldJournal. 2015. 936252. 10.1155/2015/936252. 2015.
+GUMBAU-ALBERT, M.; MAUDOS, J. The determinants of efficiency: the case of the
+Spanish industry, Applied Economics, 34:15, 1941-1948, (2002). DOI:
+10.1080/00036840210127213
+HIRATUKA, C.; DE NEGRI, F. Influencia del origen del capital sobre los patrones del
+comercio exterior brasileño. Revista de La Cepal, Santiago, n. 82, p. 121-137, out-dez./2004.
+Disponível em: <
+https://repositorio.cepal.org/bitstream/handle/11362/10944/082121137_es.pdf?sequence=1&i
+sAllowed=y>. Acesso em: 10 set./2017.
+HU, Yongmei; LIANG, Wenyan. Malmquist Index Analysis of the Dynamic Changes in
+Scientific Research Productivity of Some Chinese Universities before and after Merger.
+Frontiers of Education in China. 3. 429-447. 10.1007/s11516-008-0028-0. 2008
+TANASE, Ionela; TIDOR, Adriana. Efficiency Progress and Productivity Change in Romania
+Machinery Industry 2001–2010, Procedia Economics and Finance, v. 3, p. 1055-1062, 2012.
+https://doi.org/10.1016/S2212-5671(12)00273-0.
+JACKSON, P. M.; FETHI, M. D. Evaluating the technical efficiency of Turkish commercial
+banks: An Application of DEA and Tobit Analysis. In: International DEA Symposium,
+University of Queensland, Brisbane, Australia, 2000, 19 p.
+KRASACHAT, Wirat. Performance measurement of the Thai oil palm farms: a non
+parametric approach. Songklanakarin Journal of Science and Technology, n. 23. 2001.
+KUMBHAKAR, S.C., LOVELL, C.A.K. Stochastic frontier analysis. New York: Cambridge
+University Press, 2003.
+
+69
+
+LEACHMAN, C.; PEGELS, C. C.; SHIN, S. K. Manufacturing performance: evaluation and
+Luoma, Ilona & Tamminen, Tuula & Kaukonen, Pälvi & Laippala, Pekka & Puura, Kaija &
+Salmelin, Raili & Almqvist, Fredrik. Longitudinal Study of Maternal Depressive Symptoms
+and Child Well-Being. Journal of the American Academy of Child and Adolescent
+Psychiatry. n. 40, p. 1367-74. 2002. 10.1097/00004583-200112000-00006.
+LYRA, Flávio Tavares. Os Incentivos Fiscais à Indústria da Zona Franca de Manaus: Uma
+avaliação (Relatório Final) Brasília: Ipea, 1995. (Texto para Discussão, n. 371). Disponível
+em: < http://www.dominiopublico.gov.br/download/texto/td_0371.pdf >.
+MAHLBERG, B. and URL, T. The effects of the single market on the Austrian insurance
+industry. Empirical Economics, 28(4). P. 813-838. (2003).
+MAHLBERG, B.; URL, T. Single Market effects on productivity in the German insurance
+industry. Journal of Banking & Finance, 34(7), 1540–1548.
+doi:10.1016/j.jbankfin.2009.09.005. 2010.
+MARÍA, Vázquez R. A.; EDUARDO, Rodríguez J.; XÓCHITL, González G. D. Un análisis
+de la productividad manufacturera en el Estado de Hidalgo An analysis of the manufacturing
+productivity in the State of Hidalgo. Revista CIMEXUS Vol. XI, No.2, 2016)
+MELLO, E.; MACEDO, P. A Firm Level DEA Approach. XXXI Encontro Nacional de
+Economia, anais Anpec, Porto Seguro, 2003.
+MELLO, Euler P. G.; MACEDO, Paulo B. R. Total Factor Productivity Growth, Technical
+Progress, and Technical Efficiency Change in the Brazilian Industry in 1996- 2000: A Firmlevel DEA Approach. A ANPEC promoveu em 2003 o 31° Encontro Nacional de Economia.
+O evento foi realizado na cidade de Porto Seguro (Bahia), de 9 a 12 de dezembro.
+MELLO, J. C. C. B. S.; GOMES, E. G.; MEZA, L. A.; LETA, F. R. DEA Advanced models
+for geometric evaluation of used lathes. WSEAS Transactions on Systems, v. 7, p. 510-520,
+2008.
+MENDONÇA, Elvino de Carvalho. O Desempenho da Produtividade da indústria de
+MURILLO-ZAMORANO, Luis R. Economic Efficiency and Frontier Techniques. Journal of
+Economic Surveys, n. 18, issue 1, p.33-7, 2004.
+NASCIMENTO, Luiz Roberto Coelho. Incentivos Fiscais ao Capital e Crescimento
+Econômico na Região Norte. 2002. Tese (Doutorado em Economia) – Universidade Federal
+de Pernambuco, Recife, 2002.
+NAZARKO, Joanicjusz; CHODAKOWSKA, Ewa. Measuring Productivity of Construction
+Industry in Europe with Data Envelopment Analysis. Procedia Engineering. 122. 204-212.
+10.1016/j.proeng.2015.10.026. 2015.
+PASIOURAS, F. Estimating the technical and scale efficiency of Greek commercial banks:
+the impact of credit risk, off-balance sheet activities, and international operations, Research in
+International Business and Finance, Vol. 22, No. 3, pp.301–318. 2008.
+
+70
+
+PERELMAN, S. (1995), R&D, TECHNOLOGICAL PROGRESS AND EFFICIENCY
+CHANGE IN INDUSTRIAL ACTIVITIES. Review of Income and Wealth, n. 41. p. 349-366.
+doi:10.1111/j.1475-4991.1995.tb00124.x
+PINHEIRO, A. C. Technical Efficiency in Brazilian Manufacturing Estabilishments: results
+for 1970 and 1980. [Brasília]: Ipea, 1990. (Texto para Discussão Interna, n. 190)
+RAY, S. C. Data Envelopment Analysis: Theory and Techniques for Economics and
+Operations Research, Cambridge: Cambridge University Press. 2004.
+REBELO, J. Medição da Evolução da Produtividade Total dos Fatores: o Índice de
+Malmquist. Gestão e Desenvolvimento, 9 (2000), 43-79
+REIS, R. P.; RICHETTI, A.; LIMA, A. L. R. Eficiência econômica na cultura do café: um
+estudo no sul de Minas Gerais. Organizações rurais e agroindustriais. v. 7, n.1, p. 50-59, 2005.
+RESENDE, M. Regulatory regimes and efficiency in US local telephony, Oxford Economic
+Papers, Vol. 52, No. 3, pp.447–470. 2000.
+RIVAS, Alexandre; MOTA, José A.; MACHADO, José Alberto da C. (Org.). Instrumentos
+Econômicos para a Proteção da Amazônia: A experiência do Pólo Industrial de Manaus.
+Curitiba: Crv, 2009. Parte III, Cap. 1. p. 171-177. Co-editora: Piatam.
+SCHERAGA, Carl A. Operational efficiency versus financial mobility in the global airline
+industry: a data envelopment and Tobit analysis, Transportation Research Part A: Policy and
+Practice, 38, issue 5, p. 383-404. 2004,
+https://EconPapers.repec.org/RePEc:eee:transa:v:38:y:2004:i:5:p:383-404.
+SEIFORD, L. M.; ZHU, J. An investigation of returns to scale in data envelopment analysis.
+Omega: The journal of management science. v.27, n.1, p. 1-11, 1999.
+SOLIMAN, M.; SILUK, J. C. M.; NEUENFELDT JÚNIOR, A. L.; CASADO, F. L.; PARIS,
+S. R. Modelagem para avaliação da eficiência técnica de unidades universitárias. GEPROS.
+Gestão da Produção, Operações e Sistemas, Bauru, Ano 9, nº 1, jan-mar/2014, p. 69-83.
+SOLTANE BASSEM, B. Total factor productivity change of MENA microfinance
+institutions: A Malmquist productivity index approach. Economic Modelling, 39, 182–189.
+doi:10.1016/j.econmod.2014.02.035. 2014.
+SUFRAMA. Polo Industrial. Suframa, 2017. Disponível em:
+<http://site.suframa.gov.br/assuntos/modelo-zona-franca-de-manaus/polo-industrial>. Acesso
+em: 13 maio. 2017.
+SUZIGAN, W.; FURTADO, J. Política Industrial e Desenvolvimento. Revista de Economia
+Política, São Paulo, v. 26, n. 2 (102), p. 163-185, abril-jun./2006. Disponível em: <
+http://www.scielo.br/pdf/rep/v26n2/a01v26n2>. Acesso em: 06 ago./2017.
+TANASEA, Ionela; TIDOR, Adriana. Efficiency Progress and Productivity Change in
+Romania Machinery Industry 2001- 2010. Procedia Economics and Finance. 3 (2012),
+p.1055-1062).
+
+71
+
+THIRLWALL, Anthony Philip. A natureza do crescimento econômico: um referencial
+alternativo para compreender o desempenho das nações. Tradução: Vera Ribeiro; rev.
+técnica: Marcelo Piancastelli de Siqueira. Brasilia: Ipea, 2005. 112 p.
+TOBIN, J. Estimation of Relationships for Limited Dependent Variables. Econometrica, 31,
+p. 24-36, 1958.
+TONE, K. Malmquist productivity index: efficiency change over time. In: Cooper, W.W.,
+Seiford, L.M., Zhu, J. (Eds.), The Handbook of Data Envelopment Analysis. Kluwer
+Academic Publisher, Norwell, MA, p. 203e227, 2004.
+TORRES, Osvaldo U. B.; PICHARDO, Oscar M. R.; GUTIÉRREZ, Thania L. C.
+Productividad multifactorial de los subsectores líderes de la industria manufacturera
+mexicana. Explanans, vol. 2, núm. 2, julio-diciembre 2013, pp. 47-72.
+transformação Brasileira – 1996-2002: Uma Abordagem Utilizando o índice de Produtividade
+de Malmquist. R. Bras. Eco. de Emp. 2007; 7(2): 43-57.
+WATCHARASRIROJ, Budsakorn; TANG, John. The effects of size and information
+technology on hospital efficiency. The Journal of High Technology Management Research,
+n. 15, p.1-16. 2004. 10.1016/j.hitech.2003.09.001.
+ZHU, J. Quantitative Models for Performance Evaluation and Benchmarking: Data
+Envelopment Analysis with Spreadsheets and DEA Excel Solver, USA: Kluwer Academic
+Publishers.
+
+

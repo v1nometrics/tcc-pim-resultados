@@ -1,0 +1,10 @@
+Variável,Unidade,N,Média,D.P.,Mín.,P25,Mediana,P75,Máx.
+Faturamento (R$ 2023),R$ milhões,137,6933.46,16228.03,20.79,205.87,601.74,7653.79,89897.69
+Emprego SUFRAMA (média mensal),pessoas,137,4389.12,8376.45,40.0,541.0,1149.0,3346.0,42440.0
+CAPEX (R$ 2023),R$ milhões,137,1965.6,3439.97,1.66,116.03,282.84,2328.95,15315.59
+ICMS Restituído (R$ 2023),R$ milhões,137,519.95,1360.89,0.0,3.88,41.74,387.38,8338.17
+Incentivo/Faturamento,razão,137,0.09,0.18,0.0,0.02,0.04,0.08,1.23
+Incentivo/Emprego,R$ mil/trabalhador,137,70.29,116.53,0.0,8.18,28.97,71.51,607.99
+Produtividade (Fat/E),R$ mil/trabalhador,137,1396.56,2513.6,73.88,318.68,637.33,1347.42,17036.67
+Automação (K/L),R$ mil/trabalhador,137,386.31,371.49,10.29,156.08,264.47,436.05,1642.81
+Salário Médio (W/L),R$/trabalhador,137,5338.5,2386.77,2073.18,3608.38,5052.94,6039.89,14268.23

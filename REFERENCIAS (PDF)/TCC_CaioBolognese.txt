@@ -1,0 +1,1412 @@
+UNIVERSIDADE FEDERAL DO AMAZONAS
+FACULDADE DE ESTUDOS SOCIAIS
+DEPARTAMENTO DE ECONOMIA E ANÁLISE
+
+Caio José Silva Bolognese
+
+ZONA FRANCA DE MANAUS EM UMA ANÁLISE DE CLUSTERS SEGUNDO
+SUAS DIVISÕES EM SUBSETORES
+
+MANAUS
+2024
+
+Caio José Silva Bolognese
+
+ZONA FRANCA DE MANAUS EM UMA ANÁLISE DE CLUSTERS SEGUNDO
+SUAS DIVISÕES EM SUBSETORES
+
+Monografia apresentada na Faculdade de
+Estudos Sociais ao Departamento de Economia
+e Análise na Universidade Federal do
+Amazonas, como parte dos requisitos para a
+obtenção do título de Bacharel em Ciências
+Econômicas
+Orientador: Prof. Dr. Frederick Fagundes
+Alves
+
+MANAUS
+2024
+
+Caio José Silva Bolognese
+
+ZONA FRANCA DE MANAUS EM UMA ANÁLISE DE CLUSTERS SEGUNDO
+SUAS DIVISÕES EM SUBSETORES
+
+Monografia apresentada na Faculdade de
+Estudos Sociais ao Departamento de Economia
+e Análise na Universidade Federal do
+Amazonas, como parte dos requisitos para a
+obtenção do título de Bacharel em Ciências
+Econômicas
+
+Este trabalho foi defendido e aprovado pela banca em 20/10/2023
+
+BANCA EXAMINADORA
+
+__________________________________________
+Prof. Dr. Frederick Fagundes Alves - UFAM
+Orientador
+
+___________________________________________
+Prof. Dr. Rogério da Cruz Gonçalves - UFAM
+Avaliador
+
+___________________________________________
+
+Prof. MSc. Raphael Ribeiro Costa - UFAM
+Avaliador
+
+“Escrever é fácil. Você começa com uma letra maiúscula e termina com um ponto final.
+No meio você coloca ideias.”
+Pablo Neruda
+
+AGRADECIMENTOS
+Me sinto na obrigação de dedicar algumas palavras a todos que participaram da minha
+caminhada, porque no fim do dia você percebe que é quase tudo sobre o caminho e pouco
+sobre o destino final. Primeiramente obrigado mãe, sei que não deve ter sido fácil aceitar a
+decisão de ver seu filho ir para uma outra cidade de um dia para o outro para fazer uma
+graduação. Agradeço também a todos os meus tios que me acolheram como ninguém poderia
+fazer no mundo, em especial a você tia Elena que mais do que fez eu me sentir acolhido como
+nunca me senti na vida. Espero que algum dia eu consiga retribuir um terço do que fez por
+mim durante esse tempo, você é luz. Obrigado a todos os Silva/Cunha pela paciência e
+atenção nesse tempo, mil vezes obrigado pelas caronas pra universidade Marcel e Tio Bó.
+Para aqueles amigos que estavam desde o começo da graduação como o Adriel e o Felipe, os
+que surgiram no meio e para os que chegaram no final como o Victor, um muito obrigado
+também. Gostaria de agradecer a todos os docentes que permitiram que esse trabalho fosse
+possível pelos ensinamentos, pela paciência e carinho. Por fim, um muito obrigado mais do
+que especial para o Prof. Frederick nada disso aqui seria possível sem você, obrigado por
+tudo.
+
+RESUMO
+
+A seguinte pesquisa tem como objetivo analisar determinados subsetores da Zona Franca de
+Manaus e aplicar a partir deles um modelo de divisão em cluster, utilizando conceitos
+estatísticos e econométricos para gerar respostas que busquem entender a dinâmica dentro do
+complexo industrial e como variáveis como faturamento, aquisição de insumos e
+investimentos produtivos podem agrupar subsetores e fazer com que os mesmos cooperem em
+busca de melhorias para seus respectivos subsetores. Na tangente da metodologia foi utilizado
+uma análise de cluster a partir do método aglomerativo de Ward, com dados retirados da
+própria Suframa e seu caderno de indicadores. Em relação aos resultados é possível verificar
+que eles se agrupam em três principais clusters e que possuem relações específicas para cada
+grupo e seus respectivos subsetores, que potencialmente cooperam e se beneficiam da
+presença de outros subsetores dentro de seu cluster, ressalta-se que o subsetor Eletroeletrônico
+possui um cluster que somente o possui devido suas características massivas.
+Palavras-Chave: Clusters; Subsetores; Zona Franca de Manaus.
+ABSTRACT
+
+The following research aims to analyze specific subsectors within the Manaus Free Trade
+Zone and apply a cluster division model based on statistical and econometric concepts. The
+goal is to understand the dynamics within the industrial complex, exploring variables such as
+revenue, input acquisition, and productive investments that can group subsectors and
+encourage cooperation for their respective improvements. The methodology involves a cluster
+analysis using the Ward agglomerative method, utilizing data from Suframa’s own indicators.
+The results reveal three main clusters with specific relationships among groups and their
+respective subsectors. These clusters potentially collaborate and benefit from the presence of
+other subsectors within their cluster. Notably, the Electronics and Electrical subsector forms a
+cluster due to its massive characteristics.
+Keywords: Clusters; Subsectors; Manaus Free Trade Zone.
+
+LISTA DE FIGURAS
+
+Figura 1: Tipos de Dendograma​
+Figura 2: Dendogramas Índice Duda-Hart​
+Figura 3: Dendograma com 3 clusters​
+Figura 4: Subsetor Mecânico​
+Figura 5: Subsetor Químico​
+Figura 6: Subsetor Duas Rodas​
+Figura 7: Subsetor Termoplástico​
+Figura 8: Subsetor Metalúrgico​
+Figura 9: Subsetor Isqueiros, canetas e barbeadores descartáveis​
+Figura 10: Subsetor Madeireiro​
+Figura 11: Subsetor Papel e Papelão​
+Figura 12: Subsetor Relojoeiro​
+Figura 13: Subsetor Relojoeiro​
+Figura 14: Subsetor Eletroeletrônico​
+
+20
+25
+26
+31
+31
+32
+32
+33
+34
+34
+35
+35
+36
+37
+
+LISTA DE TABELAS
+
+Tabela 1: Subsetores e anos utilizados.​
+Tabela 2: Índice Duda-Hart​
+Tabela 3: Subsetores após a divisão em clusters.​
+Tabela 4: Análise descritiva do Grupo 1​
+Tabela 5: Análise descritiva do Grupo 2​
+Tabela 6: Análise descritiva do Grupo 3​
+
+23
+24
+27
+27
+28
+28
+
+SUMÁRIO
+
+1 INTRODUÇÃO​
+2 REVISÃO DE LITERATURA​
+2.1 Processo histórico e desenvolvimento regional​
+2.2 Resultados científicos sobre Zona Franca de Manaus​
+2.3 Resultados científicos sobre Clusters​
+3 METODOLOGIA​
+3.1 Análise de Cluster​
+3.2 Análise de Cluster Não-Hierárquico e Hierárquico​
+3.2.1 Método Hierárquico Aglomerativo de Ward​
+3.3 Critério de Determinação Para o Número de Clusters​
+3.4 Fonte e Tratamento dos Dados​
+4 RESULTADOS​
+5 CONCLUSÃO​
+REFERÊNCIAS​
+
+10
+12
+12
+15
+16
+18
+18
+19
+21
+22
+22
+24
+38
+40
+
+10
+1 INTRODUÇÃO
+O modelo econômico de livre comércio adotado na região amazônica que consiste em
+fornecer benefícios fiscais para empresas situadas na Amazônia ocidental, conhecida
+popularmente como Zona Franca de Manaus (ZFM), foi criada pela lei n° 3.173, de 6 de
+junho de 1957 e, posteriormente, alterada com o decreto-lei n° 288, de 28 de fevereiro de
+1967. Esse modelo econômico da ZFM visa gerar e desenvolver uma indústria na Amazônia
+Ocidental que enfrentava dificuldades em competir com as regiões do sudeste e centro-sul do
+Brasil que, por questões sociais, históricas e localização, sempre obtinham vantagens no
+fornecimento de produtos e preços.
+Desde a criação da ZFM, constantemente surgem críticas ao modelo de incentivos
+fiscais como o trabalho de Gonçalves e Ehrl (2021), que tange não somente as empresas como
+todo o Polo Industrial de Manaus (PIM). Os dados apresentados pela Superintendência da
+Zona Franca de Manaus (SUFRAMA) apontam para mais um ano onde o faturamento de R$
+72,03 bilhões nos cinco primeiros meses do ano de 2023, supera o mesmo período do ano de
+2022 que apresentou R$ 70,65 bilhões, havendo um crescimento em torno de 1,96%. As
+exportações do PIM totalizaram US$ 243,93 milhões entre janeiro e maio de 2023, o que
+representa um incremento de 11,82% em relação ao mesmo período do ano anterior.
+É observado, a partir de uma divisão em subsetores, que tal crescimento também
+ocorre nos segmentos eletroeletrônico, duas rodas, químico e mecânico explicitando que há na
+região, indústrias que se beneficiam de tais incentivos e apresentam retornos crescentes nos
+indicadores mais utilizados para avaliação de desempenho. Contudo, surge o questionamento
+se todos os subsetores presentes no Polo Industrial de Manaus apresentam indicadores
+satisfatórios para justificar a quantidade de incentivos recebidos e se há algum tipo de
+organização que permita o agrupamento de subsetores que beneficiem tal agrupamento em
+detrimento de outros.
+Em relatórios disponíveis no site da SUFRAMA é observado a divisão em 24
+subsetores dos quais são fornecidos dados por ano como faturamento, movimentação do
+Imposto sobre Circulação de Mercadorias e Serviços (ICMS) recolhido, restituído e devido,
+mão de obra, investimentos produtivos e aquisição de insumos. Alguns dos segmentos
+presentes são termoplástico, mecânico, metalúrgico, madeireiro, relojoeiro e eletroeletrônico
+que compartilham em determinado grau uma mesma base de aquisição de insumos, de
+maquinário e poder aquisitivo e que podem se aliar ao formar conglomerados industriais
+propiciando a qualquer subsetor que esteja presente nele um melhor desenvolvimento
+
+11
+competitivo.
+Clusters industriais são geralmente definidos como concentrações setoriais e espaciais
+de empresas através da incorporação de fatores como a força das empresas, a existência de
+cooperação, o grau de especialização das empresas, a desintegração vertical e a existência de
+instituições de apoio ao cluster. Para Crocco (2006):
+“[...] proximidade geográfica, especialização territorial, predominância de pequenas
+e médias empresas (PMES), cooperação interfirmas, competição interfirmas
+determinada pela inovação, troca de informações baseada na confiança socialmente
+construída, organizações de apoio ativas na oferta de serviços e parceria estreita com
+o setor público local. (CROCCO et al, 2006, p.3)”
+
+A presente pesquisa tem como objetivo entender se os subsetores produtivos da ZFM
+se agrupam de acordo com suas características de faturamento, mão de obra, aquisição de
+insumos e ICMS. Tem-se como hipótese que, possivelmente, os subsetores do PIM se
+estruturam ou aglomeram em clusters de acordo com suas características como faturamento e
+incentivos fiscais como a isenção do ICMS.
+Verificar tal hipótese se faz necessária ao objetivo geral desta pesquisa para trazer luz
+aos tópicos que ainda precisam ser respondidos sobre a Zona Franca de Manaus e seu modelo
+de estruturação que ainda possui à disposição pouco material científico que discuta suas
+implicações e possíveis externalidades positivas e negativas.
+A respeito dos procedimentos metodológicos é possível encontrar na econometria um
+instrumento útil para a construção de um modelo de clusterização que consiga, por meio de
+variáveis, definir os agrupamentos e suas relações com os subsetores. Assim, tem-se como
+objetivo dividir os elementos da amostra em grupos de forma que os elementos pertencentes a
+um mesmo grupo sejam similares entre si, com respeito às variáveis (características) que neles
+foram medidas, e os elementos em grupos diferentes sejam heterogêneos em relação a estas
+mesmas características (MINGOTI, 2005). A ideia básica é maximizar a homogeneidade
+dentro dos grupos ao mesmo tempo em que se maximiza a heterogeneidade entre os grupos.
+Acerca de objetivos específicos, com o seguinte trabalho pode-se clarear a discussão
+de como os incentivos fiscais podem influenciar as decisões de investimento das empresas
+que se estabelecem na ZFM. Isso pode propiciar para futuras análises um norte de como esses
+incentivos afetam as estratégias de negócios dos subsetores, incluindo suas decisões sobre
+onde investir, quanto investir e em que tipo de atividades investir. A pesquisa procura
+quantificar os subsetores presentes na Zona Franca de Manaus em termo das variáveis
+
+12
+selecionadas como, por exemplo, ICMS Recolhido e como esses incentivos podem ser
+ajustados para maximizar seu impacto positivo sobre os investimentos e o desenvolvimento
+econômico da região.
+Por fim, a relevância desta pesquisa se faz presente na análise de cluster que traria ao
+cenário da Zona Franca de Manaus uma visão a partir de outras formas de organização
+industrial. A ideia de conglomerados industriais tornou-se muito discutida desde Marshall
+(1920) e ainda se mantém no foco do debate acerca do processo de industrialização e
+desenvolvimento regional. Além do mais, os resultados aqui vistos poderiam iluminar a
+tomada de decisão daqueles que lidam e tem significância para com órgãos como a
+SUFRAMA, faz-se também adição de material econométrico sobre a Zona Franca de Manaus
+que a partir de suas complexidades precisa ser analisada para que a aplicação dos incentivos e
+fomento da região seja cumprido, garantindo assim seu papel inicial e permitindo análises
+futuras cada vez mais formidáveis para o cenário regional.
+2 REVISÃO DE LITERATURA
+​
+
+Para centrar a discussão no âmbito de utilidade e resultados da Zona Franca de
+
+Manaus faz-se uso desta revisão de literatura para abordar os trabalhos científicos que citam e
+discorrem sobre o tema e em que conclusões eles chegaram. Assim é possível entender o
+panorama geral quando se refere aos incentivos fiscais recebidos e seus resultados na área
+econômica e social de forma imparcial e que retrata o cenário com veracidade.
+2.1 Processo histórico e desenvolvimento regional
+A partir do decreto-lei nº 288 de 28 de fevereiro de 1967 que instaurou a Zona Franca
+de Manaus e têm-se no artigo primeiro o seguinte dizer.
+“A Zona Franca de Manaus é uma área de livre comércio de importação e
+exportação e de incentivos fiscais especiais, estabelecida com a finalidade de criar
+no interior da Amazônia um centro industrial, comercial e agropecuário dotado de
+condições econômicas que permitam seu desenvolvimento, em face dos fatores
+locais e da grande distância, a que se encontram, os centros consumidores de seus
+produtos.”
+
+Do qual é observável o caráter desenvolvimentista do projeto e seu intuito de
+estabelecer equilíbrio entre as regiões do Brasil.
+
+13
+Acerca do desenvolvimento regional, Celso Furtado (2005) retrata sobre como as
+regiões brasileiras apresentaram momentos diferentes de expansão e por motivos diversos. A
+região nordestina foi muito influenciada pela economia açucareira começou seu processo de
+desenvolvimento adjunto a região sudeste que teve picos de desenvolvimento em diversos
+momentos mas que com a economia cafeeira apresentou discrepância em índices como renda
+per capita e acentuou essa disparidade inter-regional. Destaca-se que a região amazônica é
+descrita pelo autor a se beneficiar das atividades exercidas no Brasil, “Por último a Amazônia
+se incluiu entre os beneficiários da grande expansão da região cafeeira industrial (FURTADO,
+2005, p. 239).” Contudo no decorrer da mesma obra é destacado como em determinado
+momento, aparentemente durante a primeira guerra mundial, ocorre um processo de
+industrialização que concentrará capital de forma majoritária no Estado de São Paulo
+iniciando a já atestada disparidade regional que perdura até os dias atuais.
+A modo comparativo durante a década de 1970 é visto na Europa um resultado claro
+acerca das Políticas de Desenvolvimento Regional (PDR) que, exaltando o potencial de
+desenvolvimento endógeno dos espaços regionais, promoveu durante tal período conturbado
+com desemprego e problemas socioeconômicos em certos países da Europa, como na Itália.
+Nos estudos de Brito e Bonelli (1997) são elencados alguns pontos que as PDR tornaram
+relevantes sendo eles, as inovações tecnológicas e a difusão entre territórios dessas inovações,
+uma maior responsabilidade dos governos regionais, foco nas pequenas e médias empresas e
+suas flexibilidades e medidas voltadas para o desenvolvimento dos serviços de apoio à
+produção. Convergindo em uma cooperação horizontal entre si dentro de uma mesma região
+adjunta a uma política público-privado gerou postos de industrialização descentralizados que
+são observáveis na Alemanha, Dinamarca e Itália. Esse conceito inicial é comparável ao de
+clusters industriais modernos que promovem os mesmos pontos em suas criações e políticas
+de desenvolvimento.
+Destacando a linha cronológica de acontecimentos acerca da Zona Franca de Manaus
+a partir de sua criação tem-se três prorrogações. As duas primeiras por apenas 10 anos e a
+última em 2014 onde, por meio da Emenda Constitucional nº 83/2014, foi garantida até 2073.
+Logo, tratando-se de um problema econômico com origens históricas, a tentativa de
+estabelecer novos centros industriais ao redor das regiões brasileiras é compreensível e
+necessária como medida protetiva aos diversos setores econômicos presentes no Brasil.
+​
+
+No que tange a ZFM como modelo de desenvolvimento, existe documentação
+
+científica que busca demonstrar os resultados e realizar um apanhado de seus benefícios para
+
+14
+a localidade e para o Brasil como nação. Há certa dualidade nesse último ponto que será
+evidenciado a partir dos seguintes parágrafos.
+Primeiramente, o modelo de desenvolvimento observável na ZFM é feito por meio de
+incentivos fiscais, onde a isenção total ou parcial de impostos é fornecida para as empresas
+que desejam instalar seu núcleo industrial na região. É possível encontrar as informações de
+impostos isentos no próprio site da SUFRAMA por meio de uma cartilha disponibilizada pela
+entidade.
+Destaca-se que a isenção de tributos atua em 3 esferas (federal, estadual e municipal).
+No âmbito federal tem-se isenção no imposto sobre produto industrializado (IPI), com
+redução de até 88% no imposto de importação para insumos destinados à industrialização e
+uma redução em torno de 75% do imposto de renda de pessoa jurídica. Já, para os tributos
+estaduais, vale-se a isenção total ou parcial, a depender do projeto, do imposto sobre
+operações relativas à circulação de mercadorias e sobre prestação de serviços (ICMS). Por
+último, no cenário municipal existe a isenção do imposto sobre a propriedade predial e
+territorial urbana (IPTU).
+Os impostos mencionados tange às empresas divididas por meio de subsetores, sendo
+os principais no setor industrial os subsetores eletroeletrônico, duas rodas e mecânico que
+movimentam altas quantias em faturamento bruto e o tornam relevantes. Estas informações
+estão presentes no caderno de indicadores da SUFRAMA acompanhados de variáveis que
+permitem entender o funcionamento da Zona Franca de Manaus por óticas não usuais.
+A modo comparativo de outros trabalhos que chegam a conclusões de como impostos
+possam influenciar no investimento produtivo têm-se Monroy-Calvo (2019) que analisou
+empresas dentro de uma cidade no México e atestou como os impostos são de caráter
+determinante para a tomada de decisão no que se refere as empresas a realizarem
+investimentos produtivos na região. As cargas fiscais podem impactar negativamente as
+decisões levando a necessidade de políticas fiscais mais favoráveis para estimular o
+investimento produtivo na região. Ademais na Zona Franca de Manaus a isenção de impostos
+é condicionada à comercialização ou industrialização local dos produtos.
+A seguir é necessário entender como se deu o planejamento e decorrência do plano de
+maneira a respeitar suas características específicas e analisar seus resultados tendo maior
+entendimento da situação para sustentar as possíveis críticas ou elogios que trabalhos a
+posteriori podem sugerir.
+
+15
+2.2 Resultados científicos sobre Zona Franca de Manaus
+No campo econométrico têm-se o trabalho de Gonçalves e Erhl (2019) que, por meio
+da estimação de um modelo de regressão em painel com efeitos fixos, realizou testes para
+inferir as diferenças entre a ZFM para com outras áreas industriais que recebem ou possuem
+subsídios e programas. As conclusões finais alcançadas por eles realçam os benefícios
+gerados para a região amazônica, em destaque o Amazonas, que possui números discrepantes
+em geração de emprego e renda em relação a média de outras Unidades Federativas (UF’s).
+Os autores ressaltam externalidades negativas superiores aos benefícios como o forte caráter
+atrativo migratório que apesar de ter interpretações positivas para a força de trabalho
+disponível gera em contraparte um potencial comprometimento no desenvolvimento
+socioeconômico da região, ferindo, por exemplo, os moradores da região em prol dos
+imigrantes que buscam novas oportunidades. Elencam também como dificuldade a ser
+superada a baixa qualificação exigida pelas empresas que são beneficiadas pelos incentivos
+fiscais, tal problemática é vista refletida na renda que é reduzida proporcional ao nível de
+escolaridade exigido. Por fim, é visto no trabalho a interpretação dos resultados
+econométricos que demonstram o caráter ímpar que a ZFM tem entre as empresas e o
+trabalhador.
+“A combinação de subsídios ao capital com baixos salários em setores de
+produtividade relativamente alta revelou que o atual modelo da ZFM tem um viés
+concentrador de renda. De fato, um aumento de R$1 bilhão no VAB total das
+empresas instaladas no Amazonas implicou um aumento de, aproximadamente,
+R$0,90 no rendimento médio dos trabalhadores de empresas participantes do
+programa federal, muito superior aos R$ 0,06 auferidos pelos trabalhadores de
+empresas nas demais UFs. Isto é, houve enriquecimento do capitalista em detrimento
+do trabalhador” (GONÇALVES; ERHL, 2019, p.276).
+
+Dentro deste mesmo campo econométrico, uma avaliação de qual método utilizar para
+avaliar os dados disponíveis é necessária. Técnicas envolvendo fronteiras estocásticas
+conjuntas com análise residual foram realizadas nos trabalhos de Teixeira (2019). O autor
+demonstrou os benefícios da Zona Franca de Manaus para as condições sociais e demais
+aspectos trabalhistas fortemente endossadas pelas constantes verificações da SUFRAMA em
+suas empresas parceiras em sintonia com a adesão e aplicabilidade férrea de normas
+trabalhistas garantindo assim o papel social que a ZFM tem para com a região e seus
+trabalhadores, as ressalvas são vistas quando verifica-se os vínculos econômicos que
+supostamente a ZFM deveria criar com seus arredores para promover crescimento conjunto
+com as demais regiões fronteiriças visto que essa integração pode ser considerada inexistente.
+
+16
+Ademais é notório a contribuição da Zona Franca para com o PIB per capita real de
+Manaus durante o século XX já que a mesma tem impacto positivo e significativo neste e em
+outros indicadores como a produção total de serviços per capita. Em contrapartida, é visível
+um impacto negativo na produção agrícola total per capita é o que indica o trabalho de
+Possebom (2017). O autor concluiu que as políticas de subsídios apresentam bons resultados e
+promovem o crescimento regional de forma acelerada, o que todavia é bom. Porém, conduziu
+a uma má alocação de recursos entre os setores econômicos e ressalta também que quanto
+maior for o subsídio relativo, maior e mais rápido serão os efeitos econômicos observados,
+considerando a intensidade dos subsídios. A metodologia adotada por Possebom (2017) tem
+como objetivo avaliar o impacto econômico da Zona Franca de Manaus utilizando dados
+municipais brasileiros aplicados a um modelo de controle sintético que tem suas propriedades
+de ser completamente flexível em função do tempo e ser apropriado para amostras pequenas.
+Por fim, o trabalho não dispõe de informações suficientes para avaliar a magnitude desses
+custos e benefícios da ZFM considerando o Brasil como um todo, pois grande parte destes
+custos são pagos por cidades fora da região amazônica.
+2.3 Resultados científicos sobre Clusters
+​
+
+A modelagem prática de agrupamentos é dentro da literatura econométrica um tópico
+
+que possui referências teóricas e empíricas, altamente utilizada para esclarecer questões
+industriais de similaridade e apoio entre empresas que por possuir seja capital financeiro,
+maquinário ou mão de obra qualificada permite por meio de cooperação um fortalecimento
+conjunto das empresas dentro de um mesmo mercado. No intuito de compreender a teoria e
+aplicá-la a um modelo prático, o trabalho de MacKinnon e Nielsen (2021) fornece medidas de
+influência e alavancagem para identificar casos de inferência não confiável e assim descobrir
+características interessantes dos dados, adjunto de uma lista de verificação ou guia para
+pesquisadores sobre o que fazer na prática como, por exemplo, calcular e relatar essas
+medidas para cada dimensão de clusters e suas respectivas interseções em específico para
+casos de agrupamento em duas ou mais “dimensões”.
+​
+
+Dentro da análise de agrupamentos, faz-se uso da medição de similaridade que detêm
+
+o objetivo de quantificar tal grau de correspondência entre os objetos analisados, isto baseado
+em suas características únicas e que estão sendo analisadas. Sendo assim, são agrupadas em
+determinado número que busca a maximização da similaridade dentro de cada grupo e
+
+17
+minimiza a similaridade entre os grupos de forma geral. Isso permite que cada grupo possua
+indivíduos similares em suas características mas diferentes dos outros demais grupos.
+​
+
+Adotam também especificidades que podem ser caracterizadas em suas divisões. Caso
+
+adote-se o uso de dados métricos, definir se o foco é sobre o padrão ou proximidade se faz
+necessário, pois medidas adicionais para definição dos agrupamentos como o uso de distância
+Euclidiana, City-block ou Mahalanobis para modelos similares em distância e para modelos
+divididos por padronização é utilizado o coeficiente de correlação (HAIR, 2009).
+​
+
+Aplicações desse modelo na literatura científica demonstra o aspecto de que clusters
+
+industriais em países em desenvolvimento têm potencial de promover um aumento da taxa de
+emprego adjunto de um engrandecimento do setor privado. Entretanto, não limitado a isso,
+observa-se também certa especialização flexível e uma redução nos custos de transação.
+Logo, tal eficiência coletiva ativa pode levar à atualizações de produção em grande escala e
+comercialização de produtos. Entretanto, desvantagens como efeitos distorcidos de
+relacionamentos devido a proximidade e exclusividade geram problemas de execução de
+contratos semelhantes ao de empresas que não estão agrupadas (CHAUDHRY, 2005).
+​
+
+Há certo entendimento também que os clusters são importantes para a promoção de
+
+desenvolvimento econômico em economias regionais e geram impactos positivos em
+empresas de pequeno e médio porte de alta tecnologia. Segundo Tong (2003), esses efeitos
+são vistos a curto e a longo prazo e tem como variável mediadora a inovação independente de
+cada empresa entre seus respectivos clusters. Adjunto a isso, têm-se também benefícios ao
+estimular o ambiente competitivo entre empresas e o acesso a aquisição de informações e
+recursos para todas as empresas. Portanto, promover a inovação independente é sugerido de
+modo a acelerar o processo da própria formação de clusters, e, assim gerar um efeito em
+cadeia de melhoria nas empresas.
+​
+
+Por fim, Cortés, Lajara e Garcia (2020) promoveram uma extensa e clara observação
+
+de diversos trabalhos na área que utilizaram do sistema de clusters, em particular os
+industriais, e de maneira concisa retrata resultados como os já mencionados acima de
+promoção do desempenho inovador e competitividade das empresas. Porém, os autores
+acrescentam resultados de como os fatores do tipo capital social, canais de comunicação e
+gestão do conhecimento desempenham papel significativo no uso do conhecimento do
+ambiente de negócios dentro de um cluster. Outro destaque vai para empresas que, localizadas
+em clusters com alto grau de heterogeneidade, tendem a ter melhor desempenho ao longo do
+tempo em comparação com aquelas em clusters relativamente homogêneos. Denota-se que
+fatores como a proximidade física dentro de um cluster é considerada em alguns trabalhos e
+
+18
+apresenta resultados benéficos para a troca de conhecimento em paralelo com a variável
+reputação em inovação que funciona como substituta para atrair conhecimento de outras
+fontes para empresas fora de um cluster.
+3 METODOLOGIA
+​
+
+Acerca dos procedimentos metodológicos do seguinte trabalho a abordagem a nível
+
+quantitativo é o utilizado por meio da análise de dados coletados de forma secundária a partir
+de fontes oficiais e distribuídas pela Superintendência da Zona Franca de Manaus que por
+meio da publicação do caderno Indicadores de Desempenho do Polo Industrial de Manaus em
+sua versão 2018 - 2023. A extração dos dados foi feita de modo a manter a divisão de
+subsetores que é vista dentro da publicação havendo 24 subsetores.
+​
+
+A priori, de forma observacional acerca dos dados, é sugestivo utilizar o método de
+
+clusters para testar a hipótese de que os subsetores tenham influência entre si e que possam
+cooperar a determinado nível de produção, por exemplo, visto que ela é uma das variáveis a
+serem apresentadas na publicação. Para isso é necessário compreender as características que
+tornam o modelo de agrupamentos único e objetivo quando se trata de analisar
+conglomerados.
+​
+3.1 Análise de Cluster
+Em Mingoti (2005) é observado a metodologia de análise de agrupamentos, também
+conhecida como análise de clusters, que retrata um modelo econométrico usado para agrupar
+elementos semelhantes em determinada amostra considerando suas variáveis medidas. A
+técnica tem como foco maximizar a homogeneidade dentro do próprio grupo enquanto, em
+paralelo, se maximiza a heterogeneidade entre os grupos.
+Destarte, o processo correlaciona elementos dentro de uma amostra em um processo
+que deve selecionar o melhor algoritmo que determina o número de grupos, realiza sua
+validação como agrupamento e, por fim, pode-se interpretar os resultados. Verifica-se que o
+procedimento se trata de uma técnica descritiva e exploratória com intuito de fornecer
+respostas que ajudem a identificar padrões e estruturas nos dados fornecidos e nos elementos
+analisados.
+Existem dois casos que a partir da quantidade de variáveis selecionadas nos
+direcionam para diferentes tipos de agrupamentos. No primeiro trata-se do caso univariado
+
+19
+onde apenas uma característica em uma dimensão é analisada, esta por sua vez é facilmente
+observada através da visualização gráfica dos dados. Em segundo tem-se o caso bivariado que
+aceita mais de uma variável tornando o processo um pouco mais complexo exigindo uma
+medida de semelhança a ser definido entre as observações e a devida utilização de técnicas
+que definem a distância entre dois objetos. Sendo assim, esta última a ser utilizada no
+presente trabalho.
+Definida a escolha do caso, o processo metodológico a ser seguido será primeiro
+medir a distância das variáveis selecionadas entre si definindo assim o critério de semelhança
+mencionado acima. Eles podem ser por correlação, distância ou associação. Após essa etapa
+define-se a técnica de construção do cluster em si no qual possui dois métodos, especialmente
+retratados em Hair (2009), que possuem suas devidas singularidades e serão expostas nas
+subseções abaixo.
+3.2 Análise de Cluster Não-Hierárquico e Hierárquico
+​
+
+Quanto ao método não-hierárquico ele se difere pela não divisão em árvores que
+
+representam os clusters em sua ramificação final. A ideia principal é antes do processo ser
+realizado
+
+especifica-se
+
+sementes
+
+de
+
+agrupamentos
+
+que podem ser selecionadas
+
+randomicamente ou previamente escolhidas pelo observador. Logo após, o próximo passo é
+realizar o processo de agrupamento das observações de modo a designar cada unidade a uma
+semente mais parecida, podendo, por fim, serem designadas no final do processo a
+agrupamentos mais semelhantes que suas designações iniciais.
+Dentro deste método algumas das principais etapas a serem seguidas são a seleção de
+pontos sementes e a escolha do algoritmo de agrupamento adequado ao método. Alguns
+exemplos de algoritmos que se têm para modelos não-hierárquicos são o de Referência
+Sequencial que se dá pela definição da semente inicial e, em seguida, após os elementos
+dentro de uma determinada distância forem incluídos, surge outra semente para agrupar em
+uma nova distância e assim por diante até não haver mais elementos sem agrupamentos.
+Também há o algoritmo de Referência Paralela que segue o processo anterior só que feito de
+maneira simultânea para todas as observações. Por último, têm-se o processo de otimização
+que por diferencial faz a resignação de observações ao final do processo escolhido permitindo
+a correção de eventuais erros que os algoritmos anterior possam apresentar.
+Alguns contras da aplicação do método se dão pela difícil tarefa do observador de
+designar as sementes iniciais visto que feito de modo errado compromete e enviesa a
+
+20
+pesquisa. Há também a dificuldade de encontrar a solução ótima visto que para cada aplicação
+do algoritmo pode-se obter respostas únicas para os pontos sementes selecionados
+previamente.
+​
+
+Já, quanto ao método de agrupamento hierárquico, é necessário realizar a distinção
+
+entre os tipos básicos do processo que são aglomerativos ou divisivos. No processo
+aglomerativo cada observação inicia em seu próprio agrupamento de modo a ser encaixada
+posteriormente em um novo agrupamento de modo a se reunir com as demais em um
+agrupamento maior que as define por características similares. O oposto ocorre com o
+processo divisivo que, no ponto inicial, reúne todas as observações em um cluster e ao
+decorrer do processo são divididas em clusters menores que reúnem indivíduos mais
+próximos em características únicas. A Figura 1 ilustra o processo de ambos os tipos:
+
+Figura 1: Tipos de Dendograma
+Fonte: Hair (2009), p.449.
+
+O processo aglomerativo é utilizado de forma mais frequente na literatura e tem como
+etapas partir do momento em que todas as observações tenham seu próprio agrupamento.
+Logo, o número de observações é igual ao de clusters. Em seguida, utilizando a medida de
+similaridade definida, agrupa-se os dois clusters mais próximos em um novo cluster
+diminuindo a quantidade total de agrupamentos em um e o processo se repete até combinar
+todas as observações em apenas um único cluster.
+
+21
+Assim como os modelos não-hierárquicos existem alguns algoritmos que podem ser
+utilizados na etapa de realização do processo de medir similaridade entre agrupamentos.
+Existem cinco tipos que possuem destaque no desenvolvimento de pesquisas que são eles:
+Ligação Individual, Completa, Média, o Método Centróide e, por fim, o Método de Ward. Os
+primeiros três algoritmos têm características semelhantes pois definem a homogeneidade
+entre agrupamentos por sua distância total. A ligação simples é definida pela menor distância
+de qualquer elemento de um agrupamento a qualquer elemento no outro. Na ligação completa,
+a distância a ser considerada é a maior possível entre elementos de clusters diferentes e a
+ligação média é a similaridade média entre todos os indivíduos de um agrupamento em
+relação a todos os indivíduos de outro. Acerca do método centróide, a similaridade é medida a
+partir da distância entre os centróides dos clusters, que seriam os valores médios das
+observações sobre as variáveis na variável estatística de agrupamento, que tem por objetivo
+gerar mudança toda vez que uma nova observação é adicionada a um agrupamento já
+existente.
+Na seguinte subseção trata-se com exclusividade do Método de Ward e suas
+especificidades.
+3.2.1 Método Hierárquico Aglomerativo de Ward
+​
+​
+
+Segundo Ourda et al. (2008), o método de Ward não se limita a uma única medida de
+
+similaridade entre agrupamentos. Seu cálculo é feito seguindo as etapas aglomerativas e
+inicia-se onde cada observação é um único agrupamento e a cada passo de desenvolvimento
+do algoritmo é calculado a soma dos quadrados dentro de cada conglomerado onde a soma é o
+quadrado da distância euclidiana de cada observação do cluster em relação ao mesmo valor do
+vetor de médias do agrupamento, sendo a equação 1.
+
+𝑝
+
+𝑑𝑖,𝑗 = ∑ (𝑥𝑖,𝑚 − 𝑥𝑗,𝑚)
+
+2
+
+(1)
+
+𝑚=1
+
+onde 𝑑𝑖,𝑗 é soma de quadrados correspondente ao agrupamento; 𝑥𝑖,𝑚 é o vetor de observações
+do m-ésimo elemento amostral que pertence ao i-ésimo agrupamento; e o 𝑥𝑗,𝑚 é o centróide do
+conglomerado. No passo seguinte a soma de quadrados total dentro dos grupos é:
+
+22
+𝑔
+
+(2)
+
+𝑊 = ∑ 𝑊𝑘
+𝑘 =1
+
+Levando a próxima etapa a ser calculada como:
+𝑛
+
+𝑝
+
+𝑊𝑘 = ∑ ∑ (𝑥𝑖, 𝑚 − 𝑥𝑘,𝑚)
+
+2
+
+(3)
+
+𝑖=1 𝑚=1
+
+Dado o processo matemático aplicado ao Método de Ward é observável que o método
+tende a combinar agrupamentos com pequeno número de observações, pois a soma de
+quadrados é relacionada diretamente com o número de observações envolvidas. Elementos
+atípicos podem distorcer a soma dos quadrados e agrupamentos produzidos pelo método
+tendem a ter o mesmo número de observações, logo se o intuito é ter agrupamentos com o
+mesmo tamanho este método é bem adequado.
+Por fim, o próximo tópico introduz de que forma foi realizada a etapa de
+processamento e tratamento de dados.
+3.3 Critério de Determinação Para o Número de Clusters
+Ao tratar-se de quantidade de clusters a serem analisados no seguinte trabalho,
+utiliza-se critérios estatísticos para a melhor tomada de decisão que preze pela
+homogeneidade entre indivíduos do mesmo clusters e heterogeneidade entre os clusters em si
+e assim obtendo o melhor número de clusters a serem definidos. Índices como o de Duda-Hart
+é comumente utilizado em análises de agrupamentos no STATA sendo calculado utilizando a
+base de matriz de distâncias em pares. Sendo assim, é calculado primeiro o índice Je(2)/Je(1)
+comparando a dispersão dentro de um cluster representado por Je(2) com a dispersão entre
+clusters que seria o Je(1). Por meio deste cálculo é possível quantificar a melhoria no
+agrupamento ao adicionar um cluster adicional. Logo, quanto maiores forem os valores do
+índice melhor será a separação dos clusters. Em paralelo, também se é calculado o valor da
+estatística T-Quadrado com intuito de validar os resultados prévios fornecendo uma medida da
+separação geral entre os clusters com base na matriz de distância segundo Halpin (2016).
+3.4 Fonte e Tratamento dos Dados
+A partir da já informada disponibilidade do Caderno de Indicadores e da divisão vista
+em subsetores na mesma publicação separou-se as 24 categorias únicas e uma que realizava a
+
+23
+soma de indústrias diversas sendo elas: Eletroeletrônicos, Relojoeiro, Duas rodas,
+Termoplástico, Bebidas, Metalúrgico, Mecânico, Madeireiro, Papel e papelão, Couros e
+similares, Químico, Material de limpeza e velas, Vestuário e calçados, Produtos Alimentícios,
+Editorial e gráfico, Têxtil, Mineral não metálico, Mobiliário, Beneficiamento de borracha,
+Ótico, Brinquedos, Isqueiros, canetas e barbeadores descartáveis, Naval e Diversos. Os anos
+disponíveis na publicação cobriam o período de tempo entre 2018-2023 e estavam dispostas
+ano a ano e algumas continham divisão por meses para algumas variáveis.
+O primeiro passo foi verificar quais variáveis seriam úteis para responder o problema
+de pesquisa e as variáveis selecionadas foram: Faturamento, Movimentação ICMS Recolhido,
+Movimentação ICMS Restituído, Movimentação ICMS Devido, Mão-de-Obra, Investimentos
+Produtivos e Aquisição de Insumos. Após essa etapa realizou-se a extração dos dados para
+uma planilha do Excel de forma a colocar os dados em formato de painel a fim de verificar as
+os subsetores através do tempo.
+Com isso verificou-se que havia ausência de dados para inúmeros subsetores de menor
+expressão e selecionou-se somente os subsetores que detinham informações de todas as
+variáveis selecionadas para todos os anos do recorte temporal (2018 a 2022).
+Restando assim 11 subsetores com informações disponíveis sendo eles:
+Tabela 1: Subsetores e anos utilizados.
+Subsetores
+Duas rodas
+Eletroeletrônico
+Isqueiros, canetas e barbeadores descartáveis
+Madeireiro
+Mecânico
+Metalúrgico
+Ótico
+Papel e papelão
+Químico
+Relojoeiro
+Termoplástico
+
+Anos
+2018 a 2022
+2018 a 2022
+2018 a 2022
+2018 a 2022
+2018 a 2022
+2018 a 2022
+2018 a 2022
+2018 a 2022
+2018 a 2022
+2018 a 2022
+2018 a 2022
+
+Fonte: Os subsetores e seus respectivos anos foram retirados do documento “Indicadores de Desempenho do
+Polo Industrial de Manaus 2018-2023” disponíveis para acesso público no site da SUFRAMA.
+
+E a partir destes foi realizada a primeira etapa da análise de cluster no software
+STATA que possui diversos artifícios que propiciam uma melhor e mais facilitada análise dos
+dados e a demonstração quantitativa e gráfica dos resultados.
+
+24
+4 RESULTADOS
+A partir da metodologia adotada, esta etapa se inicia com a demonstração do gráfico
+de dendograma e definição do número de clusters a serem abordados ao decorrer dos
+resultados. A priori, a representação gráfica foi feita sem limitação do número de clusters para
+entender o comportamento de aglomeração e utilizando as seguintes variáveis: Faturamento,
+ICMS Recolhido, Mão-de-Obra, Investimentos Produtivos e Aquisição de Insumos.
+Percebeu-se que o comportamento de divisão dos clusters sem um limite pré-definido
+de grupos se faz confuso e pouco explicativo para os objetivos do trabalho. Com isso, é
+introduzido os índices de Duda-Hart para ajudar na tomada de decisão e, assim, poder
+selecionar o número ideal de clusters.
+Tabela 2: Índice Duda-Hart
+Número de Clusters
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+
+Duda-Hart
+Je(2)/Je(1)
+0.1795
+0.3317
+0.1190
+0.3786
+0.0533
+0.2930
+0.3434
+0.1336
+0.2431
+0.0000
+0.2885
+0.0000
+0.0000
+0.4550
+0.2102
+
+Pseudo T-Quadrado
+242.19
+96.71
+22.22
+37.75
+17.77
+16.89
+26.77
+6.49
+21.79
+—
+56.73
+—
+—
+5.99
+67.63
+
+Fonte: Elaboração própria com base nos resultados.
+
+Quanto maiores forem os valores presentes em Je(2)/Je(1) e na estatística T-Quadrado
+maior e melhor a distinção entre grupos, o que promove uma melhor heterogeneidade entre
+clusters e uma boa homogeneidade dentro de cada cluster. Por consequência, mais indicado
+será a utilização do número de clusters presente na primeira coluna. Contudo, ao realizar um
+novo dendograma, os resultados ainda são insatisfatórios pois o melhor índice do coeficiente
+Je(1)/Je(2) indica uma divisão em 14 clusters porém seu Pseudo T-Quadrado é baixo e seu
+dendograma se faz tão confuso quanto o da Figura 2. Por fim, restam dois outros possíveis
+
+25
+resultados satisfatórios seguindo a estatística Duda-Hart, sendo eles a divisão para 2 e 4
+clusters.
+Quando realiza-se a plotagem do dendograma para 2 clusters (Figura 3 – esquerda)
+será observado que somente o subsetor Eletroeletrônico ocupará o segundo cluster (G2 = 5)
+devido ao seu grande porte dentro da indústria presente na Zona Franca de Manaus. Tal fato é
+verificável pela análise puramente descritiva dos dados, onde o referido subsetor apresenta
+maiores números de Faturamento, ICMS Recolhido, Mão-de-Obra, Aquisição de Insumos e
+Investimentos Produtivos do que qualquer outro subsetor referido anteriormente.
+
+Figura 2: Dendogramas Índice Duda-Hart
+Fonte: Elaboração própria com base nos resultados.
+
+​
+
+Portanto, a tomada de decisão para a utilização ideal do número de clusters foi feita
+
+por meio de análise gráfica, totalizando 4 clusters. Todavia, por se tratar de dados em painel,
+cada subsetor é analisado durante 5 anos (2018 a 2022). Ao analisar a forma como os
+subsetores estão divididos, quase todos encontram-se em um respectivo cluster ao passar de
+todos os 5 anos, com exceção do Eletroeletrônico, que se faz dividido no período de 2018 a
+2020 no Grupo 3 e de 2021 a 2022 no Grupo 4. Faz-se coerente com a análise em um
+primeiro momento manter cada subsetor e seus respectivos anos dentro um único
+agrupamento sem realizar cortes que possam deixar um único ano de um determinado
+subsetor em um agrupamento único a fim de retratar as estatísticas descritivas futuras
+presentes nesta seção. Entretanto, ao decorrer da análise, tal divisão será retomada para
+compreender o funcionamento da dinâmica de clusters e seu desenvolvimento. Com isso
+tem-se o seguinte dendograma final.
+
+26
+
+Figura 3: Dendograma com 3 clusters
+Fonte: Elaboração própria com base nos resultados.
+
+​
+
+Sendo assim, tem-se uma divisão em agrupamentos com o total de 3 clusters
+
+categorizados por Grupo 1, Grupo 2 e Grupo 3. Os grupos 1 e 2 possuem o maior número de
+subsetores, com 5 em cada um deles. Já, o Grupo 3, com apenas um subsetor
+(Eletroeletrônico). Na tabela 3 demonstra-se a colocação de cada um dos subsetores e seus
+respectivos clusters.
+
+27
+Tabela 3: Subsetores após a divisão em clusters.
+Clusters
+
+Subsetores
+Duas rodas;
+Mecânico;
+Metalúrgico;
+Químico;
+Termoplástico.
+Relojoeiro;
+Papel e papelão;
+Ótico;
+Isqueiros, canetas e barbeadores descartáveis;
+Madeireiro.
+
+Grupo 1
+
+Grupo 2
+
+Grupo 3
+
+Eletroeletrônico
+
+Fonte: Elaboração própria com base nos resultados.
+
+Faz-se coerente imaginar que o subsetor Eletroeletrônico possua um cluster que
+somente o contenha pois ele se faz único de diversas formas na Zona Franca de Manaus. Com
+um faturamento médio de 64 bilhões nesses 5 anos analisados, o subsetor eletroeletrônico
+supera a média de faturamento de ambos os grupos 1 e 2 somados que possuem juntos 10
+subsetores. Tal discrepância se vê na maioria das outras variáveis, seja pela média ou pela
+observação em si, reforçando o porte de tal subsetor em comparação com os demais. Já,
+acerca dos outros dois grupos e suas diferenciações, a análise descritiva dos dados dos
+clusters serão expostas nas tabelas a seguir.
+Tabela 4: Análise descritiva do Grupo 1
+Variável
+Obs
+Média
+Faturamento
+Aquisição_Insu
+Mão-de-obra
+Invest_produtivo
+ICMS_Recolhido
+
+25
+25
+25
+25
+25
+
+1.18e+10
+6.31e+09
+8287.68
+8.46e+08
+1.58e+08
+
+Desvio
+Padrão
+4.94e+09
+3.73e+09
+4616.218
+4.53e+08
+7.55e+07
+
+Min
+
+Max
+
+4.95e+09
+2.26e+09
+3148
+2.82e+08
+2.61e+07
+
+2.61e+10
+1.65e+10
+18371
+1.67e+09
+3.46e+08
+
+Fonte: Elaboração própria a partir do resultados do STATA.
+
+​
+
+No Grupo 1, que possui os subsetores Duas rodas, Mecânico, Metalúrgico, Químico e
+
+Termoplástico, é possível verificar que ele está situado acima do Grupo 2 em termos de
+valores absolutos com média de R$ 11.8 bilhões de faturamento durante o período de
+2018-2022. O valor mínimo é representado pelo faturamento do subsetor Mecânico em 2018
+com, aproximadamente, R$ 4.95 bilhões e o valor máximo é representado pelo subsetor Duas
+Rodas no ano de 2022 com R$ 26.1 bilhões. Isso sugere, a primeira vista, um aumento dos
+
+28
+valores em geral ao passar do tempo. O subsetor deste cluster que possui menor mão-de-obra
+empregada é o Químico em 2019 com 3.148, e o maior é o Duas Rodas em 2022 mais uma
+vez com 18.371 destacando a importância do setor para o cluster.
+Tabela 5: Análise descritiva do Grupo 2
+Variável
+Obs
+Média
+Faturamento
+Aquisição_Insu
+Mão-de-obra
+Invest_produtivo
+ICMS_Recolhido
+
+25
+25
+25
+25
+25
+
+1.01e+09
+4.20e+08
+1719.08
+1.84e+08
+2.99e+07
+
+Desvio
+Padrão
+8.56e+08
+3.65e+08
+884.2705
+2.27e+08
+4.85e+07
+
+Min
+
+Max
+
+5.84e+07
+1.94e+07
+416
+1.88e+07
+1865
+
+2.77e+09
+1.10e+09
+2793
+6.89e+08
+1.58e+08
+
+Fonte: Elaboração própria a partir do resultados do STATA.
+
+​
+
+O Grupo 2 possui os seguintes subsetores Relojoeiro, Papel e papelão, Ótico,
+
+Isqueiros, canetas e barbeadores descartáveis e Madeireiro. Com média de pouco mais de R$1
+bilhão em faturamento médio no período analisado, esse grupo representa menos de um
+décimo do faturamento médio do Grupo 1 e possui resultados menores em todas as outras
+demais variáveis analisadas. Ao traçar um paralelo em relação a mão-de-obra, o máximo
+empregado neste cluster corresponde ao subsetor de Isqueiros, canetas e barbeadores
+descartáveis em 2018 com 2.793 empregados, número este menor que o mínimo do Grupo 1.
+Logo se os números absolutos de cada grupo fossem considerados para definir grau de
+tamanho ou porte perante a Zona Franca de Manaus seriam do menor para o maior: Grupo 2,
+Grupo 1 e Grupo 3, respectivamente.
+Tabela 6: Análise descritiva do Grupo 3
+Variável
+Obs
+Média
+Faturamento
+Aquisição_Insu
+Mão-de-obra
+Invest_produtivo
+ICMS_Recolhido
+
+5
+5
+5
+5
+5
+
+6.43e+10
+3.79e+10
+38174.8
+2.49e+09
+3.03e+08
+
+Desvio
+Padrão
+1.65e+10
+1.20e+10
+3382.319
+2.81e+08
+2.83e+07
+
+Min
+
+Max
+
+4.66e+10
+2.64e+10
+35162
+2.13e+09
+2.64e+08
+
+8.38e+10
+5.19e+10
+42444
+2.74e+09
+3.38e+08
+
+Fonte: Elaboração própria a partir do resultados do STATA.
+
+Evidentemente as diferenças entre os Grupos 1 e 2 são menores se comparados ao
+Grupo 3 mas, ainda assim, elas existem. Pode-se observar que, em média, o Grupo 2 possui
+indicadores menores em todos os segmentos, com destaque para a expressiva diferença no
+faturamento entre clusters que é refletido diretamente no ICMS recolhido, por consequência.
+
+29
+Em Chaudhry (2005) é visto que em agrupamentos industriais há características que
+propiciam benefícios entre setores como, por exemplo, uma redução nos custos de transação,
+o que pode explicar os números menores no Grupo 2 e o porquê dos subsetores se agruparem
+nele. Outro fator que demonstra que os agrupamentos vistos na Zona Franca de Manaus em
+subsetores e estão de acordo com a teoria é o aumento da mão-de-obra empregada em relação
+ao aumento dos valores médios nos clusters. Logo, quanto maior o agrupamento em termos de
+quantidade faturada, maior será o aumento da taxa de emprego.
+​
+
+É observável que a mão-de-obra se faz uma variável crucial para a divisão de clusters
+
+fazendo paralelo com os estudos acima mencionados. Por consequência, esse aumento da taxa
+de emprego gera o aumento de mão-de-obra que faz com que os agrupamentos se tornem mais
+heterogêneos entre si, garantindo que ao avaliar um cluster e observar a variável mão-de-obra
+seja possível atribuir um maior grau de desenvolvimento entre os clusters quanto maior for a
+média desta variável, por exemplo.
+​
+
+Outra variável que apresenta dados interessantes é a de ICMS recolhido que foi
+
+escolhida para medir o impacto do imposto sobre a formação de clusters. O ICMS recolhido é
+o imposto pago após todas as deduções e devoluções que os produtos recebem ao serem
+produzidos na Zona Franca de Manaus e comercializados ou industrializados dentro da
+própria região visto que essa é uma das condições para que haja a isenção de fato. Vê-se que,
+em média, os valores do Grupo 1 giram em torno de R$ 158 milhões, os do Grupo 2 em torno
+de R$ 29 milhões e os do Grupo 3 por volta de R$ 303 milhões. Esse números indicam que,
+em valor bruto, o subsetor Eletroeletrônico paga mais imposto que os demais e que, por
+consequência, deve destinar para fora da região mais produtos que os demais subsetores.
+Entretanto, ao se utilizar valores percentuais em relação ao faturamento total será visto que o
+Grupo 1 paga, em média, 1,34% de ICMS referente ao seu faturamento no período de tempo
+analisado enquanto o Grupo 3 paga em torno de 0,47% do seu faturamento.
+​
+
+Dentro da gama de variáveis analisadas, é importante destacar que algumas podem se
+
+correlacionar, de certa forma, como: Aquisição de Insumos e Investimentos Produtivos, que
+afetam diretamente no Faturamento. Como os valores das tabelas 3, 4 e 5 estão em média e
+não em valores absolutos por subsetores, pode-se omitir informações relevantes para o
+desenvolvimento desta seção.
+​
+
+É interessante verificar se essas diferenças entre clusters se dá por desenvolvimento ao
+
+longo dos anos analisados por cada subsetor. Para isso, faz-se uso das seguintes figuras que
+expõem os valores absolutos ao decorrer do tempo para alguns subsetores presentes no Grupo
+1. No seguinte recorte serão utilizadas 3 variáveis sendo elas, Faturamento; Aquisição de
+
+30
+Insumo; e Investimentos Produtivos para compreender se há tendência crescente ou
+decrescente nas variáveis ao passar do tempo e analisar se isso se repete em todos os
+subsetores do mesmo grupo.
+​
+
+Em valores absolutos é possível notar que quem lidera neste cluster a variável
+
+Faturamento é o subsetor de Duas Rodas com mais de R$26 bilhões no ano de 2022
+registrando seu maior valor no período de tempo analisado. Tal subsetor é beneficiado pelos
+outros subsetores que compõem este mesmo Grupo 1 como, por exemplo, o subsetor
+Mecânico e Metalúrgico. Tal cooperação é esperada pelas teorias de divisão em clusters tanto
+pelos estudos de Tong (2023) como os de Chaudry (2005) que reafirmam esta melhora em
+termos de produção entre indústrias dentro de um mesmo cluster, já elas promovem
+competição e melhor acesso à informação e insumos para a melhoria tecnológica.
+​
+
+A disparidade em termos de faturamento no subsetor Duas Rodas pode ser associada
+
+com as teorias acima citadas pois é esperado que os demais subsetores como Mecânico e
+Metalúrgico estejam em plena colaboração para melhoria mútua dos fatores de produção já
+que suas produções podem e devem ser utilizadas durante o processo produtivo do subsetor
+Duas Rodas visto que peças, componentes mecânicos e produtos da metalurgia estão
+presentes no produto final deste mesmo subsetor.
+Como o dado trabalho analisa a Zona Franca de Manaus a nível de subsetor pode ser
+que para melhor entendimento das dinâmicas de produção seja necessário avaliar a nível de
+empresas, pois uma dada empresa pode apresentar caráter tendencioso na análise de subsetor
+e com possíveis valores inflados trazer inexatidão ao resultados do trabalho.
+
+31
+
+Figura 4: Subsetor Mecânico
+Fonte: Dados retirados do “Indicadores de Desempenho do Polo Industrial de Manaus 2018-2023”. Gráfico pelo
+Excel.
+
+Figura 5: Subsetor Químico
+Fonte: Dados retirados do “Indicadores de Desempenho do Polo Industrial de Manaus 2018-2023”. Gráfico pelo
+Excel.
+
+32
+
+Figura 6: Subsetor Duas Rodas
+Fonte: Dados retirados do “Indicadores de Desempenho do Polo Industrial de Manaus 2018-2023”. Gráfico pelo
+Excel.
+
+Figura 7: Subsetor Termoplástico
+Fonte: Dados retirados do “Indicadores de Desempenho do Polo Industrial de Manaus 2018-2023”. Gráfico pelo
+Excel.
+
+33
+
+Figura 8: Subsetor Metalúrgico
+Fonte: Dados retirados do “Indicadores de Desempenho do Polo Industrial de Manaus 2018-2023”. Gráfico pelo
+Excel.
+
+Logo vê-se que a variável Faturamento apresenta caráter gradativo crescente em quase
+todos os subsetores especialmente durante o recorte 2020-2022, com exceção do subsetor
+Mecânico, período este que ocorreu a pandemia de Covid-19. Já, a Aquisição de Insumo
+como variável demonstra não possuir relação necessariamente direta com o aumento do
+faturamento adjunto ao Investimento Produtivo que não mantém ritmo crescente com o passar
+dos anos para a maioria dos subsetores.
+Há de se destacar também a tendência desses subsetores em dedicar maiores valores
+para a aquisição de insumos do que para o investimento produtivo, levando ao entendimento
+de que ou houve um forte investimento produtivo no passado desses subsetores ou de que a
+própria política das empresas presentes neste subsetores adotem essa dinâmica por não haver
+necessidade devido a demanda de produtos que elas atendem.
+Por fim, um dos fatores que permitem o agrupamento dos subsetores referidos acima
+em um único cluster é essa relação de funcionamento entre variáveis. O método de Ward
+calcula esta referida distância a partir do vetor de médias do próprio agrupamento. Isso
+permite, por meio deste cálculo, que essas relações não-observáveis somente por gráfico
+sejam notadas e assim categorizadas em um mesmo cluster.
+
+34
+
+Figura 9: Subsetor Isqueiros, canetas e barbeadores descartáveis
+Fonte: Dados retirados do “Indicadores de Desempenho do Polo Industrial de Manaus 2018-2023”. Gráfico pelo
+Excel.
+
+Figura 10: Subsetor Madeireiro
+Fonte: Dados retirados do “Indicadores de Desempenho do Polo Industrial de Manaus 2018-2023”. Gráfico pelo
+Excel.
+
+35
+
+Figura 11: Subsetor Papel e Papelão
+Fonte: Dados retirados do “Indicadores de Desempenho do Polo Industrial de Manaus 2018-2023”. Gráfico pelo
+Excel.
+
+Figura 12: Subsetor Relojoeiro
+Fonte: Dados retirados do “Indicadores de Desempenho do Polo Industrial de Manaus 2018-2023”. Gráfico pelo
+Excel.
+
+36
+
+Figura 13: Subsetor Relojoeiro
+Fonte: Dados retirados do “Indicadores de Desempenho do Polo Industrial de Manaus 2018-2023”. Gráfico pelo
+Excel.
+
+​
+
+No que tange os subsetores presentes no Grupo 2, já houve a discussão de que eles
+
+apresentam um conglomerado menor em relação ao faturamento, aquisição de insumos e
+investimentos produtivos do que os demais e isso, por si só, torna eles uma categoria que pode
+não apresentar uma correlação intrínseca entre subsetores. Porém, destaca-se uma dinâmica
+presente nos subsetores Ótico, Madeireiro e Isqueiros, canetas e barbeadores descartáveis é
+verificável pelos gráficos que, em determinado momento, em um período de um ou mais
+anos, houve um maior aporte de valor em investimento produtivo do que em aquisição de
+insumos, refletindo esse caráter de decisão que as empresas dentro dos subsetores podem ter
+em prol do desenvolvimento futuro que desejam alcançar.
+Faz-se uso da teoria de Tong (2023) que o conhecimento também é variável a ser
+considerada e compartilhada por indivíduos dentro de um mesmo conglomerado a forma
+como um subsetor pode vir a elevar seu faturamento ou outra variável e por consequência
+gerar uma mudança de patamar e integrar outro cluster pode e vai ser disseminada entre
+subsetores que desejam apresentar ganhos maiores e mudarem de cluster. Dando assim
+exemplo aos demais subsetores do seu antigo cluster.
+Por fim, expõem-se o Grupo 3 com seu único subsetor e suas características
+singulares.
+
+37
+
+Figura 14: Subsetor Eletroeletrônico
+Fonte: Dados retirados do “Indicadores de Desempenho do Polo Industrial de Manaus 2018-2023”. Gráfico pelo
+Excel.
+
+​
+
+Ao levar em consideração o dendograma que sugeria a divisão ideal de clusters
+
+apresentado no início desta seção se tinha uma divisão dentro de um mesmo subsetor em
+termos de anos apresentados se diferencia os anos de 2018 até 2020 em um cluster e os anos
+de 2021 e 2022 em outro, então faz-se necessário quais distinções existem de um período ao
+outro que categoriza os dois últimos anos retratados em um novo cluster.
+​
+
+É possível notar na Figura 15 que há crescimento em duas das três possíveis variáveis
+
+que foram selecionadas para entender a divisão em clusters, faturamento e aquisição de
+insumos. O aumento corresponde a uma diferença percentual de 28,69% em relação ao
+faturamento de 2020 para 2021. Já, em relação a aquisição de insumos, a diferença é ainda
+maior, registrando um aumento de 33,16% de 2020 para 2021. É interessante ver que existe
+entre os anos de 2019 e 2020 na variável aquisição de insumos um aumento percentual ainda
+maior do que o relatado anteriormente chegando a uma variação de 37,92%, indicando que
+ela, por si só, não é responsável por realizar a mudança de um cluster para o outro e, que na
+verdade, a variável que por grandeza define se haverá ou não uma mudança de cluster é o
+faturamento. Reforça-se que não somente ela é que define essa separação pois há em termos
+percentuais um aumento da mão-de-obra que em conjunto pode explicar o porquê de tal
+divisão.
+
+38
+Outro fator que pode explicar o porquê da discrepância do Grupo 3, referente ao
+subsetor eletroeletrônico, para os demais clusters é a Lei nº 8.387, de 30 de dezembro de
+1991, conhecida como Lei de Informática na Amazônia. Essa lei obriga empresas produtoras
+de bens e serviços de informática a aplicarem 5% do seu faturamento bruto no mercado
+interno em atividade de pesquisa, desenvolvimento e inovação a serem realizadas na
+Amazônia permitindo que o efeito de Investimentos Produtivos seja maior para empresas do
+segmento trazendo assim retornos igualmente maiores para as empresas deste subsetor.
+​
+
+Ao fim desta seção e da exposição completa dos resultados se dá continuidade à etapa
+
+de conclusão do trabalho.
+5 CONCLUSÃO
+A presente pesquisa teve como objetivo entender como os subsetores produtivos da
+ZFM se aglomeram em grupos de acordo com suas características de faturamento, mão de
+obra, aquisição de insumos e ICMS. Para testar a hipótese de que os subsetores tenham
+influência entre si e que possam cooperar em determinado nível de produção, por exemplo,
+foi necessário compreender as características que tornam o modelo de agrupamentos único e
+objetivo quando se trata de analisar conglomerados.
+​
+
+Levando-se em consideração todos os aspectos previamente apresentados na seções
+
+anteriores observa-se que a divisão em clusters a partir de subsetores apresentou resultados
+que iluminam uma parte da discussão sobre a Zona Franca de Manaus, em especial no que
+tange o desenvolvimento industrial e unicidade dos subsetores analisados.
+​
+
+Destarte verifica-se que dentro das variáveis analisadas, o faturamento apresenta
+
+caráter definidor na realização da divisão em clusters. A partir dos dados presentes nos
+Grupos 1, 2 e 3 é possível afirmar que quanto maior o faturamento de um subsetor maiores
+serão as suas chances de pertencer ou criar um novo cluster que inclua outros subsetores ou
+possua somente um indivíduo, como é possível notar no cluster do Grupo 3, e que adjunto de
+suas outras variáveis definir quais subsetores podem cooperar mutuamente em busca do
+melhor desenvolvimento para todos os subsetores daquele cluster.
+​
+
+Os resultados também sugerem que áreas correlatas que ocupem um mesmo cluster
+
+tendem a beneficiar o subsetor que mais aproveita-se de todos os outros subsetores daquele
+cluster, a modo de exemplificação, o Grupo 1 apresentou com o subsetor Duas Rodas, em
+média, os melhores resultados em termos absolutos das variáveis analisadas. Este mesmo
+subsetor parece estar correlacionado com todos os demais subsetores do seu mesmo cluster
+
+39
+que possui Mecânico, Químico, Termoplástico e Metalúrgico. Entretanto, para verificar tal
+relação sugere-se a análise a partir do nível de empresas e não de subsetores para assim atestar
+que as mesmas cooperam na distribuição de insumos e divulgação de conhecimento
+técnico-científico como sugere a literatura acerca de clusters.
+​
+
+Em relação ao Grupo 2, algum dos subsetores presentes nele, como o Madeireiro e
+
+Ótico, realizaram maiores aportes em investimentos produtivos do que na aquisição de
+insumos indicando que talvez estejam em uma outra etapa de desenvolvimento e que podem
+mudar de clusters se analisar o passar do tempo e seus respectivos retornos.
+Destaca-se também a força que o subsetor Eletroeletrônico, Grupo 3, possui na região
+da Zona Franca de Manaus a partir da análise dos dados e seu pertencimento a um cluster
+único que apenas o contém dado a grandeza em termos comparativos de seus valores com os
+demais subsetores. Em relação também ao subsetor Eletroeletrônico, o coeficiente de
+Duda-Hart adjunto ao recorte de dendograma ideal sugere o surgimento de um novo cluster
+composto somente pelos anos de 2021 e 2022 do próprio subsetor Eletroeletrônico, sugerindo
+que as variáveis analisadas foram tão abruptamente infladas de um ano para o outro que o
+cluster anterior de 2020 não se compara com os anos seguintes.
+Por fim, este trabalho se limita a analisar os subsetores que possuíam todos os dados
+disponíveis no caderno de indicadores da Suframa 2018-2022, desconsiderando assim um
+gama de outros subsetores que poderiam explicar e responder melhor as dúvidas mais
+complexas acerca da Zona Franca de Manaus. Também, o presente trabalho não chega a
+investigar a divisão em um nível de empresas, sugere-se que, se disponíveis os dados, seja
+feito esta divisão em clusters para melhores explicações dos resultados deste trabalho.
+
+40
+REFERÊNCIAS
+BRASIL.
+Del0288.
+Disponível
+em:
+<https://www.planalto.gov.br/ccivil_03/decreto-lei/del0288.htm>. Acesso em: 26 jan. 2024.
+BRASIL. Superintendência da Zona Franca de Manaus. Cartilha de Incentivos Fiscais.
+Disponível
+em:
+<http://www.suframa.gov.br/noticias/arquivos/Cartilha_Incentivos_
+Fiscais_PORT_VF_04_10_2014.pdf>. Acesso em: 26 jan. 2024.
+BRASIL. Superintendência da Zona Franca de Manaus. Indicadores do Polo Industrial de
+Manaus
+Outubro
+de
+2023.
+Disponível
+em:
+<https://www.gov.br/suframa/pt-br/publicacoes/indicadores/caderno_indicadores_janeiro_out
+ubro_2023__gerado_em_19-12-2023_.pdf/view>. Acesso em: 26 jan. 2024.
+CORTÉS, E. C. et al. A Literature Review on the Effect of Industrial Clusters and the
+Absorptive Capacity on Innovation. World Academy of Science, Engineering and
+Technology International Journal of Industrial and Manufacturing Engineering, v. 14, n. 7, p.
+494, 2020.
+CROCCO, M. A. et al. Metodologia de identificação de aglomerações produtivas locais.
+Nova economia (Belo Horizonte, Brazil), v. 16, n. 2, p. 211–241, 2006.
+DE BRITO, A. F. Políticas Industriais Descentralizadas: As Experiências Europeias e as
+Iniciativas
+Subnacionais
+no
+Brasil.,
+jul.
+1997.
+Disponível
+em:
+<https://repositorio.ipea.gov.br/bitstream/11058/2197/1/td_0492.pdf>
+FURTADO, C. Formação econômica do Brasil. 32 ed. São Paulo. Companhia Editora
+Nacional, 2005.
+GONÇALVES, R. DA C.; EHRL, P. Efeitos econômicos da Zona Franca de Manaus.
+Pesquisa e Planejamento Econômico (PPE), n. v. 51, n. 03, p. 251–279, 2021.
+HAIR, J. F. Análise multivariada de dados. [s.l.] Bookman Editora, 2009.
+HALPIN, B. DUDAHART: Stata module to calculate and graph Duda-Hart cluster stopping
+indices from distance matrix. Em: Statistical Software Components S458195, 2016.
+MACKINNON, J. G.; NIELSEN, M. Ø.; WEBB, M. D. Cluster-robust inference: A guide
+to empirical practice. Journal of Econometrics, v. 232, n. 2, p. 272–299, 2023.
+MINGOTI, S. A.; GLÓRIA, F. A. A. Comparando os métodos paramétrico e
+não-paramétrico na determinação do valor crítico do teste estatístico de médias proposto
+por Hayter e Tsui. Production, v. 15, n. 2, p. 251–262, 2005.
+MONROY-CALVO, R. ROSARIO, A. E. Principales Factores para Determinar la
+Inversión Productiva en las MiPyMEs, RECAI Revista de Estudios en Contaduría,
+Administración e Informática. Universidad Autónoma del Estado de México, México
+Copyright 2019 Universidad Autónoma del Estado de México, v. 8, 2019.
+OUARDA, T. B. M. J. et al. Regional flood frequency estimation with canonical
+correlation analysis. Journal of hydrology, v. 254, n. 1–4, p. 157–173, 2001.
+
+41
+POSSEBOM, V. A. Free trade zone of Manaus: Na impact evaluation using the synthetic
+control method. Revista Brasileira de Economia, v. 71, n. 2, 2017.
+TEIXEIRA, L. C. Labor standards and social conditions in free trade zones: the case of
+the Manaus free trade zone. Economics The Open-Access Open-Assessment E-Journal, v. 14,
+n. 1, 2020.
+THOMPSON CHAUDHRY, T. Industrial clusters in developing countries: A survey of the
+literature. The Lahore journal of economics, v. 10, n. 2, p. 15–34, 2005.
+TONG, T.; ZAINUDIN, N.B.; YAN, J.; RAHMAN, A.A. The Impact of Industry Clusters
+on the Performance of High Technology Small and Middle Size Enterprises.
+Sustainability 2023, v. 15, n. 12, p. 9333. https://doi.org/10.3390/su15129333
+
+

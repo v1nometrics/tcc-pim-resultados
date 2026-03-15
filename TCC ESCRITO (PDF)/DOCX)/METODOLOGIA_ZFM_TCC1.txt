@@ -1,0 +1,586 @@
+
+
+UNIVERSIDADE FEDERAL DA PARAÍBA
+CENTRO DE CIÊNCIAS SOCIAIS APLICADAS
+CURSO DE CIÊNCIAS ECONÔMICAS 
+
+Vinícius Torres Nóbrega Gomes
+
+
+
+Eficiência Relativa e Alocação de Incentivos Fiscais na Zona Franca de Manaus: Uma Análise com DEA e Clusterização K-means
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JOÃO PESSOA 
+2025
+Vinícius Torres Nóbrega Gomes
+
+
+
+
+
+
+
+
+
+Eficiência Relativa e Alocação de Incentivos Fiscais na Zona Franca de Manaus: Uma Análise com DEA e Clusterização K-means
+
+
+Projeto de Pesquisa apresentado ao curso de Ciências Econômicas do Centro de Ciências Sociais Aplicadas (CCSA) da Universidade Federal da Paraíba (UFPB), como requisito para avaliação parcial na disciplina TCC1.
+
+
+Orientador: Prof. Dr. Aléssio Tony Cavalcanti de Almeida
+
+
+
+
+
+
+
+
+
+
+
+JOÃO PESSOA 
+2025
+SUMÁRIO
+
+1	INTRODUÇÃO	6
+1.1	FORMULAÇÃO DO PROBLEMA	11
+1.2	OBJETIVO GERAL	11
+2	FUNDAMENTAÇÃO TEÓRICA	11
+2.1	ZONA FRANCA DE MANAUS E INCENTIVOS FISCAIS	11
+2.2	EFICIÊNCIA PRODUTIVA E A LÓGICA DO DEA	13
+2.3	CLUSTERIZAÇÃO — K-MEANS E SUA UTILIDADE EM SEGMENTAR UNIÃO DE PRODUTORES	16
+2.4	INTERAÇÃO ENTRE SEGMENTAÇÃO E ANÁLISE DE EFICIÊNCIA	17
+3	REVISÃO DE LITERATURA	19
+3.1	ESTUDOS DE DEA NO PIM E ZFM (2010–2014, LEI DE INFORMÁTICA)	19
+3.1.1	DEA E CONTRAPARTIDAS DE P&D NO ÂMBITO DA LEI DE INFORMÁTICA	19
+3.1.2	DEA EM NÍVEL SETORIAL: HETEROGENEIDADE NO PIM	20
+3.1.4	SÍNTESE COMPARATIVA (QUADRO)	20
+3.1.5	IMPLICAÇÕES METODOLÓGICAS E DE ESPECIFICAÇÃO	21
+3.2	APLICAÇÕES DE K-MEANS EM CONTEXTOS PRODUTIVOS	23
+3.3	PANORAMA DA LITERATURA SOBRE A ZFM	25
+3.4	IDENTIFICAÇÃO DAS LACUNAS E VALOR DA CONTRIBUIÇÃO	27
+4	METODOLOGIA	29
+4.1	TIPO E DELINEAMENTO DO ESTUDO	29
+4.2	FONTES, PERÍODO E CRITÉRIOS DE INCLUSÃO	31
+4.3	CONSTRUÇÃO E TRATAMENTO DE VARIÁVEIS	32
+4.4	CLUSTERIZAÇÃO (K-MEANS): ESPECIFICAÇÃO, ESCOLHA DE  E ESTABILIDADE	34
+4.5	ANÁLISE ENVOLTÓRIA DE DADOS (DEA): ESPECIFICAÇÃO DO MODELO	36
+4.6	ÍNDICE DE MALMQUIST: DINÂMICA INTERTEMPORAL DA PRODUTIVIDADE	38
+4.7	METAFRONTEIRA E COMPARABILIDADE ENTRE CLUSTERS	39
+4.8	SEGUNDA ETAPA DE INFERÊNCIA: DETERMINANTES DA EFICIÊNCIA	41
+4.9	ROBUSTEZ, REPLICABILIDADE E SOFTWARE UTILIZADO	42
+REFERÊNCIAS	44
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INTRODUÇÃO 
+Políticas industriais, como as zonas francas, são concebidas para o desenvolvimento regional por meio de incentivos fiscais, mas frequentemente acarretam custo fiscal elevado sem comprovação clara de retornos proporcionais (ASSUNÇÃO; HOLZ; SCHUTZE, 2020). A Zona Franca de Manaus (ZFM), criada pelo Decreto-Lei nº 288/1967 há mais de meio século, é um exemplo emblemático: sua principal vertente econômica, o Polo Industrial de Manaus (PIM), tem atraído centenas de empresas nacionais e multinacionais, impulsionado pela oferta substancial de benefícios fiscais como forma de compensar desvantagens logísticas e estruturais. Entre 2018 e 2023, os incentivos somaram aproximadamente R$ 22 bilhões a R$ 27 bilhões por ano, alcançando cerca de R$ 25 bilhões em 2023. Isso equivale a 8,5% do total de gastos tributários federais e cerca de 0,4% do Produto Interno Bruto brasileiro (RECEITA FEDERAL, 2023; SUFRAMA, 2023). Embora rotulado como “zona franca”, cerca de 95 % do faturamento industrial de Manaus provém do mercado interno (SUFRAMA, 2023), refletindo antes uma política de substituição de importações do que um enclave exportador, reforçando seu caráter de desenvolvimento regional. Os impactos dessa política, porém, geram debates acalorados quanto à real eficácia econômica e social das renúncias fiscais concedidas, sobretudo após a Emenda Constitucional nº 83/2014, que estendeu esses benefícios até 2073, garantindo mais meio século de vigência ao modelo atual.
+A literatura acadêmica e institucional diverge sobre a eficácia da ZFM como mecanismo indutor de crescimento econômico sustentável e desenvolvimento regional. Estudos favoráveis ao modelo apontam evidências de multiplicadores fiscais positivos, sugerindo que a atividade gerada pela ZFM retorna mais riqueza à economia local do que o montante de tributos abatidos. Cálculos recentes estimam que a cada R$ 1,00 de renúncia fiscal o PIB da região de Manaus cresça bem mais que R$ 1,00 em output, indicando retorno líquido positivo do programa (HOLLAND; MANSANO; CAMPOS, 2019). Destacam-se ainda efeitos ambientais benéficos: graças à geração de empregos urbanos no PIM, a ZFM é apontada como crucial para conter a expansão predatória sobre a floresta, contribuindo para que cerca de 97% da cobertura florestal do estado do Amazonas permaneça preservada. Tais resultados e argumentos sugerem que a ZFM poderia ser uma exceção bem-sucedida dentre as políticas de incentivo, servindo de modelo para o desenvolvimento regional (HOLLAND; MANSANO; CAMPOS, 2019).
+Em contraste, análises críticas — inclusive de órgãos oficiais de controle e agências internacionais — pintam um quadro menos otimista. Relatórios do Tribunal de Contas da União (2022) e do Banco Mundial (2023) argumentam que os incentivos da ZFM têm fomentado apenas um crescimento econômico modesto, com baixo impacto sobre a produtividade industrial e o desenvolvimento social da região. No seu primeiro relatório econômico sobre a Amazônia brasileira, o Banco Mundial qualificou os benefícios tributários do modelo como “pouco eficientes”, concluindo que os incentivos fiscais concedidos não ajudaram a estimular o crescimento da produtividade e devem ser reavaliados. De acordo com o estudo, apesar do alto custo fiscal da ZFM (aproximadamente 0,4% do PIB nacional), o estado do Amazonas vem perdendo competitividade industrial, encontrando cada vez mais dificuldade para atrair novas empresas, enquanto o número de empregos na indústria diminui concomitantemente a um aumento da intensidade de capital (automação). Essas evidências sugerem que os benefícios regionais alardeados podem não estar se materializando na proporção esperada. Adicionalmente, uma análise independente do Climate Policy Initiative (CPI/PUC-Rio, 2023) não encontrou ganhos de eficiência nos setores mais subsidiados da ZFM frente a indústrias de outras regiões. Por exemplo, Assunção, Holz e Schutze (2020) demonstram que os níveis de eficiência produtiva das indústrias incentivadas em Manaus foram semelhantes aos do restante do Brasil e permaneceram estáveis entre 2003 e 2015, indicando que os generosos subsídios não se traduziram em ganhos de produtividade locais superiores. Em suma, críticos questionam se a ZFM de fato promove desenvolvimento adicional ou se apenas realoca geograficamente atividades industriais de forma custosa, sem aumentar a produtividade ou o bem-estar socioeconômico regional de maneira robusta (TCU, 2022; BANCO MUNDIAL, 2023; CPI/PUC-Rio, 2023).
+Diante dessas visões contrastantes – de um lado, ineficiências e custos elevados; de outro, ganhos regionais e estratégicos –, o status da ZFM permanece controverso. Esse contexto reforça a importância de avaliações imparciais, embasadas em dados, para aferir com rigor quão eficientemente os diferentes subsetores industriais do PIM convertem os subsídios fiscais em resultados. No entanto, grande parte dos estudos existentes tende a analisar o Polo Industrial de Manaus de forma agregada, negligenciando as especificidades produtivas e tecnológicas de cada segmento, o que pode levar a conclusões distorcidas. Abordar toda a indústria manauara como um bloco homogêneo mascara diferenças estruturais importantes (como nível de automação, intensidade de mão de obra e uso de insumos locais) e dificulta avaliações precisas dos efeitos dos incentivos. De fato, setores altamente intensivos em tecnologia e capital podem naturalmente alcançar patamares de produtividade maiores que setores intensivos em mão de obra; se ambos forem avaliados conjuntamente, medidas médias de desempenho tenderão a obscurecer quais segmentos estão efetivamente extraindo mais (ou menos) retorno dos benefícios fiscais. No PIM coexiste um espectro amplo de atividades industriais – desde linhas de montagem de bens tradicionais que empregam muita mão de obra, até fábricas de ponta, altamente automatizadas, produzindo eletrônicos avançados. Essa heterogeneidade produtiva requer uma abordagem analítica que compare “iguais com iguais”, evitando distorções e possibilitando identificar com clareza onde a política gera resultados mais satisfatórios e onde eles ficam aquém do esperado.
+Nesse sentido, a presente pesquisa busca preencher uma lacuna metodológica importante ao avaliar a ZFM com um olhar desagregado e tecnicamente rigoroso. Propõe-se uma estratégia de análise em duas etapas, consolidada na literatura internacional, porém inédita em aplicações sobre a ZFM. Primeiramente, adota-se a técnica de clusterização não supervisionada K-means (JAIN, 2010) para agrupar os subsetores industriais do PIM em grupos homogêneos segundo características produtivas semelhantes – escala, intensidade de mão de obra/nível de automação, incentivos recebidos, nível de produção e produtividade média de cada subsetor. Essa segmentação inicial visa mitigar o problema da heterogeneidade na comparação de eficiência, assegurando que cada grupo contenha unidades relativamente comparáveis. Em seguida, para cada cluster resultante, procede-se à estimação da eficiência de cada grupo de indústrias por meio da Análise por Envoltória de Dados (DEA) (CHARNES; COOPER; RHODES, 1978). O modelo DEA empregado mede a capacidade de cada subsetor converter insumos (no caso, o valor do incentivo fiscal usufruído) em outputs econômicos – aqui representados pelo valor adicionado bruto gerado e pelo número de empregos diretos correspondentes. Opta-se por um modelo DEA orientado a outputs, sob retornos variáveis de escala (VRS), usando como input os dados de renúncia fiscal fornecidos por SUFRAMA/Receita Federal, e como outputs os dados de valor adicionado e emprego obtidos de SUFRAMA e da RAIS.  A literatura confirma a pertinência dessa estratégia: a união de técnicas de clusterização e DEA é largamente empregada em avaliações de desempenho industrial e de políticas públicas, pois cria subconjuntos mais homogêneos antes de estimar a fronteira de eficiência (SIMAR; WILSON, 2007; SAMOILENKO; OSEI‑BRYCE, 2013). No contexto da Zona Franca de Manaus, contudo, os trabalhos disponíveis aplicaram apenas uma das etapas, nunca as duas em conjunto: Fernandes, Minori e Morais (2019) estimaram a eficiência do PIM usando DEA sem pré‑clusterizar os subsetores, enquanto Bolognese (2024) utilizou K‑means para agrupar as atividades industriais mas não prosseguiu com a mensuração DEA. Assim, ao combinar K‑means com DEA – metodologia consolidada internacionalmente, mas inédita para a ZFM – este estudo preenche um claro gap analítico e fornece uma visão mais acurada da eficiência relativa dos subsetores do Polo Industrial de Manaus. Para capturar não apenas a “fotografia” estática, mas também a dinâmica de mudança da produtividade, estima‑se, em seguida, o Índice Malmquist Total Factor Productivity (TFP). Esse índice, introduzido por Färe et al. (1994) e amplamente utilizado em avaliações de política industrial (SIMAR; WILSON, 2007; SAMOILENKO; OSEI‑BRYCE, 2013), decompõe a variação intertemporal do desempenho em duas parcelas: mudança de eficiência técnica (catch‑up) e deslocamento tecnológico (shift da fronteira). Tal decomposição permite verificar se os ganhos (ou perdas) observados nos subsetores do PIM decorrem de melhorias internas de gestão ou do acesso a tecnologias mais avançadas, oferecendo, portanto, um quadro mais robusto para a formulação de ajustes de política. Em essência, a combinação de DEA, K‑means e Índice Malmquist permitirá medir quão próximo cada subsetor está da fronteira eficiente, bem como acompanhar a evolução anual dessa fronteira e dos escores de eficiência – indicando, com precisão, quão eficientemente cada real em incentivos é transformado em riqueza e postos de trabalho para a região.
+Partindo dessa lógica, formula‑se a hipótese central do estudo: quanto maior o grau de automação de um subsetor do PIM, maior será a eficiência na conversão dos incentivos fiscais em valor adicionado bruto, mas menor será a eficiência na conversão desses mesmos incentivos em empregos diretos – evidenciando um trade‑off entre criação de valor e geração de postos de trabalho. A hipótese nula postula inexistência desse trade‑off, isto é, o nível de automação não altera, ou altera na mesma direção, ambas as eficiências. Testar esse enunciado permitirá verificar se os incentivos favorecem inadvertidamente setores altamente automatizados em detrimento dos mais intensivos em mão de obra. Para operacionalizar o grau de automação, utiliza‑se a razão entre o valor contábil do ativo imobilizado em máquinas e equipamentos, reportado nos Relatórios Anuais da SUFRAMA, e o número de empregados diretos do subsetor registrado na RAIS; esse indicador de capital por trabalhador é amplamente empregado como proxy de automação na literatura de produtividade industrial (ACEMOGLU; RESTREPO, 2019; DORN; HANSON, 2020).
+Essa estratégia analítica em duas etapas – expandida por uma terceira, de caráter dinâmico – assegura comparações justas entre unidades com perfis distintos e amplia o alcance da avaliação de performance. Os resultados testarão se o modelo atual de incentivos usa de forma ótima todos os recursos renunciados. Em suma, a combinação de cluster K‑means, DEA estática e Índice Malmquist dinâmico permite não apenas medir a eficiência de cada subsetor em um dado ano, mas também acompanhar sua evolução, revelando padrões de heterogeneidade inter‑ e intra‑grupos ao longo de 2018‑2023 – insumo valioso para ajustes finos na política de incentivos.
+O objetivo central deste estudo, portanto, é avaliar a eficiência relativa com que os incentivos fiscais da ZFM vêm sendo convertidos em crescimento econômico e desenvolvimento socioeconômico – medidos, respectivamente, pelo valor adicionado bruto e pelo emprego direto gerado no PIM. Em termos práticos, pergunta-se: em que medida, ao longo de 2018‑2023, cada subsetor industrial do PIM transformou o subsídio tributário recebido em valor adicionado e empregos, e como essa eficiência evoluiu no período? Para tal, utiliza‑se uma base de dados longitudinal (2018‑2023), composta por informações detalhadas dos Relatórios Anuais da SUFRAMA, pelos registros de incentivos fiscais disponibilizados pela Receita Federal, e pelos microdados da RAIS (2018‑2023). Opta-se por encerrar a série em 2023, visto que a RAIS 2024 ainda não foi liberada em microdados definitivos; incluir esse ano geraria série de emprego incompleta, comprometendo a comparabilidade dos indicadores e potenciais vieses na formação de clusters, nos escores DEA e no índice Malmquist. Assim, a avaliação desta compilação abrangente e atualizada de fontes fornecerá evidências empíricas sólidas e neutras, contribuindo diretamente para o debate sobre eventuais ajustes ou reformas na política fiscal da ZFM, especialmente diante da recente extensão dos benefícios até 2073.
+Este trabalho dialoga diretamente com a literatura sobre eficiência produtiva e gestão pública responsável, em linha com estudos que aplicam métodos quantitativos para avaliar gastos públicos. Almeida e Gasparini (2011), por exemplo, aplicaram a DEA aos dispêndios educacionais nos municípios da Paraíba, evidenciando discrepâncias relevantes e potenciais ganhos de eficiência na realocação dos recursos. Como destaca Almeida, avaliar rigorosamente a eficiência por meio de técnicas quantitativas é fundamental para aprimorar políticas públicas, permitindo direcionar melhor os recursos escassos do Estado em busca de resultados econômicos e sociais mais efetivos (ALMEIDA; GASPARINI, 2011). 
+
+FORMULAÇÃO DO PROBLEMA
+
+Como a heterogeneidade produtiva dos subsetores do Polo Industrial de Manaus afeta a eficiência de conversão dos incentivos fiscais em valor adicionado bruto e empregos ao longo de 2018‑2023, e quais segmentos evidenciam maior ineficiência relativa no ano‑base de 2023?
+
+OBJETIVO GERAL
+
+Mensurar, no horizonte 2018‑2023, a eficiência relativa dos subsetores do Polo Industrial de Manaus mediante um procedimento em duas etapas: (i) aplicar a técnica de clusterização não supervisionada (K‑means) para agrupar os subsetores em grupos homogêneos segundo características produtivas; e (ii) estimar, dentro de cada agrupamento, a eficiência técnica por meio da Análise por Envoltória de Dados (DEA) — tomando como input o montante de incentivos fiscais usufruído e, como outputs, o valor adicionado bruto e o número de empregos diretos gerados —, decompondo os escores para analisar sua evolução anual (por meio do índice Malmquist) ao longo de 2018-2023.
+
+FUNDAMENTAÇÃO TEÓRICA
+
+ZONA FRANCA DE MANAUS E INCENTIVOS FISCAIS
+
+Políticas de incentivos fiscais compõem o repertório de instrumentos place-based voltados a alterar a geografia da atividade econômica por meio de reduções tributárias, créditos presumidos ou isenções condicionadas a investimento e geração de empregos em territórios específicos. Diferem das políticas horizontais (reformas regulatórias gerais, infraestrutura de alcance nacional, qualificação de mão de obra em escala) por buscarem relocalizar ou induzir decisões privadas em áreas com desvantagens estruturais. Em termos normativos, a justificativa repousa na correção de falhas de mercado (externalidades de aglomeração, coordenação, aprendizado e informação) e na promoção de equidade espacial quando objetivos distributivos regionais são relevantes para a política pública. A Nova Geografia Econômica mostrou como retornos crescentes à escala, custos de transporte e “efeitos de mercado” criam incentivos à concentração produtiva, de modo que choques de política (subsídios, isenções) podem deslocar o sistema para equilíbrios com maior densidade industrial (KRUGMAN, 1991). Em paralelo, a tradição dos encadeamentos para trás e para frente (HIRSCHMAN, 1958) sustenta que um empurrão coordenado pode ativar sinergias entre firmas, fornecedores e serviços especializados, elevando produtividade local ao longo do tempo. Avaliações contemporâneas enfatizam mensurar additionality (o que a política gerou além do contrafactual), distinguindo criação líquida de mero deslocamento geográfico de atividades (KLINE; MORETTI, 2014).
+É nesse enquadramento que se insere a Zona Franca de Manaus (ZFM), instituída em 1967 para induzir industrialização na Amazônia Ocidental mediante um regime de benefícios fiscais e extrafiscais. O arranjo consolidou o Polo Industrial de Manaus (PIM) com cadeias relevantes em eletroeletrônicos, informática, duas rodas, químico e termoplástico, entre outras. Embora rotulada como “zona franca”, a estrutura produtiva se orienta majoritariamente ao mercado interno, o que aproxima o modelo de uma política de substituição de importações com objetivos regionais. A magnitude das renúncias e sua extensão temporal — reforçada pela prorrogação até 2073 — fizeram da ZFM um caso-teste sobre eficiência alocativa: o montante de recursos renunciados tem sido convertido, com eficiência, em valor adicionado e empregos?
+A resposta na literatura é ambivalente. Em uma vertente, estudos destacam ganhos socioeconômicos líquidos e efeitos ambientais indiretos (urbanização que conteria pressões sobre a floresta), sugerindo multiplicadores favoráveis e impactos positivos em emprego e renda locais (HOLLAND; MANSANO; CAMPOS, 2019; CASTILHO; MENÉNDEZ; SZTULMAN, 2019). Em outra, avaliações de órgãos de controle e instituições multilaterais apontam baixo impacto sobre produtividade e custo fiscal elevado, recomendando reavaliação do desenho e da focalização dos incentivos (TCU, 2022; BANCO MUNDIAL, 2023). No eixo microeconômico, análises recentes não identificam “bônus” de eficiência produtiva das firmas do PIM frente a comparáveis nacionais (ASSUNÇÃO; HOLZ; SCHUTZE, 2020; CPI/PUC-RIO, 2023). Esse dissenso não invalida a política, mas reformula a pergunta: mais do que “quanto foi produzido”, interessa saber quão eficientemente os incentivos foram transformados em resultados econômicos e sociais.
+O desenho institucional da ZFM buscou mitigar riscos clássicos de políticas place-based — race to the bottom, perdas de peso-morto por subsidiar investimentos que ocorreriam de todo modo, e lock-in em atividades de baixo dinamismo (GLAESER; GOTTLIEB, 2008; NEUMARK; SIMPSON, 2015). Para isso, adotou instrumentos de governança como os Processos Produtivos Básicos (PPB) e contrapartidas em P&D. Os PPBs estabelecem etapas mínimas de industrialização local, tentando elevar o conteúdo doméstico e o adensamento de cadeias. A Lei de Informática da ZFM (Lei nº 8.387/1991) condiciona incentivos à aplicação de parcela do faturamento em Pesquisa e Desenvolvimento, preferencialmente com instituições da Amazônia Ocidental, buscando gerar capacidade tecnológica endógena e evitar que o polo se restrinja a montagem de componentes importados. Em termos avaliativos, tais instrumentos permitem investigar additionality tecnológica (incremento efetivo de P&D, patentes, publicações, novos produtos/processos) e encadeamentos locais (fornecedores, serviços tecnológicos, capital humano).
+Ainda assim, a literatura alerta para efeitos distributivos e incidência: parte dos benefícios pode capitalizar em preços de ativos locais (terra, aluguéis), com ganhos concentrados e repasses assimétricos (BARTIK, 1991; KLINE; MORETTI, 2014). Isso reforça a necessidade de contrapartidas claras, metas verificáveis (valor adicionado local, emprego direto, intensidade tecnológica) e monitoramento contínuo com foco em eficiência e bem-estar — não apenas em gasto ou faturamento.
+Dadas essas considerações, a ponte com o objetivo deste estudo torna-se direta. Primeiro, a heterogeneidade do PIM — convivência de linhas intensivas em trabalho e plantas altamente automatizadas — exige comparar “iguais com iguais”, o que justifica segmentação prévia por K-means. Segundo, a necessidade de mensurar eficiência relativa na conversão de incentivos em valor adicionado e emprego recomenda o uso de Análise Envoltória de Dados (DEA), técnica não paramétrica que lida com múltiplos insumos e produtos e não impõe forma funcional à tecnologia. Terceiro, como a ZFM é uma política de longa duração, importa observar trajetórias: a incorporação do Índice de Malmquist permite decompor a variação intertemporal em catch-up (aproximação da fronteira) e shift tecnológico (deslocamento da fronteira). Em síntese, a ZFM será aqui avaliada por um prisma que privilegia eficiência, heterogeneidade setorial e dinâmica temporal, alinhando teoria e mensuração aos objetivos do trabalho.
+
+EFICIÊNCIA PRODUTIVA E A LÓGICA DO DEA
+
+Eficiência produtiva é um conceito relacional: mede quão bem uma unidade transforma insumos em produtos quando comparada a uma referência de melhor prática observada. Desde Farrell (1957), a análise parte da ideia de uma fronteira de produção – o limite tecnológico que, para cada combinação de insumos, estabelece o máximo de outputs factível. Unidades situadas nessa fronteira são tecnicamente eficientes; as demais exibem ineficiência, pois poderiam produzir mais (ou usar menos) mantendo a tecnologia disponível.
+A Análise Envoltória de Dados (DEA) operacionaliza essa comparação de forma não paramétrica, construindo a fronteira eficiente diretamente a partir dos dados de um conjunto de unidades decisórias (Decision Making Units – DMUs) (CHARNES; COOPER; RHODES, 1978). Em termos intuitivos, o DEA “envolve” as observações mais eficientes e, por programação linear, calcula para cada DMU um escore de eficiência relativo a essa casca empírica. Escores iguais a 1 indicam referência de melhor prática; valores abaixo de 1 quantificam o gap até a fronteira. A técnica permite lidar, simultaneamente, com múltiplos insumos e múltiplos produtos, sem impor forma funcional nem preços/sombras exógenos – os pesos são endogenamente escolhidos, sujeito a restrições tecnológicas básicas (concavidade/convexidade e livre disposabilidade).
+Duas decisões conceituais orientam a aplicação do DEA: (i) a orientação do modelo e (ii) a hipótese de retornos de escala. Na orientação, escolhe-se entre reduzir insumos dado o produto (input-oriented) ou expandir produtos dado o insumo (output-oriented). Em políticas públicas com dotação orçamentária/subsídio relativamente dada e foco em maximizar resultados socioeconômicos, a orientação a outputs é a mais coerente: pergunta-se quanto poderiam crescer os outputs (valor adicionado e emprego) para o nível de incentivo observado. Quanto aos retornos de escala, o modelo clássico CCR supõe retornos constantes (CHARNES; COOPER; RHODES, 1978), enquanto o modelo BCC permite retornos variáveis de escala (VRS) (BANKER; CHARNES; COOPER, 1984). Em ambientes com coexistência de plantas de portes muito distintos – como no PIM –, o VRS é preferível, pois separa a eficiência técnica pura de efeitos de escala, evitando penalizar indevidamente unidades fora do porte ótimo.
+A interpretação dos resultados do DEA vai além do escore. Para DMUs ineficientes, o método identifica benchmarks (combinações convexas de unidades eficientes) e alvos de melhoria – isto é, a expansão proporcional de outputs (na orientação a outputs) e os ajustes residuais (slacks) específicos por variável necessários para atingir a fronteira. Em avaliações setoriais, isso permite distinguir ineficiências generalizadas (baixo desempenho em todos os outputs) de ineficiências específicas (por exemplo, boa geração de valor, mas fraca geração de empregos).
+Como todo método não paramétrico, o DEA é sensível a outliers e à heterogeneidade tecnológica. Se unidades com tecnologias muito distintas forem avaliadas num mesmo envelope, a fronteira pode ser “puxada” por poucas observações atípicas, distorcendo a comparação. Esse risco justifica, no nosso desenho, a segmentação prévia por K-means: ao “comparar iguais com iguais”, estimam-se fronteiras mais informativas e justas para cada grupo relativamente homogêneo. Outro cuidado clássico diz respeito a pesos extremos: por construir pesos favoráveis a cada DMU, o DEA pode, em alguns casos, atribuir peso quase nulo a variáveis relevantes. Há soluções possíveis (p. ex., restrições do tipo assurance region), mas, conceitualmente, a mitigação principal aqui virá da escolha adequada de variáveis e da segmentação prévia, deixando ajustes formais – quando necessários – para a Metodologia.
+A dimensão intertemporal da eficiência é capturada por medidas de produtividade total dos fatores baseadas em DEA, com destaque para o Índice de Malmquist. Em termos conceituais, ele compara a posição de uma DMU relativamente à fronteira em dois períodos, permitindo decompor a variação de produtividade em mudança de eficiência técnica (catch-up – aproximação ou afastamento da fronteira) e mudança tecnológica (shift da fronteira entre os períodos) (CAVES; CHRISTENSEN; DIEWERT, 1982; FÄRE et al., 1994). Assim, é possível distinguir ganhos advindos de melhorias internas de gestão/aprendizagem daqueles decorrentes de avanços tecnológicos do setor como um todo – elemento particularmente útil para políticas de longa duração como a ZFM.
+Por fim, a literatura recente recomenda cautela na inferência estatística a partir de escores de DEA, dado seu caráter fronteira/otimizante. Estratégias de segunda etapa – como os modelos two-stage com bootstrap para avaliar o papel de covariáveis (SIMAR; WILSON, 2007) – são apropriadas quando se deseja testar hipóteses sobre determinantes da eficiência. No nosso caso, isso se articula à hipótese central do trabalho: o grau de automação (proxied por CAPEX por empregado) teria efeito positivo na eficiência na conversão de incentivos em valor adicionado e negativo na conversão em empregos. Os elementos formais (especificações, estimação e procedimentos de bootstrap) serão apresentados no Capítulo 4; aqui, retém-se a intuição: o DEA fornece a métrica comparativa necessária para submeter a hipótese a teste empírico, respeitando a heterogeneidade produtiva do PIM e sua evolução ao longo de 2018–2023.
+
+CLUSTERIZAÇÃO — K-MEANS E SUA UTILIDADE EM SEGMENTAR UNIÃO DE PRODUTORES
+
+A clusterização é um conjunto de técnicas não supervisionadas cujo objetivo é agrupar unidades com perfis semelhantes em grupos internamente coesos e externamente distintos. Para uma “união de produtores” heterogênea como os subsetores do PIM, essa etapa é particularmente útil por organizar a diversidade estrutural (porte, intensidade de capital, escala, uso de insumos importados, esforço de P&D) antes da avaliação de desempenho. Entre os métodos disponíveis, o K-means se destaca pela combinação de simplicidade, transparência e eficiência computacional, mantendo pertinência mesmo após seis décadas de uso (JAIN, 2010).
+Em termos operacionais, o K-means particiona as observações em K grupos minimizando a variância intragrupo. O procedimento alterna dois passos: (i) atribui cada unidade ao centróide mais próximo (tipicamente, distância euclidiana) e (ii) recalcula os centróides como a média das unidades alocadas a cada cluster, repetindo até a convergência. A solução obtida é local, razão pela qual inicializações adequadas (por exemplo, k-means++) e múltiplas sementes são recomendadas para reduzir a dependência do ponto de partida (ARTHUR; VASSILVITSKII, 2007). Do ponto de vista substantivo, o centróide resume o “perfil médio” de cada grupo e facilita a perfilação posterior (porte típico, intensidade de capital, esforço de P&D, participação nos incentivos, produtividade média etc.).
+Do ponto de vista substantivo, a seleção de variáveis deve ser ex-ante e refletir traços relativamente estáveis da tecnologia e do modelo de negócio: escala (p. ex., VA), automação (CAPEX/emprego), intensidade de trabalho (emprego/VA), exposição a incentivos (subsídio/VA) e P&D quando disponível. Evita-se vazamento de informação: variáveis que serão outputs da eficiência (p. ex., escores de DEA) não entram na segmentação. A escolha de K combina heurísticas consagradas — cotovelo, índice de silhouette e estatística gap — com interpretabilidade econômica e tamanho mínimo por grupo (ROUSSEEUW, 1987; TIBSHIRANI; WALTHER; HASTIE, 2001). Procedimentos de padronização de escala e tratamentos para assimetria ou outliers, assim como checagens de estabilidade da partição, serão detalhados na Metodologia.
+A utilidade da clusterização neste estudo é dupla. Analiticamente, reduz a heterogeneidade tecnológica antes de estimar a eficiência, evitando que poucos setores de tecnologia muito distinta inflem a fronteira e distorçam comparações. Substantivamente, entrega um mapa de segmentos do PIM que orienta a leitura de resultados e potenciais recomendações (por exemplo, calibragem de contrapartidas de P&D onde o perfil é intensivo em trabalho; exigências de encadeamentos locais onde a automação é elevada). Em síntese, o K-means não substitui a mensuração de eficiência; ele estrutura o universo a ser comparado, aumentando a justiça e a precisão das inferências que virão do DEA e, adiante, da dinâmica via Malmquist.
+Por fim, cabe lembrar limitações: o K-means assume, em geral, clusters aproximadamente esféricos e de volumes semelhantes; quando tais hipóteses são violadas, a separação pode se deteriorar. Ainda assim, pela parcimônia e interpretabilidade, o método é apropriado para segmentar os produtores do PIM e preparar terreno para a avaliação de eficiência dentro de grupos comparáveis.
+
+INTERAÇÃO ENTRE SEGMENTAÇÃO E ANÁLISE DE EFICIÊNCIA
+
+Segmentação e mensuração de eficiência são peças que se reforçam mutuamente. A clusterização organiza a heterogeneidade tecnológica/escala, gerando grupos comparáveis; o DEA, por sua vez, mede quão bem cada unidade transforma insumos em resultados dentro desses grupos. Em contextos como o PIM — onde coexistem plantas intensivas em trabalho e fábricas altamente automatizadas — essa integração evita que a fronteira seja “puxada” por poucos casos extremos e que a comparação “em bloco” penalize indevidamente segmentos tradicionais. 
+
+Há duas arquiteturas consagradas na literatura:
+	•	Cluster → DEA: formar clusters por características produtivas ex-ante (escala, intensidade de capital, exposição a incentivos, esforço de P&D, etc.) e, só então, estimar a eficiência em cada grupo;
+	•	DEA → Cluster: primeiro estimar escores e folgas; depois, agrupar para identificar padrões de (in)eficiência.
+
+Ambas são defensáveis, mas, para políticas place-based, a via cluster → DEA tende a produzir fronteiras mais informativas e justas, porque respeita a diversidade de tecnologias e portes antes da avaliação (LEMOS; LINS; EBECKEN, 2005; SAMOILENKO; OSEI-BRYCE, 2013). Três cuidados asseguram a validade dessa convergência:
+	•	Escolha de variáveis sem “vazamento”: a segmentação deve usar traços estruturais (perfil tecnológico, escala, CAPEX/emprego, intensidade de insumos importados, subsídio/VA), evitando incluir, na clusterização, o próprio resultado que será avaliado (p. ex., escore de eficiência). Assim, comparamos “iguais com iguais” por tecnologia/porte, não por performance já medida.
+	•	Tamanho e discriminação: clusters muito pequenos empobrecem a capacidade discriminante do DEA. Em termos práticos, cada grupo precisa de número suficiente de DMUs frente ao total de variáveis usadas.
+	•	Comparabilidade entre clusters: escores de DEA não são diretamente comparáveis quando estimados em fronteiras distintas. Para análises entre grupos, a literatura oferece o arcabouço de metafronteira e do technology-gap ratio (TGR): uma fronteira “global” (ou metafronteira) envolve as tecnologias de todos os clusters; a razão entre a eficiência relativa ao grupo e a eficiência relativa à metafronteira informa o “gap tecnológico” de cada cluster (BATTESE; RAO; O’DONNELL, 2004; O’DONNELL; RAO; BATTESE, 2008). Conceitualmente, isso permite afirmar, por exemplo, que um cluster B é eficiente no seu conjunto tecnológico, mas opera atrás da fronteira global definida por um cluster A mais avançado.
+
+No nosso desenho, a interação entre as técnicas produz um encadeamento lógico:
+	•	Segmentação (K-means): para “comparar iguais com iguais”.
+	•	Eficiência dentro do cluster (DEA-VRS, orientação a outputs): estimar, para cada grupo, quão eficientemente os incentivos são convertidos em valor adicionado e empregos.
+	•	Dinâmica (Índice de Malmquist): acompanhar 2018–2023, decompondo variações em catch-up (eficiência técnica) e shift tecnológico.
+	•	Leitura entre grupos (metafronteira/TGR): recorrer ao conceito de metafronteira para comparar clusters entre si,
+	•	Determinantes (segunda etapa): testar, com procedimentos adequados de inferência (p. ex., Simar-Wilson), se automação (CAPEX/emprego) e outros fatores explicam os escores — diretamente (nível) e na dinâmica (variações de eficiência).
+
+Essa convergência gera ganhos analíticos e para a política: distingue ineficiências de gestão (baixa eficiência técnica dentro do cluster), escala subótima (efeitos de porte) e lacunas tecnológicas (entre clusters via TGR), mapeando instrumentos distintos — boas práticas/gestão, revisão de porte e política tecnológica/encadeamentos.
+Por fim, dois limites merecem registro. Primeiro, clusters mal especificados podem mascarar heterogeneidade relevante; por isso, a estabilidade da segmentação será testada por sementes/múltiplas rodadas e, se necessário, por sensibilidades de K. Segundo, o DEA pode gerar pesos extremos; quando substantivamente indesejável, a literatura admite restrições leves (e.g., assurance regions), cujo uso, se necessário, será justificado metodologicamente. Mantidos esses cuidados, a interação K-means → DEA → Malmquist, complementada por metafronteira quando se requer comparação entre grupos, fornece o ponto de convergência teórica adequado ao objetivo deste estudo: avaliar, com justiça e granularidade, quão eficientemente os incentivos da ZFM se transformam em valor adicionado e empregos, e como essa eficiência evolui no tempo.
+
+REVISÃO DE LITERATURA
+
+ESTUDOS DE DEA NO PIM E ZFM (2010–2014, LEI DE INFORMÁTICA)
+
+A aplicação de Análise Envoltória de Dados (DEA) à Zona Franca de Manaus (ZFM) e ao Polo Industrial de Manaus (PIM) no recorte associado à Lei de Informática (com ênfase na janela 2010–2014) é menos numerosa do que a relevância do tema sugeriria, mas traz à tona um fio condutor: quando o DEA mensura eficiência — seja de projetos de P&D (contrapartidas da Lei) seja de subsetores industriais — emergem fortes assimetrias de desempenho e sinais de que avaliações “em bloco” podem ocultar folgas significativas. Essa constatação dialoga diretamente com as escolhas metodológicas deste trabalho (pré-segmentação por K-means; DEA-VRS orientado a outputs; dinâmica via Malmquist).
+
+	•	DEA E CONTRAPARTIDAS DE P&D NO ÂMBITO DA LEI DE INFORMÁTICA
+
+No eixo da Lei nº 8.387/1991, destaca-se Cavalcante (2017), que trata projetos de P&D como DMUs, compara esforços elegíveis (inputs) a resultados tecnológicos (outputs) e estima DEA-VRS orientado a insumos. O achado central é de baixa eficiência média, com pequena fração de projetos plenamente eficientes, além de assimetrias entre arranjos de execução (p. ex., internalização vs. execução por terceiros). A implicação é clara: a obrigação de P&D gera gasto elegível, mas resultado tecnológico não é automático — logo, eficiência (e não apenas conformidade) deve ser objeto de avaliação. 
+	•	DEA EM NÍVEL SETORIAL: HETEROGENEIDADE NO PIM 
+Em nível setorial, Fernandes; Minori; Morais (2019) aplicam DEA a subsetores do PIM (2010 e 2014), documentando heterogeneidade pronunciada: alguns segmentos operam próximos à fronteira, outros exibem folgas expressivas. O estudo alerta que tratar o PIM como bloco homogêneo distorce comparações, pois setores de alta automação tendem a “puxar” a fronteira, penalizando artificialmente segmentos intensivos em trabalho. Complementarmente, a dissertação de Morais (2016) já havia empregado DEA para setores do PIM, antecipando a agenda de mensuração setorial e confirmando a dispersão de desempenho como traço estrutural do polo. O corolário metodológico é convergente: estratificar antes de comparar.
+
+	•	SÉRIE RECENTE COM DEA + MALMQUIST (2018–2022)
+
+Mais recentemente, Gouvêa (2024) combina DEA-VRS orientado a outputs com Índice de Malmquist para subsetores do PIM (2018–2022). Os resultados indicam ineficiências médias no agregado e trajetórias heterogêneas de PTF por subsetor, com choques (como a pandemia) incidindo de forma desigual. A mensagem metodológica é que a dimensão dinâmica agrega poder explicativo ao corte transversal, ao distinguir ganhos por catch-up (gestão/aprendizado) de ganhos por shift tecnológico (movimento da fronteira).
+
+	•	SÍNTESE COMPARATIVA (QUADRO)
+
+A Tabela 1 resume as aplicações de DEA ao PIM/ZFM segundo quatro dimensões comparáveis: (i) escopo/DMUs e período; (ii) fonte de dados; (iii) especificação do DEA (retornos de escala e orientação, com indicação de Malmquist quando aplicável); e (iv) resultados e limites. Em conjunto, os estudos convergem para três padrões: (a) baixa eficiência média em contrapartidas de P&D; (b) heterogeneidade acentuada entre subsetores do PIM; e (c) dinâmica de PTF não uniforme na janela recente. Persistem lacunas relevantes: a ausência de segmentação prévia nos exercícios setoriais clássicos e a escassez de estudos que integrem, num mesmo desenho, K-means → DEA → Malmquist, com bases harmonizadas de SUFRAMA, Receita Federal e RAIS.
+
+Autor(es) / Ano
+Escopo/Período
+Fonte de dados
+DEA
+Resultados
+Morais (2016)
+PIM – subsetores; anos de 2010 e 2014
+SUFRAMA
+CRS e VRS, orientação a insumos
+Dispersão de eficiência entre subsetores; lastro pré-2019.
+Fernandes; Minori; Morais (2019)
+PIM – subsetores; 2010 vs. 2014
+SUFRAMA
+CRS e VRS, orientados a insumos
+Heterogeneidade marcada; folgas relevantes; alerta contra “bloco único”.
+Cavalcante (2017)
+Lei de Informática na ZFM; 2011–2013
+MCTI/MDIC, SUFRAMA
+VRS, orientação a insumos
+Eficiência média baixa; poucos eficientes; assimetrias por arranjo de execução.
+Gouvêa (2024)
+PIM – subsetores; 2018–2022
+SUFRAMA
+VRS, orientação a produto; Malmquist
+Ineficiências no agregado; dinâmica heterogênea de PTF (pós-2018).
+Tabela 1– Estudos com DEA no contexto do PIM/ZFM e Lei de Informática (síntese)
+
+
+	•	IMPLICAÇÕES METODOLÓGICAS E DE ESPECIFICAÇÃO 
+A revisão sustenta diretrizes claras para a nossa estratégia empírica:
+	•	Unidade de análise e heterogeneidade. A forte dispersão de escores entre subsetores recomenda comparar “iguais com iguais”. Adotar-se-á clusterização prévia (K-means) com variáveis estruturais escolhidas ex-ante (porte; intensidade de capital via CAPEX/emprego; exposição a incentivos em nível e por empregado; composição ocupacional/salarial). Para evitar vazamento de informação, outputs do DEA (p. ex., valor adicionado e emprego) não entram na clusterização, tampouco métricas que os combinem diretamente.
+	•	Retornos e orientação. Em linha com o problema de política (converter um insumo dado — o incentivo — em resultados), especificaremos DEA-VRS orientado a outputs. O VRS separa eficiência técnica pura de efeitos de escala, crucial num ambiente com portes distintos de plantas.
+	•	Dinâmica intertemporal. Para capturar o pós-2018 (choques e recomposição), integraremos o Índice de Malmquist, decompondo mudanças em catch-up (gestão/aprendizado) e shift tecnológico (movimento da fronteira).
+	•	Comparabilidade entre grupos. Como escores estimados em fronteiras distintas não são diretamente comparáveis, quando necessário recorreremos ao arcabouço de metafronteira/Technology-Gap Ratio (TGR) para qualificar diferenças tecnológicas entre clusters, sem confundi-las com (in)eficiência gerencial. 
+	•	Inferência sobre determinantes. A hipótese do trade-off da automação (CAPEX/emprego) será testada em segunda etapa com procedimento de Simar–Wilson (bootstrap/truncated), adequado à natureza otimizante dos escores.
+	•	Robustez. Checaremos estabilidade da segmentação (múltiplas sementes e subamostragem), sensibilidade do K, e verificaremos os resultados do DEA frente a escolhas alternativas de variáveis e pré-processamento (padronização z-score, transformações log, winsorização) para mitigar a influência de outliers.
+	•	Tamanho amostral por cluster. Para preservar poder discriminante do DEA, cada cluster manterá massa crítica de DMUs; adotar-se-á a regra prática usual de número de unidades substancialmente superior ao total de variáveis do modelo de eficiência, conforme diretrizes consagradas na literatura.
+	•	Leitura para política pública. O arranjo K-means → DEA (VRS, outputs) → Malmquist produz um mapa acionável: (i) ineficiência dentro do cluster (gestão), (ii) escala subótima e (iii) lacuna tecnológica entre clusters (TGR). Cada diagnóstico aponta instrumentos distintos (boas práticas/gestão; revisão de porte/escala; encadeamentos e P&D/tecnologia).
+
+Em síntese, a revisão de evidências sobre eficiência no PIM/ZFM sustenta o desenho empírico proposto: segmentação prévia para acomodar heterogeneidade tecnológica, estimação de DEA-VRS orientado a produto e leitura dinâmica via Malmquist, com cuidados de comparabilidade e inferência. Nas seções seguintes, detalha-se o papel da clusterização K-means em contextos produtivos (3.2) e o panorama de avaliações sobre a ZFM (3.3), preparando o terreno para a formalização metodológica e a operacionalização empírica no capítulo de metodologia.
+
+APLICAÇÕES DE K-MEANS EM CONTEXTOS PRODUTIVOS
+
+O uso do K-means em economia da produção e gestão industrial consolidou-se como procedimento de estratificação prévia para lidar com heterogeneidade tecnológica e de escala. A ideia central é formar grupos relativamente homogêneos antes de comparar desempenho, estimar fronteiras de eficiência ou calibrar instrumentos de política por perfil produtivo. A atratividade do método decorre de três atributos práticos: parcimônia (poucos hiperparâmetros), escala (bom desempenho em amostras médias/grandes) e transparência (centróides interpretáveis), preservando relevância mesmo após seis décadas de uso (JAIN, 2010; HAIR JR. et al., 2019; FÁVERO; BELFIORE, 2024).
+Na literatura aplicada, o K-means aparece de modo recorrente em quatro vertentes: (i) tipologias setoriais e peer groups industriais (agrupamentos por porte, intensidade de capital, composição ocupacional e complexidade do produto, úteis a benchmarking e desenho de políticas) (KETCHEN; SHOOK, 1996; JAIN, 2010); (ii) operações e cadeias de suprimentos (segmentação de fornecedores, linhas e mix segundo regularidade de demanda, lead time e variabilidade de custo) (HAIR JR. et al., 2019); (iii) produtividade e desempenho (criação de grupos “comparáveis” para, então, avaliar eficiência por DEA/SFA, reduzindo a influência de outliers tecnológicos e favorecendo interpretação por perfis) (SAMOILENKO; OSEI-BRYCE, 2013); (iv) políticas place-based (segmentação de territórios/arranjos locais por estrutura produtiva, encadeamentos e esforço tecnológico) (HAIR JR. et al., 2019; FÁVERO; BELFIORE, 2024).
+Do ponto de vista substantivo, a seleção de variáveis deve ser ex-ante e descrever traços estruturais do processo produtivo (escala via VA; automação via CAPEX/emprego; intensidade de trabalho via emprego/VA; exposição a incentivos em nível e por empregado; esforço de P&D quando disponível), evitando vazamento de informação: variáveis que serão outputs da eficiência (p. ex., o próprio escore DEA ou combinações diretas de outputs) não entram na segmentação. A escolha de K combina heurísticas consagradas — cotovelo, índice de silhouette e estatística gap — com interpretabilidade econômica e tamanho mínimo por grupo (ROUSSEEUW, 1987; TIBSHIRANI; WALTHER; HASTIE, 2001; MILLIGAN; COOPER, 1985). Como o algoritmo minimiza variância intraclasse e converge para soluções locais, recomenda-se inicialização k-means++ e múltiplas sementes (ARTHUR; VASSILVITSKII, 2007). Procedimentos de padronização de escala e tratamento de assimetrias/outliers, bem como checagens de estabilidade da partição, serão detalhados na Metodologia.
+A literatura também explicita limitações e alternativas. O K-means tende a funcionar melhor quando os grupos são aproximadamente esféricos e de volumes semelhantes; estruturas alongadas ou muito desbalanceadas deterioram a separação (JAIN, 2010; HAIR JR. et al., 2019). Em alta dimensionalidade, a distância perde contraste; um PCA exploratório auxilia na visualização (sem substituir as variáveis substantivas). Para dados com categorias relevantes, k-medoids (PAM) e k-prototypes (mistos) são opções úteis (HUANG, 1998; KAUFMAN; ROUSSEEUW, 2005). Em estruturas claramente hierárquicas, métodos de Ward podem servir como diagnóstico inicial, seguido de K-means para refino (HAIR JR. et al., 2019).
+Aplicando-se ao objeto de estudo — os subsetores do PIM (2018–2023) três diretrizes emergem: (i) realizar a clusterização em painel empilhado (pooled) para capturar tipos estruturais estáveis e preservar comparabilidade anual (com sensibilidades por janelas, como 2018–2020 vs. 2021–2023); (ii) perfilar os clusters de modo a dialogar com os instrumentos de governança da ZFM (PPB, P&D), identificando perfis que se beneficiam mais/menos de determinadas contrapartidas; (iii) combinar K-means → DEA para comparar “iguais com iguais”: a fronteira estimada dentro de cada agrupamento evita que tecnologias líderes distorçam comparações e viabiliza leituras granulares (ineficiência gerencial, escala subótima, lacuna tecnológica).
+Em suma, a revisão sobre K-means em contextos produtivos fornece o roteiro para a segmentação deste estudo: variáveis estruturais ex-ante, critérios múltiplos para K e estabilidade documentada, seguidos de perfilação substantiva. Essa preparação eleva a justiça comparativa da avaliação de eficiência e melhora a tradução em política pública quando os resultados forem lidos por tipo de produtor no PIM.
+
+PANORAMA DA LITERATURA SOBRE A ZFM
+
+A literatura sobre a Zona Franca de Manaus (ZFM) é vasta e heterogênea, refletindo leituras distintas sobre adicionalidade, eficiência produtiva e efeitos distributivos de uma política place-based de longa duração. Três correntes se destacam: (i) avaliações favoráveis que apontam impactos líquidos positivos e externalidades; (ii) análises críticas centradas em custo fiscal, produtividade e governança; e (iii) estudos metodológicos/empíricos que problematizam desenho de identificação, granularidade setorial e métricas de desempenho.
+Na vertente favorável, trabalhos acadêmicos e encomendados estimam multiplicadores superiores a 1, sugerindo que a renúncia tributária se compensa por produto e renda gerados no território, com encadeamentos e demanda por serviços industriais associados (HOLLAND; MANSANO; CAMPOS, 2019). Parte dessa literatura atribui à concentração urbana do PIM um efeito ambiental colateral, ao reter população e emprego na capital e reduzir pressões sobre áreas de floresta; o argumento dialoga com a Nova Geografia Econômica (economias de aglomeração, retornos crescentes) e com a tradição de encadeamentos (KRUGMAN, 1991; HIRSCHMAN, 1958), segundo as quais choques de política podem levar o sistema a novos equilíbrios de maior densidade produtiva.
+Em sentido crítico, avaliações oficiais e de organismos multilaterais questionam a proporcionalidade entre custo fiscal e resultados socioeconômicos mensuráveis, apontam risco de lock-in em segmentos de menor dinamismo tecnológico e recomendam recalibrar contrapartidas (PPB, P&D) e foco em encadeamentos (TCU, 2022; BANCO MUNDIAL, 2023). Em evidência microeconômica, o Climate Policy Initiative não identifica “bônus de eficiência” das firmas do PIM frente a congêneres nacionais, tanto no exercício 2003–2015 (ASSUNÇÃO; HOLZ; SCHUTZE, 2020) quanto em atualização posterior (CPI/PUC-RIO, 2023). Em síntese, essa corrente reconhece a relevância regional da ZFM, mas a considera fiscalmente cara e produtivamente modesta ante contrafactuais plausíveis.
+A terceira trilha — metodológica/empírica — discute como medir impactos e eficiência. Dois pontos se repetem: (i) a necessidade de granularidade setorial (comparar “iguais com iguais”), pois análises agregadas obscurecem heterogeneidade entre subsetores com tecnologias e escalas distintas (FERNANDES; MINORI; MORAIS, 2019; MORAIS, 2016); (ii) o desenho de identificação (seleção na adesão ao regime, mensuração de gasto tributário e repasses, mudanças legais e choques macro). Nesse contexto, ganham espaço abordagens que organizam a heterogeneidade antes da avaliação (p. ex., clusterização por perfil produtivo), mensuram eficiência relativa na conversão de incentivos em resultados (p. ex., DEA) e acompanham a dinâmica intertemporal (p. ex., Índice de Malmquist). Embora a combinação dessas três peças ainda seja rara em ZFM, indícios consistentes apontam dispersão de eficiência entre subsetores e trajetórias não uniformes de produtividade no pós-2018.
+Parte relevante do debate recai sobre os instrumentos condicionantes dos incentivos. Os Processos Produtivos Básicos (PPB) buscam assegurar etapas mínimas de industrialização local, e a Lei de Informática (Lei nº 8.387/1991) vincula benefícios a dispêndios em P&D. A avaliação de projetos de P&D indica heterogeneidade de resultados frente a esforços semelhantes — isto é, gasto elegível não se traduz automaticamente em resultado tecnológico (CAVALCANTE, 2017; QUEIROZ FILHO, 2022). Em paralelo, permanece o desafio de adensar cadeias e elevar conteúdo local, dada a relevância de insumos importados em atividades de montagem — o que limita spillovers tecnológicos.
+Outro eixo recorrente é o emprego. A literatura sobre automação mostra que ganhos de produtividade por trabalhador tendem a conviver com menor elasticidade do emprego em setores mais intensivos em capital e tecnologia, impondo um trade-off para políticas regionais com objetivos distributivos (ACEMOGLU; RESTREPO, 2019; DORN; HANSON, 2020). Na ZFM, a composição setorial e a evolução de CAPEX/emprego emergem como determinantes relevantes ao explicar diferenças de eficiência quando os outputs avaliados são valor adicionado ou postos de trabalho.
+Em perspectiva, há consensos mínimos e dissensos substantivos. Converge-se quanto ao papel regional histórico da ZFM; diverge-se quanto ao custo-benefício marginal e à eficiência na conversão de incentivos em VA e emprego. A agenda recente desloca o foco de métricas agregadas (faturamento, emprego total) para indicadores de eficiência e dinâmica com granularidade setorial, buscando mitigar heterogeneidade, seleção e mudanças legais. Esse deslocamento abre espaço para avaliações que combinem segmentação, fronteiras de eficiência e análise temporal, distinguindo (i) ineficiências gerenciais e de escala dentro de segmentos, (ii) lacunas tecnológicas entre perfis produtivos e (iii) o papel da automação e de demais covariáveis como determinantes da eficiência.
+À luz desse panorama, a próxima seção (3.4) sistematiza as lacunas remanescentes e explicita a contribuição que este estudo oferece para o debate sobre a ZFM.
+
+IDENTIFICAÇÃO DAS LACUNAS E VALOR DA CONTRIBUIÇÃO 
+
+A revisão das seções 3.1–3.3 evidencia lacunas recorrentes na avaliação da ZFM/PIM e, em paralelo, delimita o espaço de contribuição desta pesquisa. As lacunas e os correspondentes aportes organizam-se nos eixos abaixo:
+
+	•	Granularidade e heterogeneidade setorial. Predominam comparações “em bloco” do PIM ou exercícios setoriais sem estratificação por perfis produtivos, o que induz viés de composição: tecnologias líderes “puxam” a fronteira e tornam menos informativos os contrastes com segmentos intensivos em trabalho.
+	•	Contribuição: adoção de clusterização K-means com variáveis estruturais ex-ante (escala via VA; intensidade de capital via CAPEX/emprego; exposição relativa a incentivos; traços ocupacionais), formando grupos comparáveis antes da mensuração de eficiência e evitando vazamento de informação.
+	•	Métrica de eficiência alinhada ao problema de política. Parte da literatura usa insumos/outputs genéricos, sem espelhar diretamente o nexo incentivo → resultado.
+	•	Contribuição: especificação de DEA-VRS orientado a outputs, com incentivo fiscal como input e valor adicionado e empregos diretos como outputs, coerente com o objetivo público de converter renúncia em resultados econômicos e sociais.
+	•	Dinâmica intertemporal. Exercícios com Índice de Malmquist ainda são escassos e, quando existem, raramente desagregam por perfis produtivos.
+	•	Contribuição: cálculo do Malmquist por cluster (2018–2023), distinguindo catch-up (eficiência relativa) de shift tecnológico (movimento da fronteira) e localizando quebras associadas a choques (p. ex., pandemia).
+	•	Comparabilidade entre tecnologias. Escores obtidos em fronteiras diferentes não são diretamente comparáveis; faltam aplicações que usem metafronteira e technology-gap ratio (TGR) para separar diferenças tecnológicas (entre grupos) de ineficiências gerenciais (dentro do grupo).
+	•	Contribuição: quando a análise demandar contrastes entre grupos, uso do arcabouço de metafronteira/TGR (BATTESE; RAO; O’DONNELL, 2004; O’DONNELL; RAO; BATTESE, 2008) para qualificar lacunas tecnológicas sem confundi-las com eficiência técnica.
+	•	Determinantes da eficiência e automação. A relação entre automação e resultados costuma ser tratada de forma descritiva; faltam testes com inferência apropriada à natureza dos escores.
+	•	Contribuição: teste formal, em segunda etapa, da hipótese do trade-off da automação (CAPEX/emprego): efeito positivo sobre eficiência em VA e negativo sobre eficiência em empregos. Procedimento de Simar–Wilson (bootstrap/truncated) para inferência válida com escores de DEA (SIMAR; WILSON, 2007).
+ O desenho proposto articula, em coerência com a política, uma métrica de eficiência que toma o incentivo fiscal como input e valor adicionado e emprego como outputs. A segmentação prévia por K-means reduz vieses de composição e permite estimar eficiência entre unidades tecnologicamente semelhantes. O Índice de Malmquist acrescenta a dimensão temporal, distinguindo ganhos por catch-up (gestão) de deslocamentos da fronteira (shift), base para calibrar contrapartidas como PPB e P&D. Quando necessário, a metafronteira qualifica diferenças entre grupos como lacunas tecnológicas, não simples ineficiências. A segunda etapa de inferência (Simar–Wilson) testa, com rigor, a hipótese de que a automação (CAPEX/emprego) afeta de modo assimétrico a eficiência em valor e em postos. Todo o procedimento segue protocolo explícito de robustez e replicabilidade — critérios de K, inicialização, padronização e massa crítica por cluster — para facilitar escrutínio e atualização.
+Em conjunto, essa arquitetura — segmentação, DEA-VRS orientado a produto, Malmquist e inferência adequada sobre determinantes, aplicada a um painel harmonizado 2018–2023 de SUFRAMA, Receita Federal e RAIS — responde diretamente às fragilidades identificadas na literatura: mede o que importa para a política, compara “iguais com iguais”, acompanha a trajetória no tempo e separa, com clareza, ineficiência gerencial, escala subótima e gap tecnológico. O resultado esperado é um diagnóstico mais granular e comparável, com utilidade prática para revisão de critérios de alocação de incentivos e para o monitoramento contínuo de resultados. Os detalhes operacionais dessa estratégia serão apresentados no capítulo metodológico subsequente.
+
+METODOLOGIA 
+
+TIPO E DELINEAMENTO DO ESTUDO
+
+Trata-se de uma pesquisa empírica, quantitativa, de base documental, construída a partir de microdados e agregados oficiais de SUFRAMA, Receita Federal do Brasil e RAIS. O desenho é longitudinal em painel (2018–2023), com unidades de análise (DMUs) definidas como subsetores do Polo Industrial de Manaus (PIM) observados anualmente. O recorte encerra-se em 2023 porque a RAIS 2024 ainda não se encontra consolidada para garantir comparabilidade intertemporal.
+O objetivo operacional é mensurar a eficiência relativa na conversão do incentivo fiscal em valor adicionado e emprego, controlando a heterogeneidade produtiva entre subsetores. Em termos formais, para cada subsetor i e ano t:
+
+	•	Input (DEA):  = incentivo fiscal (R$).
+	•	Outputs (DEA):  = valor adicionado (R$);  = empregos diretos (pessoas).
+	•	Determinante central (2ª etapa): automação  onde  é o ativo imobilizado (máquinas e equipamentos).
+
+A estratégia empírica segue um fluxo em três estágios, com um quarto de inferência: 
+	•	Segmentação prévia (K-means) para agrupar subsetores em perfis produtivos comparáveis (escala, intensidade de capital, exposição a incentivos etc.), evitando “vazamento” de informação: variáveis que serão outputs do DEA não entram na clusterização.
+	•	DEA sob retornos variáveis de escala (VRS), orientado a outputs, estimado dentro de cada cluster, com (I) como input e ((VA,E)) como outputs, produzindo escores, slacks e unidades de referência (benchmarks).
+	•	Índice de Malmquist (PTF) por cluster para 2018–2023, decomposto em catch-up (mudança de eficiência) e shift tecnológico (movimento da fronteira).
+	•	Segunda etapa (Simar–Wilson) para testar o papel de  (automação) sobre os escores (hipótese de trade-off: ganhos de eficiência em (VA) e perdas em (E)). Quando necessário comparar grupos entre si, recorre-se à metafronteira e ao Technology-Gap Ratio (TGR) para distinguir lacunas tecnológicas de ineficiências gerenciais.
+
+Pergunta de pesquisa operacionalizada: 
+	•	Como a heterogeneidade produtiva dos subsetores do PIM afeta a eficiência de conversão do incentivo (I) em (VA) e (E) no período 2018–2023, e quais segmentos exibem maior ineficiência relativa em 2023?
+ Hipótese testável:
+	•	Maior automação ((A)) está associada a maior eficiência na conversão em (VA) e a menor eficiência na conversão em (E).
+
+Reprodutibilidade e transparência:
+	•	Serão documentados: (i) datas de extração e versões das bases; (ii) regras de limpeza, junção e padronização; (iii) semente aleatória (set.seed), versões de software e pacotes; (iv) scripts executáveis com registro de todas as decisões (winsorização, transformações, critérios de inclusão). Os dados da RAIS serão trabalhados apenas em nível agregado (subsetor-ano), sem identificação individual, em conformidade com a LGPD; não há coleta direta com seres humanos nem informação sensível.
+
+FONTES, PERÍODO E CRITÉRIOS DE INCLUSÃO
+
+Serão utilizados repositórios oficiais, acessados e congelados em versões documentadas (data de extração, URL/identificador, checksum do arquivo original):
+	•	SUFRAMA: Relatórios/planilhas setoriais do PIM com valor adicionado (VA), ativo imobilizado em máquinas e equipamentos (CAPEX) e incentivos usufruídos por subsetor e ano.
+	•	Receita Federal do Brasil (RFB): Demonstrativo de Gastos Tributários com série anual dos benefícios ligados à ZFM; quando necessário, proceder à conciliação com os totais de incentivos reportados pela SUFRAMA.
+	•	RAIS (MTE): microdados anuais para agregação de emprego formal por CNAE 2.0 e município; será construída uma tabela de correspondência (crosswalk) CNAE → subsetores do PIM para obter o Emprego por subsetor e ano.
+
+A unidade de análise ,as DMUs, são subsetor-ano. A junção das bases seguirá o seguinte fluxo: (i) SUFRAMA define a lista e o código/descrição dos subsetores; (ii) mapeiam-se CNAEs relevantes de cada subsetor (documentando regras de inclusão/ exclusão quando um CNAE aparecer em mais de um grupo); (iii) agregam-se os vínculos RAIS para o total de empregos por subsetor-ano; (iv) conciliam-se os incentivos (SUFRAMA/RFB) e o VA do subsetor-ano em um painel único. Divergências de nomenclatura/nível de agregação serão resolvidas com uma tabela mestra de códigos (mantida no repositório do projeto).
+O período de análise coberto pelo painel é dos anos 2018–2023. Esse recorte oferece janela recente (inclui choques de 2020–2021) com comparabilidade garantida, pois RAIS 2024 não se encontra consolidada. Séries monetárias serão convertidas para preços constantes de 2023 (vide fórmula de deflacionamento abaixo) e, em robustez, serão testados deflatores alternativos.
+1
+
+
+onde  é VA, CAPEX ou Incentivo em valores correntes,  é o índice de preços no ano  e ​ é o índice no ano-base. Índice de referência principal é IPCA/IBGE. Checagem de robustez via deflator implícito do PIB da indústria de transformação (IBGE) e IPP/IBGE. 
+
+Critérios de inclusão/exclusão (por DMU-ano):
+	•	Atividade válida: presença do subsetor em ≥ 4 dos 6 anos (2018–2023).
+	•	Positividade para DEA:  (incentivo), e . Ocorrências com zero ou negativos serão tratadas como não operacionais naquele ano e excluídas do DEA; preservam-se para estatísticas descritivas quando apropriado.
+	•	Coerência contábil: observações com inconsistências graves (ex.: VA ≪ 0 sem justificativa documental) serão removidas e logadas.
+	•	Outliers extremos: valores acima do p99,9 (ou abaixo do p0,1) em séries monetárias serão marcados; a análise principal utilizará winsorização p1–p99 na etapa de tratamento (a decisão e o impacto serão documentados em robustez).
+
+Abrangendo questões de governança e ética, a RAIS será utilizada apenas em agregação subsetor-ano (sem identificação pessoal). Não há interação com seres humanos; logo, não é requerida submissão a Comitê de Ética. Os arquivos originais serão preservados íntegros (com checksum), e todo o processamento será reprodutível (scripts, random.seed, versão de pacotes). A tabela de correspondência CNAE ↔ subsetor e todas as decisões de junção/tratamento serão disponibilizadas em anexo eletrônico do TCC.
+
+CONSTRUÇÃO E TRATAMENTO DE VARIÁVEIS 
+
+O conjunto de variáveis foi definido para representar, de modo parcimonioso e alinhado ao objetivo do estudo, o nexo entre os incentivos fiscais (insumo) e os resultados econômicos e sociais (valor adicionado e emprego), preservando a distinção entre características estruturais — que descrevem tecnologia, porte e exposição relativa ao subsídio — e desempenho — que será mensurado por meio do DEA. Por desenho, valor adicionado e emprego aparecem exclusivamente como outputs do DEA; variáveis estruturais compõem a etapa de segmentação.
+O input do DEA é o incentivo fiscal do subsetor-ano Os outputs são o valor adicionado () e o emprego formal (), todos em nível de subsetor e ano, com séries monetárias convertidas para preços de 2023 (conforme 4.2). A dimensão estrutural é captada principalmente pela automação, pela exposição relativa aos incentivos e por uma medida de porte baseada em capital.
+A proxy de automação é a razão CAPEX/emprego:
+2
+
+
+A exposição relativa do incentivo é medida por sua intensidade sobre o VA e por empregado:
+3
+
+4
+
+
+Como medida parcimoniosa de porte baseada em capital, utiliza-se o logaritmo do CAPEX:
+5
+
+
+Essas variáveis - , ,  e    descrevem a estrutura tecnológica/escala antes da avaliação de eficiência e, por isso, integram a clusterização; VA e E permanecem fora da segmentação para evitar vazamento de informação entre etapas.
+Para o pré-processamento, todas as variáveis monetárias (I, VA, CAPEX) são deflacionadas para 2023 (vide 4.2). Para atenuar assimetrias e reduzir a influência de caudas longas, séries altamente dispersas são transformadas via logaritmo natural:
+6
+
+
+A análise principal utiliza winsorização nos percentis 1 e 99 para I, VA, CAPEX e razões que os contenham, preservando a comparabilidade e mitigando valores extremos:
+7
+
+em que  denota o p-ésimo quantil calculado no painel empilhado (2018–2023). Para a clusterização, todas as variáveis estruturais são padronizadas (z-score) no painel pooled, de modo que os grupos reflitam diferenças estruturais e não flutuações anuais:
+8
+
+
+com  e  estimados no conjunto 2018–2023.
+Acerca de regras de consistência, os critérios de inclusão já impõem positividade a , além de presença mínima temporal. Ocorrências com zeros/negativos ou inconsistências graves são excluídas do DEA naquele ano e registradas; podem permanecer em estatísticas descritivas quando pertinente. A conciliação SUFRAMA–RFB dos incentivos segue o princípio da maior granularidade por subsetor e documenta eventuais diferenças. O emprego por subsetor é construído a partir da RAIS por meio de tabela de correspondência CNAE → subsetor, preservada para reprodutibilidade.
+Com esse arranjo, a segmentação repousa em traços produtivos, a mensuração de eficiência compara unidades tecnologicamente semelhantes e a inferência sobre determinantes — em particular, a automação — preserva a lógica causal do estudo.
+
+CLUSTERIZAÇÃO (K-MEANS): ESPECIFICAÇÃO, ESCOLHA DE  E ESTABILIDADE 
+
+A segmentação antecede a mensuração de eficiência para acomodar a heterogeneidade tecnológica e de escala entre subsetores. A clusterização é feita sobre o painel empilhado 2018–2023 (todas as observações juntas), de modo a identificar tipos estruturais estáveis que valem para todo o horizonte. 
+As variáveis de entrada do K-means são exclusivamente estruturais — automação, exposição relativa ao incentivo e porte — todas padronizadas por -score no painel pooled (conforme 4.3), evitando “vazamento” dos outputs do DEA para a etapa de segmentação. Denotando por  o vetor de atributos padronizados do subsetor  no ano , tem-se:
+9
+
+
+O K-means particiona as  em grupos minimizando a soma das distâncias intra-cluster ao centróide  (média das observações do grupo), sob métrica euclidiana:
+10
+
+
+A inicialização utiliza k-means++ e o algoritmo é executado com múltiplas sementes, retendo a solução de menor  e registrando a variabilidade entre execuções como medida de estabilidade. A decisão sobre o número de grupos segue um conjunto de critérios complementares:
+(i) Curva do cotovelo (WSS). Observa-se a queda de quando  cresce; o ponto de retorno marginal decrescente (“cotovelo”) sinaliza um  parcimonioso que ainda captura a estrutura dominante.
+(ii) Silhouette médio. Para cada observação , calcula-se a coesão média ao seu cluster, , e a menor dissimilaridade média a um cluster alternativo, . O índice de silhouette é:
+11
+
+
+e o silhouette médio em cada  traz o equilíbrio de coesão interna e separação externa. 
+(iii) Gap statistic. Compara-se a dispersão observada aos valores esperados sob uma referência nula (distribuição aleatória sem estrutura). Seja  a dispersão intra-cluster (análoga a ) e ​ as réplicas sob a referência; define-se:
+12
+
+
+Escolhe-se o menor  cujo Gap esteja dentro do desvio-padrão ajustado do máximo (regra de Tibshirani).
+Além dos diagnósticos numéricos, a interpretabilidade econômica dos grupos é condição necessária: centróides devem refletir perfis reconhecíveis (por exemplo, “alta automação e alto incentivo por empregado” versus “médio porte e intensidade de trabalho”). Impõe-se, ainda, uma massa crítica mínima por cluster para preservar a capacidade discriminante do DEA subsequente; na prática, cada grupo deve conter unidades suficientemente numerosas face ao número de inputs/outputs do modelo de eficiência.
+Para estabilidade, repete-se o K-means em subamostragens e com sementes distintas, verificando a persistência das atribuições (concordância entre partições). Confirmada a solução, os rótulos de cluster são congelados e aplicados a todos os anos 2018–2023. A análise descritiva posterior (medianas, dispersões, participação no incentivo/VA) perfilha cada grupo, fornecendo a base para a etapa seguinte: a estimação do DEA-VRS orientado a produto dentro de cada cluster.
+
+ANÁLISE ENVOLTÓRIA DE DADOS (DEA): ESPECIFICAÇÃO DO MODELO 
+
+A mensuração da eficiência dos subsetores do PIM será realizada por meio da Análise Envoltória de Dados (DEA), técnica não paramétrica introduzida por Charnes, Cooper e Rhodes (1978) e estendida por Banker, Charnes e Cooper (1984). O DEA permite estimar, com base nos dados observados, uma fronteira eficiente de produção, contra a qual cada unidade de decisão (DMU) — aqui, os subsetores da ZFM em cada ano — é avaliada. Essa abordagem é especialmente adequada ao contexto em análise, pois lida com múltiplos insumos e outputs sem necessidade de assumir forma funcional específica para a tecnologia de produção.
+O insumo (input) é o incentivo fiscal recebido pelo subsetor. Os outputs são:  o valor adicionado bruto , que captura a contribuição econômica líquida do setor à economia local, e  o emprego formal , indicador de desenvolvimento social associado à geração de postos de trabalho. A escolha desses outputs reflete diretamente os objetivos de política pública da ZFM: transformar renúncias fiscais em crescimento econômico e ocupação.
+O modelo adotado é o DEA-VRS orientado a outputs. A hipótese de retornos variáveis de escala (VRS) separa a eficiência técnica pura da eficiência de escala, crucial em um polo que abriga desde plantas de pequeno porte até fábricas de grande escala. A orientação a outputs decorre do problema de política: dado o montante de incentivo fiscal, interessa verificar o quanto de VA e emprego cada subsetor consegue gerar, ou seja, sua capacidade de maximizar resultados a partir de um insumo dado.
+Formalmente, para uma DMU , o modelo DEA-VRS orientado a outputs pode ser expresso como:
+13
+
+sujeito a:
+
+14
+
+15
+
+16
+
+17
+
+
+em que é o escore de eficiência da DMU avaliada (com  ≤ 1), e os pesos ​ definem combinações convexas de DMUs de referência que formam a fronteira eficiente. 
+Valores de  =1 indicam eficiência plena: o subsetor gera tanto VA quanto empregos quanto seria possível, dadas as melhores práticas observadas. Valores inferiores a 1 indicam ineficiência relativa, ou seja, a possibilidade de ampliar outputs proporcionalmente mantendo o mesmo nível de insumo.
+Essa formulação permite identificar não apenas quais subsetores se destacam como benchmarks de eficiência, mas também quais apresentam folgas (slacks) na conversão de incentivos em VA e empregos. Além disso, a decomposição em eficiência técnica pura e de escala, possibilitada pela especificação VRS, fornece diagnósticos distintos: ineficiências podem decorrer de gestão e organização (ineficiência técnica) ou de porte inadequado da planta (ineficiência de escala).
+Por fim, a estimação do DEA será realizada separadamente dentro de cada cluster obtido via K-means (seção 4.4). Esse procedimento assegura que as comparações de eficiência ocorram entre unidades de perfis produtivos semelhantes, evitando que setores altamente automatizados estabeleçam padrões inviáveis para segmentos intensivos em trabalho. Esse arranjo metodológico preserva a justiça comparativa e alinha a métrica de eficiência ao objetivo de política pública.
+
+ÍNDICE DE MALMQUIST: DINÂMICA INTERTEMPORAL DA PRODUTIVIDADE
+
+Embora o DEA forneça uma fotografia estática da eficiência relativa em cada ano, políticas de incentivos fiscais como a ZFM precisam ser avaliadas também em sua dimensão dinâmica. Para isso, adota-se o Índice de Produtividade Total dos Fatores (PTF) de Malmquist, originalmente formulado por Caves, Christensen e Diewert (1982) e operacionalizado por Färe et al. (1994). Esse índice mede a variação da produtividade total entre dois períodos consecutivos, permitindo decompor ganhos ou perdas em componentes de natureza distinta.
+Seja  a função distância orientada a outputs no período , que expressa o quão distante uma DMU  está da fronteira tecnológica daquele ano. Para uma unidade o, com insumos  e outputs  o índice de Malmquist entre os períodos  e  é definido como:
+18
+
+
+	•	Mudança de eficiência técnica (catch-up): mostra se a DMU se aproximou ou se afastou da fronteira eficiente ao longo do tempo, refletindo aprendizado, gestão e uso mais racional dos recursos.
+	•	Mudança tecnológica (shift da fronteira): captura se a própria fronteira de produção se deslocou, indicando avanço ou retrocesso tecnológico no conjunto da indústria.
+No presente estudo, o Malmquist será calculado separadamente dentro de cada cluster obtido na etapa anterior, de modo a avaliar se os perfis produtivos distintos exibem trajetórias convergentes ou divergentes no período 2018–2023. Essa decomposição permitirá responder se os ganhos observados derivam principalmente de melhorias internas de eficiência (empresas aprendendo a gerir melhor os incentivos) ou de avanços tecnológicos estruturais (movimento da fronteira em direção a maior produtividade).
+A interpretação desse índice tem implicações diretas para a política pública. Caso prevaleça o efeito catch-up, recomenda-se intensificar meios de difusão de boas práticas e governança entre subsetores. Se o componente predominante for o shift tecnológico, o foco deve recair sobre políticas de inovação, P&D e adensamento de cadeias. 
+Dessa forma, o Malmquist adiciona uma dimensão temporal essencial ao diagnóstico de eficiência, permitindo calibrar contrapartidas e estratégias de incentivo à luz de trajetórias de médio prazo.
+
+METAFRONTEIRA E COMPARABILIDADE ENTRE CLUSTERS
+
+A estimação de eficiência relativa via DEA dentro de cada cluster assegura justiça comparativa, pois as fronteiras são construídas apenas entre unidades com perfis produtivos semelhantes. Contudo, essa estratégia gera uma limitação: escores calculados em fronteiras distintas não são diretamente comparáveis entre grupos. Para resolver esse problema, recorre-se ao arcabouço de metafronteira e ao conceito de technology-gap ratio (TGR), desenvolvido por Battese, Rao e O’Donnell (2004) e expandido em O’Donnell, Rao e Battese (2008).
+A metafronteira é uma fronteira “global” que envolve todas as tecnologias observadas nos clusters. Assim, cada DMU é avaliada em relação:
+	•	à sua fronteira de grupo, composta por unidades do mesmo cluster, e
+	•	(ii) à metafronteira, composta por todas as DMUs do conjunto.
+
+O TGR expressa a razão entre a eficiência de uma DMU em sua fronteira de grupo e a eficiência da mesma unidade em relação à metafronteira. Formalmente, para uma unidade  no grupo:
+19
+
+
+em que  é a função distância da fronteira do grupo , e  é a função distância da metafronteira. O valor do TGR varia entre 0 e 1:
+
+	•	TGR=1TGR = 1TGR=1: indica que a tecnologia do grupo está alinhada à fronteira global.
+	•	TGR<1TGR < 1TGR<1: indica um gap tecnológico: mesmo operando de forma eficiente dentro do cluster, a DMU não alcança o desempenho máximo possível em termos globais.
+
+Esse aparato é crucial no presente trabalho, pois permite distinguir dois tipos de limitações:
+	•	Ineficiência gerencial ou de escala: quando a unidade está abaixo da sua própria fronteira de grupo, ou seja, há espaço para melhorias internas sem mudança tecnológica.
+	•	Gap tecnológico entre clusters: quando a fronteira do grupo está deslocada em relação à metafronteira, sugerindo limitações estruturais de tecnologia, capital ou capacidade de inovação.
+Dessa forma, a análise integrada de DEA por cluster e metafronteira fornece um diagnóstico de dupla camada: eficiência relativa dentro do grupo (justiça comparativa) e distância tecnológica entre grupos (lacuna estrutural). Esse arranjo é particularmente relevante para políticas públicas place-based, pois indica quais setores demandam:
+
+	•	difusão de boas práticas gerenciais (quando a ineficiência é interna ao cluster);
+	•	apoio à expansão de escala (quando há desajuste de porte); ou
+	•	políticas tecnológicas e de inovação (quando o problema é o gap em relação à metafronteira).
+
+No caso da ZFM, a incorporação do TGR torna possível avaliar, por exemplo, se clusters intensivos em trabalho são eficientes em seus próprios termos, mas operam em uma tecnologia global atrasada, enquanto clusters de alta automação aproximam-se da metafronteira. Esse diagnóstico enriquece a leitura sobre a alocação de incentivos e orienta decisões de política industrial mais segmentadas.
+
+SEGUNDA ETAPA DE INFERÊNCIA: DETERMINANTES DA EFICIÊNCIA
+
+A mensuração de eficiência relativa por DEA gera escoresque variam entre 0 e 1 e refletem quão bem cada subsetor transforma incentivos fiscais em valor adicionado e empregos. Contudo, por si só esses escores não respondem quais fatores estruturais explicam diferenças sistemáticas de eficiência. Para avançar, adota-se uma segunda etapa de inferência, em que os escores servem como variável dependente em regressões apropriadas, controlando para a natureza truncada e otimizada desses índices.
+A literatura consolidada (Simar; Wilson, 2007) demonstra que regressões lineares tradicionais são inadequadas, pois ignoram a distribuição limitada dos escores e a correlação induzida pelo processo de otimização. A alternativa recomendada é o modelo de regressão truncado com bootstrap, que combina (i) estimação de máxima verossimilhança em regressão censurada/truncada e (ii) reamostragem bootstrap para corrigir viés e obter intervalos de confiança robustos.
+Seja o escore de eficiência do subsetor  no ano . A especificação geral é:
+20
+
+em que:
+	•	  é a proxy de automação (capital por trabalhador);
+	•	 captam a intensidade do incentivo sobre a produção e o emprego;
+	•	  representa o porte em capital (log do CAPEX);
+	•	  reúne variáveis de controle (composição ocupacional, intensidade de P&D, ano de referência);
+	•	 é a função de ligação de regressão truncada apropriada;
+	•	  é o termo de erro.
+O parâmetro de maior interesse é  pela hipótese central deste estudo, espera-se quando o output é valor adicionado e quando o output é emprego, refletindo o trade-off da automação. Já ​ e  testam se maiores incentivos relativos se traduzem em maior eficiência na conversão, e  captura efeitos de porte.
+
+ROBUSTEZ, REPLICABILIDADE E SOFTWARE UTILIZADO
+
+A validade da análise depende não apenas da escolha conceitual dos métodos, mas também da robustez dos resultados e da possibilidade de replicação integral por outros pesquisadores. Por isso, esta seção sistematiza os cuidados adotados.
+O algoritmo K-means será executado com múltiplas sementes e inicialização k-means++, mitigando dependência do ponto de partida. A escolha de  combinará os critérios de cotovelo, índice de silhouette e gap statistic, ponderados pela interpretabilidade econômica. Sensibilidades adicionais incluem a aplicação de subamostragem (subsampling) e a verificação da estabilidade das atribuições por índices de concordância (Rand ajustado).
+Tratando da robustez do DEA, a fim de assegurar poder discriminante, cada cluster respeitará a regra prática de manter número de DMUs substancialmente superior ao de variáveis incluídas. Testes de sensibilidade incluirão: (i) winsorização versus exclusão de outliers extremos; (ii) transformações logarítmicas alternativas; e (iii) comparação entre orientações (input/output) em exercícios exploratórios. Quando pertinente, restrições de pesos (assurance regions) poderão ser aplicadas, sempre com justificativa substantiva.
+No que tange a robustez do Malmquist, o índice será estimado ano a ano (2018–2023) dentro de cada cluster. A decomposição em catch-up e shift será verificada em exercícios paralelos com fronteiras globais, garantindo que conclusões não dependam apenas da segmentação.
+A respeito da replicabilidade, todas as etapas do fluxo — desde a importação e limpeza dos dados até a estimação do DEA, Malmquist e regressões de segunda etapa — serão documentadas em scripts reprodutíveis em linguagem Python. Principais bibliotecas:
+	•	pyDEA para estimação de DEA;
+	•	Indice Malmquist será calculado via rotinas próprias em Python (via programação linear com cvxpy/scipy.optimize e funções-distância de Färe et al., 1994);
+	•	scikit-learn para implementação do K-means, métricas de validação (silhouette, inertia) e testes de estabilidade;
+	•	bootstrapped, statsmodels e funções customizadas em numpy/scipy para a segunda etapa de regressão truncada com bootstrap Simar–Wilson;
+	•	pandas, numpy e polars para limpeza, transformação e manipulação das bases (SUFRAMA, RFB, RAIS);
+	•	matplotlib e seaborn para visualização dos clusters, fronteiras de eficiência e trajetórias de produtividade.
+
+Por fim, transparência. Os códigos serão organizados em scripts numerados e notebooks interativos, com registros de cada etapa de limpeza, merge e transformação de dados. A tabela de correspondência CNAE–subsetor será incluída como anexo metodológico, assegurando rastreabilidade total e atendendo ao princípio de ciência aberta.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+REFERÊNCIAS
+
+ALMEIDA, A. T. C.; GASPARINI, C. E. Gastos Públicos Municipais e Educação Fundamental na Paraíba: Uma Avaliação usando DEA. Documentos técnico-científicos. João Pessoa: UFPB, 2011.
+
+BANCO MUNDIAL. Equilíbrio delicado para a Amazônia Legal Brasileira: um memorando econômico. Washington, DC: Banco Mundial, 2023. DOI: 10.1596/978‑1‑4648‑1913‑1.
+
+CHARNES, A.; COOPER, W. W.; RHODES, E. Measuring the efficiency of decision making units. European Journal of Operational Research, [S. l.], v. 2, n. 6, p. 429–444, 1978. DOI: 10.1016/0377-2217(78)90138-8.
+
+CLIMATE POLICY INITIATIVE – CPI/PUC-RIO. A Zona Franca de Manaus tem impacto na eficiência da indústria? Rio de Janeiro: CPI, 2023.
+
+HOLLAND, M.; MANSANO, A.; CAMPOS, F. Avaliação dos impactos socioeconômicos da Zona Franca de Manaus. Rio de Janeiro: FGV/EESP, 2019.
+
+JAIN, A. K. Data clustering: 50 years beyond K-means. Pattern Recognition Letters, v.31, n.8, p.651-666, 2010.
+
+ASSUNÇÃO, Juliano; HOLZ, Rhayana; SCHUTZE, Amanda. A Zona Franca de Manaus tem impacto na eficiência da indústria? Rio de Janeiro: Climate Policy Initiative, 2020.
+
+FÄRE, R.; GROSSKOPF, S.; NORRIS, M.; ZHANG, Z. Productivity growth, technical progress, and efficiency change in industrialized countries. American Economic Review, v. 84, n. 1, p. 66‑83, 1994.
+
+SIMAR, L.; WILSON, P. W. Estimation and inference in two‑stage, semi‑parametric models of production processes. Journal of Econometrics, v. 136, n. 1, p. 31‑64, 2007.
+
+SAMOILENKO, S.; OSEI‑BRYCE, K.‑M. Combining cluster analysis and data envelopment analysis to assess performance heterogeneity: evidence from emerging economies. Journal of High Technology Management Research, v. 24, n. 2, p. 112‑125, 2013.
+
+BOLOGNESE, C. J. S. Zona Franca de Manaus em uma análise de clusters segundo suas divisões em subsetores. Monografia (Bacharelado em Ciências Econômicas) – Universidade Federal do Amazonas, Manaus, 2024.
+
+ACEMOGLU, D.; RESTREPO, P. Robots and Jobs: Evidence from US Labor Markets. Journal of Political Economy, v. 127, n. 6, p. 2188‑2244, 2019.
+
+DORN, D.; HANSON, G. On the Persistence of the China Shock. Brookings Papers on Economic Activity, 2020.
+
+SUFRAMA. Relatório Anual de Atividades (2018‑2023). Manaus: Superintendência da Zona Franca de Manaus, vários anos.
+
+RECEITA FEDERAL. Demonstrativo de Gastos Tributários (2018‑2023). Brasília: Ministério da Fazenda, Secretaria Especial da Receita Federal do Brasil, vários anos.
+
+TCU – TRIBUNAL DE CONTAS DA UNIÃO. Relatório de Fiscalização: Avaliação de políticas de incentivos na Zona Franca de Manaus. Brasília: TCU, 2022.
+
+BRASIL. Ministério do Trabalho e Emprego. Relação Anual de Informações Sociais – RAIS: microdados 2018‑2023. Brasília, 2024. Base de dados.
+
+ARTHUR, D.; VASSILVITSKII, S. k-means++: The Advantages of Careful Seeding. In: SODA 2007 – Proceedings of the Eighteenth Annual ACM-SIAM Symposium on Discrete Algorithms. Philadelphia: SIAM, 2007. p. 1027-1035.
+
+ROUSSEEUW, P. J. Silhouettes: a graphical aid to the interpretation and validation of cluster analysis. Journal of Computational and Applied Mathematics, v. 20, p. 53-65, 1987.
+
+TIBSHIRANI, R.; WALTHER, G.; HASTIE, T. Estimating the number of clusters in a data set via the gap statistic. Journal of the Royal Statistical Society: Series B, v. 63, n. 2, p. 411-423, 2001.
+
+MILLIGAN, G. W.; COOPER, M. C. An examination of procedures for determining the number of clusters in a data set. Psychometrika, v. 50, n. 2, p. 159-179, 1985.
+
+HUANG, Z. Extensions to the k-means algorithm for clustering large data sets with categorical values. Data Mining and Knowledge Discovery, v. 2, n. 3, p. 283-304, 1998.
+
+KAUFMAN, L.; ROUSSEEUW, P. J. Finding Groups in Data: An Introduction to Cluster Analysis. New York: Wiley, 1990.
+
+KETCHEN, D. J.; SHOOK, C. L. The application of cluster analysis in strategic management research: an analysis and critique. Strategic Management Journal, v. 17, n. 6, p. 441-458, 1996.
+
+FARRELL, M. J. The measurement of productive efficiency. Journal of the Royal Statistical Society: Series A, v. 120, n. 3, p. 253-290, 1957.
+
+BANKER, R. D.; CHARNES, A.; COOPER, W. W. Some models for estimating technical and scale inefficiencies in data envelopment analysis. Management Science, v. 30, n. 9, p. 1078-1092, 1984.
+
+BATTESE, G. E.; RAO, D. S. P.; O’DONNELL, C. J. A metafrontier production function for estimation of technical efficiencies and technology gaps for firms operating under different technologies. Journal of Productivity Analysis, v. 21, n. 1, p. 91-103, 2004. 
+
+KRUGMAN, P. Geography and Trade. Cambridge, MA: MIT Press, 1991. 
+HIRSCHMAN, A. O. The Strategy of Economic Development. New Haven: Yale University Press, 1958.
+
+GLAESER, E. L.; GOTTLIEB, J. D. The Economics of Place-Making Policies. Brookings Papers on Economic Activity, v. 2008, n. 1, p. 155-253, 2008.
+
+KLINE, P.; MORETTI, E. Local Economic Development, Agglomeration Economies, and the Big Push: 100 Years of Evidence from the Tennessee Valley Authority. Quarterly Journal of Economics, v. 129, n. 1, p. 275-331, 2014.
+
+NEUMARK, D.; SIMPSON, H. Place-Based Policies. In: DURANTON, G.; HENDERSON, V.; STRANGE, W. (org.). Handbook of Regional and Urban Economics, v. 5A. Amsterdam: Elsevier, 2015. p. 1197-1287.
+
+BARTIK, T. J. Who Benefits from State and Local Economic Development Policies? Kalamazoo, MI: W. E. Upjohn Institute for Employment Research, 1991.
+
+HAIR Jr., J. F.; BLACK, W. C.; BABIN, B. J.; ANDERSON, R. E. Multivariate Data Analysis. 8. ed. Andover: Cengage, 2019.
+
+FERNANDES, A. F.; MINORI, A.; MORAIS, R. N. S. Análise Envoltória de Dados: uma aplicação no Polo Industrial de Manaus (PIM). In: Administração, Empreendedorismo e Inovação 6. 2019. p. 166-178.
+
+CAVALCANTE, M. C. V. Pesquisa e desenvolvimento como ferramenta das políticas públicas na ZFM: um estudo de eficiência da Lei de Informática por DEA. Dissertação (Mestrado em Engenharia de Produção) — Universidade Federal do Amazonas, Manaus, 2017.
+
+GOUVÊA, A. P. E. S. Análise da eficiência e alocação dos fatores de produção na Zona Franca de Manaus. Trabalho de Conclusão de Curso (Bacharelado em Ciências Econômicas) — Universidade Federal do Amazonas, Manaus, 2024. Disponível em: RIU/UFAM.
+
+MORAIS, R. N. S. Análise da eficiência dos setores industriais do Polo Industrial de Manaus. Dissertação (Mestrado em Economia) — Universidade Católica de Brasília, Brasília, 2016.
+
+FÁVERO, L. P.; BELFIORE, P. Manual de análise de dados: estatística e machine learning com Excel®, SPSS®, Stata®, R® e Python®. 2. ed. Rio de Janeiro: GEN | LTC, 2024.
+
+CAVES, D. W.; CHRISTENSEN, L. R.; DIEWERT, W. E. The economic theory of index numbers and the measurement of input, output, and productivity. Econometrica, v. 50, n. 6, p. 1393–1414, 1982. DOI: 10.2307/1913388.
+
+O’DONNELL, C. J.; RAO, D. S. P.; BATTESE, G. E. Metafrontier frameworks for the study of firm-level efficiencies and technology ratios. Empirical Economics, v. 34, n. 2, p. 231–255, 2008. DOI: 10.1007/s00181-007-0119-4.
+
+LEMOS, M. M.; LINS, R. D.; EBECKEN, N. F. F. A compendium of clustering algorithms for data mining. WIT Transactions on Information and Communication Technologies, v. 35, p. 321–329, 2005. (Em: Data Mining VI). Southampton: WIT Press.
+
+CASTILHO, M.; MENÉNDEZ, M.; SZTULMAN, A. Poverty changes in Manaus: Legacy of a Brazilian free trade zone? Review of Development Economics, v. 23, n. 1, p. 102–130, 2019. DOI: 10.1111/rode.12560.
+
+QUEIROZ FILHO, A. S. M. de. Avaliação de impacto da Lei de Informática: 2006–2017. Texto para Discussão. Brasília: Ipea, 2022.
+
