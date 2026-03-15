@@ -104,6 +104,10 @@ Quando acionada, executar em sequencia:
 6. Proximo passo acionavel
 - entregar a menor lista de passos com maior impacto.
 
+7. Memoria de pendencias do orientador
+- identificar pontos estrategicos deixados para decisao final (ex.: titulo, subtitulo, enfase de contribuicao, robustez extra).
+- manter esses pontos em backlog rastreavel ate fechamento.
+
 ## 6) Politica de escrita
 
 - Estilo objetivo, tecnico e sem floreio.
@@ -319,6 +323,11 @@ Ao final de cada rodada, registrar em texto:
 - pendencias abertas.
 
 Objetivo: manter historico auditavel para orientador e banca.
+
+Obrigatorio incluir no log:
+- pendencias do orientador em aberto;
+- decisoes adiadas para fechamento;
+- data-gatilho para revisitar cada pendencia.
 
 ## 18) Comando de ativacao
 

@@ -2009,6 +2009,37 @@ Antes da versao final, executar varredura textual para garantir:
 
 ---
 
+## 28. BACKLOG DO ORIENTADOR (PENDENCIAS PARA DECISAO NO MOMENTO CERTO)
+
+Objetivo: garantir que pontos estrategicos levantados pelo orientador nao se percam e sejam decididos no timing correto da reta final.
+
+### 28.1 Quadro de pendencias rastreaveis
+
+| ID | Tema | Decisao esperada | Quando decidir | Gatilho de execucao | Responsavel | Status |
+|---|---|---|---|---|---|---|
+| O1 | Titulo final do TCC | Confirmar formulacao final do titulo (e eventual subtitulo) alinhada aos achados finais | Fase de fechamento editorial | Cap. 5-7 consolidados e revisados | Autor + Orientador | ⬜ |
+| O2 | Escopo do subtitulo | Definir se o subtitulo enfatiza metodo, periodo ou implicacao de policy | Junto com O1 | Sintese final validada no Cap. 7 | Autor + Orientador | ⬜ |
+| O3 | Robustez adicional | Confirmar se a banca exigira robustez extra (ex.: super-efficiency/CRS puro) alem do pacote atual | Pre-banca | Reuniao final de alinhamento tecnico | Orientador | ⬜ |
+| O4 | Enquadramento de contribuicao | Ajustar peso relativo entre contribuicao metodologica e implicacao de politica publica | Fechamento de discussao/conclusao | Revisao final dos Cap. 6 e 7 | Autor + Orientador | ⬜ |
+| O5 | Estrategia de defesa narrativa | Definir ordem de enfase na apresentacao (heterogeneidade, eficiencia, policy, limites) | Semana da banca | Versao final da monografia pronta | Autor + Orientador | ⬜ |
+| O6 | Checklist ABNT/UFPB final | Validar pendencias formais finais (estrutura, citacao, referencias, deposito) | Ultima semana | Auditoria ABNT completa concluida | Autor | ⬜ |
+
+### 28.2 Regra de nao-perda
+
+1. Nenhum item O1-O6 pode ser removido sem registro de decisao.
+2. Toda decisao tomada deve atualizar: status, data, responsavel e justificativa curta.
+3. Se a decisao for adiada, registrar novo gatilho e risco associado.
+
+### 28.3 Mini log de decisoes do orientador
+
+Preencher ao longo da reta final:
+
+| Data | Item | Decisao | Justificativa | Responsavel |
+|---|---|---|---|---|
+| _(preencher)_ |  |  |  |  |
+
+---
+
 *Documento atualizado em: 14/03/2026 (Modelo Final — rastreabilidade integral da escrita e protocolo anti-lacuna)*
 *Pipeline: 01→02→03→04→06→07→08→09→10→11. Painel: 137 obs, 23 sub. Outputs: 17 figuras, 14 tabelas analiticas + 8 artefatos ambientais consolidados (base principal + anexo + cruzamentos + textos finais + trilha de auditoria).*
 *Especificação final: RAIS removida. SUFRAMA emprego. Salários Tab 24. K-means 3 vars-razão. SW 3 regressores + cluster + trend. DEA VRS+CRS. Malmquist CRS + decomposição EC/TC/PEC/SC. Couros 2018 = zero estrutural.*
